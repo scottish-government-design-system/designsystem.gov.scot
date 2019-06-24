@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    #SUB BANNER
+\*------------------------------------*/
+
+
+
+
+.sub-banner {
+    background-color: $color__blue--dark;
+}
+
+.sub-banner__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+
+.sub-banner__link {
+    color: #fff;
+    display: inline-block;
+    height: 49px;
+    line-height: 49px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.sub-banner__link:hover,
+.sub-banner__link:focus {
+    background-color: #002d54;
+    color: #fff;
+}
+
+.sub-banner__link:active {
+    background-color: #000;
+    color: #d9effc;
+    outline-width: 0;
+}
+
+.sub-banner__link--right {
+    margin-right: 0;
+}
+
+.link--progress {
+    background-image: url(/assets/images/icons/arrows/int_arrow_right_56px_@2x.png);
+    background-size: 56px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 49px;
+}

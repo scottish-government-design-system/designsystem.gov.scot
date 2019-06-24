@@ -1,0 +1,54 @@
+/*------------------------------------*\
+    #USERS
+    homepage
+\*------------------------------------*/
+
+
+
+
+.users {
+    display: grid;
+    grid-gap: 0 30px;
+}
+
+.user {
+    align-content: stretch;
+    background-color: #f8f8f8; /*color__grey--lighter*/
+    color: #333; /*color__body*/
+    display: flex;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.user:hover {
+    background-color: #e5f0f8;
+}
+
+.user__image {
+    background-color: white;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+.user__description {
+    display: inline-block;
+    flex-grow: 999;
+    font-size: 22px;
+    font-weight: 300;
+    min-height: 70px;
+    padding: 21px 15px;
+}
+
+@media (min-width: 768px) {
+    .users {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 992px) {
+    .users {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="article {{ page.type }} layout--default">
+
+{% include banner.html %}
+
+<div id="body-wrapper" class="body-wrapper">
+
+{% include header.html %}
+
+<header>
+    <div class="wrapper">
+        <div class="grid"><!--
+            --><div class="grid__item  medium--ten-twelfths">
+                <div class="article-header">
+                    {% if page.imperative %}
+                        <p class="article-header__prefix">{{ page.imperative }}</p>
+                    {% endif %}
+                    <h1 class="article-header__title">{{ page.title }}</h1>
+                </div>
+            </div><!--
+        --></div>
+    </div>
+    <!-- /end .wrapper -->
+</header>
+
+<div class="wrapper">
+    <div class="grid"><!--
+
+        {% if page.headings %}
+        --><div class="grid__item  medium--three-twelfths">
+            <div class="page-group page-group--section-nav">
+                <ul class="page-group__list">
+                    {% for heading in page.headings %}
+                        <li class="page-group__item">
+                            <a class="page-group__link  page-group__link--condensed" href="#{{heading | replace:'.', '' | slugify}}">{{ heading }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div><!--
+        {% endif %}
+
+        --><div class="grid__item  medium--eight-twelfths">
+            <div class="main-content">
+                {% if page.summary %}
+                <p class="leader">
+                    {{ page.summary }}
+                </p>
+                {% endif %}
+
+                {{ content }}
+
+                <div class="grid  page-nav"><!--
+                 --><div class="grid__item  push--medium--six-twelfths  medium--six-twelfths  page-nav__item">
+                    {% if page.next %}
+                        <a title="Next page" href="{{page.next.url}}" class="page-nav__button  page-nav__button--right  js-next"><span data-label="next" class="page-nav__text">{{page.next.title}}</span></a>
+                    {% endif %}
+                    </div><!--
+                 --><div class="grid__item  medium--six-twelfths  pull--medium--six-twelfths  page-nav__item">
+                    {% if page.prev %}
+                        <a title="Previous page" href="{{page.prev.url}}" class="page-nav__button  page-nav__button--left  js-previous"><span data-label="prev" class="page-nav__text">{{page.prev.title}}</span></a>
+                    {% endif %}
+                    </div><!--
+             --></div>
+
+                {% if page.feedbackemail %}
+                <div class="feedback">
+                  <h2>Help improve this page</h2>
+                  <p>
+                    Please share your ideas, suggestions, or comments via e-mail to <a href="mailto:{{ page.feedbackemail }}?subject='Feedback on {{ page.title }}'">{{ page.feedbackemail }}</a>
+                  </p>
+                </div>
+                {% endif %}
+            </div>
+        </div><!--
+    --></div>
+</div>
+<!-- /end .wrapper -->
+
+{% include footer.html %}
+
+</body>
+
+</html>

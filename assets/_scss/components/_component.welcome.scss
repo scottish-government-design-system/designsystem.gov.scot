@@ -1,0 +1,41 @@
+/*------------------------------------*\
+    #WELCOME
+    homepage
+\*------------------------------------*/
+
+
+
+
+.welcome {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+        "heading heading video"
+        "intro button video";
+}
+
+.welcome__heading {
+    grid-area: heading;
+}
+
+.welcome__intro {
+    grid-area: intro;
+}
+
+.welcome__button {
+    align-self: end;
+    grid-area: button;
+}
+
+.welcome__video {
+    grid-area: video;
+    background-color: #ddd;
+}
+
+@supports(display: grid) {
+    .welcome__button .button {
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: auto;
+    }
+}

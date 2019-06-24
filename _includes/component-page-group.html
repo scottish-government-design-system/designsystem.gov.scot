@@ -1,0 +1,28 @@
+
+<nav class="page-group">
+    <button type="button" class="page-group__toggle visible-xsmall js-show-page-group-list">Contents</button>
+
+    {% unless navitems %}
+        {% assign navitems = page.navitems %}
+    {% endunless %}
+
+    {% assign indexed = site.pages | where:"category", navitems | sort: 'title', 'first' %}
+
+    <ul class="page-group__list no-margin js-contents">
+        {% for item in indexed %}
+
+        <li class="page-group__item">
+            {% if item.title == page.title %}
+            <span class="page-group__text page-group__text--no-link">
+                {{ item.title }}
+            </span>
+            {% else %}
+            <a class="page-group__text page-group__text--link" href="{{ item.url }}">
+                {{ item.title }}
+            </a>
+            {% endif %}
+        </li>
+
+        {% endfor %}
+    </ul>
+</nav>

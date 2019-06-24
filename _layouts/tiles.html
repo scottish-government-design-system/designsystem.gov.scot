@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<!-- finding the depth of this category page and using that to determine which tile layout to use -->
+
+{% assign depth = 0 %}
+{% assign homefound = false %}
+
+{% assign parent = site.pages | where:"thispage", page.parent %}
+
+{% for item in parent %}
+{% endfor %}
+{% if parent[0].thispage == 'home' %}
+    {% assign homefound = true %}
+{% endif %}
+
+{% unless homefound %}
+    {% assign parent = site.pages | where:"thispage", parent[0].parent %}
+    {% if parent[0].thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+    {% assign depth = depth | minus:1 %}
+{% endunless %}
+
+{% unless homefound %}
+    {% assign parent = site.pages | where:"thispage", parent[0].parent %}
+    {% if parent[0].thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+    {% assign depth = depth | minus:1 %}
+{% endunless %}
+
+{% unless homefound %}
+    {% assign parent = site.pages | where:"thispage", parent[0].parent %}
+    {% if parent[0].thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+    {% assign depth = depth | minus:1 %}
+{% endunless %}
+
+{% assign depth = depth | times:-1 %}
+
+{% include head.html %}
+
+<body class="home layout--tiles-3">
+
+<div class="header-wrapper header-wrapper--border  hero-header  {% if page.header-style %}hero-header--{{page.header-style}}{% endif %}">
+    {% include banner.html %}
+    {% include header.html %}
+
+    <div class="wrapper">
+        <div class="hero-header__content">
+            <div class="hero-header__title {% if page.header-style %}hero-header--{{page.header-style}}__title{% endif %}">
+                <h1>{{ page.title }}</h1>
+                <p class="hero-header__tagline {% if page.header-style %}hero-header--{{page.header-style}}__tagline{% endif %}">{{ page.subtitle }}</p>
+                {% if page.markdownsummary %}
+                    {{ page.markdownsummary | markdownify }}
+                {% else %}
+                    <p>{{ page.summary }}</p>
+                {% endif %}
+            </div>
+
+            {% if page.hero %}
+                <img class="hero-header__image"
+                    src="/assets/images/hero/{{ page.hero }}"
+                    srcset="/assets/images/hero/{{ page.hero }} 1x, /assets/images/hero/{{ page.hero | replace: ".png", "-x2.png"}} 2x"/>
+            {% endif %}
+        </div>
+
+        {% if page.underreview %}
+            {% include under-review.html %}
+        {% endif %}
+
+        {% if content %}
+            <div class="grid"><!--
+                --><div class="grid__item  medium--eight-twelfths">
+                    {{ content }}
+                </div><!--
+            --></div>
+        {% endif %}
+    </div>
+</div>
+
+<div id="body-wrapper" class="body-wrapper">
+    <div class="wrapper">
+
+        <div class="category-list-container">
+
+            <div class="main  category-list
+                {% if depth == 1 %}
+                    category-list--3col  category-list--cards
+                {% else if depth == 2 %}
+                    category-list--3col
+                {% else if depth == 3 %}
+                    category-list--1col
+                {% endif %}
+            ">
+
+                {% assign indexed = site.pages | where:"category", page.navitems | sort: "index", "first" %}
+                {% for item in indexed %}
+
+                    {% if depth == 0 %}
+
+                        <article class="card card--small card--hover">
+                            <a href="{{ item.url }}" class="category-item__link card__content" data-gtm="item-0">
+                                <h2 class="category-item__title">{{item.title}}</h2>
+
+                                <p class="category-item__summary">
+                                    {{ item.summary }}
+                                </p>
+                            </a>
+                        </article>
+
+                    {% else %}
+
+                        <a href="{{ item.url }}" class="category-item__link" data-gtm="item-0">
+                            <article class="category-item">
+                                <h2 class="category-item__title">{{item.title}}</h2>
+
+                                <p class="category-item__summary">
+                                    {{ item.summary }}
+                                </p>
+                            </article>
+                        </a>
+
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+{% include footer.html %}
+
+</body>
+
+</html>

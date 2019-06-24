@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    #SHOWCASE
+    homepage
+\*------------------------------------*/
+
+
+
+
+.showcase__item {
+    font-size: calc(1400% / 19);
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+
+.showcase__iframe {
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .showcase {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-gap: 0 30px;
+    }
+}

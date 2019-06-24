@@ -1,0 +1,122 @@
+{% for item in site.pages %}
+    {% if item.thispage == page.parent %}
+        {% assign level2 = item %}
+    {% endif %}
+{% endfor %}
+
+{% if level2.thispage == 'home' %}
+    {% assign homefound = true %}
+{% endif %}
+
+{% if level2 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level2.parent %}
+            {% assign level3 = item %}
+        {% endif %}
+    {% endfor %}
+
+    {% if level3.thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+{% endif %}
+
+{% if level3 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level3.parent %}
+            {% assign level4 = item %}
+        {% endif %}
+    {% endfor %}
+
+    {% if level4.thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+{% endif %}
+
+{% if level4 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level4.parent %}
+            {% assign level5 = item %}
+        {% endif %}
+    {% endfor %}
+
+    {% if level5.thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+{% endif %}
+
+{% if level5 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level5.parent %}
+            {% assign level6 = item %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+
+
+<nav aria-role="breadcrumb">
+    <ol role="navigation" class="breadcrumbs">
+        {% if level6 %}
+        <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level6.url | replace:'index.html',''}}">
+                {% if level6.thispage == 'home' %}
+                    Home
+                {% else %}
+                    {{level6.title}}
+                {% endif %}
+            </a>
+        </li>
+        {% endif %}
+        {% if level5 %}
+        <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level5.url | replace:'index.html',''}}">
+                {% if level5.thispage == 'home' %}
+                    Home
+                {% else %}
+                    {{level5.title}}
+                {% endif %}
+            </a>
+        </li>
+        {% endif %}
+        {% if level4 %}
+        <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level4.url | replace:'index.html',''}}">
+                {% if level4.thispage == 'home' %}
+                    Home
+                {% else %}
+                    {{level4.title}}
+                {% endif %}
+            </a>
+        </li>
+        {% endif %}
+        {% if level3 %}
+        <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level3.url | replace:'index.html',''}}">
+                {% if level3.thispage == 'home' %}
+                    Home
+                {% else %}
+                    {{level3.title}}
+                {% endif %}
+            </a>
+        </li>
+        {% endif %}
+        {% if level2 %}
+        <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{ level2.url | replace:'index.html',''}}">
+                {% if level2.thispage == 'home' %}
+                    Home
+                {% else %}
+                    {{level2.title}}
+                {% endif %}
+            </a>
+        </li>
+        {% endif %}
+
+        <li aria-current="page" class="breadcrumbs__item">
+            {{page.title}}
+        </li>
+
+
+    </ol>
+</nav>

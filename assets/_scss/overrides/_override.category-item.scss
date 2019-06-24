@@ -1,0 +1,130 @@
+/*------------------------------------*\
+    #OVERRIDE FOR CATEGORY ITEM
+\*------------------------------------*/
+
+
+
+
+.category-list {
+    margin-top: 21px;
+}
+
+.category-list--cards {
+    margin-top: 7px;
+}
+
+// ie11- do not support @supports :rolleyes: so we'll need to override all of these in the @supports (display:grid) section
+// @supports not (display: grid) {
+    .category-list--1col > * {
+        margin-bottom: 30px;
+    }
+
+    .category-list--3col {
+        overflow: hidden;
+    }
+
+    .category-list--cards.category-list--3col > * {
+        margin: 0 5px 10px;
+    }
+
+    .category-list--3col > * {
+        margin-bottom: 30px;
+    }
+
+    @media (min-width: 768px) {
+        .category-list--3col {
+            padding: 5px;
+        }
+
+        .category-list--3col > * {
+            float: left;
+            width: calc(50% - 10px);
+
+            &:nth-child(2n+1) {
+                clear: left;
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .category-list--3col > * {
+            width: calc(33% - 10px);
+
+            &:nth-child(2n+1) {
+                clear: none;
+            }
+
+            &:nth-child(3n+1) {
+                clear: left;
+            }
+        }
+    }
+// }
+
+@supports (display: grid) {
+
+
+    // resetting rules defined above
+    .category-list--1col > * {
+        margin-bottom: 0;
+    }
+
+    .category-list--cards.category-list--3col > * {
+        margin: 0;
+    }
+
+    @media (min-width: 768px) {
+        .category-list--3col {
+            padding: 0;
+        }
+
+        .category-list--3col > * {
+            float: none;
+            width: 100%;
+
+            &:nth-child(2n+1) {
+                clear: none;
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .category-list--3col > * {
+            width: 100%;
+
+            &:nth-child(3n+1) {
+                clear: none;
+            }
+        }
+    }
+    // end resets
+
+    // start grid rules
+    .category-list--1col {
+        display: grid;
+        grid-gap: 0 30px;
+    }
+
+    .category-list--3col {
+        align-items: start;
+        display: grid;
+        grid-gap: 0 30px;
+        overflow: visible;
+        padding-top: 0;
+    }
+
+    .category-list--cards.category-list--3col {
+        grid-gap: 10px;
+    }
+
+    .category-list--3col > * {
+        width: auto;
+    }
+
+    @media (min-width: 768px) {
+        .category-list--3col {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    // end grid rules
+}

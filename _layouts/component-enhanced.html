@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="article {{ page.type }} layout--default">
+
+{% include banner.html %}
+
+<div id="body-wrapper" class="body-wrapper">
+
+{% include header.html %}
+
+<style>
+    #main-content {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: max-content;
+        grid-template-areas:
+            "heading"
+            "sidebar"
+            "content";
+        grid-gap: 0 30px;
+    }
+
+    .heading {
+        grid-area: heading;
+    }
+
+    .content {
+        grid-area: content;
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+    }
+
+    pre {
+        white-space: pre-wrap;
+    }
+
+    @media (min-width: 768px) {
+        #main-content {
+            grid-template-columns: minmax(0, 3fr) minmax(0, 9fr);
+            grid-template-areas:
+              "blank heading"
+              "sidebar content";
+        }
+    }
+
+    @media (min-width: 992px) {
+        #main-content {
+            grid-template-columns: minmax(0, 3fr) minmax(0, 7fr) minmax(0, 2fr);
+        }
+
+        .overflow--2 {
+            margin-right: -178px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .overflow--2 {
+            margin-right: -211px;
+        }
+    }
+</style>
+
+<div class="wrapper">
+
+    <main id="main-content">
+
+        <header class="heading">
+            <div class="article-header">
+                {% if page.imperative %}
+                    <p class="article-header__prefix">{{ page.imperative }}</p>
+                {% endif %}
+                <h1 class="article-header__title">{{ page.title }}</h1>
+            </div>
+        </header>
+
+        <div class="content">
+
+            {% if page.summary %}
+                <p class="leader">
+                    {{ page.summary }}
+                </p>
+            {% endif %}
+
+            {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
+            {% assign tabsCount = 0 %}
+            {% for item in indexed %}
+                {% if item.type == 'example' %}
+                    {% assign tabsCount = tabsCount | plus:1 %}
+                {% endif %}
+                {% if item.type == 'developers' %}
+                    {% assign tabsCount = tabsCount | plus:1 %}
+                {% endif %}
+            {% endfor %}
+
+            {% for item in indexed %}
+                {% if item.type == 'example' %}
+                    <div class="example  overflow--2">
+                        <div class="example__demo">
+                            <a class="example__link" href="example.html" target="_blank">Open this example in a new window</a>
+
+                            <script>
+function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+}
+                            </script>
+
+                            <iframe data-style="{{style}}" src="example.html" class="example__iframe" onload="resizeIframe(this)"></iframe>
+                        </div>
+
+
+                        <div class="example-tabs  example-tabs--{{tabsCount}}">
+                            <h2 class="example-tabs__tab">Sample HTML</h2>
+                            <div class="example-tabs__content">
+                                <div>
+                                    <link rel="stylesheet" href="/assets/css/highlight.css">
+                                    <script src="/assets/scripts/highlight.pack.js"></script>
+                                    <script>hljs.initHighlightingOnLoad();</script>
+                                    <pre class="example__pre"><code class="example__code html">{{item.content | xml_escape}}</code></pre>
+                                </div>
+                            </div>
+
+                            {% for item in indexed %}
+                                {% if item.type == 'developers' %}
+                                    <h2 class="example-tabs__tab">Implementation notes</h2>
+                                    <div class="example-tabs__content  example-tabs__content--text">
+                                        {{item.content}}
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+
+                        <script>
+document.body.classList.add('js-enabled');
+const exampleTabsets = document.querySelectorAll('.example-tabs')
+const matches = function(el, selector) {
+    return (el.matches || el.matchesSelector || el.msMatchesSelector || el.mozMatchesSelector || el.webkitMatchesSelector || el.oMatchesSelector).call(el, selector);
+};
+
+const activateTab = function (element, tabset) {
+    const currentTab = tabset.querySelector('.example-tabs__tab--current');
+    if (currentTab) {
+        currentTab.classList.remove('example-tabs__tab--current');
+    }
+    if (element !== currentTab) {
+        element.classList.add('example-tabs__tab--current');
+    }
+}
+
+exampleTabsets.forEach(function (exampleTabset) {
+    exampleTabset.addEventListener('click', function (event){
+        if (matches(event.target, '.example-tabs__tab')) {
+            activateTab(event.target, exampleTabset);
+        }
+    });
+});
+
+                        </script>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+            {% if page.examples %}
+                <style>
+                .live-examples {
+                    font-size: 0.8em;
+                    border-left: 4px solid #0065bd;
+                    margin: 35px 0;
+                    padding: 3px 35px 4px 10px;
+                }
+
+                .live-examples__item {
+                    margin-bottom: 0;
+                }
+                </style>
+                <aside class="live-examples">
+                    {% assign examplessize = page.examples | size %}
+
+                    <h3>Live example{% unless examplessize == 1%}s{% endunless %}</h3>
+                    {% for item in page.examples %}
+                        <p class="live-examples__item">
+                            {{item.site}}: <a href="{{item.url}}">{{item.name}}</a>
+                        </p>
+                    {% endfor %}
+                </aside>
+            {% endif %}
+
+            {{content}}
+        </div>
+
+        <div class="sidebar">
+            {% assign navitems = page.category %}
+            {% include component-page-group.html %}
+        </div>
+    </main>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

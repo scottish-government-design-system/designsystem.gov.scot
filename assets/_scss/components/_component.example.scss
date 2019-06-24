@@ -1,0 +1,194 @@
+/*------------------------------------*\
+    #EXAMPLE
+\*------------------------------------*/
+
+
+
+
+$example__border-color: $color__grey--pale !default;
+$example__highlight-color: $color__blue--lighter !default;
+
+.example {
+    margin-bottom: 28px;
+}
+
+.example__demo {
+    border: 1px solid $example__border-color;
+}
+
+.example__iframe {
+    border: 0;
+    display: block;
+    height: 350px;
+    max-height: 30vh;
+    width: calc(100% - 1px);
+}
+
+.example__pre {
+    background-color: $example__highlight-color;
+    margin-bottom: 0;
+}
+
+.example__code {
+    background-color: $color__grey--lighter;
+    border: 0;
+    font-size: 0.85em;
+    line-height: 1.25;
+    overflow: scroll;
+    white-space: pre;
+    width: 100%;
+}
+
+.example__link {
+    background-color: $example__highlight-color;
+    color: $color__link--hover;
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 3px 15px 4px;
+    position: absolute;
+}
+
+.linklike {
+    color: $color__link--primary;
+    cursor: pointer;
+    transition: color 1s, background-color 1s;
+
+    &:hover {
+        color: $color__link--hover;
+        text-decoration: underline;
+        transition-duration: 0.2s;
+    }
+
+    &:active {
+        transition-duration: 0;
+    }
+}
+
+@supports (display: grid) {
+    .js-enabled {
+        .example-tabs {
+            display: grid;
+            grid-template-areas:
+                "tab1"
+                "content";
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            margin-top: -1px;
+
+            &--2 {
+                grid-template-areas:
+                    "tab1 tab2"
+                    "content content";
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            &--3 {
+                grid-template-areas:
+                    "tab1 tab2 tab3"
+                    "content content content";
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+
+            &__tab {
+                border: 1px solid $example__border-color;
+                color: $color__link--primary;
+                cursor: pointer;
+                font-size: 16px;
+                line-height: 28px;
+                margin: 0;
+                padding: 7px 15px;
+                transition: color 0.2s, background-color 0.2s;
+
+                /*TEMP*/
+                background-image: url(../images/icons/arrows/int_arrow_down_blue_35px_@2x.png);
+                background-repeat: no-repeat;
+                background-position: calc(100% - 10px) center;
+                background-size: 35px;
+
+                &:hover {
+                    background-color: $color__grey--lighter;
+                    color: $color__link--hover;
+
+                    /*TEMP*/
+                    background-image: url(../images/icons/arrows/int_arrow_down_blue_over_35px_@2x.png);
+                }
+
+                &:active {
+                    background-color: $color__blue--light;
+                    transition-duration: 0;
+                }
+            }
+
+            &__tab:not(:nth-of-type(1)) {
+                border-left-width: 0;
+            }
+
+            &__tab--current {
+                background-color: $example__highlight-color;
+                border-bottom-width: 0;
+                color: $color__body;
+                position: relative;
+
+                /*TEMP*/
+                background-image: url(../images/icons/arrows/int_arrow_up_blue_over_35px_@2x.png) !important;
+
+                &:hover:not(:active) {
+                    background-color: $example__highlight-color;
+                }
+            }
+
+            .example__code.hljs {
+                background-color: $example__highlight-color;
+                padding: 14px 15px;
+            }
+
+            &__tab:nth-of-type(1) {
+                grid-area: tab1;
+            }
+
+            &__tab:nth-of-type(2) {
+                grid-area: tab2;
+            }
+
+            &__tab:nth-of-type(3) {
+                grid-area: tab3;
+            }
+
+
+            &__content {
+                border: 1px solid $example__border-color;
+                // border-top: 0;
+                display: none;
+                grid-area: content;
+                margin-top: -1px;
+
+                &--text {
+                    background-color: $example__highlight-color;
+                    padding: 14px 15px;
+                }
+            }
+
+            &__tab--current + .example-tabs__content {
+                display: block;
+            }
+        }
+
+
+        .example-tabs__content {
+            .highlighter-rouge {
+                background-color: $color__white;
+                outline-color: $color__white;
+            }
+        }
+    }
+}
+
+.highlighter-rouge {
+    background-color: $example__highlight-color;
+    font-size: 0.8em;
+    margin: 0 0.125em;
+    outline: 3px solid $example__highlight-color;
+}
+
+.hljs {
+    background-color: transparent !important;
+}

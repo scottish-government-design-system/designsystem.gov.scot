@@ -1,0 +1,14 @@
+{
+  "name": "digital-publishing-pattern-library",
+  "description": "Pattern library site for Digital Publishing",
+  "version": "0.0.0",
+  "author": {
+    "name": "mygov.scot Digital Engineering team",
+    "email": "mygov-tech-team@gov.scot",
+    "url": "http://www.mygov.scot/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@scottish-government/mygov-assets": "1.0.122"
+  }
+}

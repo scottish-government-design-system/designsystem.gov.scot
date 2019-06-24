@@ -1,0 +1,238 @@
+/*------------------------------------*\
+    #CATEGORY HEADER
+\*------------------------------------*/
+
+$category-header__border-color: $color__blue--base !default;
+$category-header__ancestor-background-color: $color__grey--light !default;
+$category-header__ancestor-background-color--active: $color__blue--light !default;
+
+
+
+
+.category-header-wrapper {
+    overflow: hidden;
+    -webkit-transform : translate3d(0px,0px,0px);
+
+    &--sticky {
+        position: fixed;
+        top: 0px !important;
+        right: 0px;
+        left: 0px;
+        -webkit-backface-visibility: hidden;
+        width: 100%;
+        z-index: 2;
+        -webkit-transform: translate3d(0px,0px,0px);
+
+        .category-header {
+            min-height: 63px;
+
+            &__title {
+                font-size: 19px;
+                line-height: 63px;
+                margin: 0;
+
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                width: calc(100% - 15px);
+            }
+
+            &__summary {
+                display: none;
+            }
+        }
+    }
+}
+
+.category-header {
+  border-left: 5px solid $category-header__border-color;
+  margin: 0 -15px;
+  overflow: visible;
+  position: relative;
+  min-height: 153px;
+
+  //@include transition(min-height $transition-in-time);
+
+  &__card {
+    background: $color__background--white;
+    bottom: 0;
+    left: 0;
+    overflow: visible;
+    padding-left: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    transition: margin $transition-in-time, left $transition-in-time, right $transition-in-time;
+
+    &--dink {
+      left: 20px;
+      right: -20px
+    }
+
+    &--depth-1 {
+      margin-left: 0;
+    }
+    &--depth-2 {
+      margin-left: 30px;
+    }
+    &--depth-3 {
+      margin-left: 60px;
+    }
+    &--depth-4 {
+      margin-left: 90px;
+    }
+    &--depth-5 {
+      margin-left: 120px;
+    }
+
+    // single-direction shadow effect
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -5px;
+      right: 100%;
+
+      background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%);
+    }
+
+    &--ancestor {
+      background-color: $category-header__ancestor-background-color;
+      text-decoration: none;
+      z-index: 1;
+
+      &:hover,
+      &:active,
+      &:focus {
+        text-decoration: none;
+      }
+
+      .category-header__title {
+        opacity: 0.35;
+      }
+
+      .category-header__summary {
+        opacity: 0.35;
+      }
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+  &__title {
+    color: $color__grey--dark;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+
+    transition: height $transition-in-time;
+  }
+
+  &__summary {
+    color: $color__grey--base;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+.js-card--no-animation {
+  transition: none;
+}
+
+.js-ancestor-card--active {
+  background-color: $category-header__ancestor-background-color--active;
+}
+
+.js-category-header-ghost {
+  display: none;
+  height: 153px;
+}
+
+@include media-query(medium) {
+    .js-category-header-ghost {
+      height: 193px;
+    }
+
+    .category-header-wrapper {
+
+      &--sticky {
+        position: fixed;
+        -webkit-backface-visibility: hidden;
+        width: 100%;
+        z-index: 2;
+
+        .category-header {
+          min-height: 63px;
+
+          &__title {
+            font-size: 26px;
+            line-height: 63px;
+            margin: 0;
+          }
+
+          &__summary {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .category-header {
+      border-left-width: 15px;
+      margin-right: 0;
+      min-height: 196px;
+
+      &__card {
+        padding: 0 30px;
+
+        &--depth-1 {
+          margin-left: 0;
+        }
+        &--depth-2 {
+          margin-left: 50px;
+        }
+        &--depth-3 {
+          margin-left: 100px;
+        }
+        &--depth-4 {
+          margin-left: 150px;
+        }
+        &--depth-5 {
+          margin-left: 200px;
+        }
+
+        &--has-ancestor {
+          z-index: 2;
+        }
+
+        &--ancestor {
+          padding-left: 20px;
+        }
+      }
+
+      &__title {
+        font-size: 42px;
+        line-height: 49px;
+        margin-bottom: 19px;
+      }
+
+      &__summary {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+}
+
+@include media-query(large) {
+  .category-header-wrapper > .wrapper {
+    position: relative;
+  }
+}

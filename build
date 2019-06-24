@@ -1,0 +1,4 @@
+#!/bin/sh
+# Build the site using Jekyll in Docker
+set -eu
+./jekyll build
