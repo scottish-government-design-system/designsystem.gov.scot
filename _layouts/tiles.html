@@ -96,7 +96,12 @@
                 {% endif %}
             ">
 
-                {% assign indexed = site.pages | where:"category", page.navitems | sort: "index", "first" %}
+                {% if page.sort %}
+                    {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
+                {% else %}
+                    {% assign indexed = site.pages | where:"category", page.navitems | sort: 'title', "first" %}
+                {% endif %}
+
                 {% for item in indexed %}
 
                     {% if depth == 0 %}

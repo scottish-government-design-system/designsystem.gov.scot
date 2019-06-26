@@ -19,8 +19,6 @@ $example__highlight-color: $color__blue--lighter !default;
 .example__iframe {
     border: 0;
     display: block;
-    height: 350px;
-    max-height: 30vh;
     width: calc(100% - 1px);
 }
 
@@ -30,7 +28,7 @@ $example__highlight-color: $color__blue--lighter !default;
 }
 
 .example__code {
-    background-color: $color__grey--lighter;
+    background-color: transparent;
     border: 0;
     font-size: 0.85em;
     line-height: 1.25;

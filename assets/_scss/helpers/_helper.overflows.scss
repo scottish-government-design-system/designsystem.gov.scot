@@ -1,0 +1,56 @@
+@function calcOverflow ($overflowColumns, $totalColumns, $containerWidth, $columnGap) {
+    $result: (($containerWidth + $columnGap) * $overflowColumns) / $totalColumns;
+
+    @return $result;
+}
+
+$columnGap: 30;
+$columnCount: 12;
+
+@include media-query(medium) {
+    $containerWidth: 720;
+
+    .overflow--medium--1 {
+        margin-right: calcOverflow(1, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+
+    .overflow--medium--2 {
+        margin-right: calcOverflow(2, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+
+    .overflow--medium--3 {
+        margin-right: calcOverflow(3, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+}
+
+@include media-query(large) {
+    $containerWidth: 940;
+
+    .overflow--large--1 {
+        margin-right: calcOverflow(1, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+
+    .overflow--large--2 {
+        margin-right: calcOverflow(2, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+
+    .overflow--large--3 {
+        margin-right: calcOverflow(3, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+}
+
+@include media-query(xlarge) {
+    $containerWidth: 1140;
+
+    .overflow--xlarge--1 {
+        margin-right: calcOverflow(1, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+
+    .overflow--xlarge--2 {
+        margin-right: calcOverflow(2, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+
+    .overflow--xlarge--3 {
+        margin-right: calcOverflow(3, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+}

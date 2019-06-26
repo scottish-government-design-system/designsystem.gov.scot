@@ -10,6 +10,8 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/apply-blue-badge/
     name: "Apply for or renew a disabled parking permit"
+
+showcase: true
 ---
 
 Uses JavaScript for expand/collapse behaviour on small devices.

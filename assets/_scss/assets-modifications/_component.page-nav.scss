@@ -1,0 +1,162 @@
+/*------------------------------------*\
+    #PAGE NAVIGATION
+    previous and next buttons
+\*------------------------------------*/
+
+
+
+
+$page-nav__icon-color: $color__link--primary !default;
+$page-nav__icon-hover: $color__link--hover !default;
+$page-nav__prefix-color: $color__blue--darker !default;
+$page-nav__icon-size: 56px;
+
+
+
+
+.page-nav {
+  margin-top: 56px;
+  margin-bottom: 49px;
+}
+
+
+
+
+.page-nav__button {
+    background: transparent;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 14px 0;
+    min-height: 91px;
+    outline: none !important;
+    padding: 14px 5px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    transition: background $transition-out-time;
+
+    &:not([href]) {
+      display: none;
+    }
+
+    &--right {
+        text-align: right;
+    }
+
+    // Shared styles for left and right variations
+    // :before is the circle
+    &--left:before,
+    &--right:before {
+      content: '';
+      height: $page-nav__icon-size;
+      width: $page-nav__icon-size;
+      background-color: $page-nav__icon-color;
+      background-position: center;
+      border-radius: $page-nav__icon-size;
+      display: inline-block;
+      position: absolute;
+      top: 12px;
+
+      transition: background $transition-out-time;
+    }
+
+    // :after is the chevron
+    &--left:after,
+    &--right:after {
+        background: none;
+        border: solid;
+        border-color: white;
+        border-width: 5px 5px 0 0;
+        content: "";
+        display: inline-block;
+        height: 21px;
+        position: absolute;
+        top: 29px;
+        width: 21px;
+    }
+
+
+    &--left:after {
+        margin-left: 21px;
+        -webkit-transform: rotate(22545deg);
+        -ms-transform: rotate(22545deg);
+        transform: rotate(225deg);
+    }
+
+    &--right:after {
+        margin-right: 21px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    // Left button variation
+    // BEGIN: page-nav__button--left
+    &--left {
+      padding-left: ($page-nav__icon-size + 5px + 12px);
+      text-align: left;
+
+      &:before,
+      &:after {
+          left: 5px;
+      }
+    }
+    // END: page-nav__button--left
+
+    // Right button variation
+    // BEGIN: page-nav__button--right
+    &--right {
+      float: right;
+      padding-right: ($page-nav__icon-size + 5px + 12px);
+      text-align: right;
+
+      &:before,
+      &:after {
+        right: 5px;
+      }
+    }
+    // END: page-nav__button--right
+}
+
+.page-nav__button:hover {
+    background-color: $color__grey--lighter;
+    transition-duration: $transition-in-time;
+
+    .page-nav__text {
+        text-decoration: underline;
+    }
+
+    &:before {
+        background-color: $page-nav__icon-hover;
+    }
+}
+
+.page-nav__button:active {
+    background-color: $color__blue--light;
+}
+
+.page-nav__text {
+    display: inline-block;
+    padding-top: 21px;
+    position: relative;
+
+    &:before {
+        color: $page-nav__prefix-color;
+        content: attr(data-label);
+        font-size: 14px;
+        font-weight: $bold;
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-transform: uppercase;
+        top: 0;
+    }
+}
+
+@include media-query(medium) {
+    .page-nav {
+        margin-bottom: 56px;
+    }
+}

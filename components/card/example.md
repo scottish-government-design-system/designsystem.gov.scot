@@ -6,7 +6,7 @@ style: 'body {background: #f8f8f8}'
 index: 0
 ---
 
-<article class="card card--small card--hover">
+<article class="card  card--fixed  card--hover">
     <a href="#" class="card__content">
         <h2>Benefits</h2>
 

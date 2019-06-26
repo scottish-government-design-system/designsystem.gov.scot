@@ -12,55 +12,54 @@
 {% include header.html %}
 
 <style>
-    #main-content {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
-        grid-template-rows: max-content;
-        grid-template-areas:
-            "heading"
-            "sidebar"
-            "content";
-        grid-gap: 0 30px;
-    }
-
-    .heading {
-        grid-area: heading;
-    }
-
-    .content {
-        grid-area: content;
-    }
-
-    .sidebar {
-        grid-area: sidebar;
-    }
-
     pre {
         white-space: pre-wrap;
     }
 
-    @media (min-width: 768px) {
+    @supports(display: grid) {
+
+        /*
+         * [1] h = header, s = sidebar, c = content
+         */
         #main-content {
-            grid-template-columns: minmax(0, 3fr) minmax(0, 9fr);
-            grid-template-areas:
-              "blank heading"
-              "sidebar content";
-        }
-    }
-
-    @media (min-width: 992px) {
-        #main-content {
-            grid-template-columns: minmax(0, 3fr) minmax(0, 7fr) minmax(0, 2fr);
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            grid-template-rows: max-content;
+            grid-template-areas: /*[1]*/
+                "h"
+                "s"
+                "c";
+            grid-gap: 0 30px;
         }
 
-        .overflow--2 {
-            margin-right: -178px;
+        .heading {
+            grid-area: h;
         }
-    }
 
-    @media (min-width: 1200px) {
-        .overflow--2 {
-            margin-right: -211px;
+        .content {
+            grid-area: c;
+        }
+
+        .sidebar {
+            grid-area: s;
+        }
+
+        @media (min-width: 768px) {
+            #main-content {
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-areas:
+                    '. . . h h h h h h h h h'
+                    's s s c c c c c c c c c';
+            }
+        }
+
+        @media (min-width: 992px) {
+            #main-content {
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-areas:
+                    '. . . h h h h h h h . .'
+                    's s s c c c c c c c . .';
+            }
         }
     }
 </style>
@@ -99,7 +98,7 @@
 
             {% for item in indexed %}
                 {% if item.type == 'example' %}
-                    <div class="example  overflow--2">
+                    <div class="example  overflow--large--2 overflow--xlarge--2">
                         <div class="example__demo">
                             <a class="example__link" href="example.html" target="_blank">Open this example in a new window</a>
 
