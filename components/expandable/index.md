@@ -1,6 +1,6 @@
 ---
 layout: component-enhanced
-title:  "Expandable (accordion)"
+title:  "Expandable"
 category: components
 parent: components
 thispage: component.expandable
