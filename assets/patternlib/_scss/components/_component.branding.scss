@@ -1,0 +1,110 @@
+/*------------------------------------*\
+    BRANDING
+\*------------------------------------*/
+
+$site-search__height: 42px !default;
+
+.branding {
+    align-items: center;
+    height: 42px;
+    display: flex;
+    padding-right: #{$site-search__height + 10};
+    position: relative;
+    width: 100%;
+}
+
+.branding__logo {
+    float: left;
+    height: 100%;
+    margin-right: 25px;
+    position: relative;
+}
+
+.branding__logo-image {
+    display: block;
+    height: 100%;
+}
+
+.branding__link {
+    color: currentColor;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+
+    &:after {
+        background-color: currentColor;
+        bottom: -6px;
+        content: '';
+        height: 2px;
+        left: 50%;
+        opacity: 0;
+        position: absolute;
+        right: 50%;
+        transition: left $transition-in-time, right $transition-in-time, opacity $transition-in-time;
+    }
+
+    &:hover:after {
+        left: 0;
+        opacity: 1;
+        right: 0;
+    }
+}
+
+/*
+ * [1] magic number: maximum we can accommodate in the branding content area for two-line titles
+ */
+.branding__title {
+    float: left;
+    font-size: 1.5rem;
+    font-weight: $lightest;
+    line-height: 21px; /* [1] */
+
+    &:not(:first-child) {
+        padding-left: 25px;
+    }
+
+    &:not(:first-child):before {
+        background: $color__brand--primary;
+        bottom: 0;
+        content: '';
+        margin-left: -25px;
+        position: absolute;
+        top: 0;
+        width: 2px;
+    }
+}
+
+// when branding is a child of a reversed-variant site header
+.branding--reversed {
+    .branding__title:before {
+        background-color: $color__white;
+    }
+
+    .branding__logo {
+        color: $color__white;
+    }
+
+    .branding__link:active {
+        background-color: $color__brand--secondary;
+        outline-color: $color__brand--secondary;
+    }
+
+    .branding__link {
+        color: currentColor !important;
+    }
+}
+
+@include media-query(medium) {
+    .branding {
+        height: 63px;
+        padding-right: 0;
+        width: auto;
+    }
+
+    /*
+     * [1] magic number: maximum we can accommodate in the branding content area for two-line titles
+     */
+    .branding__title {
+        line-height: 31px; /* [1] */
+    }
+}

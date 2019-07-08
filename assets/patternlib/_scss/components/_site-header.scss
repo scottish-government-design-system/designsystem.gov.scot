@@ -1,0 +1,89 @@
+/*------------------------------------*\
+    SITE HEADER
+\*------------------------------------*/
+
+.site-header {
+    background-color: $color__white;
+    border-bottom: 1px solid $color__border--light;
+    box-sizing: content-box;
+    min-height: 42px;
+    padding: 21px 0 14px;
+    position: relative;
+
+    &:before {
+        background: $color__brand--primary;
+        display: block;
+        content: '';
+        height: 7px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+/* variant with the top colour bar set to a gradient of site brand colours */
+.site-header--gradient {
+    &:before {
+        background: linear-gradient(to right, $color__brand--primary, $color__brand--secondary);
+    }
+}
+
+/* variant with a drop shadow instead of a bottom border */
+.site-header--shadow {
+    border-bottom: 0;
+
+    &:after {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+        bottom: -11px;
+        content: '';
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 100%;
+    }
+}
+
+/* variant with a solid-colour background and reversed branding */
+.site-header--reversed {
+    background-color: $color__brand--primary;
+    border-color: transparent;
+    color: $color__white;
+    padding-top: 14px;
+
+    &:before {
+        content: none;
+    }
+
+    &.site-header--gradient {
+        background: linear-gradient(to right, $color__brand--primary, $color__brand--secondary);
+    }
+}
+
+.site-header__content > * {
+    float: left;
+}
+
+.site-header__content > :last-child {
+    float: right;
+}
+
+@supports (display: flex) {
+    .site-header__content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@include media-query(medium) {
+    .site-header__branding {
+        max-width: 50%;
+    }
+}
+
+@include media-query(large) {
+    .site-header {
+        min-height: 63px;
+    }
+}

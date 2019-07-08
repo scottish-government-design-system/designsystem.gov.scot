@@ -1,0 +1,97 @@
+/*------------------------------------*\
+    SEARCH BOX
+\*------------------------------------*/
+
+$site-search__font-size: 0.85rem !default;
+$site-search__height: 42px !default;
+$site-search__height--medium: 49px !default;
+$site-search__border-radius: 30px !default;
+$site-search__background-color: $color__grey--light !default;
+
+
+
+
+.site-search {
+  box-sizing: border-box;
+  height: $site-search__height;
+  position: relative;
+
+  &__input[type=text] {
+    background: $site-search__background-color;
+    border: 0;
+    border-radius: $site-search__border-radius;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    float: right;
+    min-height: $site-search__height;
+    padding: 0 $site-search__height 0 20px;
+    width: 100%;
+  }
+
+  &__button {
+    border-radius: $site-search__border-radius;
+    height: $site-search__height;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: $site-search__height;
+  }
+
+  &__icon {
+    display: block;
+    padding: 4px;
+    width: 100%;
+  }
+
+  &--large {
+      margin-bottom: $site-search__height;
+  }
+}
+
+@include media-query(medium) {
+  .site-search {
+    height: $site-search__height--medium;
+
+    &__input[type=text] {
+      min-height: $site-search__height--medium;
+      padding-right: 56px;
+    }
+
+    &__button {
+      height: $site-search__height--medium;
+      width: $site-search__height--medium;
+    }
+  }
+}
+
+.site-search--reversed {
+  .site-search__button {
+    background-color: $color__brand--secondary;
+  }
+}
+
+
+@include media-query(medium-down) {
+  .site-search--collapsible {
+    position: absolute;
+    right: 15px;
+    left: calc(100% - 15px);
+    transition: left $transition-in-time;
+
+    .site-search__input[type="text"] {
+      opacity: 0;
+      padding: 0;
+
+      transition: all $transition-in-time;
+    }
+  }
+
+  .site-search--expanded {
+    left: 15px;
+
+    .site-search__input[type="text"] {
+      opacity: 1;
+      padding: 0 $site-search__height 0 25px;
+    }
+  }
+}

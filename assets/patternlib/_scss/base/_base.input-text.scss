@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    INPUT TEXT
+\*------------------------------------*/
+
+input[type="text"] {
+    border: 1px solid $color__border--base;
+    font-size: 0.85rem;
+    min-height: 42px;
+    padding: 6px 12px;
+
+    &:focus {
+        background-color: $color__input--focus-background;
+    }
+}

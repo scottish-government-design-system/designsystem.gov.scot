@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    LINKS
+\*------------------------------------*/
+
+a,
+.link {
+    color: $color__link;
+    text-decoration: underline;
+    transition: color $transition-out-time, background-color $transition-out-time;
+
+    &:hover {
+        color: $color__link--hover;
+        transition-duration: $transition-in-time;
+    }
+
+    &:active {
+        background-color: $color__blocklink-bg--active;
+        color: $color__link--active;
+        outline: 3px solid $color__blocklink-bg--active;
+        transition-duration: 0s;
+    }
+
+    &:focus {
+        color: $color__link--focus;
+        transition-duration: 0s;
+    }
+}
+
+.link {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+a[disabled] {
+    pointer-events: none;
+}
+
+// no underline on header links
+h1, h2, h3, h4 {
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

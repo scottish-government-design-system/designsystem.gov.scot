@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    HEADINGS
+\*------------------------------------*/
+
+h1, h2, h3, h4,
+.alpha, .beta, .gamma, .delta {
+    font-weight: $bold;
+    text-rendering: optimizeLegibility;
+}
+
+h1, .alpha {
+    font-size: $h1-size;
+    line-height: 35px;
+    margin-bottom: 28px; // was margin: 28px 0;
+}
+
+h2, .beta {
+    font-size: $h2-size;
+    line-height: 28px;
+    margin-bottom: 7px; // was margin: 28px 0 7px;
+}
+
+h3, .gamma {
+    font-size: $h3-size;
+    line-height: 28px; // was 21px but is that weird since h4 is 28px?
+    margin-bottom: 7px;
+}
+
+h4, .delta {
+    font-size: $h4-size;
+    line-height: 28px;
+}
+
+h5, .epsilon {
+    font-size: $h5-size;
+    font-weight: $semibold;
+    line-height: 28px;
+}
+
+@include media-query(medium) {
+    h1, .alpha {
+        font-size: $h1-size--medium;
+        line-height: 56px;
+    }
+
+    h2, .beta {
+        line-height: 35px;
+        margin-bottom: 14px;
+    }
+}

@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    BUTTONS
+\*------------------------------------*/
+
+button,
+input[type="button"],
+input[type="submit"] {
+    background-color: $color__button--primary;
+    border: 0;
+    color: $color__white;
+    cursor: pointer;
+
+    transition: background-color $transition-out-time;
+
+    &:hover {
+        background-color: $color__button--primary--hover;
+        transition-duration: $transition-in-time;
+    }
+}

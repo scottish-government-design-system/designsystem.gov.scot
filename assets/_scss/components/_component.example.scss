@@ -10,6 +10,8 @@ $example__highlight-color: $color__blue--lighter !default;
 
 .example {
     margin-bottom: 28px;
+
+    box-shadow: 7px 7px $example__border-color
 }
 
 .example__demo {

@@ -1,0 +1,54 @@
+<div class="example  overflow--large--2 overflow--xlarge--2">
+    <div class="example__demo">
+        <a class="example__link" href="example.main.html" target="_blank">Open this example in a new window</a>
+
+        <script>
+            function resizeIframe(obj) {
+                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+            }
+        </script>
+
+        <iframe
+            style="min-height: {{item.minheight}}"
+            data-style="{{style}}"
+            src="example.{{include.name}}.html"
+            class="example__iframe"
+            onload="resizeIframe(this)">
+        </iframe>
+    </div>
+
+    {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
+    {% assign tabsCount = 1 %}
+
+    {% for item in indexed %}
+        {% if item.type == 'developers' and include.name == 'main' %}
+            {% assign tabsCount = tabsCount | plus:1 %}
+        {% endif %}
+    {% endfor %}
+
+    <div class="example-tabs  example-tabs--{{tabsCount}}">
+        {% assign filename = 'example.' | append: include.name | append: '.md' %}
+        {% for item in indexed %}
+            {% if item.name == filename %}
+            <h2 class="example-tabs__tab">Sample HTML</h2>
+            <div class="example-tabs__content">
+                <div>
+                    <link rel="stylesheet" href="/assets/css/highlight.css">
+                    <script src="/assets/scripts/highlight.pack.js"></script>
+                    <script>hljs.initHighlightingOnLoad();</script>
+                    <pre class="example__pre"><code class="example__code html">{{item.content | xml_escape}}</code></pre>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+
+        {% for item in indexed %}
+            {% if item.type == 'developers' and include.name == 'main' %}
+                <h2 class="example-tabs__tab">Implementation notes</h2>
+                <div class="example-tabs__content  example-tabs__content--text">
+                    {{item.content}}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -44,6 +44,8 @@ $breakpoints: (
  * all of the MyGov Assets components.
  */
 @import "../../node_modules/@scottish-government/mygov-assets/scss/core";
+@import "../patternlib/_scss/base/settings/settings.colors";
+$lightest: 100;
 @import "helpers/helper.overflows";
 
 
@@ -53,6 +55,7 @@ $breakpoints: (
  * COMPONENTS
  */
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.article-header";
+@import "../patternlib/_scss/components/component.branding";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.breadcrumbs";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.card";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.category-item";
@@ -61,7 +64,6 @@ $breakpoints: (
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.expandable";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.external-links";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.file-icon";
-@import "components/component.site-header";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.in-article-form";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.informational-notes";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.listed-content-item";
@@ -69,8 +71,9 @@ $breakpoints: (
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.page-nav";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.person";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.related-items";
-@import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.search-box";
 @import "components/component.site-footer";
+@import "../patternlib/_scss/components/site-header";
+@import "../patternlib/_scss/components/component.site-search";
 @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.skip-links";
 
 /* for homepage */
