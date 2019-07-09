@@ -1,0 +1,28 @@
+#!/bin/sh
+# Run Jekyll in Docker
+# Options to docker build can be passed to
+# this script, e.g.
+# ./jekyll serve
+set -eu
+progname=$(basename "$0")
+tag=$(shasum -a1 Dockerfile | cut -c-8)
+image="jekyll:${tag}"
+if tty -s; then
+  OPTS="-t -p 4000:4000"
+else
+  OPTS=""
+fi
+id=$(docker images \
+  -f "reference=${image}" \
+  --format '{{.ID}}')
+if [ -z "$id" ]; then
+  docker build -t "$image" .
+fi
+docker run $OPTS \
+  --rm \
+  -v $PWD:/srv/jekyll \
+  -i \
+  -e JEKYLL_UID=$(id -u) \
+  -e JEKYLL_GID=$(id -g) \
+  "$image" \
+  "$progname" "$@"

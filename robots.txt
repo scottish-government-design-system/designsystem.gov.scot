@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://patternlibrary.mygov.scot/sitemap.xml
