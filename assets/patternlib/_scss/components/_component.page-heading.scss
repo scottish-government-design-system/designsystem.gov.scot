@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    ARTICLE HEADER
+    title block for articles
+\*------------------------------------*/
+
+.page-heading {
+    margin: 14px 0 35px;
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__prefix {
+        font-weight: $semibold;
+        line-height: 21px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    &__prefix + &__title {
+        margin-top: 0;
+    }
+
+    &__meta {
+        font-size: $small-size;
+    }
+}
+
+@include media-query(medium) {
+    .page-heading {
+        margin-top: 28px;
+    }
+}

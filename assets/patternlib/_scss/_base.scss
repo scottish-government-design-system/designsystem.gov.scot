@@ -61,9 +61,10 @@ $breakpoints: (
 /**
  * TYPE
  */
- @import "base/type/type.body";
- @import "base/type/type.headings";
- @import "base/type/type.links";
+@import "base/type/type.body";
+@import "base/type/type.headings";
+@import "base/type/type.links";
+@import "base/type/type.small";
 
 
 
@@ -71,5 +72,6 @@ $breakpoints: (
 /**
  * ELEMENTS
  */
+@import "base/base.abbreviations";
 @import "base/base.buttons";
 @import "base/base.input-text";

@@ -1,0 +1,177 @@
+/*------------------------------------*\
+    #PAGE NAVIGATION
+    previous and next buttons
+\*------------------------------------*/
+
+
+
+
+$page-nav__icon-color: $color__link !default;
+$page-nav__icon-hover: $color__link--hover !default;
+$page-nav__prefix-color: $color__blue--darker !default;
+$page-nav__icon-size: 56px;
+
+
+
+
+.sequential-nav {
+    margin-top: 56px;
+    margin-bottom: 49px;
+    overflow: hidden;
+}
+
+.sequential-nav__item:first-child {
+    float: left;
+}
+
+.sequential-nav__item:last-child {
+    float: right;
+}
+
+
+.sequential-nav__button {
+    background: transparent;
+    border-radius: 8px;
+    display: inline-block;
+    line-height: 21px;
+    margin: 14px 0;
+    min-height: 91px;
+    outline: none !important;
+    padding: 14px 5px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    transition: background-color $transition-out-time;
+
+    &:not([href]) {
+      display: none;
+    }
+
+    &--right {
+        text-align: right;
+    }
+
+    // Shared styles for left and right variations
+    // :before is the circle
+    &--left:before,
+    &--right:before {
+      content: '';
+      height: $page-nav__icon-size;
+      width: $page-nav__icon-size;
+      background-color: $page-nav__icon-color;
+      background-position: center;
+      border-radius: $page-nav__icon-size;
+      display: inline-block;
+      position: absolute;
+      top: 12px;
+
+      transition: background-color $transition-out-time;
+    }
+
+    // :after is the chevron
+    &--left:after,
+    &--right:after {
+        background: none;
+        border: solid;
+        border-color: $color__white;
+        content: "";
+        display: inline-block;
+        height: 21px;
+        position: absolute;
+        top: 29px;
+        width: 21px;
+    }
+
+    &--left:after {
+        border-width: 5px 0 0 5px;
+        margin-left: 21px;
+        transform: rotate(-45deg);
+    }
+
+    &--right:after {
+        border-width: 0 5px 5px 0;
+        margin-right: 21px;
+        transform: rotate(-45deg);
+    }
+
+    // Left button variation
+    // BEGIN: page-nav__button--left
+    &--left {
+      padding-left: ($page-nav__icon-size + 5px + 12px);
+      text-align: left;
+
+      &:before,
+      &:after {
+          left: 5px;
+      }
+    }
+    // END: sequential-nav__button--left
+
+    // Right button variation
+    // BEGIN: sequential-nav__button--right
+    &--right {
+      float: right;
+      padding-right: ($page-nav__icon-size + 5px + 12px);
+      text-align: right;
+
+      &:before,
+      &:after {
+        right: 5px;
+      }
+    }
+    // END: sequential-nav__button--right
+}
+
+.sequential-nav__button:hover {
+    background-color: $color__blocklink-bg--hover;
+    transition-duration: $transition-in-time;
+
+    .page-nav__text {
+        text-decoration: underline;
+    }
+
+    &:before {
+        background-color: $page-nav__icon-hover;
+    }
+}
+
+.sequential-nav__button:active {
+    background-color: $color__blocklink-bg--active;
+}
+
+.sequential-nav__text {
+    display: inline-block;
+    padding-top: 21px;
+    position: relative;
+
+    &:before {
+        color: $page-nav__prefix-color;
+        content: attr(data-label);
+        font-size: 14px;
+        font-weight: $bold;
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-transform: uppercase;
+        top: 0;
+    }
+}
+
+@include media-query(medium) {
+    .sequential-nav {
+        margin-bottom: 56px;
+    }
+}
+
+
+@supports(display: grid) {
+    .sequential-nav {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sequential-nav__item {
+        float: none;
+    }
+}
