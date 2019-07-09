@@ -25,8 +25,8 @@ index: 0
             </a>
         </li>
 
-        <li class="breadcrumbs__item" aria-current="page" >
-            Data sharing of personal information
+        <li class="breadcrumbs__item  visually-hidden" aria-current="page">
+            An incredibly long nonsense title, as an example of a problematically long title, for demonstration purposes only
         </li>
     </ol>
 </nav>

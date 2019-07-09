@@ -3,8 +3,7 @@
 \*------------------------------------*/
 
 $breadcrumbs__color: $color__grey--base !default;
-$breadcrumbs__font-size: $small-size;
-$breadcrumbs__font-size--medium: $tiny-size;
+$breadcrumbs__font-size: $small-size--absolute !important;
 
 
 
@@ -17,24 +16,24 @@ $breadcrumbs__font-size--medium: $tiny-size;
 }
 
 .breadcrumbs__item {
-        display: inline-block;
-        margin-bottom: 0;
-        margin-left: 0;
-        padding: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
 }
 
 .breadcrumbs__item:not(:first-child):before {
-        content: "";
-        display: inline-block;
-        width: 5px;
-        height: 5px;
-        margin: 0 4px 2px 2px;
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        border: solid;
-        border-width: 0px 1px 1px 0;
-        border-color: currentColor;
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 4px 2px 2px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border: solid;
+    border-width: 0px 1px 1px 0;
+    border-color: currentColor;
 }
 
 .breadcrumbs__container {
@@ -42,10 +41,6 @@ $breadcrumbs__font-size--medium: $tiny-size;
 }
 
 @include media-query(medium) {
-    .breadcrumbs {
-        font-size: $breadcrumbs__font-size--medium;
-    }
-
     .breadcrumbs__container {
         padding-top: 21px;
     }

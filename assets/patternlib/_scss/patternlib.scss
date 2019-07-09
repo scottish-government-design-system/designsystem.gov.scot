@@ -8,11 +8,13 @@
 /**
  * COMPONENTS
  */
-@import "components/component.branding";
+@import "components/component.site-branding";
 @import "components/component.breadcrumbs";
 @import "components/component.category-item";
 @import "components/component.category-lists";
-@import "components/component.page-heading";
+@import "components/component.content-label";
+@import "components/component.page-header";
+@import "components/component.page-metadata";
 @import "components/component.sequential-navigation";
 @import "components/component.site-search";
 @import "components/site-header";

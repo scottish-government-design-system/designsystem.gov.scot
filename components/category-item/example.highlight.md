@@ -5,7 +5,7 @@ type: example
 index: 0
 ---
 
-<article class="category-item">
+<article class="category-item  category-item--highlight">
     <a href="#" class="category-item__link">
         <h2 class="category-item__title">Environment and countryside</h2>
 

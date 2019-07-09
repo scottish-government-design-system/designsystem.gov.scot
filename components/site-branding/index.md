@@ -1,9 +1,9 @@
 ---
 layout: component-enhanced
-title:  "Branding"
+title:  "Site branding"
 category: components
 parent: components
-thispage: component.branding
+thispage: component.site-branding
 summary: "Logo and optional subtitle of a website."
 ---
 

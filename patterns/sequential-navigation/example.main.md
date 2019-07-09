@@ -5,7 +5,7 @@ type: example
 index: 0
 ---
 
-<nav class="sequential-nav" aria-label="">
+<nav class="sequential-nav" aria-label="XXXXX QUESTION FOR UX XXXXX">
     <div class="sequential-nav__item">
         <a title="Previous section" href="#" class="sequential-nav__button  sequential-nav__button--left">
             <span class="sequential-nav__text" data-label="previous">

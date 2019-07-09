@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: pattern.page-heading
+parent: component.site-branding
 type: developers
 title: devnotes
 

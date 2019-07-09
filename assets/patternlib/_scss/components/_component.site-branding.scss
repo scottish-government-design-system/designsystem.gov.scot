@@ -4,7 +4,7 @@
 
 $site-search__height: 42px !default;
 
-.branding {
+.site-branding {
     align-items: center;
     height: 42px;
     display: flex;
@@ -13,19 +13,19 @@ $site-search__height: 42px !default;
     width: 100%;
 }
 
-.branding__logo {
+.site-branding__logo {
     float: left;
     height: 100%;
     margin-right: 25px;
     position: relative;
 }
 
-.branding__logo-image {
+.site-branding__logo-image {
     display: block;
     height: 100%;
 }
 
-.branding__link {
+.site-branding__link {
     color: currentColor;
     display: inline-block;
     position: relative;
@@ -53,7 +53,7 @@ $site-search__height: 42px !default;
 /*
  * [1] magic number: maximum we can accommodate in the branding content area for two-line titles
  */
-.branding__title {
+.site-branding__title {
     float: left;
     font-size: 1.5rem;
     font-weight: $lighter;
@@ -75,27 +75,27 @@ $site-search__height: 42px !default;
 }
 
 // when branding is a child of a reversed-variant site header
-.branding--reversed {
-    .branding__title:before {
+.site-branding--reversed {
+    .site-branding__title:before {
         background-color: $color__white;
     }
 
-    .branding__logo {
+    .site-branding__logo {
         color: $color__white;
     }
 
-    .branding__link:active {
+    .site-branding__link:active {
         background-color: $color__brand--secondary;
         outline-color: $color__brand--secondary;
     }
 
-    .branding__link {
+    .site-branding__link {
         color: currentColor !important;
     }
 }
 
 @include media-query(medium) {
-    .branding {
+    .site-branding {
         height: 63px;
         padding-right: 0;
         width: auto;
@@ -104,7 +104,7 @@ $site-search__height: 42px !default;
     /*
      * [1] magic number: maximum we can accommodate in the branding content area for two-line titles
      */
-    .branding__title {
+    .site-branding__title {
         line-height: 31px; /* [1] */
     }
 }

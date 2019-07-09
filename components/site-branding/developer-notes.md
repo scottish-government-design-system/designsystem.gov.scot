@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.branding
+parent: component.site-branding
 type: developers
 title: devnotes
 

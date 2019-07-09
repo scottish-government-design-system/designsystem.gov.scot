@@ -10,7 +10,15 @@ $example__highlight-color: $color__blue--lighter !default;
 
 .example {
     margin-bottom: 28px;
+}
 
+.example__caption {
+    font-size: 0.75em;
+    font-weight: 500;
+    margin-top: 28px;
+}
+
+.example__content {
     box-shadow: 7px 7px $example__border-color
 }
 

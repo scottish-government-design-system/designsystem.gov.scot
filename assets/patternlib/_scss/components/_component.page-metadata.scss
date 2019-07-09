@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    PAGE METADATA
+\*------------------------------------*/
+
+.page-metadata {
+    font-size: $small-size--absolute;
+    margin: 0;
+    overflow: hidden;
+
+    &__item-title {
+        display: inline;
+
+        &:after {
+            content: ':';
+        }
+    }
+
+    &__item-data {
+        display: inline;
+        font-weight: $bold;
+        margin-left: 0;
+
+        > a {
+            font-weight: $normal;
+        }
+    }
+}

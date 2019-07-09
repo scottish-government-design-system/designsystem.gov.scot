@@ -5,9 +5,9 @@ type: example
 index: 0
 ---
 
-<ol class="category-list  category-list--limelight">
+<ol class="category-list  category-list--highlight">
     <li>
-        <article class="category-item  category-item--border  category-item--border--limelit">
+        <article class="category-item  category-item--highlight">
             <a href="#" class="category-item__link" data-gtm="item-0">
                 <h2 class="category-item__title">Environment and countryside</h2>
 
@@ -19,7 +19,7 @@ index: 0
     </li>
 
     <li>
-        <article class="category-item  category-item--border  category-item--border--limelit">
+        <article class="category-item  category-item--highlight">
             <a href="#" class="category-item__link" data-gtm="item-1">
                 <h2 class="category-item__title">Environmental Impact Assessment (EIA)</h2>
 
@@ -33,7 +33,7 @@ index: 0
 
 <ol class="category-list">
     <li>
-        <article class="category-item  category-item--border">
+        <article class="category-item">
             <a href="#" class="category-item__link" data-gtm="item-2">
                 <h2 class="category-item__title">Farming and rural issues</h2>
 
@@ -45,7 +45,7 @@ index: 0
     </li>
 
     <li>
-        <article class="category-item  category-item--border">
+        <article class="category-item">
             <a href="#" class="category-item__link" data-gtm="item-3">
                 <h2 class="category-item__title">Waste and energy</h2>
 
@@ -57,7 +57,7 @@ index: 0
     </li>
 
     <li>
-        <article class="category-item  category-item--border">
+        <article class="category-item">
             <a href="#" class="category-item__link" data-gtm="item-4">
                 <h2 class="category-item__title">Marine and fisheries</h2>
 
