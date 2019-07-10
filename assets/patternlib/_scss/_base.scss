@@ -44,7 +44,9 @@ $breakpoints: (
 /**
  * GENERIC
  */
-@import "base/generic/generic.box-sizing";
+ @import "base/generic/generic.normalize";
+ @import "base/generic/generic.reset";
+ @import "base/generic/generic.box-sizing";
 
 
 
@@ -72,6 +74,8 @@ $breakpoints: (
 /**
  * ELEMENTS
  */
+@import "base/base.spacing";
+
 @import "base/base.abbreviations";
 @import "base/base.buttons";
 @import "base/base.input-text";

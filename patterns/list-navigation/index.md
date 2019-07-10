@@ -7,7 +7,7 @@ thispage: pattern.list-navigation
 summary: "A navigational pattern providing links to deeper content in a list format"
 ---
 
-List navigation is a collection of [category items](/component/category-item) presented in a list. 
+List navigation is a collection of [category items](/components/category-item/) presented in a list. 
 
 List navigation can include a highlighted section to call attention to important items. The highlighted section should be at the top of the navigation.
 

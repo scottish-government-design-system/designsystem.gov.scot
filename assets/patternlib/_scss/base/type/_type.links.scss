@@ -46,3 +46,31 @@ h1, h2, h3, h4 {
         }
     }
 }
+
+/**
+ * BLOCKLINK
+ * to enforce consistency on block-style links (search results, category items, etc) include this mixin
+ */
+@mixin blocklink {
+    display: block;
+    transition: background-color $transition-out-time;
+
+    &:hover {
+        background-color: $color__blocklink-bg--hover;
+        transition-duration: $transition-in-time;
+    }
+
+    &:focus {
+        background-color: $color__blocklink-bg--hover;
+        transition-duration: $transition-in-time;
+    }
+
+    &:active {
+        background-color: $color__blocklink-bg--active;
+        transition-duration: 0s;
+    }
+
+    &.current {
+        background-color: $color__blocklink-bg--current;
+    }
+}

@@ -1,6 +1,8 @@
 .category-list {
     list-style-type: none;
-    padding-left: 0;
+    margin: -10px;
+    overflow: hidden;
+    padding: 10px;
 
     &--highlight {
         border-bottom: 1px solid $color__border--light;
@@ -57,7 +59,7 @@
     .category-list--grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 0 30px;
+        grid-gap: 30px;
     }
 
     @include media-query(medium) {

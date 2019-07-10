@@ -57,7 +57,7 @@ $example__highlight-color: $color__blue--lighter !default;
 }
 
 .linklike {
-    color: $color__link--primary;
+    color: $color__link;
     cursor: pointer;
     transition: color 1s, background-color 1s;
 
@@ -98,7 +98,7 @@ $example__highlight-color: $color__blue--lighter !default;
 
             &__tab {
                 border: 1px solid $example__border-color;
-                color: $color__link--primary;
+                color: $color__link;
                 cursor: pointer;
                 font-size: 16px;
                 line-height: 28px;

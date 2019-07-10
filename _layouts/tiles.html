@@ -42,7 +42,7 @@
 
 {% include head.html %}
 
-<body class="home layout--tiles-3">
+<body class="home layout--tiles">
 
 <div class="header-wrapper header-wrapper--border  hero-header  {% if page.header-style %}hero-header--{{page.header-style}}{% endif %}">
     {% include banner.html %}
@@ -86,13 +86,12 @@
 
         <div class="category-list-container">
 
-            <div class="main  category-list
+            <ol class="main  category-list
                 {% if depth == 1 %}
-                    category-list--3col  category-list--cards
+                    category-list--grid  category-list--cards
                 {% else if depth == 2 %}
-                    category-list--3col
+                    category-list--grid
                 {% else if depth == 3 %}
-                    category-list--1col
                 {% endif %}
             ">
 
@@ -105,8 +104,16 @@
                 {% for item in indexed %}
 
                     {% if depth == 0 %}
-
-                        <article class="card card--small card--hover">
+                        <li class="category-item  category-item--card  category-item--no-border">
+                            <a href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
+                                <h2 class="category-item__title">{{item.title}}</h2>
+                        
+                                <p class="category-item__summary">
+                                        {{ item.summary }}
+                                </p>
+                            </a>
+                        </li>
+                        <!-- <article class="card card--small card--hover">
                             <a href="{{ item.url }}" class="category-item__link card__content" data-gtm="item-0">
                                 <h2 class="category-item__title">{{item.title}}</h2>
 
@@ -114,25 +121,25 @@
                                     {{ item.summary }}
                                 </p>
                             </a>
-                        </article>
+                        </article> -->
 
                     {% else %}
 
-                        <a href="{{ item.url }}" class="category-item__link" data-gtm="item-0">
-                            <article class="category-item">
+                        <li class="category-item">
+                            <a href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
                                 <h2 class="category-item__title">{{item.title}}</h2>
-
+                        
                                 <p class="category-item__summary">
-                                    {{ item.summary }}
+                                        {{ item.summary }}
                                 </p>
-                            </article>
-                        </a>
+                            </a>
+                        </li>
 
                     {% endif %}
 
                 {% endfor %}
 
-            </div>
+            </li>
         </div>
 
     </div>

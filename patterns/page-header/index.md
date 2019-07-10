@@ -7,7 +7,7 @@ thispage: pattern.page-header
 summary: "The main heading for a page."
 ---
 
-The page header contains the title (H1 element) of the content. It may also contain a [label](#) and some [metadata](/components/page-metadata) to provide further information about the content.
+The page header contains the title (H1 element) of the content. It may also contain a [label](#) and some [metadata](/components/metadata) to provide further information about the content.
 
 ## Design rationale
 

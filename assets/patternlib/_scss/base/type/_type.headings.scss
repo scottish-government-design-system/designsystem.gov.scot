@@ -24,13 +24,13 @@ h2, .beta {
 
 h3, .gamma {
     font-size: $h3-size;
-    line-height: 28px; // was 21px but is that weird since h4 is 28px?
+    line-height: 21px;
     margin-bottom: 7px;
 }
 
 h4, .delta {
     font-size: $h4-size;
-    line-height: 28px;
+    line-height: 21px;
 }
 
 h5, .epsilon {
@@ -48,5 +48,9 @@ h5, .epsilon {
     h2, .beta {
         line-height: 35px;
         margin-bottom: 14px;
+    }
+
+    h3, .gamma {
+        line-height: 28px;
     }
 }

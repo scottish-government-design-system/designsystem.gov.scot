@@ -30,6 +30,8 @@ $page-nav__icon-size: 56px;
 
 
 .sequential-nav__button {
+    @include blocklink;
+
     background: transparent;
     border-radius: 8px;
     display: inline-block;
@@ -41,7 +43,6 @@ $page-nav__icon-size: 56px;
     position: relative;
     text-decoration: none;
     width: 100%;
-    transition: background-color $transition-out-time;
 
     &:not([href]) {
       display: none;
@@ -123,9 +124,6 @@ $page-nav__icon-size: 56px;
 }
 
 .sequential-nav__button:hover {
-    background-color: $color__blocklink-bg--hover;
-    transition-duration: $transition-in-time;
-
     .page-nav__text {
         text-decoration: underline;
     }
@@ -133,10 +131,6 @@ $page-nav__icon-size: 56px;
     &:before {
         background-color: $page-nav__icon-hover;
     }
-}
-
-.sequential-nav__button:active {
-    background-color: $color__blocklink-bg--active;
 }
 
 .sequential-nav__text {

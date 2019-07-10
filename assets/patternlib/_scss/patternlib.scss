@@ -2,19 +2,23 @@
 // $color__brand--secondary: #F0A75A;
 // $color__link: $color__brand--primary;
 // $color__link--hover: $color__brand--primary;
+$mobile-body-margin: 15px !default;
 
 @import "base";
 
 /**
  * COMPONENTS
  */
-@import "components/component.site-branding";
+
 @import "components/component.breadcrumbs";
+@import "components/component.card";
 @import "components/component.category-item";
 @import "components/component.category-lists";
 @import "components/component.content-label";
+@import "components/component.metadata";
 @import "components/component.page-header";
-@import "components/component.page-metadata";
+@import "components/component.search-result";
 @import "components/component.sequential-navigation";
+@import "components/component.site-branding";
 @import "components/component.site-search";
 @import "components/site-header";

@@ -2,6 +2,7 @@
 layout: component-enhanced
 title:  "Breadcrumbs"
 category: patterns
+label: pattern
 parent: patterns
 thispage: pattern.breadcrumbs
 summary: "Breadcrumbs help users to understand where they are within a website's structure and to move between levels."

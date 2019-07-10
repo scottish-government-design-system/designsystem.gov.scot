@@ -9,10 +9,10 @@ index: 0
     <span class="page-header__label  content-label">Guide</span>
     <h1 class="page-header__title">Apply for or renew a disabled parking permit</h1>
 
-    <dl class="page-header__metadata  page-metadata">
-        <div class="page-metadata__item">
-            <dt class="page-metadata__item-title">Last updated</dt>
-            <dd class="page-metadata__item-data">8 November 2016</dd>
+    <dl class="page-header__metadata  metadata">
+        <div class="metadata__item">
+            <dt class="metadata__item-title">Last updated</dt>
+            <dd class="metadata__item-data">8 November 2016</dd>
         </div>
     </dl>
 </header>
