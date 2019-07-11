@@ -52,6 +52,7 @@ h1, h2, h3, h4 {
  * to enforce consistency on block-style links (search results, category items, etc) include this mixin
  */
 @mixin blocklink {
+    background-color: $color__white;
     display: block;
     transition: background-color $transition-out-time;
 
@@ -67,10 +68,22 @@ h1, h2, h3, h4 {
 
     &:active {
         background-color: $color__blocklink-bg--active;
+        outline: initial;
         transition-duration: 0s;
     }
 
     &.current {
         background-color: $color__blocklink-bg--current;
+    }
+}
+
+@mixin blocklink--transparent {
+    @include blocklink;
+
+    background-color: transparent;
+
+    &:hover:not(:active),
+    &:focus:not(:active) {
+        background-color: transparent;
     }
 }

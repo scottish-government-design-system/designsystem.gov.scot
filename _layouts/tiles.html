@@ -42,7 +42,7 @@
 
 {% include head.html %}
 
-<body class="home layout--tiles">
+<body class="layout--tiles  tiles--{{depth}}">
 
 <div class="header-wrapper header-wrapper--border  hero-header  {% if page.header-style %}hero-header--{{page.header-style}}{% endif %}">
     {% include banner.html %}
@@ -85,13 +85,16 @@
     <div class="wrapper">
 
         <div class="category-list-container">
-
+            {% assign depthAsString = depth | downcase %}
             <ol class="main  category-list
-                {% if depth == 1 %}
-                    category-list--grid  category-list--cards
-                {% else if depth == 2 %}
+                {% if depthAsString == '0' %}
+                    category-list--grid  category-list--grid--narrow
+                {% else if depthAsString == '1' %}
                     category-list--grid
-                {% else if depth == 3 %}
+                {% else if depthAsString == '2' %}
+                    category-list
+                {% else if depthAsString == '3' %}
+
                 {% endif %}
             ">
 
@@ -107,7 +110,7 @@
                         <li class="category-item  category-item--card  category-item--no-border">
                             <a href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
                                 <h2 class="category-item__title">{{item.title}}</h2>
-                        
+
                                 <p class="category-item__summary">
                                         {{ item.summary }}
                                 </p>
@@ -128,7 +131,7 @@
                         <li class="category-item">
                             <a href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
                                 <h2 class="category-item__title">{{item.title}}</h2>
-                        
+
                                 <p class="category-item__summary">
                                         {{ item.summary }}
                                 </p>

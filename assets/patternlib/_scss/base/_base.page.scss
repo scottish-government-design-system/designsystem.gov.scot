@@ -1,0 +1,33 @@
+
+body.layout--tiles {
+    background-color: $color__grey--light;
+}
+
+/* hacky experiment: controls backround colors of the header, footer, and tiles' areas better when grid is supported */
+@supports (display: grid) {
+    body,
+    html {
+        height: 100%;
+        margin-bottom: 0 !important;
+    }
+
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100%;
+    }
+
+    .site-footer {
+        position: static !important;
+        align-self: end;
+    }
+
+    .body-wrapper {
+        background-color: #ffffff;
+        padding-bottom: 70px;
+    }
+
+    body.layout--tiles .body-wrapper {
+        background-color: $color__grey--light;
+    }
+}

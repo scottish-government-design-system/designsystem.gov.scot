@@ -1,7 +1,13 @@
+@charset "utf-8";
+
 // $color__brand--primary: #A51765;
 // $color__brand--secondary: #F0A75A;
 // $color__link: $color__brand--primary;
 // $color__link--hover: $color__brand--primary;
+
+/**
+ * GRID/LAYOUT
+ */
 
 @import "../patternlib/_scss/base";
 
@@ -13,6 +19,11 @@
  */
 @import "helpers/helper.overflows"; //<-- this is a candidate for inclusion in pattern lib
 
+
+/*
+ * Temporary components to be replaced w/ pattern lib versions
+ */
+@import "_temp/library-additions/component.hero-header";
 
 
 /**
@@ -34,58 +45,6 @@
 @import "components/component.site-footer";
 
 
-
-
-
-// @charset "utf-8";
-
-// /*------------------------------------*\
-//     $MYGOV ASSETS
-// \*------------------------------------*/
-
-
-
-
-// $base-line-height: 7px;
-// $base-font-size: 16px;
-
-
-
-
-// /**
-//  * GRID/LAYOUT
-//  */
-
-// // same breakpoints as gov.scot
-// $breakpoints: (
-//     'small' '(min-width: 480px)',
-//     'medium' '(min-width: 768px)',
-//     'large' '(min-width: 992px)',
-//     'xlarge' '(min-width: 1200px)',
-
-//     'small-down' '(max-width: 479px)',
-//     'medium-down' '(max-width: 767px)',
-//     'large-down' '(max-width: 991px)',
-//     'small-to-medium' '(min-width: 480px) and (max-width: 767px)',
-//     'medium-to-large' '(min-width: 768px) and (max-width: 991px)',
-//     'large-to-xlarge' '(min-width: 992px) and (max-width: 1199px)',
-//     'xlarge-up' '(min-width: 1200px)',
-
-//     'medium-portrait' '(min-width: 768px) and (orientation: portrait) and (max-width : 1024px)',
-//     'medium-landscape' '(min-width: 768px) and (orientation: landscape)  and (max-width : 1024px)'
-// );
-
-
-
-
-// /*
-//  * The core mygov styles. These core styles are required for correct display of
-//  * all of the MyGov Assets components.
-//  */
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/core";
-// @import "../patternlib/_scss/base/settings/settings.colors";
-// $lightest: 100;
-// @import "helpers/helper.overflows";
 
 
 
@@ -128,24 +87,3 @@
 //  */
 // @import "overrides/override.card";
 // @import "overrides/override.category-item";
-
-
-
-
-
-// .breadcrumbs__item:after {
-//     content: none;
-// }
-// .breadcrumbs__item:not(:first-child):before {
-//     content: "";
-//     display: inline-block;
-//     width: 5px;
-//     height: 5px;
-//     margin: 0 4px 2px 2px;
-//     -webkit-transform: rotate(45deg);
-//     -ms-transform: rotate(45deg);
-//     transform: rotate(45deg);
-//     border: solid;
-//     border-width: 1px 1px 0 0;
-//     border-color: $color__grey--base;
-// }

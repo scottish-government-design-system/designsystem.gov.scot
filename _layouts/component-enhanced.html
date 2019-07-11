@@ -9,117 +9,119 @@
 
 <div id="body-wrapper" class="body-wrapper">
 
-{% include header.html %}
+    {% include header.html %}
 
-<style>
-    pre {
-        white-space: pre-wrap;
-    }
-
-    @supports(display: grid) {
-
-        /*
-         * [1] h = header, s = sidebar, c = content
-         */
-        #main-content {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr);
-            grid-template-rows: max-content;
-            grid-template-areas: /*[1]*/
-                "h"
-                "s"
-                "c";
-            grid-gap: 0 30px;
+    <style>
+        pre {
+            white-space: pre-wrap;
         }
 
-        .heading {
-            grid-area: h;
-        }
+        @supports(display: grid) {
 
-        .content {
-            grid-area: c;
-        }
-
-        .sidebar {
-            grid-area: s;
-        }
-
-        @media (min-width: 768px) {
+            /*
+            * [1] h = header, s = sidebar, c = content
+            */
             #main-content {
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-areas:
-                    '. . . h h h h h h h h h'
-                    's s s c c c c c c c c c';
+                display: grid;
+                grid-template-columns: minmax(0, 1fr);
+                grid-template-rows: max-content;
+                grid-template-areas: /*[1]*/
+                    "h"
+                    "s"
+                    "c";
+                grid-gap: 0 30px;
+            }
+
+            .heading {
+                grid-area: h;
+            }
+
+            .content {
+                grid-area: c;
+            }
+
+            .sidebar {
+                grid-area: s;
+            }
+
+            @media (min-width: 768px) {
+                #main-content {
+                    grid-template-columns: repeat(12, 1fr);
+                    grid-template-areas:
+                        '. . . h h h h h h h h h'
+                        's s s c c c c c c c c c';
+                }
+            }
+
+            @media (min-width: 992px) {
+                #main-content {
+                    grid-template-columns: repeat(12, 1fr);
+                    grid-template-areas:
+                        '. . . h h h h h h h . .'
+                        's s s c c c c c c c . .';
+                }
             }
         }
+    </style>
 
-        @media (min-width: 992px) {
-            #main-content {
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-areas:
-                    '. . . h h h h h h h . .'
-                    's s s c c c c c c c . .';
-            }
-        }
-    }
-</style>
+    <div class="wrapper">
 
-<div class="wrapper">
+        <main id="main-content">
 
-    <main id="main-content">
+            <header class="heading">
+                <div class="page-header">
+                    {% if page.label %}
+                        <span class="page-header__label  content-label">{{ page.label }}</span>
+                    {% endif %}
+                    <h1 class="page-header__title">{{ page.title }}</h1>
+                </div>
+            </header>
 
-        <header class="heading">
-            <div class="page-header">
-                {% if page.label %}
-                    <span class="page-header__label  content-label">{{ page.label }}</span>
+            <div class="content">
+
+                {% if page.summary %}
+                    <p class="leader">
+                        {{ page.summary }}
+                    </p>
                 {% endif %}
-                <h1 class="page-header__title">{{ page.title }}</h1>
+
+                {% include example-frame.html name="main" %}
+
+                {% if page.examples %}
+                    <style>
+                    .live-examples {
+                        font-size: 0.8em;
+                        border-left: 4px solid #0065bd;
+                        margin: 35px 0;
+                        padding: 3px 35px 4px 10px;
+                    }
+
+                    .live-examples__item {
+                        margin-bottom: 0;
+                    }
+                    </style>
+                    <aside class="live-examples">
+                        {% assign examplessize = page.examples | size %}
+
+                        <h3>Live example{% unless examplessize == 1%}s{% endunless %}</h3>
+                        {% for item in page.examples %}
+                            <p class="live-examples__item">
+                                {{item.site}}: <a href="{{item.url}}">{{item.name}}</a>
+                            </p>
+                        {% endfor %}
+                    </aside>
+                {% endif %}
+
+                {{content}}
             </div>
-        </header>
 
-        <div class="content">
+            <div class="sidebar">
+                {% assign navitems = page.category %}
+                {% include component-page-group.html %}
+            </div>
+        </main>
+    </div>
 
-            {% if page.summary %}
-                <p class="leader">
-                    {{ page.summary }}
-                </p>
-            {% endif %}
-
-            {% include example-frame.html name="main" %}
-
-            {% if page.examples %}
-                <style>
-                .live-examples {
-                    font-size: 0.8em;
-                    border-left: 4px solid #0065bd;
-                    margin: 35px 0;
-                    padding: 3px 35px 4px 10px;
-                }
-
-                .live-examples__item {
-                    margin-bottom: 0;
-                }
-                </style>
-                <aside class="live-examples">
-                    {% assign examplessize = page.examples | size %}
-
-                    <h3>Live example{% unless examplessize == 1%}s{% endunless %}</h3>
-                    {% for item in page.examples %}
-                        <p class="live-examples__item">
-                            {{item.site}}: <a href="{{item.url}}">{{item.name}}</a>
-                        </p>
-                    {% endfor %}
-                </aside>
-            {% endif %}
-
-            {{content}}
-        </div>
-
-        <div class="sidebar">
-            {% assign navitems = page.category %}
-            {% include component-page-group.html %}
-        </div>
-    </main>
 </div>
 
 {% include footer.html %}

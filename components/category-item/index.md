@@ -24,3 +24,8 @@ Category items can be highlighted.
 ### Without left border
 Category items can have the left border removed.
 {% include example-frame.html name="no-border" caption="Example of a category item with no left border" %}
+
+
+### TEMP SMORGASBORD
+
+{% include example-frame.html name="smorgasbord" caption="All variants in a single example for demo" %}
