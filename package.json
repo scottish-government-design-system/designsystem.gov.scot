@@ -7,8 +7,12 @@
     "email": "mygov-tech-team@gov.scot",
     "url": "http://www.mygov.scot/"
   },
+  "scripts": {
+    "svgsprites": "node svg-sprite"
+  },
   "dependencies": {},
   "devDependencies": {
-    "@scottish-government/mygov-assets": "1.0.122"
+    "@scottish-government/mygov-assets": "1.0.122",
+    "svg-sprite": "^1.4.0"
   }
 }
