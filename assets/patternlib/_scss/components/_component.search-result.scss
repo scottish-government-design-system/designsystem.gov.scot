@@ -4,7 +4,7 @@
 
 .search-result {
     &__link {
-        @include blocklink;
+        @include blocklink('.search-result__title');
 
         border: 1px solid $color__border--light;
         border-width: 1px 0;
@@ -18,21 +18,11 @@
             outline: 0;
         }
 
-        &:hover,
-        &:focus {
-            .search-result__title {
-                color: $color__link--hover;
-                text-decoration: underline;
-    
-                transition-duration: $transition-in-time;
-            }
-        }
-
         &:focus {
             z-index: 1;
         }
     }
-    
+
     &__header {
 
     }

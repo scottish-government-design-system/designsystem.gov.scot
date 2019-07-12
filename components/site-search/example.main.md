@@ -13,7 +13,8 @@ index: 0
         <label class="site-search__label visually-hidden" for="site-search">Search</label>
 
         <button type="submit" title="search" class="site-search__button  button  button--primary">
-            <img alt="" class="site-search__icon" src="/assets/images/icons/search-white_@2x.png">
+            <svg class="icon  site-search__icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>
+
             <span class="visually-hidden">Search mygov.scot</span>
         </button>
     </form>

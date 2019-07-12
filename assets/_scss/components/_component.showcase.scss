@@ -9,7 +9,7 @@
 .showcase__item {
     font-size: calc(1400% / 19);
     line-height: 21px;
-    margin-bottom: 30px;
+    margin-bottom: $grid-gap;
 }
 
 .showcase__iframe {
@@ -21,6 +21,6 @@
     .showcase {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        grid-gap: 0 30px;
+        grid-gap: 0 $grid-gap;
     }
 }

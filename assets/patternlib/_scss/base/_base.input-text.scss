@@ -1,5 +1,7 @@
 /*------------------------------------*\
     INPUT TEXT
+    Temporary until we define form fields more fully
+    Required for styling of search field
 \*------------------------------------*/
 
 input[type="text"] {
@@ -10,5 +12,6 @@ input[type="text"] {
 
     &:focus {
         background-color: $color__input--focus-background;
+        outline: 2px solid $color__brand--secondary;
     }
 }

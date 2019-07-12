@@ -1,7 +1,5 @@
 'use strict';
 
-document.body.classList.add('js-enabled');
-
 const searchBoxComponent = {
     init: function () {
         const collapsibleSearchBoxes = document.querySelectorAll('.site-search--collapsible');

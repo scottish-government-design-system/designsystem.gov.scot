@@ -25,7 +25,7 @@ $category-item__border-color--hover: $color__link--hover !default;
     }
 
     &__link {
-        @include blocklink--transparent;
+        @include blocklink--transparent('.category-item__title');
 
         border-left: 1px solid mix($category-item__border-color, $color__grey--lighter, 30%);
         padding: 7px 15px;
@@ -35,10 +35,6 @@ $category-item__border-color--hover: $color__link--hover !default;
 
         &:hover {
             border-color: $category-item__border-color--hover;
-
-            .category-item__title {
-                text-decoration: underline;
-            }
         }
 
         &:active {
@@ -57,59 +53,6 @@ $category-item__border-color--hover: $color__link--hover !default;
         .category-item__link {
             border-left: 0;
             padding-left: 0;
-        }
-    }
-
-    &--card {
-        display: flex;
-
-        .category-item__link {
-            @include blocklink;
-
-            border-left: 0;
-            box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-            padding: 21px 15px;
-            position: relative;
-            transition-property: background-color, box-shadow;
-
-            &:hover {
-                box-shadow: 1px 1px 4px rgba(0,0,0,0.25);
-            }
-
-            &:hover:not(:active) {
-                background-color: $color__white;
-            }
-        }
-
-        &--border,
-        &--gradient {
-            .category-item__link {
-                &:after {
-                    bottom: 0;
-                    content: '';
-                    height: 0;
-                    left: 0;
-                    position: absolute;
-                    right: 0;
-                    transition: height $transition-in-time;
-                }
-
-                &:hover:after {
-                    height: 5px;
-                }
-            }
-        }
-
-        &--border {
-            .category-item__link:after {
-                background-color: $color__brand--primary;
-            }
-        }
-
-        &--gradient {
-            .category-item__link:after {
-                background: linear-gradient(to right, $color__brand--primary, $color__brand--secondary);
-            }
         }
     }
 }

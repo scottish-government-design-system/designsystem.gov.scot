@@ -8,7 +8,7 @@
 
 .welcome {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: $grid-gap;
     grid-template-areas:
         "heading heading video"
         "intro button video";

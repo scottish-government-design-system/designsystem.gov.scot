@@ -1,15 +1,13 @@
 @charset "utf-8";
 
-// $color__brand--primary: #A51765;
-// $color__brand--secondary: #F0A75A;
-// $color__link: $color__brand--primary;
-// $color__link--hover: $color__brand--primary;
+
+
 
 /**
  * GRID/LAYOUT
  */
-
 @import "../patternlib/_scss/base";
+@import "base/base.page";
 
 
 
@@ -19,45 +17,23 @@
  */
 @import "helpers/helper.overflows"; //<-- this is a candidate for inclusion in pattern lib
 
-
 /*
  * Temporary components to be replaced w/ pattern lib versions
  */
 @import "_temp/library-additions/component.hero-header";
 
 
+
+// temp definition to be deleted after mygov-assets removed
+$color__link--primary: $color__link;
+
+// temp definition to be deleted after mygov-assets removed
+$images-path: '';
+@import "../../node_modules/@scottish-government/mygov-assets/scss/tools/tools.mixins.scss";
+@import "../../node_modules/@scottish-government/mygov-assets/scss/helpers/_helper.visibility.scss";
 /**
- * COMPONENTS
+ * COMPONENTS FROM MYGOV ASSETS
  */
-@import "../patternlib/_scss/components/component.breadcrumbs";
-@import "../patternlib/_scss/components/component.card";
-@import "../patternlib/_scss/components/component.category-item";
-@import "../patternlib/_scss/components/component.category-lists";
-@import "../patternlib/_scss/components/component.content-label";
-@import "../patternlib/_scss/components/component.metadata";
-@import "../patternlib/_scss/components/component.page-header";
-@import "../patternlib/_scss/components/component.sequential-navigation";
-@import "../patternlib/_scss/components/component.site-branding";
-@import "../patternlib/_scss/components/component.site-search";
-@import "../patternlib/_scss/components/site-header";
-
-@import "components/component.example";
-@import "components/component.site-footer";
-
-
-
-
-
-
-// /**
-//  * COMPONENTS
-//  */
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.article-header";
-// @import "../patternlib/_scss/components/component.site-branding";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.breadcrumbs";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.card";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.category-item";
-// @import "components/component.example";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.expand";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.expandable";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.external-links";
@@ -65,25 +41,44 @@
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.in-article-form";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.informational-notes";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.listed-content-item";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.page-group";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.page-nav";
+@import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.page-group";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.person";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.related-items";
-// @import "components/component.site-footer";
-// @import "../patternlib/_scss/components/site-header";
-// @import "../patternlib/_scss/components/component.site-search";
 // @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.skip-links";
 
+
+
+
+/**
+ * COMPONENTS FOR PATTERN LIBRARY SITE NOT IN PATTERN LIBRARY STYLES (YET?)
+ */
+@import "components/component.example";
+@import "components/component.site-footer";
+
+
+
+
 // /* for homepage */
-// @import "components/component.case-study";
-// @import "components/component.showcase";
-// @import "components/component.sub-banner";
-// @import "components/component.users";
-// @import "components/component.welcome";
+@import "components/component.case-study";
+@import "components/component.showcase";
+@import "components/component.sub-banner";
+@import "components/component.users";
+@import "components/component.welcome";
 
 
-// /**
-//  * OVERRIDES
-//  */
-// @import "overrides/override.card";
-// @import "overrides/override.category-item";
+
+
+/**
+ * COMPONENTS FROM PATTERN LIBRARY
+ */
+@import "../patternlib/_scss/components/component.breadcrumbs";
+@import "../patternlib/_scss/components/component.category-item";
+@import "../patternlib/_scss/components/component.category-item--card";
+@import "../patternlib/_scss/components/component.category-lists";
+@import "../patternlib/_scss/components/component.content-label";
+@import "../patternlib/_scss/components/component.metadata";
+@import "../patternlib/_scss/components/component.page-header";
+@import "../patternlib/_scss/components/component.sequential-navigation";
+@import "../patternlib/_scss/components/component.site-branding";
+@import "../patternlib/_scss/components/component.site-header";
+@import "../patternlib/_scss/components/component.site-search";

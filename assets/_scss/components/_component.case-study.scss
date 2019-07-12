@@ -8,13 +8,13 @@
 
 .case-studies {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: $grid-gap;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .case-study {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: $grid-gap;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 

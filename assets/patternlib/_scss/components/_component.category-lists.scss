@@ -1,3 +1,7 @@
+/*------------------------------------*\
+    CATEGORY LIST
+\*------------------------------------*/
+
 .category-list-container {
     margin: 28px 0;
 }
@@ -8,21 +12,20 @@
     overflow: hidden;
     padding: 7px;
 
-    &--highlight {
-        border-bottom: 1px solid $color__border--light;
-        margin-bottom: 35px;
+    > * {
+        margin-bottom: $grid-gap;
     }
 
-    > * {
-        margin-bottom: 30px;
+    & + & {
+        margin-top: calc(#{$grid-gap} - 7px);
     }
 }
 
 @include media-query(medium) {
     .category-list--grid > * {
         float: left;
-        width: calc(50% - 30px);
-        margin-left: 30px;
+        width: calc(50% - $grid-gap);
+        margin-left: $grid-gap;
 
         &:nth-child(2n+1) {
             clear: left;
@@ -33,15 +36,19 @@
     .category-list--grid--narrow > * {
         margin-left: 10px;
     }
+
+    .category-list--grid .category-item--card .category-item__link {
+        min-height: 186px;
+    }
 }
 
 @include media-query(large) {
     .category-list--grid > * {
-        width: calc(33% - 30px);
+        width: calc(33% - $grid-gap);
 
         &:nth-child(n) {
             clear: none;
-            margin-left: 30px;
+            margin-left: $grid-gap;
         }
 
         &:nth-child(3n+1) {
@@ -72,10 +79,10 @@
     .category-list--grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 30px;
+        grid-gap: $grid-gap;
 
         &--narrow {
-            grid-gap: 10px;
+            grid-gap: $grid-gap--narrow;
         }
     }
 

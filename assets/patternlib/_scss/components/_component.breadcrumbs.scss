@@ -23,17 +23,8 @@ $breadcrumbs__font-size: $small-size--absolute !important;
 }
 
 .breadcrumbs__item:not(:first-child):before {
-    content: "";
-    display: inline-block;
-    width: 5px;
-    height: 5px;
+    @include chevron(right, 7px, 1px);
     margin: 0 4px 2px 2px;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    border: solid;
-    border-width: 0px 1px 1px 0;
-    border-color: currentColor;
 }
 
 .breadcrumbs__container {

@@ -17,7 +17,7 @@ Items in the grid should be presented in a sensible order, with more important i
 
 Presenting category items in a grid format makes the best use of available space in the page.
 
-Providing a the title and the summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group. Reusing category items in multiple navigation patterns helps to create a consistent user experience.
+Providing the title and the summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group. Reusing category items in multiple navigation patterns helps to create a consistent user experience.
 
 ## Responsive variations
 

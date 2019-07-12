@@ -3,9 +3,6 @@
     previous and next buttons
 \*------------------------------------*/
 
-
-
-
 $page-nav__icon-color: $color__link !default;
 $page-nav__icon-hover: $color__link--hover !default;
 $page-nav__prefix-color: $color__blue--darker !default;
@@ -28,9 +25,8 @@ $page-nav__icon-size: 56px;
     float: right;
 }
 
-
 .sequential-nav__button {
-    @include blocklink;
+    @include blocklink('.sequential-nav__text');
 
     background: transparent;
     border-radius: 8px;
@@ -48,8 +44,40 @@ $page-nav__icon-size: 56px;
       display: none;
     }
 
+    &--left {
+        padding-left: ($page-nav__icon-size + 5px + 12px);
+        text-align: left;
+
+        &:before {
+            left: 5px;
+        }
+
+        &:after {
+            @include chevron(left, 30px, 5px);
+            color: $color__white;
+            left: 25px;
+            position: absolute;
+            top: 29px;
+        }
+    }
+
     &--right {
         text-align: right;
+        float: right;
+        padding-right: ($page-nav__icon-size + 5px + 12px);
+        text-align: right;
+
+        &:before {
+            right: 5px;
+        }
+
+        &:after {
+            @include chevron(right, 30px, 5px);
+            color: $color__white;
+            position: absolute;
+            top: 29px;
+            right: 25px;
+        }
     }
 
     // Shared styles for left and right variations
@@ -68,66 +96,9 @@ $page-nav__icon-size: 56px;
 
       transition: background-color $transition-out-time;
     }
-
-    // :after is the chevron
-    &--left:after,
-    &--right:after {
-        background: none;
-        border: solid;
-        border-color: $color__white;
-        content: "";
-        display: inline-block;
-        height: 21px;
-        position: absolute;
-        top: 29px;
-        width: 21px;
-    }
-
-    &--left:after {
-        border-width: 5px 0 0 5px;
-        margin-left: 21px;
-        transform: rotate(-45deg);
-    }
-
-    &--right:after {
-        border-width: 0 5px 5px 0;
-        margin-right: 21px;
-        transform: rotate(-45deg);
-    }
-
-    // Left button variation
-    // BEGIN: page-nav__button--left
-    &--left {
-      padding-left: ($page-nav__icon-size + 5px + 12px);
-      text-align: left;
-
-      &:before,
-      &:after {
-          left: 5px;
-      }
-    }
-    // END: sequential-nav__button--left
-
-    // Right button variation
-    // BEGIN: sequential-nav__button--right
-    &--right {
-      float: right;
-      padding-right: ($page-nav__icon-size + 5px + 12px);
-      text-align: right;
-
-      &:before,
-      &:after {
-        right: 5px;
-      }
-    }
-    // END: sequential-nav__button--right
 }
 
 .sequential-nav__button:hover {
-    .page-nav__text {
-        text-decoration: underline;
-    }
-
     &:before {
         background-color: $page-nav__icon-hover;
     }
@@ -161,11 +132,21 @@ $page-nav__icon-size: 56px;
 @supports(display: grid) {
     .sequential-nav {
         display: grid;
-        grid-gap: 30px;
+        grid-gap: $grid-gap;
         grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'prev next';
     }
 
     .sequential-nav__item {
         float: none;
+
+        &--prev {
+            grid-area: prev;
+        }
+
+        &--next {
+            grid-area: next;
+        }
     }
+
 }

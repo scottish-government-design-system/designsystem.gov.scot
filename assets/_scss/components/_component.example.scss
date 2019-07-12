@@ -29,7 +29,7 @@ $example__highlight-color: $color__blue--lighter !default;
 .example__iframe {
     border: 0;
     display: block;
-    width: calc(100% - 1px);
+    width: 100%;
 }
 
 .example__pre {
@@ -54,22 +54,6 @@ $example__highlight-color: $color__blue--lighter !default;
     font-size: 0.8em;
     padding: 3px 15px 4px;
     position: absolute;
-}
-
-.linklike {
-    color: $color__link;
-    cursor: pointer;
-    transition: color 1s, background-color 1s;
-
-    &:hover {
-        color: $color__link--hover;
-        text-decoration: underline;
-        transition-duration: 0.2s;
-    }
-
-    &:active {
-        transition-duration: 0;
-    }
 }
 
 @supports (display: grid) {
@@ -104,6 +88,7 @@ $example__highlight-color: $color__blue--lighter !default;
                 line-height: 28px;
                 margin: 0;
                 padding: 7px 15px;
+                position: relative;
                 transition: color 0.2s, background-color 0.2s;
 
                 /*TEMP*/
@@ -124,6 +109,13 @@ $example__highlight-color: $color__blue--lighter !default;
                     background-color: $color__blue--light;
                     transition-duration: 0;
                 }
+
+                & .expand-icon {
+                    @include chevron(down);
+                    position: absolute;
+                    right: 15px;
+                    top: 10px;
+                }
             }
 
             &__tab:not(:nth-of-type(1)) {
@@ -141,6 +133,11 @@ $example__highlight-color: $color__blue--lighter !default;
 
                 &:hover:not(:active) {
                     background-color: $example__highlight-color;
+                }
+
+                & .expand-icon {
+                    transform: rotateX(180deg) rotateZ(135deg);
+                    top: 17px;
                 }
             }
 
@@ -199,4 +196,18 @@ $example__highlight-color: $color__blue--lighter !default;
 
 .hljs {
     background-color: transparent !important;
+}
+
+
+
+
+
+
+
+
+.details[open] > .details__summary .details__summary-icon {
+    -webkit-transform: rotateX(180deg) rotateZ(135deg);
+    -ms-transform: rotateX(180deg) rotateZ(135deg);
+
+    top: 23px;
 }

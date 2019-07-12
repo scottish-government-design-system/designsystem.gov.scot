@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
  * BLOCKLINK
  * to enforce consistency on block-style links (search results, category items, etc) include this mixin
  */
-@mixin blocklink {
+@mixin blocklink($linklike-selector: '.linklike') {
     background-color: $color__white;
     display: block;
     transition: background-color $transition-out-time;
@@ -64,6 +64,7 @@ h1, h2, h3, h4 {
     &:focus {
         background-color: $color__blocklink-bg--hover;
         transition-duration: $transition-in-time;
+        outline: 0;
     }
 
     &:active {
@@ -75,10 +76,23 @@ h1, h2, h3, h4 {
     &.current {
         background-color: $color__blocklink-bg--current;
     }
+
+    #{$linklike-selector} {
+        transition: color $transition-out-time;
+    }
+
+    &:hover,
+    &:focus {
+        #{$linklike-selector} {
+            color: $color__link--hover;
+            text-decoration: underline;
+            transition-duration: $transition-in-time;
+        }
+    }
 }
 
-@mixin blocklink--transparent {
-    @include blocklink;
+@mixin blocklink--transparent($linklike-selector: '.linklike') {
+    @include blocklink($linklike-selector);
 
     background-color: transparent;
 

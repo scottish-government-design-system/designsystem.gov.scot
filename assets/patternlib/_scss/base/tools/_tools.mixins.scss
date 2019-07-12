@@ -30,3 +30,29 @@
         @warn "Oops! Breakpoint ‘#{$mq}’ does not exist."
     }
 }
+
+@mixin chevron($orientation: down, $size: 1em, $width: 3px) {
+    $rotate: 0;
+    @if $orientation == up {
+        $rotate: -45deg;
+    } @else if $orientation == right {
+        $rotate: 45deg;
+    } @else if $orientation == down {
+        $rotate: 135deg;
+    } @else if $orientation == left {
+        $rotate: 225deg;
+    }
+
+    $linesize: #{$size * 1.414214 * 0.5};
+
+    border: $width solid currentColor;
+    border-width: $width $width 0 0;
+    content: "";
+    display: inline-block;
+    height: $linesize;
+    -webkit-transform: rotateX(0) rotateZ(#{$rotate});
+    -ms-transform: rotateX(0) rotateZ(#{$rotate});
+    transform: rotateX(0) rotateZ(#{$rotate});
+    transition: transform 0.2s, top 0.2s;
+    width: $linesize;
+}

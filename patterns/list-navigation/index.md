@@ -15,4 +15,4 @@ Items in the list should be presented in a sensible order, with more important i
 
 ## Design rationale
 
-Providing a the title and the summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group. Reusing category items in multiple navigation patterns helps to create a consistent user experience.
+Providing the title and the summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group. Reusing category items in multiple navigation patterns helps to create a consistent user experience.
