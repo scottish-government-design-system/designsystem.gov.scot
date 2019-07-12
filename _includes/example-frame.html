@@ -38,7 +38,7 @@
             {% assign filename = 'example.' | append: include.name | append: '.md' %}
             {% for item in indexed %}
                 {% if item.name == filename %}
-                <h2 class="example-tabs__tab">Sample HTML</h2>
+                <h2 class="example-tabs__tab">Sample HTML <span class="expand-icon"></span></h2>
                 <div class="example-tabs__content">
                     <div>
                         <link rel="stylesheet" href="/assets/css/highlight.css">
@@ -52,7 +52,7 @@
 
             {% for item in indexed %}
                 {% if item.type == 'developers' and include.name == 'main' %}
-                    <h2 class="example-tabs__tab">Implementation notes</h2>
+                    <h2 class="example-tabs__tab">Implementation notes <span class="expand-icon"></span></h2>
                     <div class="example-tabs__content  example-tabs__content--text">
                         {{item.content}}
                     </div>

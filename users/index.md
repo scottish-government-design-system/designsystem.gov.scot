@@ -1,5 +1,5 @@
 ---
-layout: tiles
+layout: category
 title: "Users"
 parent: home
 thispage: users

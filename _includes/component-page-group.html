@@ -6,7 +6,7 @@
         {% assign navitems = page.navitems %}
     {% endunless %}
 
-    {% assign indexed = site.pages | where:"category", navitems | sort: 'title', 'first' %}
+    {% assign indexed = site.pages | where:"category", navitems | sort: 'index', 'first' | sort: 'title', 'first' %}
 
     <ul class="page-group__list no-margin js-contents">
         {% for item in indexed %}

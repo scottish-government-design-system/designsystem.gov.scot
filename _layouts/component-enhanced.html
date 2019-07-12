@@ -70,9 +70,13 @@
 
             <header class="heading">
                 <div class="page-header">
-                    {% if page.label %}
-                        <span class="page-header__label  content-label">{{ page.label }}</span>
+
+                    {% if page.category == 'components' %}
+                        <span class="page-header__label  content-label">Component</span>
+                    {% else if page.category == 'patterns' %}
+                        <span class="page-header__label  content-label">Pattern</span>
                     {% endif %}
+
                     <h1 class="page-header__title">{{ page.title }}</h1>
                 </div>
             </header>
@@ -113,6 +117,9 @@
                 {% endif %}
 
                 {{content}}
+
+                {% include component-sequential-nav.html %}
+
             </div>
 
             <div class="sidebar">
@@ -127,7 +134,6 @@
 {% include footer.html %}
 
 <script>
-document.body.classList.add('js-enabled');
 const exampleTabsets = document.querySelectorAll('.example-tabs')
 const matches = function(el, selector) {
     return (el.matches || el.matchesSelector || el.msMatchesSelector || el.mozMatchesSelector || el.webkitMatchesSelector || el.oMatchesSelector).call(el, selector);

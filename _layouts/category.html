@@ -40,6 +40,10 @@
 
 {% assign depth = depth | times:-1 %}
 
+{% if page.depth %}
+    {% assign depth = page.depth %}
+{% endif %}
+
 {% include head.html %}
 
 <body class="layout--tiles  tiles--{{depth}}">
@@ -83,7 +87,6 @@
 
 <div id="body-wrapper" class="body-wrapper">
     <div class="wrapper">
-
         <div class="category-list-container">
             {% assign depthAsString = depth | downcase %}
             <ol class="main  category-list

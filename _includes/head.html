@@ -4,7 +4,7 @@
 
     <meta name="description" content="{{ site.description }}">
 
-    <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400&display=swap' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700&display=swap' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="/assets/css/main.css?{{site.time | date: '%s'}}">
 
@@ -27,4 +27,7 @@
     })(window,document,'script','dataLayer','{{ site.gtm_code }}');</script>
     <!-- End Google Tag Manager -->
 
+    <script>
+        document.documentElement.classList.add('js-enabled');
+    </script>
 </head>

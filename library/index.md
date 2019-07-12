@@ -1,5 +1,5 @@
 ---
-layout: tiles
+layout: category
 title: "Pattern library"
 parent: home
 thispage: library
