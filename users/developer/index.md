@@ -4,7 +4,7 @@ title: "Web developer"
 describe: "I build sites"
 parent: users
 summary: "Vel facilisis volutpat est velit egestas dui id ornare. Mi quis hendrerit dolor magna eget."
-image: "developer.png"
+image: "placeholder.png"
 index: 1
 category: users
 ---

@@ -4,7 +4,7 @@ title: "Site owner"
 describe: "I own sites"
 parent: users
 summary: "Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Vitae congue eu consequat ac."
-image: "owner.png"
+image: "placeholder.png"
 index: 0
 category: users
 ---

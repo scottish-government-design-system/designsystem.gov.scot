@@ -4,7 +4,7 @@ title: "UI/UX designer"
 describe: "I design sites"
 parent: users
 summary: "Mi proin sed libero enim sed faucibus turpis in. Ac turpis egestas sed tempus urna et. Lorem ipsum dolor sit amet."
-image: "designer.png"
+image: "placeholder.png"
 index: 2
 category: users
 ---
