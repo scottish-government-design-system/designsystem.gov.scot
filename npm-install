@@ -13,7 +13,8 @@ npm() {
     $tty_opt \
     --interactive \
     --rm \
-    --user node \
+    --user $(id -u) \
+    --env HOME=/tmp \
     --volume $PWD:/mnt \
     --workdir /mnt \
     node:8.16.0-alpine \
