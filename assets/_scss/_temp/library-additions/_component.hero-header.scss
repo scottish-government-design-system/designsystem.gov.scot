@@ -1,7 +1,6 @@
 .hero-header {
     background: $color__white;
     color: $color__blue--darker;
-    padding-bottom: 28px;
     position: relative;
 
     &:after {
@@ -95,10 +94,6 @@
 }
 
 @include media-query(large) {
-    .hero-header {
-        padding-bottom: 56px;
-    }
-
     .hero-header__title {
         margin-top: 56px;
     }

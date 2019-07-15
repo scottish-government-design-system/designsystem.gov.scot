@@ -10,143 +10,144 @@
     {% include header.html %}
 </div>
 
-<div class="sub-banner">
-    <div class="wrapper">
-        <div class="sub-banner__content">
-            <div>
-                <a class="sub-banner__link" href="#">Arugula</a><!--
-                --><a class="sub-banner__link" href="#">Broccoli</a><!--
-                --><a class="sub-banner__link" href="#">Cauliflower</a>
-            </div>
-            <a class="sub-banner__link  sub-banner__link--right  link--progress" href="/library/">Take me to the library</a>
-        </div>
-    </div>
-</div>
-
-
-
-
-<style>
-body {
-    background-color: #f8f8f8;
-}
-
-.zebra:nth-child(2n) {
-    background-color: #fff; /*color__grey--lighter*/
-    border: 1px solid #ddd;
-    border-width: 1px 0;
-}
-.zebra {
-    padding: 28px 0;
-}
-</style>
-
-
-
-
-<section id="welcome" class="zebra">
-    <div class="wrapper">
-        <div class="welcome">
-            <div class="welcome__heading">
-                <h1>About the pattern library</h1>
-            </div>
-
-            <div class="welcome__intro">
-                <p>The Mygov pattern library provides static web assets for websites and web applications for
-                the Scottish Government and other Scottish public sector bodies.</p>
-            </div>
-
-            <div class="welcome__video">
-                <video></video>
-            </div>
-
-            <div class="welcome__button">
-                <a href="#" class="button  button--primary">Learn more</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-<section id="case-studies" class="zebra">
-    <div class="wrapper">
-
-        <h1>Case studies</h1>
-
-        <div class="case-studies">
-            <article class="case-study">
-                <img alt="" class="case-study__image" />
-
-                <div class="case-study__buttons">
-                    <a href="#" class="case-study__button  button  button--primary">Read more</a>
-
-                    <a href="#" class="case-study__button  button  button--secondary">View site</a>
+<main>
+    <div class="sub-banner">
+        <div class="wrapper">
+            <div class="sub-banner__content">
+                <div>
+                    <a class="sub-banner__link" href="#">Arugula</a><!--
+                    --><a class="sub-banner__link" href="#">Broccoli</a><!--
+                    --><a class="sub-banner__link" href="#">Cauliflower</a>
                 </div>
-            </article>
+                <a class="sub-banner__link  sub-banner__link--right  link--progress" href="/library/">Take me to the library</a>
+            </div>
+        </div>
+    </div>
 
-            <article class="case-study">
-                <img alt="" class="case-study__image" />
 
-                <div class="case-study__buttons">
-                    <a href="#" class="case-study__button  button  button--primary">Read more</a>
 
-                    <a href="#" class="case-study__button  button  button--secondary">View site</a>
+
+    <style>
+    body {
+        background-color: #f8f8f8;
+    }
+
+    .zebra:nth-child(2n-1) {
+        background-color: #fff; /*color__grey--lighter*/
+        border: 1px solid #ddd;
+        border-width: 1px 0;
+    }
+    .zebra {
+        padding: 28px 0;
+    }
+    </style>
+
+
+
+
+    <section id="welcome" class="zebra">
+        <div class="wrapper">
+            <div class="welcome">
+                <div class="welcome__heading">
+                    <h1>About the pattern library</h1>
                 </div>
-            </article>
+
+                <div class="welcome__intro">
+                    <p>The Mygov pattern library provides static web assets for websites and web applications for
+                    the Scottish Government and other Scottish public sector bodies.</p>
+                </div>
+
+                <div class="welcome__video">
+                    <video></video>
+                </div>
+
+                <div class="welcome__button">
+                    <a href="#" class="button  button--primary">Learn more</a>
+                </div>
+            </div>
         </div>
-
-        <!-- repeat x2 -->
-
-    </div>
-</section>
+    </section>
 
 
 
 
-<section id="users" class="zebra">
-    <div class="wrapper">
-        <h1>Users</h1>
+    <section id="case-studies" class="zebra">
+        <div class="wrapper">
 
-        <div class="users">
-            {% assign indexed = site.pages | where: "parent", "users" | sort: "index", "first" %}
+            <h1>Case studies</h1>
 
-            {% for user in indexed %}
-                <a href="{{user.url}}" class="user">
-                    <img alt="" class="user__image" src="/assets/images/people/{{user.image}}">
-                    <span class="user__description">{{user.describe}}</span>
-                </a>
-            {% endfor %}
+            <div class="case-studies">
+                <article class="case-study">
+                    <img alt="" class="case-study__image" />
+
+                    <div class="case-study__buttons">
+                        <a href="#" class="case-study__button  button  button--primary">Read more</a>
+
+                        <a href="#" class="case-study__button  button  button--secondary">View site</a>
+                    </div>
+                </article>
+
+                <article class="case-study">
+                    <img alt="" class="case-study__image" />
+
+                    <div class="case-study__buttons">
+                        <a href="#" class="case-study__button  button  button--primary">Read more</a>
+
+                        <a href="#" class="case-study__button  button  button--secondary">View site</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- repeat x2 -->
+
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="showcase" class="zebra">
-    <div class="wrapper">
-        <h1>Pattern showcase</h1>
 
-        <div class="showcase">
-            {% assign indexed = site.pages | where:"showcase", 'true' | sort: 'title', 'first' %}
 
-            {% for component in indexed %}
-            <div class="showcase__item">
-                <h2 class="gamma"><a href="{{component.url}}">{{component.title}}</a></h2>
 
-                {% assign indexed = site.pages | where:"parent", component.thispage %}
-                {% for subpage in indexed %}
-                    {% if subpage.type == 'example' %}
-                        <iframe src="components/{{component.thispage | replace: 'component.', ''}}/example.html" class="showcase__iframe" onload="resizeIframe(this)" style="height: 217px;"></iframe>
-                    {% endif %}
+    <section id="users" class="zebra">
+        <div class="wrapper">
+            <h1>Users</h1>
+
+            <div class="users">
+                {% assign indexed = site.pages | where: "parent", "users" | sort: "index", "first" %}
+
+                {% for user in indexed %}
+                    <a href="{{user.url}}" class="user">
+                        <img alt="" class="user__image" src="/assets/images/people/{{user.image}}">
+                        <span class="user__description">{{user.describe}}</span>
+                    </a>
                 {% endfor %}
-
-                <p>{{component.summary}}</p>
             </div>
-            {% endfor %}
         </div>
-    </div>
-</section>
+    </section>
 
+    <section id="showcase" class="zebra">
+        <div class="wrapper">
+            <h1>Pattern showcase</h1>
+
+            <div class="showcase">
+                {% assign indexed = site.pages | where:"showcase", 'true' | sort: 'title', 'first' %}
+
+                {% for component in indexed %}
+                <div class="showcase__item">
+                    <h2 class="gamma"><a href="{{component.url}}">{{component.title}}</a></h2>
+
+                    {% assign indexed = site.pages | where:"parent", component.thispage %}
+                    {% for subpage in indexed %}
+                        {% if subpage.type == 'example' %}
+                            <iframe src="components/{{component.thispage | replace: 'component.', ''}}/example.html" class="showcase__iframe" onload="resizeIframe(this)" style="height: 217px;"></iframe>
+                        {% endif %}
+                    {% endfor %}
+
+                    <p>{{component.summary}}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</main>
 {% include footer.html %}
 
 </body>

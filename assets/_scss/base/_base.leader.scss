@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    #LEADER TEXT
+    Oversized text for leader paragraphs or sections
+\*------------------------------------*/
+
+%leader-text {
+    color: $color__grey--dark;
+    font-size: $large-size;
+    line-height: 28px;
+    font-weight: 300;
+    margin: 0 0 28px 0;
+}
+
+.leader {
+    @extend %leader-text;
+
+    &--first-para {
+      color: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      margin: inherit;
+
+        > :first-child {
+            @extend %leader-text;
+        }
+    }
+}
+
+@include media-query(medium) {
+    %medium-leader-text {
+      line-height: 35px;
+      margin-bottom: 35px;
+    }
+
+    .leader {
+        @extend %medium-leader-text;
+
+        &--first-para {
+            color: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            margin: inherit;
+
+            > :first-child {
+                @extend %medium-leader-text;
+            }
+        }
+    }
+}

@@ -6,5 +6,4 @@ parent: library
 title: "Patterns"
 category: library
 childrenHavePrevNext: true
-depth: 0
 ---
