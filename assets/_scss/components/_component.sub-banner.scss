@@ -41,9 +41,13 @@
 }
 
 .link--progress {
-    background-image: url(/assets/images/icons/arrows/int_arrow_right_56px_@2x.png);
-    background-size: 56px;
-    background-repeat: no-repeat;
-    background-position: right center;
     padding-right: 49px;
+    position: relative;
+
+    &:after {
+        @include chevron(right);
+        right: 23px;
+        position: absolute;
+        top: 18px;
+    }
 }
