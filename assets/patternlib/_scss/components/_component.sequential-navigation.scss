@@ -17,14 +17,6 @@ $page-nav__icon-size: 56px;
     overflow: hidden;
 }
 
-.sequential-nav__item:first-child {
-    float: left;
-}
-
-.sequential-nav__item:last-child {
-    float: right;
-}
-
 .sequential-nav__button {
     @include blocklink('.sequential-nav__text');
 
@@ -32,7 +24,6 @@ $page-nav__icon-size: 56px;
     border-radius: 8px;
     display: inline-block;
     line-height: 21px;
-    margin: 14px 0;
     min-height: 91px;
     outline: none !important;
     padding: 14px 5px;
@@ -41,7 +32,34 @@ $page-nav__icon-size: 56px;
     width: 100%;
 
     &:not([href]) {
-      display: none;
+        display: none;
+    }
+
+    // Shared styles for left and right variations
+    // :before is the circle
+    &--left:before,
+    &--right:before {
+        content: '';
+        height: $page-nav__icon-size;
+        width: $page-nav__icon-size;
+        background-color: $page-nav__icon-color;
+        background-position: center;
+        border-radius: $page-nav__icon-size;
+        display: inline-block;
+        position: absolute;
+        top: 8px;
+
+        transition: background-color $transition-out-time;
+    }
+
+    // :after is the chevron
+    &--left,
+    &--right {
+        &:after {
+            color: $color__white;
+            position: absolute;
+            top: 25px;
+        }
     }
 
     &--left {
@@ -54,10 +72,7 @@ $page-nav__icon-size: 56px;
 
         &:after {
             @include chevron(left, 30px, 5px);
-            color: $color__white;
             left: 25px;
-            position: absolute;
-            top: 29px;
         }
     }
 
@@ -73,28 +88,8 @@ $page-nav__icon-size: 56px;
 
         &:after {
             @include chevron(right, 30px, 5px);
-            color: $color__white;
-            position: absolute;
-            top: 29px;
             right: 25px;
         }
-    }
-
-    // Shared styles for left and right variations
-    // :before is the circle
-    &--left:before,
-    &--right:before {
-      content: '';
-      height: $page-nav__icon-size;
-      width: $page-nav__icon-size;
-      background-color: $page-nav__icon-color;
-      background-position: center;
-      border-radius: $page-nav__icon-size;
-      display: inline-block;
-      position: absolute;
-      top: 12px;
-
-      transition: background-color $transition-out-time;
     }
 }
 
@@ -122,23 +117,34 @@ $page-nav__icon-size: 56px;
     }
 }
 
-@include media-query(medium) {
+@include media-query(small) {
     .sequential-nav {
         margin-bottom: 56px;
     }
+
+    .sequential-nav__item {
+        width: calc(50% - 15px);
+    }
+
+    .sequential-nav__item:first-child {
+        float: left;
+    }
+
+    .sequential-nav__item:last-child {
+        float: right;
+    }
 }
 
-
-@supports(display: grid) {
+@supports (display: grid) {
     .sequential-nav {
         display: grid;
         grid-gap: $grid-gap;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 'prev next';
+        grid-template-areas: 'next' 'prev';
     }
 
     .sequential-nav__item {
         float: none;
+        width: 100%;
 
         &--prev {
             grid-area: prev;
@@ -149,4 +155,10 @@ $page-nav__icon-size: 56px;
         }
     }
 
+    @include media-query (small) {
+        .sequential-nav {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 'prev next';
+        }
+    }
 }

@@ -197,17 +197,3 @@ $example__highlight-color: $color__blue--lighter !default;
 .hljs {
     background-color: transparent !important;
 }
-
-
-
-
-
-
-
-
-.details[open] > .details__summary .details__summary-icon {
-    -webkit-transform: rotateX(180deg) rotateZ(135deg);
-    -ms-transform: rotateX(180deg) rotateZ(135deg);
-
-    top: 23px;
-}

@@ -4,17 +4,23 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css">
+        {% if page.style %}
+            {{page.style}}
+        {% endif %}
+
         body {
             padding-top: 35px;
         }
 
-        .example-frame__intro {
+        .example-frame__note {
+            background: #ffb644;
+            margin: 0;
             padding: 14px 15px;
         }
 
-        {% if page.style %}
-            {{page.style}}
-        {% endif %}
+        .example-frame__content {
+            padding: 14px 15px;
+        }
     </style>
 </head>
 <body>
@@ -28,10 +34,10 @@
             {% endif %}
         </h1>
 
-        {% if page.intro %}
-            {{page.intro | markdownify}}
-        {% endif %}
 
+    </div>
+
+    <div class="example-frame__content">
         {{content}}
     </div>
 
@@ -49,4 +55,8 @@
     {% endif %}
 
     <script>if (window.top.location.pathname === '/') {document.body.style.zoom = {% if page.zoom %}{{page.zoom}}{% else %}0.5{% endif %};document.body.style.pointerEvents = 'none';document.body.style.userSelect = 'none';}</script>
+
+{% if page.note %}
+            <p class="example-frame__note">Note: {{page.note}}</p>
+        {% endif %}
 </body>
