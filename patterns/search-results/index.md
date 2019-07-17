@@ -13,6 +13,16 @@ The search results pattern also includes a pre-populated [site search](/componen
 
 Up to ten search results should be displayed on a search results page. If the results set has more than ten results, introduce a pagination component.
 
+## Accessibility
+
+Search suggestions use a number of <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes to provide additional context for screen reader users.
+
+* The link text for each suggestion is overwritten with a more descriptive `aria-label`
+* The text "Did you mean" is hidden to avoid duplication in the links
+* The suggestions are wrapped in a `nav` element with a descriptive `aria-label`
+
+Supporting evidence: Mygov accessibility review, March 2019.
+
 ## Alternative display
 
 ### No results
