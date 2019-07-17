@@ -41,9 +41,12 @@ note: This example has been truncated to three search results to conserve space.
         <li class="search-result">
             <a class="search-result__link" href="#" title="Crofting community right to buy">
                 <header class="search-result__header">
-                    <div class="search-result__metadata">
-                        <div class="search-result__label">Policy</div>
-                    </div>
+                    <dl class="metadata  metadata--inline">
+                        <span class="metadata__item  metadata__item--strong">
+                            <dt class="metadata__key  visually-hidden">Type</dt>
+                            <dd class="metadata__value  content-label">Policy</dd>
+                        </span>
+                    </dl>
 
                     <h2 class="gamma  search-result__title">Crofting community right to buy</h2>
                 </header>
@@ -55,10 +58,17 @@ note: This example has been truncated to three search results to conserve space.
         <li class="search-result">
             <a class="search-result__link" href="#" title="Crofting consultation 2017">
                 <header class="search-result__header">
-                    <div class="search-result__metadata">
-                        <div class="search-result__label">Consultation paper</div>
-                        <div class="search-result__date">28 Aug 2017</div>
-                    </div>
+                    <dl class="metadata  metadata--inline">
+                        <span class="metadata__item  metadata__item--strong">
+                            <dt class="metadata__key  visually-hidden">Type</dt>
+                            <dd class="metadata__value  content-label">Consultation paper</dd>
+                        </span>
+
+                        <span class="metadata__item">
+                            <dt class="metadata__key  visually-hidden">Publication date</dt>
+                            <dd class="metadata__value">28 Aug 2017</dd>
+                        </span>
+                    </dl>
 
                     <h2 class="gamma  search-result__title">Crofting consultation 2017</h2>
                 </header>
@@ -70,10 +80,17 @@ note: This example has been truncated to three search results to conserve space.
         <li class="search-result">
             <a class="search-result__link" href="#" title="Crofting Elections 2017: consultation responses analysis">
                 <header class="search-result__header">
-                    <div class="search-result__metadata">
-                        <div class="search-result__label">Consultation analysis</div>
-                        <div class="search-result__date">01 Sep 2016</div>
-                    </div>
+                    <dl class="metadata  metadata--inline">
+                        <span class="metadata__item  metadata__item--strong">
+                            <dt class="metadata__key  visually-hidden">Type</dt>
+                            <dd class="metadata__value  content-label">Consultation analysis</dd>
+                        </span>
+
+                        <span class="metadata__item">
+                            <dt class="metadata__key  visually-hidden">Publication date</dt>
+                            <dd class="metadata__value">01 Sep 2016</dd>
+                        </span>
+                    </dl>
 
                     <h2 class="gamma  search-result__title">Crofting Elections 2017: consultation responses analysis</h2>
                 </header>

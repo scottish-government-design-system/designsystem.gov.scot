@@ -8,7 +8,7 @@
     margin: 0;
     overflow: hidden;
 
-    &__item-title {
+    &__key {
         display: inline;
 
         &:after {
@@ -16,13 +16,52 @@
         }
     }
 
-    &__item-data {
+    &__value {
         display: inline;
         font-weight: $bold;
         margin-left: 0;
 
         > a {
             font-weight: $normal;
+        }
+    }
+}
+
+/**
+ * Alternative display collapsing the metadata into a single line
+ */
+.metadata--inline {
+    color: $color__grey--base;
+    font-size: $tiny-size;
+    line-height: 21px;
+    margin-bottom: 7px;
+
+    .metadata__item {
+        display: inline;
+        position: relative;
+    }
+
+    .metadata__item:not(:first-child) {
+        margin-left: 0.25em;
+        padding-left: 0.5em;
+
+        &:before {
+            background: currentColor;
+            bottom: 2px;
+            content: '';
+            left: 0;
+            position: absolute;
+            top: 2px;
+            width: 1px;
+        }
+    }
+
+    .metadata__value {
+        font-weight: $normal;
+
+        &.content-label {
+            color: $color__body;
+            font-weight: $bold;
         }
     }
 }

@@ -7,22 +7,22 @@ index: 0
 
 <dl class="metadata">
     <div class="metadata__item">
-        <dt class="metadata__item-title">Last updated</dt>
-        <dd class="metadata__item-data">8 November 2016</dd>
+        <dt class="metadata__key">Last updated</dt>
+        <dd class="metadata__value">8 November 2016</dd>
     </div>
 
     <div class="metadata__item">
-        <dt class="metadata__item-title">Directorate</dt>
-        <dd class="metadata__item-data"><a href="#">Early Learning and Childcare Programme Directorate</a></dd>
+        <dt class="metadata__key">Directorate</dt>
+        <dd class="metadata__value"><a href="#">Early Learning and Childcare Programme Directorate</a></dd>
     </div>
 
     <div class="metadata__item">
-        <dt class="metadata__item-title">Part of</dt>
-        <dd class="metadata__item-data"><a href="#">Education</a></dd>
+        <dt class="metadata__key">Part of</dt>
+        <dd class="metadata__value"><a href="#">Education</a></dd>
     </div>
 
     <div class="metadata__item">
-        <dt class="metadata__item-title">ISBN</dt>
-        <dd class="metadata__item-data">9781839600005</dd>
+        <dt class="metadata__key">ISBN</dt>
+        <dd class="metadata__value">9781839600005</dd>
     </div>
 </dl>
