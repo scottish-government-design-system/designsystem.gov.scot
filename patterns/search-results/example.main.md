@@ -42,7 +42,7 @@ note: This example has been truncated to three search results to conserve space.
             <a class="search-result__link" href="#" title="Crofting community right to buy">
                 <header class="search-result__header">
                     <dl class="metadata  metadata--inline">
-                        <span class="metadata__item  metadata__item--strong">
+                        <span class="metadata__item">
                             <dt class="metadata__key  visually-hidden">Type</dt>
                             <dd class="metadata__value  content-label">Policy</dd>
                         </span>
@@ -59,7 +59,7 @@ note: This example has been truncated to three search results to conserve space.
             <a class="search-result__link" href="#" title="Crofting consultation 2017">
                 <header class="search-result__header">
                     <dl class="metadata  metadata--inline">
-                        <span class="metadata__item  metadata__item--strong">
+                        <span class="metadata__item">
                             <dt class="metadata__key  visually-hidden">Type</dt>
                             <dd class="metadata__value  content-label">Consultation paper</dd>
                         </span>
@@ -81,7 +81,7 @@ note: This example has been truncated to three search results to conserve space.
             <a class="search-result__link" href="#" title="Crofting Elections 2017: consultation responses analysis">
                 <header class="search-result__header">
                     <dl class="metadata  metadata--inline">
-                        <span class="metadata__item  metadata__item--strong">
+                        <span class="metadata__item">
                             <dt class="metadata__key  visually-hidden">Type</dt>
                             <dd class="metadata__value  content-label">Consultation analysis</dd>
                         </span>
