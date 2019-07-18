@@ -4,7 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patternlibrary.mygov.scot" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #scotgov
 github_username: #scottishgovernment
-gtm_code: #GTM-PW52KXS
+gtm_code: GTM-KB7CX3S
+examples_gtm_code: GTM-5S47S9Z
 sass:
     sass_dir: assets/_scss
 host: 0.0.0.0
@@ -13,7 +14,6 @@ markdown: kramdown
 plugins:
 #  - jekyll-sitemap
 #  - jekyll-redirect-from
-
 collections:
   site-furniture:
     output: true
