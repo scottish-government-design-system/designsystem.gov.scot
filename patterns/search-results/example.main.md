@@ -26,7 +26,7 @@ note: This example has been truncated to three search results to conserve space.
 
     <ul>
         <li>
-            <a aria-label="Did you mean 'crafting'?" href="#">crafting</a>
+            <a data-suggestion-position="1/3" aria-label="Did you mean 'crafting'?" href="#">crafting</a>
         </li>
     </ul>
 </nav>
@@ -37,9 +37,9 @@ note: This example has been truncated to three search results to conserve space.
 
     <p class="search-results__count js-search-results-count"><b>68</b> results</p>
 
-    <ol id="search-results-list" class="search-results__list">
+    <ol id="search-results-list" class="search-results__list" data-search-term="crofting">
         <li class="search-result">
-            <a class="search-result__link" href="#" title="Crofting community right to buy">
+            <a class="search-result__link" data-search-result="1/68" href="#" title="Crofting community right to buy">
                 <header class="search-result__header">
                     <dl class="metadata  metadata--inline">
                         <span class="metadata__item">
@@ -56,7 +56,7 @@ note: This example has been truncated to three search results to conserve space.
         </li>
 
         <li class="search-result">
-            <a class="search-result__link" href="#" title="Crofting consultation 2017">
+            <a class="search-result__link" data-search-result="2/68" href="#" title="Crofting consultation 2017">
                 <header class="search-result__header">
                     <dl class="metadata  metadata--inline">
                         <span class="metadata__item">
@@ -78,7 +78,7 @@ note: This example has been truncated to three search results to conserve space.
         </li>
 
         <li class="search-result">
-            <a class="search-result__link" href="#" title="Crofting Elections 2017: consultation responses analysis">
+            <a class="search-result__link" data-search-result="3/68" href="#" title="Crofting Elections 2017: consultation responses analysis">
                 <header class="search-result__header">
                     <dl class="metadata  metadata--inline">
                         <span class="metadata__item">
