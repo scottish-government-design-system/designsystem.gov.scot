@@ -54,7 +54,6 @@ $images-path: '';
  * COMPONENTS FOR PATTERN LIBRARY SITE NOT IN PATTERN LIBRARY STYLES (YET?)
  */
 @import "components/component.example";
-@import "components/component.site-footer";
 
 
 
@@ -81,5 +80,9 @@ $images-path: '';
 @import "../patternlib/_scss/components/component.page-header";
 @import "../patternlib/_scss/components/component.sequential-navigation";
 @import "../patternlib/_scss/components/component.site-branding";
+@import "../patternlib/_scss/components/component.site-footer";
 @import "../patternlib/_scss/components/component.site-header";
 @import "../patternlib/_scss/components/component.site-search";
+
+// temp highlight for links with no target
+a[href=''] {color: $color__red--base; cursor: not-allowed; pointer-events: none;}

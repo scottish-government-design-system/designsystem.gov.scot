@@ -34,23 +34,7 @@ $site-search__height: 42px !default;
     position: relative;
     text-decoration: none;
 
-    &:after {
-        background-color: currentColor;
-        bottom: -6px;
-        content: '';
-        height: 2px;
-        left: 50%;
-        opacity: 0;
-        position: absolute;
-        right: 50%;
-        transition: left $transition-in-time, right $transition-in-time, opacity $transition-in-time;
-    }
-
-    &:hover:after {
-        left: 0;
-        opacity: 1;
-        right: 0;
-    }
+    @include fancy-underscore(2px);
 }
 
 /*

@@ -1,3 +1,11 @@
+---
+layout: example
+parent: pattern.site-footer
+type: example
+index: 0
+style: '.example-frame__content {padding: 28px 0 0 0;}'
+---
+
 <footer class="site-footer">
     <div class="wrapper">
         <div class="site-footer__content">

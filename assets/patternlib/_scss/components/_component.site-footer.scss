@@ -1,0 +1,114 @@
+/*------------------------------------*\
+    SITE FOOTER
+\*------------------------------------*/
+
+$site-footer__background: $color__brand--secondary !default;
+$site-footer__link-highlight: $color__brand--primary !default;
+
+
+
+
+.site-footer {
+    background-color: $site-footer__background;
+    color: $color__white;
+    font-size: $small-size;
+    line-height: 21px;
+    padding-bottom: 35px;
+
+    &__site-items {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: $small-size--fixed;
+        font-weight: $bold;
+        list-style-type: none;
+        margin: 0 0 21px;
+        padding-bottom: 21px;
+        padding-top: 21px;
+    }
+
+    &__copyright {
+        &-logo {
+            display: block;
+            margin-bottom: 7px;
+            width: 35px;
+
+            @include fancy-underscore();
+        }
+    }
+
+    &__org {
+        max-width: 150px;
+        position: relative;
+    }
+
+    &__org-link {
+        display: block;
+
+        @include fancy-underscore();
+    }
+
+    a {
+        color: currentColor !important;
+
+        &:active {
+            background-color: $site-footer__link-highlight;
+            outline-color: $site-footer__link-highlight;
+        }
+    }
+}
+
+.site-items {
+    &__list {}
+
+    &__item {
+        display: inline;
+
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+}
+
+@include media-query(medium) {
+    .site-footer {
+        &__copyright {
+            padding-left: 45px;
+            position: relative;
+
+            &-logo {
+                position: absolute;
+                left: 0;
+                top: 2px;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+        .site-footer {
+            &__content {
+                display: grid;
+                grid-gap: 0 30px;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-areas: 'a a a a a a a a a a a a'
+                                    'b b b b b b b b . c c c';
+            }
+
+            &__site-items {
+                grid-area: a;
+            }
+
+            &__copyright {
+                grid-area: b;
+            }
+
+            &__org {
+                grid-area: c;
+                justify-self: right;
+
+                &-logo {
+                    display:block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
