@@ -14,12 +14,15 @@ $site-search__height: 42px !default;
     padding-right: #{$site-search__height + 10};
     position: relative;
     width: 100%;
+
+    & > :not(last-child) {
+        margin-right: 25px;
+    }
 }
 
 .site-branding__logo {
     float: left;
     height: 100%;
-    margin-right: 25px;
     position: relative;
 }
 
