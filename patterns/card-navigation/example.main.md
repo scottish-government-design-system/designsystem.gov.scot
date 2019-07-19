@@ -8,7 +8,7 @@ style: "body {background: #f8f8f8;}"
 
 <ol class="category-list  category-list--grid  category-list--grid--narrow">
     <li class="category-item  category-item--card">
-        <a href="#" class="category-item__link" data-gtm="item-0">
+        <a href="#" title="Environment and countryside" class="category-item__link" data-gtm="item-0">
             <h2 class="category-item__title">Environment and countryside</h2>
 
             <p class="category-item__summary">
@@ -18,7 +18,7 @@ style: "body {background: #f8f8f8;}"
     </li>
 
     <li class="category-item  category-item--card">
-        <a href="#" class="category-item__link" data-gtm="item-1">
+        <a href="#" title="Environmental Impact Assessment (EIA)" class="category-item__link" data-gtm="item-1">
             <h2 class="category-item__title">Environmental Impact Assessment (EIA)</h2>
 
             <p class="category-item__summary">
@@ -28,7 +28,7 @@ style: "body {background: #f8f8f8;}"
     </li>
 
     <li class="category-item  category-item--card">
-        <a href="#" class="category-item__link" data-gtm="item-2">
+        <a href="#" title="Farming and rural issues" class="category-item__link" data-gtm="item-2">
             <h2 class="category-item__title">Farming and rural issues</h2>
 
             <p class="category-item__summary">
@@ -38,7 +38,7 @@ style: "body {background: #f8f8f8;}"
     </li>
 
     <li class="category-item  category-item--card">    
-        <a href="#" class="category-item__link" data-gtm="item-3">
+        <a href="#" title="Waste and energy" class="category-item__link" data-gtm="item-3">
             <h2 class="category-item__title">Waste and energy</h2>
 
             <p class="category-item__summary">
@@ -48,7 +48,7 @@ style: "body {background: #f8f8f8;}"
     </li>
 
     <li class="category-item  category-item--card">
-        <a href="#" class="category-item__link" data-gtm="item-4">
+        <a href="#" title="Marine and fisheries" class="category-item__link" data-gtm="item-4">
             <h2 class="category-item__title">Marine and fisheries</h2>
 
             <p class="category-item__summary">

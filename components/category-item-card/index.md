@@ -13,6 +13,10 @@ This is a variant of [category item](/components/category-item/) that places the
 
 Cards provide a way to give greater visual prominence to a category item.
 
+## Accessibility
+
+The link element should have a title attribute containing the title text of the category item.
+
 ## Alternative display
 
 The bottom border visible when hovering over or focussing on the card can be replaced with a gradient.

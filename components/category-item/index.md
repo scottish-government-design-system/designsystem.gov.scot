@@ -15,6 +15,10 @@ Providing a the title and the summary of a piece of content helps users make the
 
 Reuse of the category item component across a number of wider patterns helps to create consistency.
 
+## Accessibility
+
+The link element should have a title attribute containing the title text of the category item.
+
 ## Alternative displays
 
 ### Highlight
