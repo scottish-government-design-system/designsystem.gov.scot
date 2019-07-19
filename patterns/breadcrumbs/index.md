@@ -22,3 +22,7 @@ The breadcrumbs pattern contains all of the accessibility features for breadcrum
 ## Web analytics and performance
 
 Include a schema.org representation of the breadcrumbs.
+
+{% include example-frame.html type="JSON-LD" no-demo="true" name="schema" caption="Example of schema.org markup" %}
+
+Add attributes to each breadcrumb link to help identify what users are clicking on.

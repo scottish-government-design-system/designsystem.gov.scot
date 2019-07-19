@@ -59,66 +59,70 @@
 
 <nav aria-role="breadcrumb">
     <ol role="navigation" class="breadcrumbs">
+        {% assign counter = 1 %}
         {% if level6 %}
         <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level6.url | replace:'index.html',''}}">
+            <a data-navigation="breadcrumb-{{counter}}" class="breadcrumbs__link" href="{{ site.baseurl }}{{level6.url | replace:'index.html',''}}">
                 {% if level6.thispage == 'home' %}
-                    Home
+                Home
                 {% else %}
-                    {{level6.title}}
+                {{level6.title}}
                 {% endif %}
             </a>
         </li>
+        {% assign counter = counter | plus: 1 %}
         {% endif %}
         {% if level5 %}
         <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level5.url | replace:'index.html',''}}">
+            <a data-navigation="breadcrumb-{{counter}}" class="breadcrumbs__link" href="{{ site.baseurl }}{{level5.url | replace:'index.html',''}}">
                 {% if level5.thispage == 'home' %}
-                    Home
+                Home
                 {% else %}
-                    {{level5.title}}
+                {{level5.title}}
                 {% endif %}
             </a>
         </li>
+        {% assign counter = counter | plus: 1 %}
         {% endif %}
         {% if level4 %}
         <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level4.url | replace:'index.html',''}}">
+            <a data-navigation="breadcrumb-{{counter}}" class="breadcrumbs__link" href="{{ site.baseurl }}{{level4.url | replace:'index.html',''}}">
                 {% if level4.thispage == 'home' %}
-                    Home
+                Home
                 {% else %}
-                    {{level4.title}}
+                {{level4.title}}
                 {% endif %}
             </a>
         </li>
+        {% assign counter = counter | plus: 1 %}
         {% endif %}
         {% if level3 %}
         <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{level3.url | replace:'index.html',''}}">
+            <a data-navigation="breadcrumb-{{counter}}" class="breadcrumbs__link" href="{{ site.baseurl }}{{level3.url | replace:'index.html',''}}">
                 {% if level3.thispage == 'home' %}
-                    Home
+                Home
                 {% else %}
-                    {{level3.title}}
+                {{level3.title}}
                 {% endif %}
             </a>
         </li>
+        {% assign counter = counter | plus: 1 %}
         {% endif %}
         {% if level2 %}
         <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ site.baseurl }}{{ level2.url | replace:'index.html',''}}">
+            <a data-navigation="breadcrumb-{{counter}}" class="breadcrumbs__link" href="{{ site.baseurl }}{{ level2.url | replace:'index.html',''}}">
                 {% if level2.thispage == 'home' %}
-                    Home
+                Home
                 {% else %}
-                    {{level2.title}}
+                {{level2.title}}
                 {% endif %}
             </a>
         </li>
+        {% assign counter = counter | plus: 1 %}
         {% endif %}
 
         <li aria-current="page" class="breadcrumbs__item">
             {{page.title}}
         </li>
-
-
     </ol>
 </nav>
