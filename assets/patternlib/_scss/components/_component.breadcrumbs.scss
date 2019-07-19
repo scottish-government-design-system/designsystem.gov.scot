@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 $breadcrumbs__color: $color__grey--base !default;
-$breadcrumbs__font-size: $small-size--absolute !important;
+$breadcrumbs__font-size: $small-size--fixed !important;
 
 
 
@@ -13,26 +13,26 @@ $breadcrumbs__font-size: $small-size--absolute !important;
     font-size: $breadcrumbs__font-size;
     padding-left: 0;
     margin: 28px 0 14px;
-}
 
-.breadcrumbs__item {
-    display: inline-block;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 0;
-}
+    &__item {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding: 0;
+    }
 
-.breadcrumbs__item:not(:first-child):before {
-    @include chevron(right, 7px, 1px);
-    margin: 0 4px 2px 2px;
-}
+    &__item:not(:first-child):before {
+        @include chevron(right, 7px, 1px);
+        margin: 0 4px 2px 2px;
+    }
 
-.breadcrumbs__container {
-    padding-top: 14px;
-}
+    &__container {
+        padding-top: 14px;
+    }
 
-@include media-query(medium) {
-    .breadcrumbs__container {
-        padding-top: 21px;
+    @include media-query(medium) {
+        &__container {
+            padding-top: 21px;
+        }
     }
 }

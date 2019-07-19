@@ -46,9 +46,9 @@ $mobile-body-margin: 15px !default;
 /**
  * GENERIC
  */
- @import "base/generic/generic.normalize";
- @import "base/generic/generic.reset";
- @import "base/generic/generic.box-sizing";
+@import "base/generic/generic.normalize";
+@import "base/generic/generic.reset";
+@import "base/generic/generic.box-sizing";
 
 
 
@@ -65,6 +65,7 @@ $mobile-body-margin: 15px !default;
 /**
  * TYPE
  */
+@import "base/base.spacing";
 @import "base/type/type.body";
 @import "base/type/type.headings";
 @import "base/type/type.links";
@@ -77,7 +78,6 @@ $mobile-body-margin: 15px !default;
  * ELEMENTS
  */
 @import "base/base.icon";
-@import "base/base.spacing";
 
 @import "base/base.abbreviations";
 @import "base/base.buttons";
