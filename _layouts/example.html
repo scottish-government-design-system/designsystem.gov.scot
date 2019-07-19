@@ -4,10 +4,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css">
-        {% if page.style %}
-            {{page.style}}
-        {% endif %}
-
         body {
             padding-top: 35px;
         }
@@ -21,6 +17,10 @@
         .example-frame__content {
             padding: 14px 15px;
         }
+
+        {% if page.style %}
+            {{page.style}}
+        {% endif %}
     </style>
 
     <!-- Google Tag Manager -->

@@ -1,3 +1,12 @@
+{% comment %}
+params:
+
+name: Name of the example to be included. Usage example: use a name of "fabulous" to include an example derived from "example.fabulous.md"
+caption: Optional caption placed above the example
+no-demo: Hides the demo iframe if set, for cases where there is no visual component (e.g. schema.org markup)
+type: String to be shown in the title of the sample code expandable, e.g. "Sample JSON-LD" (defaults to HTML if not specified)
+{% endcomment %}
+
 <figure class="example  overflow--large--2 overflow--xlarge--2">
 
     {% if include.caption %}
@@ -7,6 +16,7 @@
     {% endif %}
 
     <div class="example__content">
+        {% unless include.no-demo %}
         <div class="example__demo">
             <a class="example__link" href="example.{{include.name}}.html" target="_blank">Open this example in a new window</a>
 
@@ -24,6 +34,7 @@
                 onload="resizeIframe(this)">
             </iframe>
         </div>
+        {% endunless %}
 
         {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
         {% assign tabsCount = 1 %}
@@ -38,7 +49,14 @@
             {% assign filename = 'example.' | append: include.name | append: '.md' %}
             {% for item in indexed %}
                 {% if item.name == filename %}
-                <h2 class="example-tabs__tab">Sample HTML <span class="expand-icon"></span></h2>
+
+
+                {% if include.type %}
+                    {% assign type = include.type %}
+                {% else %}
+                    {% assign type = 'HTML' %}
+                {% endif %}
+                <h2 class="example-tabs__tab">Sample {{type}} <span class="expand-icon"></span></h2>
                 <div class="example-tabs__content">
                     <div>
                         <link rel="stylesheet" href="/assets/css/highlight.css">
