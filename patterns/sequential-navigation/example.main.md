@@ -7,21 +7,17 @@ index: 0
 
 <nav class="sequential-nav" aria-label="Article navigation">
     <div class="sequential-nav__item  sequential-nav__item--prev">
-        <a title="Previous section" href="#" class="sequential-nav__button  sequential-nav__button--left">
+        <a data-navigation="previous" title="Previous section" href="#" class="sequential-nav__button  sequential-nav__button--left">
             <span class="sequential-nav__text" data-label="previous">
-                <span class="sequential-nav__text-highlight">
-                    Apply for or renew a Blue Badge
-                </span>
+                Apply for or renew a Blue Badge
             </span>
         </a>
     </div>
 
     <div class="sequential-nav__item  sequential-nav__item--next">
-        <a title="Next section" href="#" class="sequential-nav__button  sequential-nav__button--right">
+        <a data-navigation="next" title="Next section" href="#" class="sequential-nav__button  sequential-nav__button--right">
             <span class="sequential-nav__text" data-label="next">
-                <span class="sequential-nav__text-highlight">
-                    Eligibility – who can have one?
-                </span>
+                Eligibility – who can have one?
             </span>
         </a>
     </div>

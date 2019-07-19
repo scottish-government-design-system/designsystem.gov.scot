@@ -27,11 +27,9 @@
     <nav class="sequential-nav">
         {% if prevItem %}
         <div class="sequential-nav__item  sequential-nav__item--prev">
-            <a title="Previous section" href="{{prevItem.url}}" class="sequential-nav__button  sequential-nav__button--left">
+            <a data-navigation="previous" title="Previous section" href="{{prevItem.url}}" class="sequential-nav__button  sequential-nav__button--left">
                 <span class="sequential-nav__text" data-label="previous">
-                    <span class="sequential-nav__text-highlight">
-                        {{prevItem.title}}
-                    </span>
+                    {{prevItem.title}}
                 </span>
             </a>
         </div>
@@ -39,11 +37,9 @@
 
         {% if nextItem %}
         <div class="sequential-nav__item  sequential-nav__item--next">
-            <a title="Next section" href="{{nextItem.url}}" class="sequential-nav__button  sequential-nav__button--right">
+            <a data-navigation="next" title="Next section" href="{{nextItem.url}}" class="sequential-nav__button  sequential-nav__button--right">
                 <span class="sequential-nav__text" data-label="next">
-                    <span class="sequential-nav__text-highlight">
-                        {{nextItem.title}}
-                    </span>
+                    {{nextItem.title}}
                 </span>
             </a>
         </div>
