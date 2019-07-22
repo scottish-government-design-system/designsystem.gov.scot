@@ -111,7 +111,7 @@
 
                     {% if depth == 0 %}
                         <li class="category-item  category-item--card  category-item--no-border">
-                            <a href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
+                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
                                 <h2 class="category-item__title">{{item.title}}</h2>
 
                                 <p class="category-item__summary">
@@ -119,20 +119,9 @@
                                 </p>
                             </a>
                         </li>
-                        <!-- <article class="card card--small card--hover">
-                            <a href="{{ item.url }}" class="category-item__link card__content" data-gtm="item-0">
-                                <h2 class="category-item__title">{{item.title}}</h2>
-
-                                <p class="category-item__summary">
-                                    {{ item.summary }}
-                                </p>
-                            </a>
-                        </article> -->
-
                     {% else %}
-
                         <li class="category-item">
-                            <a href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
+                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
                                 <h2 class="category-item__title">{{item.title}}</h2>
 
                                 <p class="category-item__summary">

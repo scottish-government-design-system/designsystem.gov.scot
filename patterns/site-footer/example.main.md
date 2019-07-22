@@ -11,13 +11,13 @@ style: '.example-frame__content {padding: 28px 0 0 0;}'
         <div class="site-footer__content">
             <ul class="site-footer__site-items">
                 <li class="site-items__item">
-                    <a data-footer="link" href="#">Privacy</a>
+                    <a data-footer="link-1" href="#">Privacy</a>
                 </li>
                 <li class="site-items__item">
-                    <a data-footer="link" href="#">Cookies</a>
+                    <a data-footer="link-2" href="#">Cookies</a>
                 </li>
                 <li class="site-items__item">
-                    <a data-footer="link" href="#">Accessibility</a>
+                    <a data-footer="link-3" href="#">Accessibility</a>
                 </li>
             </ul>
 
