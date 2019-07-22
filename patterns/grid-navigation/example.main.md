@@ -7,7 +7,7 @@ index: 0
 
 <ol class="category-list  category-list--grid  category-list--highlight">
     <li class="category-item  category-item--highlight">
-        <a href="#" title="Environment and countryside" class="category-item__link" data-gtm="item-0">
+        <a data-navigation="category-item-1" href="#" title="Environment and countryside" class="category-item__link">
             <h2 class="category-item__title">Environment and countryside</h2>
 
             <p class="category-item__summary">
@@ -17,7 +17,7 @@ index: 0
     </li>
 
     <li class="category-item  category-item--highlight">
-        <a href="#" title="Environmental Impact Assessment (EIA)" class="category-item__link" data-gtm="item-1">
+        <a data-navigation="category-item-2" href="#" title="Environmental Impact Assessment (EIA)" class="category-item__link">
             <h2 class="category-item__title">Environmental Impact Assessment (EIA)</h2>
 
             <p class="category-item__summary">
@@ -29,7 +29,7 @@ index: 0
 
 <ol class="category-list  category-list--grid">
     <li class="category-item">
-        <a href="#" title="Farming and rural issues" class="category-item__link" data-gtm="item-2">
+        <a data-navigation="category-item-3" href="#" title="Farming and rural issues" class="category-item__link">
             <h2 class="category-item__title">Farming and rural issues</h2>
 
             <p class="category-item__summary">
@@ -39,7 +39,7 @@ index: 0
     </li>
 
     <li class="category-item">    
-        <a href="#" title="Waste and energy" class="category-item__link" data-gtm="item-3">
+        <a data-navigation="category-item-4" href="#" title="Waste and energy" class="category-item__link">
             <h2 class="category-item__title">Waste and energy</h2>
 
             <p class="category-item__summary">
@@ -49,7 +49,7 @@ index: 0
     </li>
 
     <li class="category-item">
-        <a href="#" title="Marine and fisheries" class="category-item__link" data-gtm="item-4">
+        <a data-navigation="category-item-5" href="#" title="Marine and fisheries" class="category-item__link">
             <h2 class="category-item__title">Marine and fisheries</h2>
 
             <p class="category-item__summary">

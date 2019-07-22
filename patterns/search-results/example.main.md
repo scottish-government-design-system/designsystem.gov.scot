@@ -26,7 +26,7 @@ note: This example has been truncated to three search results to conserve space.
 
     <ul>
         <li>
-            <a data-suggestion-position="1/3" aria-label="Did you mean 'crafting'?" href="#">crafting</a>
+            <a data-suggestion-position="1/1" aria-label="Did you mean 'crafting'?" href="#">crafting</a>
         </li>
     </ul>
 </nav>
