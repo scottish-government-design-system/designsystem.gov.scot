@@ -58,12 +58,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
                 {% endif %}
                 <h2 class="example-tabs__tab">Sample {{type}} <span class="expand-icon"></span></h2>
                 <div class="example-tabs__content">
-                    <div>
-                        <link rel="stylesheet" href="/assets/css/highlight.css">
-                        <script src="/assets/scripts/highlight.pack.js"></script>
-                        <script>hljs.initHighlightingOnLoad();</script>
-                        <pre class="example__pre"><code class="example__code html">{{item.content | xml_escape}}</code></pre>
-                    </div>
+                    <pre class="example__pre"><code class="example__code html">{{item.content | xml_escape}}</code></pre>
                 </div>
                 {% endif %}
             {% endfor %}
