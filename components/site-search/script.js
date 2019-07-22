@@ -9,11 +9,11 @@ const searchBoxComponent = {
             const searchButton = searchBox.querySelector('.site-search__button');
 
             searchButton.addEventListener('click', function (event) {
-                searchInput.focus();
-                if (!searchInput.value) {
+                if (!searchInput.value && !window.ds_patterns.breakpoint('medium')) {
                     event.preventDefault();
 
                     searchBox.classList.toggle('site-search--expanded');
+                    searchInput.focus();
 
                     if (!searchBox.classList.contains('site-search--expanded')) {
                         searchInput.blur();
