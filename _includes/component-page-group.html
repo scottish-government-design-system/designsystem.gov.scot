@@ -14,11 +14,11 @@
         <li class="page-group__item">
             {% if item.title == page.title %}
             <span class="page-group__text page-group__text--no-link">
-                {{ item.title }}
+                <span class="page-group__bullet"></span> {{ item.title }}
             </span>
             {% else %}
             <a class="page-group__text page-group__text--link" href="{{ item.url }}">
-                {{ item.title }}
+                <span class="page-group__bullet"></span> {{ item.title }}
             </a>
             {% endif %}
         </li>

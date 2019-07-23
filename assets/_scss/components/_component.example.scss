@@ -91,18 +91,9 @@ $example__highlight-color: $color__blue--lighter !default;
                 position: relative;
                 transition: color 0.2s, background-color 0.2s;
 
-                /*TEMP*/
-                background-image: url(../images/icons/arrows/int_arrow_down_blue_35px_@2x.png);
-                background-repeat: no-repeat;
-                background-position: calc(100% - 10px) center;
-                background-size: 35px;
-
                 &:hover {
                     background-color: $color__grey--lighter;
                     color: $color__link--hover;
-
-                    /*TEMP*/
-                    background-image: url(../images/icons/arrows/int_arrow_down_blue_over_35px_@2x.png);
                 }
 
                 &:active {
@@ -114,7 +105,7 @@ $example__highlight-color: $color__blue--lighter !default;
                     @include chevron(down);
                     position: absolute;
                     right: 15px;
-                    top: 10px;
+                    top: 13px;
                 }
             }
 
