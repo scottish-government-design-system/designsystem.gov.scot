@@ -35,4 +35,12 @@ $breadcrumbs__font-size: $small-size--fixed !important;
             padding-top: 21px;
         }
     }
+
+    &--reversed {
+        color: $color__white;
+
+        a {
+            color: $color__white !important;
+        }
+    }
 }

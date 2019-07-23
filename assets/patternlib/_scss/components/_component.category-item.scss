@@ -40,6 +40,10 @@ $category-item__border-color--hover: $color__link--hover !default;
         &:active {
             outline: 2px solid $color__blocklink-bg--active;
         }
+
+        :last-child {
+            margin-bottom: 0;
+        }
     }
 
     &--highlight {
