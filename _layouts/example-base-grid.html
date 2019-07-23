@@ -3,8 +3,18 @@
         <link rel="stylesheet" href="/assets/css/base-only.css?{{site.time | date: '%s'}}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
+            html {
+                font-size: 16px !important;
+            }
+
             body {
                 padding-top: 35px;
+                line-height: 21px !important;
+            }
+
+            h2 {
+                line-height: 28px;
+                margin-bottom: 7px;
             }
 
             {% if page.style %}
