@@ -18,18 +18,18 @@ $example__highlight-color: $color__blue--lighter !default;
     margin-top: 28px;
 }
 
+.example__iframe {
+    border: 0;
+    display: block;
+    width: 100%;
+}
+
 .example__content {
     box-shadow: 7px 7px $example__border-color
 }
 
 .example__demo {
     border: 1px solid $example__border-color;
-}
-
-.example__iframe {
-    border: 0;
-    display: block;
-    width: 100%;
 }
 
 .example__pre {

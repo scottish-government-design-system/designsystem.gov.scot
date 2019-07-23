@@ -1,0 +1,41 @@
+{% comment %}
+params:
+
+name: Name of the example to be included. Usage example: use a name of "fabulous" to include an example derived from "example.fabulous.md"
+caption: Optional caption placed above the example
+no-demo: Hides the demo iframe if set, for cases where there is no visual component (e.g. schema.org markup)
+type: String to be shown in the title of the sample code expandable, e.g. "Sample JSON-LD" (defaults to HTML if not specified)
+{% endcomment %}
+
+<figure class="example  overflow--large--2 overflow--xlarge--2">
+
+    {% if include.caption %}
+        <figcaption class="example__caption">
+            {{include.caption}}
+        </figcaption>
+    {% endif %}
+
+
+
+    <a class="example__link" href="example.{{include.name}}.html" target="_blank">Open this example in a new window</a>
+
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 10 + 'px';
+        }
+    </script>
+
+    <iframe
+        style="min-height: {{item.minheight}}"
+        data-style="{{style}}"
+        src="example.{{include.name}}.html"
+        class="example__iframe example__content  example__demo"
+        onload="resizeIframe(this)"
+
+        {% if include.resize %}
+        style="resize: horizontal; min-width: 200px;"
+        {% endif %}>
+    </iframe>
+
+
+</figure>
