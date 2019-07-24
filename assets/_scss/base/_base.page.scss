@@ -1,6 +1,10 @@
-
 body.layout--tiles {
-    background-color: $color__grey--light;
+    background-color: $color__grey--lighter;
+}
+
+.header-wrapper {
+    background-color: $color__white;
+    border-bottom: 1px solid $color__grey--light;
 }
 
 /* hacky experiment: controls backround colors of the header, footer, and tiles' areas better when grid is supported */

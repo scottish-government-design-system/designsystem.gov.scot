@@ -24,7 +24,7 @@
 @include media-query(medium) {
     .category-list--grid > * {
         float: left;
-        width: calc(50% - $grid-gap);
+        width: calc(50% - #{$grid-gap});
         margin-left: $grid-gap;
 
         &:nth-child(2n+1) {
@@ -44,7 +44,7 @@
 
 @include media-query(large) {
     .category-list--grid > * {
-        width: calc(33% - $grid-gap);
+        width: calc(33% - #{$grid-gap});
 
         &:nth-child(n) {
             clear: none;
