@@ -11,8 +11,9 @@ index: 0
  * half-size wrappers
  */
 .wrapper {
-    padding: 0 7.5px;
+    background-color: #fafafa;
     outline: 1px dashed #ccc;
+    padding: 0 7.5px;
     position: relative;
 }
 
@@ -25,7 +26,6 @@ index: 0
 @media (min-width: 600px) {
   .wrapper {
     max-width: 585px; } }
-
 
 body:after {
     content: '';
@@ -41,6 +41,11 @@ body:after {
 .grid-column {
     background-color: #ebebeb;
     height: 100%;
+    transition: background-color 0.2s;
+}
+
+.grid-column:hover {
+    background-color: #d9effc;
 }
 
 .base-grid {
@@ -53,9 +58,16 @@ body:after {
     display: none;
 }
 
+.example-frame__content {
+    background-color: #fafafa;
+}
+
 .definition {
-    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
     display: none;
+    padding-left: 10px;
+    padding-top: 7px;
 }
 .default-defs {
     display: block;
@@ -142,23 +154,6 @@ dd {
 
 </style>
 
-<div class="wrapper">
-    <div class="base-grid">
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-        <div class="grid-column"></div>
-    </div>
-</div>
-
 <div class="definition default-defs">
     <h2>Default</h2>
     <dl>
@@ -217,4 +212,21 @@ dd {
         <dt>Container width</dt>
         <dd>1170px</dd>
     </dl>
+</div>
+
+<div class="wrapper">
+    <div class="base-grid">
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+    </div>
 </div>
