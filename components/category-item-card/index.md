@@ -4,7 +4,7 @@ title:  "Category item (card)"
 category: components
 parent: components
 thispage: component.category-item--card
-summary: ""
+summary: "A category item component displayed with a more prominent style"
 ---
 
 This is a variant of [category item](/components/category-item/) that places the category item's contents onto a card to give it greater visual prominence. It is used in [card navigation](/patterns/card-navigation/) and, just like a category item, it is never used on its own.

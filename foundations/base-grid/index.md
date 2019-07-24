@@ -4,6 +4,7 @@ title:  "Base grid"
 category: foundations
 parent: foundations
 thispage: foundation.base-grid
+summary: The column grid used for page layouts
 ---
 
 The base grid is made up of twelve columns.

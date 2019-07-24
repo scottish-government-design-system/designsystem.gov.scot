@@ -4,5 +4,5 @@ title:  "Site search"
 category: components
 parent: components
 thispage: component.site-search
-summary: ""
+summary: "A single-field search form used for site search"
 ---
