@@ -27,4 +27,4 @@ This example is intended for illustration purposes only, and the HTML and CSS co
 
 ## Design rationale
 
-Smaller devices have a fluid display make full use of the available screen space. The fixed-width containers used on larger devices allow for more consistent layouts and make sense for considerations such as recommended line length for text content.
+Smaller devices have a fluid display to make full use of the available screen space. The fixed-width containers used on larger devices allow for more consistent layouts and make sense for considerations such as recommended line length for text content.
