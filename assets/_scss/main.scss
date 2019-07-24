@@ -21,27 +21,10 @@
 
 
 
-// temp definition to be deleted after mygov-assets removed
-$color__link--primary: $color__link;
-
-// temp definition to be deleted after mygov-assets removed
-$images-path: '';
-@import "../../node_modules/@scottish-government/mygov-assets/scss/tools/tools.mixins.scss";
-@import "../../node_modules/@scottish-government/mygov-assets/scss/helpers/_helper.visibility.scss";
 /**
  * COMPONENTS FROM MYGOV ASSETS
  */
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.expand";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.expandable";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.external-links";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.file-icon";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.in-article-form";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.informational-notes";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.listed-content-item";
 @import "_temp/assets-modifications/component.page-group";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.person";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.related-items";
-// @import "../../node_modules/@scottish-government/mygov-assets/scss/components/component.skip-links";
 
 
 

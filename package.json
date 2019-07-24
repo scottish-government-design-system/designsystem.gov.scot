@@ -13,7 +13,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@scottish-government/mygov-assets": "1.0.122",
     "sealant": "0.0.3",
     "svg-sprite": "^1.4.0"
   }

@@ -33,7 +33,7 @@
     background-color: transparent !important;
     border: 1px solid $color__blue--base;
     border-width: 1px 0;
-    color: $color__link--primary;
+    color: $color__link;
     font-weight: normal;
     height: 56px;
     margin: 0 0 16px;
@@ -257,16 +257,6 @@
 
     .page-group {
       border-right: 1px solid $color__grey--light;
-
-      &:before {
-          top: 0;
-          content: '';
-          height: 64px;
-          position: absolute;
-          right: -1px;
-          width: 1px;
-          background-image: linear-gradient(to bottom, $color__white, $color__grey--light);
-      }
 
       &--right {
           border-left: 1px solid $color__grey--light;
