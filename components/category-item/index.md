@@ -11,7 +11,7 @@ Category item is a simple component that is used to populate collections of item
 
 ## Design rationale
 
-Providing a the title and the summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group.
+Providing the title and a summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group.
 
 Reuse of the category item component across a number of wider patterns helps to create consistency.
 
