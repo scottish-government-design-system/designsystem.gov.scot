@@ -9,13 +9,11 @@
   },
   "scripts": {
     "galen": "galen test tests/patterns.test",
-    "galen-dump": "galen test tests/dump.test",
     "postshrinkwrap": "node_modules/.bin/sealant",
     "svgsprites": "node svg-sprite"
   },
   "dependencies": {},
   "devDependencies": {
-    "galenframework-cli": "^2.4.4",
     "sealant": "0.0.3",
     "svg-sprite": "^1.4.0"
   }
