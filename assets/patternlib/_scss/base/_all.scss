@@ -28,10 +28,10 @@ $mobile-body-margin: 15px !default;
 /**
  * SETTINGS
  */
-@import "base/settings/settings.colors";
-@import "base/settings/settings.grid";
-@import "base/settings/settings.transition";
-@import "base/settings/settings.type";
+@import "settings/settings.colors";
+@import "settings/settings.grid";
+@import "settings/settings.transition";
+@import "settings/settings.type";
 
 
 
@@ -39,8 +39,8 @@ $mobile-body-margin: 15px !default;
 /**
  * TOOLS
  */
-@import "base/tools/tool.mixins";
-@import "base/tools/tool.breakpoint-tests";
+@import "tools/tool.mixins";
+@import "tools/tool.breakpoint-tests";
 
 
 
@@ -48,9 +48,9 @@ $mobile-body-margin: 15px !default;
 /**
  * GENERIC
  */
-@import "base/generic/generic.normalize";
-@import "base/generic/generic.reset";
-@import "base/generic/generic.box-sizing";
+@import "generic/generic.normalize";
+@import "generic/generic.reset";
+@import "generic/generic.box-sizing";
 
 
 
@@ -58,8 +58,8 @@ $mobile-body-margin: 15px !default;
 /**
  * HELPERS
  */
-@import "base/helpers/helper.visibility";
-@import "base/helpers/helper.wrappers";
+@import "helpers/helper.visibility";
+@import "helpers/helper.wrappers";
 
 
 
@@ -67,11 +67,11 @@ $mobile-body-margin: 15px !default;
 /**
  * TYPE
  */
-@import "base/base.spacing";
-@import "base/type/type.body";
-@import "base/type/type.headings";
-@import "base/type/type.links";
-@import "base/type/type.small";
+@import "base.spacing";
+@import "type/type.body";
+@import "type/type.headings";
+@import "type/type.links";
+@import "type/type.small";
 
 
 
@@ -79,8 +79,8 @@ $mobile-body-margin: 15px !default;
 /**
  * ELEMENTS
  */
-@import "base/base.icon";
+@import "base.icon";
 
-@import "base/base.abbreviations";
-@import "base/base.buttons";
-@import "base/base.input-text";
+@import "base.abbreviations";
+@import "base.buttons";
+@import "base.input-text";

@@ -1,0 +1,18 @@
+@@ set domain http://localhost:4000
+
+@@ table devices
+    |deviceName|tags  |size    |
+    |small     |small |480x320 |
+    |medium    |medium|768x500 |
+    |large     |large |992x640 |
+    |xlarge    |xlarge|1280x800|
+
+@@ parameterized using devices
+Breadcrumbs on ${deviceName} device
+    ${domain}/patterns/breadcrumbs/example.main.html   ${size}
+        check _scss/components/breadcrumbs/breadcrumbs.gspec --include "${tags}"
+
+@@ parameterized using devices
+Category header on ${deviceName} device
+    ${domain}/patterns/category-header/example.main.html   ${size}
+        check _scss/components/category-header/category-header.gspec --include "${tags}"

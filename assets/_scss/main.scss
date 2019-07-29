@@ -6,7 +6,7 @@
 /**
  * GRID/LAYOUT
  */
-@import "../patternlib/_scss/base";
+@import "../patternlib/_scss/base/all";
 @import "base/base.leader";
 @import "base/base.page";
 
@@ -50,20 +50,7 @@
 /**
  * COMPONENTS FROM PATTERN LIBRARY
  */
-@import "../patternlib/_scss/components/component.breadcrumbs";
-@import "../patternlib/_scss/components/component.category-header";
-@import "../patternlib/_scss/components/component.category-item";
-@import "../patternlib/_scss/components/component.category-item--card";
-@import "../patternlib/_scss/components/component.category-lists";
-@import "../patternlib/_scss/components/component.content-label";
-@import "../patternlib/_scss/components/component.metadata";
-@import "../patternlib/_scss/components/component.page-header";
-@import "../patternlib/_scss/components/component.sequential-navigation";
-@import "../patternlib/_scss/components/component.site-branding";
-@import "../patternlib/_scss/components/component.site-footer";
-@import "../patternlib/_scss/components/component.site-header";
-@import "../patternlib/_scss/components/component.site-search";
-@import "../patternlib/_scss/components/component.tag";
+@import "../patternlib/_scss/components/all";
 
 // temp highlight for links with no target
 a[href=''] {color: $color__red--base; cursor: not-allowed; pointer-events: none;}

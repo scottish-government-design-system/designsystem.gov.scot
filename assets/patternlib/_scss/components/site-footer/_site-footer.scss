@@ -92,7 +92,7 @@ $site-footer__link-highlight: $color__brand--secondary !default;
                 grid-gap: 0 30px;
                 grid-template-columns: repeat(12, 1fr);
                 grid-template-areas: 'a a a a a a a a a a a a'
-                                    'b b b b b b b b . c c c';
+                                     'b b b b b b b b . c c c';
             }
 
             &__site-items {

@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    NOTIFICATION BANNER
+\*------------------------------------*/
+
+.notification {
+    background: $color__gold--base;
+
+    &__content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 15px;
+    }
+
+    &__text {
+        margin-bottom: 0;
+    }
+
+    &__close {
+        align-self: start;
+        font-size: $small-size--fixed;
+        margin-left: 25px;
+    }
+}

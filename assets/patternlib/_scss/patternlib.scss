@@ -1,27 +1,5 @@
-// same breakpoints as gov.scot
-@import "base";
+@import "base/all";
+@import "components/all";
 
-
-
-
-/**
- * COMPONENTS
- */
-
-@import "components/component.breadcrumbs";
-@import "components/component.category-header";
-@import "components/component.category-item";
-@import "components/component.category-item--card";
-@import "components/component.category-lists";
-@import "components/component.content-label";
-@import "components/component.metadata";
-// @import "components/component.notification-banner";
-@import "components/component.page-header";
-@import "components/component.search-result";
-@import "components/component.search-results";
-@import "components/component.sequential-navigation";
-@import "components/component.site-branding";
-@import "components/component.site-footer";
-@import "components/component.site-header";
-@import "components/component.site-search";
-@import "components/component.tag";
+@import "_temp/library-additions/component.information-text";
+@import "_temp/library-additions/component.warning-text";

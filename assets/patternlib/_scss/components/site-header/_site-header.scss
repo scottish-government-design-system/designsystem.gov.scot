@@ -76,6 +76,6 @@
 
 @include media-query(medium) {
     .site-header__branding {
-        max-width: 50%;
+        max-width: calc(2/3 * 100% - #{$grid-gap});
     }
 }
