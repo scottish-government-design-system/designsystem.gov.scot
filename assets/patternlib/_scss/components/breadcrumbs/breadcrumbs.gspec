@@ -1,27 +1,28 @@
 @objects
-    nav                     [aria-label="Breadcrumb"]
-    breadcrumbs             .breadcrumbs
-    breadcrumbs__item-*     .breadcrumbs__item
-    breadcrumbs__link-*     .breadcrumbs__link
-    breadcrumbs__last-link  .breadcrumbs__item:last-child .breadcrumbs__link
+    nav             [aria-label="Breadcrumb"]
+    breadcrumbs     .breadcrumbs
+        item-*      .breadcrumbs__item
+        link-*      .breadcrumbs__link
+        last-link   .breadcrumbs__item:last-child .breadcrumbs__link
 
 = Breadcrumbs =
-    @on large
-        # breadcrumbs are wrapped by a nav element with a relevant label
-        breadcrumbs:
-            css margin-top is "28px"
-            css margin-bottom is "14px"
+    # breadcrumbs are wrapped by a nav element with a relevant label
+    breadcrumbs:
+        css margin-top is "28px"
+        css margin-bottom is "14px"
 
-        # breadcrumb spacing
-        @forEach [breadcrumbs__item-*] as itemName, prev as previousItem
-            ${itemName}:
-                height 21px
-                right-of ${previousItem} 3px
+    # breadcrumb spacing
+    breadcrumbs.item-2:
+        right-of breadcrumbs.item-1 3px
 
-        # breadcrumb padding
-        breadcrumbs__link-2:
-            inside breadcrumbs__item-2 14px left
+    @forEach [breadcrumbs.item-*] as itemName, prev as previousItem
+        ${itemName}:
+            height 21px
 
-        # last breadcrumb has no link
-        breadcrumbs__lastlink:
-            absent
+    # breadcrumb padding
+    breadcrumbs.link-2:
+        inside breadcrumbs.item-2 14px left
+
+    # last breadcrumb has no link
+    breadcrumbs.lastlink:
+        absent

@@ -1,0 +1,8 @@
+@objects
+    category-list   .category-list:not(.category-list--highlight)
+        item-*      .category-item
+
+= Category list =
+    @forEach [category-list.item-*] as itemName, prev as previousItem
+        ${itemName}:
+            below ${previousItem} 30px

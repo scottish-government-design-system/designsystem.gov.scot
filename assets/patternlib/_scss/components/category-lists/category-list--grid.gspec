@@ -1,0 +1,31 @@
+@objects
+    category-list   .category-list:not(.category-list--highlight)
+        item-*      .category-item
+
+= Category list (grid) =
+    @on small
+        @forEach [category-list.item-*] as itemName, prev as previousItem
+        ${itemName}:
+            below ${previousItem} 30px
+
+    @on medium
+        category-list.item-2:
+            right-of category-list.item-1 29 to 31 px
+
+        category-list.item-3:
+            below category-list.item-1 30px
+            aligned vertically left category-list.item-1
+
+        category-list.item-4:
+            right-of category-list.item-3 29 to 31 px
+
+    @on large, xlarge
+        category-list.item-2:
+            right-of category-list.item-1 29 to 31 px
+
+        category-list.item-3:
+            right-of category-list.item-2 29 to 31 px
+
+        category-list.item-4:
+            below category-list.item-1 30px
+            aligned vertically left category-list.item-1

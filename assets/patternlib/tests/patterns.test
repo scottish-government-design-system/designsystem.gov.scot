@@ -16,3 +16,38 @@ Breadcrumbs on ${deviceName} device
 Category header on ${deviceName} device
     ${domain}/patterns/category-header/example.main.html   ${size}
         check _scss/components/category-header/category-header.gspec --include "${tags}"
+
+@@ parameterized using devices
+Category item on ${deviceName} device
+    ${domain}/components/category-item/example.main.html   ${size}
+        check _scss/components/category-item/category-item.gspec --include "${tags}"
+
+@@ parameterized using devices
+Category item card on ${deviceName} device
+    ${domain}/components/category-item-card/example.main.html   ${size}
+        check _scss/components/category-item/category-item--card.gspec --include "${tags}"
+
+@@ parameterized using devices
+Category list on ${deviceName} device
+    ${domain}/patterns/list-navigation/example.main.html   ${size}
+        check _scss/components/category-lists/category-list.gspec --include "${tags}"
+
+@@ parameterized using devices
+Category list (grid) on ${deviceName} device
+    ${domain}/patterns/grid-navigation/example.main.html   ${size}
+        check _scss/components/category-lists/category-list--grid.gspec --include "${tags}"
+
+@@ parameterized using devices
+Page header on ${deviceName} device
+    ${domain}/patterns/page-header/example.main.html   ${size}
+        check _scss/components/page-header/page-header.gspec --include "${tags}"
+
+@@ parameterized using devices
+Search result on ${deviceName} device
+    ${domain}/components/search-result/example.main.html   ${size}
+        check _scss/components/search-result/search-result.gspec --include "${tags}"
+
+@@ parameterized using devices
+Search results list on ${deviceName} device
+    ${domain}/patterns/search-results/example.main.html   ${size}
+        check _scss/components/search-results/search-results.gspec --include "${tags}"

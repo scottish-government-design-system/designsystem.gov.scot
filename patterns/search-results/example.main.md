@@ -41,7 +41,7 @@ note: This example has been truncated to three search results to conserve space.
         <li class="search-result">
             <a class="search-result__link" data-search-result="1/68" href="#" title="Crofting community right to buy">
                 <header class="search-result__header">
-                    <dl class="metadata  metadata--inline">
+                    <dl class="search-result__metadata  metadata  metadata--inline">
                         <span class="metadata__item">
                             <dt class="metadata__key  visually-hidden">Type</dt>
                             <dd class="metadata__value  content-label">Policy</dd>
@@ -58,7 +58,7 @@ note: This example has been truncated to three search results to conserve space.
         <li class="search-result">
             <a class="search-result__link" data-search-result="2/68" href="#" title="Crofting consultation 2017">
                 <header class="search-result__header">
-                    <dl class="metadata  metadata--inline">
+                    <dl class="search-result__metadata  metadata  metadata--inline">
                         <span class="metadata__item">
                             <dt class="metadata__key  visually-hidden">Type</dt>
                             <dd class="metadata__value  content-label">Consultation paper</dd>
@@ -80,7 +80,7 @@ note: This example has been truncated to three search results to conserve space.
         <li class="search-result">
             <a class="search-result__link" data-search-result="3/68" href="#" title="Crofting Elections 2017: consultation responses analysis">
                 <header class="search-result__header">
-                    <dl class="metadata  metadata--inline">
+                    <dl class="search-result__metadata  metadata  metadata--inline">
                         <span class="metadata__item">
                             <dt class="metadata__key  visually-hidden">Type</dt>
                             <dd class="metadata__value  content-label">Consultation analysis</dd>

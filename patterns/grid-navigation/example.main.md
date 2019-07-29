@@ -15,7 +15,9 @@ index: 0
             </p>
         </a>
     </li>
+</ol>
 
+<ol class="category-list  category-list--grid">
     <li class="category-item  category-item--highlight">
         <a data-navigation="category-item-2" href="#" title="Environmental Impact Assessment (EIA)" class="category-item__link">
             <h2 class="category-item__title">Environmental Impact Assessment (EIA)</h2>
@@ -25,9 +27,7 @@ index: 0
             </p>
         </a>
     </li>
-</ol>
 
-<ol class="category-list  category-list--grid">
     <li class="category-item">
         <a data-navigation="category-item-3" href="#" title="Farming and rural issues" class="category-item__link">
             <h2 class="category-item__title">Farming and rural issues</h2>

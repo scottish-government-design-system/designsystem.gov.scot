@@ -1,0 +1,20 @@
+@objects
+    category-item   .category-item
+        link        .category-item__link
+        title       .category-item__title
+        summary     .category-item__summary
+
+= Category item =
+    category-item:
+        contains category-item.link
+
+    category-item.link:
+        contains category-item.title, category-item.summary
+
+    category-item.title:
+        inside category-item.link 16px left, 7px top, 15px right
+        aligned vertically left category-item.summary
+
+    category-item.summary:
+        inside category-item.link 16px left, 15px right
+        below category-item.title 14px

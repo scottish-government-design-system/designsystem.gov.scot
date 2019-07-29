@@ -5,7 +5,7 @@ type: example
 index: 0
 ---
 
-<header class="page-header has-icon has-icon--guide">
+<header class="page-header">
     <span class="page-header__label  content-label">Guide</span>
     <h1 class="page-header__title">Apply for or renew a disabled parking permit</h1>
 

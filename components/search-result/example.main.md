@@ -7,7 +7,7 @@ index: 0
 <article class="search-result">
     <a class="search-result__link" data-search-result="1/n" href="#" title="Culture strategy for Scotland consultation: analysis of responses - full report">
         <header class="search-result__header">
-            <dl class="metadata  metadata--inline">
+            <dl class="search-result__metadata  metadata  metadata--inline">
                 <span class="metadata__item">
                     <dt class="metadata__key  visually-hidden">Type</dt>
                     <dd class="metadata__value  content-label">Research and analysis</dd>

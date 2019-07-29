@@ -3,6 +3,8 @@
 \*------------------------------------*/
 
 .search-result {
+    margin-bottom: 0;
+
     &__link {
         @include blocklink('.search-result__title');
 
@@ -23,10 +25,6 @@
         }
     }
 
-    &__header {
-
-    }
-
     &__label {
         font-weight: $bold;
         text-transform: uppercase;
@@ -40,6 +38,7 @@
     &__title {
         color: $color__link;
         margin-bottom: 7px;
+        margin-top: 0 !important;
 
         transition: color $transition-out-time;
     }

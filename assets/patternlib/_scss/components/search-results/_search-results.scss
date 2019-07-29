@@ -39,7 +39,6 @@
 @include media-query(medium) {
     .search-results {
         &__count {
-            margin-bottom: 7px;
             padding-left: 15px;
         }
     }

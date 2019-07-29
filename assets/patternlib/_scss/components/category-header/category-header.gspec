@@ -6,22 +6,23 @@
         image       .category-header__image
 
 = Category header =
-    @on small
-        category-header:
-            contains category-header.header, category-header.image
-            css margin-bottom is "35px"
+    category-header:
+        contains category-header.header, category-header.image
+        css margin-bottom is "35px"
 
+    category-header.title:
+        inside category-header.header 24px left
+        aligned vertically left category-header.summary
+
+    category-header.summary:
+        inside category-header.header 24px left
+        below category-header.title 10px
+
+    @on small
         category-header.image:
             below category-header.header 28px
             aligned vertically centered category-header
 
-        category-header.title:
-            inside category-header.header 24px left
-
-        category-header.summary:
-            inside category-header.header 24px left
-            below category-header.title 10px
-
-    @on medium
+    @on medium, large, xlarge
         category-header.image:
             aligned horizontally centered category-header.header 2px
