@@ -12,7 +12,6 @@
             css margin-bottom is "35px"
 
         category-header.image:
-            inside category-header
             below category-header.header 28px
             aligned vertically centered category-header
 

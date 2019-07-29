@@ -6,7 +6,7 @@ h1, .alpha {
     font-size: $h1-size;
     font-weight: $lighter;
     line-height: 35px;
-    margin-bottom: 28px; // was margin: 28px 0;
+    margin-bottom: 28px;
     text-rendering: optimizeLegibility;
 }
 
@@ -19,13 +19,21 @@ h2, h3, h4,
 h2, .beta {
     font-size: $h2-size;
     line-height: 28px;
-    margin-bottom: 7px; // was margin: 28px 0 7px;
+    margin-bottom: 7px;
+
+    &:not(:first-child) {
+        margin-top: 28px;
+    }
 }
 
 h3, .gamma {
     font-size: $h3-size;
     line-height: 21px;
     margin-bottom: 7px;
+
+    &:not(:first-child) {
+        margin-top: 28px;
+    }
 }
 
 h4, .delta {
@@ -48,6 +56,10 @@ h5, .epsilon {
     h2, .beta {
         line-height: 35px;
         margin-bottom: 14px;
+
+        &:not(:first-child) {
+            margin-top: 42px;
+        }
     }
 
     h3, .gamma {

@@ -41,7 +41,6 @@ body:after {
 .grid-column {
     background-color: #ebebeb;
     height: 100%;
-    transition: background-color 0.2s;
 }
 
 .grid-column:hover {

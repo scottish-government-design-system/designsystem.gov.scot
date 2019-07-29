@@ -56,3 +56,95 @@
     transition: transform 0.2s, top 0.2s;
     width: $linesize;
 }
+
+/**
+ * Mixin to enforce consistency on block-style links, e.g. search results,
+ * category items, etc
+ */
+ @mixin blocklink($linklike-selector: '.linklike') {
+    background-color: $color__white;
+    display: block;
+    transition: background-color $transition-out-time;
+
+    &:hover {
+        background-color: $color__blocklink-bg--hover;
+        transition-duration: $transition-in-time;
+    }
+
+    &:focus {
+        background-color: $color__blocklink-bg--hover;
+        transition-duration: $transition-in-time;
+        outline: 0;
+    }
+
+    &:active {
+        background-color: $color__blocklink-bg--active;
+        outline: initial;
+        transition-duration: 0s;
+    }
+
+    &.current {
+        background-color: $color__blocklink-bg--current;
+    }
+
+    #{$linklike-selector} {
+        transition: color $transition-out-time;
+    }
+
+    &:hover,
+    &:focus {
+        #{$linklike-selector} {
+            color: $color__link--hover;
+            text-decoration: underline;
+            transition-duration: $transition-in-time;
+        }
+    }
+}
+
+/**
+ * blocklink variant
+ */
+@mixin blocklink--transparent($linklike-selector: '.linklike') {
+    @include blocklink($linklike-selector);
+
+    background-color: transparent;
+
+    &:hover:not(:active),
+    &:focus:not(:active) {
+        background-color: transparent;
+    }
+}
+
+/**
+ * Animated underscore used on logo images
+ */
+@mixin fancy-underscore($width: 1px) {
+    position: relative;
+
+    &:after {
+        background-color: currentColor;
+        bottom: -6px;
+        content: '';
+        height: $width;
+        left: 50%;
+        opacity: 0;
+        position: absolute;
+        right: 50%;
+        transition: left $transition-in-time, right $transition-in-time, opacity $transition-in-time;
+    }
+
+    &:hover:after {
+        left: 0;
+        opacity: 1;
+        right: 0;
+    }
+}
+
+/**
+ * Mixin to enforce consistent margins on "block" elements, e.g. blockquotes,
+ * info notes, accordions, etc
+ */
+@mixin block-spacing {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
