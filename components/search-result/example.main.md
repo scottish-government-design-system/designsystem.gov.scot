@@ -5,7 +5,7 @@ type: example
 index: 0
 ---
 <article class="search-result">
-    <a class="search-result__link" data-search-result="1/n" href="#" title="Culture strategy for Scotland consultation: analysis of responses - full report">
+    <a class="search-result__link" data-search="search-result-1/n" href="#" title="Culture strategy for Scotland consultation: analysis of responses - full report">
         <header class="search-result__header">
             <dl class="search-result__metadata  metadata  metadata--inline">
                 <span class="metadata__item">

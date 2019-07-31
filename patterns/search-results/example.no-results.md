@@ -25,10 +25,10 @@ index: 0
 
     <ul>
         <li>
-            <a data-suggestion-position="1/2" aria-label="Did you mean 'crafting'?" href="#">crafting</a>
+            <a data-search="suggestion-result-1/2" aria-label="Did you mean 'crafting'?" href="#">crafting</a>
         </li>
         <li>
-            <a data-suggestion-position="2/2" aria-label="Did you mean 'crofting'?" href="#">crofting</a>
+            <a data-search="suggestion-result-2/2" aria-label="Did you mean 'crofting'?" href="#">crofting</a>
         </li>
     </ul>
 </nav>

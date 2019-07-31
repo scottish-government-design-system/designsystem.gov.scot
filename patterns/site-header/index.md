@@ -3,7 +3,7 @@ layout: component-enhanced
 title:  "Site header"
 category: patterns
 parent: patterns
-thispage: component.site-header
+thispage: pattern.site-header
 summary: "The site header tells users what site they are visiting and introduces any site branding. "
 ---
 

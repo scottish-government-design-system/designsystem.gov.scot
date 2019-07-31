@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.site-header
+parent: pattern.site-header
 type: example
 scripts:
   - /components/site-search/script.js
@@ -11,16 +11,16 @@ index: 0
     <div class="wrapper">
         <div class="site-header__content">
             <div class="site-header__branding  site-branding">
-                <a data-navigation="logo" class="site-branding__logo  site-branding__link" href="/">
+                <a data-header="header-logo" class="site-branding__logo  site-branding__link" href="/">
                     <img class="site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland.svg" alt="Digital Scotland">
                 </a>
 
                 <div class="site-branding__title">
-                    <a data-navigation="title" class="site-branding__link" href="#">Pattern library</a>
+                    <a data-header="header-title" class="site-branding__link" href="#">Pattern library</a>
                 </div>
             </div>
 
-            <div class="site-search  site-search--collapsible">
+            <div class="site-header__search  site-search  site-search--collapsible">
                 <form role="search" class="site-search__form">
                     <input name="q" required="" id="site-search" class="site-search__input" type="text" placeholder="Search" autocomplete="off">
                     <label class="site-search__label visually-hidden" for="site-search">Search</label>

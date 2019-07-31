@@ -1,24 +1,21 @@
 @objects
-    category-item   .category-item
-        link        .category-item__link
-        title       .category-item__title
-        summary     .category-item__summary
+    main                #example-main
+        category-item   .category-item
+            link        .category-item__link
+            title       .category-item__title
+            summary     .category-item__summary
 
 = Category item (card) =
-    category-item:
-        contains category-item.link
+    main.category-item:
+        contains main.category-item.link
 
-    category-item.link:
-        contains category-item.title, category-item.summary
-        css background-color is "rgba(255, 255, 255, 1)"
-        # box shadow checks are split because the order can be different
-        css box-shadow contains "1px 1px 3px"
-        css box-shadow contains "rgba(0, 0, 0, 0.15)"
+    main.category-item.link:
+        contains main.category-item.title, main.category-item.summary
 
-    category-item.title:
-        inside category-item.link 15px left right, 21px top
-        aligned vertically left category-item.summary
+    main.category-item.title:
+        inside main.category-item.link 15px left right, 21px top
+        aligned vertically left main.category-item.summary
 
-    category-item.summary:
-        inside category-item.link 15px left right
-        below category-item.title 14px
+    main.category-item.summary:
+        inside main.category-item.link 15px left right
+        below main.category-item.title 14px

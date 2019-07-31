@@ -14,6 +14,7 @@ $site-footer__link-highlight: $color__brand--secondary !default;
     font-size: $small-size;
     line-height: 21px;
     padding-bottom: 35px;
+    padding-top: 21px;
 
     &__site-items {
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -23,7 +24,6 @@ $site-footer__link-highlight: $color__brand--secondary !default;
         list-style-type: none;
         margin: 0 0 21px;
         padding-bottom: 21px;
-        padding-top: 21px;
     }
 
     &__copyright {

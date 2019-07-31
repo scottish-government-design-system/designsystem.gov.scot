@@ -10,8 +10,7 @@ summary: "Breadcrumbs help users to understand where they are within a website's
 
 Breadcrumbs are an essential tool for navigation. They should only be omitted if a site's structure is extremely simple.
 
-Breadcrumbs work best when the current page is included. In some cases this may not be desirable, such as when pages have especially long titles. If this can't be avoided you can hide the current page from view but keep it available to screen readers.
-
+Breadcrumbs should include the current page. In some cases this may not be desirable, such as when pages have especially long titles. If this can't be avoided you can hide the current page from view but keep it available to screen readers.
 
 {% include example-frame.html name="no-current" caption="Example of breadcrumbs where the current page is hidden" %}
 

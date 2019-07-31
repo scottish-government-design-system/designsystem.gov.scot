@@ -20,12 +20,18 @@
         page-header:
             css margin-top is "14px"
 
+        page-header.title:
+            css font-size is "28px"
+
         page-header.label:
             above page-header.title 3px
 
     @on medium, large, xlarge
         page-header:
             css margin-top is "28px"
+
+        page-header.title:
+            css font-size is "49px"
 
         page-header.label:
             above page-header.title 1px

@@ -45,7 +45,7 @@
 /* variant with a solid-colour background and reversed branding */
 .site-header--reversed {
     background-color: $color__brand--primary;
-    border-color: transparent;
+    border-bottom: 0;
     color: $color__white;
     padding-top: 14px;
 
