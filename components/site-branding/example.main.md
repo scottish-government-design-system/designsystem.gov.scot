@@ -11,6 +11,6 @@ index: 0
     </a>
 
     <div class="site-branding__title">
-        <a data-header="header-title" class="site-branding__link" href="#">Pattern library</a>
+        <a data-header="header-title" class="site-branding__link" href="#">Pattern Library</a>
     </div>
 </div>

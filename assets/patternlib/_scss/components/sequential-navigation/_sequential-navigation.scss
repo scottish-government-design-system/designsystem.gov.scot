@@ -138,7 +138,7 @@ $page-nav__icon-size: 56px;
 @supports (display: grid) {
     .sequential-nav {
         display: grid;
-        grid-gap: $grid-gap;
+        grid-gap: $grid-gap-y $grid-gap-x;
         grid-template-areas: 'next' 'prev';
     }
 

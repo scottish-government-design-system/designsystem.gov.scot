@@ -8,7 +8,7 @@
 
 .users {
     display: grid;
-    grid-gap: 0 $grid-gap;
+    grid-gap: 0 $grid-gap-x;
 }
 
 .user {
@@ -16,7 +16,7 @@
     background-color: #f8f8f8; /*color__grey--lighter*/
     color: #333; /*color__body*/
     display: flex;
-    margin-bottom: $grid-gap;
+    margin-bottom: $grid-gap-y;
     text-decoration: none;
 }
 

@@ -133,7 +133,8 @@
         transition: left $transition-in-time, right $transition-in-time, opacity $transition-in-time;
     }
 
-    &:hover:after {
+    &:hover:after,
+    &:focus:after {
         left: 0;
         opacity: 1;
         right: 0;

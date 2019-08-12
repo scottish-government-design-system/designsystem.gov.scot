@@ -14,8 +14,11 @@ $site-search__background-color: $color__grey--light !default;
 .site-search {
     box-sizing: border-box;
     color: $color__body;
-    height: $site-search__height;
-    position: relative;
+    overflow: hidden;
+
+    &__input-group {
+        position: relative;
+    }
 
     &__input[type=text] {
         background: $site-search__background-color;
@@ -49,7 +52,6 @@ $site-search__background-color: $color__grey--light !default;
 
 @include media-query(medium) {
     .site-search {
-        height: $site-search__height--medium;
 
         &__input[type=text] {
             min-height: $site-search__height--medium;

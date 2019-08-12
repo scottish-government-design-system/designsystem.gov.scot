@@ -10,14 +10,17 @@ note: This example has been truncated to three search results to conserve space.
 
 <div class="site-search">
     <form role="search" class="site-search__form">
-        <input name="q" required="" id="site-search" class="site-search__input" type="text" placeholder="Search" value="crofting" autocomplete="off">
         <label class="site-search__label visually-hidden" for="site-search">Search</label>
 
-        <button type="submit" title="search" class="site-search__button  button  button--primary">
-            <svg class="icon  site-search__icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>
+        <div class="site-search__input-group">
+            <input name="q" required="" id="site-search" class="site-search__input" type="text" placeholder="Search" value="crofting" autocomplete="off">
 
-            <span class="visually-hidden">Search mygov.scot</span>
-        </button>
+            <button type="submit" title="search" class="site-search__button  button  button--primary">
+                <svg class="icon  site-search__icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>
+
+                <span class="visually-hidden">Search mygov.scot</span>
+            </button>
+        </div>
     </form>
 </div>
 

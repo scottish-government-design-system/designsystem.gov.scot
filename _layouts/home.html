@@ -5,38 +5,26 @@
 
 <body class="layout--home">
 
-<div class="header-wrapper header-wrapper--border  hero-header  {% if page.header-style %}hero-header--{{page.header-style}}{% endif %}">
-    {% include banner.html %}
-    {% include header.html %}
-</div>
+{% include banner.html %}
+{% include header.html %}
 
 <main>
-    <div class="sub-banner">
-        <div class="wrapper">
-            <div class="sub-banner__content">
-                <div>
-                    <a class="sub-banner__link" href="#">Arugula</a><!--
-                    --><a class="sub-banner__link" href="#">Broccoli</a><!--
-                    --><a class="sub-banner__link" href="#">Cauliflower</a>
-                </div>
-                <a class="sub-banner__link  sub-banner__link--right  link--progress" href="/library/">Take me to the library</a>
-            </div>
-        </div>
-    </div>
-
-
-
-
     <style>
     body {
         background-color: #f8f8f8;
     }
 
-    .zebra:nth-child(2n-1) {
+
+    .zebra:nth-child(2n) {
         background-color: #fff; /*color__grey--lighter*/
         border: 1px solid #ddd;
         border-width: 1px 0;
     }
+
+    .zebra:first-of-type {
+        border-top: 0;
+    }
+
     .zebra {
         padding: 28px 0;
     }

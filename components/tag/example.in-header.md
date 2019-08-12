@@ -14,7 +14,7 @@ index: 0
                 </a>
 
                 <div class="site-branding__title">
-                    <a class="site-branding__link" href="#">Pattern library</a>
+                    <a class="site-branding__link" href="#">Pattern Library</a>
                 </div>
 
                 <strong class="site-branding__tag  tag">
@@ -36,7 +36,7 @@ index: 0
                 </a>
 
                 <div class="site-branding__title">
-                    <a class="site-branding__link" href="#">Pattern library</a>
+                    <a class="site-branding__link" href="#">Pattern Library</a>
                 </div>
 
                 <strong class="site-branding__tag  tag  tag--reversed">

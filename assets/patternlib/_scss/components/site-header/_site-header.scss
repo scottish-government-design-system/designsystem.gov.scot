@@ -2,10 +2,15 @@
     SITE HEADER
 \*------------------------------------*/
 
+$site-header-border-color: $color__border--light !default;
+$site-header-border-color--reversed: $color__brand--secondary !default;
+
+
+
+
 .site-header {
     background-color: $color__white;
-    border-bottom: 1px solid $color__border--light;
-    padding: 21px 0 14px;
+    border-bottom: 1px solid $site-header-border-color;
     position: relative;
 
     &:before {
@@ -13,10 +18,23 @@
         display: block;
         content: '';
         height: 7px;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
+    }
+
+    &__content {
+        padding: 14px 0;
+        transition: min-height $transition-in-time;
+    }
+
+    &__controls {
+        display: block;
+    }
+
+    &__search {
+        display: none;
+    }
+
+    > .wrapper {
+        position: relative;
     }
 }
 
@@ -47,23 +65,16 @@
     background-color: $color__brand--primary;
     border-bottom: 0;
     color: $color__white;
-    padding-top: 14px;
 
-    &:before {
-        content: none;
+    &:not(.site-header--gradient) {
+        &:before {
+            content: none;
+        }
     }
 
-    &.site-header--gradient {
-        background: linear-gradient(to right, $color__brand--primary, $color__brand--secondary);
+    .site-header__navigation {
+        border-top: 1px solid $site-header-border-color--reversed;
     }
-}
-
-.site-header__content > * {
-    float: left;
-}
-
-.site-header__content > :last-child {
-    float: right;
 }
 
 @supports (display: flex) {
@@ -75,7 +86,24 @@
 }
 
 @include media-query(medium) {
+    .site-header__content {
+        padding-bottom: 14px;
+        padding-top: 14px;
+    }
+
+    .site-header__controls {
+        display: none;
+    }
+
+    .site-header__search {
+        display: block;
+    }
+
     .site-header__branding {
-        max-width: calc(2/3 * 100% - #{$grid-gap});
+        max-width: calc(2/3 * 100% - #{$grid-gap-x});
+    }
+
+    .site-header__navigation {
+        border-top: 1px solid $color__border--light;
     }
 }

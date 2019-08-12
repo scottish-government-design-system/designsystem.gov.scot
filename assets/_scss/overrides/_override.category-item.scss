@@ -16,7 +16,7 @@
 // ie11- do not support @supports :rolleyes: so we'll need to override all of these in the @supports (display:grid) section
 // @supports not (display: grid) {
     .category-list--1col > * {
-        margin-bottom: $grid-gap;
+        margin-bottom: $grid-gap-y;
     }
 
     .category-list--3col {
@@ -28,7 +28,7 @@
     }
 
     .category-list--3col > * {
-        margin-bottom: $grid-gap;
+        margin-bottom: $grid-gap-y;
     }
 
     @media (min-width: 768px) {
@@ -102,13 +102,13 @@
     // start grid rules
     .category-list--1col {
         display: grid;
-        grid-gap: 0 $grid-gap;
+        grid-gap: 0 $grid-gap-x;
     }
 
     .category-list--3col {
         align-items: start;
         display: grid;
-        grid-gap: 0 $grid-gap;
+        grid-gap: 0 $grid-gap-x;
         overflow: visible;
         padding-top: 0;
     }

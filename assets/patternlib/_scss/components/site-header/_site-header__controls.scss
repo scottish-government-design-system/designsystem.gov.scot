@@ -1,0 +1,24 @@
+.site-header {
+    &__control {
+        cursor: pointer;
+        height: 21px;
+        margin-right: -15px;
+        padding: 14px 15px;
+
+        @include blocklink--transparent;
+    }
+
+    &__control-icon {
+        height: 21px;
+        width: 21px;
+
+        &--close {
+            display: none;
+        }
+    }
+
+    &__control-text {
+        float: left;
+        margin-right: 10px;
+    }
+}

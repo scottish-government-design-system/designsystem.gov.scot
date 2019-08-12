@@ -9,23 +9,21 @@
 
     {% assign examples = site.pages | where: "parent", page.parent | where: "type", "example" %}
 
-    {% for example in examples %}
+{% for example in examples %}
 
-        {% assign nameFragments = example.name | split: '.' %}
-        <div id="example-{{nameFragments[1]}}">
-            {{example.content}}
-
-            {% if example.scripts %}
-                {% for script in example.scripts %}
-                    <script src="{{script}}"></script>
-                {% endfor %}
-            {% endif %}
-
-            {% if example.jquery %}
-                {% assign hasjQuery = true %}
-            {% endif %}
-        </div>
+{% assign nameFragments = example.name | split: '.' %}
+<div id="example-{{nameFragments[1]}}">
+{{example.content}}
+{% if example.scripts %}
+    {% if example.jquery %}
+        {% assign hasjQuery = true %}
+    {% endif %}
+    {% for script in example.scripts %}
+        <script src="{{script}}"></script>
     {% endfor %}
+{% endif %}
+</div>
+{% endfor %}
 
     {% if hasjQuery %}
     <script
