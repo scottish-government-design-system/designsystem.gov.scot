@@ -12,7 +12,7 @@ scripts:
     <div class="wrapper">
         <div class="notification__content">
             <div class="notification__text">
-                <p>Something good has <a href="#">happened</a></p>
+                <p>Something good has <a data-banner="banner-link" href="#">happened</a></p>
             </div>
 
             <button data-banner="banner-close" class="notification__close  js-close-notification" type="button">
