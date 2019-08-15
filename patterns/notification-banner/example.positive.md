@@ -8,11 +8,11 @@ scripts:
   - /patterns/notification-banner/script.js
 ---
 
-<div class="notification">
+<div class="notification  notification--positive">
     <div class="wrapper">
         <div class="notification__content">
             <div class="notification__text">
-                <p>We need to tell you about <a href="#">something</a></p>
+                <p>Something good has <a href="#">happened</a></p>
             </div>
 
             <button data-banner="banner-close" class="notification__close  js-close-notification" type="button">
