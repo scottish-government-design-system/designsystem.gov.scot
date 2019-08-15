@@ -35,7 +35,7 @@ This example also demonstrates the use of icons in notification text.
 
 The following accessibility features have been considered:
 
-* Colour contrast between text colour and background colour meets WCAG AA (NOTE: need to alter our green)
+* Colour contrast between text colour and background colour meets WCAG AA
 * The "close" icon has an accessible text alternative
 
 The "close" button requires JavaScript to operate. Users with JavaScript disabled are not shown the button.
