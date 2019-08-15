@@ -13,6 +13,6 @@ The category header contains the title (H1 element) of the category and a brief 
 
 The category header can be given emphasis by placing it against a coloured background. If necessary to meet colour contrast requirements, it can be given white text.
 
-The coloured background should span the width of the entire window and include the breadcrumbs.
+The coloured background should span the width of the entire window and include the [breadcrumbs](/patterns/breadcrumbs/).
 
 {% include example-frame.html name="color" %}
