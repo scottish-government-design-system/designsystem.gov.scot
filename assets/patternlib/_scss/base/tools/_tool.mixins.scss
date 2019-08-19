@@ -72,9 +72,14 @@
     }
 
     &:focus {
-        background-color: $color__blocklink-bg--hover;
+        outline: 2px solid $color__link--focus__outline;
         transition-duration: $transition-in-time;
-        outline: 0;
+    }
+
+    &:hover {
+        &:not(.current) {
+            text-decoration: underline;
+        }
     }
 
     &:active {

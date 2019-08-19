@@ -1,22 +1,25 @@
 
-<nav class="page-group">
+<nav role="navigation" aria-label="Sections" class="side-navigation">
     {% unless navitems %}
         {% assign navitems = page.navitems %}
     {% endunless %}
 
     {% assign indexed = site.pages | where:"category", navitems | sort: 'index', 'first' | sort: 'title', 'first' %}
 
-    <ul class="page-group__list no-margin js-contents">
+    <input type="checkbox" class="visually-hidden" id="show-side-navigation" />
+    <label class="side-navigation__expand" for="show-side-navigation">Pages in this section</label>
+
+    <ul class="side-navigation__list  side-navigation__root">
         {% for item in indexed %}
 
-        <li class="page-group__item">
+        <li class="side-navigation__item">
             {% if item.title == page.title %}
-            <span class="page-group__text page-group__text--no-link">
-                <span class="page-group__bullet"></span> {{ item.title }}
+            <span class="side-navigation__link  current">
+                {{ item.title }}
             </span>
             {% else %}
-            <a class="page-group__text page-group__text--link" href="{{ item.url }}">
-                <span class="page-group__bullet"></span> {{ item.title }}
+            <a class="side-navigation__link" href="{{ item.url }}">
+                {{ item.title }}
             </a>
             {% endif %}
         </li>
@@ -24,3 +27,5 @@
         {% endfor %}
     </ul>
 </nav>
+
+<script src="/patterns/side-navigation/script.js"></script>

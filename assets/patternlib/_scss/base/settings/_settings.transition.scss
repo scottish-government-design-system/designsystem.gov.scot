@@ -4,4 +4,4 @@
 \*------------------------------------*/
 
 $transition-in-time: 0.2s !default;
-$transition-out-time: 1s !default;
+$transition-out-time: $transition-in-time !default;

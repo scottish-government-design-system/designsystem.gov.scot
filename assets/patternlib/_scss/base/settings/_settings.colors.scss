@@ -40,12 +40,13 @@ $color__link--hover:                $color__blue--dark !default;
 $color__link--active:               $color__blue--dark !default;
 $color__link--active__background:   $color__blue--light !default;
 $color__link--focus:                $color__blue--dark !default;
+$color__link--focus__outline:       $color__gold--base !default;
 
 // block links
 $color__blocklink-bg:               $color__white !default;
-$color__blocklink-bg--hover:        $color__grey--lighter !default;
+$color__blocklink-bg--hover:        $color__blue--lighter !default;
 $color__blocklink-bg--active:       $color__blue--light !default;
-$color__blocklink-bg--current:      $color__blue--lighter !default;
+$color__blocklink-bg--current:      $color__grey--lighter !default;
 
 // input
 $color__input--focus-background:    $color__blue--lighter !default;

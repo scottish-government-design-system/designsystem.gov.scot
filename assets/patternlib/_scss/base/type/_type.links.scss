@@ -23,6 +23,7 @@ a,
     &:focus {
         color: $color__link--focus;
         transition-duration: 0s;
+        outline: 2px solid $color__link--focus__outline;
     }
 }
 

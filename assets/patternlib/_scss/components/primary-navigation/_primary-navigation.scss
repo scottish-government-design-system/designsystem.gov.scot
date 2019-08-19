@@ -47,6 +47,10 @@ $mobile-menu-background: $color__grey--lighter;
             background-color: $color__blocklink-bg--hover;
         }
 
+        &:focus {
+            outline: 2px solid $color__link--focus__outline;
+        }
+
         &:active {
             background-color: $color__blocklink-bg--active;
             outline: 0;
@@ -212,12 +216,15 @@ $mobile-menu-background: $color__grey--lighter;
         &:hover ,
         &:focus {
             border-left: 2px solid $color__link;
-            outline: 0;
             padding-left: #{$mobile-nav-link-horizontal-padding - 2px};
         }
 
         &:active {
             outline: 0;
+        }
+
+        &:focus {
+            outline: 2px solid $color__link--focus__outline;
         }
 
         &--current {

@@ -1,0 +1,176 @@
+/*------------------------------------*\
+    SIDE NAVIGATION
+\*------------------------------------*/
+
+$side-nav-spacing-unit: 15px;
+
+
+
+
+.side-navigation {
+    border-bottom: 1px solid $color__border--light;
+    border-top: 1px solid $color__border--light;
+    margin: 35px -15px;
+    position: relative;
+
+    &__expand {
+        @include blocklink;
+
+        padding: 14px 45px 14px 15px;
+
+        &:after {
+            @include chevron();
+
+            color: $color__link;
+            right: 21px;
+            position: absolute;
+            top: 16px;
+        }
+
+        &:hover:after {
+            color: $color__link--hover;
+        }
+    }
+
+    &__root {
+        display: none;
+    }
+
+    #show-side-navigation:checked + .side-navigation__expand:after {
+        @include chevron(up);
+        top: 20px;
+    }
+
+    #show-side-navigation:checked + &__expand + &__root {
+        display: block;
+    }
+
+    &__list {
+        list-style-type: none;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    &__list &__list {
+        margin-left: #{$side-nav-spacing-unit * 2};
+    }
+
+    &__item {
+        position: relative;
+        margin-bottom: 0;
+
+        &--has-children {
+            &:before {
+                color: $color__grey--medium;
+                left: $side-nav-spacing-unit;
+                position: absolute;
+                top: 18px;
+                z-index: 1;
+
+                @include chevron(right, 12px, 2px);
+            }
+
+            &--expanded:before {
+                @include chevron(down, 12px, 2px);
+                top: 15px;
+            }
+        }
+    }
+
+    &__list &__list &__list &__link {
+        padding-left: #{$side-nav-spacing-unit * 2};
+
+        &:before {
+            background: $color__grey--light;
+            bottom: 7px;
+            content: '';
+            left: 14px;
+            position: absolute;
+            right: 100%;
+            width: 3px;
+            top: 7px;
+        }
+
+        &:hover,
+        &:focus,
+        &.current {
+            &:before {
+                background: $color__link;
+            }
+        }
+    }
+
+    /**
+     * [1] vertical padding combines with the margin to form a multiple of seven
+     */
+    &__link {
+        @include blocklink;
+
+        color: $color__body;
+        margin-bottom: 3px;
+        padding: 13px 42px 12px #{$side-nav-spacing-unit * 3}; /* [1] */
+        position: relative;
+        text-decoration: none;
+
+        &:hover,
+        &.current {
+            position: relative;
+
+            &:before {
+                background: $color__link;
+                bottom: 0;
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 3px;
+            }
+        }
+    }
+}
+
+@include media-query(medium-down) {
+    .js-enabled .side-navigation {
+        .side-navigation__root {
+            display: block;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height $transition-in-time, padding $transition-in-time;
+        }
+
+        #show-side-navigation:checked + .side-navigation__expand + .side-navigation__root {
+            padding: 7px 0;
+        }
+    }
+}
+
+@include media-query(medium) {
+    .side-navigation {
+        border-width: 0;
+        font-size: $small-size;
+        line-height: 21px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+
+        &__expand {
+            display: none;
+        }
+
+        &__root {
+            display: block;
+            margin: 0;
+        }
+
+        &__item--has-children:before {
+            margin-top: 2px;
+        }
+
+        &__link:hover,
+        &__link.current {
+            &:before {
+                left: -3px;
+            }
+        }
+    }
+}
