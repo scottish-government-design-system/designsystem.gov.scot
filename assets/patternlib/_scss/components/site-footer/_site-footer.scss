@@ -33,6 +33,10 @@ $site-footer__link-highlight: $color__brand--secondary !default;
             width: 35px;
 
             @include fancy-underscore();
+
+            img {
+                width: 100%;
+            }
         }
     }
 
