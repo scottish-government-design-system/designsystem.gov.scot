@@ -42,4 +42,4 @@ The "close" button requires JavaScript to operate. Users with JavaScript disable
 
 ## Evidence
 
-Findings from gov.uk and NHS research in 2019 indicated that banners which restricted the user from accessing the content led to the user leaving the page, or becoming sidetracked reading notification content and selecting options. 
+Findings from gov.uk and NHS research in 2019 indicated that banners which restricted the user from accessing the content led to the user leaving the page, or becoming sidetracked reading notification content and selecting options. We recommend banners in preference to modal windows, and they should not be sticky or otherwise obscure page content.

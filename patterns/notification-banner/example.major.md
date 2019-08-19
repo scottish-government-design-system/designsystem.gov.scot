@@ -12,10 +12,10 @@ scripts:
     <div class="wrapper">
         <div class="notification__content">
             <div class="notification__text">
-                <p>You've been redirected from a site that no longer exists. Find what you're looking for on <a data-banner="banner-link" href="#">something</a>.</p>
+                <p>You've been redirected from a site that no longer exists. Find what you're looking for on <a data-banner="banner-bannername-link" href="#">something</a>.</p>
             </div>
 
-            <button data-banner="banner-close" class="notification__close  js-close-notification" type="button">
+            <button data-banner="banner-bannername-close" class="notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
                 <svg class="icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>
