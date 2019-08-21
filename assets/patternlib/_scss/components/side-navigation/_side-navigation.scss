@@ -16,32 +16,51 @@ $side-nav-spacing-unit: 15px;
     &__expand {
         @include blocklink;
 
+        background-color: $color__white;
+
+        font-weight: $bold;
         padding: 14px 45px 14px 15px;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        transition: box-shadow $transition-in-time;
 
-        &:after {
-            @include chevron();
-
-            color: $color__link;
-            right: 21px;
-            position: absolute;
-            top: 16px;
+        &--shadow {
+            box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
         }
 
-        &:hover:after {
+        &:hover:not(:active) {
+            background-color: $color__link--hover__background;
+        }
+
+        &:hover .side-navigation__expand-indicator {
             color: $color__link--hover;
         }
+    }
+
+    &__expand-indicator {
+        @include chevron();
+
+        color: $color__link;
+        right: 21px;
+        position: absolute;
+        top: 16px;
     }
 
     &__root {
         display: none;
     }
 
-    #show-side-navigation:checked + .side-navigation__expand:after {
+    #show-side-navigation:focus ~ .side-navigation__expand {
+        outline: 2px solid $color__link--focus__outline;
+    }
+
+    #show-side-navigation:checked ~ .side-navigation__expand .side-navigation__expand-indicator {
         @include chevron(up);
         top: 20px;
     }
 
-    #show-side-navigation:checked + &__expand + &__root {
+    #show-side-navigation:checked ~ &__root {
         display: block;
     }
 
@@ -60,7 +79,7 @@ $side-nav-spacing-unit: 15px;
         margin-bottom: 0;
 
         &--has-children {
-            &:before {
+            > .side-navigation__link:after {
                 color: $color__grey--medium;
                 left: $side-nav-spacing-unit;
                 position: absolute;
@@ -70,7 +89,7 @@ $side-nav-spacing-unit: 15px;
                 @include chevron(right, 12px, 2px);
             }
 
-            &--expanded:before {
+            &--expanded > .side-navigation__link:after {
                 @include chevron(down, 12px, 2px);
                 top: 15px;
             }
@@ -106,7 +125,6 @@ $side-nav-spacing-unit: 15px;
     &__link {
         @include blocklink;
 
-        color: $color__body;
         margin-bottom: 3px;
         padding: 13px 42px 12px #{$side-nav-spacing-unit * 3}; /* [1] */
         position: relative;
@@ -121,7 +139,7 @@ $side-nav-spacing-unit: 15px;
                 bottom: 0;
                 content: '';
                 position: absolute;
-                left: 0;
+                left: -3px;
                 top: 0;
                 width: 3px;
             }
@@ -133,13 +151,15 @@ $side-nav-spacing-unit: 15px;
     .js-enabled .side-navigation {
         .side-navigation__root {
             display: block;
+            margin: 0 15px;
             max-height: 0;
             overflow: hidden;
             transition: max-height $transition-in-time, padding $transition-in-time;
         }
 
-        #show-side-navigation:checked + .side-navigation__expand + .side-navigation__root {
-            padding: 7px 0;
+        #show-side-navigation:checked ~ .side-navigation__root {
+            padding-bottom: 7px;
+            padding-top: 7px;
         }
     }
 }
@@ -171,6 +191,10 @@ $side-nav-spacing-unit: 15px;
             &:before {
                 left: -3px;
             }
+        }
+
+        #show-side-navigation {
+            display: none;
         }
     }
 }

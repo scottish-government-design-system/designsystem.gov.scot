@@ -6,17 +6,20 @@ a,
 .link {
     color: $color__link;
     text-decoration: underline;
-    transition: color $transition-out-time, background-color $transition-out-time;
+    outline: 2px solid transparent;
+    transition: color $transition-out-time, background-color $transition-out-time, outline $transition-out-time;
 
     &:hover {
+        background-color: $color__link--hover__background;
         color: $color__link--hover;
+        outline: 2px solid $color__link--hover__background;
         transition-duration: $transition-in-time;
     }
 
     &:active {
-        background-color: $color__blocklink-bg--active;
+        background-color: $color__link--active__background;
         color: $color__link--active;
-        outline: 3px solid $color__blocklink-bg--active;
+        outline: 2px solid $color__link--active__background;
         transition-duration: 0s;
     }
 
@@ -24,6 +27,10 @@ a,
         color: $color__link--focus;
         transition-duration: 0s;
         outline: 2px solid $color__link--focus__outline;
+    }
+
+    > svg {
+        fill: currentColor;
     }
 }
 

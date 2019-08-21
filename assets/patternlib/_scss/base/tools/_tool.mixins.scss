@@ -62,34 +62,21 @@
  * category items, etc
  */
  @mixin blocklink($linklike-selector: '.linklike') {
-    background-color: $color__white;
     display: block;
     transition: background-color $transition-out-time;
 
-    &:hover {
-        background-color: $color__blocklink-bg--hover;
-        transition-duration: $transition-in-time;
-    }
-
-    &:focus {
-        outline: 2px solid $color__link--focus__outline;
-        transition-duration: $transition-in-time;
-    }
-
-    &:hover {
-        &:not(.current) {
-            text-decoration: underline;
-        }
+    &:hover:not(:focus) {
+        outline: 0;
     }
 
     &:active {
         background-color: $color__blocklink-bg--active;
-        outline: initial;
+        // outline: initial;
         transition-duration: 0s;
     }
 
     &.current {
-        background-color: $color__blocklink-bg--current;
+        background-color: $color__link--current__background;
     }
 
     #{$linklike-selector} {
@@ -109,15 +96,10 @@
 /**
  * blocklink variant
  */
-@mixin blocklink--transparent($linklike-selector: '.linklike') {
+@mixin blocklink--solid($linklike-selector: '.linklike') {
     @include blocklink($linklike-selector);
 
-    background-color: transparent;
-
-    &:hover:not(:active),
-    &:focus:not(:active) {
-        background-color: transparent;
-    }
+    background-color: $color__white;
 }
 
 /**
@@ -125,6 +107,19 @@
  */
 @mixin fancy-underscore($width: 1px) {
     position: relative;
+    transition-duration: 0s !important;
+
+    &:hover {
+        background: transparent;
+    }
+
+    &:hover:not(:focus) {
+        outline-width: 0;
+    }
+
+    &:active {
+        background: $color__link--active__background;
+    }
 
     &:after {
         background-color: currentColor;
@@ -138,8 +133,7 @@
         transition: left $transition-in-time, right $transition-in-time, opacity $transition-in-time;
     }
 
-    &:hover:after,
-    &:focus:after {
+    &:hover:after {
         left: 0;
         opacity: 1;
         right: 0;

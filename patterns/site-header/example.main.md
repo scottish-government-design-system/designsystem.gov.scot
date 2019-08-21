@@ -81,7 +81,7 @@ minheight: '427px'
                                 </a>
                             </li>
                             <li class="mobile-navigation__item">
-                                <span class="mobile-navigation__link  mobile-navigation__link--current">
+                                <span class="mobile-navigation__link  current">
                                     Components
                                 </span>
                             </li>
@@ -117,7 +117,7 @@ minheight: '427px'
                         </a>
                     </li>
                     <li class="site-navigation__item">
-                        <span class="site-navigation__link  site-navigation__link--current">
+                        <span class="site-navigation__link  current">
                             Components
                         </span>
                     </li>

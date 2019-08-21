@@ -42,18 +42,18 @@ $mobile-menu-background: $color__grey--lighter;
         text-decoration: none;
         white-space: nowrap;
 
-        &:hover:not(.site-navigation__link--current):not(:active),
-        &:focus:not(.site-navigation__link--current):not(:active) {
-            background-color: $color__blocklink-bg--hover;
+        &:focus,
+        &:active {
+            position: relative;
+            z-index: 1;
         }
 
-        &:focus {
-            outline: 2px solid $color__link--focus__outline;
+        &:hover {
+            background-color: $color__link--hover__background;
         }
 
         &:active {
-            background-color: $color__blocklink-bg--active;
-            outline: 0;
+            background-color: $color__link--active__background;
         }
 
         &:after {
@@ -67,11 +67,15 @@ $mobile-menu-background: $color__grey--lighter;
             right: $link-horiz-padding;
         }
 
-        &--current:after {
-            background-color: $color__link;
-            left: $link-horiz-padding;
-            opacity: 1;
-            right: $link-horiz-padding;
+        &.current {
+            background-color: $color__link--current__background;
+
+            &:after {
+                background-color: $color__link;
+                left: $link-horiz-padding;
+                opacity: 1;
+                right: $link-horiz-padding;
+            }
         }
     }
 
@@ -79,8 +83,8 @@ $mobile-menu-background: $color__grey--lighter;
         .site-navigation__link {
             color: $color__white;
 
-            &:hover:not(.site-navigation__link--current):not(:active),
-            &:focus:not(.site-navigation__link--current):not(:active) {
+            &:hover:not(.current):not(:active),
+            &:focus:not(.current):not(:active) {
                 background-color: $reversed-hover-bg;
                 color: $reversed-current-color;
             }
@@ -90,7 +94,8 @@ $mobile-menu-background: $color__grey--lighter;
                 color: $color__link--active;
             }
 
-            &--current {
+            &.current {
+                background-color: transparent;
                 color: $reversed-current-color;
 
                 &:after {
@@ -142,7 +147,7 @@ $mobile-menu-background: $color__grey--lighter;
     left: 0;
     overflow: auto;
     right: 0;
-    z-index: 1;
+    z-index: 10;
 
     &__button {
         @include blocklink;
@@ -215,7 +220,7 @@ $mobile-menu-background: $color__grey--lighter;
 
         &:hover ,
         &:focus {
-            border-left: 2px solid $color__link;
+            border-left: 3px solid $color__link;
             padding-left: #{$mobile-nav-link-horizontal-padding - 2px};
         }
 
@@ -227,9 +232,9 @@ $mobile-menu-background: $color__grey--lighter;
             outline: 2px solid $color__link--focus__outline;
         }
 
-        &--current {
-            background-color: $color__blocklink-bg--current;
-            border-left: 2px solid $color__link;
+        &.current {
+            background-color: $color__link--current__background;
+            border-left: 3px solid $color__link;
             padding-left: 18px;
         }
     }

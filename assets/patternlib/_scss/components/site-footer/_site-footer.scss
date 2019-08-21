@@ -52,12 +52,20 @@ $site-footer__link-highlight: $color__brand--secondary !default;
     }
 
     a {
-        color: currentColor !important;
+        color: currentColor;
+
+        &:hover {
+            color: $color__link--hover;
+        }
 
         &:active {
-            background-color: $site-footer__link-highlight;
-            outline-color: $site-footer__link-highlight;
+            color: $color__link--active;
         }
+    }
+
+    .site-footer__org-link,
+    .site-footer__copyright-logo {
+        color: currentColor !important;
     }
 }
 

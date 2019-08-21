@@ -13,7 +13,7 @@ $category-item__border-color--hover: $color__link--hover !default;
     display: flex;
 
     .category-item__link {
-        @include blocklink('.category-item__title');
+        @include blocklink--solid('.category-item__title');
 
         border-left: 0;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.15);

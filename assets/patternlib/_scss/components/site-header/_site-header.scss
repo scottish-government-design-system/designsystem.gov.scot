@@ -24,6 +24,10 @@ $site-header-border-color--reversed: $color__brand--secondary !default;
         overflow: hidden;
         padding: 14px 0;
         transition: min-height $transition-in-time;
+
+        @supports(display: grid) {
+            overflow: visible;
+        }
     }
 
     &__controls {
@@ -36,7 +40,7 @@ $site-header-border-color--reversed: $color__brand--secondary !default;
         margin-right: -15px;
         padding: 14px 15px;
 
-        @include blocklink--transparent;
+        @include blocklink;
     }
 
     &__control-icon {

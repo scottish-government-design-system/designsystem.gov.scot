@@ -19,6 +19,14 @@ $notification-font-size: 19px !default;
     a {
         color: currentColor;
         text-decoration: underline;
+
+        &:hover {
+            color: $color__link--hover;
+        }
+
+        &:hover {
+            color: $color__link--active;
+        }
     }
 
     &__content {
@@ -58,20 +66,20 @@ $notification-font-size: 19px !default;
         color: currentColor;
         display: none;
         font-size: $small-size--fixed;
+        height: 21px;
         margin: #{$notification-close-padding * -1} #{$notification-close-padding * -1} #{$notification-close-padding * -1} 25px;
         padding: $notification-close-padding;
         position: absolute;
         right: 0;
         top: 17px;
+        width: 21px;
 
-        .icon {
-            width: 21px;
-            height: 21px;
+        &:hover:not(:focus) {
+            background-color: transparent;
         }
 
         &:hover,
         &:focus {
-            background-color: transparent;
             border: 2px solid currentColor;
             padding: #{$notification-close-padding - 2}
         }

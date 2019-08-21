@@ -116,7 +116,7 @@ minheight: '427px'
                         </a>
                     </li>
                     <li class="site-navigation__item">
-                        <span class="site-navigation__link  site-navigation__link--current">
+                        <span class="site-navigation__link  current">
                             Components
                         </span>
                     </li>

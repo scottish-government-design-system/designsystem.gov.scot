@@ -16,4 +16,14 @@ input[type="submit"] {
         background-color: $color__button--primary--hover;
         transition-duration: $transition-in-time;
     }
+
+    &:focus {
+        outline: 2px solid $color__button--focus__outline;
+    }
+
+    &:active {
+        background-color: $color__button--active__background;
+        color: $color__body;
+        transition-duration: 0s;
+    }
 }

@@ -10,7 +10,7 @@ minheight: 581px
 
 <nav role="navigation" aria-label="Sections" class="side-navigation">
     <input type="checkbox" class="visually-hidden" id="show-side-navigation" aria-controls="side-navigation-root" />
-    <label class="side-navigation__expand" for="show-side-navigation">Pages in this section</label>
+    <label class="side-navigation__expand" for="show-side-navigation"><span class="visually hidden">Show all</span> Pages in this section <span class="side-navigation__expand-indicator"></span></label>
 
     <ul class="side-navigation__list  side-navigation__root" id="side-navigation-root">
         <li class="side-navigation__item  side-navigation__item--has-children  side-navigation__item--has-children--expanded">

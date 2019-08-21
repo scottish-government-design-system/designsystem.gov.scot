@@ -37,32 +37,32 @@ $color__placeholder:    $color__grey--base !default;
 // links
 $color__link:                       $color__blue--base !default;
 $color__link--hover:                $color__blue--dark !default;
-$color__link--active:               $color__blue--dark !default;
-$color__link--active__background:   $color__blue--light !default;
+$color__link--hover__background:    $color__blue--light !default;
+$color__link--active:               $color__body !default;
+$color__link--active__background:   $color__gold--base !default;
 $color__link--focus:                $color__blue--dark !default;
 $color__link--focus__outline:       $color__gold--base !default;
+$color__link--current__background:  $color__grey--lighter !default;
 
 // block links
 $color__blocklink-bg:               $color__white !default;
-$color__blocklink-bg--hover:        $color__blue--lighter !default;
-$color__blocklink-bg--active:       $color__blue--light !default;
-$color__blocklink-bg--current:      $color__grey--lighter !default;
+$color__blocklink-bg--hover:        $color__link--hover__background !default;
+$color__blocklink-bg--active:       $color__link--active__background !default;
 
 // input
 $color__input--focus-background:    $color__blue--lighter !default;
 $color__input--focus-border:        $color__brand--primary !default;
 
 // buttons
+$color__button--active__background:     $color__link--active__background !default;
+$color__button--focus__outline:         $color__link--focus__outline !default;
 $color__button--primary:                $color__blue--base !default;
 $color__button--primary--hover:         $color__blue--dark !default;
-$color__button--primary--active:        $color__blue--dark !default;
-$color__button--primary--focus:         $color__blue--dark !default;
 
 // form elements
 $color__input-bg--focus: $color__blue--lighter !default;
 
 // borders
-$color__border--darker: $color__grey--dark;
 $color__border--dark: $color__grey--dark;
 $color__border--base: $color__grey--medium;
 $color__border--light: $color__grey--light;

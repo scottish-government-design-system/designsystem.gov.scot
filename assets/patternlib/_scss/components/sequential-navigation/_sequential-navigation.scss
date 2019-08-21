@@ -17,14 +17,18 @@ $page-nav__icon-size: 56px;
     overflow: hidden;
 }
 
+@supports(display: grid) {
+    .sequential-nav {
+        overflow: initial;
+    }
+}
+
 .sequential-nav__button {
     @include blocklink('.sequential-nav__text');
 
     background: transparent;
-    border-radius: 8px;
     display: inline-block;
     line-height: 21px;
-    min-height: 91px;
     padding: 14px 5px;
     position: relative;
     text-decoration: none;

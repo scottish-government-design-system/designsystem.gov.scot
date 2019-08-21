@@ -14,6 +14,17 @@ const sideNavigationComponent = {
 
             checkbox.setAttribute('aria-expanded', event.target.checked);
         });
+
+
+        window.addEventListener('scroll', function () {
+            const sideNavigationExpand = document.querySelector('.side-navigation__expand');
+
+            if (sideNavigationExpand.offsetTop > 1) {
+                sideNavigationExpand.classList.add('side-navigation__expand--shadow');
+            } else {
+                sideNavigationExpand.classList.remove('side-navigation__expand--shadow');
+            }
+        });
     }
 };
 

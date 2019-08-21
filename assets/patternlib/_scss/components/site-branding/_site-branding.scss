@@ -100,11 +100,6 @@ $site-logo-height--medium: 56px;
         }
     }
 
-    .site-branding__link:active {
-        background-color: $color__brand--secondary;
-        outline-color: $color__brand--secondary;
-    }
-
     .site-branding__link {
         color: currentColor !important;
     }
