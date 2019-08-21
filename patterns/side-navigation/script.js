@@ -7,9 +7,13 @@ const sideNavigationComponent = {
         checkbox.addEventListener('change', function (event) {
             const list = sideNavigation.querySelector('.side-navigation__root');
             if (event.target.checked) {
+                list.style.display = 'block';
                 list.style.maxHeight = list.scrollHeight + 14 +  'px';
             } else {
                 list.style.maxHeight = 0;
+                window.setTimeout(function () {
+                    list.style.display = 'none';
+                }, 200);
             }
 
             checkbox.setAttribute('aria-expanded', event.target.checked);

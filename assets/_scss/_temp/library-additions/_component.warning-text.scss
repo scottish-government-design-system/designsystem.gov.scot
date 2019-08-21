@@ -8,9 +8,10 @@
 .warning-text {
     border : 1px solid $color__grey--medium;
     border-width: 1px 0;
-    margin: 35px 0;
     padding: 20px 10px 27px 59px;
     position: relative;
+
+    @include block-margins;
 }
 
 .warning-text__icon {
@@ -31,7 +32,6 @@
 
 @media (min-width: 768px) {
     .warning-text {
-        font-size: 18px;
         padding-left: 64px;
         padding-right: 35px;
     }

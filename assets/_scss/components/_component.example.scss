@@ -9,7 +9,7 @@ $example__border-color: $color__grey--pale !default;
 $example__highlight-color: $color__blue--lighter !default;
 
 .example {
-    @include block-spacing;
+    @include block-margins;
 }
 
 .example__caption {

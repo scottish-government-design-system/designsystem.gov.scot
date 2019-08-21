@@ -41,7 +41,15 @@ $breadcrumbs__font-size: $small-size--fixed !default;
         color: $color__white;
 
         a {
-            color: $color__white !important;
+            color: $color__white;
+
+            &:hover {
+                color: $color__link--hover;
+            }
+
+            &:active {
+                color: $color__link--active;
+            }
         }
     }
 }

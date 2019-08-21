@@ -8,9 +8,12 @@ $side-nav-spacing-unit: 15px;
 
 
 .side-navigation {
+    @include block-margins;
+
     border-bottom: 1px solid $color__border--light;
     border-top: 1px solid $color__border--light;
-    margin: 35px -15px;
+    margin-left: -15px;
+    margin-right: -15px;
     position: relative;
 
     &__expand {
@@ -39,12 +42,7 @@ $side-nav-spacing-unit: 15px;
     }
 
     &__expand-indicator {
-        @include chevron();
-
-        color: $color__link;
-        right: 21px;
-        position: absolute;
-        top: 16px;
+        @include indicator();
     }
 
     &__root {
@@ -56,8 +54,7 @@ $side-nav-spacing-unit: 15px;
     }
 
     #show-side-navigation:checked ~ .side-navigation__expand .side-navigation__expand-indicator {
-        @include chevron(up);
-        top: 20px;
+        @include indicator--open();
     }
 
     #show-side-navigation:checked ~ &__root {
@@ -150,7 +147,6 @@ $side-nav-spacing-unit: 15px;
 @include media-query(medium-down) {
     .js-enabled .side-navigation {
         .side-navigation__root {
-            display: block;
             margin: 0 15px;
             max-height: 0;
             overflow: hidden;

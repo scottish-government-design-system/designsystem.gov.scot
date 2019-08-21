@@ -9,9 +9,10 @@
     border : 1px solid $color__grey--medium;
     border-width: 1px 0;
     font-size: 15px;
-    margin: 35px 0;
     padding: 13px 10px 13px 49px;
     position: relative;
+
+    @include block-margins;
 }
 
 .information-text__icon {

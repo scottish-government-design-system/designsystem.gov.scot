@@ -144,7 +144,25 @@
  * Mixin to enforce consistent margins on "block" elements, e.g. blockquotes,
  * info notes, accordions, etc
  */
-@mixin block-spacing {
+@mixin block-margins {
     margin-top: 35px;
     margin-bottom: 35px;
+}
+
+/**
+ * Mixin to enforce consistent open/close icons,
+ * mobile section nav, accordions, etc
+ */
+@mixin indicator ($topOffset: 16px) {
+    @include chevron();
+
+    color: $color__link;
+    right: 21px;
+    position: absolute;
+    top: $topOffset;
+}
+
+@mixin indicator--open ($topOffset: 20px) {
+    @include chevron(up);
+    top: $topOffset;
 }
