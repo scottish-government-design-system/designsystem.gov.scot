@@ -4,6 +4,15 @@
 
 .accordion {
     @include block-margins;
+
+    position: relative;
+
+    &__open-all {
+        position: absolute;
+        right: 0;
+        text-decoration: none;
+        top: -35px;
+    }
 }
 
 .accordion-item {
@@ -13,12 +22,18 @@
     &__header {
         @include blocklink;
 
+        color: $color__link;
         font-weight: $bold;
         padding: 14px 45px 14px 15px;
         position: relative;
 
         &:hover:not(:active) {
             background-color: $color__link--hover__background;
+            color: $color__link--hover;
+        }
+
+        &:active {
+            color: $color__link--active;
         }
     }
 
@@ -49,6 +64,7 @@
 
     &__control:checked ~ &__header:not(:active) {
         background-color: $color__link--current__background;
+        color: $color__link--current;
     }
 
     &__control:checked ~ &__header &__indicator {

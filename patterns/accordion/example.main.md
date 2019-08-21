@@ -6,11 +6,9 @@ scripts:
   - /patterns/accordion/script.js
 ---
 
-<style>
-    
-</style>
-
 <div class="accordion">
+    <button type="button" class="link  accordion__open-all">Expand all <span class="visually-hidden">sections</span></button>
+
     <div class="accordion-item">
         <input type="checkbox" class="visually-hidden  accordion-item__control" id="panel-1" aria-labelledby="panel-1-heading">
         <div class="accordion-item__header">

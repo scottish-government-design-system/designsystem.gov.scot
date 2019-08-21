@@ -1,13 +1,20 @@
 const accordionComponent = {
     init: function () {
-        const accordionItems = document.querySelectorAll('.accordion-item');
+        const accordions = document.querySelectorAll('.accordion');
 
-        accordionItems.forEach(function (accordionItem) {
-            accordionComponent.initAccordionItem(accordionItem)
+        accordions.forEach(function (accordion) {
+            const accordionItems = accordion.querySelectorAll('.accordion-item');
+            const openAllButton = accordion.querySelector('.accordion__open-all');
+
+            accordionComponent.initOpenAll(accordion, openAllButton);
+
+            accordionItems.forEach(function (accordionItem) {
+                accordionComponent.initAccordionItem(accordionItem, accordion, openAllButton);
+            });
         });
     },
 
-    initAccordionItem(item) {
+    initAccordionItem(item, accordion, button) {
         const checkbox = item.querySelector('.accordion-item__control');
         checkbox.setAttribute('aria-expanded', false);
 
@@ -24,9 +31,46 @@ const accordionComponent = {
                 }, 200);
             }
 
+            accordionComponent.checkAllOpen(accordion, button);
+
             checkbox.setAttribute('aria-expanded', event.target.checked);
         });
-    }
+    },
+
+
+    initOpenAll: function (accordion, button) {
+        button.addEventListener('click', function () {
+            const opening = !accordionComponent.checkAllOpen(accordion, button);
+
+            const allPanelCheckboxes = accordion.querySelectorAll('.accordion-item__control');
+
+            allPanelCheckboxes.forEach(function (checkbox) {
+                checkbox.checked = opening;
+
+                const event = document.createEvent('HTMLEvents');
+                event.initEvent('change', true, false);
+                checkbox.dispatchEvent(event);
+            });
+        });
+    },
+
+    checkAllOpen: function (accordion, button) {
+        const accordionItems = accordion.querySelectorAll('.accordion-item');
+        const openItems = accordion.querySelectorAll('.accordion-item__control:checked');
+        let allOpen;
+
+        if (accordionItems.length === openItems.length) {
+            // everything is open
+            button.innerHTML = 'Close all <span class="visually-hidden">sections</span>';
+            allOpen = true;
+        } else {
+            // not everything is open
+            button.innerHTML = 'Expand all <span class="visually-hidden">sections</span>';
+            allOpen = false;
+        }
+
+        return allOpen;
+    },
 };
 
 // self-initialize

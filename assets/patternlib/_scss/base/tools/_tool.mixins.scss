@@ -156,7 +156,7 @@
 @mixin indicator ($topOffset: 16px) {
     @include chevron();
 
-    color: $color__link;
+    color: currentColor;
     right: 21px;
     position: absolute;
     top: $topOffset;
