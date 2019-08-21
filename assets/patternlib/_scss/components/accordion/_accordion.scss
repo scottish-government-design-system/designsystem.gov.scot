@@ -8,7 +8,7 @@
     position: relative;
 
     &__open-all {
-        displau: none;
+        display: none;
         position: absolute;
         right: 0;
         text-decoration: none;
@@ -60,7 +60,7 @@
 
     &__body {
         display: none;
-        padding: 0 15px;
+        padding: 21px 15px 28px;
     }
 
     &__control:checked ~ &__body {
@@ -90,6 +90,7 @@
     &__body {
         max-height: 0;
         overflow: hidden;
+        padding: 0 15px;
         transition: max-height $transition-in-time, padding $transition-in-time;
     }
 
