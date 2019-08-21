@@ -8,11 +8,16 @@
     position: relative;
 
     &__open-all {
+        displau: none;
         position: absolute;
         right: 0;
         text-decoration: none;
         top: -35px;
     }
+}
+
+.js-enabled .accordion__open-all {
+    display: block;
 }
 
 .accordion-item {
