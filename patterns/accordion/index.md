@@ -13,4 +13,4 @@ examples:
     name: "Help if you're made redundant"
 ---
 
-Keyboard-navigable for accessibility. Requires some JavaScript.
+Keyboard-navigable for accessibility. Works without JavaScript.
