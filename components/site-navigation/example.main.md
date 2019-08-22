@@ -1,10 +1,10 @@
 ---
 layout: example
-parent: component.primary-navigation
+parent: component.site-navigation
 type: example
 index: 0
 scripts:
-  - /components/primary-navigation/script.js
+  - /components/site-navigation/script.js
 ---
 
 <nav role="navigation">
@@ -21,12 +21,12 @@ scripts:
             <div class="mobile-navigation__block">
                 <ul class="mobile-navigation__list">
                     <li class="mobile-navigation__item">
-                        <a href="#" class="mobile-navigation__link">
+                        <a data-header="header-link-1" href="#" class="mobile-navigation__link">
                             Get started
                         </a>
                     </li>
                     <li class="mobile-navigation__item">
-                        <a href="#" class="mobile-navigation__link">
+                        <a data-header="header-link-2" href="#" class="mobile-navigation__link">
                             Styles
                         </a>
                     </li>
@@ -36,7 +36,7 @@ scripts:
                         </span>
                     </li>
                     <li class="mobile-navigation__item">
-                        <a href="#" class="mobile-navigation__link">
+                        <a data-header="header-link-4" href="#" class="mobile-navigation__link">
                             Patterns
                         </a>
                     </li>
@@ -53,12 +53,12 @@ scripts:
 <nav class="site-navigation">
     <ul class="site-navigation__list">
         <li class="site-navigation__item">
-            <a href="#" class="site-navigation__link">
+            <a data-header="header-link-1" href="#" class="site-navigation__link">
                 Get started
             </a>
         </li>
         <li class="site-navigation__item">
-            <a href="#" class="site-navigation__link">
+            <a data-header="header-link-2" href="#" class="site-navigation__link">
                 Styles
             </a>
         </li>
@@ -68,7 +68,7 @@ scripts:
             </span>
         </li>
         <li class="site-navigation__item">
-            <a href="#" class="site-navigation__link">
+            <a data-header="header-link-4" href="#" class="site-navigation__link">
                 Patterns
             </a>
         </li>

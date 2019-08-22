@@ -1,6 +1,6 @@
 ---
 layout: all-examples
-parent: component.primary-navigation
+parent: component.site-navigation
 type: all-examples
 index: 0
 ---

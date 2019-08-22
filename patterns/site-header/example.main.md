@@ -4,7 +4,7 @@ parent: pattern.site-header
 type: example
 scripts:
   - /components/site-search/script.js
-  - /components/primary-navigation/script.js
+  - /components/site-navigation/script.js
 index: 0
 style: '.example-frame__content {padding: 0;}'
 minheight: '427px'

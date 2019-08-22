@@ -158,8 +158,8 @@ $mobile-menu-background: $color__grey--lighter;
         padding: 0 15px;
 
         &--open {
-            background-color: $mobile-menu-background !important;
-            color: $color__link !important;
+            background-color: $mobile-menu-background;
+            color: $color__link;
         }
     }
 

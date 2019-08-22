@@ -1,9 +1,9 @@
 ---
 layout: component-enhanced
-title:  "Primary navigation"
+title:  "Site navigation"
 category: components
 parent: components
-thispage: component.primary-navigation
+thispage: component.site-navigation
 #examples:
 #  - site: gov.scot
 #    url: https://www.gov.scot/publications/2018-19-autumn-budget-revision-supporting-document/

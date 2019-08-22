@@ -69,6 +69,10 @@
         outline: 0;
     }
 
+    &:hover {
+        background-color: $color__link--hover__background;
+    }
+
     &:active {
         background-color: $color__blocklink-bg--active;
         // outline: initial;
