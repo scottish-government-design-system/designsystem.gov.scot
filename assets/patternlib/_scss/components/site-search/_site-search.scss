@@ -23,7 +23,6 @@ $site-search__background-color: $color__grey--light !default;
         background: $site-search__background-color;
         border: 0;
         box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-        float: right;
         margin-right: $site-search__height;
 
         min-height: $site-search__height;
@@ -56,7 +55,6 @@ $site-search__background-color: $color__grey--light !default;
         height: $site-search__height--medium;
 
         &__input[type=text] {
-            max-width: 33%;
             min-height: $site-search__height--medium;
             margin-right: $site-search__height--medium;
             width: calc(100% - #{$site-search__height});

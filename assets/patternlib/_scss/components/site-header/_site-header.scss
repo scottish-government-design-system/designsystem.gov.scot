@@ -125,6 +125,11 @@ $site-header-border-color--reversed: $color__brand--secondary !default;
 
     .site-header__search {
         display: block;
+
+        .site-search__input {
+            float: right;
+            max-width: 33%;
+        }
     }
 
     .site-header__branding {
