@@ -20,12 +20,13 @@ $side-nav-spacing-unit: 15px;
         @include blocklink;
 
         background-color: $color__white;
-
+        cursor: pointer;
         font-weight: $bold;
         padding: 14px 45px 14px 15px;
         position: sticky;
         top: 0;
         z-index: 2;
+        text-decoration: none;
         transition: box-shadow $transition-in-time;
 
         &--shadow {

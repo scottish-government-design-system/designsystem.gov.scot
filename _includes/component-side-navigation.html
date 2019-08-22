@@ -7,7 +7,7 @@
     {% assign indexed = site.pages | where:"category", navitems | sort: 'index', 'first' | sort: 'title', 'first' %}
 
     <input type="checkbox" class="visually-hidden" id="show-side-navigation" />
-    <label class="side-navigation__expand" for="show-side-navigation"><span class="visually hidden">Show all</span> Pages in this section <span class="side-navigation__expand-indicator"></span></label>
+    <label class="side-navigation__expand  link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="side-navigation__expand-indicator"></span></label>
 
     <ul class="side-navigation__list  side-navigation__root">
         {% for item in indexed %}
