@@ -9,7 +9,7 @@ $notification-font-size: 19px !default;
 
 
 
-.notification {
+.#{$pl-prefix}notification {
     background: $color__grey--dark;
     color: $color__white;
     font-size: $notification-font-size;
@@ -54,7 +54,7 @@ $notification-font-size: 19px !default;
         padding: 5px;
         width: 29px;
 
-        + .notification__text {
+        + .#{$pl-prefix}notification__text {
             margin-left: 40px;
         }
     }
@@ -89,7 +89,7 @@ $notification-font-size: 19px !default;
         background: $color__gold--base;
         color: $color__body;
 
-        .notification__icon svg {
+        .#{$pl-prefix}notification__icon svg {
             fill: $color__gold--base;
         }
     }
@@ -97,7 +97,7 @@ $notification-font-size: 19px !default;
     &--positive {
         background: $color__green--base;
 
-        .notification__icon svg {
+        .#{$pl-prefix}notification__icon svg {
             fill: $color__green--base;
         }
     }
@@ -105,14 +105,14 @@ $notification-font-size: 19px !default;
     &--negative {
         background: $color__red--base;
 
-        .notification__icon svg {
+        .#{$pl-prefix}notification__icon svg {
             fill: $color__red--base;
         }
     }
 }
 
 .js-enabled {
-    .notification__close {
+    .#{$pl-prefix}notification__close {
         display: block;
     }
 }

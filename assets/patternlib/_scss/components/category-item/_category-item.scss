@@ -9,7 +9,7 @@ $category-item__border-color--hover: $color__link--hover !default;
 
 
 
-.category-item {
+.#{$pl-prefix}category-item {
 
     &__title {
         font-size: $large-size;
@@ -43,14 +43,14 @@ $category-item__border-color--hover: $color__link--hover !default;
     }
 
     &--highlight {
-        .category-item__link {
+        .#{$pl-prefix}category-item__link {
             border-color: $category-item__border-color;
             border-left-width: 2px;
         }
     }
 
     &--no-border {
-        .category-item__link {
+        .#{$pl-prefix}category-item__link {
             border-left: 0;
             padding-left: 0;
         }

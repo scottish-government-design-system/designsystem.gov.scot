@@ -64,21 +64,21 @@
         }
     </style>
 
-    <div class="wrapper">
+    <div class="ds_wrapper">
 
         <main id="main-content">
 
             <header class="heading">
-                <div class="page-header">
+                <div class="ds_page-header">
                     {% if page.category == 'foundations' %}
-                        <span class="page-header__label  content-label">Foundation</span>
+                        <span class="ds_page-header__label  ds_content-label">Foundation</span>
                     {% elsif page.category == 'components' %}
-                        <span class="page-header__label  content-label">Component</span>
+                        <span class="ds_page-header__label  ds_content-label">Component</span>
                     {% elsif page.category == 'patterns' %}
-                        <span class="page-header__label  content-label">Pattern</span>
+                        <span class="ds_page-header__label  ds_content-label">Pattern</span>
                     {% endif %}
 
-                    <h1 class="page-header__title">{{ page.title }}</h1>
+                    <h1 class="ds_page-header__title">{{ page.title }}</h1>
                 </div>
             </header>
 

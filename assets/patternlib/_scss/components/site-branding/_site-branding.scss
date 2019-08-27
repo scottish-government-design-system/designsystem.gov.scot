@@ -8,7 +8,7 @@ $site-logo-height--medium: 56px;
 
 
 
-.site-branding {
+.#{$pl-prefix}site-branding {
     &__logo {
         height: $site-logo-height;
     }
@@ -36,7 +36,7 @@ $site-logo-height--medium: 56px;
 }
 
 @include media-query (medium) {
-    .site-branding {
+    .#{$pl-prefix}site-branding {
         &__link {
             margin-bottom: 0;
         }
@@ -91,8 +91,8 @@ $site-logo-height--medium: 56px;
 
 
 // when branding is a child of a reversed-variant site header
-.site-branding--reversed {
-    .site-branding__logo {
+.#{$pl-prefix}site-branding--reversed {
+    .#{$pl-prefix}site-branding__logo {
         color: $color__white;
 
         &:not(:last-child):before {
@@ -100,7 +100,7 @@ $site-logo-height--medium: 56px;
         }
     }
 
-    .site-branding__link {
+    .#{$pl-prefix}site-branding__link {
         color: currentColor !important;
     }
 }
@@ -109,13 +109,13 @@ $site-logo-height--medium: 56px;
 
 
 @supports (display: grid) {
-    .site-branding {
+    .#{$pl-prefix}site-branding {
         display: grid;
         grid-gap: 0;
     }
 
     @include media-query (medium) {
-        .site-branding {
+        .#{$pl-prefix}site-branding {
             align-items: center;
             grid-template-columns: min-content auto;
             grid-column-gap: 50px;

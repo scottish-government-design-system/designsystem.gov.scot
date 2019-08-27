@@ -52,13 +52,13 @@
     {% include banner.html %}
     {% include header.html %}
 
-    <div class="wrapper">
+    <div class="ds_wrapper">
 
-        <div class="category-header">
-            <header class="category-header__header">
-                <h1 class="category-header__title">{{ page.title }}</h1>
+        <div class="ds_category-header">
+            <header class="ds_category-header__header">
+                <h1 class="ds_category-header__title">{{ page.title }}</h1>
 
-                <div class="category-header__summary">
+                <div class="ds_category-header__summary">
                     {% if page.markdownsummary %}
                         {{ page.markdownsummary | markdownify }}
                     {% else %}
@@ -67,7 +67,7 @@
                 </div>
             </header>
             {% if page.hero %}
-                <img class="category-header__image"
+                <img class="ds_category-header__image"
                     src="/assets/images/hero/{{ page.hero }}" alt="">
             {% endif %}
         </div>
@@ -87,16 +87,16 @@
 </div>
 
 <div id="body-wrapper" class="body-wrapper">
-    <div class="wrapper">
-        <div class="category-list-container">
+    <div class="ds_wrapper">
+        <div class="ds_category-list-container">
             {% assign depthAsString = depth | downcase %}
-            <ol class="main  category-list
+            <ol class="main  ds_category-list
                 {% if depthAsString == '0' %}
-                    category-list--grid  category-list--grid--narrow
+                    ds_category-list--grid  ds_category-list--grid--narrow
                 {% else if depthAsString == '1' %}
-                    category-list--grid
+                    ds_category-list--grid
                 {% else if depthAsString == '2' %}
-                    category-list
+                    ds_category-list
                 {% else if depthAsString == '3' %}
 
                 {% endif %}
@@ -111,24 +111,24 @@
                 {% for item in indexed %}
 
                     {% if depth == 0 %}
-                        <li class="category-item  category-item--card  category-item--no-border">
-                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
-                                <h2 class="category-item__title">{{item.title}}</h2>
+                        <li class="ds_category-item  ds_category-item--card  ds_category-item--no-border">
+                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link" data-gtm="item-{{forloop.index}}">
+                                <h2 class="ds_category-item__title">{{item.title}}</h2>
 
                                 {% if item.summary %}
-                                    <p class="category-item__summary">
+                                    <p class="ds_category-item__summary">
                                         {{ item.summary }}
                                     </p>
                                 {% endif %}
                             </a>
                         </li>
                     {% else %}
-                        <li class="category-item">
-                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="category-item__link" data-gtm="item-{{forloop.index}}">
-                                <h2 class="category-item__title">{{item.title}}</h2>
+                        <li class="ds_category-item">
+                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link" data-gtm="item-{{forloop.index}}">
+                                <h2 class="ds_category-item__title">{{item.title}}</h2>
 
                                 {% if item.summary %}
-                                    <p class="category-item__summary">
+                                    <p class="ds_category-item__summary">
                                         {{ item.summary }}
                                     </p>
                                 {% endif %}

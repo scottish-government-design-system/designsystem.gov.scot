@@ -8,7 +8,7 @@ $site-header-border-color--reversed: $color__brand--secondary !default;
 
 
 
-.site-header {
+.#{$pl-prefix}site-header {
     background-color: $color__white;
     border-bottom: 1px solid $site-header-border-color;
     position: relative;
@@ -61,20 +61,20 @@ $site-header-border-color--reversed: $color__brand--secondary !default;
         display: none;
     }
 
-    > .wrapper {
+    > .#{$pl-prefix}wrapper {
         position: relative;
     }
 }
 
 /* variant with the top colour bar set to a gradient of site brand colours */
-.site-header--gradient {
+.#{$pl-prefix}site-header--gradient {
     &:before {
         background: linear-gradient(to right, $color__brand--primary, $color__brand--secondary);
     }
 }
 
 /* variant with a drop shadow instead of a bottom border */
-.site-header--shadow {
+.#{$pl-prefix}site-header--shadow {
     border-bottom: 0;
 
     &:after {
@@ -89,24 +89,24 @@ $site-header-border-color--reversed: $color__brand--secondary !default;
 }
 
 /* variant with a solid-colour background and reversed branding */
-.site-header--reversed {
+.#{$pl-prefix}site-header--reversed {
     background-color: $color__brand--primary;
     border-bottom: 0;
     color: $color__white;
 
-    &:not(.site-header--gradient) {
+    &:not(.#{$pl-prefix}site-header--gradient) {
         &:before {
             content: none;
         }
     }
 
-    .site-header__navigation {
+    .#{$pl-prefix}site-header__navigation {
         border-top: 1px solid $site-header-border-color--reversed;
     }
 }
 
 @supports (display: flex) {
-    .site-header__content {
+    .#{$pl-prefix}site-header__content {
         align-items: center;
         display: flex;
         justify-content: space-between;
@@ -114,29 +114,29 @@ $site-header-border-color--reversed: $color__brand--secondary !default;
 }
 
 @include media-query(medium) {
-    .site-header__content {
+    .#{$pl-prefix}site-header__content {
         padding-bottom: 14px;
         padding-top: 14px;
     }
 
-    .site-header__controls {
+    .#{$pl-prefix}site-header__controls {
         display: none;
     }
 
-    .site-header__search {
+    .#{$pl-prefix}site-header__search {
         display: block;
 
-        .site-search__input {
+        .#{$pl-prefix}site-search__input {
             float: right;
             max-width: 33%;
         }
     }
 
-    .site-header__branding {
+    .#{$pl-prefix}site-header__branding {
         max-width: calc(2/3 * 100% - #{$grid-gap-x});
     }
 
-    .site-header__navigation {
+    .#{$pl-prefix}site-header__navigation {
         border-top: 1px solid $color__border--light;
     }
 }

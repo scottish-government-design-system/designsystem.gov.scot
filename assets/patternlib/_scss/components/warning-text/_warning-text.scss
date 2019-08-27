@@ -5,7 +5,7 @@
 
 
 
-.warning-text {
+.#{$pl-prefix}warning-text {
     border : 1px solid $color__grey--medium;
     border-width: 1px 0;
     padding: 20px 10px 27px 59px;
@@ -14,7 +14,7 @@
     @include block-margins;
 }
 
-.warning-text__icon {
+.#{$pl-prefix}warning-text__icon {
     background: $color__body;
     border-radius: 36px;
     color: $color__white;
@@ -31,12 +31,12 @@
 }
 
 @media (min-width: 768px) {
-    .warning-text {
+    .#{$pl-prefix}warning-text {
         padding-left: 64px;
         padding-right: 35px;
     }
 
-    .warning-text__icon {
+    .#{$pl-prefix}warning-text__icon {
         left: 15px;
     }
 }

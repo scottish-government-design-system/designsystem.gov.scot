@@ -5,8 +5,8 @@ type: example
 index: 0
 ---
 
-<div class="site-branding">
-    <div class="site-branding__title">
-        <a data-header="header-title" class="site-branding__link" href="#">Pattern Library</a>
+<div class="ds_site-branding">
+    <div class="ds_site-branding__title">
+        <a data-header="header-title" class="ds_site-branding__link" href="#">Pattern Library</a>
     </div>
 </div>

@@ -3,7 +3,7 @@
     title block for articles
 \*------------------------------------*/
 
-.page-header {
+.#{$pl-prefix}page-header {
     margin: 14px 0 35px;
 
     &__title {
@@ -20,7 +20,7 @@
 }
 
 @include media-query(medium) {
-    .page-header {
+    .#{$pl-prefix}page-header {
         margin-top: 28px;
     }
 }

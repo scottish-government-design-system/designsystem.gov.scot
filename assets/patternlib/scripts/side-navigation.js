@@ -1,6 +1,14 @@
+'use strict';
+
 const sideNavigationComponent = {
     init: function () {
         const sideNavigation = document.querySelector('.side-navigation');
+        if (sideNavigation) {
+            this.setupSideNavigation(sideNavigation);
+        }
+    },
+
+    setupSideNavigation: function (sideNavigation) {
         const checkbox = sideNavigation.querySelector('#show-side-navigation');
         checkbox.setAttribute('aria-expanded', false);
 
@@ -34,3 +42,5 @@ const sideNavigationComponent = {
 
 // self-initialize
 sideNavigationComponent.init();
+
+export default sideNavigationComponent;

@@ -4,6 +4,10 @@ const mobileMenuComponent = {
     menuElement: document.querySelector('#mobile-navigation-menu'),
 
     init: function () {
+        if (!this.menuElement) {
+            return;
+        }
+
         const menuToggleButton = document.querySelector('.js-toggle-menu');
         const menuContainer = document.querySelector('#mobile-navigation-menu');
         const menuCloseButton = document.querySelector('.js-close-menu');
@@ -20,7 +24,7 @@ const mobileMenuComponent = {
 
             menuToggleButton.setAttribute('aria-expanded', menuIsOpen);
             menuCloseButton.setAttribute('aria-expanded', menuIsOpen);
-            menuIsOpen? menuToggleButton.classList.add('mobile-navigation__button--open') : menuToggleButton.classList.remove('mobile-navigation__button--open');
+            menuIsOpen? menuToggleButton.classList.add('ds_mobile-navigation__button--open') : menuToggleButton.classList.remove('ds_mobile-navigation__button--open');
         });
 
         menuCloseButton.addEventListener('click', function () {
@@ -29,7 +33,7 @@ const mobileMenuComponent = {
 
             menuToggleButton.setAttribute('aria-expanded', false);
             menuCloseButton.setAttribute('aria-expanded', false);
-            menuToggleButton.classList.remove('mobile-navigation__button--open');
+            menuToggleButton.classList.remove('ds_mobile-navigation__button--open');
         });
     },
 
@@ -41,18 +45,19 @@ const mobileMenuComponent = {
 
         // position overlay
         const offsetElement = document.querySelector(this.menuElement.dataset.offsetselector);
-        const headerOffset = offsetElement ? offsetElement.offsetHeight : 0;
-        const mobileNavigation = document.querySelector('.mobile-navigation');
-        mobileNavigation.style.top = headerOffset - 7 + 'px';
+        const offsetHeight = offsetElement ? offsetElement.offsetHeight : 0;
+        const offsetTop = offsetElement ? offsetElement.offsetTop : 0;
+        const mobileNavigation = document.querySelector('.ds_mobile-navigation');
+        mobileNavigation.style.top = offsetHeight - 7 + 'px';
 
-        if (mobileNavigation.offsetHeight + headerOffset > window.innerHeight) {
+        if (mobileNavigation.offsetHeight + offsetHeight > window.innerHeight) {
             mobileNavigation.style.bottom = 0;
         } else {
             mobileNavigation.style.bottom = null;
         }
 
         const menuHeight = mobileNavigation.offsetHeight;
-        mobileNavigation.querySelector('.mobile-navigation__backdrop').style.top = menuHeight + headerOffset + offsetElement.offsetTop + 'px';
+        mobileNavigation.querySelector('.ds_mobile-navigation__backdrop').style.top = menuHeight + offsetHeight + offsetTop + 'px';
 
         // set overflow on body and html
         htmlElement.style.position = 'relative';
@@ -78,3 +83,5 @@ const mobileMenuComponent = {
 
 // self-initialize
 mobileMenuComponent.init();
+
+export default mobileMenuComponent;

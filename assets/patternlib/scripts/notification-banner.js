@@ -15,3 +15,5 @@ const notificationComponent = {
 
 // self-initialize
 notificationComponent.init();
+
+export default notificationComponent;

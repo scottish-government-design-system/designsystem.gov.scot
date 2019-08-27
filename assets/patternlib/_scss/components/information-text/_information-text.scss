@@ -5,7 +5,7 @@
 
 
 
-.information-text {
+.#{$pl-prefix}information-text {
     border : 1px solid $color__grey--medium;
     border-width: 1px 0;
     font-size: 15px;
@@ -15,7 +15,7 @@
     @include block-margins;
 }
 
-.information-text__icon {
+.#{$pl-prefix}information-text__icon {
     background: $color__body;
     border-radius: 26px;
     color: $color__white;
@@ -34,7 +34,7 @@
 }
 
 @media (min-width: 768px) {
-    .information-text {
+    .#{$pl-prefix}information-text {
         font-size: 17px;
         padding-right: 35px;
     }

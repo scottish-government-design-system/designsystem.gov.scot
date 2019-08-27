@@ -51,4 +51,4 @@ Output sprite will be located at `/assets/patternlib/images/icons/icons.stack.sv
 
 #### Example of use:
 
-    <svg class="icon"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>
+    <svg class="ds_icon"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>

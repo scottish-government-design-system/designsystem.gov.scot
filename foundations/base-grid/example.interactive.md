@@ -213,7 +213,7 @@ dd {
     </dl>
 </div>
 
-<div class="wrapper">
+<div class="ds_wrapper">
     <div class="base-grid">
         <div class="grid-column"></div>
         <div class="grid-column"></div>

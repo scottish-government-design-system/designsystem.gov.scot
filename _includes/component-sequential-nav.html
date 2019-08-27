@@ -24,11 +24,11 @@
         {% endif %}
     {% endfor %}
 
-    <nav class="sequential-nav">
+    <nav class="ds_sequential-nav">
         {% if prevItem %}
-        <div class="sequential-nav__item  sequential-nav__item--prev">
-            <a data-navigation="previous" title="Previous section" href="{{prevItem.url}}" class="sequential-nav__button  sequential-nav__button--left">
-                <span class="sequential-nav__text" data-label="previous">
+        <div class="ds_sequential-nav__item  ds_sequential-nav__item--prev">
+            <a data-navigation="previous" title="Previous section" href="{{prevItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--left">
+                <span class="ds_sequential-nav__text" data-label="previous">
                     {{prevItem.title}}
                 </span>
             </a>
@@ -36,9 +36,9 @@
         {% endif %}
 
         {% if nextItem %}
-        <div class="sequential-nav__item  sequential-nav__item--next">
-            <a data-navigation="next" title="Next section" href="{{nextItem.url}}" class="sequential-nav__button  sequential-nav__button--right">
-                <span class="sequential-nav__text" data-label="next">
+        <div class="ds_sequential-nav__item  ds_sequential-nav__item--next">
+            <a data-navigation="next" title="Next section" href="{{nextItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--right">
+                <span class="ds_sequential-nav__text" data-label="next">
                     {{nextItem.title}}
                 </span>
             </a>

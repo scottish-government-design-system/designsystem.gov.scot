@@ -3,10 +3,10 @@
 \*------------------------------------*/
 
 small,
-.small {
+.#{$pl-prefix}small {
     font-size: $small-size;
 }
 
-.tiny {
+.#{$pl-prefix}tiny {
     font-size: $tiny-size;
 }

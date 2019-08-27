@@ -10,7 +10,7 @@ $wrapper__width--xlarge: 1170px !default;
 
 
 
-.wrapper {
+.#{$pl-prefix}wrapper {
     margin: 0 auto;
     padding: 0 $wrapper__padding;
 
@@ -20,19 +20,19 @@ $wrapper__width--xlarge: 1170px !default;
 }
 
 @include media-query(medium) {
-    .wrapper {
+    .#{$pl-prefix}wrapper {
         max-width: $wrapper__width--medium;
     }
 }
 
 @include media-query(large) {
-    .wrapper {
+    .#{$pl-prefix}wrapper {
         max-width: $wrapper__width--large;
     }
 }
 
 @include media-query(xlarge) {
-    .wrapper {
+    .#{$pl-prefix}wrapper {
         max-width: $wrapper__width--xlarge;
     }
 }

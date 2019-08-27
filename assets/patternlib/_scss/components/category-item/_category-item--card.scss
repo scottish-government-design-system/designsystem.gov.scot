@@ -9,10 +9,10 @@ $category-item__border-color--hover: $color__link--hover !default;
 
 
 
-.category-item--card {
+.#{$pl-prefix}category-item--card {
     display: flex;
 
-    .category-item__link {
+    .#{$pl-prefix}category-item__link {
         @include blocklink--solid('.category-item__title');
 
         border-left: 0;
@@ -49,7 +49,7 @@ $category-item__border-color--hover: $color__link--hover !default;
     }
 
     &--gradient {
-        .category-item__link:after {
+        .#{$pl-prefix}category-item__link:after {
             background: linear-gradient(to right, $color__brand--primary, $color__brand--secondary);
         }
     }

@@ -10,7 +10,7 @@ $site-search__background-color: $color__grey--light !default;
 
 
 
-.site-search {
+.#{$pl-prefix}site-search {
     box-sizing: border-box;
     color: $color__body;
     height: $site-search__height;
@@ -51,7 +51,7 @@ $site-search__background-color: $color__grey--light !default;
 }
 
 @include media-query(medium) {
-    .site-search {
+    .#{$pl-prefix}site-search {
         height: $site-search__height--medium;
 
         &__input[type=text] {
@@ -67,8 +67,8 @@ $site-search__background-color: $color__grey--light !default;
     }
 }
 
-.site-search--reversed {
-    .site-search__button {
+.#{$pl-prefix}site-search--reversed {
+    .#{$pl-prefix}site-search__button {
         background-color: $color__brand--secondary;
 
         &:active {
@@ -79,13 +79,13 @@ $site-search__background-color: $color__grey--light !default;
 
 
 @include media-query(medium-down) {
-    .site-search--collapsible {
+    .#{$pl-prefix}site-search--collapsible {
         position: absolute;
         right: 15px;
         left: calc(100% - 15px);
         transition: left $transition-in-time;
 
-        .site-search__input[type="text"] {
+        .#{$pl-prefix}site-search__input[type="text"] {
             opacity: 0;
             padding: 0;
 
@@ -93,10 +93,10 @@ $site-search__background-color: $color__grey--light !default;
         }
     }
 
-    .site-search--expanded {
+    .#{$pl-prefix}site-search--expanded {
         left: 15px;
 
-        .site-search__input[type="text"] {
+        .#{$pl-prefix}site-search__input[type="text"] {
             opacity: 1;
             padding: 0 $site-search__height 0 25px;
         }

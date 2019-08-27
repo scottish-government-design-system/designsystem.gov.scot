@@ -63,15 +63,11 @@
     crossorigin="anonymous"></script>
     {% endif %}
 
-    {% if page.scripts %}
-        {% for script in page.scripts %}
-            <script src="{{script}}"></script>
-        {% endfor %}
-    {% endif %}
-
     {% if page.note %}
         <p class="example-frame__note">Note: {{page.note}}</p>
     {% endif %}
 
     {% include breakpoint-tests.html %}
+
+    <script src="/assets/patternlib/dist/pattern-library.js"></script>
 </body>

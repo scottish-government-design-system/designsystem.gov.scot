@@ -1,10 +1,12 @@
+'use strict';
+
 const accordionComponent = {
     init: function () {
-        const accordions = document.querySelectorAll('.accordion');
+        const accordions = document.querySelectorAll('.ds_accordion');
 
         accordions.forEach(function (accordion) {
-            const accordionItems = accordion.querySelectorAll('.accordion-item');
-            const openAllButton = accordion.querySelector('.accordion__open-all');
+            const accordionItems = accordion.querySelectorAll('.ds_accordion-item');
+            const openAllButton = accordion.querySelector('.ds_accordion__open-all');
 
             accordionComponent.initOpenAll(accordion, openAllButton);
 
@@ -15,8 +17,8 @@ const accordionComponent = {
     },
 
     initAccordionItem(item, accordion, button) {
-        const checkbox = item.querySelector('.accordion-item__control');
-        const body = item.querySelector('.accordion-item__body');
+        const checkbox = item.querySelector('.ds_accordion-item__control');
+        const body = item.querySelector('.ds_accordion-item__body');
 
         checkbox.setAttribute('aria-expanded', checkbox.checked);
 
@@ -49,7 +51,7 @@ const accordionComponent = {
         button.addEventListener('click', function () {
             const opening = !accordionComponent.checkAllOpen(accordion, button);
 
-            const allPanelCheckboxes = accordion.querySelectorAll('.accordion-item__control');
+            const allPanelCheckboxes = accordion.querySelectorAll('.ds_accordion-item__control');
 
             allPanelCheckboxes.forEach(function (checkbox) {
                 checkbox.checked = opening;
@@ -62,8 +64,8 @@ const accordionComponent = {
     },
 
     checkAllOpen: function (accordion, button) {
-        const accordionItems = accordion.querySelectorAll('.accordion-item');
-        const openItems = accordion.querySelectorAll('.accordion-item__control:checked');
+        const accordionItems = accordion.querySelectorAll('.ds_accordion-item');
+        const openItems = accordion.querySelectorAll('.ds_accordion-item__control:checked');
         let allOpen;
 
         if (accordionItems.length === openItems.length) {
@@ -82,3 +84,5 @@ const accordionComponent = {
 
 // self-initialize
 accordionComponent.init();
+
+export default accordionComponent;

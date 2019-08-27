@@ -26,3 +26,5 @@ const searchBoxComponent = {
 
 // self-initialize
 searchBoxComponent.init();
+
+export default searchBoxComponent;

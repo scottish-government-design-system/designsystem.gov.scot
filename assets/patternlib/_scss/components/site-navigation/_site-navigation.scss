@@ -10,7 +10,7 @@ $mobile-menu-background: $color__grey--lighter;
 
 
 
-.site-navigation {
+.#{$pl-prefix}site-navigation {
     clear: both;
     display: none;
     font-size: $small-size;
@@ -67,7 +67,7 @@ $mobile-menu-background: $color__grey--lighter;
             right: $link-horiz-padding;
         }
 
-        &.current {
+        &.#{$pl-prefix}current {
             background-color: $color__link--current__background;
 
             &:after {
@@ -80,11 +80,11 @@ $mobile-menu-background: $color__grey--lighter;
     }
 
     &--reversed {
-        .site-navigation__link {
+        .#{$pl-prefix}site-navigation__link {
             color: $color__white;
 
-            &:hover:not(.current):not(:active),
-            &:focus:not(.current):not(:active) {
+            &:hover:not(.#{$pl-prefix}current):not(:active),
+            &:focus:not(.#{$pl-prefix}current):not(:active) {
                 background-color: $reversed-hover-bg;
                 color: $reversed-current-color;
             }
@@ -94,7 +94,7 @@ $mobile-menu-background: $color__grey--lighter;
                 color: $color__link--active;
             }
 
-            &.current {
+            &.#{$pl-prefix}current {
                 background-color: transparent;
                 color: $reversed-current-color;
 
@@ -117,7 +117,7 @@ $mobile-menu-background: $color__grey--lighter;
 }
 
 .js-enabled {
-    .mobile-navigation {
+    .#{$pl-prefix}mobile-navigation {
         display: none;
         position: fixed;
     }
@@ -127,22 +127,22 @@ $mobile-menu-background: $color__grey--lighter;
         display: block;
     }
 
-    .mobile-navigation__button {
+    .#{$pl-prefix}mobile-navigation__button {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .mobile-navigation {
+    .#{$pl-prefix}mobile-navigation {
         position: absolute;
     }
 
-    .mobile-navigation.menu-is-open {
+    .#{$pl-prefix}mobile-navigation.menu-is-open {
         display: block;
     }
 }
 
-.mobile-navigation {
+.#{$pl-prefix}mobile-navigation {
     box-sizing: border-box;
     left: 0;
     overflow: auto;
@@ -218,8 +218,13 @@ $mobile-menu-background: $color__grey--lighter;
         padding: $mobile-nav-link-vertical-padding $mobile-nav-link-horizontal-padding;
         text-decoration: none;
 
-        &:hover ,
         &:focus {
+            border-left: 3px solid $color__link;
+            outline: 2px solid $color__link--focus__outline;
+            padding-left: #{$mobile-nav-link-horizontal-padding - 2px};
+        }
+
+        &:hover {
             border-left: 3px solid $color__link;
             padding-left: #{$mobile-nav-link-horizontal-padding - 2px};
         }
@@ -228,11 +233,7 @@ $mobile-menu-background: $color__grey--lighter;
             outline: 0;
         }
 
-        &:focus {
-            outline: 2px solid $color__link--focus__outline;
-        }
-
-        &.current {
+        &.#{$pl-prefix}current {
             background-color: $color__link--current__background;
             border-left: 3px solid $color__link;
             padding-left: 18px;
@@ -264,12 +265,12 @@ $mobile-menu-background: $color__grey--lighter;
 }
 
 @include media-query(medium) {
-    .site-navigation {
+    .#{$pl-prefix}site-navigation {
         display: block;
     }
 
-    .mobile-navigation,
-    .mobile-navigation__button {
+    .#{$pl-prefix}mobile-navigation,
+    .#{$pl-prefix}mobile-navigation__button {
         display: none !important;
     }
 }

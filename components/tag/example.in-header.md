@@ -5,19 +5,19 @@ type: example
 index: 0
 ---
 
-<header class="site-header" role="banner">
-    <div class="wrapper">
-        <div class="site-header__content">
-            <div class="site-header__branding  site-branding">
-                <a class="site-branding__logo  site-branding__link" href="/">
-                    <img class="site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland.svg" alt="Digital Scotland" />
+<header class="ds_site-header" role="banner">
+    <div class="ds_wrapper">
+        <div class="ds_site-header__content">
+            <div class="ds_site-header__branding  ds_site-branding">
+                <a class="ds_site-branding__logo  ds_site-branding__link" href="/">
+                    <img class="ds_site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland.svg" alt="Digital Scotland" />
                 </a>
 
-                <div class="site-branding__title">
-                    <a class="site-branding__link" href="#">Pattern Library</a>
+                <div class="ds_site-branding__title">
+                    <a class="ds_site-branding__link" href="#">Pattern Library</a>
                 </div>
 
-                <strong class="site-branding__tag  tag">
+                <strong class="ds_site-branding__tag  ds_tag">
                     Alpha
                 </strong>
             </div>
@@ -27,19 +27,19 @@ index: 0
 
 
 
-<header class="site-header  site-header--reversed" role="banner">
-    <div class="wrapper">
-        <div class="site-header__content">
-            <div class="site-header__branding  site-branding  site-branding--reversed">
-                <a class="site-branding__logo  site-branding__link" href="/">
-                    <img class="site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland--reversed.svg" alt="Digital Scotland" />
+<header class="ds_site-header  ds_site-header--reversed" role="banner">
+    <div class="ds_wrapper">
+        <div class="ds_site-header__content">
+            <div class="ds_site-header__branding  ds_site-branding  ds_site-branding--reversed">
+                <a class="ds_site-branding__logo  ds_site-branding__link" href="/">
+                    <img class="ds_site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland--reversed.svg" alt="Digital Scotland" />
                 </a>
 
-                <div class="site-branding__title">
-                    <a class="site-branding__link" href="#">Pattern Library</a>
+                <div class="ds_site-branding__title">
+                    <a class="ds_site-branding__link" href="#">Pattern Library</a>
                 </div>
 
-                <strong class="site-branding__tag  tag  tag--reversed">
+                <strong class="ds_site-branding__tag  ds_tag  ds_tag--reversed">
                     Alpha
                 </strong>
             </div>

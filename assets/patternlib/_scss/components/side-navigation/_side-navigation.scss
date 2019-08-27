@@ -7,7 +7,7 @@ $side-nav-spacing-unit: 15px;
 
 
 
-.side-navigation {
+.#{$pl-prefix}side-navigation {
     @include block-margins;
 
     border-bottom: 1px solid $color__border--light;
@@ -50,11 +50,11 @@ $side-nav-spacing-unit: 15px;
         display: none;
     }
 
-    #show-side-navigation:focus ~ .side-navigation__expand {
+    #show-side-navigation:focus ~ .#{$pl-prefix}side-navigation__expand {
         outline: 2px solid $color__link--focus__outline;
     }
 
-    #show-side-navigation:checked ~ .side-navigation__expand .side-navigation__expand-indicator {
+    #show-side-navigation:checked ~ .#{$pl-prefix}side-navigation__expand .#{$pl-prefix}side-navigation__expand-indicator {
         @include indicator--open();
     }
 
@@ -77,7 +77,7 @@ $side-nav-spacing-unit: 15px;
         margin-bottom: 0;
 
         &--has-children {
-            > .side-navigation__link:after {
+            > .#{$pl-prefix}side-navigation__link:after {
                 color: $color__grey--medium;
                 left: $side-nav-spacing-unit;
                 position: absolute;
@@ -87,7 +87,7 @@ $side-nav-spacing-unit: 15px;
                 @include chevron(right, 12px, 2px);
             }
 
-            &--expanded > .side-navigation__link:after {
+            &--expanded > .#{$pl-prefix}side-navigation__link:after {
                 @include chevron(down, 12px, 2px);
                 top: 15px;
             }
@@ -129,7 +129,7 @@ $side-nav-spacing-unit: 15px;
         text-decoration: none;
 
         &:hover,
-        &.current {
+        &.#{$pl-prefix}current {
             position: relative;
 
             &:before {
@@ -147,14 +147,14 @@ $side-nav-spacing-unit: 15px;
 
 @include media-query(medium-down) {
     .js-enabled .side-navigation {
-        .side-navigation__root {
+        .#{$pl-prefix}side-navigation__root {
             margin: 0 15px;
             max-height: 0;
             overflow: hidden;
             transition: max-height $transition-in-time, padding $transition-in-time;
         }
 
-        #show-side-navigation:checked ~ .side-navigation__root {
+        #show-side-navigation:checked ~ .#{$pl-prefix}side-navigation__root {
             padding-bottom: 7px;
             padding-top: 7px;
         }
@@ -162,7 +162,7 @@ $side-nav-spacing-unit: 15px;
 }
 
 @include media-query(medium) {
-    .side-navigation {
+    .#{$pl-prefix}side-navigation {
         border-width: 0;
         font-size: $small-size;
         line-height: 21px;
@@ -175,8 +175,9 @@ $side-nav-spacing-unit: 15px;
         }
 
         &__root {
-            display: block;
+            display: block !important;
             margin: 0;
+            max-height: unset;
         }
 
         &__item--has-children:before {
@@ -184,7 +185,7 @@ $side-nav-spacing-unit: 15px;
         }
 
         &__link:hover,
-        &__link.current {
+        &__link.#{$pl-prefix}current {
             &:before {
                 left: -3px;
             }

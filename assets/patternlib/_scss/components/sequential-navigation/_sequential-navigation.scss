@@ -11,19 +11,19 @@ $page-nav__icon-size: 56px;
 
 
 
-.sequential-nav {
+.#{$pl-prefix}sequential-nav {
     margin-top: 56px;
     margin-bottom: 49px;
     overflow: hidden;
 }
 
 @supports(display: grid) {
-    .sequential-nav {
+    .#{$pl-prefix}sequential-nav {
         overflow: initial;
     }
 }
 
-.sequential-nav__button {
+.#{$pl-prefix}sequential-nav__button {
     @include blocklink('.sequential-nav__text');
 
     background: transparent;
@@ -96,13 +96,13 @@ $page-nav__icon-size: 56px;
     }
 }
 
-.sequential-nav__button:hover {
+.#{$pl-prefix}sequential-nav__button:hover {
     &:before {
         background-color: $page-nav__icon-hover;
     }
 }
 
-.sequential-nav__text {
+.#{$pl-prefix}sequential-nav__text {
     display: inline-block;
     padding-top: 21px;
     position: relative;
@@ -121,31 +121,31 @@ $page-nav__icon-size: 56px;
 }
 
 @include media-query(small) {
-    .sequential-nav {
+    .#{$pl-prefix}sequential-nav {
         margin-bottom: 56px;
     }
 
-    .sequential-nav__item {
+    .#{$pl-prefix}sequential-nav__item {
         width: calc(50% - 15px);
     }
 
-    .sequential-nav__item:first-child {
+    .#{$pl-prefix}sequential-nav__item:first-child {
         float: left;
     }
 
-    .sequential-nav__item:last-child {
+    .#{$pl-prefix}sequential-nav__item:last-child {
         float: right;
     }
 }
 
 @supports (display: grid) {
-    .sequential-nav {
+    .#{$pl-prefix}sequential-nav {
         display: grid;
         grid-gap: $grid-gap-y $grid-gap-x;
         grid-template-areas: 'next' 'prev';
     }
 
-    .sequential-nav__item {
+    .#{$pl-prefix}sequential-nav__item {
         float: none;
         width: 100%;
 
@@ -159,7 +159,7 @@ $page-nav__icon-size: 56px;
     }
 
     @include media-query (small) {
-        .sequential-nav {
+        .#{$pl-prefix}sequential-nav {
             grid-template-columns: 1fr 1fr;
             grid-template-areas: 'prev next';
         }

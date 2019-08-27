@@ -3,11 +3,17 @@
 \*------------------------------------*/
 
 a,
-.link {
+.#{$pl-prefix}link {
     color: $color__link;
     text-decoration: underline;
     outline: 2px solid transparent;
     transition: color $transition-out-time, background-color $transition-out-time, outline $transition-out-time;
+
+    &:focus {
+        color: $color__link--focus;
+        transition-duration: 0s;
+        outline: 2px solid $color__link--focus__outline;
+    }
 
     &:hover {
         background-color: $color__link--hover__background;
@@ -23,18 +29,12 @@ a,
         transition-duration: 0s;
     }
 
-    &:focus {
-        color: $color__link--focus;
-        transition-duration: 0s;
-        outline: 2px solid $color__link--focus__outline;
-    }
-
     > svg {
         fill: currentColor;
     }
 }
 
-.link {
+.#{$pl-prefix}link {
     background: transparent;
     border: 0;
     padding: 0;

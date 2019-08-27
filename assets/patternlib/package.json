@@ -10,11 +10,14 @@
   "scripts": {
     "galen": "galen test tests/patterns.test",
     "postshrinkwrap": "node_modules/.bin/sealant",
-    "svgsprites": "node svg-sprite"
+    "svgsprites": "node svg-sprite",
+    "webpack": "node_modules/.bin/webpack"
   },
   "dependencies": {},
   "devDependencies": {
     "sealant": "0.0.3",
-    "svg-sprite": "^1.4.0"
+    "svg-sprite": "^1.4.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
   }
 }

@@ -2,7 +2,7 @@
     ACCORDION
 \*------------------------------------*/
 
-.accordion {
+.#{$pl-prefix}accordion {
     @include block-margins;
 
     position: relative;
@@ -16,11 +16,11 @@
     }
 }
 
-.js-enabled .accordion__open-all {
+.js-enabled .#{$pl-prefix}accordion__open-all {
     display: block;
 }
 
-.accordion-item {
+.#{$pl-prefix}accordion-item {
     border-bottom: 1px solid $color__border--light;
     border-top: 1px solid $color__border--light;
 
@@ -81,12 +81,12 @@
         z-index: 2;
     }
 
-    + .accordion-item {
+    + .#{$pl-prefix}accordion-item {
         margin-top: -1px;
     }
 }
 
-.js-enabled .accordion-item {
+.js-enabled .#{$pl-prefix}accordion-item {
     &__body {
         max-height: 0;
         overflow: hidden;
@@ -94,14 +94,14 @@
         transition: max-height $transition-in-time, padding $transition-in-time;
     }
 
-    &__control:checked ~ .accordion-item__body {
+    &__control:checked ~ .#{$pl-prefix}accordion-item__body {
         padding-bottom: 28px;
         padding-top: 21px;
     }
 }
 
 @include media-query(medium) {
-    .accordion-item {
+    .#{$pl-prefix}accordion-item {
         &__indicator {
             top: 18px;
         }

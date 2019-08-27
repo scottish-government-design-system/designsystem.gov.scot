@@ -2,7 +2,7 @@
     PHASE LABEL
 \*------------------------------------*/
 
-.tag {
+.#{$pl-prefix}tag {
     background: $color__brand--primary;
     border-radius: 2px;
     color: $color__white;

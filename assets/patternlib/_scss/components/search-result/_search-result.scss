@@ -2,7 +2,7 @@
     SEARCH RESULT
 \*------------------------------------*/
 
-.search-result {
+.#{$pl-prefix}search-result {
     margin-bottom: 0;
 
     &__link {
@@ -49,7 +49,7 @@
 }
 
 @include media-query(medium) {
-    .search-result__link {
+    .#{$pl-prefix}search-result__link {
         margin-left: 0;
         margin-right: 0;
     }

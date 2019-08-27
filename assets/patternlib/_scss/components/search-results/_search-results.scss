@@ -2,7 +2,7 @@
     SEARCH RESULTS
 \*------------------------------------*/
 
-.search-suggestions {
+.#{$pl-prefix}search-suggestions {
     font-size: $small-size;
     margin: 21px 0 28px;
 
@@ -22,7 +22,7 @@
     }
 }
 
-.search-results {
+.#{$pl-prefix}search-results {
 
     &__list {
         list-style-type: none;
@@ -37,13 +37,13 @@
 }
 
 @include media-query(medium) {
-    .search-results {
+    .#{$pl-prefix}search-results {
         &__count {
             padding-left: 15px;
         }
     }
 
-    .search-suggestions {
+    .#{$pl-prefix}search-suggestions {
         padding-left: 15px;
 
         ul li:not(:last-child):after {
