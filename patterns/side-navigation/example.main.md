@@ -12,43 +12,32 @@ minheight: 581px
 
     <ul class="ds_side-navigation__list  ds_side-navigation__root" id="side-navigation-root">
         <li class="ds_side-navigation__item  ds_side-navigation__item--has-children  ds_side-navigation__item--has-children--expanded">
-            <a href="#" class="ds_side-navigation__link">Apples</a>
+            <a href="#" data-navigation="sidenav-1" class="ds_side-navigation__link">Apples</a>
             <ul class="ds_side-navigation__list">
                 <li class="ds_side-navigation__item  ds_side-navigation__item--has-children">
-                    <a href="#" class="ds_side-navigation__link">Green apples</a>
+                    <a href="#" data-navigation="sidenav-1-1" class="ds_side-navigation__link">Green apples</a>
                     <ul class="ds_side-navigation__list">
                         <li class="ds_side-navigation__item">
-                            <a href="#" class="ds_side-navigation__link  ds_current">Bramley</a>
+                            <a href="#" data-navigation="sidenav-1-1-1" class="ds_side-navigation__link  ds_current">Bramley</a>
                         </li>
                         <li class="ds_side-navigation__item">
-                            <a href="#" class="ds_side-navigation__link">Granny Smith</a>
+                            <a href="#" data-navigation="sidenav-1-1-2" class="ds_side-navigation__link">Granny Smith</a>
                         </li>
                     </ul>
                 </li>
                 <li class="ds_side-navigation__item  ds_side-navigation__item--has-children">
-                    <a href="#" class="ds_side-navigation__link">Red apples</a>
-                    <!-- <ul class="ds_side-navigation__list">
-                        <li class="ds_side-navigation__item">
-                            <a href="#" class="ds_side-navigation__link">Braeburn</a>
-                        </li>
-                        <li class="ds_side-navigation__item">
-                            <a href="#" class="ds_side-navigation__link">Jazz</a>
-                        </li>
-                        <li class="ds_side-navigation__item">
-                            <a href="#" class="ds_side-navigation__link">Red Devil</a>
-                        </li>
-                    </ul> -->
+                    <a href="#" data-navigation="sidenav-1-2" class="ds_side-navigation__link">Red apples</a>
                 </li>
             </ul>
         </li>
         <li class="ds_side-navigation__item">
-            <a href="#" class="ds_side-navigation__link">Bananas</a>
+            <a href="#" data-navigation="sidenav-2" class="ds_side-navigation__link">Bananas</a>
         </li>
         <li class="ds_side-navigation__item">
-            <a href="#" class="ds_side-navigation__link">Cherries</a>
+            <a href="#" data-navigation="sidenav-3" class="ds_side-navigation__link">Cherries</a>
         </li>
         <li class="ds_side-navigation__item">
-            <a href="#" class="ds_side-navigation__link">Dates</a>
+            <a href="#" data-navigation="sidenav-4" class="ds_side-navigation__link">Dates</a>
         </li>
     </ul>
 </nav>

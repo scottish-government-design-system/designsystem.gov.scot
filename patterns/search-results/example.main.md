@@ -103,5 +103,43 @@ note: This example has been truncated to three search results to conserve space.
         </li>
     </ol>
 
-    <nav class="ds_search-results__pagination">Pagination (not yet in pattern library)</nav>
+    <nav class="ds_pagination" aria-label="Search pages">
+        <ul class="ds_pagination__list">
+            <li class="ds_pagination__item">
+                <span class="ds_pagination__link  ds_current">1</span>
+            </li>
+
+            <li class="ds_pagination__item">
+                <a href="#" data-search="pagination-2" class="ds_pagination__link">2</a>
+            </li>
+
+            <li class="ds_pagination__item">
+                <a href="#" data-search="pagination-3" class="ds_pagination__link">3</a>
+            </li>
+
+            <li class="ds_pagination__item">
+                <a href="#" data-search="pagination-4" class="ds_pagination__link">4</a>
+            </li>
+
+            <li class="ds_pagination__item">
+                <a href="#" data-search="pagination-5" class="ds_pagination__link">5</a>
+            </li>
+
+            <li class="ds_pagination__item">
+                <a href="#" data-search="pagination-6" class="ds_pagination__link">6</a>
+            </li>
+
+            <li class="ds_pagination__item">
+                <a href="#" data-search="pagination-7" class="ds_pagination__link">7</a>
+            </li>
+
+            <li class="ds_pagination__item" aria-hidden="true">
+                <span class="ds_pagination__link  ds_pagination__link--ellipsis">&hellip;</span>
+            </li>
+
+            <li class="ds_pagination__item">
+                <a href="#" data-search="pagination-next" class="ds_pagination__link  ds_pagination__link--text">Next</a>
+            </li>
+        </ul>
+    </nav>
 </section>

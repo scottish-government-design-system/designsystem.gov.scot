@@ -110,7 +110,7 @@ $side-nav-spacing-unit: 15px;
 
         &:hover,
         &:focus,
-        &.current {
+        &.#{$pl-prefix}current {
             &:before {
                 background: $color__link;
             }

@@ -57,7 +57,7 @@ $site-search__background-color: $color__grey--light !default;
         &__input[type=text] {
             min-height: $site-search__height--medium;
             margin-right: $site-search__height--medium;
-            width: calc(100% - #{$site-search__height});
+            width: calc(100% - #{$site-search__height--medium});
         }
 
         &__button {

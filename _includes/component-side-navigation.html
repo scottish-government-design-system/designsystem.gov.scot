@@ -18,7 +18,7 @@
                 {{ item.title }}
             </span>
             {% else %}
-            <a class="ds_side-navigation__link" href="{{ item.url }}">
+            <a data-navigation="sidenav-{{forloop.index}}" class="ds_side-navigation__link" href="{{ item.url }}">
                 {{ item.title }}
             </a>
             {% endif %}

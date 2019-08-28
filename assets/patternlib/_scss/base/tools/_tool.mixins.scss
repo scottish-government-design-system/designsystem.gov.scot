@@ -65,6 +65,10 @@
     display: block;
     transition: background-color $transition-out-time;
 
+    &:focus {
+        outline-color: $color__blocklink--focus__outline;
+    }
+
     &:hover:not(:focus) {
         outline: 0;
     }
@@ -79,7 +83,7 @@
         transition-duration: 0s;
     }
 
-    &.current {
+    &.#{$pl-prefix}current {
         background-color: $color__link--current__background;
     }
 

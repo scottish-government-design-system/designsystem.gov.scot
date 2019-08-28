@@ -49,19 +49,17 @@ $color__link--current__background:  $color__grey--lighter !default;
 $color__blocklink-bg:               $color__white !default;
 $color__blocklink-bg--hover:        $color__link--hover__background !default;
 $color__blocklink-bg--active:       $color__link--active__background !default;
+$color__blocklink--focus__outline:  $color__link--focus__outline !default;
 
 // input
-$color__input--focus-background:    $color__blue--lighter !default;
-$color__input--focus-border:        $color__brand--primary !default;
+$color__input--focus__background:   $color__blue--lighter !default;
+$color__input--focus__outline:      $color__link--focus__outline !default;
 
 // buttons
 $color__button--active__background:     $color__link--active__background !default;
 $color__button--focus__outline:         $color__link--focus__outline !default;
 $color__button--primary:                $color__blue--base !default;
 $color__button--primary--hover:         $color__blue--dark !default;
-
-// form elements
-$color__input-bg--focus: $color__blue--lighter !default;
 
 // borders
 $color__border--dark: $color__grey--dark;

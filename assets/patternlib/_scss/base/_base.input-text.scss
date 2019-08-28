@@ -14,7 +14,8 @@ input[type="text"] {
     -webkit-appearance: none;
 
     &:focus {
-        background-color: $color__input--focus-background;
-        outline: 2px solid $color__brand--secondary;
+        background-color: $color__input--focus__background;
+        outline: 2px solid $color__input--focus__outline;
+        outline-offset: 0;
     }
 }
