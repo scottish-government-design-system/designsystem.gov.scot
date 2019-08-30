@@ -8,7 +8,7 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 
 <div class="ds_notification  ds_notification--negative">
     <div class="ds_wrapper">
-        <div class="ds_notification__content">
+        <div class="ds_notification__content  ds_notification__content--has-close">
             <div class="ds_notification__text">
                 <span class="ds_notification__icon" aria-hidden="true">
                     <svg class="ds_icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#bang-21"></use></svg>
