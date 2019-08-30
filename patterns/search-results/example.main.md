@@ -42,68 +42,72 @@ note: This example has been truncated to three search results to conserve space.
 
     <ol id="search-results-list" class="ds_search-results__list" data-search-term="crofting">
         <li class="ds_search-result">
-            <a class="ds_search-result__link" data-search="search-result-1/68" href="#" title="Crofting community right to buy">
-                <header class="ds_search-result__header">
-                    <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
-                        <span class="ds_metadata__item">
-                            <dt class="ds_metadata__key  visually-hidden">Type</dt>
-                            <dd class="ds_metadata__value  ds_content-label">Policy</dd>
-                        </span>
-                    </dl>
+            <header class="ds_search-result__header">
+                <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
+                    <span class="ds_metadata__item">
+                        <dt class="ds_metadata__key  visually-hidden">Type</dt>
+                        <dd class="ds_metadata__value  ds_content-label">Policy</dd>
+                    </span>
+                </dl>
 
-                    <h2 class="gamma  ds_search-result__title">Crofting community right to buy</h2>
-                </header>
+                <h2 class="gamma  ds_search-result__title">
+                    <a class="ds_search-result__link" data-search="search-result-1/68" href="#">Crofting community right to buy</a>
+                </h2>
+            </header>
 
-                <p class="ds_search-result__summary">Information and guidance regarding the crofting community right to buy.</p>
-            </a>
+            <p class="ds_search-result__summary">Information and guidance regarding the crofting community right to buy.</p>
         </li>
 
         <li class="ds_search-result">
-            <a class="ds_search-result__link" data-search="search-result-2/68" href="#" title="Crofting consultation 2017">
-                <header class="ds_search-result__header">
-                    <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
-                        <span class="ds_metadata__item">
-                            <dt class="ds_metadata__key  visually-hidden">Type</dt>
-                            <dd class="ds_metadata__value  ds_content-label">Consultation paper</dd>
-                        </span>
+            <header class="ds_search-result__header">
+                <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
+                    <span class="ds_metadata__item">
+                        <dt class="ds_metadata__key  visually-hidden">Type</dt>
+                        <dd class="ds_metadata__value  ds_content-label">Consultation paper</dd>
+                    </span>
 
-                        <span class="ds_metadata__item">
-                            <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
-                            <dd class="ds_metadata__value">28 Aug 2017</dd>
-                        </span>
-                    </dl>
+                    <span class="ds_metadata__item">
+                        <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
+                        <dd class="ds_metadata__value">28 Aug 2017</dd>
+                    </span>
+                </dl>
 
-                    <h2 class="gamma  ds_search-result__title">Crofting consultation 2017</h2>
-                </header>
+                <h2 class="gamma  ds_search-result__title">
+                    <a class="ds_search-result__link" data-search="search-result-2/68" href="#">Crofting consultation 2017</a>
+                </h2>
+            </header>
 
-                <p class="ds_search-result__summary">We are seeking the views of crofters, and those with an interest, on the pathway of any potential new legislation to reform crofting law.</p>
-            </a>
+            <p class="ds_search-result__summary">We are seeking the views of crofters, and those with an interest, on the pathway of any potential new legislation to reform crofting law.</p>
         </li>
 
         <li class="ds_search-result">
-            <a class="ds_search-result__link" data-search="search-result-3/68" href="#" title="Crofting Elections 2017: consultation responses analysis">
-                <header class="ds_search-result__header">
-                    <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
-                        <span class="ds_metadata__item">
-                            <dt class="ds_metadata__key  visually-hidden">Type</dt>
-                            <dd class="ds_metadata__value  ds_content-label">Consultation analysis</dd>
-                        </span>
+            <header class="ds_search-result__header">
+                <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
+                    <span class="ds_metadata__item">
+                        <dt class="ds_metadata__key  visually-hidden">Type</dt>
+                        <dd class="ds_metadata__value  ds_content-label">Consultation analysis</dd>
+                    </span>
 
-                        <span class="ds_metadata__item">
-                            <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
-                            <dd class="ds_metadata__value">01 Sep 2016</dd>
-                        </span>
-                    </dl>
+                    <span class="ds_metadata__item">
+                        <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
+                        <dd class="ds_metadata__value">01 Sep 2016</dd>
+                    </span>
+                </dl>
 
-                    <h2 class="gamma  ds_search-result__title">Crofting Elections 2017: consultation responses analysis</h2>
-                </header>
+                <h2 class="gamma  ds_search-result__title">
+                    <a class="ds_search-result__link" data-search="search-result-3/68" href="#">Crofting Elections 2017: consultation responses analysis</a>
+                </h2>
+            </header>
 
-                <p class="ds_search-result__summary">Analysis of the responses to the Crofting Elections 2017 consultation.</p>
-            </a>
+            <p class="ds_search-result__summary">Analysis of the responses to the Crofting Elections 2017 consultation.</p>
         </li>
     </ol>
 
     <nav class="ds_pagination" aria-label="Search pages">
+        <div class="ds_pagination__load-more">
+            <button class="ds_button">Load more</button>
+        </div>
+
         <ul class="ds_pagination__list">
             <li class="ds_pagination__item">
                 <span class="ds_pagination__link  ds_current">1</span>

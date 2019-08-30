@@ -3,26 +3,24 @@
 \*------------------------------------*/
 
 .#{$pl-prefix}search-result {
-    margin-bottom: 0;
+    @include blocklink('.#{$pl-prefix}search-result__title');
 
-    &__link {
-        @include blocklink('.search-result__title');
+    border: 1px solid $color__border--light;
+    border-width: 1px 0;
+    color: $color__body !important;
+    margin: 0 #{$mobile-body-margin * -1} -1px;
+    padding: 21px 15px;
+    position: relative;
+    text-decoration: none;
 
-        border: 1px solid $color__border--light;
-        border-width: 1px 0;
-        color: $color__body !important;
-        margin: 0 #{$mobile-body-margin * -1} -1px;
-        padding: 21px 15px;
-        position: relative;
-        text-decoration: none;
-
-        &:active {
-            outline: 0;
-        }
-
-        &:focus {
-            z-index: 1;
-        }
+    &__link:after {
+        content: "";
+        height: 100%;
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        z-index: 0;
     }
 
     &__label {
@@ -49,7 +47,7 @@
 }
 
 @include media-query(medium) {
-    .#{$pl-prefix}search-result__link {
+    .#{$pl-prefix}search-result {
         margin-left: 0;
         margin-right: 0;
     }

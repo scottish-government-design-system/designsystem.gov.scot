@@ -24,7 +24,7 @@ $page-nav__icon-size: 56px;
 }
 
 .#{$pl-prefix}sequential-nav__button {
-    @include blocklink('.sequential-nav__text');
+    @include blocklink('.#{$pl-prefix}sequential-nav__text');
 
     background: transparent;
     display: inline-block;

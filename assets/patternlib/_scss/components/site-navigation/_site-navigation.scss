@@ -151,15 +151,24 @@ $mobile-menu-background: $color__grey--lighter;
 
     &__button {
         @include blocklink;
+        background-color: transparent;
         display: none;
         color: $color__link;
-        background-color: transparent;
+        font-weight: $normal;
         height: calc(100% + 1px);
         padding: 0 15px;
 
         &--open {
             background-color: $mobile-menu-background;
             color: $color__link;
+        }
+
+        &:hover {
+            color: $color__link--hover;
+        }
+
+        &:focus {
+            color: $color__link--hover;
         }
     }
 

@@ -2,9 +2,8 @@
     NOTIFICATION BANNER
 \*------------------------------------*/
 
-$notification-close-padding: 7px;
+$notification-close-padding: 5px;
 $notification-icon-padding: $notification-close-padding;
-$notification-font-size: 19px !default;
 
 
 
@@ -12,13 +11,14 @@ $notification-font-size: 19px !default;
 .#{$pl-prefix}notification {
     background: $color__grey--dark;
     color: $color__white;
-    font-size: $notification-font-size;
-    line-height: 28px;
     margin-bottom: 1px;
 
-    a {
+
+    background: $color__blue--lighter;
+    color: $color__body;
+
+    a:not(.#{$pl-prefix}button) {
         color: currentColor;
-        text-decoration: underline;
 
         &:hover {
             color: $color__link--hover;
@@ -31,15 +31,34 @@ $notification-font-size: 19px !default;
 
     &__content {
         justify-content: space-between;
-        padding: 14px 45px 14px 0;
+        padding: 14px 0;
         position: relative;
+
+        &--has-close {
+            padding-right: 45px;
+        }
     }
 
     &__text {
-        margin-bottom: 0;
+        display: inline-block;
+        margin-right: 20px;
 
         > :last-child {
             margin-bottom: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__actions {
+        display: inline-block;
+        margin: 7px 0 -7px;
+
+        > * {
+            margin-right: 5px;
+            margin-bottom: 14px;
         }
     }
 
@@ -61,7 +80,6 @@ $notification-font-size: 19px !default;
 
     &__close {
         background: transparent;
-        border-radius: 35px;
         box-sizing: content-box;
         color: currentColor;
         display: none;
@@ -71,31 +89,45 @@ $notification-font-size: 19px !default;
         padding: $notification-close-padding;
         position: absolute;
         right: 0;
-        top: 17px;
+        top: 14px;
         width: 21px;
 
-        &:hover:not(:focus) {
+        &:hover {
             background-color: transparent;
         }
 
-        &:hover,
-        &:focus {
-            border: 2px solid currentColor;
-            padding: #{$notification-close-padding - 2}
+        &:hover:not(:focus) {
+            background-color: transparent;
+            color: currentColor;
+            outline: 2px solid currentColor;
         }
     }
 
     &--major {
         background: $color__gold--base;
-        color: $color__body;
 
         .#{$pl-prefix}notification__icon svg {
             fill: $color__gold--base;
+        }
+
+        // major needs special behavour for focus/active state of its interactive elements
+        .#{$pl_prefix}notification__close,
+        a {
+            &:focus {
+                outline-color: $color__body;
+                color: $color__body;
+            }
+
+            &:active {
+                background-color: $color__body;
+                color: $color__gold--base !important;
+            }
         }
     }
 
     &--positive {
         background: $color__green--base;
+        color: $color__white;
 
         .#{$pl-prefix}notification__icon svg {
             fill: $color__green--base;
@@ -104,10 +136,17 @@ $notification-font-size: 19px !default;
 
     &--negative {
         background: $color__red--base;
+        color: $color__white;
 
         .#{$pl-prefix}notification__icon svg {
             fill: $color__red--base;
         }
+    }
+}
+
+@include media-query(medium) {
+    .#{$pl-prefix}notification__close {
+        top: 18px;
     }
 }
 

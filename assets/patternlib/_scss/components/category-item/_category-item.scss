@@ -25,7 +25,7 @@ $category-item__border-color--hover: $color__link--hover !default;
     }
 
     &__link {
-        @include blocklink('.category-item__title');
+        @include blocklink('.#{$pl-prefix}category-item__title');
 
         border-left: 1px solid mix($category-item__border-color, $color__grey--lighter, 30%);
         padding: 7px 15px;

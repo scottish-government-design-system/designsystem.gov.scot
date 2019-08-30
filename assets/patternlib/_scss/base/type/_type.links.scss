@@ -9,17 +9,18 @@ a,
     outline: 2px solid transparent;
     transition: color $transition-out-time, background-color $transition-out-time, outline $transition-out-time;
 
-    &:focus {
-        color: $color__link--focus;
-        transition-duration: 0s;
-        outline: 2px solid $color__link--focus__outline;
-    }
-
+    // this order is important. we want active to take precedence over focus and focus to take precedence over hover
     &:hover {
         background-color: $color__link--hover__background;
         color: $color__link--hover;
         outline: 2px solid $color__link--hover__background;
         transition-duration: $transition-in-time;
+    }
+
+    &:focus {
+        color: $color__link--focus;
+        transition-duration: 0s;
+        outline: 2px solid $color__link--focus__outline;
     }
 
     &:active {

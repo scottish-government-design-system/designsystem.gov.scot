@@ -81,6 +81,8 @@
         background-color: $color__blocklink-bg--active;
         // outline: initial;
         transition-duration: 0s;
+
+        outline: 1px solid $color__hotpink--base;
     }
 
     &.#{$pl-prefix}current {
@@ -92,11 +94,17 @@
     }
 
     &:hover,
-    &:focus {
+    &:focus,
+    &:active {
         #{$linklike-selector} {
             color: $color__link--hover;
             text-decoration: underline;
             transition-duration: $transition-in-time;
+        }
+    }
+    &:active {
+        #{$linklike-selector} {
+            color: $color__link--active;
         }
     }
 }

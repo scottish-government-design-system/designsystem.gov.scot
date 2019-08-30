@@ -48,12 +48,15 @@ $example__highlight-color: $color__blue--lighter !default;
 }
 
 .example__link {
-    background-color: $example__highlight-color;
-    color: $color__link--hover;
+    @include blocklink;
+
+    background-color: $color__grey--lighter;
+
     display: inline-block;
-    font-size: 0.8em;
+    font-size: $small-size;
     padding: 3px 15px 4px;
     position: absolute;
+    text-decoration: none;
 }
 
 @supports (display: grid) {
