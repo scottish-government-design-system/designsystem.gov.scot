@@ -81,8 +81,6 @@
         background-color: $color__blocklink-bg--active;
         // outline: initial;
         transition-duration: 0s;
-
-        outline: 1px solid $color__hotpink--base;
     }
 
     &.#{$pl-prefix}current {
