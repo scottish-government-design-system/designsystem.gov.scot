@@ -15,7 +15,7 @@ There are some mixins we can use to enfoce consistency across components with si
 #### Example
 
     .search-result {
-        @include blocklink('.search-result__title');
+        @include blocklink('.ds_search-result__title');
         ...
     }
 

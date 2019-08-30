@@ -71,10 +71,12 @@ const accordionComponent = {
         if (accordionItems.length === openItems.length) {
             // everything is open
             button.innerHTML = 'Close all <span class="visually-hidden">sections</span>';
+            button.setAttribute('data-accordion', 'accordion-close-all');
             allOpen = true;
         } else {
             // not everything is open
             button.innerHTML = 'Expand all <span class="visually-hidden">sections</span>';
+            button.setAttribute('data-accordion', 'accordion-open-all');
             allOpen = false;
         }
 

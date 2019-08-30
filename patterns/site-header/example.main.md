@@ -11,12 +11,12 @@ minheight: '427px'
     <div class="ds_wrapper">
         <div class="ds_site-header__content">
             <div class="ds_site-branding">
-                <a data-navigation="logo" class="ds_site-branding__logo  ds_site-branding__link" href="/">
+                <a data-header="header-logo" class="ds_site-branding__logo  ds_site-branding__link" href="/">
                     <img class="ds_site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland.svg" alt="Digital Scotland" />
                 </a>
 
                 <div class="ds_site-branding__title">
-                    <a data-navigation="title" class="ds_site-branding__link" href="/">Pattern Library</a>
+                    <a data-header="header-title" class="ds_site-branding__link" href="/">Pattern Library</a>
                 </div>
             </div>
 
