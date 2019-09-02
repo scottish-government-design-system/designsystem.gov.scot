@@ -11,6 +11,18 @@ $category-item__border-color--hover: $color__link--hover !default;
 
 .#{$pl-prefix}category-item {
 
+    @include blocklink('.#{$pl-prefix}category-item__link');
+
+    border-left: 1px solid mix($category-item__border-color, $color__grey--lighter, 30%);
+    padding: 7px 15px;
+    text-decoration: none;
+    transition: background-color $transition-out-time, border-color $transition-out-time;
+    width: 100%;
+
+    :last-child {
+        margin-bottom: 0;
+    }
+
     &__title {
         font-size: $large-size;
         line-height: 21px;
@@ -24,29 +36,9 @@ $category-item__border-color--hover: $color__link--hover !default;
         margin: 0;
     }
 
-    &__link {
-        @include blocklink('.#{$pl-prefix}category-item__title');
-
-        border-left: 1px solid mix($category-item__border-color, $color__grey--lighter, 30%);
-        padding: 7px 15px;
-        text-decoration: none;
-        transition: background-color $transition-out-time, border-color $transition-out-time;
-        width: 100%;
-
-        &:hover {
-            border-color: $category-item__border-color--hover;
-        }
-
-        :last-child {
-            margin-bottom: 0;
-        }
-    }
-
     &--highlight {
-        .#{$pl-prefix}category-item__link {
-            border-color: $category-item__border-color;
-            border-left-width: 2px;
-        }
+        border-color: $category-item__border-color;
+        border-left-width: 2px;
     }
 
     &--no-border {

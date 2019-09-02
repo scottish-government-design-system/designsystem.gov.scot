@@ -10,46 +10,33 @@ $category-item__border-color--hover: $color__link--hover !default;
 
 
 .#{$pl-prefix}category-item--card {
-    display: flex;
+    @include blocklink--solid('.category-item__title');
+    // display: flex;
 
-    .#{$pl-prefix}category-item__link {
-        @include blocklink--solid('.category-item__title');
+    border-left: 0;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    padding: 21px 15px;
+    position: relative;
+    transition-property: background-color, box-shadow;
 
-        border-left: 0;
-        box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-        padding: 21px 15px;
-        position: relative;
-        transition-property: background-color, box-shadow;
+    &:after {
+        background-color: $color__brand--primary;
+        bottom: 0;
+        content: '';
+        height: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        transition: height $transition-in-time;
+    }
 
-        &:hover,
-        &:focus {
-            box-shadow: 1px 1px 4px rgba(0,0,0,0.25);
-        }
-
-        &:hover:not(:active),
-        &:focus:not(:active) {
-            background-color: $color__white;
-        }
-
-        &:after {
-            background-color: $color__brand--primary;
-            bottom: 0;
-            content: '';
-            height: 0;
-            left: 0;
-            position: absolute;
-            right: 0;
-            transition: height $transition-in-time;
-        }
-
-        &:hover:after,
-        &:focus:after {
-            height: 5px;
-        }
+    &:hover:after,
+    &:focus:after {
+        height: 5px;
     }
 
     &--gradient {
-        .#{$pl-prefix}category-item__link:after {
+        &:after {
             background: linear-gradient(to right, $color__brand--primary, $color__brand--secondary);
         }
     }

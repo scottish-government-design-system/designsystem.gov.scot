@@ -84,25 +84,17 @@ $example__highlight-color: $color__blue--lighter !default;
             }
 
             &__tab {
+
+                @include blocklink;
+
                 border: 1px solid $example__border-color;
-                color: $color__link;
+                // color: $color__link;
                 cursor: pointer;
                 font-size: 16px;
                 line-height: 28px;
                 margin: 0;
                 padding: 7px 15px;
                 position: relative;
-                transition: color 0.2s, background-color 0.2s;
-
-                &:hover {
-                    background-color: $color__grey--lighter;
-                    color: $color__link--hover;
-                }
-
-                &:active {
-                    background-color: $color__blue--light;
-                    transition-duration: 0;
-                }
 
                 & .expand-icon {
                     @include chevron(down);
@@ -123,7 +115,7 @@ $example__highlight-color: $color__blue--lighter !default;
                 position: relative;
 
                 /*TEMP*/
-                background-image: url(../images/icons/arrows/int_arrow_up_blue_over_35px_@2x.png) !important;
+                // background-image: url(../images/icons/arrows/int_arrow_up_blue_over_35px_@2x.png) !important;
 
                 &:hover:not(:active) {
                     background-color: $example__highlight-color;

@@ -113,27 +113,31 @@
 
                     {% if depth == 0 %}
                         <li class="ds_category-item  ds_category-item--card  ds_category-item--no-border">
-                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link" data-gtm="item-{{forloop.index}}">
-                                <h2 class="ds_category-item__title">{{item.title}}</h2>
+                            <h2 class="ds_category-item__title">
+                                <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
+                                    {{item.title}}
+                                </a>
+                            </h2>
 
-                                {% if item.summary %}
-                                    <p class="ds_category-item__summary">
-                                        {{ item.summary }}
-                                    </p>
-                                {% endif %}
-                            </a>
+                            {% if item.summary %}
+                                <p class="ds_category-item__summary">
+                                    {{ item.summary }}
+                                </p>
+                            {% endif %}
                         </li>
                     {% else %}
                         <li class="ds_category-item">
-                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link" data-gtm="item-{{forloop.index}}">
-                                <h2 class="ds_category-item__title">{{item.title}}</h2>
+                            <h2 class="ds_category-item__title">
+                                <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
+                                    {{item.title}}
+                                </a>
+                            </h2>
 
-                                {% if item.summary %}
-                                    <p class="ds_category-item__summary">
-                                        {{ item.summary }}
-                                    </p>
-                                {% endif %}
-                            </a>
+                            {% if item.summary %}
+                                <p class="ds_category-item__summary">
+                                    {{ item.summary }}
+                                </p>
+                            {% endif %}
                         </li>
 
                     {% endif %}
