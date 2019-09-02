@@ -17,7 +17,7 @@ body.layout--tiles {
 
     body {
         display: grid;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: auto auto 1fr auto; // notifications, header, body, footer
         min-height: 100%;
     }
 
