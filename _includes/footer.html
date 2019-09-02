@@ -34,3 +34,10 @@
 
 <script src="/assets/patternlib/dist/pattern-library.js"></script>
 <script src="/assets/scripts/dist/cookie.js"></script>
+
+<!-- Browsers with ES module support load these files -->
+<script type="module" src="/assets/scripts/dist/cookie.js"></script>
+
+<!-- Older browsers load these files -->
+<!-- (and module-supporting browsers know *not* to load these files) -->
+<script nomodule src="/assets/scripts/dist/cookie.es5.js"></script>
