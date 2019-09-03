@@ -14,7 +14,7 @@ index: 0
 
             <span class="ds_metadata__item">
                 <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
-                <dd class="ds_metadata__value">23 Jan 2019</dd>
+                <dd class="ds_metadata__value"><time datetime="2019-01-23">23 Jan 2019</time></dd>
             </span>
         </dl>
 

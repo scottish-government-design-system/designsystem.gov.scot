@@ -67,7 +67,7 @@
     transition: background-color $transition-out-time;
 
     &:focus {
-        outline: 2px solid $color__blocklink-bg--active;
+        outline: 3px solid $color__blocklink-bg--active;
 
         &:not(:active) {
             outline-color: $color__blocklink--focus__outline;
@@ -108,7 +108,7 @@
 
             &:focus {
                 &:after {
-                    outline: 2px solid $color__blocklink-bg--active;
+                    outline: 3px solid $color__blocklink-bg--active;
                 }
 
                 &:not(:active):after {

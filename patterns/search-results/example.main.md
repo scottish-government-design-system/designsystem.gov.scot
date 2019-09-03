@@ -90,7 +90,7 @@ note: This example has been truncated to three search results to conserve space.
 
                     <span class="ds_metadata__item">
                         <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
-                        <dd class="ds_metadata__value">01 Sep 2016</dd>
+                        <dd class="ds_metadata__value"><time datetime="2016-09-01">01 Sep 2016</time></dd>
                     </span>
                 </dl>
 

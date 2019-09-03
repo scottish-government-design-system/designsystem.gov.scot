@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 $side-nav-spacing-unit: 15px;
+$side-nav-outline-width: 3px;
 
 
 
@@ -10,10 +11,7 @@ $side-nav-spacing-unit: 15px;
 .#{$pl-prefix}side-navigation {
     @include block-margins;
 
-    border-bottom: 1px solid $color__border--light;
-    border-top: 1px solid $color__border--light;
-    margin-left: -15px;
-    margin-right: -15px;
+    border: 1px solid $color__border--light;
     position: relative;
 
     &__expand {
@@ -46,26 +44,33 @@ $side-nav-spacing-unit: 15px;
         @include indicator();
     }
 
-    &__root {
-        display: none;
-    }
-
     #show-side-navigation:focus ~ .#{$pl-prefix}side-navigation__expand {
-        outline: 2px solid $color__link--focus__outline;
+        outline: $side-nav-outline-width solid $color__link--focus__outline;
     }
 
     #show-side-navigation:checked ~ .#{$pl-prefix}side-navigation__expand .#{$pl-prefix}side-navigation__expand-indicator {
         @include indicator--open();
     }
 
-    #show-side-navigation:checked ~ &__root {
+    #show-side-navigation:checked ~ .#{$pl-prefix}side-navigation__expand:not(:hover) {
+        background-color: $color__link--current__background;
+        color: $color__link--current;
+    }
+
+    #show-side-navigation:checked ~ &__list--root {
         display: block;
     }
 
     &__list {
         list-style-type: none;
         margin-bottom: 0;
-        margin-left: 0;
+        margin-left: #{$side-nav-outline-width * -1};
+        padding: 0 $side-nav-outline-width;
+
+        &--root {
+            display: none;
+            margin: 7px #{15px - $side-nav-outline-width};
+        }
     }
 
     &__list &__list {
@@ -146,15 +151,15 @@ $side-nav-spacing-unit: 15px;
 }
 
 @include media-query(medium-down) {
-    .js-enabled .side-navigation {
-        .#{$pl-prefix}side-navigation__root {
+    .js-enabled .ds_side-navigation {
+        .#{$pl-prefix}side-navigation__list--root {
             margin: 0 15px;
             max-height: 0;
             overflow: hidden;
             transition: max-height $transition-in-time, padding $transition-in-time;
         }
 
-        #show-side-navigation:checked ~ .#{$pl-prefix}side-navigation__root {
+        #show-side-navigation:checked ~ .#{$pl-prefix}side-navigation__list--root {
             padding-bottom: 7px;
             padding-top: 7px;
         }
@@ -166,15 +171,13 @@ $side-nav-spacing-unit: 15px;
         border-width: 0;
         font-size: $small-size;
         line-height: 21px;
-        margin-left: 0;
-        margin-right: 0;
         margin-top: 0;
 
         &__expand {
             display: none;
         }
 
-        &__root {
+        &__list--root {
             display: block !important;
             margin: 0;
             max-height: unset;

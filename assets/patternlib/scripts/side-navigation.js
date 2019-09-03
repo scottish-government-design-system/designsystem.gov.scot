@@ -2,7 +2,7 @@
 
 const sideNavigationComponent = {
     init: function () {
-        const sideNavigation = document.querySelector('.side-navigation');
+        const sideNavigation = document.querySelector('.ds_side-navigation');
         if (sideNavigation) {
             this.setupSideNavigation(sideNavigation);
         }
@@ -13,7 +13,7 @@ const sideNavigationComponent = {
         checkbox.setAttribute('aria-expanded', false);
 
         checkbox.addEventListener('change', function (event) {
-            const list = sideNavigation.querySelector('.side-navigation__root');
+            const list = sideNavigation.querySelector('.ds_side-navigation__list--root');
             if (event.target.checked) {
                 list.style.display = 'block';
                 list.style.maxHeight = list.scrollHeight + 14 +  'px';
@@ -29,12 +29,12 @@ const sideNavigationComponent = {
 
 
         window.addEventListener('scroll', function () {
-            const sideNavigationExpand = document.querySelector('.side-navigation__expand');
+            const sideNavigationExpand = document.querySelector('.ds_side-navigation__expand');
 
             if (sideNavigationExpand.offsetTop > 1) {
-                sideNavigationExpand.classList.add('side-navigation__expand--shadow');
+                sideNavigationExpand.classList.add('ds_side-navigation__expand--shadow');
             } else {
-                sideNavigationExpand.classList.remove('side-navigation__expand--shadow');
+                sideNavigationExpand.classList.remove('ds_side-navigation__expand--shadow');
             }
         });
     }
