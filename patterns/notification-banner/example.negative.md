@@ -18,7 +18,7 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 
             <button data-banner="banner-bannername-close" class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
-                <svg class="ds_icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#close-21"></use></svg>
+                <svg data-banner="banner-close" class="ds_icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>
         </div>
     </div>
