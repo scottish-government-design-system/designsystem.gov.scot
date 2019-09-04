@@ -45,29 +45,46 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
             {% endif %}
         {% endfor %}
 
-        <div class="example-tabs  example-tabs--{{tabsCount}}">
+        <div class="example__accordion  ds_accordion">
             {% assign filename = 'example.' | append: include.name | append: '.md' %}
             {% for item in indexed %}
                 {% if item.name == filename %}
-
 
                 {% if include.type %}
                     {% assign type = include.type %}
                 {% else %}
                     {% assign type = 'HTML' %}
                 {% endif %}
-                <h2 class="example-tabs__tab">Sample {{type}} <span class="expand-icon"></span></h2>
-                <div class="example-tabs__content">
-                    <pre class="example__pre"><code class="example__code html">{{item.content | xml_escape}}</code></pre>
+                <div class="ds_accordion-item">
+                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-1" aria-labelledby="panel-{{include.name}}-1-heading" />
+                    <div class="ds_accordion-item__header">
+                        <h3 id="panel-{{include.name}}-1-heading" class="ds_accordion-item__title">
+                            Sample {{type}}
+                        </h3>
+                        <span class="ds_accordion-item__indicator"></span>
+                        <label class="ds_accordion-item__label" for="panel-{{include.name}}-1"><span class="visually-hidden">Show this section</span></label>
+                    </div>
+                    <div class="ds_accordion-item__body  example__accordion-body--code">
+                        <pre class="example__pre"><code class="example__code html">{{item.content | xml_escape}}</code></pre>
+                    </div>
                 </div>
                 {% endif %}
             {% endfor %}
 
             {% for item in indexed %}
                 {% if item.type == 'developers' and include.name == 'main' %}
-                    <h2 class="example-tabs__tab">Implementation notes <span class="expand-icon"></span></h2>
-                    <div class="example-tabs__content  example-tabs__content--text">
-                        {{item.content}}
+                    <div class="ds_accordion-item">
+                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-2" aria-labelledby="panel-{{include.name}}-2-heading" />
+                        <div class="ds_accordion-item__header">
+                            <h3 id="panel-{{include.name}}-2-heading" class="ds_accordion-item__title">
+                                Implementation notes
+                            </h3>
+                            <span class="ds_accordion-item__indicator"></span>
+                            <label class="ds_accordion-item__label" for="panel-{{include.name}}-2"><span class="visually-hidden">Show this section</span></label>
+                        </div>
+                        <div class="ds_accordion-item__body">
+                            {{item.content}}
+                        </div>
                     </div>
                 {% endif %}
             {% endfor %}

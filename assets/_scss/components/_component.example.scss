@@ -6,7 +6,7 @@
 
 
 $example__border-color: $color__grey--pale !default;
-$example__highlight-color: $color__blue--lighter !default;
+$example__highlight-color: $color__link--current__background !default;
 
 .example {
     @include block-margins;
@@ -25,11 +25,8 @@ $example__highlight-color: $color__blue--lighter !default;
 }
 
 .example__content {
-    box-shadow: 7px 7px $example__border-color
-}
-
-.example__demo {
     border: 1px solid $example__border-color;
+    box-shadow: 7px 7px $example__border-color;
 }
 
 .example__pre {
@@ -59,118 +56,13 @@ $example__highlight-color: $color__blue--lighter !default;
     text-decoration: none;
 }
 
-@supports (display: grid) {
-    .js-enabled {
-        .example-tabs {
-            display: grid;
-            grid-template-areas:
-                "tab1"
-                "content";
-            grid-template-columns: repeat(1, minmax(0, 1fr));
-            margin-top: -1px;
+.example__accordion {
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
-            &--2 {
-                grid-template-areas:
-                    "tab1 tab2"
-                    "content content";
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-
-            &--3 {
-                grid-template-areas:
-                    "tab1 tab2 tab3"
-                    "content content content";
-                grid-template-columns: repeat(3, minmax(0, 1fr));
-            }
-
-            &__tab {
-
-                @include blocklink;
-
-                border: 1px solid $example__border-color;
-                // color: $color__link;
-                cursor: pointer;
-                font-size: 16px;
-                line-height: 28px;
-                margin: 0;
-                padding: 7px 15px;
-                position: relative;
-
-                & .expand-icon {
-                    @include chevron(down);
-                    position: absolute;
-                    right: 15px;
-                    top: 13px;
-                }
-            }
-
-            &__tab:not(:nth-of-type(1)) {
-                border-left-width: 0;
-            }
-
-            &__tab--current {
-                background-color: $example__highlight-color;
-                border-bottom-width: 0;
-                color: $color__body;
-                position: relative;
-
-                /*TEMP*/
-                // background-image: url(../images/icons/arrows/int_arrow_up_blue_over_35px_@2x.png) !important;
-
-                &:hover:not(:active) {
-                    background-color: $example__highlight-color;
-                }
-
-                & .expand-icon {
-                    transform: rotateX(180deg) rotateZ(135deg);
-                    top: 17px;
-                }
-            }
-
-            .example__code.hljs {
-                background-color: $example__highlight-color;
-                padding: 14px 15px;
-            }
-
-            &__tab:nth-of-type(1) {
-                grid-area: tab1;
-            }
-
-            &__tab:nth-of-type(2) {
-                grid-area: tab2;
-            }
-
-            &__tab:nth-of-type(3) {
-                grid-area: tab3;
-            }
-
-
-            &__content {
-                border: 1px solid $example__border-color;
-                // border-top: 0;
-                display: none;
-                grid-area: content;
-                margin-top: -1px;
-
-                &--text {
-                    background-color: $example__highlight-color;
-                    padding: 14px 15px;
-                }
-            }
-
-            &__tab--current + .example-tabs__content {
-                display: block;
-            }
-        }
-
-
-        .example-tabs__content {
-            .highlighter-rouge {
-                background-color: $color__white;
-                outline-color: $color__white;
-            }
-        }
-    }
+.example__accordion-body--code {
+    padding: 0 !important;
 }
 
 .highlighter-rouge {
@@ -180,6 +72,7 @@ $example__highlight-color: $color__blue--lighter !default;
     outline: 3px solid $example__highlight-color;
 }
 
-.hljs {
+.example .hljs {
     background-color: transparent !important;
+    padding: 14px 15px;
 }

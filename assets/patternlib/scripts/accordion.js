@@ -48,6 +48,10 @@ const accordionComponent = {
 
 
     initOpenAll: function (accordion, button) {
+        if (!button) {
+            return;
+        }
+
         button.addEventListener('click', function () {
             const opening = !accordionComponent.checkAllOpen(accordion, button);
 
@@ -64,6 +68,10 @@ const accordionComponent = {
     },
 
     checkAllOpen: function (accordion, button) {
+        if (!button) {
+            return;
+        }
+
         const accordionItems = accordion.querySelectorAll('.ds_accordion-item');
         const openItems = accordion.querySelectorAll('.ds_accordion-item__control:checked');
         let allOpen;
