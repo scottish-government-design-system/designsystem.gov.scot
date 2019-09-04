@@ -2,6 +2,7 @@
 layout: default
 thispage: home
 title: "Cookies that we set"
+permalink: '/cookies-that-we-set/'
 ---
 
 ## Google Analytics

@@ -2,6 +2,7 @@
 layout: default
 thispage: home
 title: "Cookies"
+permalink: '/cookies/'
 ---
 
 A cookie lets a website recognise your device and store some information about your preferences or interactions.
