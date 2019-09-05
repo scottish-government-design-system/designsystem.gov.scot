@@ -6,6 +6,13 @@ module.exports = [{
   entry: {
     'cookie': [
       path.resolve(__dirname, 'assets/scripts/cookies.js')
+    ],
+    'pattern-library': [
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/accordion.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/notification-banner.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/side-navigation.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/site-navigation.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/site-search.js')
     ]
   },
 
@@ -19,6 +26,13 @@ module.exports = [{
   entry: {
     'cookie': [
       path.resolve(__dirname, 'assets/scripts/cookies.js')
+    ],
+    'pattern-library': [
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/accordion.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/notification-banner.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/side-navigation.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/site-navigation.js'),
+      path.resolve(__dirname, 'node_modules/pattern-library/src/scripts/site-search.js')
     ]
   },
 

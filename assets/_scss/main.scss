@@ -6,7 +6,7 @@
 /**
  * GRID/LAYOUT
  */
-@import "../patternlib/_scss/base/all";
+@import "../../node_modules/pattern-library/src/scss/base/all-base";
 @import "base/base.leader";
 @import "base/base.page";
 
@@ -24,7 +24,7 @@
 /**
  * COMPONENTS FROM PATTERN LIBRARY
  */
-@import "../patternlib/_scss/components/all";
+@import "../../node_modules/pattern-library/src/scss/components/all-components";
 
 
 

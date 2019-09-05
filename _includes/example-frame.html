@@ -56,7 +56,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
                     {% assign type = 'HTML' %}
                 {% endif %}
                 <div class="ds_accordion-item">
-                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-1" aria-labelledby="panel-{{include.name}}-1-heading" />
+                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-1" aria-labelledby="panel-{{include.name}}-1-heading" data-accordion="accordion-open-1" />
                     <div class="ds_accordion-item__header">
                         <h3 id="panel-{{include.name}}-1-heading" class="ds_accordion-item__title">
                             Sample {{type}}
@@ -74,7 +74,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
             {% for item in indexed %}
                 {% if item.type == 'developers' and include.name == 'main' %}
                     <div class="ds_accordion-item">
-                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-2" aria-labelledby="panel-{{include.name}}-2-heading" />
+                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-2" aria-labelledby="panel-{{include.name}}-2-heading" data-accordion="accordion-open-2" />
                         <div class="ds_accordion-item__header">
                             <h3 id="panel-{{include.name}}-2-heading" class="ds_accordion-item__title">
                                 Implementation notes

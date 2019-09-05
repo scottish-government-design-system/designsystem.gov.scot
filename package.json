@@ -5,11 +5,10 @@
   "author": {
     "name": "mygov.scot Digital Engineering team",
     "email": "mygov-tech-team@gov.scot",
-    "url": "http://www.mygov.scot/"
+    "url": "http://www.mygov.scot/  git+ssh://git@stash.digital.gov.uk:7999/mgv/pattern-library.git"
   },
   "scripts": {
     "galen": "galen test tests/patterns.test",
-    "postshrinkwrap": "node_modules/.bin/sealant",
     "svgsprites": "node svg-sprite",
     "webpack": "node_modules/.bin/webpack"
   },

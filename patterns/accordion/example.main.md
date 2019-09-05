@@ -10,7 +10,7 @@ scripts:
     <button data-accordion="accordion-open-all" type="button" class="ds_link  ds_accordion__open-all">Expand all <span class="visually-hidden">sections</span></button>
 
     <div class="ds_accordion-item">
-        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-1" aria-labelledby="panel-1-heading">
+        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-1" aria-labelledby="panel-1-heading" data-accordion="accordion-open-1">
         <div class="ds_accordion-item__header">
             <h3 id="panel-1-heading" class="ds_accordion-item__title">
                 Accordion (<abbr title="Graphical user interface">GUI</abbr>)
@@ -30,7 +30,7 @@ scripts:
     </div>
 
     <div class="ds_accordion-item">
-        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-2" aria-labelledby="panel-2-heading">
+        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-2" aria-labelledby="panel-2-heading" data-accordion="accordion-open-2">
         <div class="ds_accordion-item__header">
             <h3 id="panel-2-heading" class="ds_accordion-item__title">
                 User definition
@@ -44,7 +44,7 @@ scripts:
     </div>
 
     <div class="ds_accordion-item">
-        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-3" aria-labelledby="panel-3-heading">
+        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-3" aria-labelledby="panel-3-heading" data-accordion="accordion-open-3">
         <div class="ds_accordion-item__header">
             <h3 id="panel-3-heading" class="ds_accordion-item__title">
                 Examples
