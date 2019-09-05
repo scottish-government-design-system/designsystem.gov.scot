@@ -7,7 +7,7 @@ index: 0
 
 <div class="ds_site-branding">
     <a data-header="header-logo" class="ds_site-branding__logo  ds_site-branding__link" href="#">
-        <img class="ds_site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland.svg" alt="Digital Scotland pattern library home page">
+        <img class="ds_site-branding__logo-image" src="/assets/images/logos/digital-scotland.svg" alt="Digital Scotland pattern library home page">
     </a>
 
     <div class="ds_site-branding__title">

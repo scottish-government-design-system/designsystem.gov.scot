@@ -12,7 +12,7 @@ minheight: '427px'
         <div class="ds_site-header__content">
             <div class="ds_site-branding  ds_site-branding--reversed">
                 <a data-navigation="logo" class="ds_site-branding__logo  ds_site-branding__link" href="/">
-                    <img class="ds_site-branding__logo-image" src="/assets/patternlib/images/logos/digital-scotland--reversed.svg" alt="Digital Scotland" />
+                    <img class="ds_site-branding__logo-image" src="/assets/images/logos/digital-scotland--reversed.svg" alt="Digital Scotland" />
                 </a>
 
                 <div class="ds_site-branding__title">
