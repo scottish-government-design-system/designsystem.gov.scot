@@ -10,7 +10,7 @@ index: 0
 /**
  * half-size wrappers
  */
-.wrapper {
+.ds_wrapper {
     background-color: #fafafa;
     outline: 1px dashed #ccc;
     padding: 0 7.5px;
@@ -18,13 +18,13 @@ index: 0
 }
 
 @media (min-width: 384px) {
-  .wrapper {
+  .ds_wrapper {
     max-width: 375px; } }
 @media (min-width: 496px) {
-  .wrapper {
+  .ds_wrapper {
     max-width: 485px; } }
 @media (min-width: 600px) {
-  .wrapper {
+  .ds_wrapper {
     max-width: 585px; } }
 
 body:after {
