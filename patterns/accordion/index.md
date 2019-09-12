@@ -9,7 +9,7 @@ summary: "Expandable blocks for accordion-like content."
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/help-redundancy/](https://www.mygov.scot/help-redundancy/
+    url: https://www.mygov.scot/help-redundancy/
     name: "Help if you're made redundant"
 ---
 
