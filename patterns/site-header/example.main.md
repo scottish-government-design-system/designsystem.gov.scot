@@ -28,8 +28,8 @@ minheight: '427px'
                     <div class="ds_site-search__input-group">
                         <input name="q" required="" id="site-search" class="ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
-                        <button type="submit" title="search" class="ds_site-search__button  button  button--primary">
-                            <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>
+                        <button type="submit" title="search" class="ds_site-search__button  button  button--primary  js-site-search-button">
+                            <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                             <span class="visually-hidden">Search mygov.scot</span>
                         </button>
                     </div>
@@ -41,8 +41,8 @@ minheight: '427px'
             <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
                 <span class="ds_site-header__control-text">Menu</span>
 
-                <svg class="ds_icon  ds_site-header__control-icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#menu-21"></use></svg>
-                <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#close-21"></use></svg>
+                <svg class="ds_icon  ds_site-header__control-icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
+                <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>
 
             <div id="mobile-navigation-menu" class="ds_mobile-navigation" data-offsetselector=".ds_site-header">
@@ -57,7 +57,7 @@ minheight: '427px'
                                     <input name="q" required="" id="site-search--mobile" class="ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
                                     <button type="submit" title="search" class="ds_site-search__button  button  button--primary">
-                                        <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>
+                                        <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
 
                                         <span class="visually-hidden">Search mygov.scot</span>
                                     </button>

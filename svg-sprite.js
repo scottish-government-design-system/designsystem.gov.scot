@@ -7,8 +7,7 @@ let fs = require('fs');
 let File = require('vinyl');
 let glob = require('glob');
 
-let destpath = path.resolve('images/icons/');
-
+let destpath = path.resolve('assets/images/icons/');
 
 let config = {
     "log": "",
@@ -28,7 +27,7 @@ let config = {
 let spriter = new SVGSpriter(config);
 
 // Register some SVG files with the spriter
-let cwd = path.resolve('images/icons/svg/');
+let cwd = path.resolve('node_modules/@scottish-government/pattern-library/src/images/icons/svg/');
 glob.glob('**/*.svg', { cwd: cwd }, function (err, files) {
     files.forEach(function (file, index) {
         spriter.add(new File({

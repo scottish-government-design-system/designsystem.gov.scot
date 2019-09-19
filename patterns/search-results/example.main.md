@@ -16,7 +16,7 @@ note: This example has been truncated to three search results to conserve space.
             <input name="q" required="" id="site-search" class="ds_site-search__input" type="text" placeholder="Search" value="crofting" autocomplete="off">
 
             <button type="submit" title="search" class="ds_site-search__button  button  button--primary">
-                <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/patternlib/images/icons/icons.stack.svg#search"></use></svg>
+                <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
 
                 <span class="visually-hidden">Search mygov.scot</span>
             </button>
