@@ -22,7 +22,6 @@ npm() {
 }
 
 if [ ! -e "$checksum" ] || ! shasum -a1 --status -c "$checksum" ; then
-  cd assets/patternlib
   mkdir -p node_modules
   npm prune &&
     npm install &&
