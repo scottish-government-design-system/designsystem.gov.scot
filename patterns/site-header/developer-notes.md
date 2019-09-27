@@ -13,8 +13,10 @@ The site header will inherit its colour scheme from the colours you have defined
 
 Use the following modifier classes to alter the display of the site header:
 
-`site-header--gradient` changes the solid band across the top of the border to a gradient of your primary and secondary brand colours.
+`ds_site-header--gradient` changes the solid band across the top of the border to a gradient of your primary and secondary brand colours.
 
-`site-header--reversed` uses a solid background colour (your primary brand colour) for the site header. This will require the use of the "reversed" modifier class on the header's subcomponents (`site-branding--reversed`, `site-search--reversed`, `mobile-navigation__button--reversed` and `site-navigation--reversed`).
+`ds_site-header--shadow` replaces the bottom border of the site header with a drop shadow
 
-`site-header--shadow` replaces the bottom border of the site header with a drop shadow
+### Reversed variant
+
+Use a class of `ds_reversed` on the header to reverse the colours of the site header and its subcomponents.

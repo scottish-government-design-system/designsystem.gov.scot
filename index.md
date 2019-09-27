@@ -4,8 +4,8 @@
 
 layout: home
 thispage: home
-title: "Mygov pattern library"
+title: "Digital Scotland pattern library"
 
 ---
 
-The Mygov pattern library provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.
+The Digital Scotland pattern library provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.

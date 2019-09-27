@@ -7,10 +7,10 @@ style: '.example-frame__content {padding: 0;}'
 minheight: '427px'
 ---
 
-<header class="ds_site-header  ds_site-header--gradient  ds_site-header--reversed" role="banner">
+<header class="ds_site-header  ds_reversed" role="banner">
     <div class="ds_wrapper">
         <div class="ds_site-header__content">
-            <div class="ds_site-branding  ds_site-branding--reversed">
+            <div class="ds_site-branding">
                 <a data-navigation="logo" class="ds_site-branding__logo  ds_site-branding__link" href="/">
                     <img class="ds_site-branding__logo-image" src="/assets/images/logos/digital-scotland--reversed.svg" alt="Digital Scotland" />
                 </a>
@@ -20,7 +20,7 @@ minheight: '427px'
                 </div>
             </div>
 
-            <div class="ds_site-header__search  ds_site-search  ds_site-search--collapsible  ds_site-search--reversed">
+            <div class="ds_site-header__search  ds_site-search  ds_site-search--collapsible">
                 <form role="search" class="ds_site-search__form">
                     <label class="ds_site-search__label visually-hidden" for="site-search">Search</label>
 
@@ -37,7 +37,7 @@ minheight: '427px'
         </div>
 
         <nav role="navigation">
-            <button class="js-toggle-menu  ds_mobile-navigation__button  ds_mobile-navigation__button--reversed" aria-expanded="false" aria-controls="mobile-navigation-menu">
+            <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
                 <span class="ds_site-header__control-text">Menu</span>
 
                 <svg class="ds_icon  ds_site-header__control-icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
@@ -100,7 +100,7 @@ minheight: '427px'
 
     <div class="ds_site-header__navigation">
         <div class="ds_wrapper">
-            <nav class="ds_site-navigation  ds_site-navigation--reversed">
+            <nav class="ds_site-navigation">
                 <ul class="ds_site-navigation__list">
                     <li class="ds_site-navigation__item">
                         <a href="#" class="ds_site-navigation__link">

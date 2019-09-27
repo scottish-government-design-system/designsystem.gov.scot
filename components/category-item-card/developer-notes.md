@@ -11,4 +11,4 @@ index: 999
 
 Use the following modifier class to alter the display of a category item card:
 
-`category-item--card--gradient` changes the bottom border of the card visible on hover and focus to a gradient of your primary and secondary brand colours.
+`ds_category-item--card--gradient` changes the bottom border of the card visible on hover and focus to a gradient of your primary and secondary brand colours.
