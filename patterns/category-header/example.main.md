@@ -13,6 +13,8 @@ index: 0
                 <p>The patterns included here have been developed for use by government, public sector and third sector non-commercial organisations in Scotland.</p>
             </div>
         </header>
-        <img class="ds_category-header__image" src="/assets/images/examples/category-header-design-standards.svg" alt="">
+        <div class="ds_category-header__media-container">
+            <img class="ds_category-header__media" src="/assets/images/examples/category-header-design-standards.svg" alt="">
+        </div>
     </div>
 </div>
