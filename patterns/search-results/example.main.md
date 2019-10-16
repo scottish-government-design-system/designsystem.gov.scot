@@ -50,8 +50,8 @@ note: This example has been truncated to three search results to conserve space.
                     </span>
                 </dl>
 
-                <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" data-search="search-result-1/68" href="#">Crofting community right to buy</a>
+                <h2 class="gamma  ds_search-result__title" data-search="search-result-1/68">
+                    <a class="ds_search-result__link" href="#">Crofting community right to buy</a>
                 </h2>
             </header>
 
@@ -72,8 +72,8 @@ note: This example has been truncated to three search results to conserve space.
                     </span>
                 </dl>
 
-                <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" data-search="search-result-2/68" href="#">Crofting consultation 2017</a>
+                <h2 class="gamma  ds_search-result__title" data-search="search-result-2/68">
+                    <a class="ds_search-result__link" href="#">Crofting consultation 2017</a>
                 </h2>
             </header>
 
@@ -94,8 +94,8 @@ note: This example has been truncated to three search results to conserve space.
                     </span>
                 </dl>
 
-                <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" data-search="search-result-3/68" href="#">Crofting Elections 2017: consultation responses analysis</a>
+                <h2 class="gamma  ds_search-result__title" data-search="search-result-3/68">
+                    <a class="ds_search-result__link" href="#">Crofting Elections 2017: consultation responses analysis</a>
                 </h2>
             </header>
 

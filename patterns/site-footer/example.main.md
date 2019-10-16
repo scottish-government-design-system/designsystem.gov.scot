@@ -6,7 +6,7 @@ index: 0
 style: '.example-frame__content {padding: 28px 0 0 0;}'
 ---
 
-<footer class="ds_site-footer">
+<footer class="ds_site-footer  ds_reversed">
     <div class="ds_wrapper">
         <div class="ds_site-footer__content">
             <ul class="ds_site-footer__site-items">

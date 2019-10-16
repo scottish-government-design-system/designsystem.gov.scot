@@ -18,8 +18,8 @@ index: 0
             </span>
         </dl>
 
-        <h2 class="gamma  ds_search-result__title">
-            <a class="ds_search-result__link" data-search="search-result-1/n" href="#">Culture strategy for Scotland consultation: analysis of responses - full report</a>
+        <h2 class="gamma  ds_search-result__title" data-search="search-result-1/n">
+            <a class="ds_search-result__link" href="#">Culture strategy for Scotland consultation: analysis of responses - full report</a>
         </h2>
     </header>
 

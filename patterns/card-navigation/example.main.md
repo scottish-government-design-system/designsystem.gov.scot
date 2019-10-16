@@ -6,7 +6,7 @@ index: 0
 style: "body {background: #f8f8f8;}"
 ---
 
-<ol class="ds_category-list  ds_category-list--grid  ds_category-list--grid--narrow">
+<ol class="ds_category-list  ds_category-list--grid  ds_category-list--narrow">
     <li class="ds_category-item  ds_category-item--card">
         <h2 class="ds_category-item__title">
             <a data-navigation="category-item-1" href="#" class="ds_category-item__link">Environment and countryside</a>
