@@ -68,12 +68,12 @@ minheight: '427px'
                     <div class="ds_mobile-navigation__block">
                         <ul class="ds_mobile-navigation__list">
                             <li class="ds_mobile-navigation__item">
-                                <a href="#" class="ds_mobile-navigation__link">
+                                <a href="#" data-device="mobile" data-header="header-link-1" class="ds_mobile-navigation__link">
                                     Get started
                                 </a>
                             </li>
                             <li class="ds_mobile-navigation__item">
-                                <a href="#" class="ds_mobile-navigation__link">
+                                <a href="#" data-device="mobile" data-header="header-link-2" class="ds_mobile-navigation__link">
                                     Styles
                                 </a>
                             </li>
@@ -83,7 +83,7 @@ minheight: '427px'
                                 </span>
                             </li>
                             <li class="ds_mobile-navigation__item">
-                                <a href="#" class="ds_mobile-navigation__link">
+                                <a href="#" data-device="mobile" data-header="header-link-4" class="ds_mobile-navigation__link">
                                     Patterns
                                 </a>
                             </li>
@@ -103,12 +103,12 @@ minheight: '427px'
             <nav class="ds_site-navigation">
                 <ul class="ds_site-navigation__list">
                     <li class="ds_site-navigation__item">
-                        <a href="#" class="ds_site-navigation__link">
+                        <a href="#" data-device="desktop" data-header="header-link-1" class="ds_site-navigation__link">
                             Get started
                         </a>
                     </li>
                     <li class="ds_site-navigation__item">
-                        <a href="#" class="ds_site-navigation__link">
+                        <a href="#" data-device="desktop" data-header="header-link-2" class="ds_site-navigation__link">
                             Styles
                         </a>
                     </li>
@@ -118,7 +118,7 @@ minheight: '427px'
                         </span>
                     </li>
                     <li class="ds_site-navigation__item">
-                        <a href="#" class="ds_site-navigation__link">
+                        <a href="#" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link">
                             Patterns
                         </a>
                     </li>

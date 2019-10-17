@@ -19,12 +19,12 @@ index: 0
             <div class="ds_mobile-navigation__block">
                 <ul class="ds_mobile-navigation__list">
                     <li class="ds_mobile-navigation__item">
-                        <a data-header="header-link-1" href="#" class="ds_mobile-navigation__link">
+                        <a data-device="mobile" data-header="header-link-1" href="#" class="ds_mobile-navigation__link">
                             Get started
                         </a>
                     </li>
                     <li class="ds_mobile-navigation__item">
-                        <a data-header="header-link-2" href="#" class="ds_mobile-navigation__link">
+                        <a data-device="mobile" data-header="header-link-2" href="#" class="ds_mobile-navigation__link">
                             Styles
                         </a>
                     </li>
@@ -34,7 +34,7 @@ index: 0
                         </span>
                     </li>
                     <li class="ds_mobile-navigation__item">
-                        <a data-header="header-link-4" href="#" class="ds_mobile-navigation__link">
+                        <a data-device="mobile" data-header="header-link-4" href="#" class="ds_mobile-navigation__link">
                             Patterns
                         </a>
                     </li>
@@ -51,12 +51,12 @@ index: 0
 <nav class="ds_site-navigation">
     <ul class="ds_site-navigation__list">
         <li class="ds_site-navigation__item">
-            <a data-header="header-link-1" href="#" class="ds_site-navigation__link">
+            <a data-device="desktop" data-header="header-link-1" href="#" class="ds_site-navigation__link">
                 Get started
             </a>
         </li>
         <li class="ds_site-navigation__item">
-            <a data-header="header-link-2" href="#" class="ds_site-navigation__link">
+            <a data-device="desktop" data-header="header-link-2" href="#" class="ds_site-navigation__link">
                 Styles
             </a>
         </li>
@@ -66,7 +66,7 @@ index: 0
             </span>
         </li>
         <li class="ds_site-navigation__item">
-            <a data-header="header-link-4" href="#" class="ds_site-navigation__link">
+            <a data-device="desktop" data-header="header-link-4" href="#" class="ds_site-navigation__link">
                 Patterns
             </a>
         </li>
