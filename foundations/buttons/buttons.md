@@ -75,7 +75,7 @@ Use maximum-width buttons for large buttons. These will fill the width of small 
 Use small buttons for XXXXXXXXXXXX.
 
 <div class="ds_button-group">
-<a href="#" class="ds_button  ds_button--small">Start here</a><br />
+<a href="#" class="ds_button  ds_button--small">Start here</a>
 </div>
 
 The small button modifier can be applied to any type or width variant.
