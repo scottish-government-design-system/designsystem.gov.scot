@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Pattern Library"
+title: "Design System"
 parent: home
 thispage: library
 navitems: library

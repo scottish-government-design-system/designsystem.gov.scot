@@ -4,8 +4,9 @@
 
 layout: home
 thispage: home
-title: "Digital Scotland pattern library"
-
+title: "Digital Scotland Design System"
+navitems: library
+sortfield: index
 ---
 
-The Digital Scotland pattern library provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.
+The Digital Scotland Design System provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.

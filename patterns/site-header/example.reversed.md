@@ -16,7 +16,7 @@ minheight: '427px'
                 </a>
 
                 <div class="ds_site-branding__title">
-                    <a data-navigation="title" class="ds_site-branding__link" href="/">Pattern Library</a>
+                    <a data-navigation="title" class="ds_site-branding__link" href="/">Design System</a>
                 </div>
             </div>
 

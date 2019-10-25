@@ -14,7 +14,7 @@ index: 0
                 </a>
 
                 <div class="ds_site-branding__title">
-                    <a class="ds_site-branding__link" href="#">Pattern Library</a>
+                    <a class="ds_site-branding__link" href="#">Design System</a>
                 </div>
 
                 <strong class="ds_site-branding__tag  ds_tag">
@@ -36,7 +36,7 @@ index: 0
                 </a>
 
                 <div class="ds_site-branding__title">
-                    <a class="ds_site-branding__link" href="#">Pattern Library</a>
+                    <a class="ds_site-branding__link" href="#">Design System</a>
                 </div>
 
                 <strong class="ds_site-branding__tag  ds_tag">

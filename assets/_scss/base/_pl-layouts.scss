@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    SITE PAGE LAYOUTS
+\*------------------------------------*/
+
+.#{$pl-prefix}layout {
+    &--pl-component {
+        > .#{$pl-prefix}layout {
+            &__header {
+                float: left;
+                @include colwidth(8);
+            }
+
+            &__content {
+                float: left;
+                @include colwidth(7);
+                @include colpush(3);
+            }
+
+            &__sidebar {
+                float: left;
+                @include colwidth(3);
+                @include colpull(10);
+            }
+        }
+    }
+}
+
+@supports(display: grid) {
+    @include media-query(medium) {
+        .#{$pl-prefix}layout {
+            &--pl-component {
+                grid-template-areas:
+                    'h h h h h h h h h h h h'
+                    's s s s c c c c c c c c';
+            }
+        }
+    }
+
+    @include media-query(large) {
+        .#{$pl-prefix}layout {
+            &--pl-component {
+                grid-template-areas:
+                    'h h h h h h h h h h . .'
+                    's s s c c c c c c c . .';
+            }
+        }
+    }
+}

@@ -8,6 +8,7 @@
  */
 @import "../../node_modules/@scottish-government/pattern-library/src/scss/base/all-base";
 @import "base/base.page";
+@import "base/pl-layouts";
 
 
 
@@ -21,7 +22,7 @@
 
 
 /**
- * COMPONENTS FROM PATTERN LIBRARY
+ * COMPONENTS FROM DESIGN SYSTEM
  */
 @import "../../node_modules/@scottish-government/pattern-library/src/scss/components/all-components";
 
@@ -29,7 +30,7 @@
 
 
 /**
- * COMPONENTS FOR PATTERN LIBRARY SITE NOT IN PATTERN LIBRARY STYLES (YET?)
+ * COMPONENTS FOR DESIGN SYSTEM SITE NOT IN DESIGN SYSTEM STYLES (YET?)
  */
 @import "components/component.example";
 
