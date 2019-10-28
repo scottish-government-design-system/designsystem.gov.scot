@@ -7,6 +7,7 @@ thispage: foundation.buttons
 #summary: ""
 ---
 
+Button styles can be applied to either button or link elements. Use the appropriate element for the task.
 
 ## Types of button
 
@@ -124,3 +125,16 @@ Icons can be added to buttons. Buttons with icons can also have any size, type o
         <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
     </a>
 </div>
+
+
+<script>
+
+const buttons = document.querySelectorAll('.ds_button');
+
+buttons.forEach(function (button) {
+    button.addEventListener('click', function (event) {
+        event.preventDefault();
+    });
+})
+
+</script>
