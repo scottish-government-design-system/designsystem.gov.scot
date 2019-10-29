@@ -129,7 +129,7 @@ Icons can be added to buttons. Buttons with icons can also have any size, type o
 
 <script>
 
-const buttons = document.querySelectorAll('.ds_button');
+const buttons = document.querySelectorAll('.ds_layout__content .ds_button');
 
 buttons.forEach(function (button) {
     button.addEventListener('click', function (event) {
