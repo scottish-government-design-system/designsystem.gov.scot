@@ -16,7 +16,7 @@ index: 0
 
             <button data-banner="banner-close" class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
-                <img data-banner="banner-close" class="ds_icon" alt="" src="/assets/images/people/placeholder.png"/>
+                <img class="ds_icon" alt="" src="/assets/images/people/placeholder.png"/>
             </button>
         </div>
     </div>
