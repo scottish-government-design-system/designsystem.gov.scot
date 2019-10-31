@@ -4,7 +4,9 @@ type: example
 index: 0
 ---
 
-
+<style>
+.ds_icon {pointer-events: none;}
+</style>
 
 
 <div class="ds_notification">
@@ -16,7 +18,7 @@ index: 0
 
             <button data-banner="banner-close" class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
-                <img class="ds_icon" alt="" src="/assets/images/people/placeholder.png"/>
+                <svg data-banner="banner-close" class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>
         </div>
     </div>
