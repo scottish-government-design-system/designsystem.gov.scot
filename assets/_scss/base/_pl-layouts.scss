@@ -13,13 +13,12 @@
             &__content {
                 float: left;
                 @include colwidth(7);
-                @include colpush(3);
             }
 
             &__sidebar {
+                clear: left;
                 float: left;
                 @include colwidth(3);
-                @include colpull(10);
             }
         }
     }

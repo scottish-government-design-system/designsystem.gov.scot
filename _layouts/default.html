@@ -12,8 +12,11 @@
 
 {% include header.html %}
 
-<header>
-    <div class="ds_wrapper">
+<div class="ds_wrapper">
+
+<main id="main-content" class="ds_layout  ds_layout--article">
+
+    <div class="ds_layout__header">
         <header class="heading">
             <div class="ds_page-header">
                 <span class="ds_page-header__label  ds_content-label">{{ page.imperative }}</span>
@@ -22,34 +25,36 @@
             </div>
         </header>
     </div>
-    <!-- /end .ds_wrapper -->
-</header>
-
-<div class="ds_wrapper">
 
     {% if page.headings %}
-        <div class="page-group page-group--section-nav">
-            <ul class="page-group__list">
-                {% for heading in page.headings %}
-                    <li class="page-group__item">
-                        <a class="page-group__link  page-group__link--condensed" href="#{{heading | replace:'.', '' | slugify}}">{{ heading }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+        <div class="ds_layout__sidebar">
+            <div class="page-group page-group--section-nav">
+                <ul class="page-group__list">
+                    {% for heading in page.headings %}
+                        <li class="page-group__item">
+                            <a class="page-group__link  page-group__link--condensed" href="#{{heading | replace:'.', '' | slugify}}">{{ heading }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     {% endif %}
 
-    <div class="main-content">
-        {% if page.summary %}
-        <p class="ds_leader">
-            {{ page.summary }}
-        </p>
-        {% endif %}
+    <div class="ds_layout__content">
+        <div class="main-content">
+            {% if page.summary %}
+            <p class="ds_leader">
+                {{ page.summary }}
+            </p>
+            {% endif %}
 
-        {{ content }}
+            {{ content }}
 
-        {% include component-sequential-nav.html %}
+            {% include component-sequential-nav.html %}
+        </div>
     </div>
+</main>
+
 </div>
 <!-- /end .wrapper -->
 

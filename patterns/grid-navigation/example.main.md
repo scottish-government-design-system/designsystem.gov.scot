@@ -6,9 +6,9 @@ index: 0
 ---
 
 <ol class="ds_category-list  ds_category-list--grid  ds_category-list--highlight">
-    <li class="ds_category-item  ds_category-item--highlight">
+    <li class="ds_category-item">
         <h2 class="ds_category-item__title">
-            <a data-navigation="category-item-1" href="#" class="ds_category-item__link">Environment and countryside</a>
+            <a data-navigation="category-item-1" href="#" class="ds_category-item__link  ds_category-item__link--highlight">Environment and countryside</a>
         </h2>
 
         <p class="ds_category-item__summary">
