@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Search result"
 category: components
 parent: components

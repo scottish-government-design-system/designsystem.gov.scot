@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title: "Information text"
 category: components
 parent: components

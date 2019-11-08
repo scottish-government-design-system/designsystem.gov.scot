@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Contact details"
 category: patterns
 parent: patterns

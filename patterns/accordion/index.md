@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Accordion"
 category: patterns
 parent: patterns

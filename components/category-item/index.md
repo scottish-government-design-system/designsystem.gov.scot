@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Category item"
 category: components
 parent: components

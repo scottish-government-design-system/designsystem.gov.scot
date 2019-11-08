@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Pagination"
 category: components
 parent: components

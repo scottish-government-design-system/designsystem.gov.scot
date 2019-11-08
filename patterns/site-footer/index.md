@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title: "Site footer"
 category: patterns
 parent: patterns

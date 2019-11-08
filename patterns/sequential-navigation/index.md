@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title: "Sequential navigation"
 category: patterns
 parent: patterns

@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Page header"
 category: patterns
 parent: patterns

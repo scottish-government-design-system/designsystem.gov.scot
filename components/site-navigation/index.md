@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Site navigation"
 category: components
 parent: components

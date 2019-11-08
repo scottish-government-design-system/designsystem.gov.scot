@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Site search"
 category: components
 parent: components

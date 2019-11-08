@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Breadcrumbs"
 category: patterns
 label: pattern

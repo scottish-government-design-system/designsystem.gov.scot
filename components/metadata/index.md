@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Page metadata"
 category: components
 parent: components

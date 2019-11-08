@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Tag"
 category: components
 parent: components

@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Base grid"
 category: foundations
 parent: foundations

@@ -38,6 +38,11 @@
                 </header>
             </div>
 
+            <div class="ds_layout__sidebar">
+                {% assign navitems = page.category %}
+                {% include component-side-navigation.html %}
+            </div>
+
             <div class="ds_layout__content">
 
                 {% if page.summary %}
@@ -84,11 +89,6 @@
 
                 {% include component-sequential-nav.html %}
 
-            </div>
-
-            <div class="ds_layout__sidebar">
-                {% assign navitems = page.category %}
-                {% include component-side-navigation.html %}
             </div>
         </main>
     </div>

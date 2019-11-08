@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Notification banner"
 category: patterns
 parent: patterns

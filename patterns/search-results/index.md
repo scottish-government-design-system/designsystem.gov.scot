@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Search results"
 category: patterns
 parent: patterns
