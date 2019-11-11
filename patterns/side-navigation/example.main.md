@@ -18,7 +18,7 @@ minheight: 581px
                     <a href="#" data-navigation="sidenav-1-1" class="ds_side-navigation__link">Green apples</a>
                     <ul class="ds_side-navigation__list">
                         <li class="ds_side-navigation__item">
-                            <a href="#" data-navigation="sidenav-1-1-1" class="ds_side-navigation__link  ds_current">Bramley</a>
+                            <span data-navigation="sidenav-1-1-1" class="ds_side-navigation__link  ds_current">Bramley</span>
                         </li>
                         <li class="ds_side-navigation__item">
                             <a href="#" data-navigation="sidenav-1-1-2" class="ds_side-navigation__link">Granny Smith</a>

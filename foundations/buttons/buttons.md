@@ -1,5 +1,5 @@
 ---
-layout: component-enhanced
+layout: component
 title:  "Buttons"
 category: foundations
 parent: foundations
