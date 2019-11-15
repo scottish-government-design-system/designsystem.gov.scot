@@ -1,8 +1,8 @@
 ---
 layout: component
-title: "Information text"
+title: "Inset text"
 category: components
 parent: components
-thispage: component.information-text
+thispage: component.inset-text
 summary: "A callout notice for helpful information."
 ---

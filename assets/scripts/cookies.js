@@ -74,7 +74,7 @@ const cookieModule = {
         });
 
         // on init show the form
-        const cookieFormBox = document.getElementById('cookie-form-box');
+        const cookieFormBox = document.getElementById('cookie-form');
         if (cookieFormBox) {
             const className = 'fully-hidden';
             if (cookieFormBox.classList) {
@@ -83,7 +83,7 @@ const cookieModule = {
                 cookieFormBox.className = cookieFormBox.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
             }
 
-            const inputGroups = document.querySelectorAll('#cookie-preferences .input-wrapper');
+            const inputGroups = document.querySelectorAll('#cookie-preferences .ds_field-group');
             let cookiePermissions = {};
 
             if (storage.isJsonString(cookiePermissionsString)) {
@@ -131,12 +131,11 @@ const cookieModule = {
                     expires: 365
                 });
 
-                document.querySelector('#cookie-success-message').classList.remove('fully-hidden');
-                document.querySelector('#cookie-success-message').style.top = '35px';
-
                 // hide cookie notice
                 that.cookieNotice.classList.add('fully-hidden');
                 that.cookieConfirm.classList.remove('fully-hidden');
+
+                window.scrollTo(window.scrollX, 0);
             });
         }
 
