@@ -14,11 +14,13 @@ scripts:
         <div class="ds_contact-details__item">
             <dt>Address</dt>
             <dd translate="no">
-                Scottish Government<br/>
-                St. Andrew's House<br />
-                Regent Road<br />
-                Edinburgh<br />
-                EH1 3DG
+                <address>
+                    Scottish Government<br/>
+                    St. Andrew's House<br />
+                    Regent Road<br />
+                    Edinburgh<br />
+                    EH1 3DG
+                </address>
             </dd>
         </div>
 
