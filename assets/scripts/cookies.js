@@ -38,7 +38,7 @@ const cookieModule = {
             );
 
             storage.setCookie(
-                storage.categories.preferences,
+                storage.categories.necessary,
                 'cookie-notification-acknowledged',
                 'yes',
                 365
@@ -125,7 +125,7 @@ const cookieModule = {
 
                 storage.set({
                     type: 'cookie',
-                    category: 'preferences',
+                    category: 'necessary',
                     name: 'cookie-notification-acknowledged',
                     value: 'yes',
                     expires: 365
