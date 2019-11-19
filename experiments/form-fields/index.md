@@ -5,27 +5,31 @@ index: 0
 ---
 
 <style>
-    legend {
-        font-weight: bold;
-        margin-bottom: 7px;
-    }
 
-    fieldset {
-        border: 0;
-    }
-
-    .hint-text {
-        color: #727272;
-        margin-bottom: 14px;
-    }
 </style>
 
 <h1>Form fields</h1>
 
+<h2>Select</h2>
+
+
+<div>
+<label class="ds_label" for="select">Select</label><br />
+<div class="ds_select-wrapper  ds_input--fluid-one-third">
+<select class="ds_select">
+    <option></option>
+    <option>Amanita</option>
+    <option>Boletus</option>
+    <option>Coprinopsis</option>
+</select>
+<span class="ds_select-arrow" aria-hidden="true"></span>
+</div>
+</div>
+
 <h2>Text inputs</h2>
 <div>
-<label class="ds_label" for="textinput">Text input</label><br />
-<input class="ds_input" type="text" id="textinput" />
+<label class="ds_label" for="textinput1">Text input</label><br />
+<input class="ds_input" type="text" id="textinput1" />
 </div>
 
 <h3>Fluid-width inputs</h3>
@@ -101,24 +105,58 @@ index: 0
     </div>
 </div>
 
+<h2>Inline text inputs</h2>
+
+<form>
+    <fieldset>
+        <legend>What is your date of birth?</legend>
+        <p class="ds_hint-text">For example, 31 3 1980</p>
+
+        <div class="ds_field-group  ds_field-group--inline">
+            <div>
+                <label class="ds_label" for="day">Day</label>
+                <input id="day" class="ds_input ds_input--fixed-2" />
+            </div>
+
+            <div>
+                <label class="ds_label" for="month">Month</label>
+                <input id="month" class="ds_input ds_input--fixed-2" />
+            </div>
+
+            <div>
+                <label class="ds_label" for="year">Year</label>
+                <input id="year" class="ds_input ds_input--fixed-4" />
+            </div>
+        </div>
+    </fieldset>
+</form>
+
 <h2>Textarea</h2>
 
 <div>
-<label class="ds_label" for="textarea">Textarea</label><br />
-<textarea class="ds_input" id="textarea"></textarea>
+<label class="ds_label" for="textarea1">Textarea</label><br />
+<textarea class="ds_input" rows="3" id="textarea1"></textarea>
 </div>
 
 <p><strong>Note:</strong> Textareas can use all of the width variants available to text inputs. They're not included here to avoid repetition.</p>
 
 <p><strong>Note:</strong> Use the "rows" attribute to size textarea elements appropriately.</p>
 
+<h2>Currency input</h2>
+
+<div>
+    <label class="ds_label" for="textinputCurrency">Price per month</label><br />
+    <div class="ds_currency-wrapper" data-symbol="$">
+        <input class="ds_input  ds_input--fixed-4" type="text" id="textinputCurrency" />
+    </div>
+</div>
 
 <h2>Inline radio buttons</h2>
 
 <form>
     <fieldset>
         <legend>Legend (question)</legend>
-        <p class="hint-text">Hint text</p>
+        <p class="ds_hint-text">Hint text</p>
 
         <div class="ds_field-group  ds_field-group--inline">
             <div class="ds_radio">
@@ -137,7 +175,7 @@ index: 0
 <form>
     <fieldset>
         <legend>Legend (question)</legend>
-        <p class="hint-text">Hint text</p>
+        <p class="ds_hint-text">Hint text</p>
 
         <div class="ds_field-group  ds_field-group--inline">
             <div class="ds_radio  ds_radio--small">
@@ -159,7 +197,7 @@ index: 0
 <form>
     <fieldset>
         <legend>Was this page useful?</legend>
-        <p class="hint-text">Select an option</p>
+        <p class="ds_hint-text">Select an option</p>
 
         <div class="ds_field-group  ds_field-group">
             <div class="ds_radio">
@@ -173,7 +211,7 @@ index: 0
 
                 <div class="ds_reveal-content">
                     <label class="ds_label" for="textarea">Why was this page not useful?</label><br />
-                    <textarea rows="4" class="ds_input" id="textarea"></textarea>
+                    <textarea rows="4" class="ds_input" id="textarea2"></textarea>
                 </div>
             </div>
 
@@ -183,18 +221,17 @@ index: 0
 
                 <div class="ds_reveal-content">
                     <label class="ds_label" for="textarea">What could improve this page?</label><br />
-                    <textarea class="ds_input" id="textarea"></textarea>
+                    <textarea rows="4" class="ds_input" id="textarea3"></textarea>
                 </div>
             </div>
         </div>
     </fieldset>
 </form>
 
-
 <form>
     <fieldset>
         <legend>Legend (question)</legend>
-        <p class="hint-text">Hint text</p>
+        <p class="ds_hint-text">Hint text</p>
 
         <div class="ds_field-group  ds_field-group">
             <div class="ds_radio  ds_radio--small">
@@ -203,7 +240,7 @@ index: 0
 
                 <div class="ds_reveal-content">
                     <label class="ds_label  visually-hidden" for="textinput">Text input</label>
-                    <input class="ds_input" type="text" id="textinput" />
+                    <input class="ds_input" type="text" id="textinput2" />
                 </div>
             </div>
 
@@ -222,7 +259,7 @@ index: 0
 <form>
     <fieldset>
         <legend>Legend (question)</legend>
-        <p class="hint-text">Select an option</p>
+        <p class="ds_hint-text">Select an option</p>
 
         <div class="ds_field-group  ds_field-group--inline">
             <div class="ds_checkbox">
@@ -241,7 +278,7 @@ index: 0
 <form>
     <fieldset>
         <legend>Legend (question)</legend>
-        <p class="hint-text">Hint text</p>
+        <p class="ds_hint-text">Hint text</p>
 
         <div class="ds_field-group  ds_field-group--inline">
             <div class="ds_checkbox  ds_checkbox--small">
@@ -264,7 +301,7 @@ index: 0
 <form>
     <fieldset>
         <legend>Legend (question)</legend>
-        <p class="hint-text">Select an option</p>
+        <p class="ds_hint-text">Select an option</p>
 
         <div class="ds_field-group  ds_field-group">
             <div class="ds_checkbox">
@@ -291,7 +328,7 @@ index: 0
 <form>
     <fieldset>
         <legend>Legend (question)</legend>
-        <p class="hint-text">Hint text</p>
+        <p class="ds_hint-text">Hint text</p>
 
         <div class="ds_field-group  ds_field-group">
             <div class="ds_checkbox  ds_checkbox--small">
@@ -339,7 +376,7 @@ index: 0
     <div class="ds_question   ds_question--error" id="question-id">
         <fieldset>
             <legend>Did this resolve your issue?</legend>
-            <p class="hint-text">Hint text</p>
+            <p class="ds_hint-text">Hint text</p>
             <p class="ds_question__message">This field is required</p>
 
             <div class="ds_field-group">
@@ -366,7 +403,7 @@ index: 0
     <div class="ds_question   ds_question--error" id="question-id">
         <fieldset>
             <legend>What topics are you interested in?</legend>
-            <p class="hint-text">Select an option</p>
+            <p class="ds_hint-text">Select an option</p>
             <p class="ds_question__message">This field is required</p>
 
             <div class="ds_field-group  ds_field-group--inline">
@@ -386,7 +423,7 @@ index: 0
 
 <div class="ds_question  ds_question--error">
     <label class="ds_label" for="textarea">Please provide more detail</label><br />
-    <p class="hint-text">Do not include personal or financial information, like your National Insurance number or credit card details.</p>
+    <p class="ds_hint-text">Do not include personal or financial information, like your National Insurance number or credit card details.</p>
     <p class="ds_question__message">Enter more detail</p>
-    <textarea rows="5" class="ds_input" id="textarea"></textarea>
+    <textarea rows="5" class="ds_input" id="textarea4"></textarea>
 </div>
