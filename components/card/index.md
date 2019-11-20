@@ -24,8 +24,8 @@ This example demonstrates using a [metadata](/components/metadata) block on a ca
 {% include example-frame.html name="component" %}
 
 
-## An interactive component
+## Variant: no padding
 
-Cards can house components that are interactive, such as [category items](components/category-item).
+The padding on a card can be removed enabling a component to fill the whole card. This is useful when you want the whole card to become clickable, such as when it contains a [category item](/components/category-item).
 
-{% include example-frame.html name="interactive" %}
+{% include example-frame.html name="no-padding" %}

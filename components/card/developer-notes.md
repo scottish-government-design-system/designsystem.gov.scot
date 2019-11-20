@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.category-item--card
+parent: component.card
 type: developers
 title: devnotes
 
@@ -9,6 +9,8 @@ index: 999
 
 ### Configuration options
 
-Use the following modifier class to alter the display of a category item card:
+Use the following modifier class to alter the display of a card:
 
-`ds_category-item--card--gradient` changes the bottom border of the card visible on hover and focus to a gradient of your primary and secondary brand colours.
+`ds_card--filled` removes the padding on the card so that whatever is placed within the card will cover the whole card area.
+
+`ds_card--has-hover` adds a hover effect to the card.
