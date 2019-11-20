@@ -25,6 +25,6 @@ The link element should have a title attribute containing the title text of the 
 Category items can be highlighted.
 {% include example-frame.html name="highlight" caption="Example of a highlighted category item" %}
 
-### Without left border
-Category items can have the left border removed.
-{% include example-frame.html name="no-border" caption="Example of a category item with no left border" %}
+### Card
+Category items can be placed on [cards](/components/card).
+{% include example-frame.html name="card" caption="Example of a category item on a card" %}

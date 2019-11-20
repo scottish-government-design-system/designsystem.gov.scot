@@ -11,46 +11,6 @@ style: "body {background: #f8f8f8;}"
     grid-gap: 30px;
 }
 
-.ds_card {
-    display: block;
-    position: relative;
-    transition: background-color 0.2s, outline-color 0.2s;
-    z-index: 1;
-    outline: 0 !important;
-    background-color: #ffffff;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-    
-    padding: 21px 15px;
-    position: relative;
-    transition-property: background-color, box-shadow;
-}
-
-.ds_card > .ds_category-item {
-    min-height: 186px;
-    padding: 21px 15px;
-}
-
-.ds_card--filled > * {
-    margin: -21px -15px;
-    width: auto;
-}
-
-.ds_card .ds_category-item__link::before {
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 100%;
-    transition: top 0.2s;
-    width: 100%;
-}
-
-.ds_card .ds_category-item__link:hover::before {
-    top: calc(100% - 3px);
-}
-
-.ds_card .ds_category-item .ds_category-item__link::after {
-    left: 0;
-}
 
 
 </style>

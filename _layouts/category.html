@@ -114,18 +114,20 @@
                 {% for item in indexed %}
 
                     {% if depth == 0 %}
-                        <li class="ds_category-item  ds_category-item--card  ds_category-item--no-border">
-                            <h2 class="ds_category-item__title">
-                                <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
-                                    {{item.title}}
-                                </a>
-                            </h2>
+                        <li class="ds_card  ds_card--has-hover  ds_card--filled">
+                            <article class="ds_category-item">
+                                <h2 class="ds_category-item__title">
+                                    <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
+                                        {{item.title}}
+                                    </a>
+                                </h2>
 
-                            {% if item.summary %}
-                                <p class="ds_category-item__summary">
-                                    {{ item.summary }}
-                                </p>
-                            {% endif %}
+                                {% if item.summary %}
+                                    <p class="ds_category-item__summary">
+                                        {{ item.summary }}
+                                    </p>
+                                {% endif %}
+                            </article>
                         </li>
                     {% else %}
                         <li class="ds_category-item">
