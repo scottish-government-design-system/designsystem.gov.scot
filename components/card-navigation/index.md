@@ -1,26 +1,72 @@
 ---
 layout: component
 title: "Card navigation"
+<<<<<<< HEAD:components/card-navigation/index.md
 category: components
 parent: components
 thispage: component.card-navigation
 summary: "A navigational pattern providing links to deeper content on cards in a grid format"
 type: major
 phase: 1
+=======
+category: patterns
+parent: patterns
+thispage: pattern.card-navigation
+summary: "A navigational pattern providing titles and descriptions on cards which link to content pages and are displayed in a grid format."
+>>>>>>> Added content for accordion list base grid breadcrumbs card nav and category header:patterns/card-navigation/index.md
 ---
 
-Card navigation is a collection of [category item cards](/components/category-item-card/) presented in a grid. It is used as the top level of a set of navigation pages, with the cards giving greater visual prominence to the items in the navigation.
+## About the pattern
 
-Items in the card navigation should be presented in a sensible order, with more important items closer to the top. If you do not have data or other insights to determine this importance, sort the items alphabetically.
+The ‘card’ navigation pattern is a three column grid that separates uniform boxes. These boxes should contain links to the next level of navigation or to content.
 
-## Design rationale
+The card navigation pattern is:
+* the first level of navigation on the site
+* flexible – it can be used with any number of content items and the cards in the grid can be sorted in any order, although it’s sensible to base how you order the boxes on user needs
 
-Cards provide greater visual prominence for options on the top level of navigation.
+## Components related to this
 
-Presenting category items in a grid format makes the best use of available space in the page.
+* Category item – a component that makes up second level navigation pages, along with category header
+* Grid navigation – pattern used to structure category items on a page
+* List navigation – third level navigation page
 
-Providing the title and the summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group. Reusing category items in multiple navigation patterns helps to create a consistent user experience.
+## Why we use this component
 
-## Responsive variations
+The large size of the cards in the card navigation pattern allows enough space for content that previews the next level of navigation or content.
+It also creates a consistent navigational pattern for content.
 
-The navigation is presented in a vertical list on small devices, and changes a two-column or three-column display on larger devices as space allows.
+## Demo
+
+(HTML example)
+
+## Other versions of this component
+
+Some versions of this pattern may include a gradient effect along the bottom border of individual cards.
+
+## Mobile version
+
+On mobile the cards in the grid appear in a single column, stacked on top of each other. On tablet (portrait) the cards in the grid appear in two columns.  
+
+## Accessibility Features
+
+None.
+
+## User research that supports using this component
+
+None.
+
+## Google Analytics and the use of this component
+
+There are no reported performance issues with this component from mygov or gov.scot.
+
+## Feedback, help or support
+
+If you need any help or want to give any feedback you can:
+
+email:
+
+slack:
+
+## Links to live examples
+
+[Mygov.scot] (https://www.mygov.scot)

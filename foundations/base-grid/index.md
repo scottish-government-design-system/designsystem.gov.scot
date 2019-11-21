@@ -8,15 +8,19 @@ summary: The column grid used for page layouts
 phase: 1
 ---
 
-The base grid is made up of twelve columns.
+## About the pattern
 
-On smaller devices the columns are reduced:
+The ‘grid’ design separates a web page into individual content boxes.
 
-* Medium devices (e.g. a tablet in portrait orientation): six columns
-* Small devices (e.g. a large smartphone): two columns
-* Tiny devices (e.g. a small smartphone): one column
+## Components related to this
 
-The grid spans the entire width of the screen on smaller devices, and is restricted to fixed-width containers on larger devices.
+None
+
+## Why we use this pattern
+
+If a page contains lots of unrelated content, using a uniform grid layout can make it easier for users to browse a high number of content options than a less rigid design.  
+
+The grid design can also make it easier for different designers or developers to work on the same page, as they can work on different sections of the grid.
 
 ## Demo
 
@@ -26,6 +30,28 @@ This example is intended for illustration purposes only, and the HTML and CSS co
 
 {% include example-frame-base-grid.html name="interactive" caption="Half-scale interactive demo" resize=true %}
 
-## Design rationale
+## Other versions of this component
 
-Smaller devices have a fluid display to make full use of the available screen space. The fixed-width containers used on larger devices allow for more consistent layouts and make sense for considerations such as recommended line length for text content.
+None
+
+## Mobile Version
+
+The individual boxes of the grid span the width of the whole page on a mobile.
+
+## Accessibility Features
+
+N/A
+
+## User research that supports using this component
+
+TBC
+
+## Google Analytics and the use of this component
+
+There are no reported performance issues with this component from mygov or gov.scot.
+
+## Feedback
+
+If you need any help or want to give any feedback you can:
+email:
+slack:
