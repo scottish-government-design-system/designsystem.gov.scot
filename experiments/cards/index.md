@@ -17,7 +17,7 @@ style: "body {background: #f8f8f8;}"
 
 <div class="card-experiment">
 
-<div class="ds_card  ds_card--filled">
+<div class="ds_card  ds_card--no-padding">
     <article class="ds_category-item">
         <h2 class="ds_category-item__title">
             <a data-navigation="category-item-1" href="#" class="ds_category-item__link">Environment and countryside</a>
@@ -41,7 +41,7 @@ style: "body {background: #f8f8f8;}"
 </div>
 
 
-<div class="ds_card  ds_card--filled">
+<div class="ds_card  ds_card--no-padding">
     <nav role="navigation" aria-label="Sections" class="ds_side-navigation">
         <input type="checkbox" class="visually-hidden" id="show-side-navigation" aria-controls="side-navigation-root" />
         <label class="ds_side-navigation__expand  ds_link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="ds_side-navigation__expand-indicator"></span></label>

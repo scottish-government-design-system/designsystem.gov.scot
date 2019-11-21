@@ -6,9 +6,53 @@ index: 0
 
 <style>
 
+:root {
+    --color__red--base: #d32205;
+}
+
+.ds_error-summary {
+    border: 5px solid var(--color__red--base);
+    padding: 21px 30px;
+}
+
+.ds_error-summary > :last-child {
+    margin-bottom: 0;
+}
+
+.ds_error-summary__list {
+    font-weight: bold;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.ds_error-summary__list a {
+    color: var(--color__red--base);
+}
+
 </style>
 
+
 <h1>Form fields</h1>
+
+
+<div class="ds_error-summary" id="error-summary" aria-labelledby="error-summary-title" role="alert">
+    <h2 id="error-summary-title">There is a problem</h2>
+
+    <p>Some example content for whatever reason.</p>
+
+    <ul class="ds_error-summary__list">
+        <li>
+            <a href="#error-id-one">Did this resolve your issue?</a>
+        </li>
+        <li>
+            <a href="#error-id-two">What topics are you interested in?</a>
+        </li>
+        <li>
+            <a href="#error-id-three">Please provide more detail</a>
+        </li>
+    </ul>
+</div>
+
 
 <h2>Select</h2>
 
@@ -373,7 +417,7 @@ index: 0
 <h2>Error states</h2>
 
 <form>
-    <div class="ds_question   ds_question--error" id="question-id">
+    <div class="ds_question  ds_question--error" id="error-id-one">
         <fieldset>
             <legend>Did this resolve your issue?</legend>
             <p class="ds_hint-text">Hint text</p>
@@ -400,7 +444,7 @@ index: 0
 
 
 <form>
-    <div class="ds_question   ds_question--error" id="question-id">
+    <div class="ds_question  ds_question--error" id="error-id-two">
         <fieldset>
             <legend>What topics are you interested in?</legend>
             <p class="ds_hint-text">Select an option</p>
@@ -421,9 +465,32 @@ index: 0
     </div>
 </form>
 
-<div class="ds_question  ds_question--error">
+<div class="ds_question  ds_question--error" id="error-id-three">
     <label class="ds_label" for="textarea">Please provide more detail</label><br />
     <p class="ds_hint-text">Do not include personal or financial information, like your National Insurance number or credit card details.</p>
-    <p class="ds_question__message">Enter more detail</p>
+    <p class="ds_question__message">This field is required</p>
     <textarea rows="5" class="ds_input" id="textarea4"></textarea>
 </div>
+
+
+
+
+<script>
+
+const formFieldsModule = {
+    initErrorSummary: function () {
+        const errorSummary = document.querySelector('#error-summary');
+
+        errorSummary.addEventListener('click', function (event) {
+            if (event.target.matches('a')) {
+                const errorQuestion = document.querySelector(event.target.getAttribute('href'));
+                const firstInput = errorQuestion.querySelector('input, textarea, select');
+
+                window.setTimeout(function () {firstInput.focus()},0);
+            }
+        });
+    }
+};
+formFieldsModule.initErrorSummary();
+
+    </script>
