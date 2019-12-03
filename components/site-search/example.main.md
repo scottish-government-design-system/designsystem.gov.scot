@@ -5,7 +5,7 @@ type: example
 index: 0
 ---
 
-<div class="ds_site-search">
+<div class="ds_site-search  ds_site-search--collapsible">
     <form role="search" class="ds_site-search__form">
         <label class="ds_site-search__label visually-hidden" for="site-search">Search</label>
 

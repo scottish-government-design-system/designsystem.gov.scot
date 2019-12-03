@@ -5,4 +5,6 @@ category: components
 parent: components
 thispage: component.pagination
 summary: ""
+type: minor
+phase: 2
 ---

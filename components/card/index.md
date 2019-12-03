@@ -5,6 +5,8 @@ category: components
 parent: components
 thispage: component.card
 summary: "Components or other content can be placed on cards."
+type: minor
+phase: 1
 ---
 
 ## Design rationale

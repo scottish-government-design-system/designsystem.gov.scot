@@ -5,4 +5,6 @@ category: components
 parent: components
 thispage: component.tag
 summary: "Indicates the status a site or service."
+type: minor
+phase: 9999
 ---

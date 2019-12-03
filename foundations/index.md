@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: design-system-category-landing
 thispage: foundations
 navitems: foundations
 parent: library

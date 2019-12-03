@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="article {{ page.type }} layout--default">
+
+<div class="ds_page">
+
+    <div class="ds_page__top">
+        {% include notifications.html %}
+        {% include site-header.html %}
+    </div>
+
+    <div class="ds_page__middle">
+        <div id="body-wrapper" class="body-wrapper">
+
+            {% include header.html %}
+
+            <div class="ds_wrapper">
+
+                <main id="main-content" class="ds_layout  ds_layout--pl-component">
+
+                    <div class="ds_layout__header">
+                        <header class="heading">
+                            <div class="ds_page-header">
+                                {% if page.category == 'foundations' %}
+                                    <span class="ds_page-header__label  ds_content-label">Foundation</span>
+                                {% elsif page.category == 'components' %}
+                                    <span class="ds_page-header__label  ds_content-label">Component</span>
+                                {% elsif page.category == 'patterns' %}
+                                    <span class="ds_page-header__label  ds_content-label">Pattern</span>
+                                {% endif %}
+
+                                <h1 class="ds_page-header__title">{{ page.title }}</h1>
+                            </div>
+                        </header>
+                    </div>
+
+                    <div class="ds_layout__sidebar">
+                        {% assign navitems = page.navitems %}
+                        {% include component-side-navigation.html %}
+                    </div>
+
+                    <div class="ds_layout__content">
+
+                        {% if page.summary %}
+                            <p class="ds_leader">
+                                {{ page.summary }}
+                            </p>
+                        {% endif %}
+
+                        {{content}}
+
+                    </div>
+                </main>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ds_page__bottom">
+        {% include footer.html %}
+    </div>
+
+</div>
+
+</body>
+
+</html>

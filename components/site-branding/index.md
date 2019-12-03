@@ -5,6 +5,8 @@ category: components
 parent: components
 thispage: component.site-branding
 summary: "Logo and optional subtitle of a website."
+type: minor
+phase: 1
 ---
 
 ## Alternative displays

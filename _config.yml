@@ -19,6 +19,7 @@ collections:
     output: true
     permalink: /:name/
     parent: home
+phase: 9999
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

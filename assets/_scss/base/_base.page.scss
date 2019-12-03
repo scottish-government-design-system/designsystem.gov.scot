@@ -1,37 +1,60 @@
-body.layout--tiles {
-    background-color: $color__grey--lighter;
+// body.layout--tiles {
+//     background-color: $color__grey--lighter;
+// }
+
+// .header-wrapper {
+//     background-color: $color__white;
+//     border-bottom: 1px solid $color__grey--light;
+// }
+
+/*------------------------------------*\
+    PAGE SETUP
+    anchor footer to bottom of the viewport on short pages
+    dev note: this might be pattern library material
+\*------------------------------------*/
+
+html {
+    min-height: 100%;
+    position: relative;
 }
 
-.header-wrapper {
-    background-color: $color__white;
-    border-bottom: 1px solid $color__grey--light;
+.#{$pl-prefix}page {
+    min-height: calc(100vh - 350px);
+    margin-bottom: 350px;
 }
 
-/* hacky experiment: controls backround colors of the header, footer, and tiles' areas better when grid is supported */
+.#{$pl-prefix}site-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 @supports (display: grid) {
-    body,
-    html {
-        height: 100%;
-        margin-bottom: 0 !important;
-    }
-
-    body {
+    .#{$pl-prefix}page {
         display: grid;
-        grid-template-rows: auto 1fr auto; // notifications, header, body, footer
-        min-height: 100%;
+        margin-bottom: 0;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto; // top, middle, bottom (head, content, footer)
     }
 
-    .site-footer {
-        position: static !important;
-        align-self: end;
+    .#{$pl-prefix}site-footer {
+        position: static;
     }
+}
 
-    .body-wrapper {
-        background-color: #ffffff;
-        padding-bottom: 70px;
-    }
+/*------------------------------------*\
+    CATEGORY PAGE LAYOUT
+\*------------------------------------*/
 
-    body.layout--tiles .body-wrapper {
-        background-color: $color__grey--lighter;
-    }
+.#{$pl-prefix}page__middle {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    position: relative;
+}
+
+.category-lower {
+    padding-bottom: 70px;
+    background: $color__grey--lighter;
+    border-top: 1px solid $color__grey--light;
 }

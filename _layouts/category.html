@@ -48,114 +48,124 @@
 
 <body class="layout--tiles  tiles--{{depth}}">
 
-<div class="header-wrapper">
-    {% include notifications.html %}
-    {% include site-header.html %}
-    {% include header.html %}
+<div class="ds_page">
 
-    <div class="ds_wrapper">
-
-        <div class="ds_category-header">
-            <header class="ds_category-header__header">
-                <h1 class="ds_category-header__title">{{ page.title }}</h1>
-
-                <div class="ds_category-header__summary">
-                    {% if page.markdownsummary %}
-                        {{ page.markdownsummary | markdownify }}
-                    {% else %}
-                        <p>{{ page.summary }}</p>
-                    {% endif %}
-                </div>
-            </header>
-            {% if page.hero %}
-                <div class="ds_category-header__media-container">
-                    <img class="ds_category-header__media"
-                    src="/assets/images/hero/{{ page.hero }}" alt="">
-                </div>
-            {% endif %}
-        </div>
-
-        {% if page.underreview %}
-            {% include under-review.html %}
-        {% endif %}
-
-        {% if content %}
-            <div class="grid"><!--
-                --><div class="grid__item  medium--eight-twelfths">
-                    {{ content }}
-                </div><!--
-            --></div>
-        {% endif %}
+    <div class="ds_page__top">
+        {% include notifications.html %}
+        {% include site-header.html %}
     </div>
-</div>
 
-<div id="body-wrapper" class="body-wrapper">
-    <div class="ds_wrapper">
-        <div class="ds_category-list-container">
-            {% assign depthAsString = depth | downcase %}
-            <ol class="main  ds_category-list
-                {% if depthAsString == '0' %}
-                    ds_category-list--grid  ds_category-list--narrow
-                {% else if depthAsString == '1' %}
-                    ds_category-list--grid
-                {% else if depthAsString == '2' %}
-                    ds_category-list
-                {% else if depthAsString == '3' %}
+    <div class="ds_page__middle">
+        <div class="category-upper">
 
-                {% endif %}
-            ">
+            {% include header.html %}
 
-                {% if page.sortfield %}
-                    {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
-                {% else %}
-                    {% assign indexed = site.pages | where:"category", page.navitems | sort: 'title', "first" %}
-                {% endif %}
+            <div class="ds_wrapper">
+                <div class="ds_category-header">
+                    <header class="ds_category-header__header">
+                        <h1 class="ds_category-header__title">{{ page.title }}</h1>
 
-                {% for item in indexed %}
-
-                    {% if depth == 0 %}
-                        <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
-                            <article class="ds_category-item">
-                                <h2 class="ds_category-item__title">
-                                    <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
-                                        {{item.title}}
-                                    </a>
-                                </h2>
-
-                                {% if item.summary %}
-                                    <p class="ds_category-item__summary">
-                                        {{ item.summary }}
-                                    </p>
-                                {% endif %}
-                            </article>
-                        </li>
-                    {% else %}
-                        <li class="ds_category-item">
-                            <h2 class="ds_category-item__title">
-                                <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
-                                    {{item.title}}
-                                </a>
-                            </h2>
-
-                            {% if item.summary %}
-                                <p class="ds_category-item__summary">
-                                    {{ item.summary }}
-                                </p>
+                        <div class="ds_category-header__summary">
+                            {% if page.markdownsummary %}
+                                {{ page.markdownsummary | markdownify }}
+                            {% else %}
+                                <p>{{ page.summary }}</p>
                             {% endif %}
-                        </li>
-
+                        </div>
+                    </header>
+                    {% if page.hero %}
+                        <div class="ds_category-header__media-container">
+                            <img class="ds_category-header__media"
+                            src="/assets/images/hero/{{ page.hero }}" alt="">
+                        </div>
                     {% endif %}
+                </div>
 
-                {% endfor %}
+                {% if page.underreview %}
+                    {% include under-review.html %}
+                {% endif %}
 
-            </li>
+                {% if content %}
+                    <div class="grid"><!--
+                        --><div class="grid__item  medium--eight-twelfths">
+                            {{ content }}
+                        </div><!--
+                    --></div>
+                {% endif %}
+            </div>
         </div>
 
+        <div class="category-lower">
+            <div class="ds_wrapper">
+                <div class="ds_category-list-container">
+                    {% assign depthAsString = depth | downcase %}
+                    <ol class="main  ds_category-list
+                        {% if depthAsString == '0' %}
+                            ds_category-list--grid  ds_category-list--narrow
+                        {% else if depthAsString == '1' %}
+                            ds_category-list--grid
+                        {% else if depthAsString == '2' %}
+                            ds_category-list
+                        {% else if depthAsString == '3' %}
+
+                        {% endif %}
+                    ">
+
+                        {% if page.sortfield %}
+                            {% assign indexed = site.pages | where:"category", page.navitems | where_exp: "item", "item.phase <= site.phase" | sort: page.sortfield, "first" %}
+                        {% else %}
+                            {% assign indexed = site.pages | where:"category", page.navitems | where_exp: "item", "item.phase <= site.phase" | sort: 'title', "first" %}
+                        {% endif %}
+
+                        {% for item in indexed %}
+
+                            {% if depth == 0 %}
+                                <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
+                                    <article class="ds_category-item">
+                                        <h2 class="ds_category-item__title">
+                                            <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
+                                                {{item.title}}
+                                            </a>
+                                        </h2>
+
+                                        {% if item.summary %}
+                                            <p class="ds_category-item__summary">
+                                                {{ item.summary }}
+                                            </p>
+                                        {% endif %}
+                                    </article>
+                                </li>
+                            {% else %}
+                                <li class="ds_category-item">
+                                    <h2 class="ds_category-item__title">
+                                        <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
+                                            {{item.title}}
+                                        </a>
+                                    </h2>
+
+                                    {% if item.summary %}
+                                        <p class="ds_category-item__summary">
+                                            {{ item.summary }}
+                                        </p>
+                                    {% endif %}
+                                </li>
+
+                            {% endif %}
+
+                        {% endfor %}
+
+                    </li>
+                </div>
+
+            </div>
+        </div>
     </div>
+
+    <div class="ds_page__bottom">
+        {% include footer.html %}
+    </div>
+
 </div>
-
-
-{% include footer.html %}
 
 </body>
 

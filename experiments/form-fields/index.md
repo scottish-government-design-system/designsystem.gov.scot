@@ -13,6 +13,9 @@ index: 0
 .ds_error-summary {
     border: 5px solid var(--color__red--base);
     padding: 21px 30px;
+
+
+    margin: 35px 0;
 }
 
 .ds_error-summary > :last-child {
@@ -194,6 +197,21 @@ index: 0
         <input class="ds_input  ds_input--fixed-4" type="text" id="textinputCurrency" />
     </div>
 </div>
+
+<h2>Text inputs with character limits</h2>
+
+
+<div class="ds_question  js_character-count">
+<label class="ds_label" for="textinput1-character-limit">Text input</label><br />
+<input maxlength="20" class="ds_input  ds_input--fixed-10" type="text" id="textinput1-character-limit" />
+</div>
+
+<div class="ds_question  js_character-count" data-threshold="80">
+<label class="ds_label" for="textarea1-character-limit">Textarea with 80% threshold</label><br />
+<p class="ds_hint-text">The character count will show after 75% of the maximum has been used 320/400)</p>
+<textarea maxlength="400" class="ds_input  ds_input--fluid-half" rows="5" id="textarea1-character-limit">In that pleasant district of merry England which is watered by the river Don, there extended in ancient times a large forest, covering the greater part of the beautiful hills and valleys which lie between Sheffield and the pleasant town of Doncaster. The remains of this extensive wood are still to be seen at the noble</textarea>
+</div>
+
 
 <h2>Inline radio buttons</h2>
 
@@ -467,14 +485,20 @@ index: 0
 
 <div class="ds_question  ds_question--error" id="error-id-three">
     <label class="ds_label" for="textarea">Please provide more detail</label><br />
-    <p class="ds_hint-text">Do not include personal or financial information, like your National Insurance number or credit card details.</p>
+    <p class="ds_hint-text" id="hint-text-more-detail">Do not include personal or financial information, like your National Insurance number or credit card details.</p>
     <p class="ds_question__message">This field is required</p>
-    <textarea rows="5" class="ds_input" id="textarea4"></textarea>
+    <textarea rows="5" class="ds_input  ds_input--error" id="textarea4" aria-describedby="hint-text-more-detail"></textarea>
 </div>
 
+<hr />
 
+<h2>Notes</h2>
 
+<ul>
+    <li>Fields should have associations with hint text via <code>aria-describedby</code> where appropriate.</li>
+</ul>
 
+ 
 <script>
 
 const formFieldsModule = {

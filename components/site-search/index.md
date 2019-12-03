@@ -5,4 +5,6 @@ category: components
 parent: components
 thispage: component.site-search
 summary: "A single-field search form used for site search"
+type: minor
+phase: 1
 ---

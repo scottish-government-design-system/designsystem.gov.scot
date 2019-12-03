@@ -1,10 +1,10 @@
 
-<nav role="navigation" aria-label="Sections" class="ds_side-navigation">
+<nav role="navigation" aria-label="Sections" class="ds_side-navigation" data-module="ds-side-navigation">
     {% unless navitems %}
         {% assign navitems = page.navitems %}
     {% endunless %}
 
-    {% assign indexed = site.pages | where:"category", navitems | sort: 'index', 'first' | sort: 'title', 'first' %}
+    {% assign indexed = site.pages | where:"category", navitems | where_exp: "item", "item.phase <= site.phase" | sort: 'index', 'first' | sort: 'title', 'first' %}
 
     <input type="checkbox" class="visually-hidden" id="show-side-navigation" />
     <label class="ds_side-navigation__expand  ds_link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="ds_side-navigation__expand-indicator"></span></label>

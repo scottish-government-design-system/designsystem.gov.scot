@@ -5,6 +5,7 @@ category: foundations
 parent: foundations
 thispage: foundation.base-grid
 summary: The column grid used for page layouts
+phase: 1
 ---
 
 The base grid is made up of twelve columns.

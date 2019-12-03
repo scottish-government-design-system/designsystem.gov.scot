@@ -5,97 +5,109 @@
 
 <body class="article {{ page.type }} layout--default">
 
-{% include notifications.html %}
-{% include site-header.html %}
+<div class="ds_page">
 
-<div id="body-wrapper" class="body-wrapper">
+    <div class="ds_page__top">
+        {% include notifications.html %}
+        {% include site-header.html %}
+    </div>
 
-    {% include header.html %}
+    <div class="ds_page__middle">
 
-    <style>
-        pre {
-            white-space: pre-wrap;
-        }
-    </style>
+        <div id="body-wrapper" class="body-wrapper">
 
-    <div class="ds_wrapper">
+            {% include header.html %}
 
-        <main id="main-content" class="ds_layout  ds_layout--pl-component">
+            <style>
+                pre {
+                    white-space: pre-wrap;
+                }
+            </style>
 
-            <div class="ds_layout__header">
-                <header class="heading">
-                    <div class="ds_page-header">
-                        {% if page.category == 'foundations' %}
-                            <span class="ds_page-header__label  ds_content-label">Foundation</span>
-                        {% elsif page.category == 'components' %}
-                            <span class="ds_page-header__label  ds_content-label">Component</span>
-                        {% elsif page.category == 'patterns' %}
-                            <span class="ds_page-header__label  ds_content-label">Pattern</span>
+            <div class="ds_wrapper">
+
+                <main id="main-content" class="ds_layout  ds_layout--pl-component">
+
+                    <div class="ds_layout__header">
+                        <header class="heading">
+                            <div class="ds_page-header">
+                                {% if page.category == 'foundations' %}
+                                    <span class="ds_page-header__label  ds_content-label">Foundation</span>
+                                {% elsif page.category == 'components' %}
+                                    <span class="ds_page-header__label  ds_content-label">Component</span>
+                                {% elsif page.category == 'patterns' %}
+                                    <span class="ds_page-header__label  ds_content-label">Pattern</span>
+                                {% endif %}
+
+                                <h1 class="ds_page-header__title">{{ page.title }}</h1>
+                            </div>
+                        </header>
+                    </div>
+
+                    <div class="ds_layout__sidebar">
+                        {% assign navitems = page.category %}
+                        {% include component-side-navigation.html %}
+                    </div>
+
+                    <div class="ds_layout__content">
+
+                        {% if page.summary %}
+                            <p class="ds_leader">
+                                {{ page.summary }}
+                            </p>
                         {% endif %}
 
-                        <h1 class="ds_page-header__title">{{ page.title }}</h1>
-                    </div>
-                </header>
-            </div>
-
-            <div class="ds_layout__sidebar">
-                {% assign navitems = page.category %}
-                {% include component-side-navigation.html %}
-            </div>
-
-            <div class="ds_layout__content">
-
-                {% if page.summary %}
-                    <p class="ds_leader">
-                        {{ page.summary }}
-                    </p>
-                {% endif %}
-
-                {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
-                {% for item in indexed %}
-                    {% if item.type == 'example' and item.name == 'example.main.md' %}
-                        {% include example-frame.html name="main" %}
-                    {% endif %}
-                {% endfor %}
-
-
-
-                {% if page.examples %}
-                    <style>
-                    .live-examples {
-                        font-size: 0.8em;
-                        border-left: 4px solid #0065bd;
-                        margin: 35px 0;
-                        padding: 3px 35px 4px 10px;
-                    }
-
-                    .live-examples__item {
-                        margin-bottom: 0;
-                    }
-                    </style>
-                    <aside class="live-examples">
-                        {% assign examplessize = page.examples | size %}
-
-                        <h3>Live example{% unless examplessize == 1%}s{% endunless %}</h3>
-                        {% for item in page.examples %}
-                            <p class="live-examples__item">
-                                {{item.site}}: <a href="{{item.url}}">{{item.name}}</a>
-                            </p>
+                        {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
+                        {% for item in indexed %}
+                            {% if item.type == 'example' and item.name == 'example.main.md' %}
+                                {% include example-frame.html name="main" %}
+                            {% endif %}
                         {% endfor %}
-                    </aside>
-                {% endif %}
 
-                {{content}}
 
-                {% include component-sequential-nav.html %}
 
+                        {% if page.examples %}
+                            <style>
+                            .live-examples {
+                                font-size: 0.8em;
+                                border-left: 4px solid #0065bd;
+                                margin: 35px 0;
+                                padding: 3px 35px 4px 10px;
+                            }
+
+                            .live-examples__item {
+                                margin-bottom: 0;
+                            }
+                            </style>
+                            <aside class="live-examples">
+                                {% assign examplessize = page.examples | size %}
+
+                                <h3>Live example{% unless examplessize == 1%}s{% endunless %}</h3>
+                                {% for item in page.examples %}
+                                    <p class="live-examples__item">
+                                        {{item.site}}: <a href="{{item.url}}">{{item.name}}</a>
+                                    </p>
+                                {% endfor %}
+                            </aside>
+                        {% endif %}
+
+                        {{content}}
+
+                        {% include component-sequential-nav.html %}
+
+                    </div>
+                </main>
             </div>
-        </main>
+
+        </div>
+
+    </div>
+
+    <div class="ds_page__bottom">
+        {% include footer.html %}
     </div>
 
 </div>
-
-{% include footer.html %}
 
 <script>
 const exampleTabsets = document.querySelectorAll('.example-tabs')

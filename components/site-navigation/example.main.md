@@ -5,7 +5,7 @@ type: example
 index: 0
 ---
 
-<nav role="navigation">
+<nav role="navigation" data-module="ds-mobile-navigation-menu">
     <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
         <span class="ds_site-header__control-text">Menu</span>
 

@@ -42,7 +42,7 @@ style: "body {background: #f8f8f8;}"
 
 
 <div class="ds_card  ds_card--no-padding">
-    <nav role="navigation" aria-label="Sections" class="ds_side-navigation">
+    <nav role="navigation" aria-label="Sections" class="ds_side-navigation" data-module="ds-side-navigation">
         <input type="checkbox" class="visually-hidden" id="show-side-navigation" aria-controls="side-navigation-root" />
         <label class="ds_side-navigation__expand  ds_link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="ds_side-navigation__expand-indicator"></span></label>
 
