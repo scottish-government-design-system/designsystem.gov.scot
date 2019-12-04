@@ -86,11 +86,7 @@
                 {% endif %}
 
                 {% if content %}
-                    <div class="grid"><!--
-                        --><div class="grid__item  medium--eight-twelfths">
-                            {{ content }}
-                        </div><!--
-                    --></div>
+                    {{ content }}
                 {% endif %}
             </div>
         </div>
@@ -112,9 +108,9 @@
                     ">
 
                         {% if page.sortfield %}
-                            {% assign indexed = site.pages | where:"category", page.navitems | where_exp: "item", "item.phase <= site.phase" | sort: page.sortfield, "first" %}
+                            {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
                         {% else %}
-                            {% assign indexed = site.pages | where:"category", page.navitems | where_exp: "item", "item.phase <= site.phase" | sort: 'title', "first" %}
+                            {% assign indexed = site.pages | where:"category", page.navitems | sort: 'title', "first" %}
                         {% endif %}
 
                         {% for item in indexed %}

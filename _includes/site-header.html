@@ -54,34 +54,34 @@
                                 {% endif %}
                             </li>
                             <li class="ds_mobile-navigation__item">
-                                {% if page.url contains '/foundations/' %}
+                                {% if page.url == '/foundations/' %}
                                     <span class="ds_mobile-navigation__link  ds_current">
                                         Styles
                                     </span>
                                 {% else %}
-                                    <a href="/foundations/" data-device="mobile" data-header="header-link-2" class="ds_mobile-navigation__link">
+                                    <a href="/foundations/" data-device="mobile" data-header="header-link-2" class="ds_mobile-navigation__link  {% if page.url contains '/foundations/' %}ds_current{% endif %}">
                                         Styles
                                     </a>
                                 {% endif %}
                             </li>
                             <li class="ds_mobile-navigation__item">
-                                {% if page.url contains '/components/' %}
+                                {% if page.url == '/components/' %}
                                     <span class="ds_mobile-navigation__link  ds_current">
                                         Components
                                     </span>
                                 {% else %}
-                                    <a href="/components/" data-device="mobile" data-header="header-link-3" class="ds_mobile-navigation__link">
+                                    <a href="/components/" data-device="mobile" data-header="header-link-3" class="ds_mobile-navigation__link  {% if page.url contains '/components/' %}ds_current{% endif %}">
                                         Components
                                     </a>
                                 {% endif %}
                             </li>
                             <li class="ds_mobile-navigation__item">
-                                {% if page.url contains '/patterns/' %}
+                                {% if page.url == '/patterns/' %}
                                     <span class="ds_mobile-navigation__link  ds_current">
                                         Patterns
                                     </span>
                                 {% else %}
-                                    <a href="/patterns/" data-device="mobile" data-header="header-link-4" class="ds_mobile-navigation__link">
+                                    <a href="/patterns/" data-device="mobile" data-header="header-link-4" class="ds_mobile-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
                                         Patterns
                                     </a>
                                 {% endif %}
@@ -114,34 +114,34 @@
                         {% endif %}
                     </li>
                     <li class="ds_site-navigation__item">
-                        {% if page.url contains '/foundations/' %}
+                        {% if page.url == '/foundations/' %}
                             <span class="ds_site-navigation__link  ds_current">
                                 Styles
                             </span>
                         {% else %}
-                            <a href="/foundations/" data-device="desktop" data-header="header-link-2" class="ds_site-navigation__link">
-                                Styles
+                            <a href="/foundations/" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link  {% if page.url contains '/foundations/' %}ds_current{% endif %}">
+                                Foundations
                             </a>
                         {% endif %}
                     </li>
                     <li class="ds_site-navigation__item">
-                        {% if page.url contains '/components/' %}
+                        {% if page.url == '/components/' %}
                             <span class="ds_site-navigation__link  ds_current">
                                 Components
                             </span>
                         {% else %}
-                            <a href="/components/" data-device="desktop" data-header="header-link-3" class="ds_site-navigation__link">
+                            <a href="/components/" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link  {% if page.url contains '/components/' %}ds_current{% endif %}">
                                 Components
                             </a>
                         {% endif %}
                     </li>
                     <li class="ds_site-navigation__item">
-                        {% if page.url contains '/patterns/' %}
+                        {% if page.url == '/patterns/' %}
                             <span class="ds_site-navigation__link  ds_current">
                                 Patterns
                             </span>
                         {% else %}
-                            <a href="/patterns/" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link">
+                            <a href="/patterns/" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
                                 Patterns
                             </a>
                         {% endif %}
