@@ -1,13 +1,11 @@
 ---
 layout: component
 title:  "Accordion"
-category: components
-parent: components
+category: patterns
+parent: patterns
 label: pattern
-thispage: component.accordion
+thispage: pattern.accordion
 summary: "Expandable blocks of content."
-type: major
-phase: 2
 
 ---
 
@@ -56,11 +54,10 @@ To understand user behaviour when using this component, the open/close arrow, or
 
 ## Feedback, help or support
 
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)  
-
-
+If you need any help or want to give any feedback you can:
+email:
+slack:
 
 ## Links to live examples
 
-[Mygov.scot - Help if you are made redundant](https://www.mygov.scot/legal-advice/)
+[Mygov.scot - Help if you are made redun](https://www.mygov.scot/legal-advice/)

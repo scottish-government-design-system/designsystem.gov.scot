@@ -54,11 +54,8 @@ There are no reported performance issues with this component from mygov or gov.s
 
 ## Feedback, help or support
 
-If you need any help or want to give any feedback you can:
-
-email:
-
-slack:
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)  
 
 ## Links to live examples
 

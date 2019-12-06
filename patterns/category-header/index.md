@@ -1,12 +1,10 @@
 ---
 layout: component
 title:  "Category header"
-category: components
-parent: components
-thispage: component.category-header
+category: patterns
+parent: patterns
+thispage: pattern.category-header
 summary: "The main heading for a category page."
-type: major
-phase: 1
 ---
 
 ## About the component
@@ -59,8 +57,11 @@ There are no reported performance issues with this component from mygov or gov.s
 
 ## Feedback, help or support
 
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)  
+If you need any help or want to give any feedback you can:
+
+email:
+
+slack:
 
 ## Links to live examples
 

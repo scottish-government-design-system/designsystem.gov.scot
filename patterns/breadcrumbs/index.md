@@ -1,13 +1,11 @@
 ---
 layout: component
 title:  "Breadcrumbs"
-category: components
+category: patterns
 label: pattern
-parent: components
-thispage: component.breadcrumbs
+parent: patterns
+thispage: pattern.breadcrumbs
 summary: "Breadcrumbs help users to understand where they are within a website's structure and to move between levels."
-type: major
-phase: 1
 ---
 
 ## About the component
@@ -57,9 +55,9 @@ There is evidence from mygov.scot that users interact with the breadcrumb more t
 
 ## Feedback, help or support
 
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)  
-
+If you need any help or want to give any feedback you can:
+email: tbc
+slack: tbc
 
 ## Links to live examples
 [mygov.scot - Find a nursery or childcare place](https://www.mygov.scot/nursery-place/)
