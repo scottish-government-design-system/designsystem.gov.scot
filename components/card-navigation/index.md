@@ -9,7 +9,7 @@ type: major
 phase: 1
 ---
 
-## About the pattern
+## About this component
 
 The ‘card’ navigation pattern is a three column grid that separates uniform boxes. These boxes should contain links to the next level of navigation or to content.
 

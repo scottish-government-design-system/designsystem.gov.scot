@@ -9,7 +9,7 @@ type: major
 phase: 2
 ---
 
-## About the pattern
+## About this component
 The list navigation pattern orders content links into a list.
 It is used as the third level of navigation, after <card navigation>(#) and <category items>(#).
 Items in the list can be limelighted. Items that are limelighted always appear at the top of the list.

@@ -18,7 +18,7 @@ examples:
 ---
 
 
-## About the component
+## About this component
 Sequential navigation shows links to the next and previous page in a sequence.  
 
 ## Components related to this

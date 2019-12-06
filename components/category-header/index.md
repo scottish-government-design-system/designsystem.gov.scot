@@ -9,7 +9,7 @@ type: major
 phase: 1
 ---
 
-## About the component
+## About this component
 The category header is a component used on second level navigational pages. It acts as the header for a page of category items, one of the other components that makes up a second level navigational page.
 
 The category header has:

@@ -8,7 +8,7 @@ summary: The column grid used for page layouts
 phase: 1
 ---
 
-## About the pattern
+## About this style element
 
 The ‘grid’ design separates a web page into individual content boxes.
 

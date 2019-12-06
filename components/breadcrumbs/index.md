@@ -10,7 +10,7 @@ type: major
 phase: 1
 ---
 
-## About the component
+## About this component
 
 The breadcrumb is a sequence of links that shows where a currently viewed page sits in a website’s structure. The breadcrumb goes back to the home page via every step back from the current page.
 

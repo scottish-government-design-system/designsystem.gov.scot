@@ -9,7 +9,7 @@ type: major
 phase: 1
 ---
 
-## About the component
+## About this component
 The page header appears at the top of every page and is the main heading. It tells users what the page is about.   
 
 The page header may include:

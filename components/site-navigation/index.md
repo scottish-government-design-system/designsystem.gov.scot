@@ -12,7 +12,7 @@ phase: 1
 #    name: "Advice and guidance publication"
 ---
 
-## About the component
+## About this component
 Top level navigation is a row of core links that appear on every page of the site.
 
 ## Components related to this

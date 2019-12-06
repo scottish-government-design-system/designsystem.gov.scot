@@ -9,7 +9,7 @@ type: minor
 phase: 1
 ---
 
-## About the component
+## About this component
 Category items are coloured boxes on a page, styled without any borders but a different colour to the page background. Category items line up in rows of 3. Each category item box has a title and content. The title and content previews the content that the box links to.
 If there are a lot of category items on a page, single category items can be ‘limelighted’ to make them stand out from others on the page.
 

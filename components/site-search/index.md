@@ -9,7 +9,7 @@ type: minor
 phase: 1
 ---
 
-## About the component
+## About this component
 Site search allows users to type in text about items they want to find on the site.  
 
 To search, users can either enter text in the search box and press return or trigger the magnifying glass icon.  

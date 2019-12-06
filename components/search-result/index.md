@@ -13,7 +13,7 @@ phase: 1
 ---
 
 
-## About the component
+## About this component
 This page includes all the results found after a user has carried out a search of the site.
 
 ## Components related to this

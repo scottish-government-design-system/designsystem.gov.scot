@@ -9,7 +9,7 @@ type: major
 phase: 1
 ---
 
-## About the component
+## About this component
 The site header tells users what site they are visiting and introduces site branding. It appears at the top of every page and can include an optional search field and primary navigation.
 
 ## Components related to this
