@@ -1,19 +1,12 @@
 ---
 layout: component
 title: "Card navigation"
-<<<<<<< HEAD:components/card-navigation/index.md
 category: components
 parent: components
 thispage: component.card-navigation
-summary: "A navigational pattern providing links to deeper content on cards in a grid format"
+summary: "A navigational pattern providing titles and descriptions on cards which link to content pages and are displayed in a grid format."
 type: major
 phase: 1
-=======
-category: patterns
-parent: patterns
-thispage: pattern.card-navigation
-summary: "A navigational pattern providing titles and descriptions on cards which link to content pages and are displayed in a grid format."
->>>>>>> Added content for accordion list base grid breadcrumbs card nav and category header:patterns/card-navigation/index.md
 ---
 
 ## About the pattern

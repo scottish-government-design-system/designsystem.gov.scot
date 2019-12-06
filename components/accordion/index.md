@@ -4,15 +4,10 @@ title:  "Accordion"
 category: components
 parent: components
 label: pattern
-<<<<<<< HEAD:components/accordion/index.md
 thispage: component.accordion
-summary: "Expandable blocks for accordion-like content."
+summary: "Expandable blocks of content."
 type: major
 phase: 2
-=======
-thispage: pattern.accordion
-summary: "Expandable blocks of content."
->>>>>>> Added content for accordion list base grid breadcrumbs card nav and category header:patterns/accordion/index.md
 
 ---
 
