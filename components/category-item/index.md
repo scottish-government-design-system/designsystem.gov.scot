@@ -9,24 +9,37 @@ type: minor
 phase: 1
 ---
 
-Category item is a simple component that is used to populate collections of items in a navigation pattern, such as [grid navigation](/patterns/grid-navigation) or [list navigation](/patterns/list-navigation). It is never used on its own.
+## About the component
+Category items are coloured boxes on a page, styled without any borders but a different colour to the page background. Category items line up in rows of 3. Each category item box has a title and content. The title and content previews the content that the box links to.
+If there are a lot of category items on a page, single category items can be ‘limelighted’ to make them stand out from others on the page.
 
-## Design rationale
+## Components related to this
+Card navigation.
+Category header – a page of category items has a category header at the top of the page.  
 
-Providing the title and a summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group.
+## Why we use this component
+Category items allow users to preview and choose content.  
 
-Reuse of the category item component across a number of wider patterns helps to create consistency.
+## Other versions of this component
+None.  
 
-## Accessibility
+## Mobile version
+None.  
 
-The link element should have a title attribute containing the title text of the category item.
+## Accessibility Features
+None.  
 
-## Alternative displays
+## User research that supports using this component
+None.  
 
-### Highlight
-Category items can be highlighted.
-{% include example-frame.html name="highlight" caption="Example of a highlighted category item" %}
+## Google Analytics and the use of this component
+There are no reported performance issues with this component from mygov or gov.scot.  
 
-### Card
-Category items can be placed on [cards](/components/card).
-{% include example-frame.html name="card" caption="Example of a category item on a card" %}
+## Feedback, help or support
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)  
+
+## Links to live examples  
+
+[Mygov.scot](https://www.mygov.scot/births-deaths-marriages/)  
+[Scotland: A Trading Nation](https://tradingnation.mygov.scot/sectors/)

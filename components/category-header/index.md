@@ -28,8 +28,6 @@ List navigation – third level navigation page
 ## Why we use this component
 Helps explain what a page is about.
 
-## Demo
-(HTML example – variants to be included in this)
 
 ## Other versions of this component
 

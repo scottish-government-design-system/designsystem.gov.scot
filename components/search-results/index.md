@@ -9,26 +9,45 @@ type: major
 phase: 1
 ---
 
-The search results pattern is a list of [search results](/components/search-result/) with additional information about the search, such as a count of results and [pagination]().
+## About this component
+This is a pattern to display multiple pages of search results.   
 
-The search results pattern also includes a pre-populated [site search](/components/site-search). This search field is shown immediately above the list of results to give the user an easy way to amend their search term. Only one site search component should be on the page, and therefore it should be removed from the site header in this context.
+Within the pattern:
+* users can choose the page they want by clicking on a page number at the bottom of a search result page, starting at page 1
+* each individual page number contains 10 search results
+* the page number the user is on is always highlighted  
 
-Up to ten search results should be displayed on a search results page. If the results set has more than ten results, introduce a pagination component.
+A maximum number of 7 page numbers are shown at the bottom of a page of search results, but the user can select pages outwith these 7 by choosing the … (ellipsis) symbol.    
 
-## Accessibility
+An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right.
+The current page number always appears in the URL, e.g. https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2
 
-Search suggestions use a number of <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes to provide additional context for screen reader users.
+## Components related to this
+•	None.  
 
-* The link text for each suggestion is overwritten with a more descriptive `aria-label`
-* The text "Did you mean" is hidden to avoid duplication in the links
-* The suggestions are wrapped in a `nav` element with a descriptive `aria-label`
+## Why we use this component
+Gives the user an option to view search results that might not be among a search’s top results.  
 
-Supporting evidence: Mygov accessibility review, March 2019.
+## Other versions of this component
+None.  
 
-## Alternative display
+## Mobile version
+A ‘Load more’ button is shown rather than a list of page numbers.
 
-### No results
+## Accessibility Features
+The current page should always be indicated to the user. It should also be noted that Ajax requires Aria attributes to inform the user of further content.  
 
-If there are no search results the user is given some suggestions for improving their search.
+## User research that supports using this component
+None.
 
-{% include example-frame.html name="no-results" caption="Example showing a search with no results" %}
+## Google Analytics and the use of this component
+There are no reported performance issues with this component from mygov or gov.scot.
+
+Search results pagination clicks can be tracked through a data attribute attached to the page link, e.g. data-search="pagination-7" and can be tracked alongside the search query (see Search Results for further detail. )
+
+## Feedback, help or support
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)
+
+## Links to live examples
+[Mygov.scot] (https://www.mygov.scot/search/?q=benefts&cat=sitesearch)

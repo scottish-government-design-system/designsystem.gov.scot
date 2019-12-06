@@ -9,12 +9,38 @@ type: major
 phase: 2
 ---
 
-List navigation is a collection of [category items](/components/category-item/) presented in a list. 
+## About the pattern
+The list navigation pattern orders content links into a list.
+It is used as the third level of navigation, after <card navigation>(#) and <category items>(#).
+Items in the list can be limelighted. Items that are limelighted always appear at the top of the list.
+Other items in the list may be sorted in any order.
 
-List navigation can include a highlighted section to call attention to important items. The highlighted section should be at the top of the navigation.
+## Components related to this
+* Category item – a component that makes up second level navigation pages, along with category header
+* Grid navigation – pattern used to structure category items on a page
+* Card navigation – first level navigation page  
 
-Items in the list should be presented in a sensible order, with more important items closer to the top. If you do not have data or other insights to determine this importance, sort the items alphabetically.
+## Why we use this component
+The list pattern of category items provides a third level of navigation after the second level of navigation.
 
-## Design rationale
+## Other versions of this component
+None.  
 
-Providing the title and the summary of a piece of content helps users make the correct choice when faced with a number of content items in a navigation group. Reusing category items in multiple navigation patterns helps to create a consistent user experience.
+## Mobile version
+None.  
+
+## Accessibility Features
+None.  
+
+## User research that supports using this component
+None.  
+
+## Google Analytics and the use of this component
+There are no reported performance issues with this component from mygov or gov.scot.  
+
+## Feedback, help or support
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)
+
+## Links to live examples
+[Mygov.scot](https://www.mygov.scot/births-deaths-marriages/marriage-civil-partnerships/)

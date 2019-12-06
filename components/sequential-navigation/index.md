@@ -17,12 +17,38 @@ examples:
     name: "Scotland's Economic Strategy"
 ---
 
-Sequential navigation is used at the bottom of content that is part of a sequence, for example a publication with multiple pages or an article with many sections. 
 
-## Design rationale
+## About the component
+Sequential navigation shows links to the next and previous page in a sequence.  
 
-The sequential navigation pattern helps users to navigate to different pages when they finish reading the content of the current page.
- 
-## Mobile variation
+## Components related to this
+Site search
+Pagination
+Repeated search item  
 
-The navigation items are stacked vertically on small devices. The "next page" link appears first because it is the most likely to be needed by the user.
+## Why we use this component
+It allows users to navigate pages without having to go back to the top of the page.  
+
+## Other versions of this component
+None.
+
+## Mobile version
+Next is stacked above previous on the page.  
+
+## Accessibility Features
+•	Input from Mark/Kevin needed to confirm tab index
+•	Input from Mark/Kevin needed to confirm  Aria label
+
+## User research that supports using this component
+None.
+
+## Google Analytics and the use of this component
+Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation. (Google Analytics, 2019)
+
+## Feedback, help or support
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)
+
+## Links to live examples
+[Mygov.scot](https://www.mygov.scot/childcare-costs-help/)
+[Scotland: A Trading Nation](https://tradingnation.mygov.scot/country-profiles/usa/)

@@ -9,39 +9,45 @@ type: major
 phase: 1
 ---
 
-Notification banners appear at the top of every page and span the entire width of the page with a solid colour block to make them more noticeable. They may have an optional "close" button to dismiss them. If permitted by a user's cookie preferences, the decision to dismiss a banner should be remembered.
+## About this component
+A notification banner always goes across the top of a page and spans its full width. Notification banners should only be used for a small amount of content that all users need to see. A banner should also push anything else on the page beneath it.  
 
-The expected content of a notification banner is text with links. They can also optionally include a left-aligned icon.
+If users need to know more, a link in the banner should link to further content.  
 
-## Design rationale
+You should try to avoid having more than 2 notification banners on a page. If you have more than 1 banner, each banner should be distinct.  
 
-Placing these notifications at the top of the page, with a bold background colour, makes then naturally the first item that a user will see.
+Each banner should also allow the user to remove the banner from the page, usually by having a ‘close’ link or an ‘X’. If the user closes a banner, a cookie should be set logging that the banner shouldn’t appear again in the browser. Because of this, each banner will need a unique ID.  
 
-## Alternative displays
+Generally, banners do not contain images, but may contain small icons, such as an arrow to highlight a link.  
 
-### Major notification
+Banners can be set as ‘sticky’ when there is a user need for the banner not to disappear if the user scrolls the page. This can be the case if the message is deemed more important than a normal banner, such as if the message is about a national emergency.
 
-This example also demonstrates what lengthy text content looks like in a notification.
-{% include example-frame.html name="major" %}
+## Components related to this
+Category item.
+Grid navigation.  
 
-### Positive/success notification
-{% include example-frame.html name="positive" %}
+## Why we use this component
+To highlight short, key content at the top of the page that all users need to see.  
 
-### Negative/alert notification
+## Other versions of this component
+None.  
 
-This example also demonstrates the use of icons in notification text.
-{% include example-frame.html name="negative" %}
+## Mobile version
+None.  
 
+## Accessibility Features
+None.  
 
-## Accessibility
+## User research that supports using this component
+User research findings from GOV.UK and NHS suggests that banners which overlay or hide content lead to users leaving the page.  
 
-The following accessibility features have been considered:
+## Google Analytics and the use of this component
 
-* Colour contrast between text colour and background colour meets WCAG AA
-* The "close" icon has an accessible text alternative
+3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.
 
-The "close" button requires JavaScript to operate. Users with JavaScript disabled are not shown the button.
+## Feedback, help or support
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)
 
-## Evidence
-
-Findings from gov.uk and NHS research in 2019 indicated that banners which restricted the user from accessing the content led to the user leaving the page, or becoming sidetracked reading notification content and selecting options. We recommend banners in preference to modal windows, and they should not be sticky or otherwise obscure page content.
+## Links to live examples
+[Mygov.scot] (https://www.mygov.scot)

@@ -9,18 +9,55 @@ type: major
 phase: 1
 ---
 
-The site header appears on every page. It is placed at the top of the page and fills the full width of the browser window. It contains [site branding](/components/site-branding) and an optional [site search form](/components/site-search).
+## About the component
+The site header tells users what site they are visiting and introduces site branding. It appears at the top of every page and can include an optional search field and primary navigation.
 
-## Design rationale
+## Components related to this
+Search field
+Primary navigation
+Phase label
 
-The site header allows any user who has not come via the home page a means to identify the site they are using and a route to access the home page from anywhere on the site.
+## Why we use this component
+The site header means users can navigate pages without having to go back to the top of the page.
 
-## Accessibility
+Having primary navigation, or search, in the header also gives users a way of getting their bearings in the site and allows easy access to other parts of the site.
 
-Links in the site header have clear focus, hover and active states to meet accessibility requirements. Logos in the site header have meaningful alternative text.
+It also means users who have not come via the homepage have a way to identify which site they’re on.
 
+We’ve avoided using second level interactive navigation because of usability concerns.
 
-## Alternative displays
+## Other versions of this component
+1.	Plain header
+2.	Plain header with logo and site title
+3.	Header with search
+4.	Header with primary navigation
+5.	Header with search and primary navigation
+6.	Header with Phase Label  
 
-### Solid background
-{% include example-frame.html name="reversed" %}
+## Mobile version
+Navigation links may form part of an expandable. This is represented in the header by a burger /menu icon.
+
+## Accessibility Features
+* Links in the header including the branding need to have clear focus and hover states to meet accessibility requirements. (link to separate page explaining why this is important)
+* Branded images used within the headers should have meaningful alternative text. (link to separate page explaining why this is important)
+* Also need to cover keyboard triggers
+* Search forms in the header should include all the accessibility features for forms as outlined in.
+* There’s no need to include error messaging in the form field. This can be moved into the search results page.
+* Include a ‘Skip to main content’ link. Ideally this is visible as it can be of value to a broad range of users.???
+
+## User research that supports using this component
+None.  
+
+## Google Analytics and the use of this component
+Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
+
+Users were more likely to navigate to site sections of gov.scot using the primary site navigation in the header, rather than using homepage panel items (Google Analytics, July 2019)
+
+## Feedback, help or support
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)
+
+## Links to live examples
+
+[Gov.scot](https://www.gov.scot/)  
+[Mygov.scot](https://www.mygov.scot)
