@@ -2,7 +2,7 @@
 
 {% if parentCatPage[0].childrenHavePrevNext %}
 
-    {% assign indexed = site.pages | where:"category", page.category | where_exp: "item", "item.phase <= site.phase" | sort: 'index', 'first' | sort: 'title', 'first' %}
+    {% assign indexed = site.pages | where:"category", page.category | where_exp: "item", "item.phase <= site.maxphase" | sort: 'index', 'first' | sort: 'title', 'first' %}
 
     {% for item in indexed %}
         {% if item.url == page.url %}
