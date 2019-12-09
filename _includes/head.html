@@ -31,6 +31,10 @@
     })(window,document,'script','dataLayer','{{ site.gtm_code }}');</script>
     <!-- End Google Tag Manager -->
 
+    {% if page.phase > site.maxphase %}
+        <meta name="robots" content="noindex" />
+    {% endif %}
+
     <script>
         document.documentElement.classList.add('js-enabled');
     </script>

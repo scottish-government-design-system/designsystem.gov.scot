@@ -19,7 +19,7 @@ collections:
     output: true
     permalink: /:name/
     parent: home
-maxphase: 9999
+maxphase: 2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
