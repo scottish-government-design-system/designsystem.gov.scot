@@ -1,8 +1,6 @@
 ---
 layout: example
 parent: component.card
-type: developers
-title: devnotes
 
 index: 999
 ---

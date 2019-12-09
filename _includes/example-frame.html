@@ -37,16 +37,10 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
         {% endunless %}
 
         {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
-        {% assign tabsCount = 1 %}
-
-        {% for item in indexed %}
-            {% if item.type == 'developers' and include.name == 'main' %}
-                {% assign tabsCount = tabsCount | plus:1 %}
-            {% endif %}
-        {% endfor %}
 
         <div class="example__accordion  ds_accordion">
             {% assign filename = 'example.' | append: include.name | append: '.md' %}
+            {% assign devnotesfilename = 'example.' | append: include.name | append: '.notes.md' %}
             {% for item in indexed %}
                 {% if item.name == filename %}
 
@@ -72,12 +66,12 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
             {% endfor %}
 
             {% for item in indexed %}
-                {% if item.type == 'developers' and include.name == 'main' %}
+                {% if item.name == devnotesfilename %}
                     <div class="ds_accordion-item">
                         <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-2" aria-labelledby="panel-{{include.name}}-2-heading" />
                         <div class="ds_accordion-item__header">
                             <h3 id="panel-{{include.name}}-2-heading" class="ds_accordion-item__title">
-                                Implementation notes
+                                Developer notes
                             </h3>
                             <span class="ds_accordion-item__indicator"></span>
                             <label class="ds_accordion-item__label" for="panel-{{include.name}}-2"><span class="visually-hidden">Show this section</span></label>

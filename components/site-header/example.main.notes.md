@@ -1,8 +1,6 @@
 ---
 layout: example
 parent: component.site-header
-type: developers
-title: devnotes
 
 index: 999
 ---
