@@ -29,7 +29,7 @@
         .#{$pl-prefix}layout {
             &--pl-component {
                 grid-template-areas:
-                    'h h h h h h h h h h h h'
+                    's s s s h h h h h h h h'
                     's s s s c c c c c c c c';
             }
         }
@@ -39,7 +39,7 @@
         .#{$pl-prefix}layout {
             &--pl-component {
                 grid-template-areas:
-                    'h h h h h h h h h h . .'
+                    's s s h h h h h h h . .'
                     's s s c c c c c c c . .';
             }
         }

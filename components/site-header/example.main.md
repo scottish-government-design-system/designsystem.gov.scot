@@ -20,17 +20,16 @@ minheight: '427px'
                 </div>
             </div>
 
-            <div class="ds_site-header__search  ds_site-search  ds_site-search--collapsible">
-
+            <div class="ds_site-header__search  ds_site-search  ds_site-search--collapsible" data-module="ds-site-search">
                 <form role="search" class="ds_site-search__form">
-                    <label class="ds_site-search__label visually-hidden" for="site-search">Search</label>
+                    <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
-                    <div class="ds_site-search__input-group">
-                        <input name="q" required="" id="site-search" class="ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
+                    <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+                        <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
-                        <button type="submit" title="search" class="ds_site-search__button  button  button--primary  js-site-search-button">
-                            <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
-                            <span class="visually-hidden">Search mygov.scot</span>
+                        <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
+                            <span class="visually-hidden">Search</span>
+                            <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                         </button>
                     </div>
                 </form>
@@ -49,17 +48,16 @@ minheight: '427px'
                 <div class="ds_mobile-navigation__content">
 
                     <div class="ds_mobile-navigation__block">
-                        <div class="ds_site-search">
+                        <div class="ds_site-search" data-module="ds-site-search">
                             <form role="search" class="ds_site-search__form">
-                                <label class="ds_site-search__label visually-hidden" for="site-search--mobile">Search</label>
+                                <label class="ds_label  visually-hidden" for="site-search--mobile">Search</label>
 
-                                <div class="ds_site-search__input-group">
-                                    <input name="q" required="" id="site-search--mobile" class="ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
+                                <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+                                    <input name="q" required="" id="site-search--mobile" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
-                                    <button type="submit" title="search" class="ds_site-search__button  button  button--primary">
-                                        <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
-
-                                        <span class="visually-hidden">Search mygov.scot</span>
+                                    <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
+                                        <span class="visually-hidden">Search</span>
+                                        <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                                     </button>
                                 </div>
                             </form>

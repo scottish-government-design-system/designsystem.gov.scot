@@ -9,15 +9,14 @@ index: 0
 
 <div class="ds_site-search">
     <form role="search" class="ds_site-search__form">
-        <label class="ds_site-search__label visually-hidden" for="site-search">Search</label>
+        <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
-        <div class="ds_site-search__input-group">
-            <input name="q" required="" id="site-search" class="ds_site-search__input" type="text" placeholder="Search" value="crogting" autocomplete="off">
+        <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
-            <button type="submit" title="search" class="ds_site-search__button  button  button--primary">
-                <svg class="ds_icon  ds_site-search__icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
-
-                <span class="visually-hidden">Search mygov.scot</span>
+            <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
+                <span class="visually-hidden">Search</span>
+                <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
             </button>
         </div>
     </form>

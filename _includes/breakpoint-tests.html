@@ -9,7 +9,7 @@
 window.ds_patterns = window.ds_patterns || {};
 
 window.ds_patterns.breakpoint = function(size) {
-    const breakElement = document.getElementById('bp-' + size);
+    var breakElement = document.getElementById('bp-' + size);
     return window.getComputedStyle(breakElement, null).display === 'block';
 }
 </script>

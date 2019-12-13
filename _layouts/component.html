@@ -28,6 +28,11 @@
 
                 <main id="main-content" class="ds_layout  ds_layout--pl-component">
 
+                    <div class="ds_layout__sidebar">
+                        {% assign navitems = page.category %}
+                        {% include component-side-navigation.html %}
+                    </div>
+
                     <div class="ds_layout__header">
                         <header class="heading">
                             <div class="ds_page-header">
@@ -42,11 +47,6 @@
                                 <h1 class="ds_page-header__title">{{ page.title }}</h1>
                             </div>
                         </header>
-                    </div>
-
-                    <div class="ds_layout__sidebar">
-                        {% assign navitems = page.category %}
-                        {% include component-side-navigation.html %}
                     </div>
 
                     <div class="ds_layout__content">
@@ -103,40 +103,80 @@
 
     </div>
 
+    <script>
+
+
+function setupCookieInterceptor()
+{
+    const oldCookie = document.cookie;
+    Object.defineProperty(document, 'cookie', {
+        configurable: true,
+        enumerable: true,
+        get: function()
+        {
+            return oldCookie;
+        },
+        set: function(value)
+        {
+            // if we're not alowed to store this then exit
+            if(COOKIESBLOCKED) {
+                return;
+            }
+
+            ppp = function() {
+                delete document.cookie
+                document.cookie = value;
+                setupCookieInterceptor();
+            }();
+        }
+    });
+
+    return function() {
+        // restores default behaviour
+        delete document.cookie;
+    };
+}
+
+const detachCookieInterceptor = setupCookieInterceptor();
+
+document.cookie = 'name=oohnoitstrueeeeeenowtho';
+
+window.addEventListener('unload', function () {
+    detachCookieInterceptor();
+});
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+
     <div class="ds_page__bottom">
         {% include footer.html %}
     </div>
 
 </div>
 
-<script>
-const exampleTabsets = document.querySelectorAll('.example-tabs')
-const matches = function(el, selector) {
-    return (el.matches || el.matchesSelector || el.msMatchesSelector || el.mozMatchesSelector || el.webkitMatchesSelector || el.oMatchesSelector).call(el, selector);
-};
-
-const activateTab = function (element, tabset) {
-    const currentTab = tabset.querySelector('.example-tabs__tab--current');
-    if (currentTab) {
-        currentTab.classList.remove('example-tabs__tab--current');
-    }
-    if (element !== currentTab) {
-        element.classList.add('example-tabs__tab--current');
-    }
-}
-
-exampleTabsets.forEach(function (exampleTabset) {
-    exampleTabset.addEventListener('click', function (event){
-        if (matches(event.target, '.example-tabs__tab')) {
-            activateTab(event.target, exampleTabset);
-        }
-    });
-});
-</script>
-
 <link rel="stylesheet" href="/assets/css/highlight.css">
 <script src="/assets/scripts/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
 
 </body>
 

@@ -7,6 +7,7 @@ thispage: component.cookie-notice
 summary: ""
 type: major
 phase: 2
+published: false
 ---
 
 ## About this component

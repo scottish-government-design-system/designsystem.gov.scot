@@ -31,7 +31,7 @@ index: 0
             <a href="#" data-search="pagination-13" class="ds_pagination__link">13</a>
         </li>
 
-        <li class="ds_pagination__item">
+        <li class="ds_pagination__item" aria-current="page">
             <span class="ds_pagination__link  ds_current">14</span>
         </li>
 
