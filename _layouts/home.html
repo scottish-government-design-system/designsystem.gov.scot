@@ -5,135 +5,89 @@
 
 <body class="layout--home">
 
-{% include notifications.html %}
-{% include site-header.html %}
-{% include header.html %}
-
-<main>
-    <style>
-    body {
-        background-color: #f8f8f8;
-    }
+<style>
+body {
+    background-color: #f8f8f8;
+}
 
 
-    .zebra:nth-child(2n) {
-        background-color: #fff; /*color__grey--lighter*/
-        border: 1px solid #ddd;
-        border-width: 1px 0;
-    }
+.zebra:nth-child(2n-1) {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+}
 
-    .zebra:first-of-type {
-        border-top: 0;
-    }
+.zebra:first-of-type {
+    border-top: 0;
+}
 
-    .zebra {
-        padding: 28px 0;
-    }
-    </style>
+.zebra {
+    padding: 28px 0;
+}
+</style>
 
+<div class="ds_page">
+    <div class="ds_page__top">
+        {% include notifications.html %}
+        {% include site-header.html %}
+    </div>
 
+    <div class="ds_page__middle">
+        <main>
+            {% include header.html %}
 
+            <section id="welcome" class="zebra">
+                <div class="ds_wrapper">
+                    <div class="ds_category-header">
+                        <header class="ds_category-header__header">
+                            <h1 class="ds_category-header__title">About the design system</h1>
+                            <div class="ds_category-header__summary">
+                                <p>The Digital Scotland Design System provides static web assets for websites and web applications for
+                                        the Scottish Government and other Scottish public sector bodies.</p>
 
-    <section id="welcome" class="zebra">
-        <div class="ds_wrapper">
-            <div class="ds_category-header">
-                <header class="ds_category-header__header">
-                    <h1 class="ds_category-header__title">About the design system</h1>
-                    <div class="ds_category-header__summary">
-                        <p>The Digital Scotland Design System provides static web assets for websites and web applications for
-                                the Scottish Government and other Scottish public sector bodies.</p>
-
-                        <a href="#" class="ds_button  ds_button--primary">Learn more</a>
+                                <a href="#" class="ds_button  ds_button--primary">Learn more</a>
+                            </div>
+                        </header>
+                        <div class="ds_category-header__media-container">
+                            <video class="welcome__video  ds_category-header__media" src="/assets/images/examples/category-header-design-standards.svg" alt=""></video>
+                        </div>
                     </div>
-                </header>
-                <div class="ds_category-header__media-container">
-                    <video class="welcome__video  ds_category-header__media" src="/assets/images/examples/category-header-design-standards.svg" alt=""></video>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
+            {% assign indexed = site.pages | where:"showcase", 'true' | sort: 'title', 'first' %}
+            {%if indexed.size > 0 %}
+                <section id="showcase" class="zebra">
+                    <div class="ds_wrapper">
+                        <h1>Pattern showcase</h1>
 
+                        <div class="showcase">
 
+                            {% for component in indexed %}
+                            <div class="showcase__item">
+                                <h2 class="gamma"><a href="{{component.url}}">{{component.title}}</a></h2>
 
-    <section id="case-studies" class="zebra">
-        <div class="ds_wrapper">
+                                {% assign indexed = site.pages | where:"parent", component.thispage %}
+                                {% for subpage in indexed %}
+                                    {% if subpage.type == 'example' %}
+                                        <iframe src="components/{{component.thispage | replace: 'component.', ''}}/example.html" class="showcase__iframe" onload="resizeIframe(this)" style="height: 217px;"></iframe>
+                                    {% endif %}
+                                {% endfor %}
 
-            <h1>Case studies</h1>
-
-            <div class="case-studies">
-                <article class="case-study">
-                    <img alt="" class="case-study__image" />
-
-                    <div class="case-study__buttons">
-                        <a href="#" class="case-study__button  button  button--primary">Read more</a>
-
-                        <a href="#" class="case-study__button  button  button--secondary">View site</a>
+                                <p>{{component.summary}}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
                     </div>
-                </article>
+                </section>
+            {% endif %}
+        </main>
+    </div>
 
-                <article class="case-study">
-                    <img alt="" class="case-study__image" />
-
-                    <div class="case-study__buttons">
-                        <a href="#" class="case-study__button  button  button--primary">Read more</a>
-
-                        <a href="#" class="case-study__button  button  button--secondary">View site</a>
-                    </div>
-                </article>
-            </div>
-
-            <!-- repeat x2 -->
-
-        </div>
-    </section>
-
-
-
-
-    <section id="users" class="zebra">
-        <div class="ds_wrapper">
-            <h1>Users</h1>
-
-            <div class="users">
-                {% assign indexed = site.pages | where: "parent", "users" | sort: "index", "first" %}
-
-                {% for user in indexed %}
-                    <a href="{{user.url}}" class="user">
-                        <img alt="" class="user__image" src="/assets/images/people/{{user.image}}">
-                        <span class="user__description">{{user.describe}}</span>
-                    </a>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
-    <section id="showcase" class="zebra">
-        <div class="ds_wrapper">
-            <h1>Pattern showcase</h1>
-
-            <div class="showcase">
-                {% assign indexed = site.pages | where:"showcase", 'true' | sort: 'title', 'first' %}
-
-                {% for component in indexed %}
-                <div class="showcase__item">
-                    <h2 class="gamma"><a href="{{component.url}}">{{component.title}}</a></h2>
-
-                    {% assign indexed = site.pages | where:"parent", component.thispage %}
-                    {% for subpage in indexed %}
-                        {% if subpage.type == 'example' %}
-                            <iframe src="components/{{component.thispage | replace: 'component.', ''}}/example.html" class="showcase__iframe" onload="resizeIframe(this)" style="height: 217px;"></iframe>
-                        {% endif %}
-                    {% endfor %}
-
-                    <p>{{component.summary}}</p>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-</main>
-{% include footer.html %}
+    <div class="ds_page_bottom">
+        {% include footer.html %}
+    </div>
+</div>
 
 </body>
 
