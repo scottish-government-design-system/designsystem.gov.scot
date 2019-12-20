@@ -38,7 +38,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
 
         {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
 
-        <div class="example__accordion  ds_accordion">
+        <div class="example__accordion  ds_accordion"  data-module="ds-accordion">
             {% assign filename = 'example.' | append: include.name | append: '.md' %}
             {% assign devnotesfilename = 'example.' | append: include.name | append: '.notes.md' %}
             {% for item in indexed %}
