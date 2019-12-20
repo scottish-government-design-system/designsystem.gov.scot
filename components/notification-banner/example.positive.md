@@ -9,6 +9,8 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 <div class="ds_notification  ds_notification--positive  ds_reversed" data-module="ds-notification">
     <div class="ds_wrapper">
         <div class="ds_notification__content  ds_notification__content--has-close">
+            <div role="heading" class="visually-hidden">Information</div>
+
             <div class="ds_notification__text">
                 <p>Something good has <a data-banner="banner-bannername-link" href="#">happened</a></p>
             </div>
