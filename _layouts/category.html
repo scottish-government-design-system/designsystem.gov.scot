@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <!-- finding the depth of this category page and using that to determine which tile layout to use -->
 
@@ -48,6 +48,8 @@
 
 <body class="layout--tiles  tiles--{{depth}}">
 
+{% include skip-links.html %}
+
 <div class="ds_page">
 
     <div class="ds_page__top">
@@ -60,7 +62,7 @@
 
             {% include header.html %}
 
-            <div class="ds_wrapper">
+            <div class="ds_wrapper" id="main-content">
                 <div class="ds_category-header">
                     <header class="ds_category-header__header">
                         <h1 class="ds_category-header__title">{{ page.title }}</h1>

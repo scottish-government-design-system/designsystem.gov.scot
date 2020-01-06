@@ -5,7 +5,7 @@ type: example
 ---
 <form>
     <div class="ds_question  ds_question--error" id="error-id-one">
-        <fieldset>
+        <fieldset aria-invalid="true">
             <legend>Did this resolve your issue?</legend>
             <p class="ds_hint-text">Hint text</p>
             <p class="ds_question__message">This field is required</p>

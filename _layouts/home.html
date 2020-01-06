@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 {% include head.html %}
 
@@ -26,6 +26,8 @@ body {
 }
 </style>
 
+{% include skip-links.html %}
+
 <div class="ds_page">
     <div class="ds_page__top">
         {% include notifications.html %}
@@ -33,8 +35,9 @@ body {
     </div>
 
     <div class="ds_page__middle">
-        <main>
-            {% include header.html %}
+        {% include header.html %}
+
+        <main id="main-content">
 
             <section id="welcome" class="zebra">
                 <div class="ds_wrapper">
