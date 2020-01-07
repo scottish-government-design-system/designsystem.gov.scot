@@ -1,8 +1,8 @@
 ---
 layout: component
 title:  "Base grid"
-category: foundations
-parent: foundations
+category: styles
+parent: styles
 thispage: foundation.base-grid
 summary: The column grid used for page layouts
 phase: 1

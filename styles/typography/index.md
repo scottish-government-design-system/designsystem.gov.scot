@@ -1,8 +1,8 @@
 ---
 layout: component
 title:  "Typography"
-category: foundations
-parent: foundations
+category: styles
+parent: styles
 thispage: foundation.typography
 #summary: ""
 phase: 4

@@ -1,8 +1,8 @@
 ---
 layout: component
 title:  "Buttons"
-category: foundations
-parent: foundations
+category: styles
+parent: styles
 thispage: foundation.buttons
 #summary: ""
 phase: 3

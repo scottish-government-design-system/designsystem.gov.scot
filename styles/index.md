@@ -1,9 +1,9 @@
 ---
 layout: design-system-category-landing
-thispage: foundations
-navitems: foundations
+thispage: styles
+navitems: styles
 parent: library
-title: "Foundations"
+title: "Styles"
 category: library
 childrenHavePrevNext: true
 index: 0
