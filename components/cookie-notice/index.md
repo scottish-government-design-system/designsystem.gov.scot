@@ -19,28 +19,22 @@ Also:
 * cookie banner should always appear above any other banners on the page  
 
 ## Components related to this
-Notification banner.
+Notification banner
 Buttons
 Cookie controls  
 
 ## Why we use this component
 The cookie banner component allows a website to comply with General Data Protection Regulation (GDPR). GDPR requests that websites ask users about cookies and give them the choice to accept or reject usage.  
 
-## Other versions of this component
+## Supporting evidence for using this component
 None.  
 
-## Mobile version
-None.  
+## Website analytics and the use of this component
+
+3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.  
 
 ## Accessibility Features
-None.  
-
-## User research and the use of this component
-None.  
-
-## Google Analytics and the use of this component
-
-3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE  
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

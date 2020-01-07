@@ -24,11 +24,11 @@ Repeated search item
 ## Why we use this component
 This design helps the user to browse through results. The user can also refine or amend the result.
 
-## Other versions of this component
+## Supporting evidence for using this component
 None.
 
-## Mobile version
-None.  
+## Website analytics and the use of this component
+There are no reported performance issues with this component from mygov or gov.scot.  
 
 ## Accessibility Features
 Search suggestions use WAI-ARIA attributes to give more context for screen reader users. They include:  
@@ -38,11 +38,7 @@ Search suggestions use WAI-ARIA attributes to give more context for screen reade
 *  suggestions being wrapped in a nav element with a descriptive aria-label
 Supporting evidence: mygov.scot accessibility review, March 2019.  
 
-## User research that supports using this component
-None.
-
-## Google Analytics and the use of this component
-There are no reported performance issues with this component from mygov or gov.scot.  
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

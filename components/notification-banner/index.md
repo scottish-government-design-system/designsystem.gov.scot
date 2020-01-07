@@ -29,21 +29,16 @@ Grid navigation.
 ## Why we use this component
 To highlight short, key content at the top of the page that all users need to see.  
 
-## Other versions of this component
-None.  
-
-## Mobile version
-None.  
-
-## Accessibility Features
-None.  
-
-## User research that supports using this component
+## Supporting evidence for using this component
 User research findings from GOV.UK and NHS suggests that banners which overlay or hide content lead to users leaving the page.  
 
-## Google Analytics and the use of this component
+## Website analytics and the use of this component
 
-3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.
+3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.  
+
+
+## Accessibility Features
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

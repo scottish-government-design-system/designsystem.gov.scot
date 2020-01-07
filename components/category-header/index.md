@@ -45,13 +45,13 @@ The image will appear on the right hand side of a category header on a desktop.
 
 ## Accessibility Features
 
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
+
+## Supporting evidence for using this component
+
 None.
 
-## User research that supports using this component
-
-None.
-
-## Google Analytics and the use of this component
+## Website analytics and the use of this component
 
 There are no reported performance issues with this component from mygov or gov.scot.
 

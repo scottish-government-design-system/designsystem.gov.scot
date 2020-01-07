@@ -22,28 +22,24 @@ A maximum number of 7 page numbers are shown at the bottom of a page of search r
 An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right.
 The current page number always appears in the URL, e.g. https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2
 
-## Components related to this
-•	None.  
-
 ## Why we use this component
 Gives the user an option to view search results that might not be among a search’s top results.  
-
-## Other versions of this component
-None.  
 
 ## Mobile version
 A ‘Load more’ button is shown rather than a list of page numbers.
 
-## Accessibility Features
-The current page should always be indicated to the user. It should also be noted that Ajax requires Aria attributes to inform the user of further content.  
-
-## User research that supports using this component
+## Supporting evidence for using this component
 None.
 
-## Google Analytics and the use of this component
+## Website analytics and the use of this component
 There are no reported performance issues with this component from mygov or gov.scot.
 
-Search results pagination clicks can be tracked through a data attribute attached to the page link, e.g. data-search="pagination-7" and can be tracked alongside the search query (see Search Results for further detail. )
+Search results pagination clicks can be tracked through a data attribute attached to the page link, e.g. data-search="pagination-7" and can be tracked alongside the search query (see Search Results for further detail. )  
+
+## Accessibility Features
+The current page should always be indicated to the user. It should also be noted that Ajax requires Aria attributes to inform the user of further content.
+
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

@@ -37,21 +37,23 @@ We’ve avoided using second level interactive navigation because of usability c
 ## Mobile version
 Navigation links may form part of an expandable. This is represented in the header by a burger /menu icon.
 
+## Supporting evidence for using this component
+None.  
+
+## Website analytics and the use of this component
+Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
+
+Users were more likely to navigate to site sections of gov.scot using the primary site navigation in the header, rather than using homepage panel items (Google Analytics, July 2019)  
+
 ## Accessibility Features
 * Links in the header including the branding need to have clear focus and hover states to meet accessibility requirements. (link to separate page explaining why this is important)
 * Branded images used within the headers should have meaningful alternative text. (link to separate page explaining why this is important)
 * Also need to cover keyboard triggers
 * Search forms in the header should include all the accessibility features for forms as outlined in.
 * There’s no need to include error messaging in the form field. This can be moved into the search results page.
-* Include a ‘Skip to main content’ link. Ideally this is visible as it can be of value to a broad range of users.???
+* Include a ‘Skip to main content’ link. Ideally this is visible as it can be of value to a broad range of users.
 
-## User research that supports using this component
-None.  
-
-## Google Analytics and the use of this component
-Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
-
-Users were more likely to navigate to site sections of gov.scot using the primary site navigation in the header, rather than using homepage panel items (Google Analytics, July 2019)
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

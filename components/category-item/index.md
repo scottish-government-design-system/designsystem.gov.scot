@@ -20,20 +20,14 @@ Category header – a page of category items has a category header at the top of
 ## Why we use this component
 Category items allow users to preview and choose content.  
 
-## Other versions of this component
+## Supporting evidence for using this component
 None.  
 
-## Mobile version
-None.  
+## Website analytics and the use of this component
+There are no reported performance issues with this component from mygov or gov.scot.  
 
 ## Accessibility Features
-None.  
-
-## User research that supports using this component
-None.  
-
-## Google Analytics and the use of this component
-There are no reported performance issues with this component from mygov or gov.scot.  
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE  
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

@@ -27,32 +27,28 @@ The side navigation should also:
 * not include icons
 * have a limited character count for links
 
-## Components related to this
-•	None.  
-
 ## Why we use this component
 The side navigation gives users a snapshot of content within the user’s current website, as well as it sits in terms of the whole website.
 
 Since it’s on the left hand side of the page, it also supports left to right reading.
 
-## Other versions of this component
-None.  
-
 ## Mobile version
 The mobile version of side navigation is minimised into an expandable list at the top of the page.
 
-## Accessibility Features
-Aria attributes should describe the mobile version is open or closed.
-
-## User research that supports using this component
+## Supporting evidence for using this component
 None.
 
-## Google Analytics and the use of this component
+## Website analytics and the use of this component
 There are no reported performance issues with this component from mygov or gov.scot.  
 
 To understand user behaviour, clicks on side navigation items can be tracked through the original page path, the click URL, the click text and a data attribute showing the item, e.g. data-navigation=“sidenav-1-1”  
 
-An additional data attribute would be used to track clicks on mobile, e.g. data-navigation="sidenav-open"
+An additional data attribute would be used to track clicks on mobile, e.g. data-navigation="sidenav-open"  
+
+## Accessibility Features
+Aria attributes should describe the mobile version is open or closed.
+
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

@@ -21,22 +21,19 @@ Information and caution notes.
 ## Why we use this component
 Top level navigation gives users an overview of what’s included in the site by outlining its main categories.
 
-It can also help users find the content they need quickly and easily by reflecting the main things users want to do on, or find out from, the site.  
-
-## Other versions of this component
-None.  
+It can also help users find the content they need quickly and easily by reflecting the main things users want to do on, or find out from, the site.   
 
 ## Mobile version
 Menu may be collapsed on mobiles.  
 
+## Supporting evidence for using this component
+None.
+
+## Website analytics and the use of this component
+There are no reported performance issues with this component from mygov or gov.scot.  
+
 ## Accessibility Features
-None.
-
-## User research that supports using this component
-None.
-
-## Google Analytics and the use of this component
-There are no reported performance issues with this component from mygov or gov.scot.
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

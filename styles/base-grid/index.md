@@ -12,10 +12,6 @@ phase: 1
 
 The ‘grid’ design separates a web page into individual content boxes.
 
-## Components related to this
-
-None
-
 ## Why we use this pattern
 
 If a page contains lots of unrelated content, using a uniform grid layout can make it easier for users to browse a high number of content options than a less rigid design.  
@@ -30,28 +26,15 @@ This example is intended for illustration purposes only, and the HTML and CSS co
 
 {% include example-frame-base-grid.html name="interactive" caption="Half-scale interactive demo" resize=true %}
 
-## Other versions of this component
-
-None
-
 ## Mobile Version
 
 The individual boxes of the grid span the width of the whole page on a mobile.
-
-## Accessibility Features
-
-N/A
 
 ## User research that supports using this component
 
 TBC
 
-## Google Analytics and the use of this component
+## Feedback, help or support
 
-There are no reported performance issues with this component from mygov or gov.scot.
-
-## Feedback
-
-If you need any help or want to give any feedback you can:
-email:
-slack:
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)  

@@ -21,38 +21,26 @@ Some other things:
 * opened content remains open until closed by the user, even when other content in the accordion list is opened
 * an accordion list should not be nested inside another accordion list
 
-## Components related to this
-
-None.
-
 ## Why we use this component
 
 When user needs clearly suggest that users will only need to select one or two small items of content from a longer list of options, the use of an accordion may help the user to choose the content they need quickly.
-
-## Demo
-
-(HTML example – variants to be included in this)
 
 ## Other versions of this component
 
 There is an option to have an "Open All" and "Close All" function.
 
-## Mobile version
+## Supporting evidence for using this component
 
 None.
 
-## Accessibility Features
-
-None.
-
-## User research that supports using this component
-
-None.
-
-## Google Analytics and the use of this component
+## Website analytics and the use of this component
 
 There are no reported performance issues with this component from mygov or gov.scot.
 To understand user behaviour when using this component, the open/close arrow, or the "Open all"/"Close all" links can be tracked through the original page path.
+
+## Accessibility
+
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 

@@ -31,15 +31,15 @@ Site footer without logo.
 ## Mobile version
 Links would be shown as stacked in two columns rather than a horizontal line.
 
-## Accessibility Features
+## Supporting evidence for using this component
 None.  
 
-## User research that supports using this component
-None.  
-
-## Google Analytics and the use of this component
+## Website analytics and the use of this component
 Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
-Users also interact with all the footer links. (Google Analytics, July 2019).
+Users also interact with all the footer links. (Google Analytics, July 2019).  
+
+## Accessibility Features
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

@@ -28,10 +28,6 @@ The card navigation pattern is:
 The large size of the cards in the card navigation pattern allows enough space for content that previews the next level of navigation or content.
 It also creates a consistent navigational pattern for content.
 
-## Demo
-
-(HTML example)
-
 ## Other versions of this component
 
 Some versions of this pattern may include a gradient effect along the bottom border of individual cards.
@@ -40,17 +36,17 @@ Some versions of this pattern may include a gradient effect along the bottom bor
 
 On mobile the cards in the grid appear in a single column, stacked on top of each other. On tablet (portrait) the cards in the grid appear in two columns.  
 
-## Accessibility Features
+## Supporting evidence for using this component
 
 None.
 
-## User research that supports using this component
-
-None.
-
-## Google Analytics and the use of this component
+## Website analytics and the use of this component
 
 There are no reported performance issues with this component from mygov or gov.scot.
+
+## Accessibility Features
+
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 
