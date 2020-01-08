@@ -43,10 +43,6 @@ If an image is used within a category header, the image will stack below the tex
 
 The image will appear on the right hand side of a category header on a desktop.
 
-## Accessibility Features
-
-Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
-
 ## Supporting evidence for using this component
 
 None.
@@ -54,6 +50,10 @@ None.
 ## Website analytics and the use of this component
 
 There are no reported performance issues with this component from mygov or gov.scot.
+
+## Accessibility Features
+
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 

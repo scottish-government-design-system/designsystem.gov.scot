@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.search-results
+parent: component.search-results-pagination
 type: example
 index: 0
 ---

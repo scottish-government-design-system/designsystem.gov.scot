@@ -33,9 +33,7 @@ To highlight short, key content at the top of the page that all users need to se
 User research findings from GOV.UK and NHS suggests that banners which overlay or hide content lead to users leaving the page.  
 
 ## Website analytics and the use of this component
-
 3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.  
-
 
 ## Accessibility Features
 Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE

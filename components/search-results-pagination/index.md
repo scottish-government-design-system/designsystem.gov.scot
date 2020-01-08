@@ -1,9 +1,9 @@
 ---
 layout: component
-title:  "Search results"
+title:  "Search results pagination"
 category: components
 parent: components
-thispage: component.search-results
+thispage: component.search-results-pagination
 summary: "A list of search results and its associated controls."
 type: major
 phase: 1

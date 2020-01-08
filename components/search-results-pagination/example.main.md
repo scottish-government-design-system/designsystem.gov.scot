@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.search-results
+parent: component.search-results-pagination
 type: example
 index: 0
 note: This example has been truncated to three search results to conserve space.

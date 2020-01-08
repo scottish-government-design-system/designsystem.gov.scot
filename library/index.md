@@ -1,9 +1,9 @@
 ---
 layout: category
-title: "Design System"
+title: "Design your service using Digital Scotland."
 parent: home
 thispage: library
 navitems: library
 sortfield: index
-summary: "The patterns included here have been developed for use by government, public sector and third sector non-commercial organisations in Scotland."
+summary: "Find the Digital Scotland styles, components and patterns used on websites like gov.scot and mygov.scot and use them on your own website."
 ---
