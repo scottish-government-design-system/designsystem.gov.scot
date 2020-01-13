@@ -3,7 +3,7 @@ layout: component
 title:  "Base grid"
 category: styles
 parent: styles
-thispage: foundation.base-grid
+thispage: style.base-grid
 summary: The column grid used for page layouts
 phase: 1
 ---

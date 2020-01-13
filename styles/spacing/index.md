@@ -1,9 +1,9 @@
 ---
 layout: component
-title:  "X Colour palette"
+title:  "X Spacing"
 category: styles
 parent: styles
-thispage: style.colour-palette
+thispage: style.spacing
 #summary: ""
 phase: 2
 ---

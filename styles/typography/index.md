@@ -1,9 +1,9 @@
 ---
 layout: component
-title:  "Typography"
+title:  "X Typography"
 category: styles
 parent: styles
-thispage: foundation.typography
+thispage: style.typography
 #summary: ""
-phase: 4
+phase: 2
 ---

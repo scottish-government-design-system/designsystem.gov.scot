@@ -1,9 +1,9 @@
 ---
 layout: component
-title:  "X Colour palette"
+title:  "X Interactive states"
 category: styles
 parent: styles
-thispage: style.colour-palette
+thispage: style.states
 #summary: ""
 phase: 2
 ---

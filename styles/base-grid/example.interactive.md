@@ -1,6 +1,6 @@
 ---
 layout: example-base-grid
-parent: component.base-grid
+parent: style.base-grid
 type: example
 index: 0
 ---

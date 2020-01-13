@@ -1,9 +1,9 @@
 ---
 layout: component
-title:  "Buttons"
+title:  "X Buttons"
 category: styles
 parent: styles
-thispage: foundation.buttons
+thispage: style.buttons
 #summary: ""
 phase: 3
 ---
