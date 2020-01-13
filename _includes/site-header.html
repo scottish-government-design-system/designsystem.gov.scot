@@ -85,6 +85,17 @@
                                     </a>
                                 {% endif %}
                             </li>
+                            <li class="ds_mobile-navigation__item">
+                                {% if page.url == '/accessibility/' %}
+                                    <span class="ds_mobile-navigation__link  ds_current">
+                                        Accessibility
+                                    </span>
+                                {% else %}
+                                    <a href="/accessibility/" data-device="mobile" data-header="header-link-5" class="ds_mobile-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
+                                        Accessibility
+                                    </a>
+                                {% endif %}
+                            </li>
                         </ul>
                     </div>
 
@@ -145,8 +156,32 @@
                             </a>
                         {% endif %}
                     </li>
+                    <li class="ds_site-navigation__item">
+                        {% if page.url == '/accessibility/' %}
+                            <span class="ds_site-navigation__link  ds_current">
+                                Accessibility
+                            </span>
+                        {% else %}
+                            <a href="/accessibility/" data-device="desktop" data-header="header-link-5" class="ds_site-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
+                                Accessibility
+                            </a>
+                        {% endif %}
+                    </li>
                 </ul>
             </nav>
         </div>
     </div>
 </header>
+
+<div class="ds_wrapper">
+    <div class="ds_phase-banner  no-bottom-margin">
+        <p class="ds_phase-banner__content">
+            <strong class="ds_tag  ds_phase-banner__tag">
+                alpha
+            </strong>
+            <span class="ds_phase-banner__text">
+                This is a new service. Your <a href="#">feedback</a> will help us to improve it.
+            </span>
+        </p>
+    </div>
+</div>
