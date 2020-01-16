@@ -105,67 +105,6 @@
 
     </div>
 
-    <script>
-
-
-function setupCookieInterceptor()
-{
-    const oldCookie = document.cookie;
-    Object.defineProperty(document, 'cookie', {
-        configurable: true,
-        enumerable: true,
-        get: function()
-        {
-            return oldCookie;
-        },
-        set: function(value)
-        {
-            // if we're not alowed to store this then exit
-            if(COOKIESBLOCKED) {
-                return;
-            }
-
-            ppp = function() {
-                delete document.cookie
-                document.cookie = value;
-                setupCookieInterceptor();
-            }();
-        }
-    });
-
-    return function() {
-        // restores default behaviour
-        delete document.cookie;
-    };
-}
-
-const detachCookieInterceptor = setupCookieInterceptor();
-
-document.cookie = 'name=oohnoitstrueeeeeenowtho';
-
-window.addEventListener('unload', function () {
-    detachCookieInterceptor();
-});
-
-
-
-
-
-
-
-
-        </script>
-
-
-
-
-
-
-
-
-
-
-
     <div class="ds_page__bottom">
         {% include footer.html %}
     </div>
