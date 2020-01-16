@@ -1,16 +1,18 @@
 const path = require('path');
 
+const commonEntries = {
+  'cookie': [
+    path.resolve(__dirname, 'assets/scripts/cookies.js')
+  ],
+  'pattern-library': [
+    path.resolve(__dirname, 'assets/scripts/all.js')
+  ]
+};
+
 module.exports = [{
   mode: 'development',
 
-  entry: {
-    'cookie': [
-      path.resolve(__dirname, 'assets/scripts/cookies.js')
-    ],
-    'pattern-library': [
-      path.resolve(__dirname, 'assets/scripts/all.js')
-    ]
-  },
+  entry: commonEntries,
 
   output: {
     path: path.resolve(__dirname, 'assets/scripts/dist'),
@@ -19,14 +21,7 @@ module.exports = [{
 }, {
   mode: 'development',
 
-  entry: {
-    'cookie': [
-      path.resolve(__dirname, 'assets/scripts/cookies.js')
-    ],
-    'pattern-library': [
-      path.resolve(__dirname, 'assets/scripts/all.js')
-    ]
-  },
+  entry: commonEntries,
 
   output: {
     path: path.resolve(__dirname, 'assets/scripts/dist'),
