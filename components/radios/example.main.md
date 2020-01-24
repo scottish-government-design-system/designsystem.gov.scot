@@ -109,7 +109,7 @@ index: 0
 <textarea class="ds_input" id="textarea1"></textarea>
 </div>
 
-<p><strong>Note:</strong> Textareas can use all of the width variants available to text inputs. They're not included here to avoid repetition.</p>
+<p><strong>Note:</strong> Textareas can use all of the width variants available to text inputs. They're omitted here to avoid repetition.</p>
 
 <p><strong>Note:</strong> Use the "rows" attribute to size textarea elements appropriately.</p>
 
