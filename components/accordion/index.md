@@ -17,9 +17,9 @@ Multiple in-page links, indicated by ‘open/close’ arrow icons, allow users t
 
 Use of the accordion list should be based on user needs. For example, an accordion could be used when it’s expected users would only need to view one or two items from a longer list of distinct content options.
 
-Some other things:
+Other considerations:
 * opened content remains open until closed by the user, even when other content in the accordion list is opened
-* an accordion list should not be nested inside another accordion list
+* an accordion list cannot be nested inside another accordion list
 
 ## Why we use this component
 
@@ -27,15 +27,14 @@ When user needs clearly suggest that users will only need to select one or two s
 
 ## Other versions of this component
 
-There is an option to have an "Open All" and "Close All" function.
+There is an option to have an "Open all" and "Close all" function.
 
 ## Supporting evidence for using this component
 
-None.
+There are no reported performance issues with this component from mygov or gov.scot.
 
 ## Website analytics and the use of this component
 
-There are no reported performance issues with this component from mygov or gov.scot.
 To understand user behaviour when using this component, the open/close arrow, or the "Open all"/"Close all" links can be tracked through the original page path.
 
 ## Accessibility
@@ -46,7 +45,6 @@ Find out more about accessibility requirements that should be applied to all onl
 
 If you need any help or want to give any feedback you can e-mail us at:
 [designsystem@gov.scot](mailto:designsystem@gov.scot)  
-
 
 
 ## Links to live examples

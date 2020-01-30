@@ -45,11 +45,8 @@ The image will appear on the right hand side of a category header on a desktop.
 
 ## Supporting evidence for using this component
 
-None.
+There are no reported performance issues with this component from mygov or gov.scot.  
 
-## Website analytics and the use of this component
-
-There are no reported performance issues with this component from mygov or gov.scot.
 
 ## Accessibility Features
 

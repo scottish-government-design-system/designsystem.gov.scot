@@ -29,11 +29,9 @@ Gives the user an option to view search results that might not be among a search
 A ‘Load more’ button is shown rather than a list of page numbers.
 
 ## Supporting evidence for using this component
-None.
-
-## Website analytics and the use of this component
 There are no reported performance issues with this component from mygov or gov.scot.
 
+## Website analytics and the use of this component
 Search results pagination clicks can be tracked through a data attribute attached to the page link, e.g. data-search="pagination-7" and can be tracked alongside the search query (see Search Results for further detail. )  
 
 ## Accessibility Features

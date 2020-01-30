@@ -17,8 +17,8 @@ The card navigation pattern is:
 * flexible – it can be used with any number of content items and the cards in the grid can be sorted in any order, although it’s sensible to base how you order the boxes on user needs
 
 ## Components related to this
-* Category item – a component that makes up second level navigation pages, along with category header
 * Grid navigation – pattern used to structure category items on a page
+* Category item – a component that makes up second level navigation pages, along with category header
 * List navigation – third level navigation page  
 
 ## Why we use this component
@@ -32,9 +32,6 @@ Some versions of this pattern may include a gradient effect along the bottom bor
 On mobile the cards in the grid appear in a single column, stacked on top of each other. On tablet (portrait) the cards in the grid appear in two columns.  
 
 ## Supporting evidence for using this component
-None.
-
-## Website analytics and the use of this component
 There are no reported performance issues with this component from mygov or gov.scot.  
 
 ## Accessibility Features
@@ -47,5 +44,4 @@ If you need any help or want to give any feedback you can e-mail us at:
 ## Links to live examples
 
 [Mygov.scot](https://www.mygov.scot)  
-
 [Scotland: A Trading Nation](https://tradingnation.mygov.scot)

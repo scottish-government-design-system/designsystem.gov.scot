@@ -25,10 +25,7 @@ Repeated search item
 This design helps the user to browse through results. The user can also refine or amend the result.
 
 ## Supporting evidence for using this component
-None.
-
-## Website analytics and the use of this component
-There are no reported performance issues with this component from mygov or gov.scot.  
+There are no reported performance issues with this component from mygov or gov.scot.
 
 ## Accessibility Features
 Search suggestions use WAI-ARIA attributes to give more context for screen reader users. They include:  

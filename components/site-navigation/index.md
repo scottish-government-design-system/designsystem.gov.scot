@@ -15,9 +15,6 @@ phase: 1
 ## About this component
 Top level navigation is a row of core links that appear on every page of the site.
 
-## Components related to this
-Information and caution notes.
-
 ## Why we use this component
 Top level navigation gives users an overview of what’s included in the site by outlining its main categories.
 
@@ -27,9 +24,6 @@ It can also help users find the content they need quickly and easily by reflecti
 Menu may be collapsed on mobiles.  
 
 ## Supporting evidence for using this component
-None.
-
-## Website analytics and the use of this component
 There are no reported performance issues with this component from mygov or gov.scot.  
 
 ## Accessibility Features

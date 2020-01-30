@@ -26,7 +26,7 @@ The card navigation pattern is:
 ## Why we use this component
 
 The large size of the cards in the card navigation pattern allows enough space for content that previews the next level of navigation or content.
-It also creates a consistent navigational pattern for content.
+It also creates a consistent navigational pattern for displaying content.
 
 ## Other versions of this component
 
@@ -38,11 +38,8 @@ On mobile the cards in the grid appear in a single column, stacked on top of eac
 
 ## Supporting evidence for using this component
 
-None.
-
-## Website analytics and the use of this component
-
 There are no reported performance issues with this component from mygov or gov.scot.
+
 
 ## Accessibility Features
 
@@ -55,4 +52,4 @@ If you need any help or want to give any feedback you can e-mail us at:
 
 ## Links to live examples
 
-[Mygov.scot] (https://www.mygov.scot)
+[Mygov.scot](https://www.mygov.scot)

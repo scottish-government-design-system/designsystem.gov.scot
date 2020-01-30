@@ -12,16 +12,16 @@ phase: 2
 
 
 ## About this component
-Contact details is a component that gives a consistent way to display the contact details of an organisation within a website’s content. It includes quick links to an organisation’s email, social media and other direct contact details.  
+Contact details is a component that gives a consistent way to display the contact details of an organisation within a website’s content. It can include links to an organisation’s email, social media and other direct contact details.  
 
 When using the pattern, you should make sure:
 * the order of the contact details are based on user needs, with the most used content format at the top
 * only one email address is given  
 
-It can also be useful to use social media logos with a corresponding social media address, such as a Twitter logo with a Twitter address, to help make social media addresses more recognisable to users.
+Social media logos are included to help make social media addresses more recognisable to users.
 
 ## Why we use this component
-Giving contact details their own distinct design pattern, separate from the rest of the content on a web page, can help users to quickly engage with contact details when they need to. It also helps them skip past this content if they don’t need it.
+Giving contact details their own distinct design pattern, separate from the rest of the content on a web page, can help users to quickly find contact details when they need to. The recognisable format of contact details helps users to skip past this content if they don’t need it.
 
 ## Supporting evidence for using this component
 

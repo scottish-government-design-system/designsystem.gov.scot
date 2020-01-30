@@ -14,13 +14,13 @@ The site header tells users what site they are visiting and introduces site bran
 
 ## Components related to this
 Search field
-Primary navigation
+Site navigation
 Phase label
 
 ## Why we use this component
 The site header means users can navigate pages without having to go back to the top of the page.
 
-Having primary navigation, or search, in the header also gives users a way of getting their bearings in the site and allows easy access to other parts of the site.
+Having site navigation or search in the header also gives users a way of getting their bearings in the site and allows easy access to other parts of the site.
 
 It also means users who have not come via the homepage have a way to identify which site they’re on.
 
@@ -30,20 +30,17 @@ We’ve avoided using second level interactive navigation because of usability c
 1.	Plain header
 2.	Plain header with logo and site title
 3.	Header with search
-4.	Header with primary navigation
-5.	Header with search and primary navigation
+4.	Header with site navigation
+5.	Header with search and site navigation
 6.	Header with Phase Label  
 
 ## Mobile version
-Navigation links may form part of an expandable. This is represented in the header by a burger /menu icon.
+Site navigation is hidden from view until the user clicks or taps on a 'menu' button.
 
 ## Supporting evidence for using this component
-None.  
-
-## Website analytics and the use of this component
 Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
 
-Users were more likely to navigate to site sections of gov.scot using the primary site navigation in the header, rather than using homepage panel items (Google Analytics, July 2019)  
+Users were more likely to navigate to site sections of gov.scot using the primary site navigation in the header, rather than using homepage panel items (Google Analytics, July 2019)
 
 ## Accessibility Features
 * Links in the header including the branding need to have clear focus and hover states to meet accessibility requirements. (link to separate page explaining why this is important)

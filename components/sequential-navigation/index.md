@@ -33,9 +33,6 @@ It allows users to navigate pages without having to go back to the top of the pa
 Next is stacked above previous on the page.  
 
 ## Supporting evidence for using this component
-None.
-
-## Website analytics and the use of this component
 Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation. (Google Analytics, 2019)  
 
 ## Accessibility Features

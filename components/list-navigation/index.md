@@ -10,9 +10,9 @@ phase: 2
 ---
 
 ## About this component
-The list navigation pattern orders content links into a list.
+The list navigation pattern presents category items in a list.
 It is used as the third level of navigation, after <card navigation>(#) and <category items>(#).
-Items in the list can be limelighted. Items that are limelighted always appear at the top of the list.
+Items in the list can be limelighted. Items that are highlighted always appear at the top of the list.
 Other items in the list may be sorted in any order.
 
 ## Components related to this
@@ -24,9 +24,6 @@ Other items in the list may be sorted in any order.
 The list pattern of category items provides a third level of navigation after the second level of navigation.
 
 ## Supporting evidence for using this component
-None.  
-
-## Website analytics and the use of this component
 There are no reported performance issues with this component from mygov or gov.scot.
 
 ## Accessibility Features

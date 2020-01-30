@@ -12,13 +12,13 @@ phase: 1
 
 ## About this component
 
-The breadcrumb is a sequence of links that shows where a currently viewed page sits in a website’s structure. The breadcrumb goes back to the home page via every step back from the current page.
+A breadcrumb trail is made up of a sequence of links which show where a currently viewed page sits in a website’s structure. Breadcrumb links go back to the home page via every step back from the current page.
 
-When using a breadcrumb:
+When using a breadcrumb trail:
 * it should include the user’s current page
-* the text of the current page link should be different to the other links in the breadcrumb
+* the text of the current page link should be different from the other links in the breadcrumb
 
-A breadcrumb should be used if a website has 2 or more levels in its structure.
+Breadcrumbs should be used if a website has 2 or more levels in its structure.
 
 If the page or website has a side or top level navigation, a breadcrumb may not be needed.
 
@@ -28,11 +28,11 @@ Breadcrumbs are a standard web pattern used to support user navigation.
 
 ## Other versions of this component
 
-If the page titles in the breadcrumb are very long or if the structure repeats page titles, the current page doesn’t always need to be displayed. If this is the case, the current page title should still be available to screen readers.
+If the page titles in the breadcrumb trail are very long or if the structure repeats page titles, the current page doesn’t always need to be displayed. If this is the case, the current page title should still be available to screen readers.
 
 ## Supporting evidence for using this component
 
-There is evidence from mygov.scot that users interact with the breadcrumb more than other forms of navigation, e.g. in-page panel links or back swipe button. (mygov.scot and gov.scot Google Analytics, July 2019)
+There is evidence from mygov.scot that users interact with the breadcrumbs more than other forms of navigation, e.g. in-page panel links or back swipe button. (mygov.scot and gov.scot Google Analytics, July 2019)
 
 ## Website analytics and the use of this component
 
