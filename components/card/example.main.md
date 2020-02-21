@@ -7,5 +7,7 @@ style: "body {background: #f8f8f8;}"
 ---
 
 <div class="ds_card">
-    Hello!
+    <div class="ds_card__content">
+        Hello!
+    </div>
 </div>

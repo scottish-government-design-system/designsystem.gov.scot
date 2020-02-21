@@ -45,3 +45,20 @@ If you need any help or want to give any feedback you can e-mail us at:
 
 [Mygov.scot](https://www.mygov.scot)  
 [Scotland: A Trading Nation](https://tradingnation.mygov.scot)
+
+## Usage examples
+
+### Arbitrary content
+
+{% include example-frame.html name="content" %}
+
+### Card with category item and image
+
+{% include example-frame.html name="media" %}
+
+
+### A Design System component
+
+This example demonstrates using a [metadata](/components/metadata) block on a card.
+
+{% include example-frame.html name="component" %}
