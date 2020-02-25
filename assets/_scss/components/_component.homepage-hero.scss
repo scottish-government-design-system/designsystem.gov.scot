@@ -1,0 +1,138 @@
+.#{$dss-prefix}homepage-hero {
+    margin: 21px 0 28px;
+
+    &__container {
+        background-color: $color__brand--primary;
+    }
+
+    &__cta {
+        .#{$pl-prefix}button {
+            font-weight: bold;
+        }
+
+        :first-child {
+            margin-top: 0;
+        }
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__header {
+        border-left: 0;
+        margin-bottom: 28px;
+        padding-left: 0;
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__title {
+        font-weight: $bold;
+    }
+
+    &__summary {
+        font-weight: $normal;
+        font-size: 1rem;
+        line-height: 28px;
+        margin-bottom: 28px;
+        padding-right: 30px;
+    }
+
+    &__media {
+        display: block;
+        margin: 0;
+        max-width: unset;
+        width: 100%;
+    }
+
+    @include layout();
+}
+
+@include media-query(medium) {
+    .#{$dss-prefix}homepage-hero {
+        &__header {
+            float: left;
+            @include colwidth(12);
+        }
+
+        &__media-container {
+            float: left;
+            @include colwidth(6);
+        }
+
+        &__summary {
+            float: left;
+            @include colwidth(6);
+        }
+    }
+}
+
+@include media-query(large) {
+    .#{$dss-prefix}homepage-hero {
+        &__media-container {
+            float: left;
+            @include colwidth(4);
+        }
+
+        &__summary {
+            float: left;
+            @include colwidth(8);
+        }
+    }
+}
+
+@supports(display: grid) {
+    .#{$dss-prefix}homepage-hero {
+        align-items: center;
+        grid-gap: $grid-gap-y 10px;
+        margin: 28px 0 35px;
+
+        &__header {
+            margin-bottom: 0;
+        }
+    }
+
+    @include media-query(medium) {
+        .#{$dss-prefix}homepage-hero {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-areas:
+                'h h h h h h h h h h h h'
+                's s s s s s m m m m m m';
+
+            &__header {
+                float: none;
+                grid-area: h;
+            }
+
+            &__media-container {
+                float: none;
+                margin-right: 0;
+                max-width: 100%;
+
+                grid-area: m;
+            }
+
+            &__summary {
+                float: none;
+                grid-area: s;
+            }
+        }
+    }
+
+    @include media-query(large) {
+        .#{$dss-prefix}homepage-hero {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-areas:
+                'h h h h h h h h m m m m'
+                's s s s s s s s m m m m';
+        }
+    }
+}
+
+
+.#{$dss-prefix}homepage-hero__container.ds_reversed {
+    color: white;
+}

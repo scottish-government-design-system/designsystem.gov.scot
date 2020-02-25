@@ -48,7 +48,22 @@
 
                                 <h1 class="ds_page-header__title">{{ page.title }}</h1>
                             </div>
-                        </header>
+
+
+
+                            {% if page.experimental %}
+                            <div class="ds_phase-banner">
+                                <p class="ds_phase-banner__content  ds_phase-banner__content--stacked">
+                                    <strong class="ds_tag  ds_phase-banner__tag">
+                                        Experimental
+                                    </strong>
+                                    <span class="ds_phase-banner__text">
+                                        This component is currently experimental because more research is needed to validate it.
+                                    </span>
+                                </p>
+                            </div>
+                            {% endif %}
+                       </header>
                     </div>
 
                     <div class="ds_layout__content">

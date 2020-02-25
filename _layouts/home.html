@@ -6,9 +6,13 @@
 <body class="layout--home">
 
 <style>
-
-.zebra:nth-child(2n) {
+body {
     background-color: #f8f8f8;
+}
+
+
+.zebra:nth-child(2n-1) {
+    background-color: #fff;
     border: 1px solid #ddd;
     border-width: 1px 0;
 }
@@ -25,6 +29,7 @@
 {% include skip-links.html %}
 
 <div class="ds_page">
+
     <div class="ds_page__top">
         {% include notifications.html %}
         {% include site-header.html %}
@@ -35,24 +40,68 @@
 
         <main id="main-content">
 
-            <section id="welcome" class="zebra">
-                <div class="ds_wrapper">
-                    <div class="ds_category-header">
-                        <header class="ds_category-header__header">
-                            <h1 class="ds_category-header__title">About the design system</h1>
-                            <div class="ds_category-header__summary">
-                                <p>The Digital Scotland Design System provides static web assets for websites and web applications for
-                                        the Scottish Government and other Scottish public sector bodies.</p>
+            <section id="welcome">
+                <div class="dss_homepage-hero__container  ds_reversed">
+                    <div class="ds_wrapper">
+                        <div class="dss_homepage-hero">
+                            <header class="dss_homepage-hero__header">
+                                <h1 class="dss_homepage-hero__title">Design and build digital services for the Scottish Government</h1>
+                            </header>
+                            <div class="dss_homepage-hero__summary">
+                                <p>The design system enables you to use our styles, components and patterns. Things you need to make consistent, usable services that put people first.</p>
 
-                                <a href="#" class="ds_button  ds_button--primary">Learn more</a>
+                                <div class="dss_homepage-hero__cta">
+                                    <a href="#" class="ds_button  ds_button--fixed">Learn more</a>
+                                </div>
                             </div>
-                        </header>
-                        <div class="ds_category-header__media-container">
-                            <video class="welcome__video  ds_category-header__media" src="/assets/images/examples/category-header-design-standards.svg" alt=""></video>
+                            <div class="dss_homepage-hero__media-container">
+                                <video class="welcome__video  dss_homepage-hero__media" src="/assets/images/examples/category-header-design-standards.svg" alt=""></video>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            {% if page.sortfield %}
+                {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
+            {% else %}
+                {% assign indexed = site.pages | where:"category", page.navitems | sort: 'title', "first" %}
+            {% endif %}
+
+            {%if indexed.size > 0 %}
+                <section id="library" class="zebra">
+                    <div class="ds_wrapper">
+                        <div class="ds_category-list-container">
+                            <ol class="main  ds_category-list  ds_category-list--grid  ds_category-list--narrow">
+
+                                {% if page.sortfield %}
+                                    {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
+                                {% else %}
+                                    {% assign indexed = site.pages | where:"category", page.navitems | sort: 'title', "first" %}
+                                {% endif %}
+
+                                {% for item in indexed %}
+                                    <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
+                                        <article class="ds_category-item">
+                                            <h2 class="ds_category-item__title">
+                                                <a data-navigation="category-item-{{forloop.index}}" href="{{ item.url }}" class="ds_category-item__link">
+                                                    {{item.title}}
+                                                </a>
+                                            </h2>
+
+                                            {% if item.summary %}
+                                                <p class="ds_category-item__summary">
+                                                    {{ item.summary }}
+                                                </p>
+                                            {% endif %}
+                                        </article>
+                                    </li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+            {% endif %}
 
             {% assign indexed = site.pages | where:"showcase", 'true' | sort: 'title', 'first' %}
             {%if indexed.size > 0 %}

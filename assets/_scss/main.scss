@@ -3,6 +3,11 @@
 
 
 
+$dss-prefix: 'dss_';
+
+
+
+
 /**
  * GRID/LAYOUT
  */
@@ -41,6 +46,7 @@
 
 // /* for homepage */
 @import "components/component.case-study";
+@import "components/component.homepage-hero";
 @import "components/component.showcase";
 @import "components/component.skip-links";
 @import "components/component.sub-banner";
