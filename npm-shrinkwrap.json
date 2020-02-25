@@ -707,7 +707,7 @@
       }
     },
     "@scottish-government/pattern-library": {
-      "version": "0.0.50",
+      "version": "0.0.52",
       "dev": true,
       "integrity": "sha512-m+0Vuds+HSsJ8vRzMqDB3qOs/4f7xsgpn81yb1HIXlwPxadAGVRprb6R37Hi+koMlJ5tM6TMmVpfir7VyZyZ6g=="
     },
