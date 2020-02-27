@@ -4,7 +4,7 @@ title: "Sequential navigation"
 category: components
 parent: components
 thispage: component.sequential-navigation
-summary: "Links to previous and next pages in a sequence."
+summary: "A ‘next’ and ‘previous’ link to pages that come before or after the user’s current web page."
 type: major
 phase: 1
 
@@ -19,7 +19,11 @@ examples:
 
 
 ## About this component
-Sequential navigation shows links to the next and previous page in a sequence.  
+Sequential navigation is displayed at the bottom of content pages where there’s a clear next or previous page, such as a step-by-step guide spread over several web pages.
+
+If it’s the first page of content, the ‘previous’ link will not show. If it’s the last page, the ‘next’ link will not show.
+
+On mobile, the ‘next’ link displays stacked above the ‘previous’ link.
 
 ## Components related to this
 Site search
@@ -27,19 +31,10 @@ Pagination
 Repeated search item  
 
 ## Why we use this component
-It allows users to navigate pages without having to go back to the top of the page.  
+Sequential navigation allows users to navigate without having to go back to navigational links at the top of a page.
 
-## Mobile version
-Next is stacked above previous on the page.  
-
-## Supporting evidence for using this component
-Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation. (Google Analytics, 2019)  
-
-## Accessibility Features
-•	Input from Mark/Kevin needed to confirm tab index
-•	Input from Mark/Kevin needed to confirm  Aria label
-
-Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
+## Website analytics
+Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation.
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:

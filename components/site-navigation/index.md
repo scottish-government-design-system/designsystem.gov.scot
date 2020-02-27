@@ -4,6 +4,7 @@ title:  "Site navigation"
 category: components
 parent: components
 thispage: component.site-navigation
+summary: "The main navigation on a website, site navigation is a row of core links that appears on every page."
 type: minor
 phase: 1
 #examples:
@@ -13,21 +14,14 @@ phase: 1
 ---
 
 ## About this component
-Top level navigation is a row of core links that appear on every page of the site.
+Site navigation arranges key links into a row and should go at the top of a website.
+
+Links may be collapsed into an expandable ‘menu’ button on mobiles.
 
 ## Why we use this component
-Top level navigation gives users an overview of what’s included in the site by outlining its main categories.
+Top level navigation gives users an overview of what’s included in a site by outlining its main categories.
 
-It can also help users find the content they need quickly and easily by reflecting the main things users want to do on, or find out from, the site.   
-
-## Mobile version
-Menu may be collapsed on mobiles.  
-
-## Supporting evidence for using this component
-There are no reported performance issues with this component from mygov or gov.scot.  
-
-## Accessibility Features
-Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
+It can also help users find key content quicker.
 
 ## Feedback, help or support
 If you need any help or want to give any feedback you can e-mail us at:
