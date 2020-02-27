@@ -10,7 +10,6 @@ phase: 2
 ---
 
 ## About this component
-
 The list navigation pattern presents category items in a list.
 It is used as the third level of navigation, after <card navigation>(#) and <category items>(#).
 Items in the list can be limelighted. Items that are highlighted always appear at the top of the list.

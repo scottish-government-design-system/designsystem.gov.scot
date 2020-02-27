@@ -4,15 +4,27 @@ title:  "Site header"
 category: components
 parent: components
 thispage: component.site-header
-summary: "The site header contains key branding and the title of a website. It appears on every page."
+summary: "The site header tells users what site they are visiting and introduces any site branding."
 type: major
 phase: 1
 ---
 
 ## About this component
-The site header introduces wider site branding, such as the main colours in a site’s colour palette. It appears at the top of every page and can include an optional search field and primary site navigation.
+The site header tells users what site they are visiting and introduces site branding. It appears at the top of every page and can include an optional search field and primary navigation.
 
-On a mobile, site navigation is hidden from view until the user clicks or taps on a ‘menu’ button.
+## Components related to this
+Search field
+Site navigation
+Phase label
+
+## Why we use this component
+The site header means users can navigate pages without having to go back to the top of the page.
+
+Having site navigation or search in the header also gives users a way of getting their bearings in the site and allows easy access to other parts of the site.
+
+It also means users who have not come via the homepage have a way to identify which site they’re on.
+
+We’ve avoided using second level interactive navigation because of usability concerns.
 
 ## Other versions of this component
 1.	Plain header
@@ -22,27 +34,21 @@ On a mobile, site navigation is hidden from view until the user clicks or taps o
 5.	Header with search and site navigation
 6.	Header with Phase Label  
 
-## Components related to this
-Search field
-Site navigation
-Phase label
+## Mobile version
+Site navigation is hidden from view until the user clicks or taps on a 'menu' button.
 
-## Why we use this component
-The site header is ‘sticky’, which means it stays at the top of a browser window even when a user scrolls a page. This means users can navigate to key pages and access a site’s search box without having to get back to the top of a page.
-
-It also helps a user quickly recognise a website, for example if they don’t come to a website via a homepage, or they have multiple tabs open and are switching back and forth between tabs.
-
-We’ve avoided using second level interactive navigation because of usability concerns.
-
-## Website analytics
+## Supporting evidence for using this component
 Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
 
-Users were also more likely to navigate to site sections of gov.scot using the site header’s primary navigation than using the same links on panels lower down the homepage.
+Users were more likely to navigate to site sections of gov.scot using the primary site navigation in the header, rather than using homepage panel items (Google Analytics, July 2019)
 
 ## Accessibility Features
-* Links in the header, including branding, need to have clear focus and hover states to meet accessibility requirements.
-* Branded images used within the headers should have meaningful alternative text.
-* The search box in the header should include all the accessibility features of standard forms but there’s no need to include error messaging. Error messages can be moved into the search results page.
+* Links in the header including the branding need to have clear focus and hover states to meet accessibility requirements. (link to separate page explaining why this is important)
+* Branded images used within the headers should have meaningful alternative text. (link to separate page explaining why this is important)
+* Also need to cover keyboard triggers
+* Search forms in the header should include all the accessibility features for forms as outlined in.
+* There’s no need to include error messaging in the form field. This can be moved into the search results page.
+* Include a ‘Skip to main content’ link. Ideally this is visible as it can be of value to a broad range of users.
 
 Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 

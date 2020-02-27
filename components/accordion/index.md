@@ -5,7 +5,7 @@ category: components
 parent: components
 label: pattern
 thispage: component.accordion
-summary: "An accordion is a list of collapsed content items. A user can expand any item in the list to view its contents."
+summary: "Expandable blocks of content."
 type: major
 phase: 2
 
@@ -13,25 +13,39 @@ phase: 2
 
 ## About this component
 
-An accordion is made up of in-page links. When one of the links is selected, the link will expand to reveal its contents. If the same link is selected again, its contents will collapse and be hidden once again. Multiple links can be open at the same time.
+Multiple in-page links, indicated by ‘open/close’ arrow icons, allow users to open/close distinct sections of content.
 
-If needed, there's an option to have an "Open all" and "Close all" function.
+Use of the accordion list should be based on user needs. For example, an accordion could be used when it’s expected users would only need to view one or two items from a longer list of distinct content options.
 
-An accordion cannot be nested inside another accordion.
+Other considerations:
+* opened content remains open until closed by the user, even when other content in the accordion list is opened
+* an accordion list cannot be nested inside another accordion list
 
 ## Why we use this component
 
-Sometimes, content is displayed best when it's broken into small chunks, with users able to pick the particular chunk they need from a longer list of accordion options. When thinking about using an accordion it should be tested with users, alongside other options, to find the best way to display content.
+When user needs clearly suggest that users will only need to select one or two small items of content from a longer list of options, the use of an accordion may help the user to choose the content they need quickly.
 
-## Website analytics
+## Other versions of this component
+
+There is an option to have an "Open all" and "Close all" function.
+
+## Supporting evidence for using this component
 
 There are no reported performance issues with this component from mygov or gov.scot.
 
+## Website analytics and the use of this component
+
 To understand user behaviour when using this component, the open/close arrow, or the "Open all"/"Close all" links can be tracked through the original page path.
+
+## Accessibility
+
+Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
 ## Feedback, help or support
 
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
+If you need any help or want to give any feedback you can e-mail us at:
+[designsystem@gov.scot](mailto:designsystem@gov.scot)  
+
 
 ## Links to live examples
 
