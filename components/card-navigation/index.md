@@ -1,54 +1,53 @@
 ---
 layout: component
-title: "Card navigation"
+title: "Navigational pages"
 category: components
 parent: components
 thispage: component.card-navigation
-summary: "A navigational pattern providing titles and descriptions on cards which link to content pages and are displayed in a grid format."
+summary: "Navigational pages display headings and small pieces of content to help users navigate a website."
 type: major
 phase: 1
 ---
 
 ## About this component
 
-The ‘card’ navigation pattern is a three column grid that separates uniform boxes. These boxes should contain links to the next level of navigation or to content.
+We use three main types of navigational pages:
 
-The card navigation pattern is:
-* the first level of navigation on the site
-* flexible – it can be used with any number of content items and the cards in the grid can be sorted in any order, although it’s sensible to base how you order the boxes on user needs
+* Box navigation - displays hyperlinked headings and summary content in rows of large boxes on desktops and tablets, a single column on mobile
+* Grid navigation - orders hyperlinked headings and summary content into rows without boxes on desktops and tablets, a single column on mobile
+* List navigation - orders hyperlinked headings and summary content into a list
+
+### Box navigation
+
+All boxes should contain links.
+
+Single boxes can be ‘highlighted’ to make them stand out from others on the page.
+
+### Grid navigation
+
+Although there are no boxes, there is a single, left-hand side line running the total length of each text area (heading plus summary content).
+
+### List navigation
+
+Links in a navigational list can be highlighted. Links that are highlighted always appear at the top of the list. Other items in the list may be sorted in any order.
+
+## Other versions of these components
+
+Some versions of box navigation may include a gradient effect along the bottom border of individual boxes.
 
 ## Components related to this
 
-* Category item – a component that makes up second level navigation pages, along with category header
-* Grid navigation – pattern used to structure category items on a page
-* List navigation – third level navigation page
+Category header
 
-## Why we use this component
+## Why we use these components
 
-The large size of the cards in the card navigation pattern allows enough space for content that previews the next level of navigation or content.
-It also creates a consistent navigational pattern for displaying content.
+Features of these components, such as the large size of the boxes in the box navigation component, help space out content to make it easier for users to find the content they need.
 
-## Other versions of this component
-
-Some versions of this pattern may include a gradient effect along the bottom border of individual cards.
-
-## Mobile version
-
-On mobile the cards in the grid appear in a single column, stacked on top of each other. On tablet (portrait) the cards in the grid appear in two columns.  
-
-## Supporting evidence for using this component
-
-There are no reported performance issues with this component from mygov or gov.scot.
-
-
-## Accessibility Features
-
-Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
+These components can also be reused across websites, creating a consistent experience for users and cutting development time.
 
 ## Feedback, help or support
 
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)  
+[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
 
 ## Links to live examples
 
