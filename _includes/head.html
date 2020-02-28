@@ -19,15 +19,15 @@
     <![endif]-->
     <script src="/assets/scripts/polyfills/svgxuse.js"></script>
 
-
     <!--Google Google Search Console-->
     <meta name="google-site-verification" content="8573_cJ_2yHLOp_X1lSUnN_H1ic44M6f7GBUObm-5_A" />
+
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','{{ site.gtm_code }}');</script>
+    <!-- Browsers with ES module support load this file -->
+    <script type="module" src="/assets/scripts/dist/gtm.js"></script>
+    <!-- Older browsers load this file -->
+    <!-- (and module-supporting browsers know *not* to load this file) -->
+    <script nomodule src="/assets/scripts/dist/gtm.es5.js"></script>
     <!-- End Google Tag Manager -->
 
     {% if page.phase > site.maxphase %}

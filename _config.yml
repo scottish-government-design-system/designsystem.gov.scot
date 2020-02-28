@@ -4,7 +4,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patternlibrary.mygov.scot" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #scotgov
 github_username: #scottishgovernment
-gtm_code: GTM-KB7CX3S
 examples_gtm_code: GTM-5S47S9Z
 sass:
     sass_dir: assets/_scss

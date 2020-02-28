@@ -4,6 +4,9 @@ const commonEntries = {
   'cookie': [
     path.resolve(__dirname, 'assets/scripts/cookies.js')
   ],
+  'gtm': [
+    path.resolve(__dirname, 'assets/scripts/gtm.js')
+  ],
   'pattern-library': [
     path.resolve(__dirname, 'assets/scripts/all.js')
   ]
