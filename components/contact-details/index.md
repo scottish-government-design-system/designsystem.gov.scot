@@ -28,13 +28,11 @@ Giving contact details their own distinct design pattern, separate from the rest
 
 It also helps users to quickly skip past this content if they don’t need it.
 
-## Supporting evidence for using this component
+## Website analytics
 
 Around 3% of internal searches on mygov.scot are for contact details.
 
 Contact details components can also be returned by Google in ‘smart search’ results. As an example, about four times the number of users find Disclosure Scotland’s contact details from the mygov.scot website in a Google ‘smart search’ results page than they do on mygov.scot.  
-
-## Website analytics
 
 To track this component:
 

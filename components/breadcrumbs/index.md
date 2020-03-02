@@ -34,7 +34,7 @@ Breadcrumbs are online best practice for supporting user navigation.
 
 There is evidence from mygov.scot that users interact with the breadcrumbs more than other forms of navigation, for example in-page panel links or the back swipe button.
 
-## Accessibility Features
+## Accessibility features
 
 * Use of a <nav> element with aria-label="breadcrumb" is recommended. You can find out more about this on [GitHub](https://github.com/alphagov/govuk-design-system-backlog/issues/33).
 * This breadcrumb component contains all the accessibility features for breadcrumbs described in WAI-ARIA’s authoring practices for breadcrumbs.

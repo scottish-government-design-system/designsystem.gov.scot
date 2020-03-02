@@ -15,15 +15,13 @@ phase: 2
 
 An accordion is made up of in-page links. When one of the links is selected, the link will expand to reveal its contents. If the same link is selected again, its contents will collapse and be hidden once again. Multiple links can be open at the same time.
 
-An accordion cannot be nested inside another accordion.
-
-## Other versions of this component
-
 There is an option to have an "Open all" and "Close all" function.
+
+An accordion cannot be nested inside another accordion.
 
 ## Why we use this component
 
-Sometimes, content is displayed best when it's broken into small chunks, with users able to pick the particular chunk they need from a longer list of accordion options. When thinking about using an accordion, it should be tested with users, alongside other options, to find the best way to display content.
+Sometimes, content is displayed best when it's broken into small chunks, with users able to pick the particular chunk they need from a longer list of accordion options. When thinking about using an accordion it should be tested with users, alongside other options, to find the best way to display an individual item of content.
 
 ## Website analytics
 
@@ -33,8 +31,7 @@ To understand user behaviour when using this component, the open/close arrow, or
 
 ## Feedback, help or support
 
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)  
+[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
 
 ## Links to live examples
 

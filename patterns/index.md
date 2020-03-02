@@ -9,7 +9,7 @@ childrenHavePrevNext: true
 index: 2
 summary: "Patterns use a number of components to help users complete a task or process."
 ---
-Patterns are made up of two or more [components](#).
+Patterns are made up of two or more [components](https://designsystem.gov.scot/components/).
 
 Patterns can help users complete a task with multiple stages. They can also help solve complex usability issues.
 

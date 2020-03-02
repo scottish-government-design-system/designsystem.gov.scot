@@ -19,6 +19,7 @@ examples:
 
 
 ## About this component
+
 Sequential navigation is displayed at the bottom of content pages where there’s a clear next or previous page, such as a step-by-step guide spread over several web pages.
 
 If it’s the first page of content, the ‘previous’ link will not show. If it’s the last page, the ‘next’ link will not show.
@@ -26,20 +27,22 @@ If it’s the first page of content, the ‘previous’ link will not show. If i
 On mobile, the ‘next’ link displays stacked above the ‘previous’ link.
 
 ## Components related to this
-Site search
-Pagination
-Repeated search item  
+
+[Site search](https://designsystem.gov.scot/components/site-search/)
 
 ## Why we use this component
+
 Sequential navigation allows users to navigate without having to go back to navigational links at the top of a page.
 
 ## Website analytics
+
 Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation.
 
 ## Feedback, help or support
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)
+
+[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
 
 ## Links to live examples
+
 [Mygov.scot](https://www.mygov.scot/childcare-costs-help/)
 [Scotland: A Trading Nation](https://tradingnation.mygov.scot/country-profiles/usa/)

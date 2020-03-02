@@ -4,7 +4,7 @@ title:  "Base grid"
 category: styles
 parent: styles
 thispage: style.base-grid
-summary: The column grid used for page layouts
+summary: The column grid used for page layouts.
 phase: 1
 ---
 
@@ -26,13 +26,9 @@ This example is intended for illustration purposes only, and the HTML and CSS co
 
 {% include example-frame-base-grid.html name="interactive" caption="Half-scale interactive demo" resize=true %}
 
-## Mobile Version
+## Mobile version
 
 The individual boxes of the grid span the width of the whole page on a mobile.
-
-## User research that supports using this component
-
-TBC
 
 ## Feedback, help or support
 

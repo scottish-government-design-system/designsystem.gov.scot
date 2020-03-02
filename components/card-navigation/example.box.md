@@ -3,7 +3,6 @@ layout: example
 parent: component.card-navigation
 type: example
 index: 0
-style: "body {background: #f8f8f8;}"
 ---
 
 <ol class="ds_category-list  ds_category-list--grid  ds_category-list--narrow">

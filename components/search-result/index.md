@@ -31,7 +31,7 @@ On a mobile, a ‘Load more’ button is shown rather than a list of page number
 
 ## Components related to this
 
-Site search
+[Site search](https://designsystem.gov.scot/components/site-search/)
 
 ## Why we use this component
 
@@ -41,7 +41,7 @@ The design of the component helps the user to browse their search results, or to
 
 There are no reported performance issues with this component from mygov or gov.scot.
 
-## Accessibility Features
+## Accessibility features
 
 Search suggestions use WAI-ARIA attributes to give more context for screen reader users. They include:  
 

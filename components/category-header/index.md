@@ -32,7 +32,7 @@ The different versions of this header are a version:
 
 ## Components related to this
 
-Navigational pages
+[Navigational pages](https://designsystem.gov.scot/components/card-navigation/)
 
 ## Feedback, help or support
 

@@ -19,15 +19,21 @@ We use three main types of navigational pages:
 
 ### Box navigation
 
+{% include example-frame.html name="box" %}
+
 All boxes should contain links.
 
 Single boxes can be ‘highlighted’ to make them stand out from others on the page.
 
 ### Grid navigation
 
+{% include example-frame.html name="grid" %}
+
 Although there are no boxes, there is a single, left-hand side line running the total length of each text area (heading plus summary content).
 
 ### List navigation
+
+{% include example-frame.html name="list" %}
 
 Links in a navigational list can be highlighted. Links that are highlighted always appear at the top of the list. Other items in the list may be sorted in any order.
 
@@ -37,7 +43,7 @@ Some versions of box navigation may include a gradient effect along the bottom b
 
 ## Components related to this
 
-Category header
+[Category header](https://designsystem.gov.scot/components/category-header/)
 
 ## Why we use these components
 
