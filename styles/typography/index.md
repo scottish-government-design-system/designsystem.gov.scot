@@ -39,4 +39,4 @@ To make sure your font is clear on mobile devices, you’ll need to add a variet
 
 You can take a look at WCAG Standards for more advice on typography minimum sizing.
 
-Find the full range of CSS typographic styles for Digital Scotland Design System in Github.
+Find the full range of CSS typographic styles for Digital Scotland Design System in GitHub.
