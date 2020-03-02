@@ -57,5 +57,6 @@ Find out more about accessibility requirements that should be applied to all onl
 [Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
 
 ## Links to live examples
-[Mygov.scot](https://www.mygov.scot/search/?q=education&cat=sitesearch)
-[Gov.scot](https://www.gov.scot/search/?q=publications)
+
+- [Mygov.scot](https://www.mygov.scot/search/?q=education&cat=sitesearch)
+- [Gov.scot](https://www.gov.scot/search/?q=publications)

@@ -22,7 +22,7 @@ On a mobile, site navigation is hidden from view until the user clicks or taps o
 3.	Header with search
 4.	Header with site navigation
 5.	Header with search and site navigation
-6.	Header with Phase Label  
+6.	Header with phase banner
 
 ## Components related to this
 
