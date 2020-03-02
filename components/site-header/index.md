@@ -44,12 +44,6 @@ Analytics evidence from mygov.scot and gov.scot shows that users are familiar wi
 
 Users were also more likely to navigate to site sections of gov.scot using the site header’s primary navigation than using the same links on panels lower down the homepage.
 
-## Accessibility features
-
-* Links in the header, including branding, need to have clear focus and hover states to meet accessibility requirements.
-* Branded images used within the headers should have meaningful alternative text.
-* The search box in the header should include all the accessibility features of standard forms but there’s no need to include error messaging. Error messages can be moved into the search results page.
-
 ## Feedback, help or support
 
 [Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
