@@ -29,7 +29,7 @@ The form should have a role of 'Search'.
 
 ## Website analytics
 
-Searches from search boxes are tracked as standard via analytics site search settings through the use of the "q" parameter. 
+Searches from search boxes are tracked as standard via analytics site search settings through the use of the "q" parameter.
 
 ## Feedback, help or support
 
@@ -37,5 +37,5 @@ Searches from search boxes are tracked as standard via analytics site search set
 
 ## Links to live examples
 
-[Mygov.scot](https://www.mygov.scot)
-[Gov.scot](https://www.gov.scot)
+- [Mygov.scot](https://www.mygov.scot)
+- [Gov.scot](https://www.gov.scot)
