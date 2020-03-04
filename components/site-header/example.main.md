@@ -29,19 +29,19 @@ minheight: '427px'
 
                         <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
                             <span class="visually-hidden">Search</span>
-                            <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+                            <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                         </button>
                     </div>
                 </form>
             </div>
         </div>
 
-        <nav role="navigation" data-module="ds-mobile-navigation-menu">
+        <nav data-module="ds-mobile-navigation-menu">
             <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
                 <span class="ds_site-header__control-text">Menu</span>
 
-                <svg class="ds_icon  ds_site-header__control-icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
-                <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
+                <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
+                <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>
 
             <div id="mobile-navigation-menu" class="ds_mobile-navigation" data-offsetselector=".ds_site-header">
@@ -57,7 +57,7 @@ minheight: '427px'
 
                                     <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
                                         <span class="visually-hidden">Search</span>
-                                        <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+                                        <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                                     </button>
                                 </div>
                             </form>

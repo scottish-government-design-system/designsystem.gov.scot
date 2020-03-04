@@ -7,7 +7,7 @@ index: 999
 
 ### Configuration options
 
-The link colour of the accordions' title text can be overridden, though blue is more commonly recognised as a link colour.
+The colour of the accordions' title text can be overridden, though blue is more commonly recognised as a link colour.
 
 `$accordion__header-color`
 

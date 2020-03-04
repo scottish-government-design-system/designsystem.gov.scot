@@ -5,12 +5,12 @@ type: example
 index: 0
 ---
 
-<nav role="navigation" data-module="ds-mobile-navigation-menu">
+<nav data-module="ds-mobile-navigation-menu">
     <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
         <span class="ds_site-header__control-text">Menu</span>
 
-        <svg class="ds_icon  ds_site-header__control-icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
-        <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
+        <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
+        <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
     </button>
 
     <div id="mobile-navigation-menu" class="ds_mobile-navigation  ds_mobile-navigation" data-offsetselector=".ds_site-header">

@@ -90,7 +90,8 @@
         grid-gap: $grid-gap-y 10px;
         margin: 28px 0 35px;
 
-        &__header {
+        &__header,
+        &__summary {
             margin-bottom: 0;
         }
     }

@@ -97,7 +97,7 @@ index: 0
         <input class="ds_input  ds_input--fixed-20" type="text" id="textinput-search" />
         <a href="#" class="ds_button  ds_button--icon-only">
             <span class="visually-hidden">Search</span>
-            <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+            <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
         </a>
     </div>
 </div>

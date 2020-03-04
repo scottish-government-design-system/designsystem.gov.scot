@@ -8,7 +8,7 @@ thispage: style.buttons
 phase: 3
 ---
 
-Button styles can be applied to either button or link elements. Use the appropriate element for the task.
+Button styles can be applied to either button or link elements. Use the appropriate element for the task, i.e. use a button element when the user is performing an action, or a link element when the user is navigating.
 
 ## Types of button
 
@@ -17,21 +17,26 @@ Button styles can be applied to either button or link elements. Use the appropri
 Use this for your primary calls to action. Multiple primary buttons can confuse users. Try to have only one of these per page (or section of a page).
 
 <div class="ds_button-group">
-<a href="#" class="ds_button">Start here</a>
+<button class="ds_button">Start here</button>
 </div>
 
 ### Secondary
 
 <div class="ds_button-group">
-<a href="#" class="ds_button  ds_button--secondary">View summary</a>
+<button class="ds_button  ds_button--secondary">View summary</button>
 </div>
 
 ### Cancel/calloff
 
 <div class="ds_button-group">
-<a href="#" class="ds_button  ds_button--cancel">Cancel</a>
+<button class="ds_button  ds_button--cancel">Cancel</button>
 </div>
 
+### Disabled
+
+<div class="ds_button-group">
+<button disabled="true" class="ds_button  ds_button--cancel">Disabled button</button>
+</div>
 
 
 
@@ -97,17 +102,17 @@ Icons can be added to buttons. Buttons with icons can also have any size, type o
 <div class="ds_button-group">
 <a href="#" class="ds_button  ds_button--has-icon  ds_button--max">
     Search
-    <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+    <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
 </a><br />
 
 <a href="#" class="ds_button  ds_button--small  ds_button--secondary  ds_button--has-icon">
     Search
-    <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+    <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
 </a><br />
 
 <a href="#" class="ds_button  ds_button--cancel  ds_button--fixed  ds_button--has-icon">
     Cancel
-    <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
+    <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
 </a>
 </div>
 
@@ -118,12 +123,12 @@ Icons can be added to buttons. Buttons with icons can also have any size, type o
 <div class="ds_button-group">
     <a href="#" class="ds_button  ds_button--icon-only">
         <span class="visually-hidden">Search</span>
-        <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+        <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
     </a><br />
 
     <a href="#" class="ds_button  ds_button--icon-only  ds_button--small  ds_button--cancel">
         <span class="visually-hidden">Close</span>
-        <svg class="ds_icon" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
+        <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
     </a>
 </div>
 
