@@ -10,7 +10,7 @@ index: 999
 summary: "Best practice accessibility guidelines for web design."
 ---
 
-The Digital Scotland Design System has accessibility built in as a key feature. If there are specific accessibility notes for anything in the Design System, you’ll find them either on the component’s or pattern’s Design System page or in the page’s ‘developer notes’.
+The Digital Scotland Design System has accessibility built in as a key feature. If there are specific accessibility notes for a component or pattern in the Design System, you’ll find them with the component or pattern.
 
 This page outlines some general best practice guidelines to think about when creating digital services.
 
