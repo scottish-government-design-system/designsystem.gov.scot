@@ -6,6 +6,7 @@ parent: library
 title: "Styles"
 category: library
 childrenHavePrevNext: true
+includeInPrevNext: true
 index: 0
 summary: "Best practice guidance on core elements of digital design and web styling."
 ---
