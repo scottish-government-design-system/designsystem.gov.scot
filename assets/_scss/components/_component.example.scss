@@ -5,8 +5,8 @@
 
 
 
-$example__border-color: $color__grey--pale !default;
-$example__highlight-color: $color__link--current__background !default;
+$example__border-colour: $colour__grey--pale !default;
+$example__highlight-colour: $colour__link--current__background !default;
 
 .example {
     @include block-margins;
@@ -25,12 +25,12 @@ $example__highlight-color: $color__link--current__background !default;
 }
 
 .example__content {
-    border: 1px solid $example__border-color;
-    box-shadow: 7px 7px $example__border-color;
+    border: 1px solid $example__border-colour;
+    box-shadow: 7px 7px $example__border-colour;
 }
 
 .example__pre {
-    background-color: $example__highlight-color;
+    background-color: $example__highlight-colour;
     margin-bottom: 0;
 }
 
@@ -47,7 +47,7 @@ $example__highlight-color: $color__link--current__background !default;
 .example__link {
     @include blocklink;
 
-    background-color: $color__grey--lighter;
+    background-color: $colour__grey--lighter;
 
     display: inline-block;
     font-size: $small-size;
@@ -66,10 +66,10 @@ $example__highlight-color: $color__link--current__background !default;
 }
 
 .highlighter-rouge {
-    background-color: $example__highlight-color;
+    background-color: $example__highlight-colour;
     font-size: 0.8em;
     margin: 0 0.125em;
-    outline: 3px solid $example__highlight-color;
+    outline: 3px solid $example__highlight-colour;
 }
 
 .example .hljs {

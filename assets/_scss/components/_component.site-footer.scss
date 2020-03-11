@@ -46,8 +46,8 @@ body {
 
 
 .site-footer {
-    background: $color__blue--darker;
-    color: $color__white;
+    background: $colour__blue--darker;
+    color: $colour__white;
     padding-bottom: 35px;
 
     bottom: 0;
@@ -57,7 +57,7 @@ body {
     transform:translateZ(1px);
 
     a {
-      color: $color__white;
+      color: $colour__white;
     }
 
     &__gov-logo {
