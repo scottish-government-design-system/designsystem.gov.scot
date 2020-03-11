@@ -17,7 +17,7 @@ This page outlines some general best practice guidelines to think about when cre
 ## Keyboard interaction
 
 For keyboard users, such as people who use a screen reader, it is essential that all content can be interacted without using a mouse. For elements such as links, buttons and native form elements the browser and operating system ensures this functionality. Widgets that have no native element, such as an accordion or disclosure widget, require developers to ensure that they can be used with a keyboard.
-The [(]ARIA Authoring Practices][https://www.w3.org/TR/wai-aria-practices-1.1/] provides extensive guidance on what keyboard interactions are required for widgets.
+The [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) provides extensive guidance on what keyboard interactions are required for widgets.
 
 ## Styling for keyboard focus
 
@@ -36,13 +36,13 @@ It may be sufficient to use the same styling for ```:hover```. However, it is be
 
 For some people poor contrast between the foreground colour of text and it’s background can make the text extremely difficult or impossible to read. This applies to text on images, gradients, buttons and other elements.
 
-Ensure that the colours used in your palette are selected so that they offer a good contrast. Colours can be checked using tools such as [Tanaguru contrast finder][https://contrast-finder.tanaguru.com/]. This tool can also offer alternatives close to your selected colours.
+Ensure that the colours used in your palette are selected so that they offer a good contrast. Colours can be checked using tools such as [Tanaguru contrast finder](https://contrast-finder.tanaguru.com/). This tool can also offer alternatives close to your selected colours.
 
 ## Alternative text
 
 All images must have alternative text provided that describes the information or function of the image. A simple trick to help deciding on alternative text is to imagine you are reading the page to someone over the phone. What would you say to them about the image? Is it a graph showing a clear trend? Does it convey an idea that supports the text content? Is it a person? Are they doing something important? Or is the image simply for decoration and doesn’t add anything to the meaning of the page?
 
-The Web Accessibility Tutorials from W3C includes a useful (alt decision)[https://www.w3.org/WAI/tutorials/images/decision-tree/] tree that can help you decide what alternative text you need to include.
+The Web Accessibility Tutorials from W3C includes a useful [alt decision](https://www.w3.org/WAI/tutorials/images/decision-tree/) tree that can help you decide what alternative text you need to include.
 
 ## Heading structure
 
@@ -75,4 +75,4 @@ ARIA provides a set of attributes that add additional information to HTML elemen
 ARIA will not automagically make your HTML more accessible. Poorly used ARIA may add nothing or, worse, lead to more confusing interactions for people.
 Try to use native elements where possible.
 
-Where not possible, consult the (ARIA Authoring Practices)[https://www.w3.org/TR/wai-aria-practices-1.1/] to ensure you are using ARIA in line with best practice.
+Where not possible, consult the [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) to ensure you are using ARIA in line with best practice.
