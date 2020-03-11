@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.site-header
+parent: pattern.site-header
 
 index: 999
 ---

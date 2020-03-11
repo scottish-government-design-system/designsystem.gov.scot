@@ -1,16 +1,16 @@
 ---
 layout: component
 title: "Site footer"
-category: components
-parent: components
-thispage: component.site-footer
+category: patterns
+parent: patterns
+thispage: pattern.site-footer
 summary: "A site footer should appear at the bottom of every page and highlights links to content about the website."
 type: major
 phase: 1
 
 ---
 
-## About this component
+## About this pattern
 A site footer should include:
 
 * an additional logo, if a parent or partner organisation’s logo is needed
@@ -19,7 +19,7 @@ A site footer should include:
 
 * a copyright statement – for example, mygov.scot uses: “© Crown copyright. All content is available under the Open Government Licence v3.0, except for all graphic assets and otherwise stated.”  
 
-## Why we use this component
+## Why we use this pattern
 Site footers are a best practice web pattern used to add information about a website at the bottom of web pages.
 
 ## Website analytics

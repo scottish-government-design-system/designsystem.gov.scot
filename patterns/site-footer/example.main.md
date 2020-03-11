@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.site-footer
+parent: pattern.site-footer
 type: example
 index: 0
 style: '.example-frame__content {padding: 28px 0 0 0;}'

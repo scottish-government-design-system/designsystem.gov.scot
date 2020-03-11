@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.site-footer
+parent: pattern.site-footer
 
 index: 999
 ---

@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.site-header
+parent: pattern.site-header
 type: example
 index: 0
 style: '.example-frame__content {padding: 0;}'

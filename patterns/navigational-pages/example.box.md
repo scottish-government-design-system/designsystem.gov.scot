@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.card-navigation
+parent: pattern.navigational-pages
 type: example
 index: 0
 style: 'body{background-color:#f8f8f8}'

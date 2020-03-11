@@ -1,9 +1,9 @@
 ---
 layout: component
 title:  "Search results"
-category: components
-parent: components
-thispage: component.search-result
+category: patterns
+parent: patterns
+thispage: pattern.search-results
 summary: "A list displaying all the search results found after a user has made a search."
 type: minor
 phase: 1
@@ -13,11 +13,11 @@ phase: 1
 #    name: "Advice and guidance publication"
 ---
 
-## About this component
+## About this pattern
 
-This component includes the search results page, the ability to display multiple pages of search results and to navigate between pages.
+This pattern includes the search results page, the ability to display multiple pages of search results and to navigate between pages.
 
-Within the component:
+Within the pattern:
 
 - users can choose the page they want by clicking on a page number at the bottom of a search result page, starting at page 1
 - each individual page number contains 10 search results
@@ -33,13 +33,13 @@ On a mobile, a ‘Load more’ button is shown rather than a list of page number
 
 [Site search](https://designsystem.gov.scot/components/site-search/)
 
-## Why we use this component
+## Why we use this pattern
 
-The design of the component helps the user to browse their search results, or to refine their search term if the search results don't meet their needs.
+The design of the pattern helps the user to browse their search results, or to refine their search term if the search results don't meet their needs.
 
 ## Website analytics
 
-There are no reported performance issues with this component from mygov or gov.scot.
+There are no reported performance issues with this pattern from mygov or gov.scot.
 
 ## Accessibility features
 

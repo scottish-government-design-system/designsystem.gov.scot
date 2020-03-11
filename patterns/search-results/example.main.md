@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.search-result
+parent: pattern.search-results
 type: example
 index: 0
 note: This example has been truncated to three search results to conserve space.

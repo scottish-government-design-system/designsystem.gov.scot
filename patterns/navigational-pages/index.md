@@ -1,15 +1,15 @@
 ---
 layout: component
 title: "Navigational pages"
-category: components
-parent: components
-thispage: component.card-navigation
+category: patterns
+parent: patterns
+thispage: pattern.navigational-pages
 summary: "Navigational pages display headings and small pieces of content to help users navigate a website."
 type: major
 phase: 1
 ---
 
-## About this component
+## About this pattern
 
 We use three main types of navigational pages:
 
@@ -17,13 +17,13 @@ We use three main types of navigational pages:
 * Grid navigation - orders hyperlinked headings and summary content into rows without boxes on desktops and tablets, a single column on mobile
 * List navigation - orders hyperlinked headings and summary content into a list
 
-### Box navigation
+### Card navigation
 
-{% include example-frame.html name="box" %}
+{% include example-frame.html name="card" %}
 
-All boxes should contain links.
+All cards should contain links.
 
-Single boxes can be ‘highlighted’ to make them stand out from others on the page.
+Single cards can be ‘highlighted’ to make them stand out from others on the page.
 
 ### Grid navigation
 
@@ -37,7 +37,7 @@ Although there are no boxes, there is a single, left-hand side line running the 
 
 Links in a navigational list can be highlighted. Links that are highlighted always appear at the top of the list. Other items in the list may be sorted in any order.
 
-## Other versions of these components
+## Other versions of these patterns
 
 Some versions of box navigation may include a gradient effect along the bottom border of individual boxes.
 
@@ -45,11 +45,11 @@ Some versions of box navigation may include a gradient effect along the bottom b
 
 [Category header](https://designsystem.gov.scot/components/category-header/)
 
-## Why we use these components
+## Why we use these patterns
 
-Features of these components, such as the large size of the boxes in the box navigation component, help space out content to make it easier for users to find the content they need.
+Features of these patterns, such as the large size of the boxes in the card navigation pattern, help space out content to make it easier for users to find the content they need.
 
-These components can also be reused across websites, creating a consistent experience for users and cutting development time.
+These patterns can also be reused across websites, creating a consistent experience for users and cutting development time.
 
 ## Feedback, help or support
 
