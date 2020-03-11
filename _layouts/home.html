@@ -55,7 +55,7 @@ body {
                                 </div>
                             </div>
                             <div class="dss_homepage-hero__media-container  ds_aspect-box">
-                                <video class="dss_homepage-hero__media  ds_aspect-box__inner" src="/assets/images/examples/category-header-design-standards.svg" alt=""></video>
+                                <video poster="/assets/images/animation-still.png" class="dss_homepage-hero__media  ds_aspect-box__inner" src="/assets/images/examples/category-header-design-standards.svg" alt=""></video>
                             </div>
                         </div>
                     </div>
@@ -102,6 +102,21 @@ body {
                     </div>
                 </section>
             {% endif %}
+
+            {% assign indexed = site.pages | where:"category", 'homepage-links' | sort: 'title', 'first' %}
+            <section id="links" class="zebra">
+                <div class="ds_wrapper">
+                    <div style="display: grid;grid-template-columns:1fr 1fr;grid-gap:28px 30px">
+                    {% for item in indexed %}
+                        <div>
+                            <h2>{{item.title}}</h2>
+                            <p>{{item.content}}</p>
+                            <a href="{{item.signpostUrl}}">Learn more</a>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </section>
 
             {% assign indexed = site.pages | where:"showcase", 'true' | sort: 'title', 'first' %}
             {%if indexed.size > 0 %}
