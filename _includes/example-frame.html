@@ -66,7 +66,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
             {% endfor %}
 
             {% for item in indexed %}
-                {% if item.name == devnotesfilename %}
+                {% if item.name == devnotesfilename and site.includeDevNotes == true %}
                     <div class="ds_accordion-item">
                         <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-2" aria-labelledby="panel-{{include.name}}-2-heading" />
                         <div class="ds_accordion-item__header">

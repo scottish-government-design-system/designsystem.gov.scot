@@ -1,7 +1,7 @@
 title: Design System
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://patternlibrary.mygov.scot" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://designsystem.gov.scot" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #scotgov
 github_username: #scottishgovernment
 examples_gtm_code: GTM-5S47S9Z
@@ -13,12 +13,14 @@ markdown: kramdown
 plugins:
 #  - jekyll-sitemap
 #  - jekyll-redirect-from
+  - jekyll-admin
 collections:
   site-furniture:
     output: true
     permalink: /:name/
     parent: home
 maxphase: 2
+includeDevNotes: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -31,3 +33,10 @@ maxphase: 2
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - site-furniture
+    - datafiles
+    - configuration

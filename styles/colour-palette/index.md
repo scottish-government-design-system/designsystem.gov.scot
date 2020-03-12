@@ -1,14 +1,17 @@
 ---
+title: Colour palette
 layout: component
-title:  "Colour palette"
 category: styles
 parent: styles
 thispage: style.colour-palette
-#summary: ""
 phase: 2
 ---
+
 A strong colour palette can make it easier for users to process,
 understand and navigate sites and services.
+
+## Main colours
+{% include_relative main-colours.html %}
 
 ## Colour selection
 
