@@ -6,7 +6,7 @@ index: 0
 style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 ---
 
-<div class="ds_notification" data-module="ds-notification">
+<div class="ds_notification  ds_reversed" data-module="ds-notification">
     <div class="ds_wrapper">
         <div class="ds_notification__content  ds_notification__content--has-close">
             <div role="heading" class="visually-hidden">Information</div>
