@@ -7,8 +7,8 @@ style: 'body{background-color:#f8f8f8}'
 ---
 
 <nav aria-label="Category navigation">
-    <ol class="ds_category-list  ds_category-list--grid  ds_category-list--highlight">
-        <li class="ds_category-item">
+    <ol class="ds_category-list  ds_category-list--grid">
+        <li class="ds_category-item  ds_category-item--pinned">
             <h2 class="ds_category-item__title">
                 <a data-navigation="category-item-1" href="#" class="ds_category-item__link  ds_category-item__link--highlight">Environment and countryside</a>
             </h2>
@@ -18,7 +18,7 @@ style: 'body{background-color:#f8f8f8}'
             </p>
         </li>
 
-        <li class="ds_category-item">
+        <li class="ds_category-item  ds_category-item--pinned">
             <h2 class="ds_category-item__title">
                 <a data-navigation="category-item-2" href="#" class="ds_category-item__link  ds_category-item__link--highlight">Environmental Impact Assessment (EIA)</a>
             </h2>
@@ -27,9 +27,7 @@ style: 'body{background-color:#f8f8f8}'
                 Find out about Environmental Impact Assessments (EIAs) in your area
             </p>
         </li>
-    </ol>
 
-    <ol class="ds_category-list  ds_category-list--grid">
         <li class="ds_category-item">
             <h2 class="ds_category-item__title">
                 <a data-navigation="category-item-3" href="#" class="ds_category-item__link">Farming and rural issues</a>
