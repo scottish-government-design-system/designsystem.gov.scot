@@ -779,12 +779,6 @@
         "to-fast-properties": "2.0.0"
       }
     },
-    "@scottish-government/pattern-library": {
-      "version": "0.0.59",
-      "resolved": "https://registry.npmjs.org/@scottish-government/pattern-library/-/pattern-library-0.0.59.tgz",
-      "integrity": "sha512-u+oTTrCTH/7wsd8oJ9M9PaTvcVbU0IPjTs++556TtLNSl8BmNicmzfaXDaatX6vR1GiKel1jx50FK2+lnG4szA==",
-      "dev": true
-    },
     "@types/q": {
       "version": "1.5.2",
       "resolved": "https://registry.npmjs.org/@types/q/-/q-1.5.2.tgz",

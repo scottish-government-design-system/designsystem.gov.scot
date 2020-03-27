@@ -9,7 +9,7 @@
   },
   "scripts": {
     "galen": "galen test tests/patterns.test",
-    "postshrinkwrap": "sealant",
+    "postshrinkwrap": "sealant @scottish-government/pattern-library",
     "svgsprite": "node svg-sprite",
     "webpack": "webpack"
   },
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "@scottish-government/pattern-library": "0.0.x",
+    "@scottish-government/pattern-library": "latest",
     "babel-loader": "^8.0.6",
     "sealant": "^0.1.1",
     "svg-sprite": "^1.4.0",
