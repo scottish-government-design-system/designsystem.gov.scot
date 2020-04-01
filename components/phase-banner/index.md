@@ -11,14 +11,12 @@ phase: 2
 
 ## About this component
 
-When needed, a phase banner can appear under the site header of a website.
+When needed, a phase banner can appear in the site header of a website.
 
 A Phase Banner should:
 
 - be included on a website when it is still in alpha or beta
-
 - describe what the phase status means - e.g. "this is a new website – your feedback will help us to improve it."
-
 - be removed once the website has been made live
 
 ## Why we use this component
