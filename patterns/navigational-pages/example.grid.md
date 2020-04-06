@@ -10,7 +10,10 @@ style: 'body{background-color:#f8f8f8}'
     <ol class="ds_category-list  ds_category-list--grid">
         <li class="ds_category-item  ds_category-item--pinned">
             <h2 class="ds_category-item__title">
-                <a data-navigation="category-item-1" href="#" class="ds_category-item__link  ds_category-item__link--highlight">Environment and countryside</a>
+                <a data-navigation="category-item-1" href="#" class="ds_category-item__link">
+                    Environment and countryside
+                    <svg class="ds_icon  ds_category-item__pinned-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#star"></use></svg>
+                </a>
             </h2>
 
             <p class="ds_category-item__summary">
@@ -20,7 +23,10 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_category-item  ds_category-item--pinned">
             <h2 class="ds_category-item__title">
-                <a data-navigation="category-item-2" href="#" class="ds_category-item__link  ds_category-item__link--highlight">Environmental Impact Assessment (EIA)</a>
+                <a data-navigation="category-item-2" href="#" class="ds_category-item__link">
+                    Environmental Impact Assessment (EIA)
+                    <svg class="ds_icon  ds_category-item__pinned-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#star"></use></svg>
+                </a>
             </h2>
 
             <p class="ds_category-item__summary">
