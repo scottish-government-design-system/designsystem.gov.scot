@@ -444,10 +444,11 @@ tr:last-child {
 
 
 
-
+<section>
 
 <h1> Gov examples</h1>
 
+<h2><a href="https://www.gov.scot/publications/coronavirus-covid-19-daily-data-for-scotland/">Coronavirus (COVID-19): Daily data for Scotland</a></h2>
 
 <table cellspacing="0" class="boxy">
  <thead>
@@ -583,6 +584,7 @@ tr:last-child {
 </table>
 
 
+<h2><a href="https://www.gov.scot/publications/equality-impact-assessment-record-children-scotland-bill/pages/3/">Children (Scotland) Bill: equality impact assessment (stage 2)</a></h2>
 
 <table border="1" cellspacing="1" cellpadding="5" class="boxy"> 
  <thead>
@@ -701,6 +703,8 @@ tr:last-child {
  </tbody>
 </table>
 
+<h2><a href="https://www.gov.scot/publications/equality-impact-assessment-record-children-scotland-bill/pages/4/">Children (Scotland) Bill: equality impact assessment (stage 3)</a></h2>
+
 <table class="boxy"> 
 <thead>
   <tr> 
@@ -736,6 +740,7 @@ tr:last-child {
  </tbody>
 </table>
 
+</section>
 
 
 
