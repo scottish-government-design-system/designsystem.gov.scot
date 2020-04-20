@@ -49,8 +49,8 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
                 {% else %}
                     {% assign type = 'HTML' %}
                 {% endif %}
-                <div class="ds_accordion-item">
-                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-1" aria-labelledby="panel-{{include.name}}-1-heading" />
+                <div class="ds_accordion-item  {% if include.htmlexpanded %}ds_accordion-item--open{% endif %}">
+                    <input type="checkbox" {% if include.htmlexpanded %}checked{% endif %} class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-1" aria-labelledby="panel-{{include.name}}-1-heading" />
                     <div class="ds_accordion-item__header">
                         <h3 id="panel-{{include.name}}-1-heading" class="ds_accordion-item__title">
                             Sample {{type}}
