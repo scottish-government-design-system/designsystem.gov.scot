@@ -21,7 +21,7 @@ th {
 
 th,
 td {
-    vertical-aign: top;
+    vertical-align: top;
 }
 
 th[colspan] {

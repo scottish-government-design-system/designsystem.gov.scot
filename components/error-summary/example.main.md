@@ -8,8 +8,6 @@ index: 0
 <div class="ds_error-summary" id="error-summary" aria-labelledby="error-summary-title" role="alert">
     <h2 class="ds_error-rummary__title" id="error-summary-title">There is a problem</h2>
 
-    <p>Some example content for whatever reason.</p>
-
     <ul class="ds_error-summary__list">
         <li>
             <a href="#error-id-one">Did this resolve your issue?</a>
