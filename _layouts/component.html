@@ -128,12 +128,18 @@
 
 <link rel="stylesheet" href="/assets/css/highlight.css">
 <script src="/assets/scripts/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
+<script>
+{% if page.highlighttype %}
+var codeBlocks = [].slice.call(document.querySelectorAll('pre code'));
 
+for (var i = 0, il = codeBlocks.length; i < il; i++) {
+    codeBlocks[i].setAttribute('class', '{{page.highlighttype}}');
+}
+{% endif %}
 
-
+hljs.initHighlightingOnLoad();
+</script>
 
 </body>
-
 </html>

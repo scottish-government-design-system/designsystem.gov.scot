@@ -6,6 +6,7 @@ parent: styles
 thispage: style.layout
 #summary: ""
 phase: 3
+highlighttype: css
 ---
 The design system's layout module ("Layout") is used to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template).
 
