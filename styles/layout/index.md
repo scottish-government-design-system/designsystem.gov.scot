@@ -85,7 +85,6 @@ At the large size we bring the icon back in and content areas are shifted over t
     @include media-query(large) {
         .my_layout--document {
             .ds_layout__icon {
-                display: block;
                 float: left;
                 @include colwidth(2);
             }
@@ -123,7 +122,7 @@ To support the icon we'll create a new grid area definition for it, following th
         grid-area: i;
     }
 
-To create the CSS grid layouts for any breakpoints that differ from the default layout we create new `grid-template-areas` rules. Using the single-character pattern makes it easy to visualise the template definition should be written.
+To create the CSS grid layouts for any breakpoints that differ from the default layout we create new `grid-template-areas` rules. Using the single-character pattern makes it easy to visualise how the template definition should be written.
 
     @include media-query(medium) {
         .my_layout--document {
