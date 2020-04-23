@@ -8,16 +8,11 @@ thispage: style.layout
 phase: 3
 highlighttype: css
 ---
-The design system's layout module ("Layout") is used to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template).
+The design system's layout component ("Layout") is a tool used to help to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template). The intention of Layout is to make it easy for content to be placed into defined areas in your HTML across templates or content formats.
 
 Layout uses CSS grid with a fallback for browsers with no CSS grid support.
 
 There are a number of responsive layouts predefined in the design system. You can create your own layouts if you need something that is not predefined in the design system.
-
-<div class="ds_inset-text">
-    The following content gets quite detailed and it is aimed at developers.
-</div>
-
 
 ## Example: Article layout
 
@@ -25,8 +20,28 @@ There are a number of responsive layouts predefined in the design system. You ca
 
 {% include example-frame.html name="article" no-demo=true %}
 
+## CSS of a layout
 
+The CSS for a layout that uses the Layout component consists of two sections: the non-grid fallback and the CSS grid code.
 
+### CSS grid
+
+The CSS grid version makes heavy use of the `grid-template-areas` CSS property.
+
+We use a simple naming convention that uses single characters for each content area. This makes it possible to use the `grid-template-areas` value as a rough diagram of the layout so it's easy to interpret visually.
+
+For example, the large viewport display for the "article" layout illustrated above would be defined like this:
+
+    .ds_layout--article {
+        grid-template-areas:
+            'h h h h h h h h p p p p'
+            'c c c c c c c c s s s s'
+            'f f f f f f f f . . . .';
+    }
+
+### Fallback
+
+The non-grid fallback uses CSS floats and percentage widths to define column placement. There are a few helpful SASS mixins included in Layout that simplify any width calculations.
 
 ## Creating a layout
 
