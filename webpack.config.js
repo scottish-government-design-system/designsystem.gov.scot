@@ -8,7 +8,8 @@ const commonEntries = {
     path.resolve(__dirname, 'assets/scripts/gtm.js')
   ],
   'pattern-library': [
-    path.resolve(__dirname, 'assets/scripts/all.js')
+    path.resolve(__dirname, 'assets/scripts/all.js'),
+    path.resolve(__dirname, 'assets/scripts/ds-site.js')
   ]
 };
 
