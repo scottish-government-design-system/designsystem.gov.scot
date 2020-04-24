@@ -22,7 +22,7 @@ There are a number of responsive layouts predefined in the design system. You ca
 
 ## CSS of a layout
 
-The CSS for a layout that uses the Layout component consists of two sections: the non-grid fallback and the CSS grid code.
+The CSS for a layout that uses the Layout component consists of two sections: the CSS grid code and the non-grid fallback.
 
 ### CSS grid
 
