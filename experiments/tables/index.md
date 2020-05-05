@@ -5,6 +5,38 @@ index: 0
 ---
 <style>
 
+
+.scrolly tr > :first-child {
+    /* display: block; */
+    position: sticky;
+    left: 0;
+    background: #fff;
+    border-right: 1px solid #ebebeb;
+    z-index: 1;
+}
+
+.scrolly tr > :first-child::after {
+    position: absolute;
+    height: 100%;
+    background: #ccc;
+    width: 1px;
+    content: '';
+    right: 0;
+    top: 0;
+}
+
+.scrolly tr > th:first-child {
+    background: #ebebeb;
+}
+
+.scrolly tr > td:first-child {
+    background: #fff;
+    border-right: 1px solid #ebebeb;
+}
+
+
+
+
 table {
     border: 1px solid #ccc;
     font-size: 16px;
