@@ -3,10 +3,324 @@ layout: example
 type: example
 index: 0
 ---
+
+<h1>Design system tables</h1>
+
+<script src="ckeditor.js"></script>
+<script src="sample.js"></script>
+<div id="foo-editor">
+
+<h2>Simple, squashable</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th>Date</th>
+			<th>Day</th>
+			<th>Holiday</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>10 April</td>
+			<td>Friday</td>
+			<td>Good Friday</td>
+		</tr>
+		<tr>
+			<td>8 May</td>
+			<td>Friday</td>
+			<td>Early May Bank Holiday</td>
+		</tr>
+		<tr>
+			<td>25 May</td>
+			<td>Monday</td>
+			<td>Spring Bank Holiday</td>
+		</tr>
+		<tr>
+			<td>3 August</td>
+			<td>Monday</td>
+			<td>Summer Bank Holiday</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Many columns, boxes</h2>
+
+<table data-smallscreen="boxes">
+	<thead>
+		<tr>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-heading="Year">2014-15</td>
+			<td data-heading="All court types" style="text-align:right">106,584</td>
+			<td data-heading="High court" style="text-align:right">594</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">594</td>
+			<td data-heading="Sheriff summary" style="text-align:right">594</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2015-16</td>
+			<td data-heading="All court types" style="text-align:right">99,692</td>
+			<td data-heading="High court" style="text-align:right">603</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">603</td>
+			<td data-heading="Sheriff summary" style="text-align:right">603</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2016-17</td>
+			<td data-heading="All court types" style="text-align:right">92,347</td>
+			<td data-heading="High court" style="text-align:right">649</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">649</td>
+			<td data-heading="Sheriff summary" style="text-align:right">649</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2017-18</td>
+			<td data-heading="All court types" style="text-align:right">83,179</td>
+			<td data-heading="High court" style="text-align:right">598</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">598</td>
+			<td data-heading="Sheriff summary" style="text-align:right">598</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2018-19</td>
+			<td data-heading="All court types" style="text-align:right">78,503</td>
+			<td data-heading="High court" style="text-align:right">585</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">585</td>
+			<td data-heading="Sheriff summary" style="text-align:right">585</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">585</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Many columns, subheadings, boxes</h2>
+
+<table data-smallscreen="boxes">
+	<thead>
+		<tr>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th colspan="6" data-heading="Year">Old</th>
+		</tr>
+		<tr>
+			<td data-heading="Year">2014-15</td>
+			<td data-heading="All court types" style="text-align:right">106,584</td>
+			<td data-heading="High court" style="text-align:right">594</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">594</td>
+			<td data-heading="Sheriff summary" style="text-align:right">594</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2015-16</td>
+			<td data-heading="All court types" style="text-align:right">99,692</td>
+			<td data-heading="High court" style="text-align:right">603</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">603</td>
+			<td data-heading="Sheriff summary" style="text-align:right">603</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2016-17</td>
+			<td data-heading="All court types" style="text-align:right">92,347</td>
+			<td data-heading="High court" style="text-align:right">649</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">649</td>
+			<td data-heading="Sheriff summary" style="text-align:right">649</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<th colspan="6" data-heading="Year">Recent</th>
+		</tr>
+		<tr>
+			<td data-heading="Year">2017-18</td>
+			<td data-heading="All court types" style="text-align:right">83,179</td>
+			<td data-heading="High court" style="text-align:right">598</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">598</td>
+			<td data-heading="Sheriff summary" style="text-align:right">598</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2018-19</td>
+			<td data-heading="All court types" style="text-align:right">78,503</td>
+			<td data-heading="High court" style="text-align:right">585</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">585</td>
+			<td data-heading="Sheriff summary" style="text-align:right">585</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">585</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Heading cell in first column</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th>&nbsp;</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th data-heading="">2014-15</th>
+			<td data-heading="All court types" style="text-align:right">106,584</td>
+			<td data-heading="High court" style="text-align:right">594</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">594</td>
+			<td data-heading="Sheriff summary" style="text-align:right">594</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<th data-heading="">2015-16</th>
+			<td data-heading="All court types" style="text-align:right">99,692</td>
+			<td data-heading="High court" style="text-align:right">603</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">603</td>
+			<td data-heading="Sheriff summary" style="text-align:right">603</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<th data-heading="">2016-17</th>
+			<td data-heading="All court types" style="text-align:right">92,347</td>
+			<td data-heading="High court" style="text-align:right">649</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">649</td>
+			<td data-heading="Sheriff summary" style="text-align:right">649</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<th data-heading="">2017-18</th>
+			<td data-heading="All court types" style="text-align:right">83,179</td>
+			<td data-heading="High court" style="text-align:right">598</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">598</td>
+			<td data-heading="Sheriff summary" style="text-align:right">598</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<th data-heading="">2018-19</th>
+			<td data-heading="All court types" style="text-align:right">78,503</td>
+			<td data-heading="High court" style="text-align:right">585</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">585</td>
+			<td data-heading="Sheriff summary" style="text-align:right">585</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">585</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Scrolling</h2>
+
+<table data-smallscreen="scrolling">
+	<thead>
+		<tr>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-title="">2014-15</td>
+			<td style="text-align:right">106,584</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td>2014-15</td>
+			<td style="text-align:right">106,584</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<td>2015-16</td>
+			<td style="text-align:right">99,692</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td>2015-16</td>
+			<td style="text-align:right">99,692</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<td>2016-17</td>
+			<td style="text-align:right">92,347</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td>2016-17</td>
+			<td style="text-align:right">92,347</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<td>2017-18</td>
+			<td style="text-align:right">83,179</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td>2017-18</td>
+			<td style="text-align:right">83,179</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<td>2018-19</td>
+			<td style="text-align:right">78,503</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td>2018-19</td>
+			<td style="text-align:right">78,503</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+		</tr>
+	</tbody>
+</table>
+
+
+</div>
+
 <style>
 
 
-.scrolly tr > :first-child {
+[data-smallscreen="scrolling"] tr > :first-child {
     /* display: block; */
     position: sticky;
     left: 0;
@@ -15,7 +329,7 @@ index: 0
     z-index: 1;
 }
 
-.scrolly tr > :first-child::after {
+[data-smallscreen="scrolling"] tr > :first-child::after {
     position: absolute;
     height: 100%;
     background: #ccc;
@@ -25,11 +339,11 @@ index: 0
     top: 0;
 }
 
-.scrolly tr > th:first-child {
+[data-smallscreen="scrolling"] tr > th:first-child {
     background: #ebebeb;
 }
 
-.scrolly tr > td:first-child {
+[data-smallscreen="scrolling"] tr > td:first-child {
     background: #fff;
     border-right: 1px solid #ebebeb;
 }
@@ -39,8 +353,7 @@ index: 0
 
 table {
     border: 1px solid #ccc;
-    font-size: 16px;
-    line-height: 21px;
+    table-layout: fixed;
     width: 100%;
 }
 
@@ -85,8 +398,12 @@ tr:last-child {
     border-bottom-color: #ccc;
 }
 
+thead > tr:last-child {
+    border-bottom-width: 0;
+}
+
 @media only screen and (max-width: 768px) {
-    .boxy thead {
+    [data-smallscreen="boxes"] thead {
         clip: rect(1px 1px 1px 1px);
         clip: rect(1px, 1px, 1px, 1px);
         height: 1px;
@@ -95,52 +412,53 @@ tr:last-child {
         position: absolute !important;
     }
 
-    .boxy {
+    [data-smallscreen="boxes"] {
         border: 0;
     }
 
-    .boxy tr {
+    [data-smallscreen="boxes"] tr {
         border: 0;
         display: block;
         margin-bottom: 14px;
     }
 
-    .boxy tr:hover {
+    [data-smallscreen="boxes"] tr:hover {
         background-color: transparent;
     }
 
-    .boxy tr> * {
+    [data-smallscreen="boxes"] tr> * {
         display: block;
         overflow: auto;
     }
 
-    .boxy tr> * {
+    [data-smallscreen="boxes"] tr> * {
         border: 1px solid #ccc;
     }
 
-    .boxy tr> td:not(:last-child) {
+    [data-smallscreen="boxes"] tr> td:not(:last-child) {
         border-bottom-color: #ebebeb;
     }
 
-    .boxy tr> th:last-child {
+    [data-smallscreen="boxes"] tr> th:last-child {
         border-width: 0;
         margin-top: 28px;
     }
 
-    .boxy tr> td:not(:first-child) {
+    [data-smallscreen="boxes"] tr> td:not(:first-child) {
         border-top-width: 0;
     }
 
-    .boxy tr> td::before {
+    [data-smallscreen="boxes"] tr> td::before {
         content: attr(data-heading);
         display: block;
         float: left;
         font-weight: bold;
         margin-right: 15px;
+        text-align: left;
         width: calc(50% - 15px);
     }
 
-    .boxy tr> td:first-child {
+    [data-smallscreen="boxes"] tr> td:first-child {
         box-shadow: inset 0 4px 0 #ebebeb;
         padding-top: 11px
     }
@@ -148,7 +466,7 @@ tr:last-child {
 
 
 
-    .scrolly {
+    [data-smallscreen="scrolling"] {
         display: block;
         max-width: 100%;
         overflow-x: auto;
@@ -158,317 +476,312 @@ tr:last-child {
 
 </style>
 
-<h1>Design system tables</h1>
+
 
 <h2>Simple, squashable</h2>
 
 <table>
-    <thead>
-        <tr>
-            <th>Date</th>
-            <th>Day</th>
-            <th>Holiday</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>10 April</td>
-            <td>Friday</td>
-            <td>Good Friday</td>
-        </tr>
-        <tr>
-            <td>8 May</td>
-            <td>Friday</td>
-            <td>Early May Bank Holiday</td>
-        </tr>
-        <tr>
-            <td>25 May</td>
-            <td>Monday</td>
-            <td>Spring Bank Holiday</td>
-        </tr>
-        <tr>
-            <td>3 August</td>
-            <td>Monday</td>
-            <td>Summer Bank Holiday</td>
-        </tr>
-    </tbody>
+	<thead>
+		<tr>
+			<th>Date</th>
+			<th>Day</th>
+			<th>Holiday</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>10 April</td>
+			<td>Friday</td>
+			<td>Good Friday</td>
+		</tr>
+		<tr>
+			<td>8 May</td>
+			<td>Friday</td>
+			<td>Early May Bank Holiday</td>
+		</tr>
+		<tr>
+			<td>25 May</td>
+			<td>Monday</td>
+			<td>Spring Bank Holiday</td>
+		</tr>
+		<tr>
+			<td>3 August</td>
+			<td>Monday</td>
+			<td>Summer Bank Holiday</td>
+		</tr>
+	</tbody>
 </table>
 
 <h2>Many columns, boxes</h2>
 
-<table class="boxy">
-    <thead>
-        <tr>
-            <th>Year</th>
-            <th>All court types</th>
-            <th>High court</th>
-            <th>Sheriff solemn</th>
-            <th>Sheriff summary</th>
-            <th>Justice of the Peace court</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>2014-15</td>
-            <td>106,584</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-        </tr>
-        <tr>
-            <td>2015-16</td>
-            <td>99,692</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-        </tr>
-        <tr>
-            <td>2016-17</td>
-            <td>92,347</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-        </tr>
-        <tr>
-            <td>2017-18</td>
-            <td>83,179</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-        </tr>
-        <tr>
-            <td>2018-19</td>
-            <td>78,503</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-        </tr>
-    </tbody>
+<table data-smallscreen="boxes">
+	<thead>
+		<tr>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-heading="Year">2014-15</td>
+			<td data-heading="All court types" style="text-align:right">106,584</td>
+			<td data-heading="High court" style="text-align:right">594</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">594</td>
+			<td data-heading="Sheriff summary" style="text-align:right">594</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2015-16</td>
+			<td data-heading="All court types" style="text-align:right">99,692</td>
+			<td data-heading="High court" style="text-align:right">603</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">603</td>
+			<td data-heading="Sheriff summary" style="text-align:right">603</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2016-17</td>
+			<td data-heading="All court types" style="text-align:right">92,347</td>
+			<td data-heading="High court" style="text-align:right">649</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">649</td>
+			<td data-heading="Sheriff summary" style="text-align:right">649</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2017-18</td>
+			<td data-heading="All court types" style="text-align:right">83,179</td>
+			<td data-heading="High court" style="text-align:right">598</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">598</td>
+			<td data-heading="Sheriff summary" style="text-align:right">598</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2018-19</td>
+			<td data-heading="All court types" style="text-align:right">78,503</td>
+			<td data-heading="High court" style="text-align:right">585</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">585</td>
+			<td data-heading="Sheriff summary" style="text-align:right">585</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">585</td>
+		</tr>
+	</tbody>
 </table>
-
-
 
 <h2>Many columns, subheadings, boxes</h2>
 
-<table class="boxy">
-    <thead>
-        <tr>
-            <th>Year</th>
-            <th>All court types</th>
-            <th>High court</th>
-            <th>Sheriff solemn</th>
-            <th>Sheriff summary</th>
-            <th>Justice of the Peace court</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><th colspan="6">Old</th></tr>
-        <tr>
-            <td>2014-15</td>
-            <td>106,584</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-        </tr>
-        <tr>
-            <td>2015-16</td>
-            <td>99,692</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-        </tr>
-        <tr>
-            <td>2016-17</td>
-            <td>92,347</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-        </tr>
-        <tr><th colspan="6">Recent</th></tr>
-        <tr>
-            <td>2017-18</td>
-            <td>83,179</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-        </tr>
-        <tr>
-            <td>2018-19</td>
-            <td>78,503</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-        </tr>
-    </tbody>
+<table data-smallscreen="boxes">
+	<thead>
+		<tr>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th colspan="6" data-heading="Year">Old</th>
+		</tr>
+		<tr>
+			<td data-heading="Year">2014-15</td>
+			<td data-heading="All court types" style="text-align:right">106,584</td>
+			<td data-heading="High court" style="text-align:right">594</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">594</td>
+			<td data-heading="Sheriff summary" style="text-align:right">594</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2015-16</td>
+			<td data-heading="All court types" style="text-align:right">99,692</td>
+			<td data-heading="High court" style="text-align:right">603</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">603</td>
+			<td data-heading="Sheriff summary" style="text-align:right">603</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2016-17</td>
+			<td data-heading="All court types" style="text-align:right">92,347</td>
+			<td data-heading="High court" style="text-align:right">649</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">649</td>
+			<td data-heading="Sheriff summary" style="text-align:right">649</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<th colspan="6" data-heading="Year">Recent</th>
+		</tr>
+		<tr>
+			<td data-heading="Year">2017-18</td>
+			<td data-heading="All court types" style="text-align:right">83,179</td>
+			<td data-heading="High court" style="text-align:right">598</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">598</td>
+			<td data-heading="Sheriff summary" style="text-align:right">598</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<td data-heading="Year">2018-19</td>
+			<td data-heading="All court types" style="text-align:right">78,503</td>
+			<td data-heading="High court" style="text-align:right">585</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">585</td>
+			<td data-heading="Sheriff summary" style="text-align:right">585</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">585</td>
+		</tr>
+	</tbody>
 </table>
-
-
 
 <h2>Heading cell in first column</h2>
 
-<table class="boxy">
-    <thead>
-        <tr>
-            <th></th>
-            <th>All court types</th>
-            <th>High court</th>
-            <th>Sheriff solemn</th>
-            <th>Sheriff summary</th>
-            <th>Justice of the Peace court</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>2014-15</th>
-            <td>106,584</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-        </tr>
-        <tr>
-            <th>2015-16</th>
-            <td>99,692</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-        </tr>
-        <tr>
-            <th>2016-17</th>
-            <td>92,347</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-        </tr>
-        <tr>
-            <th>2017-18</th>
-            <td>83,179</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-        </tr>
-        <tr>
-            <th>2018-19</th>
-            <td>78,503</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-        </tr>
-    </tbody>
+<table>
+	<thead>
+		<tr>
+			<th>&nbsp;</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th data-heading="">2014-15</th>
+			<td data-heading="All court types" style="text-align:right">106,584</td>
+			<td data-heading="High court" style="text-align:right">594</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">594</td>
+			<td data-heading="Sheriff summary" style="text-align:right">594</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<th data-heading="">2015-16</th>
+			<td data-heading="All court types" style="text-align:right">99,692</td>
+			<td data-heading="High court" style="text-align:right">603</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">603</td>
+			<td data-heading="Sheriff summary" style="text-align:right">603</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<th data-heading="">2016-17</th>
+			<td data-heading="All court types" style="text-align:right">92,347</td>
+			<td data-heading="High court" style="text-align:right">649</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">649</td>
+			<td data-heading="Sheriff summary" style="text-align:right">649</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<th data-heading="">2017-18</th>
+			<td data-heading="All court types" style="text-align:right">83,179</td>
+			<td data-heading="High court" style="text-align:right">598</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">598</td>
+			<td data-heading="Sheriff summary" style="text-align:right">598</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<th data-heading="">2018-19</th>
+			<td data-heading="All court types" style="text-align:right">78,503</td>
+			<td data-heading="High court" style="text-align:right">585</td>
+			<td data-heading="Sheriff solemn" style="text-align:right">585</td>
+			<td data-heading="Sheriff summary" style="text-align:right">585</td>
+			<td data-heading="Justice of the Peace court" style="text-align:right">585</td>
+		</tr>
+	</tbody>
 </table>
 
 <h2>Scrolling</h2>
 
-<table class="scrolly">
-    <thead>
-        <tr>
-            <th>Year</th>
-            <th>All court types</th>
-            <th>High court</th>
-            <th>Sheriff solemn</th>
-            <th>Sheriff summary</th>
-            <th>Justice of the Peace court</th>
-
-            <th>Year</th>
-            <th>All court types</th>
-            <th>High court</th>
-            <th>Sheriff solemn</th>
-            <th>Sheriff summary</th>
-            <th>Justice of the Peace court</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td data-title="">2014-15</td>
-            <td>106,584</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-
-            <td>2014-15</td>
-            <td>106,584</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-            <td>594</td>
-        </tr>
-        <tr>
-            <td>2015-16</td>
-            <td>99,692</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-
-            <td>2015-16</td>
-            <td>99,692</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-            <td>603</td>
-        </tr>
-        <tr>
-            <td>2016-17</td>
-            <td>92,347</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-
-            <td>2016-17</td>
-            <td>92,347</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-            <td>649</td>
-        </tr>
-        <tr>
-            <td>2017-18</td>
-            <td>83,179</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-
-            <td>2017-18</td>
-            <td>83,179</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-            <td>598</td>
-        </tr>
-        <tr>
-            <td>2018-19</td>
-            <td>78,503</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-
-            <td>2018-19</td>
-            <td>78,503</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-            <td>585</td>
-        </tr>
-    </tbody>
+<table data-smallscreen="scrolling">
+	<thead>
+		<tr>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+			<th>Year</th>
+			<th style="text-align:right">All court types</th>
+			<th style="text-align:right">High court</th>
+			<th style="text-align:right">Sheriff solemn</th>
+			<th style="text-align:right">Sheriff summary</th>
+			<th style="text-align:right">Justice of the Peace court</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-title="">2014-15</td>
+			<td style="text-align:right">106,584</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td>2014-15</td>
+			<td style="text-align:right">106,584</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+			<td style="text-align:right">594</td>
+		</tr>
+		<tr>
+			<td>2015-16</td>
+			<td style="text-align:right">99,692</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td>2015-16</td>
+			<td style="text-align:right">99,692</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+			<td style="text-align:right">603</td>
+		</tr>
+		<tr>
+			<td>2016-17</td>
+			<td style="text-align:right">92,347</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td>2016-17</td>
+			<td style="text-align:right">92,347</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+			<td style="text-align:right">649</td>
+		</tr>
+		<tr>
+			<td>2017-18</td>
+			<td style="text-align:right">83,179</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td>2017-18</td>
+			<td style="text-align:right">83,179</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+			<td style="text-align:right">598</td>
+		</tr>
+		<tr>
+			<td>2018-19</td>
+			<td style="text-align:right">78,503</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td>2018-19</td>
+			<td style="text-align:right">78,503</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+			<td style="text-align:right">585</td>
+		</tr>
+	</tbody>
 </table>
+
 
 
 
@@ -778,7 +1091,7 @@ tr:last-child {
 
 
 <script>
-const boxyTables = document.querySelectorAll('.boxy');
+const boxyTables = document.querySelectorAll('[data-smallscreen="boxes"]');
 
 for (let i = 0, il = boxyTables.length; i < il; i++) {
     const trs = boxyTables[i].querySelectorAll('tr');
@@ -798,4 +1111,17 @@ for (let i = 0, il = boxyTables.length; i < il; i++) {
 }
 
 
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+    initSample();
 </script>

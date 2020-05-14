@@ -1,0 +1,49 @@
+
+/*------------------------------------*\
+    ACCORDION
+\*------------------------------------*/
+
+/* edit mode styles */
+.cke_inner .ds_accordion {
+  border: 1px dashed black;
+}
+
+.cke_inner .ds_accordion-item {
+  outline: 1px dotted black;
+}
+
+.cke_inner .ds_accordion::after {
+  background: #333;
+  color: white;
+  content: '+ add accordion panel';
+  cursor: pointer;
+  display: block;
+  padding: 7px 15px;
+}
+
+.cke_inner .ds_accordion-item__title,
+.cke_inner .ds_accordion-item__body {
+    /* box-shadow: 0 1px 1px #ddd inset; */
+    border: 1px dashed #cccccc;
+    border-radius: 5px;
+    /* background: #fff; */
+    /* margin: 4px; */
+}
+
+.ds_callout {
+  background-color: #f8f8f8;
+  border-left: 3px solid currentColor;
+  margin: 1em 0;
+  padding: 1em 1em 1px;
+}
+
+.ds_callout__label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: -17px;
+  font-weight: 700;
+}
+
+.ds_callout__title {
+  font-weight: 300;
+}

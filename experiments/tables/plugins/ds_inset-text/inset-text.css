@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    #INSET TEXT
+\*------------------------------------*/
+
+.ds_inset-text {
+    border-left: 10px solid #b3b3b3;
+    padding: 14px 15px;
+
+    /* to match CKEditor spacing */
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+}
+
+.ds_inset-text__text > :last-child {
+    margin-bottom: 0;
+}
