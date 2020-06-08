@@ -3,7 +3,7 @@ layout: component
 title:  "Contact details"
 category: components
 parent: components
-label: pattern
+label: component
 thispage: component.contact-details
 summary: "A template for displaying contact details in a consistent way across different pages."
 type: major

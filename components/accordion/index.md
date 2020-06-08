@@ -3,7 +3,7 @@ layout: component
 title:  "Accordion"
 category: components
 parent: components
-label: pattern
+label: component
 thispage: component.accordion
 summary: "An accordion is a list of collapsed content items. A user can expand any item in the list to view its contents."
 type: major

@@ -37,7 +37,7 @@
     <script nomodule src="/assets/scripts/dist/gtm.es5.js?{{site.time | date: '%s'}}"></script>
     <!-- End Google Tag Manager -->
 
-    {% if page.phase > site.maxphase %}
+    {% if page.hidden %}
         <meta name="robots" content="noindex" />
     {% endif %}
 

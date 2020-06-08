@@ -2,7 +2,7 @@
 layout: component
 title:  "Breadcrumbs"
 category: components
-label: pattern
+label: component
 parent: components
 thispage: component.breadcrumbs
 summary: "A breadcrumb shows a user where they are in a website’s structure. It also presents links to pages higher in the site’s structure, such as a home page."

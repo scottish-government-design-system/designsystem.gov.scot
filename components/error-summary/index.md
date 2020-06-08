@@ -8,4 +8,5 @@ thispage: component.error-summary
 summary: ""
 type: major
 phase: 3
+hidden: true
 ---

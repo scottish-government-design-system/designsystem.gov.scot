@@ -4,10 +4,11 @@ title:  "Radio buttons"
 category: components
 subcategory: forms
 parent: components
-label: pattern
+label: component
 thispage: component.radio-buttons
 type: major
 phase: 3
+hidden: true
 ---
 
 ## Inline radio buttons

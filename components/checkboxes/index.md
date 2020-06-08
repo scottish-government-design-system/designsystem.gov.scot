@@ -4,10 +4,11 @@ title:  "Checkboxes"
 category: components
 subcategory: forms
 parent: components
-label: pattern
+label: component
 thispage: component.checkboxes
 type: major
 phase: 3
+hidden: true
 ---
 
 ## Checkboxes with hint text

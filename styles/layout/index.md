@@ -12,7 +12,7 @@ The design system's layout component ("Layout") is a tool used to help to arrang
 
 Layout uses CSS grid with a fallback for browsers with no CSS grid support.
 
-There are a number of responsive layouts predefined in the design system. You can create your own layouts if you need something that is not predefined in the design system.
+There are a number of responsive layouts provided in the design system. You can create your own layouts if you need something that is not already defined in the design system.
 
 ## Example: Article layout
 

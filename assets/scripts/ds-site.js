@@ -12,7 +12,7 @@ const dsSite = {
     },
 
     showOutOfPhaseItems: () => {
-        [].slice.call(document.querySelectorAll('.js-out-of-phase')).forEach((item) => {
+        [].slice.call(document.querySelectorAll('.js-hidden-component')).forEach((item) => {
             item.classList.remove('fully-hidden');
             item.style.opacity = 0.5;
         });

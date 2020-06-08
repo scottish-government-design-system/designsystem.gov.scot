@@ -7,4 +7,5 @@ parent: components
 thispage: component.select
 type: major
 phase: 3
+hidden: true
 ---

@@ -9,7 +9,7 @@
 
 {% if hasSequentialNav %}
 
-    {% assign indexed = site.pages | where:"category", parentCatPage[0].navitems | where_exp: "item", "item.phase <= site.maxphase" | sort: 'index', 'first' | sort: 'title', 'first' %}
+    {% assign indexed = site.pages | where:"category", parentCatPage[0].navitems | where_exp: "item", "item.hidden != true" | sort: 'index', 'first' | sort: 'title', 'first' %}
     {% assign indexed = parentCatPage | concat: indexed %}
 
     {% for item in indexed %}

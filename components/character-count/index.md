@@ -8,6 +8,7 @@ thispage: component.character-count
 summary: ""
 type: major
 phase: 3
+hidden: true
 ---
 
 ## Threshold
