@@ -20,7 +20,7 @@ Use this for your primary calls to action. Multiple primary buttons can confuse 
 
 ### Secondary
 
-Any non-primary actions should use a this inverted button style. It has less visual prominence than the primary button.
+Any non-primary actions should use this inverted button style. It has less visual prominence than the primary button.
 
 {% include example-frame.html name="secondary" %}
 
