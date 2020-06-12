@@ -5,6 +5,8 @@
 
 <body class="layout--home">
 
+
+
 <style>
 body {
     background-color: #f8f8f8;
@@ -33,6 +35,8 @@ body {
     <div class="ds_page__top">
         {% include notifications.html %}
         {% include site-header.html %}
+
+
     </div>
 
     <div class="ds_page__middle">
@@ -48,7 +52,7 @@ body {
                                 <h1 class="dss_homepage-hero__title">Design and build digital services for the Scottish Government</h1>
                             </header>
                             <div class="dss_homepage-hero__summary">
-                                <p>The design system enables you to use our styles, components and patterns. Things you need to make consistent, usable services that put people first.</p>
+                                <p>{{page.content}}</p>
 
                                 <div class="dss_homepage-hero__cta">
                                     <a href="#" class="ds_button  ds_button--fixed">Learn more</a>

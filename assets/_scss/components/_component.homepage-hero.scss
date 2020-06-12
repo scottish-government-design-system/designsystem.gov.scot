@@ -1,5 +1,5 @@
 .#{$dss-prefix}homepage-hero {
-    margin: 21px 0 28px;
+    margin: 24px 0 32px;
 
     &__container {
         background-color: $colour__brand--primary;
@@ -21,7 +21,7 @@
 
     &__header {
         border-left: 0;
-        margin-bottom: 28px;
+        margin-bottom: 32px;
         padding-left: 0;
 
         :last-child {
@@ -36,9 +36,9 @@
     &__summary {
         font-weight: $normal;
         font-size: 1rem;
-        line-height: 28px;
-        margin-bottom: 28px;
-        padding-right: 30px;
+        line-height: 32px;
+        margin-bottom: 32px;
+        padding-right: 32px;
     }
 
     &__media {
@@ -87,8 +87,8 @@
 @supports(display: grid) {
     .#{$dss-prefix}homepage-hero {
         align-items: center;
-        grid-gap: $grid-gap-y 10px;
-        margin: 28px 0 35px;
+        grid-gap: $grid-gap-y 8px;
+        margin: 32px 0 36px;
 
         &__header,
         &__summary {

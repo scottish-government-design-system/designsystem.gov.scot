@@ -6,11 +6,11 @@
 
 
 .category-list {
-    margin-top: 21px;
+    margin-top: 24px;
 }
 
 .category-list--cards {
-    margin-top: 7px;
+    margin-top: 8px;
 }
 
 // ie11- do not support @supports :rolleyes: so we'll need to override all of these in the @supports (display:grid) section
@@ -24,7 +24,7 @@
     }
 
     .category-list--cards.category-list--3col > * {
-        margin: 0 5px 10px;
+        margin: 0 8px 8px;
     }
 
     .category-list--3col > * {
@@ -33,12 +33,12 @@
 
     @media (min-width: 768px) {
         .category-list--3col {
-            padding: 5px;
+            padding: 8px;
         }
 
         .category-list--3col > * {
             float: left;
-            width: calc(50% - 10px);
+            width: calc(50% - 8px);
 
             &:nth-child(2n+1) {
                 clear: left;
@@ -48,7 +48,7 @@
 
     @media (min-width: 992px) {
         .category-list--3col > * {
-            width: calc(33% - 10px);
+            width: calc(33% - 8px);
 
             &:nth-child(2n+1) {
                 clear: none;
