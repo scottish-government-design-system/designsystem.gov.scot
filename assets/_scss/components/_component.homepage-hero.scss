@@ -3,6 +3,7 @@
 
     &__container {
         background-color: $colour__brand--primary;
+        overflow: hidden;
     }
 
     &__cta {
