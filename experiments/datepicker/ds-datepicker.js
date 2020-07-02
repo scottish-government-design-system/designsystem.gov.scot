@@ -7,6 +7,7 @@ class DSDatePicker {
         this.monthLabels = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
         this.currentDate = new Date();
+        this.currentDate.setHours(0, 0, 0, 0);
         this.calendarDays = [];
 
         this.keycodes = {
@@ -49,10 +50,16 @@ class DSDatePicker {
 
         if (this.inputElement.dataset.mindate) {
             this.minDate = this.formattedDate(this.inputElement.dataset.mindate);
+            if (this.currentDate < this.minDate) {
+                this.currentDate = this.minDate;
+            }
         }
 
         if (this.inputElement.dataset.maxdate) {
             this.maxDate = this.formattedDate(this.inputElement.dataset.maxdate);
+            if (this.currentDate > this.maxDate) {
+                this.currentDate = this.maxDate;
+            }
         }
 
         // create calendar
@@ -76,8 +83,6 @@ class DSDatePicker {
                 dayCount++;
             }
         }
-
-        this.updateCalendar();
 
         // add event listeners
         this.prevMonthButton = this.dialogElement.querySelector('.js-datepicker-prev-month');
@@ -115,24 +120,28 @@ class DSDatePicker {
     dialogTemplate(titleId) {
         return `<div class="ds_datepicker__dialog__header ">
         <div class="ds_datepicker__dialog__navbuttons">
-            <button class="js-datepicker-prev-year" aria-label="previous year">
-                &lt;&lt;
+            <button class="ds_button  ds_button--icon-only  js-datepicker-prev-year" aria-label="previous year">
+                <span class="visually-hidden">Previous year</span>
+                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#double-chevron-left"></use></svg>
             </button>
 
-            <button class="js-datepicker-prev-month" aria-label="previous month">
-                &lt;
+            <button class="ds_button  ds_button--icon-only  js-datepicker-prev-month" aria-label="previous month">
+                <span class="visually-hidden">Previous month</span>
+                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#chevron-left"></use></svg>
             </button>
         </div>
 
         <h2 id="${titleId}" class="ds_datepicker__dialog__title  js-datepicker-month-year" aria-live="polite">June 2020</h2>
 
         <div class="ds_datepicker__dialog__navbuttons">
-            <button class="js-datepicker-next-month" aria-label="next month">
-                &gt;
+            <button class="ds_button  ds_button--icon-only  js-datepicker-next-month" aria-label="next month">
+                <span class="visually-hidden">Next month</span>
+                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#chevron-right"></use></svg>
             </button>
 
-            <button class="js-datepicker-next-year" aria-label="next year">
-                &gt;&gt;
+            <button class="ds_button  ds_button--icon-only  js-datepicker-next-year" aria-label="next year">
+                <span class="visually-hidden">Next year</span>
+                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#double-chevron-right"></use></svg>
             </button>
         </div>
       </div>
@@ -154,8 +163,8 @@ class DSDatePicker {
       </table>
 
       <div class="ds_datepicker__dialog__buttongroup">
-      <button class="ds_button  ds_button--fixed  ds_button--small  ds_button--cancel  js-datepicker-cancel" value="cancel">Cancel</button>
-      <button class="ds_button  ds_button--fixed  ds_button--small  js-datepicker-ok" value="ok">OK</button>
+      <button class="ds_button  ds_button--small  ds_button--cancel  js-datepicker-cancel" value="cancel">Cancel</button>
+      <button class="ds_button  ds_button--small  js-datepicker-ok" value="ok">OK</button>
       </div>`;
     }
 
@@ -245,9 +254,8 @@ class DSDatePicker {
 
     setCurrentDate(focus = true) {
         const currentDate = this.currentDate;
-        currentDate.setHours(0, 0, 0, 0);
 
-        this.calendarDays.forEach(function (calendarDay) {
+        this.calendarDays.forEach((calendarDay) => {
             calendarDay.button.setAttribute('tabindex', -1);
             let calendarDayDate = calendarDay.date;
             calendarDayDate.setHours(0, 0, 0, 0);
@@ -257,6 +265,12 @@ class DSDatePicker {
                 if (focus) {
                     calendarDay.button.focus();
                 }
+            }
+
+            if (this.inputDate && calendarDayDate.getTime() === this.inputDate.getTime()) {
+                calendarDay.button.classList.add('ds_current');
+            } else {
+                calendarDay.button.classList.remove('ds_current');
             }
         });
     }
@@ -300,10 +314,8 @@ class DSDatePicker {
 
         // get the date from the input element
         if (this.inputElement.value.match(/^\d{1,2}\/\d{1,2}\/\d{4}$/)) {
-            const inputDate = this.formattedDate(this.inputElement.value);
-            this.currentDate = inputDate;
-        } else {
-            this.currentDate = new Date();
+            this.inputDate = this.formattedDate(this.inputElement.value);
+            this.currentDate = this.inputDate;
         }
 
         this.updateCalendar();
@@ -426,10 +438,15 @@ class DSCalendarDay {
             this.button.removeAttribute('disabled');
         }
 
+        // if (hidden) {
+        //     this.button.style.visibility = 'hidden';
+        // } else {
+        //     this.button.style.visibility = 'visible';
+        // }
         if (hidden) {
-            this.button.style.visibility = 'hidden';
+            this.button.style.display = 'none';
         } else {
-            this.button.style.visibility = 'visible';
+            this.button.style.display = 'block';
         }
     }
 
