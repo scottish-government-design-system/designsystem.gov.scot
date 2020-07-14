@@ -332,9 +332,10 @@ if (allowStatisticsCookies) {
                         .ds_quick-exit {
                             grid-area: q;
 
+                            align-self: start;
                             bottom: 8px;
                             position: sticky;
-                            top: 8px;
+                            top: calc(8px - 32px);
                             z-index: 1;
                         }
 
@@ -347,7 +348,7 @@ if (allowStatisticsCookies) {
                         }
 
                         .ds_quick-exit__button {
-                            background-color: green;
+                            background-color: #d32205;
                             margin: 0 0 16px 0;
                         }
 
@@ -356,10 +357,14 @@ if (allowStatisticsCookies) {
                             line-height: 24px;
                             margin-bottom: 0;
                         }
+
+                        .ds_article-aside__section {
+                            margin-bottom: 32px;
+                        }
                         </style>
                         <div class="ds_quick-exit__box">
                             <a href="https://www.mygov.scot/" class="ds_button  ds_button--max  ds_quick-exit__button">Hide page</a>
-                            <p class="ds_quick-exit__message">Use this button or the <b>Esc</b> key on your keyboard to jump to home page.</p>
+                            <p class="ds_quick-exit__message">Use this button or the <b>Esc</b> key to jump to the home page.</p>
                         </div>
 
 
@@ -451,9 +456,8 @@ if (allowStatisticsCookies) {
                 </div>
 
                 <div class="ds_layout__sidebar">
-
-                <div style="position: sticky; bottom: 0px; top: 280px;"><div class="ds_article-aside">
-                            <div id="related-items" class="article-footer__section">
+                    <div class="ds_article-aside">
+                            <div id="related-items" class="ds_article-aside__section">
                                 <h2 class="gamma">Related content</h2>
                                 <ul class="ds_no-bullets">
                                         <li>
@@ -474,15 +478,15 @@ if (allowStatisticsCookies) {
                                 </ul>
                             </div>
 
-                                <div id="stay-safe-online" class="article-footer__section">
-                                    <h3 class="article-footer__title">Stay safe online …</h3>
-                                    <ul class="no-bullets ds_no-margin--left">
+                                <div id="stay-safe-online" class="ds_article-aside__section">
+                                    <h3 class="article-footer__title">Stay safe online</h3>
+                                    <ul class="ds_no-bullets">
                                         <li>
                                             <a href="https://lclstage.mygov.scot/staying-safe-online/deleting-your-browser-history/" data-gtm="staysafe-yes">Deleting your history and staying safe online</a>
                                         </li>
                                     </ul>
                                 </div>
-                        </div></div></div>
+                        </div></div>
 
                 <div class="ds_layout__feedback">
                     <section id="feedback" class="mg_feedback">
@@ -1764,16 +1768,6 @@ const quickExitBox = document.querySelector('.ds_quick-exit__box');
                         document.querySelector('.ds_quick-exit__button').addEventListener('click', (event) => {
                             quickExit(event);
                         });
-
-                        const sidebarElement = document.querySelector('.ds_layout__sidebar');
-                        const sidebarChildWrapper = document.createElement('div');
-                        for (let i = 0; i < sidebarElement.children.length; i++) {
-sidebarChildWrapper.appendChild(sidebarElement.children[i]);
-                        }
-                        sidebarElement.appendChild(sidebarChildWrapper);
-                        sidebarChildWrapper.style.position = 'sticky';
-                        sidebarChildWrapper.style.bottom = 0;
-                        sidebarChildWrapper.style.top = quickExitBox.offsetHeight + 80 + 'px';
 
                         function quickExit(event) {
                             event.preventDefault();
