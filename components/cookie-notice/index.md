@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.cookie-notice
 summary: ""
-type: major
 phase: 2
 published: false
 ---

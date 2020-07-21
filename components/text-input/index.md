@@ -6,9 +6,7 @@ subcategory: forms
 parent: components
 thispage: component.text-input
 summary: ""
-type: major
 phase: 3
-hidden: true
 ---
 ## Size options
 {% include example-frame.html name="sizes" %}

@@ -6,9 +6,7 @@ subcategory: forms
 parent: components
 label: component
 thispage: component.checkboxes
-type: major
 phase: 3
-hidden: true
 ---
 
 ## Checkboxes with hint text

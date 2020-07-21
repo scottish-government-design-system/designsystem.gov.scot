@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.site-navigation
 summary: "The main navigation on a website, site navigation is a row of core links that appears on every page."
-type: minor
 phase: 1
 #examples:
 #  - site: gov.scot

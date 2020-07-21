@@ -6,8 +6,6 @@ parent: components
 label: component
 thispage: component.callout
 summary: ""
-type: minor
-phase: 9999
+phase: 4
 experimental: true
-hidden: true
 ---

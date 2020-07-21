@@ -5,7 +5,6 @@ category: patterns
 parent: patterns
 thispage: pattern.site-footer
 summary: "A site footer should appear at the bottom of every page and highlights links to content about the website."
-type: major
 phase: 1
 
 ---

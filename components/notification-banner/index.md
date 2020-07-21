@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.notification-banner
 summary: "A banner highlighting key content that all visitors to a website will need to see."
-type: major
 phase: 1
 ---
 ## About this component

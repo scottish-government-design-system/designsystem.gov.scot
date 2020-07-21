@@ -5,7 +5,5 @@ category: components
 parent: components
 thispage: component.inset-text
 summary: "A callout notice for helpful information."
-type: minor
 phase: 3
-hidden: true
 ---

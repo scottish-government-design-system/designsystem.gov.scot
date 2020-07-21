@@ -5,7 +5,6 @@ category: patterns
 parent: patterns
 thispage: pattern.site-header
 summary: "The site header contains key branding and the title of a website. It appears on every page."
-type: major
 phase: 1
 ---
 

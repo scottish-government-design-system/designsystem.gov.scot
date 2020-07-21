@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.page-header
 summary: "The header for a content page."
-type: major
 phase: 1
 ---
 

@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.site-search
 summary: "A search box that allows users to search a site for a keyword or phrase."
-type: minor
 phase: 1
 ---
 

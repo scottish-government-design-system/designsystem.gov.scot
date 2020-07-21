@@ -6,9 +6,7 @@ subcategory: forms
 parent: components
 label: component
 thispage: component.radio-buttons
-type: major
 phase: 3
-hidden: true
 ---
 
 ## Inline radio buttons

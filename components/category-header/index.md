@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.category-header
 summary: "The header used for a box navigation page."
-type: major
 phase: 1
 ---
 

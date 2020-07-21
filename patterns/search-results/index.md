@@ -5,7 +5,6 @@ category: patterns
 parent: patterns
 thispage: pattern.search-results
 summary: "A list displaying all the search results found after a user has made a search."
-type: minor
 phase: 1
 #examples:
 #  - site: gov.scot
