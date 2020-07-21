@@ -27,7 +27,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
             </script>
 
             <iframe
-                style="min-height: {{item.minheight}}"
+                style="min-height: {{item.minheight}}; max-height: {{item.maxheight}}"
                 data-style="{{style}}"
                 src="example.{{include.name}}.html"
                 class="example__iframe"
