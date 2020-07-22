@@ -20,7 +20,7 @@ Use table header elements to describe what the data in rows or columns represent
 
 ## Mobile behaviour
 
-In general mobile devices have room for around three columns of data, depending on the length of the data beign presented. If there is a lot of data in a table it might not display well on small screens. There are two alternative displays you can use, depending on your use case.
+In general mobile devices have room for around three columns of data, depending on the length of the data being presented. If there is a lot of data in a table it might not display well on small screens. There are two alternative displays you can use, depending on your use case.
 
 ### Scrolling table
 
