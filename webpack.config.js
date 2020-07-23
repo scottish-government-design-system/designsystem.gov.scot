@@ -10,6 +10,9 @@ const commonEntries = {
   'pattern-library': [
     path.resolve(__dirname, 'assets/scripts/all.js'),
     path.resolve(__dirname, 'assets/scripts/ds-site.js')
+  ],
+  'datepicker-demo': [
+    path.resolve(__dirname, 'assets/scripts/date-picker-only.js'),
   ]
 };
 
