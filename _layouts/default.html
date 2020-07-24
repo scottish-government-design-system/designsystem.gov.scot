@@ -22,7 +22,7 @@
 
             <div class="ds_wrapper">
 
-                <main id="main-content" class="ds_layout  ds_layout--article">
+                <main id="main-content" class="ds_layout  ds_layout--pl-article">
 
                     <div class="ds_layout__header">
                         <header class="heading">
@@ -32,6 +32,11 @@
                                 <h1 class="ds_page-header__title">{{ page.title }}</h1>
                             </div>
                         </header>
+                    </div>
+
+                    <div class="ds_layout__sidebar">
+                        {% assign navitems = page.category %}
+                        {% include component-side-navigation.html %}
                     </div>
 
                     {% if page.headings %}

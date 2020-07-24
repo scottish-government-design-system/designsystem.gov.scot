@@ -26,7 +26,7 @@
                         <div class="ds_mobile-navigation__block">
                             <ul class="ds_mobile-navigation__list">
                                 <li class="ds_mobile-navigation__item">
-                                    {% if page.url == '/' %}
+                                    {% if page.url == '/get-started/' %}
                                         <span class="ds_mobile-navigation__link  ds_current">
                                             Get started
                                         </span>
@@ -121,12 +121,12 @@
             <nav class="ds_site-navigation">
                 <ul class="ds_site-navigation__list">
                     <li class="ds_site-navigation__item">
-                        {% if page.url == '/' %}
+                        {% if page.url == '/get-started/' %}
                             <span class="ds_site-navigation__link  ds_current">
                                 Get started
                             </span>
                         {% else %}
-                            <a href="/" data-device="desktop" data-header="header-link-1" class="ds_site-navigation__link">
+                            <a href="/get-started/" data-device="desktop" data-header="header-link-1" class="ds_site-navigation__link">
                                 Get started
                             </a>
                         {% endif %}

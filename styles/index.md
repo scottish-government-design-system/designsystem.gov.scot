@@ -2,7 +2,7 @@
 layout: design-system-category-landing
 thispage: styles
 navitems: styles
-parent: library
+parent: home
 title: "Styles"
 category: library
 childrenHavePrevNext: true

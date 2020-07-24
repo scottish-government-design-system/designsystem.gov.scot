@@ -2,7 +2,7 @@
 layout: design-system-category-landing
 thispage: components
 navitems: components
-parent: library
+parent: home
 title: "Components"
 category: library
 childrenHavePrevNext: true

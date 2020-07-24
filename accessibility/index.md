@@ -1,10 +1,10 @@
 ---
-layout: design-system-category-landing
+layout: default
 thispage: accessibility
 navitems: accessibility
-parent: library
+parent: home
 title: "Accessibility"
-category: foo
+category: accessibility
 childrenHavePrevNext: true
 index: 999
 summary: "Best practice accessibility guidelines for web design."

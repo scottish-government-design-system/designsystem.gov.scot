@@ -22,6 +22,26 @@
             }
         }
     }
+
+    &--pl-article {
+        > .#{$pl-prefix}layout {
+            &__header {
+                float: left;
+                @include colwidth(8);
+            }
+
+            &__content {
+                float: left;
+                @include colwidth(7);
+            }
+
+            &__sidebar {
+                clear: left;
+                float: left;
+                @include colwidth(3);
+            }
+        }
+    }
 }
 
 @supports(display: grid) {
@@ -33,11 +53,25 @@
                     's s s s c c c c c c c c';
             }
         }
+
+        .#{$pl-prefix}layout {
+            &--pl-article {
+                grid-template-areas:
+                    's s s s h h h h h h h h'
+                    's s s s c c c c c c c c';
+            }
+        }
     }
 
     @include media-query(large) {
         .#{$pl-prefix}layout {
             &--pl-component {
+                grid-template-areas:
+                    's s s h h h h h h h . .'
+                    's s s c c c c c c c . .';
+            }
+
+            &--pl-article {
                 grid-template-areas:
                     's s s h h h h h h h . .'
                     's s s c c c c c c c . .';

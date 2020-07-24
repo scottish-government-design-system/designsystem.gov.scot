@@ -2,7 +2,7 @@
 layout: design-system-category-landing
 thispage: patterns
 navitems: patterns
-parent: library
+parent: home
 title: "Patterns"
 category: library
 childrenHavePrevNext: true
