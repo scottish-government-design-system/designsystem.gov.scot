@@ -36,7 +36,15 @@
 
                     <div class="ds_layout__sidebar">
                         {% assign navitems = page.category %}
+
+                        {% assign rootpages = site.pages | where:"category", page.category | where:"parent", "home" %}
+                        {% assign rootpage = rootpages[0] %}
+
+                        {% if rootpage.sidebar %}
+                        {% include component-side-navigation-nested.html sidebar=rootpage.sidebar %}
+                        {% else %}
                         {% include component-side-navigation.html %}
+                        {% endif %}
                     </div>
 
                     {% if page.headings %}

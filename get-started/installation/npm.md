@@ -1,10 +1,10 @@
 ---
-layout: component
+layout: default
 title:  "Installing with npm"
 category: get-started
-parent: get-started
+parent: get-started.installation
 label: How to
-thispage: get-started.installation
+thispage: get-started.installation.npm
 summary: ""
 phase: 2
 
@@ -18,17 +18,17 @@ phase: 2
 
 2. If your project does not already have a `package.json` file, create one by running this command from your project's root folder:
 
-    <pre><code class="css">npm init</code></pre>
+    <pre><code class="lang-bash">npm init</code></pre>
 
 3. Install a SASS compiler. We recommend installing [node-sass](https://github.com/sass/node-sass) into your project.
 
-    <pre><code class="css">npm install node-sass --save-dev</code></pre>
+    <pre><code class="lang-bash">npm install node-sass --save-dev</code></pre>
 
 ## Install the design system
 
 Install the design system with this command:
 
-<pre><code>npm install @scottish-government/pattern-library --save-dev</code></pre>
+<pre><code class="lang-bash">npm install @scottish-government/pattern-library --save-dev</code></pre>
 
 You will now have a copy of the design system's source code in your project's `node_modules` folder.
 
@@ -38,7 +38,7 @@ You will now have a copy of the design system's source code in your project's `n
 
 A typical starting point for your main SCSS file might look something like this.
 
-<pre><code>@import "/path/to/base/all-base";
+<pre><code class="lang-scss">@import "/path/to/base/all-base";
 @import "/path/to/forms/all-forms";
 @import "/path/to/components/all-components";
 </code></pre>
@@ -47,7 +47,7 @@ The base styles are always required. Among other things they contain the typogra
 
 You have the opportunity to pick and choose the components you want to include if you do not need them all. For example:
 
-<pre><code>@import "/path/to/base/all-base";  
+<pre><code class="lang-scss">@import "/path/to/base/all-base";  
 @import "/path/to/forms/all-forms";  
 @import "/path/to/components/accordion/accordion";  
 @import "/path/to/components/breadcrumbs/breadcrumbs";  

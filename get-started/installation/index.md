@@ -1,5 +1,5 @@
 ---
-layout: component
+layout: default
 title:  "Installation"
 category: get-started
 parent: get-started

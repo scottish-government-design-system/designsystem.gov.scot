@@ -7,4 +7,12 @@ title: "Get started"
 category: get-started
 index: 999
 summary: "Needs summary content describing what users will find in this category"
+
+
+sidebar:
+ - page: get-started
+ - page: get-started.installation
+   sidebar:
+    - page: get-started.installation.npm
+    - page: get-started.installation.compiled
 ---
