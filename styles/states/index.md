@@ -8,48 +8,38 @@ thispage: style.states
 phase: 2
 ---
 
-Focus states can also be known as 'interactive states'. Not all users will come across a focus or interactive state, but for some users and a website's accessibility they're very important.
 
-For those users who use keyboards or other devices to jump between things like buttons and links on a web page, following some best practice guidelines when designing web pages can help make it much easier for them to find what they need.
 
-## When users use a keyboard or other device to search a web page
-
-When a user searches a web page by jumping between things like the page's buttons or form fields, it needs to be clear to the user which bit of the page they're on. If there's a change in state, such as a button that's been clicked, this should also be clear.
+When a user searches a web page by jumping between things like the page’s links, buttons or form fields, it needs to be clear to the user which part of the page they’re on.
 
 Components and patterns in this Design System provide styles to make these things clear. If you use a component or pattern from the Design System, you do not need to do anything extra with the focus states within it.
 
-The states shown for things like buttons or form field in the Design System are:
+Focus states in the Design System use a high-contrast combination of yellow and dark grey. This combination meets colour contrast requirements in <abbr title="Web Content Accessibility Guidelines ">WCAG</abbr> 2.1 AA ([non-text contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)) against any background colour used by the Design System.
 
-- default
-- hover
-- focus
-- active
-- selected
+<img src="/assets/images/link-focus.svg">
 
-### Default
-The default, or normal state, is how the element something appears when not in use.
+This combination of light and dark colours ensures a good contrast against both light and dark backgrounds.
 
-### Hover
-The hover state starts when a user places their cursor over something like a button or form field.
+## Link focus state
 
-### Focus
-The focus state starts when a user gets to something like a button or form field using their keyboard or other device. This state should contrast to the default state.
+Links are given a yellow background and dark grey bottom border when they have focus.
 
-Focus states of the components and patterns in this Design System use a high contrast combination of yellow and black to make sure they meet Web Content Accessibility Guidelines (WCAG) 2.1 level AA. To meet these standards, foreground and background colours must have a high contrast.
+{% include example-frame.html name="link" no-code=true %}
 
-### Active
-The active state shows the user has triggered a button or is typing in a form field.
+Other components that look like links use the same style for consistency. For example, [accordion headers](/components/accordion) or [sequential navigation](/components/sequential-navigation).
 
-### Selected/Current
-The selected states denotes the current page or option in a list of navigational links - e.g. the page a user is looking at in a guide.
+<div class="ds_inset-text">For developers, there is a mixin called <code>blocklink</code> that you can include in style rules for this kind of component that provides the majority of this styling so you don't have to write it from scratch.</div>
 
-Our focus states are designed to work with these devices:
+## Button focus state
 
-- mouse
-- touch screen
-- keyboard
-- game controller
-- magnifiers
-- screen reader
-- switch
-- other assistive devices
+Similar to links, buttons are given a yellow background with dark grey bottom border when they are in focus. This focus style is applied to all types of button (i.e. primary, secondary, and cancel).
+
+{% include example-frame.html name="button" no-code=true %}
+
+## Form field focus state
+
+{% include example-frame.html name="field" no-code=true %}
+
+Focus on form fields is indicated by adding a yellow outline and a thicker dark border. This style is applied across all types of form field for a consistent user experience.
+
+{% include example-frame.html name="field-radio" no-code=true %}
