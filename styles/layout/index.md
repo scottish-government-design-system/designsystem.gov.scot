@@ -8,11 +8,11 @@ thispage: style.layout
 phase: 3
 highlighttype: css
 ---
-The design system's layout component ("Layout") is a tool used to help to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template). The intention of Layout is to make it easy for content to be placed into defined areas in your HTML across templates or content formats.
+The Design System's layout component ("Layout") is a tool used to help to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template). The intention of Layout is to make it easy for content to be placed into defined areas in your HTML across templates or content formats.
 
 Layout uses CSS grid with a fallback for browsers with no CSS grid support.
 
-There are a number of responsive layouts provided in the design system. You can create your own layouts if you need something that is not already defined in the design system.
+There are a number of responsive layouts provided in the Design System. You can create your own layouts if you need something that is not already defined in the Design System.
 
 ## Example: Article layout
 
@@ -49,7 +49,7 @@ This is an example of how to create a custom layout using Layout. The example il
 
 <img src="/assets/images/examples/complex-document-layout.svg"/>
 
-On small devices in this layout everything is linearised and we can just rely on the default layout defined by the design system.
+On small devices in this layout everything is linearised and we can just rely on the default layout defined by the Design System.
 
 On medium devices (e.g. tablets) the sidebar is moved to the side of the content area and the feedback box is reduced in width to match the width of the content area.
 
@@ -73,7 +73,7 @@ The first quirk of this layout is that the icon is only visible on large display
         }
     }
 
-Apart from the icon, until we get to a medium (tablet) display this layout is the same as the default design system `ds_layout` so we don't need to do anything special for those sizes.
+Apart from the icon, until we get to a medium (tablet) display this layout is the same as the default Design System `ds_layout` so we don't need to do anything special for those sizes.
 
 At medium we start to diverge from the default layout so we need to write some rules. There are some helper mixins in Layout that help with this. Here we are using `colwidth` to tell the layout how many columns a content area should span. `colwidth` provides a percentage width value that takes into account the total number of columns in your grid and your grid gutter width.
 
@@ -95,7 +95,7 @@ At medium we start to diverge from the default layout so we need to write some r
         }
     }
 
-At the large size we bring the icon back in and content areas are shifted over two columns. The design system Layout component has push and pull helpers we can use to manipulate where a content area is placed in the grid. Here we'll use `colpush` to shift things over by two columns.
+At the large size we bring the icon back in and content areas are shifted over two columns. The Design System Layout component has push and pull helpers we can use to manipulate where a content area is placed in the grid. Here we'll use `colpush` to shift things over by two columns.
 
     @include media-query(large) {
         .my_layout--document {

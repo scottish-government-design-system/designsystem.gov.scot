@@ -17,7 +17,7 @@ This area is used for things that are common across a site, such as notification
 
 ## Page middle
 
-This is where your main content goes. Use the design system's [layout component](/styles/layout/) to define how the various parts of a page are arranged.
+This is where your main content goes. Use the Design System's [layout component](/styles/layout/) to define how the various parts of a page are arranged.
 
 ## Page bottom
 

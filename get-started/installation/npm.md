@@ -24,15 +24,15 @@ phase: 2
 
     <pre><code class="lang-bash">npm install node-sass --save-dev</code></pre>
 
-## Install the design system
+## Install the Design System
 
-Install the design system with this command:
+Install the Design System with this command:
 
 <pre><code class="lang-bash">npm install @scottish-government/pattern-library --save-dev</code></pre>
 
-You will now have a copy of the design system's source code in your project's `node_modules` folder.
+You will now have a copy of the Design System's source code in your project's `node_modules` folder.
 
-## Using the design system
+## Using the Design System
 
 ### SASS and CSS
 
@@ -56,6 +56,6 @@ You have the opportunity to pick and choose the components you want to include i
 
 ### JavaScript
 
-The JavaScript for design system components is written as ES6 modules. Native browser support for ES6 modules is limited and some other tools are required to compile that into a form web browsers will understand.
+The JavaScript for Design System components is written as ES6 modules. Native browser support for ES6 modules is limited and some other tools are required to compile that into a form web browsers will understand.
 
 We use [Webpack](https://webpack.js.org/) to compile the scripts and [Babel](https://babeljs.io/) to convert the script to ES5 for older browsers.
