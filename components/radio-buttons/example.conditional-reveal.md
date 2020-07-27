@@ -8,7 +8,7 @@ type: example
         <legend>Was this page useful?</legend>
         <p class="ds_hint-text">Select an option</p>
 
-        <div class="ds_field-group  ds_field-group">
+        <div class="ds_field-group">
             <div class="ds_radio">
                 <input class="ds_radio__input" id="XXXXX-2stack" name="group-name-2" type="radio" value="yes">
                 <label class="ds_radio__label" for="XXXXX-2stack">Yes</label>

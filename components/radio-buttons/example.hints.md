@@ -7,7 +7,7 @@ type: example
     <fieldset>
         <legend>How will the payments be paid in?</legend>
 
-        <div class="ds_field-group  ds_field-group">
+        <div class="ds_field-group">
             <div class="ds_radio">
                 <input class="ds_radio__input" id="payment-advance" name="group-name" type="radio" value="advance">
                 <label class="ds_radio__label" for="payment-advance">Advance</label>
