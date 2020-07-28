@@ -24,11 +24,6 @@ $example__highlight-colour: $colour__link--current__background !default;
     width: 100%;
 }
 
-.example__content {
-    border: 1px solid $example__border-colour;
-    box-shadow: 4px 4px $example__border-colour;
-}
-
 .example__pre {
     background-color: $example__highlight-colour;
     margin-bottom: 0;

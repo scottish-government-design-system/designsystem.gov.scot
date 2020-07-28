@@ -1,0 +1,16 @@
+figure {
+    border: 1px solid $colour__border;
+    box-shadow: 4px 4px $colour__border;
+
+    @include block-margins;
+
+    > img {
+        display: block;
+    }
+}
+
+figcaption {
+    background-color: $colour__grey--lighter;
+    font-size: $small-size;
+    padding: 4px 15px;
+}
