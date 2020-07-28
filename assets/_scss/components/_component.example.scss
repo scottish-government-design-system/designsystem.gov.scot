@@ -12,12 +12,6 @@ $example__highlight-colour: $colour__link--current__background !default;
     @include block-margins;
 }
 
-.example__caption {
-    font-size: 0.75em;
-    font-weight: 500;
-    margin-top: 32px;
-}
-
 .example__iframe {
     border: 0;
     display: block;

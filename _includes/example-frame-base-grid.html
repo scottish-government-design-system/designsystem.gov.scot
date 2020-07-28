@@ -9,11 +9,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
 
 <figure class="example  overflow--large--2 overflow--xlarge--2">
 
-    {% if include.caption %}
-        <figcaption class="example__caption">
-            {{include.caption}}
-        </figcaption>
-    {% endif %}
+
 
 
 
@@ -37,5 +33,9 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
         {% endif %}>
     </iframe>
 
-
+    {% if include.caption %}
+        <figcaption class="example__caption">
+            {{include.caption}}
+        </figcaption>
+    {% endif %}
 </figure>

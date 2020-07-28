@@ -87,7 +87,7 @@ The icons can be aligned to either side of the button.
 
 ### Icon-only buttons
 
-Buttons can also contain only an icon. If you do this, make sure that the intention of the button is clearly communicated through some hidden text, so it is accessible to users of assistive technology.
+Buttons can also contain only an icon. If you do this, make sure that the intention of the button is clearly communicated in a way that is accessible to users of assistive technology.
 
 {% include example-frame.html name="icons3" %}
 

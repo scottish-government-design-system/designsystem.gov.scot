@@ -8,19 +8,16 @@ thispage: style.states
 phase: 2
 ---
 
-
-
-When a user searches a web page by jumping between things like the page’s links, buttons or form fields, it needs to be clear to the user which part of the page they’re on.
+When a user moves through a web page by jumping between things like the page’s links, buttons or form fields, it needs to be clear to the user which part of the page they’re on.
 
 Components and patterns in this Design System provide styles to make these things clear. If you use a component or pattern from the Design System, you do not need to do anything extra with the focus states within it.
 
 Focus states in the Design System use a high-contrast combination of yellow and dark grey. This combination meets colour contrast requirements in <abbr title="Web Content Accessibility Guidelines ">WCAG</abbr> 2.1 AA ([non-text contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)) against any background colour used by the Design System.
 
-This combination of light and dark colours ensures a good contrast against both light and dark backgrounds.
 
 ## Link focus state
 
-Links are given a yellow background and dark grey bottom border when they have focus.
+Links are given a yellow background and dark grey bottom border when they have focus. This combination of light and dark colours ensures a good contrast against both light and dark backgrounds.
 
 <figure>
 <img alt="" src="/assets/images/focus-link.svg">

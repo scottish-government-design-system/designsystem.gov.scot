@@ -4,87 +4,37 @@ title:  "Colour palette"
 category: styles
 parent: styles
 thispage: style.colour-palette
-#summary: ""
+summary: "Our brand colours and how to apply them"
 phase: 2
 ---
-A strong colour palette can make it easier for users to process,
-understand and navigate sites and services.
 
-<style>
+## Using colour
 
-code {font-size: 0.85rem;}
+The palette we use conforms to the wider branding of Scottish Government. We also use colour to help users prioritise and differentiate information - for example:
 
-.dss_palette__name {
-    padding-left: 57px;
-    position: relative;
-    width: 50%;
-}
+* yellow for our focus states
+* red as a warning colour
+* green for positive confirmation
 
-.dss_palette__variable {
-    width: 40%;
-}
+If your service or site is going to be a subdomain of either gov.scot or mygov.scot, e.g. **newservice**.gov.scot, then this is the colour palette you needs to use.
 
-.dss_palette__hex {
-    text-align: right;
-    width: 10%;
-}
 
-.dss_palette__swatch {
-    position: absolute;
-    border-radius: 100%;
-    display: inline-block;
-    height: 42px;
-    left: 0;
-    margin: -6px 10px 0 0;
-    vertical-align: middle;
-    width: 42px;
-}
 
-td {
-    vertical-align: top;
-    padding-bottom: 21px;
-}
 
-table {
-    margin-top: 21px;
-    width: 100%;
-}
-</style>
+## Colour contrast
 
-<h2>Main colours</h2>
+Good colour contrast uses light colours together with very dark colours. Low contrast can result in users not being able to read the text or complete actions.  It is essential that the contrast ratio of text and interactive elements on public sector sites meet [level AA of the Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/#contrast-minimum). Colours in this palette have been tested to ensure this palette meets these standards.
 
-<table>
+
+
+
+## The palette
+
+### Brand
+
+<table class="dss_palette">
     <thead class="visually-hidden">
         <tr>
-            <th>Name</th>
-            <th>SCSS variable</th>
-            <th>Hex code</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #333333"></span>
-                <code>$color__text</code>
-                </td>
-            <td class="dss_palette__hex"><code>#333333</code></td>
-        </tr>
-        <tr>
-            <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #727272"></span>
-                <code>$color__text--secondary</code>
-            </td>
-            <td class="dss_palette__hex"><code>#727272</code></td>
-        </tr>
-    </tbody>
-</table>
-
-<h3>Links</h3>
-
-<table>
-    <thead class="visually-hidden">
-        <tr>
-            <th>Name</th>
             <th>SCSS variable</th>
             <th>Hex code</th>
         </tr>
@@ -93,47 +43,28 @@ table {
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
-                <code>$color__link</code>
-            </td>
+                <code>$colour__brand</code>
+                </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #00437e"></span>
-                <code>$color__link--hover</code>
+                <span class="dss_palette__swatch" style="background-color: #002d54"></span>
+                <code>$colour__brand--secondary</code>
             </td>
-            <td class="dss_palette__hex"><code>#00437e</code></td>
-        </tr>
-        <tr>
-            <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #d9effc"></span>
-                <code>$color__link--hover__background</code>
-            </td>
-            <td class="dss_palette__hex"><code>#d9effc</code></td>
-        </tr>
-        <tr>
-            <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #333333"></span>
-                <code>$color__link--current</code>
-            </td>
-            <td class="dss_palette__hex"><code>#333333</code></td>
-        </tr>
-        <tr>
-            <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #f8f8f8"></span>
-                <code>$color__link--current__background</code>
-            </td>
-            <td class="dss_palette__hex"><code>#f8f8f8</code></td>
+            <td class="dss_palette__hex"><code>#002d54</code></td>
         </tr>
     </tbody>
 </table>
 
-<h3>Focus and active state</h3>
 
-<table>
+
+
+### Text
+
+<table class="dss_palette">
     <thead class="visually-hidden">
         <tr>
-            <th>Name</th>
             <th>SCSS variable</th>
             <th>Hex code</th>
         </tr>
@@ -142,8 +73,88 @@ table {
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #333333"></span>
-                <code>$color__link--active</code><br />
-                <code>$color__link--focus</code>
+                <code>$colour__text</code>
+                </td>
+            <td class="dss_palette__hex"><code>#333333</code></td>
+        </tr>
+        <tr>
+            <td class="dss_palette__name">
+                <span class="dss_palette__swatch" style="background-color: #727272"></span>
+                <code>$colour__text--secondary</code>
+            </td>
+            <td class="dss_palette__hex"><code>#727272</code></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+### Links
+
+<table class="dss_palette">
+    <thead class="visually-hidden">
+        <tr>
+            <th>SCSS variable</th>
+            <th>Hex code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="dss_palette__name">
+                <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
+                <code>$colour__link</code>
+            </td>
+            <td class="dss_palette__hex"><code>#0065bd</code></td>
+        </tr>
+        <tr>
+            <td class="dss_palette__name">
+                <span class="dss_palette__swatch" style="background-color: #00437e"></span>
+                <code>$colour__link--hover</code>
+            </td>
+            <td class="dss_palette__hex"><code>#00437e</code></td>
+        </tr>
+        <tr>
+            <td class="dss_palette__name">
+                <span class="dss_palette__swatch" style="background-color: #d9effc"></span>
+                <code>$colour__link--hover__background</code>
+            </td>
+            <td class="dss_palette__hex"><code>#d9effc</code></td>
+        </tr>
+        <tr>
+            <td class="dss_palette__name">
+                <span class="dss_palette__swatch" style="background-color: #333333"></span>
+                <code>$colour__link--current</code>
+            </td>
+            <td class="dss_palette__hex"><code>#333333</code></td>
+        </tr>
+        <tr>
+            <td class="dss_palette__name">
+                <span class="dss_palette__swatch" style="background-color: #f8f8f8"></span>
+                <code>$colour__link--current__background</code>
+            </td>
+            <td class="dss_palette__hex"><code>#f8f8f8</code></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+### Focus
+
+<table class="dss_palette">
+    <thead class="visually-hidden">
+        <tr>
+            <th>SCSS variable</th>
+            <th>Hex code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="dss_palette__name">
+                <span class="dss_palette__swatch" style="background-color: #333333"></span>
+                <code>$colour__link--focus</code>
             </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
@@ -151,20 +162,21 @@ table {
             <!-- <td class="dss_palette__swa"></td> -->
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #fdd522"></span>
-                <code>$color__link--active__background</code><br />
-                <code>$color__link--focus__background</code>
+                <code>$colour__link--focus__background</code>
             </td>
             <td class="dss_palette__hex"><code>#fdd522</code></td>
         </tr>
     </tbody>
 </table>
 
-<h3>Positive and negative messaging</h3>
 
-<table>
+
+
+### Positive and negative messaging
+
+<table class="dss_palette">
     <thead class="visually-hidden">
         <tr>
-            <th>Name</th>
             <th>SCSS variable</th>
             <th>Hex code</th>
         </tr>
@@ -189,12 +201,14 @@ table {
     </tbody>
 </table>
 
-<h3>Borders</h3>
 
-<table>
+
+
+### Borders
+
+<table class="dss_palette">
     <thead class="visually-hidden">
         <tr>
-            <th>Name</th>
             <th>SCSS variable</th>
             <th>Hex code</th>
         </tr>
@@ -231,59 +245,51 @@ table {
     </tbody>
 </table>
 
-## Colour selection
 
-Several elements make up the colour palette, such as brand colours,
-notification colours and text colours.
 
-## Brand colours
 
-Brand colours align colours to organisations, often matching the colours
-to a brand’s logo.
+<style>
 
-## Notification colours
+code {font-size: 0.85rem;}
 
-We use certain colours to mean something.
+.dss_palette {
+    font-size: 0.85rem;
+    table-layout: initial;
+}
 
-* Red – error
-* Green – success or validation message
-* Yellow – warning or alert
+.dss_palette,
+.dss_palette tr {
+    border: 0;
+}
 
-## Text colours
+.dss_palette td {
+    padding-bottom: 24px;
+}
 
-Text should be dark on a light background, such as dark grey on white,
-or white on a dark background.
+.dss_palette__name {
+    padding-left: 60px;
+    position: relative;
+    width: 50%;
+}
 
-## Calls to action
+.dss_palette__variable {
+    width: 40%;
+}
 
-You can use colour to foreground calls to action by putting high contrast
-colours against a neutral background. This helps draw the eye more than
-subtle colours.
+.dss_palette__hex {
+    text-align: right;
+    width: 10%;
+}
 
-You can also use different colours to highlight and differentiate submit and
-cancel buttons.
+.dss_palette__swatch {
+    position: absolute;
+    border-radius: 100%;
+    display: inline-block;
+    height: 40px;
+    left: 0;
+    margin: -4px 10px 0 0;
+    vertical-align: middle;
+    width: 40px;
+}
 
-## When a user changes something on a page
-
-When a user interacts with a page, such as by clicking a button, it’s
-usually shown by a change in colour. This means you’ll need a number of
-colours in your colour palette to support these changes in state.
-
-Find out more about our approach to interactive states.
-
-## Contrast
-
-Good colour contrast uses light colours together with very dark colours.
-Low contrast can result in users not being able to read the text or
-complete actions.
-
-There are free online tools you can use to check colour combinations that
-pass WCAG contrast needs.
-
-## Accessibility
-
-You need to think about users who are colour blind when creating a site
-palette. Avoid colour combinations such as red/green and blue/yellow, as
-they can result in users not being able to read your site’s text.
-
-Find more about the Digital Scotland Design System colour palette.
+</style>
