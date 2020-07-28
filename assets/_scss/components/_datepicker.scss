@@ -81,7 +81,7 @@
                 }
 
                 &.#{$pl-prefix}current:not(:focus) {
-                    background: $colour__brand--primary;
+                    background: $colour__brand;
                     color: $colour__white;
                 }
             }
