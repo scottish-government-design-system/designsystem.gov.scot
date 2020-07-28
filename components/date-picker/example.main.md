@@ -3,7 +3,7 @@ layout: example
 parent: component.date-picker
 type: example
 script: datepicker-demo
-minheight: 416px
+minheight: 448px
 ---
 
 <div data-module="ds-datepicker" class="ds_datepicker">
