@@ -20,7 +20,6 @@ If a form only allows a certain number of characters to be entered into a partic
 Using the character count component is better than simply using a "maxlength" attribute on the input element, because:
 
 * it is non-destructive, so users can enter or paste too much data and get a warning instead of losing any of it
-
 * users can see how many characters they have remaining as they type
 
 ## Other versions of this component
