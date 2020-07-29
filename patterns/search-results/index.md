@@ -51,10 +51,6 @@ Supporting evidence: mygov.scot accessibility review, March 2019.
 
 Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 
 - [Mygov.scot](https://www.mygov.scot/search/?q=education&cat=sitesearch)

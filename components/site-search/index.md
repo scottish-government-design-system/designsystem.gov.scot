@@ -30,10 +30,6 @@ The form should have a role of 'Search'.
 
 Searches from search boxes are tracked as standard via analytics site search settings through the use of the "q" parameter.
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 
 - [Mygov.scot](https://www.mygov.scot)

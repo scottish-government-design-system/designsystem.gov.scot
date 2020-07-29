@@ -28,10 +28,6 @@ There are no reported performance issues with this component from mygov or gov.s
 
 To understand user behaviour when using this component, the open/close arrow, or the "Open all"/"Close all" links can be tracked through the original page path.
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 
 [Mygov.scot - Help if you are made redundant](https://www.mygov.scot/legal-advice/)

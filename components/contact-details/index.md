@@ -38,7 +38,3 @@ To track this component:
 * clicks on social media/email/telephone links can be tracked through the original page path, the external link URL/mailto/tel, the click text and a data attribute showing the element, e.g. data-navigation=“contact-details”
 * internal links (e.g. for telephone number charges) can be tracked using the same attributes
 * phone numbers are not links by default – they are tagged with a data attribute and, if the user is on a mobile phone, can be automatically linked to make a call, if the user’s browser supports this  
-
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  

@@ -137,7 +137,3 @@ Date pickers are a common component used when users are asked to enter dates.
         </tr>
     </tbody>
 </table>
-
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  

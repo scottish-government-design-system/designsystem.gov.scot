@@ -51,10 +51,6 @@ Features of these patterns, such as the large size of the boxes in the card navi
 
 These patterns can also be reused across websites, creating a consistent experience for users and cutting development time.
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 
 [Mygov.scot](https://www.mygov.scot)

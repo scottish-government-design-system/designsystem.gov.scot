@@ -37,10 +37,6 @@ Sequential navigation allows users to navigate without having to go back to navi
 
 Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation.
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 
 [Mygov.scot](https://www.mygov.scot/childcare-costs-help/)

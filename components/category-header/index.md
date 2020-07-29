@@ -33,10 +33,6 @@ The different versions of this header are a version:
 
 [Navigational pages](https://designsystem.gov.scot/components/card-navigation/)
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)   
-
 ## Links to live examples
 
 [Scotland: A Trading Nation](https://tradingnation.mygov.scot)

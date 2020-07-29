@@ -19,13 +19,13 @@ index: 0
 
 @media (min-width: 384px) {
   .ds_wrapper {
-    max-width: 375px; } }
+    max-width: 368px; } }
 @media (min-width: 496px) {
   .ds_wrapper {
-    max-width: 485px; } }
+    max-width: 484px; } }
 @media (min-width: 600px) {
   .ds_wrapper {
-    max-width: 585px; } }
+    max-width: 584px; } }
 
 body:after {
     content: '';
@@ -185,7 +185,7 @@ dd {
         <dt>Viewport</dt>
         <dd>768px - 991px</dd>
         <dt>Container width</dt>
-        <dd>750px</dd>
+        <dd>736px</dd>
     </dl>
 </div>
 
@@ -197,7 +197,7 @@ dd {
         <dt>Viewport</dt>
         <dd>992px - 1199px</dd>
         <dt>Container width</dt>
-        <dd>970px</dd>
+        <dd>968px</dd>
     </dl>
 </div>
 
@@ -209,7 +209,7 @@ dd {
         <dt>Viewport</dt>
         <dd>1200px and above</dd>
         <dt>Container width</dt>
-        <dd>1170px</dd>
+        <dd>1168px</dd>
     </dl>
 </div>
 

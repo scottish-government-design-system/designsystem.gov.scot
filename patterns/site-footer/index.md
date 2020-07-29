@@ -24,9 +24,6 @@ Site footers are a best practice web pattern used to add information about a web
 ## Website analytics
 Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage. Users also interact with all the footer links.
 
-## Feedback, help or support
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 [Mygov.scot](https://www.mygov.scot)  
 [Scotland: A Trading Nation](https://tradingnation.mygov.scot)

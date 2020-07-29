@@ -29,8 +29,3 @@ This example is intended for illustration purposes only, and the HTML and CSS co
 ## Mobile version
 
 The individual boxes of the grid span the width of the whole page on a mobile.
-
-## Feedback, help or support
-
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)  

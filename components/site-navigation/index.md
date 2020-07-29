@@ -22,10 +22,6 @@ Top level navigation gives users an overview of what’s included in a site by o
 
 It can also help users find key content quicker.
 
-## Feedback, help or support
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)
-
 ## Links to live examples
 
 [Gov.scot](https://www.gov.scot/)  

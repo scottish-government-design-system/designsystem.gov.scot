@@ -40,9 +40,5 @@ There is evidence from mygov.scot that users interact with the breadcrumbs more 
 * [W3C](https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html) may also be useful.
 * You should make sure chevrons are not read by screen readers and avoid font glyphs – these can cause accessibility problems.
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 [mygov.scot - Find a nursery or childcare place](https://www.mygov.scot/nursery-place/)

@@ -33,11 +33,6 @@ The cookie banner component allows a website to comply with General Data Protect
 
 3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.  
 
-## Feedback, help or support
-
-If you need any help or want to give any feedback you can e-mail us at:
-[designsystem@gov.scot](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 
 [Mygov.scot](https://www.mygov.scot)

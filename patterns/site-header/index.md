@@ -43,10 +43,6 @@ Analytics evidence from mygov.scot and gov.scot shows that users are familiar wi
 
 Users were also more likely to navigate to site sections of gov.scot using the site header’s primary navigation than using the same links on panels lower down the homepage.
 
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
-
 ## Links to live examples
 
 [Gov.scot](https://www.gov.scot/)  
