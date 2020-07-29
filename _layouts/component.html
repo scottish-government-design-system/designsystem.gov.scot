@@ -127,7 +127,7 @@
 
 <script>
 {% if page.highlighttype %}
-var codeBlocks = [].slice.call(document.querySelectorAll('pre code'));
+var codeBlocks = [].slice.call(document.querySelectorAll('code'));
 
 for (var i = 0, il = codeBlocks.length; i < il; i++) {
     codeBlocks[i].setAttribute('class', '{{page.highlighttype}}');

@@ -12,7 +12,7 @@ phase: 2
 
 ## About this component
 
-An accordion is made up of in-page links. When one of the links is selected, the link will expand to reveal its contents. If the same link is selected again, its contents will collapse and be hidden once again. Multiple links can be open at the same time.
+An accordion is made up of in-page links. When one of the links is clicked, the link will expand an associated panel to reveal its contents. If the same link is clicked again, the panel's contents will collapse and be hidden once again. Multiple panels can be open at the same time.
 
 There is an option to have an "Open all" and "Close all" function.
 
@@ -26,7 +26,9 @@ Sometimes, content is displayed best when it's broken into small chunks, with us
 
 There are no reported performance issues with this component from mygov or gov.scot.
 
-To understand user behaviour when using this component, the open/close arrow, or the "Open all"/"Close all" links can be tracked through the original page path.
+Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number, e.g. <code>data-accordion="accordion-open-1"</code>
+
+Opening and closing all accordion panels by clicking on the "Open all"/"Close all" link can be tracked through the original page path, click text and a data attribute attached on the element, e.g. <code>data-accordion="accordion-open-all"</code>
 
 ## Links to live examples
 

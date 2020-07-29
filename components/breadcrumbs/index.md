@@ -11,34 +11,47 @@ phase: 1
 
 ## About this component
 
-A breadcrumb should:
+The breadcrumbs component should:
 
 *	be used if a website has 2 or more levels in its structure
 *	include the user's current page
-*	display the ‘current page’ link in a clearly different style to the other links in the breadcrumb
+*	display the "current page" item in a clearly different style from the other items in the breadcrumbs
 
-You might not need a breadcrumb if the website has a top level navigation, such as a meganav or global navigation.
+You might not need a breadcrumbs component if the website has a top level navigation, such as a meganav or global navigation.
 
-You should omit the breadcrumb from parts of a website where a user needs to go through pages in a certain order. This includes things like online forms and multi-page calculators.
+You should omit the breadcrumbs component from parts of a website where a user needs to go through pages in a certain order. This includes things like online forms and multi-page calculators.
 
 ## Other versions of this component
 
-If the page titles in the breadcrumb trail are very long or if the structure repeats page titles, the current page doesn’t always need to be displayed. If this is the case, the current page title should still be available to screen readers.
+If the page titles in the breadcrumbs are very long or if the structure repeats page titles, the current page doesn’t always need to be displayed. If this is the case, the current page title should still be available to screen readers.
 
 ## Why we use this component
 
 Breadcrumbs are online best practice for supporting user navigation.
 
-## Website analytics
+## Evidence
 
 There is evidence from mygov.scot that users interact with the breadcrumbs more than other forms of navigation, for example in-page panel links or the back swipe button.
+
+## Variants
+
+Where there may be issues with repetition or page titles are too long, a version of breadcrumbs which do not include the current page can be used. In these cases keep the current page available to screen readers through the use of the <code>visually-hidden</code> helper class.
+
+## Website analytics / performance 
+
+To understand user behaviour, clicks on breadcrumb items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number, e.g.
+<code>data-navigation="breadcrumb-1"</code>
+
+Include a Schema.org representation of the breadcrumbs.
+
+{% include example-frame.html type="JSON-LD" no-demo="true" name="schema" %}
 
 ## Accessibility features
 
 * Use of a <nav> element with aria-label="breadcrumb" is recommended. You can find out more about this on [GitHub](https://github.com/alphagov/govuk-design-system-backlog/issues/33).
 * This breadcrumb component contains all the accessibility features for breadcrumbs described in WAI-ARIA’s authoring practices for breadcrumbs.
 * [W3C](https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html) may also be useful.
-* You should make sure chevrons are not read by screen readers and avoid font glyphs – these can cause accessibility problems.
+* You should make sure that separators between breadcrumb items are not read by screen readers and avoid using font glyphs for them – these can cause accessibility problems.
 
 ## Links to live examples
 [mygov.scot - Find a nursery or childcare place](https://www.mygov.scot/nursery-place/)

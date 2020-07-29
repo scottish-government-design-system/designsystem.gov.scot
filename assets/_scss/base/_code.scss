@@ -2,10 +2,17 @@ pre {
     overflow: visible;
 }
 
-pre > code {
+code {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
     background-color: $colour__grey--lighter !important;
-    display: block;
+    display: inline-block !important;
     font-size: $small-size;
+    border-left: 4px solid $colour__grey--lighter;
+    border-right: 4px solid $colour__grey--lighter;
+}
+
+
+pre > code {
+    border: 0;
     padding: 4px 8px;
 }
