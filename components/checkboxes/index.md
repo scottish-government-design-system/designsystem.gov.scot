@@ -47,4 +47,4 @@ The error state for checkboxes marks the entire fieldset.
 
 We use a custom style for checkboxes so that they are larger and easier to use than the standard checkboxes defined by the browser and so that we can make their focussed and selected states more clear.
 
-Checkboxes should only be stacked vertically. This makes tabbing through the options to follow, and ensures better visibility of the options for screen magnifier users.
+Checkboxes should only be stacked vertically. This makes tabbing through the options easier to follow, and ensures better visibility of the options for screen magnifier users.
