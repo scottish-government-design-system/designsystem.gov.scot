@@ -12,14 +12,14 @@ phase: 2
 
 ## About this component
 
-The contact details component includes space for normal contact details and quick links to an organisation’s email, social media and other direct contact details.
+The contact details component includes space for normal contact details and links to an organisation’s email, social media and other direct contact details.
 
 When using the pattern, you should make sure that:
 
-*	the order of the contact details are based on user needs, with the most used contact method at the top
-*	only one contact email address is given
+* the order of the contact details are based on user needs, with the most used contact method at the top
+* only one contact email address is given
 
-It can also be useful to use a logo with a social media address, such as a Twitter logo with a Twitter address, to make it easy to identify.
+It is useful to use a logo with a social media address, such as a Twitter logo with a Twitter address, to make it easy to identify.
 
 ## Why we use this component
 

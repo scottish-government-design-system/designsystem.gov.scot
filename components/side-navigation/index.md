@@ -44,11 +44,7 @@ An additional data attribute would be used to track clicks on mobile, e.g. data-
 ## Accessibility features
 Aria attributes describe whether the side navigation is open or closed.
 
-Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
-
-## Feedback, help or support
-
-[Send us feedback or ask us a question.](mailto:designsystem@gov.scot)  
+Find out more about accessibility requirements that should be applied to all online services in the dedicated [accessibility section of this site](/accessibility/).
 
 ## Links to live examples
 [Gov.scot](https://www.gov.scot/about/)

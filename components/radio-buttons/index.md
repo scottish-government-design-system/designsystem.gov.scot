@@ -7,24 +7,53 @@ parent: components
 label: component
 thispage: component.radio-buttons
 phase: 3
+summary: "Form fields that allow users to select a single item"
 ---
 
-## Inline radio buttons
+## About this component
+
+Radio buttons are a form component that allows users to select a single item from a list of options.
+
+## Why we use this component
+
+We use this component when we want users to be able to choose only a single option in a list.
+
+If there are very many options, consider whether a [select](/components/select/) component would serve your need better.
+
+If users should be able to choose multiple options in a list, use the [checkboxes](/components/checkboxes/) component instead.
+
+## Other versions of this component
+
+### Radio buttons with hint text
+
+Hint text can be added to radio buttons, just as it can to any other form component. Use it for additional details about the radio button's option while keeping the radio button's label succinct.
+
+{% include example-frame.html name="hints" %}
+
+### Small radio buttons
+
+Although small radio buttons appear smaller their clickable area remains the same so they are no harder to interact with.
+
+{% include example-frame.html name="small" %}
+
+### Error messages
+
+The error state for radio buttons marks the entire fieldset.
+
+{% include example-frame.html name="error" %}
+
+### Inline radio buttons
+
+If there are few options and each has a short label, they can be placed inline.
+
+If you are using an inline display for a yes/no choice, make "Yes" the first option.
 
 {% include example-frame.html name="inline" %}
 
-## Radio buttons with hint text
-
-{% include example-frame.html name="hints" %}
+{% comment %}
+This should probably be a pattern:
 
 ## Conditionally revealing content
 
 {% include example-frame.html name="conditional-reveal" %}
-
-## Small radios
-
-{% include example-frame.html name="small" %}
-
-## Error messages
-
-{% include example-frame.html name="error" %}
+{% endcomment %}

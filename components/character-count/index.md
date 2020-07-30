@@ -11,11 +11,11 @@ phase: 3
 
 ## About this component
 
-A character count is an enhancement to standard [text input](/components/text-input/) and [textarea](/components/textarea/) components. It adds a live count of the remaining permitted characters so that the user knows how much they are permitted to type.
+A character count is an enhancement to standard [text input](/components/text-input/) and [textarea](/components/textarea/) components. It adds a live count of the remaining permitted characters so that the user knows how much they can type.
 
 ## Why we use this component
 
-If a form only allows a certain number of characters to be entered into a particular field, it is helpful to let the user know how many remaining characters they are allowed.
+If a form field only allows a certain number of characters to be entered, it is helpful to let the user know how many remaining characters they are allowed.
 
 Using the character count component is better than simply using a "maxlength" attribute on the input element, because:
 
