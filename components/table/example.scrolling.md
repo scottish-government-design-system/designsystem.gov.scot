@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: style.tables
+parent: component.table
 type: example
 index: 0
 ---

@@ -1,11 +1,11 @@
 ---
 layout: component
-title:  "Tables"
-category: styles
-parent: styles
-thispage: style.tables
+title:  "Table"
+category: components
+parent: components
+thispage: component.table
 phase: 3
-summary: The Design System's table styles make it easier to compare and scan information.
+summary: The Design System's table component make it easier to compare and scan information.
 ---
 
 ## Usage
