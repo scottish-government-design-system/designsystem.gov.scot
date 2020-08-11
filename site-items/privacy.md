@@ -2,7 +2,7 @@
 layout: article
 title: "Privacy"
 parent: home
-permalink: '/privacy'
+permalink: '/privacy/'
 ---
 
 ## What type of information we collect

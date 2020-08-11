@@ -1,6 +1,6 @@
 ---
 layout: article
-thispage: home
+parent: home
 title: "Cookies"
 permalink: '/cookies/'
 ---
