@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: style.buttons
+parent: component.button
 type: example
 index: 0
 ---

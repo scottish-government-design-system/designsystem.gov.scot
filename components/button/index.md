@@ -1,14 +1,14 @@
 ---
 layout: component
-title:  "Buttons"
-category: styles
-parent: styles
-thispage: style.buttons
+title:  "Button"
+category: components
+parent: components
+thispage: component.button
 #summary: ""
 phase: 3
 ---
 
-Button styles can be applied to either button or link elements. Use the appropriate element for the task, i.e. use a button element when the user is performing an action, or a link element when the user is navigating.
+Button styling can be applied to either button or link elements. Use the appropriate element for the task, i.e. use a button element when the user is performing an action, or a link element when the user is navigating.
 
 ## Types of button
 
