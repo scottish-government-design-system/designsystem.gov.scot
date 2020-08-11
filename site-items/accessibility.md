@@ -1,13 +1,11 @@
 ---
-layout: default
+layout: article
 thispage: accessibility
-navitems: accessibility
 parent: home
 title: "Accessibility"
-category: accessibility
-childrenHavePrevNext: true
 index: 999
 summary: "Best practice accessibility guidelines for web design."
+permalink: '/accessibility'
 ---
 
 The Digital Scotland Design System has accessibility built in as a key feature. If there are specific accessibility notes for a component or pattern in the Design System, you’ll find them with the component or pattern.

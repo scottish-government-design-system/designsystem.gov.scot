@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 thispage: home
 title: "Cookies that we set"
 permalink: '/cookies-that-we-set/'
@@ -28,7 +28,7 @@ We anonymise the last 3 digits of all mygov.scot user IP addresses for Google An
 
 You can opt [out of Google analytics](https://tools.google.com/dlpage/gaoptout) cookies.
 
-<table>
+<table class="ds_table">
     <thead>
         <tr>
             <th>Name</th>
@@ -64,9 +64,8 @@ You can email the performance team for further information.
 
 Email: [performance@gov.scot](mailto:performance@gov.scot)
 
-<div class="inset-text">
-    <span class="inset-text__text">
-        <span class="visually-hidden">Information:</span>
+<div class="ds_inset-text">
+    <span class="ds_inset-text__text">
         This is a live document and will continue to be updated on a bi-monthly basis ensuring it complies with industry standards.
     </span>
 </div>

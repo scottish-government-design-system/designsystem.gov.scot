@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 thispage: home
 title: "Cookies"
 permalink: '/cookies/'
@@ -9,12 +9,11 @@ A cookie lets a website recognise your device and store some information about y
 
 ## Why we use cookies
 
-We use mygov.scot cookie tracking data to make informed decisions on whether the site is meeting your needs, which leads to us making improvements. For example, we monitor how much traffic each part of the site gets and work to improve areas which are not being found when they should be.
+We use designsystem.gov.scot cookie tracking data to make informed decisions on whether the site is meeting your needs, which leads to us making improvements. For example, we monitor how much traffic each part of the site gets and work to improve areas which are not being found when they should be.
 
 <div class="ds_inset-text">
-    <span class="inset-text__text">
-        <span class="visually-hidden">Information:</span>
-        The cookies that we set on mygov.scot can not be used to identify you personally. <a href="https://ico.org.uk/your-data-matters/online/cookies/">Find out more about how to manage cookies for all websites</a>
+    <span class="ds_inset-text__text">
+        The cookies that we set on designsystem.gov.scot can not be used to identify you personally. <a href="https://ico.org.uk/your-data-matters/online/cookies/">Find out more about how to manage cookies for all websites</a>
     </span>
 </div>
 
@@ -22,19 +21,25 @@ We use mygov.scot cookie tracking data to make informed decisions on whether the
 
 We use 3 main types of cookie on our website. You can choose which cookies you're happy for us to use.
 
-[Find out more about the cookies we use](/cookies-that-we-set.html)
+[Find out more about the cookies we use](/cookies-that-we-set/)
 
 
 <noscript>
-<div class="info-note info-note--large-margins caution">
-We've detected from your browser that JavaScript is disabled. Please enable
-JavaScript in order to change your cookie preferences.
+<div class="ds_warning-text">
+<div class="ds_warning-text__text"> 
+    We've detected from your browser that JavaScript is disabled. Please enable
+    JavaScript in order to change your cookie preferences.
+</div>
 </div>
 </noscript>
 
-<div class="fully-hidden" id="cookie-form">
+<div class="fully-hidden  ds_card  form-box" style="background: #fafafa; padding: 16px; margin-bottom: 32px;" id="cookie-form">
 
 <form id="cookie-preferences">
+
+<h3>Cookies needed for the website to work</h3>
+
+<p>These cookies do things like keep the website secure. They always need to be on.</p>
 
 <fieldset>
     <legend>Cookies that remember your settings</legend>
@@ -70,10 +75,7 @@ JavaScript in order to change your cookie preferences.
     </div>
 </fieldset>
 
-<h2>Cookies needed for the website to work</h2>
-<p>These cookies do things like keep the website secure. They always need to be on.</p>
-
-<button class="ds_button" type="submit">Save cookie preferences</button>
+<button class="ds_button  ds_no-margin" type="submit">Save cookie preferences</button>
 
 </form>
 </div>

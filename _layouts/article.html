@@ -22,7 +22,7 @@
 
             <div class="ds_wrapper">
 
-                <main id="main-content" class="ds_layout  ds_layout--pl-article">
+                <main id="main-content" class="ds_layout  ds_layout--article">
 
                     <div class="ds_layout__header">
                         <header class="heading">
@@ -65,12 +65,6 @@
 
                     <div class="ds_layout__content">
                         <div class="main-content">
-                            {% if page.summary %}
-                            <p class="ds_leader">
-                                {{ page.summary }}
-                            </p>
-                            {% endif %}
-
                             {{ content }}
 
                             {% include component-sequential-nav.html %}
