@@ -21,7 +21,7 @@ We use designsystem.gov.scot cookie tracking data to make informed decisions on 
 
 We use 3 main types of cookie on our website. You can choose which cookies you're happy for us to use.
 
-[Find out more about the cookies we use](/cookies-that-we-set/)
+[Find out more about the cookies that we set](/cookies-that-we-set/)
 
 
 <noscript>
