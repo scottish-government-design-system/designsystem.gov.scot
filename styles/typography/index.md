@@ -25,9 +25,17 @@ The main headings on a website are usually "H1" size, with smaller sizes, such a
 
 We write headings in the same way as a normal sentence, with a capital letter at the start. The only difference is we don't use full stops. This is the most popular way of writing headings online and is known as "sentence case".
 
+{% include example-frame.html name="headings" %}
+
 ### Heading with captions
 
 There are occasions when a heading is part of a larger section or group. To show this we use a heading with a caption, for example mygov.scot uses heading and caption on the "guide" format, and you can see how to implement this on the [page header](/components/page-header/) component.
+
+{% include example-frame.html name="header-caption" %}
+
+Some heading formats may also have supporting metadata displayed beneath the main header.
+
+{% include example-frame.html name="header-caption-metadata" %}
 
 
 
@@ -50,7 +58,7 @@ Small type should be used sparingly and when content is limited in space within 
 
 
 ## Links
-Links styling is blue and underlined by default. If a link appears at the end of a sentence, the full stop should not be inside the link.
+Link styling is blue and underlined by default. If a link appears at the end of a sentence, the full stop should not be inside the link.
 
 
 

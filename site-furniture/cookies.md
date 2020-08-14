@@ -75,7 +75,7 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
     </div>
 </fieldset>
 
-<button class="ds_button  ds_no-margin" type="submit">Save cookie preferences</button>
+<button data-button="button-cookie-save" class="ds_button  ds_no-margin" type="submit">Save cookie preferences</button>
 
 </form>
 </div>
