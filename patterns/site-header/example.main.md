@@ -27,7 +27,7 @@ minheight: '427px'
                     <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
                         <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
-                        <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
+                        <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button" data-button="button-search-submit">
                             <span class="visually-hidden">Search</span>
                             <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                         </button>
@@ -37,7 +37,7 @@ minheight: '427px'
         </div>
 
         <nav data-module="ds-mobile-navigation-menu">
-            <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
+            <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu" data-button="button-menu-toggle">
                 <span class="ds_site-header__control-text">Menu</span>
 
                 <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
@@ -55,7 +55,7 @@ minheight: '427px'
                                 <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
                                     <input name="q" required="" id="site-search--mobile" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
-                                    <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
+                                    <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button" data-button="button-search-submit">
                                         <span class="visually-hidden">Search</span>
                                         <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                                     </button>
@@ -89,7 +89,7 @@ minheight: '427px'
                         </ul>
                     </div>
 
-                    <button type="button" class="ds_mobile-navigation__backdrop  js-close-menu" aria-expanded="false" aria-controls="mobile-navigation-menu">
+                    <button type="button" class="ds_mobile-navigation__backdrop  js-close-menu" aria-expanded="false" aria-controls="mobile-navigation-menu" data-button="button-menu-close">
                         <span class="visually-hidden">Close menu</span>
                     </button>
                 </div>

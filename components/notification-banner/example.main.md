@@ -12,12 +12,12 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
             <div role="heading" class="visually-hidden">Information</div>
 
             <div class="ds_notification__text">
-                <p>We need to tell you about <a data-banner="banner-link" href="#">something</a></p>
+                <p>We need to tell you about <a data-banner="banner-BANNERNAME-link" href="#">something</a></p>
             </div>
 
-            <button data-banner="banner-close" class="ds_notification__close  js-close-notification" type="button">
+            <button data-banner="banner-BANNERNAME-close" class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
-                <svg data-banner="banner-close" class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
+                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>
         </div>
     </div>

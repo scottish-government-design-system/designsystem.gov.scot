@@ -12,7 +12,7 @@ type: example
 
         <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
             <input class="ds_input" type="text" id="filter-term" />
-            <button class="ds_button  ds_button--icon-only">
+            <button data-button="button-filter-term" class="ds_button  ds_button--icon-only">
                 <span class="visually-hidden">Search</span>
                 <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
             </button>
@@ -49,7 +49,7 @@ type: example
             <div class="ds_accordion-item__body">
                 <fieldset>
                     <legend class="visually-hidden">Select which topics you would like to see</legend>
-                    <div class="ds_field-group  ds_field-group">
+                    <div class="ds_field-group">
                         <div class="ds_checkbox  ds_checkbox--small">
                             <input class="ds_checkbox__input" id="topic-arts-culture-sport" name="filter-types" type="checkbox" value="yes" />
                             <label class="ds_checkbox__label" for="topic-arts-culture-sport">Arts, culture and sport</label>
@@ -201,7 +201,7 @@ type: example
             <div class="ds_accordion-item__body">
                 <fieldset>
                     <legend class="visually-hidden">Select which types of publication you would like to see</legend>
-                    <div class="ds_field-group  ds_field-group">
+                    <div class="ds_field-group">
                         <div class="ds_checkbox  ds_checkbox--small">
                             <input class="ds_checkbox__input" id="type-education" name="filter-types" type="checkbox" value="yes" />
                             <label class="ds_checkbox__label" for="type-education">Advice and guidance</label>

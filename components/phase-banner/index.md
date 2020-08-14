@@ -24,7 +24,7 @@ There’s a user need for it to be made clear to all users when a website is in 
 
 ## Website analytics
 
-Each link in the phase banner should be labelled distinctly. To understand user behaviour, clicks on links in the phase banner can be tracked through the click URL, the click text and a data attribute showing the interaction, e.g. data-banner="banner-bannername-link".
+Each link in the phase banner should be labelled distinctly. To understand user behaviour, clicks on links in the phase banner can be tracked through the click URL, the click text and a data attribute showing the interaction, e.g. data-banner="banner-BANNERNAME-link".
 
 ## Live example
 At the top of this page is the phase banner of the Design System website.

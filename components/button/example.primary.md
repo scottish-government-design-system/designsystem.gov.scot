@@ -5,4 +5,4 @@ type: example
 index: 0
 ---
 
-<button class="ds_button">Start here</button>
+<button class="ds_button" data-button="button-ACTION">Start here</button>

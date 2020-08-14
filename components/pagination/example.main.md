@@ -7,7 +7,7 @@ index: 0
 
 <nav class="ds_pagination" aria-label="Pages">
     <div class="ds_pagination__load-more">
-        <button class="ds_button">Load more</button>
+        <button class="ds_button" data-search="pagination-more">Load more</button>
     </div>
 
     <ul class="ds_pagination__list">
