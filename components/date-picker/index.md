@@ -5,7 +5,7 @@ category: components
 parent: components
 label: component
 thispage: component.date-picker
-summary: "Date pickers helps a user to successfully complete a date input field."
+summary: "Date pickers help a user to successfully complete a date input field."
 phase: 4
 ---
 

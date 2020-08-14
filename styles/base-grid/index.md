@@ -24,8 +24,8 @@ The following demo can be resized, to show how the grid adapts to different view
 
 This example is intended for illustration purposes only, and the HTML and CSS code used to create it should not be used.
 
+### Mobile version
+
+The individual boxes of the grid span the width of the whole page on a mobile phone or other small device.
+
 {% include example-frame-base-grid.html name="interactive" caption="Half-scale interactive demo" resize=true %}
-
-## Mobile version
-
-The individual boxes of the grid span the width of the whole page on a mobile.
