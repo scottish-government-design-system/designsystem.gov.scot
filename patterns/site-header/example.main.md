@@ -37,7 +37,7 @@ minheight: '427px'
         </div>
 
         <nav data-module="ds-mobile-navigation-menu">
-            <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu" data-button="button-menu-toggle">
+            <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu" data-header="header-menu-toggle">
                 <span class="ds_site-header__control-text">Menu</span>
 
                 <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
