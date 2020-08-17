@@ -47,12 +47,12 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
 
     <div class="ds_field-group  ds_field-group--inline">
         <div class="ds_radio">
-            <input class="ds_radio__input" id="preferences-yes" name="cookie-preferences" type="radio" value="true">
+            <input class="ds_radio__input" id="preferences-yes" name="cookie-preferences" type="radio" value="true" data-form="radio-cookie-preferences-true">
             <label class="ds_radio__label" for="preferences-yes">On</label>
         </div>
 
         <div class="ds_radio">
-            <input class="ds_radio__input" id="preferences-no" name="cookie-preferences" type="radio" value="false">
+            <input class="ds_radio__input" id="preferences-no" name="cookie-preferences" type="radio" value="false" data-form="radio-cookie-preferences-false">
             <label class="ds_radio__label" for="preferences-no">Off</label>
         </div>
     </div>
@@ -64,12 +64,12 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
 
     <div class="ds_field-group  ds_field-group--inline">
         <div class="ds_radio">
-            <input class="ds_radio__input" id="statistics-yes" name="cookie-statistics" type="radio" value="true">
+            <input class="ds_radio__input" id="statistics-yes" name="cookie-statistics" type="radio" value="true" data-form="radio-cookie-statistics-true">
             <label class="ds_radio__label" for="statistics-yes">On</label>
         </div>
 
         <div class="ds_radio">
-            <input class="ds_radio__input" id="statistics-no" name="cookie-statistics" type="radio" value="false">
+            <input class="ds_radio__input" id="statistics-no" name="cookie-statistics" type="radio" value="false" data-form="radio-cookie-statistics-false">
             <label class="ds_radio__label" for="statistics-no">Off</label>
         </div>
     </div>

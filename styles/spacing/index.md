@@ -6,8 +6,9 @@ parent: styles
 thispage: style.spacing
 summary: "Guidelines for spacing and designing for different screen sizes."
 phase: 2
+published: false
 ---
 
-Using a standard spacing scale ensures consistency across a website's design. The Design System uses a responsive spacing scale that adapts based on screen size.
+The Design System uses an 8px grid for spacing and layout. This is a relatively common measure, for example it is also used in Google's [Material Design layout](https://material.io/design/layout/understanding-layout.html).
 
-The Design System uses a scale of 7px and helps define the heights of components for proportion and white space to enhance hierarchy structure.
+All components on your web page ought to align to this grid. For design flexibility, items within components such as icons and type may use subdivisions of this grid for alignment where necessary, e.g. using a 4px or even 2px grid.

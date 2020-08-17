@@ -10,9 +10,9 @@ phase: 2
 
 ## Font 
 
-If your service is going to be a subdomain of either gov.scot or mygov.scot then you must use [Roboto](https://fonts.google.com/specimen/Roboto) as your font.
+We use the [Roboto](https://fonts.google.com/specimen/Roboto) font, which is a free open source font developed by Google for use on screen. It has different weight options.
 
-We use the Roboto font, which is a free open source font developed by Google for use on screen. It has different weight options.
+If your service is going to be a subdomain of either gov.scot or mygov.scot then you must use Roboto as your font.
 
 
 
