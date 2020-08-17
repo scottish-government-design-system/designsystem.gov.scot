@@ -6,6 +6,11 @@ parent: components
 thispage: component.category-header
 summary: "A header block used on category pages featuring the title, a summary and an illustration."
 phase: 1
+
+examples:
+  - site: tradingnation.mygov.scot
+    url: https://tradingnation.mygov.scot/sectors
+    name: "Sector profiles"
 ---
 
 ## About this component
@@ -33,7 +38,3 @@ Note also that in the example above the breadcrumbs are also included in the col
 ## Components related to this
 
 [Navigational pages](https://designsystem.gov.scot/components/card-navigation/)
-
-## Links to live examples
-
-[Scotland: A Trading Nation](https://tradingnation.mygov.scot)

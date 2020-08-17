@@ -29,7 +29,3 @@ There are no reported performance issues with this component from mygov or gov.s
 Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number, e.g. <code>data-accordion="accordion-open-1"</code>
 
 Opening and closing all accordion panels by clicking on the "Open all"/"Close all" link can be tracked through the original page path, click text and a data attribute attached on the element, e.g. <code>data-accordion="accordion-open-all"</code>
-
-## Links to live examples
-
-[Mygov.scot - Help if you are made redundant](https://www.mygov.scot/legal-advice/)

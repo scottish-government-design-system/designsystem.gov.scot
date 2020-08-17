@@ -25,10 +25,3 @@ Your title should also be tagged with an H1 heading. Using an H1 heading element
 ## Why we use this component
 
 The page header allows users who reach a page to understand what the content is about, and how current or up to date it is.    
-
-## Links to live examples
-
-[Gov.scot](https://www.gov.scot/publications/scotlands-energy-future-fm-speech-all-energy-conference/)
-[Mygov.scot](https://www.mygov.scot/learn-gaelic/)  
-[Scotland: A Trading Nation](https://tradingnation.mygov.scot/why-exporting-is-important/)  
-[Economic Action Plan](https://economicactionplan.mygov.scot/innovation/driving-business-innovation/)

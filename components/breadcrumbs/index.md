@@ -7,6 +7,11 @@ parent: components
 thispage: component.breadcrumbs
 summary: "A breadcrumb shows a user where they are in a website’s structure. It also presents links to pages higher in the site’s structure, such as a home page."
 phase: 1
+
+examples:
+  - site: tradingnation.mygov.scot
+    url: https://tradingnation.mygov.scot/food-and-drink
+    name: "Food and drink"
 ---
 
 ## About this component
@@ -54,6 +59,3 @@ This [Google structured data guidance for breadcrumbs](https://developers.google
 * This breadcrumb component contains all the accessibility features for breadcrumbs described in WAI-ARIA’s authoring practices for breadcrumbs.
 * [W3C](https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html) may also be useful.
 * You should make sure that separators between breadcrumb items are not read by screen readers and avoid using font glyphs for them – these can cause accessibility problems.
-
-## Links to live examples
-[mygov.scot - Find a nursery or childcare place](https://www.mygov.scot/nursery-place/)

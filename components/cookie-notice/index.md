@@ -32,7 +32,3 @@ The cookie banner component allows a website to comply with General Data Protect
 ## Website analytics
 
 3% of gov.scot sessions clicked the ‘cookie’ banner asking users to approve the use of the cookies.  
-
-## Links to live examples
-
-[Mygov.scot](https://www.mygov.scot)

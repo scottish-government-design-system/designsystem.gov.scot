@@ -26,7 +26,3 @@ To highlight short, key content at the top of the page that all users need to se
 ## Website analytics
 
 User research findings from GOV.UK and NHS suggests that banners which overlay or hide content on a page leads to a worse user experience (higher exit rate).
-
-## Links to live examples
-
-[Mygov.scot](https://www.mygov.scot)

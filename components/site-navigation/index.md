@@ -21,8 +21,3 @@ Links may be collapsed into an expandable ‘menu’ button on mobiles.
 Top level navigation gives users an overview of what’s included in a site by outlining its main categories.
 
 It can also help users find key content quicker.
-
-## Links to live examples
-
-[Gov.scot](https://www.gov.scot/)  
-[Mygov.scot](https://www.mygov.scot)

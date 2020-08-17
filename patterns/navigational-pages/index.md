@@ -7,6 +7,16 @@ thispage: pattern.navigational-pages
 summary: "Navigational pages display headings and small pieces of content to help users navigate a website."
 type: major
 phase: 1
+examples:
+  - site: tradingnation.mygov.scot
+    url: https://tradingnation.mygov.scot/sectors
+    name: "A Trading Nation"
+  - site: tradingnation.mygov.scot
+    url: https://tradingnation.mygov.scot/sectors
+    name: "Sector profiles"
+  - site: tradingnation.mygov.scot
+    url: https://tradingnation.mygov.scot/country-profiles
+    name: "Country profiles"
 ---
 
 ## About this pattern
@@ -50,7 +60,3 @@ Some versions of box navigation may include a gradient effect along the bottom b
 Features of these patterns, such as the large size of the boxes in the card navigation pattern, help space out content to make it easier for users to find the content they need.
 
 These patterns can also be reused across websites, creating a consistent experience for users and cutting development time.
-
-## Links to live examples
-
-[Mygov.scot](https://www.mygov.scot)

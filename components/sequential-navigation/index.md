@@ -8,12 +8,9 @@ summary: "A ‘next’ and ‘previous’ link to pages that come before or afte
 phase: 1
 
 examples:
-  - site: mygov.scot
-    url: https://www.mygov.scot/apply-blue-badge/
-    name: "Apply for or renew a Blue Badge"
-  - site: gov.scot
-    url: https://www.gov.scot/publications/delivering-today-investing-tomorrow-governments-programme-scotland-2018-19/
-    name: "Scotland's Economic Strategy"
+  - site: tradingnation.mygov.scot
+    url: https://tradingnation.mygov.scot/food-and-drink
+    name: "Food and drink"
 ---
 
 
@@ -36,8 +33,3 @@ Sequential navigation allows users to navigate without having to go back to navi
 ## Website analytics
 
 Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation.
-
-## Links to live examples
-
-[Mygov.scot](https://www.mygov.scot/childcare-costs-help/)
-[Scotland: A Trading Nation](https://tradingnation.mygov.scot/country-profiles/usa/)

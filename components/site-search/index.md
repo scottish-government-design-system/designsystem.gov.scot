@@ -29,8 +29,3 @@ The form should have a role of 'Search'.
 ## Website analytics
 
 Searches from search boxes are tracked as standard via analytics site search settings through the use of the "q" parameter.
-
-## Links to live examples
-
-- [Mygov.scot](https://www.mygov.scot)
-- [Gov.scot](https://www.gov.scot)

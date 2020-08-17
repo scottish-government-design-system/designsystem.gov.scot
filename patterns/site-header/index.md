@@ -6,6 +6,10 @@ parent: patterns
 thispage: pattern.site-header
 summary: "The site header contains key branding and the title of a website. It appears on every page."
 phase: 1
+examples:
+ - site: tradingnation.mygov.scot
+   url: https://tradingnation.mygov.scot/
+   name: "A Trading Nation"
 ---
 
 ## About this pattern
@@ -42,8 +46,3 @@ We’ve avoided using second level interactive navigation because of usability c
 Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
 
 Users were also more likely to navigate to site sections of gov.scot using the site header’s primary navigation than using the same links on panels lower down the homepage.
-
-## Links to live examples
-
-[Gov.scot](https://www.gov.scot/)  
-[Mygov.scot](https://www.mygov.scot)
