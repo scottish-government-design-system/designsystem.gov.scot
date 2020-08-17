@@ -42,9 +42,11 @@ Where there may be issues with repetition or page titles are too long, a version
 To understand user behaviour, clicks on breadcrumb items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number, e.g.
 <code>data-navigation="breadcrumb-1"</code>
 
-Include a Schema.org representation of the breadcrumbs.
+You should include a [Schema](https://schema.org) representation of the breadcrumbs. One useful benefit of using Schema representation is that it allows a breadcrumb trail to be accurately displayed on search engines and will help users navigate the structure of your site.
 
 {% include example-frame.html type="JSON-LD" no-demo="true" name="schema" %}
+
+This [Google structured data guidance for breadcrumbs](https://developers.google.com/search/docs/data-types/breadcrumb) is a helpful reference.
 
 ## Accessibility features
 

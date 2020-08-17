@@ -10,6 +10,9 @@ phase: 3
 
 Button styling can be applied to either button or link elements. Use the appropriate element for the task, i.e. use a button element when the user is performing an action, or a link element when the user is navigating.
 
+
+
+
 ## Types of button
 
 ### Primary (default)
@@ -90,6 +93,17 @@ The icons can be aligned to either side of the button.
 Buttons can also contain only an icon. If you do this, make sure that the intention of the button is clearly communicated in a way that is accessible to users of assistive technology.
 
 {% include example-frame.html name="icons3" %}
+
+
+
+
+## Website analytics / performance
+
+To track interactions with button elements in Google Analytics using Google Tag Manager, each button has a data attribute e.g. <code>data-button="button-ACTION"</code>.
+
+You will need to replace the text "ACTION" with the action for each button - for a submit button this would be <code>data-button="button-submit"</code>.
+
+
 
 
 <script>
