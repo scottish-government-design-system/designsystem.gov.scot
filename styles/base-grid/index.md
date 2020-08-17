@@ -20,12 +20,14 @@ The grid design can also make it easier for different designers or developers to
 
 ## Demo
 
-The following demo can be resized, to show how the grid adapts to different viewport sizes, by dragging its bottom-right corner. It is scaled down to half size.
+We've included a demo on this page that can be resized by dragging the bottom-right corner of the demo box in or out. This shows how th base grid adapts to different viewport sizes.
 
-This example is intended for illustration purposes only, and the HTML and CSS code used to create it should not be used.
+The base grid demo is scaled down to hald the size of a normal base grid.
+
+This example is also intended only as a visual demo - the HTML and CSS code used to create it should not be used in a live project.
 
 ### Mobile version
 
-The individual boxes of the grid span the width of the whole page on a mobile phone or other small device.
+In the demo, the individual boxes of the base grid span the width of the whole page on a mobile phone or other small device.
 
 {% include example-frame-base-grid.html name="interactive" caption="Half-scale interactive demo" resize=true %}

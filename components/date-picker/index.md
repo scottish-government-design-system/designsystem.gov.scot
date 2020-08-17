@@ -5,20 +5,20 @@ category: components
 parent: components
 label: component
 thispage: component.date-picker
-summary: "Date pickers help a user to successfully complete a date input field."
+summary: "Date pickers help a user to input a date into a form."
 phase: 4
 ---
 
 
 ## About this component
 
-The date picker is a component that helps users to complete date input fields. It is accessible and fully usable with a keyboard.
+The date picker is a component that helps users to complete date input fields. To help with accessibility, it can be used with a keyboard, as well as mouse or touchscreen. 
 
-The date picker can be set to have a limited permitted date range, which prevents users from selecting invalid dates.
+The date picker can be set with limits on the dates that can be selected by users.
 
 ## Why we use this component
 
-Date pickers are a common component used when users are asked to enter dates. 
+Date pickers are a common component that helps users select and enter a date.
 
 ## Accessibility features
 
@@ -37,7 +37,7 @@ Date pickers are a common component used when users are asked to enter dates.
         <tr>
             <td>Calendar button</td>
             <td><code>Space</code>,<br/><code>Enter</code></td>
-            <td>Opens the date picker. If there is a current date set in the text input, that date is focussed in the date picker. If not, today's date is focussed.</td>
+            <td>Opens the date picker. If there is a current date set in the text input, that date is focused in the date picker. If not, today's date is focused.</td>
         </tr>
 
         <tr>
@@ -67,7 +67,7 @@ Date pickers are a common component used when users are asked to enter dates.
         <tr>
             <td>Dates</td>
             <td><code>Space</code>,<br/><code>Enter</code></td>
-            <td>Selects the focussed date, closes the date picker and moves focus back to the calendar button. Updates the accessible name of the calendar button to indicate the selected date.</td>
+            <td>Selects the focused date, closes the date picker and moves focus back to the calendar button. Updates the accessible name of the calendar button to indicate the selected date.</td>
         </tr>
 
         <tr>

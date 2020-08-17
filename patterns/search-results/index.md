@@ -30,7 +30,7 @@ On a mobile, a ‘Load more’ button is shown rather than a list of page number
 
 ## Components related to this
 
-[Site search](https://designsystem.gov.scot/components/site-search/)
+[Site search](/components/site-search/)
 
 ## Why we use this pattern
 
@@ -48,10 +48,3 @@ Search suggestions use WAI-ARIA attributes to give more context for screen reade
 *  text “Did you mean?” being hidden to avoid duplication in the links
 *  suggestions being wrapped in a nav element with a descriptive aria-label
 Supporting evidence: mygov.scot accessibility review, March 2019.  
-
-Find out more about accessibility requirements that should be applied to all online services in the dedicated section of this site: INSERT LINK HERE
-
-## Links to live examples
-
-- [Mygov.scot](https://www.mygov.scot/search/?q=education&cat=sitesearch)
-- [Gov.scot](https://www.gov.scot/search/?q=publications)

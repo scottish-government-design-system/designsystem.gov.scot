@@ -17,40 +17,40 @@ Focus states in the Design System use a high-contrast combination of yellow and 
 
 ## Link focus state
 
-Links are given a yellow background and dark grey bottom border when they have focus. This combination of light and dark colours ensures a good contrast against both light and dark backgrounds.
+Links are given a yellow background and dark grey bottom border when they have focus. This combination ensures a good contrast.
 
-<figure>
+<figure class="example__content">
 <img alt="" src="/assets/images/focus-link.svg">
-<figcaption>A focussed link against a number of background colours</figcaption>
+<figcaption>A focused link against a number of background colours</figcaption>
 </figure>
 
 Other components that look or behave like links use the same style for consistency. For example, [accordion headers](/components/accordion) or [sequential navigation](/components/sequential-navigation).
 
-<div class="ds_inset-text">For developers, there is a mixin called <code>blocklink</code> that you can include in style rules for this kind of component that provides the majority of this styling so you don't have to write it from scratch.</div>
+<div class="ds_inset-text">For developers, there is a mixin called <code>blocklink</code> that you can include in the style rules of components. The mixin provides the majority of focus state styling, which means that you don't have to write it from scratch.</div>
 
 ## Button focus state
 
-Similar to links, buttons are given a yellow background with dark grey bottom border when they are in focus. This focus style is applied to all types of button (i.e. primary, secondary, and cancel).
+Similar to links, buttons are given a yellow background with a dark grey bottom border when they are in focus. This focus style is applied to all types of button (i.e. primary, secondary, and cancel).
 
-<figure>
+<figure class="example__content">
 <img style="max-height: 224px" alt="" src="/assets/images/focus-buttons.png">
-<figcaption>Normal and focussed buttons</figcaption>
+<figcaption>Normal and focused buttons</figcaption>
 </figure>
 
 ## Form field focus state
 
-Focus on form fields is indicated by adding a yellow outline and a thicker dark border.
+Focus on form fields is shown by a yellow outline and a thicker dark border.
 
-<figure>
+<figure class="example__content">
 <img style="max-height: 240px" alt="" src="/assets/images/focus-text.png">
-<figcaption>Normal and focussed text inputs</figcaption>
+<figcaption>Normal and focused text inputs</figcaption>
 </figure>
 
 This concept is applied across all types of form field for a consistent user experience.
 
-<figure>
+<figure class="example__content">
 <img style="max-height: 128px" alt="" src="/assets/images/focus-radio.png">
-<figcaption>Normal and focussed radio buttons</figcaption>
+<figcaption>Normal and focused radio buttons</figcaption>
 </figure>
 
 Look at the component pages for form fields, such as [text input](/components/text-input/) and [radio buttons](t/components/radio-buttons/) for interactive examples.

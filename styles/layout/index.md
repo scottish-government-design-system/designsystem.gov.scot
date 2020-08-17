@@ -8,9 +8,9 @@ thispage: style.layout
 phase: 3
 highlighttype: css
 ---
-The Design System's layout component ("Layout") is a tool used to help to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template). The intention of Layout is to make it easy for content to be placed into defined areas in your HTML across templates or content formats.
+The Design System's layout component is a tool used to help to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template). The intention of the layout component is to make it easy for content to be placed into defined areas in your HTML across templates or content formats.
 
-Layout uses CSS grid with a fallback for browsers with no CSS grid support.
+The layout component uses CSS Grid Layout with a fallback for browsers with no CSS Grid support.
 
 There are a number of responsive layouts provided in the Design System. You can create your own layouts if you need something that is not already defined in the Design System.
 
@@ -22,11 +22,11 @@ There are a number of responsive layouts provided in the Design System. You can 
 
 ## CSS of a layout
 
-The CSS for a layout that uses the Layout component consists of two sections: the CSS grid code and the non-grid fallback.
+The CSS for a layout that uses the layout component consists of two sections: the CSS Grid code and the non-grid fallback.
 
-### CSS grid
+### CSS Grid
 
-The CSS grid version makes heavy use of the `grid-template-areas` CSS property.
+The CSS Grid version makes heavy use of the `grid-template-areas` CSS property.
 
 We use a simple naming convention that uses single characters for each content area. This makes it possible to use the `grid-template-areas` value as a rough diagram of the layout so it's easy to interpret visually.
 
@@ -41,11 +41,11 @@ For example, the large viewport display for the "article" layout illustrated abo
 
 ### Fallback
 
-The non-grid fallback uses CSS floats and percentage widths to define column placement. There are a few helpful SASS mixins included in Layout that simplify any width calculations.
+The non-grid fallback uses CSS floats and percentage widths to define column placement. There are a few helpful SASS mixins included in the layout component that simplify any width calculations.
 
 ## Creating a layout
 
-This is an example of how to create a custom layout using Layout. The example illustrates two useful concepts: adding a new type of content area ("icon") and how to handle grid areas that are not flush to the left of the page.
+This is an example of how to create a custom layout using the layout component. The example illustrates two useful concepts: adding a new type of content area ("icon") and how to handle grid areas that are not flush to the left of the page.
 
 <img src="/assets/images/examples/complex-document-layout.svg"/>
 
@@ -57,7 +57,7 @@ On large devices everything is moved two columns to the right and an icon is pla
 
 ### 1. The non-grid fallback
 
-It's sensible to write the fallback first. It's easy to forget about it if you don't.
+It's sensible to write the fallback first. It's easy to forget about it if you do not.
 
 The first quirk of this layout is that the icon is only visible on large displays. If it was important for screen readers to still be able to access this content we could apply something like a "visually hidden" class to it, but for this simple example we can just hide it until needed.
 
@@ -73,9 +73,9 @@ The first quirk of this layout is that the icon is only visible on large display
         }
     }
 
-Apart from the icon, until we get to a medium (tablet) display this layout is the same as the default Design System `ds_layout` so we don't need to do anything special for those sizes.
+Apart from the icon, until we get to a medium (tablet) display this layout is the same as the default Design System `ds_layout` so we do not need to do anything special for those sizes.
 
-At medium we start to diverge from the default layout so we need to write some rules. There are some helper mixins in Layout that help with this. Here we are using `colwidth` to tell the layout how many columns a content area should span. `colwidth` provides a percentage width value that takes into account the total number of columns in your grid and your grid gutter width.
+At medium, we start to diverge from the default layout so we need to write some rules. There are some helper mixins in the layout component that help with this. Here we are using `colwidth` to tell the layout how many columns a content area should span. `colwidth` provides a percentage width value that takes into account the total number of columns in your grid and your grid gutter width.
 
     @include media-query(medium) {
         .my_layout--document {
@@ -95,7 +95,7 @@ At medium we start to diverge from the default layout so we need to write some r
         }
     }
 
-At the large size we bring the icon back in and content areas are shifted over two columns. The Design System Layout component has push and pull helpers we can use to manipulate where a content area is placed in the grid. Here we'll use `colpush` to shift things over by two columns.
+At the large size, we bring the icon back in and content areas are shifted over two columns. The Design System layout component has push and pull helpers that we can use to manipulate where a content area is placed in the grid. Here we'll use `colpush` to shift things over by two columns.
 
     @include media-query(large) {
         .my_layout--document {
@@ -131,13 +131,13 @@ At the large size we bring the icon back in and content areas are shifted over t
 
 ### 2. The CSS Grid version
 
-To support the icon we'll create a new grid area definition for it, following the single-character pattern established in Layout. The method we used to hide the icon content area in the fallback is still relevant and we will still use it.
+To support the icon, we'll create a new grid area definition for it, following the single-character pattern established in the layout component. The method we used to hide the icon content area in the fallback is still relevant and we will still use it.
 
     .ds_layout__icon {
         grid-area: i;
     }
 
-To create the CSS grid layouts for any breakpoints that differ from the default layout we create new `grid-template-areas` rules. Using the single-character pattern makes it easy to visualise how the template definition should be written.
+To create the CSS Grid layouts for any breakpoints that differ from the default layout we create new `grid-template-areas` rules. Using the single-character pattern makes it easy to visualise how the template definition should be written.
 
     @include media-query(medium) {
         .my_layout--document {
