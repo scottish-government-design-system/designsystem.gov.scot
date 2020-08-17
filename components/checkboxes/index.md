@@ -35,7 +35,7 @@ You can use hint text for additional details about a checkbox. You should avoid 
 
 ### Small checkboxes
 
-Although small checkboxes appear smaller, their clickable area remains the same as larger checkboxes. This makes them easier for users to select.
+Although small checkboxes appear smaller, their clickable area remains the same as normal checkboxes. This makes them easier for users to select.
 
 {% include example-frame.html name="small" %}
 

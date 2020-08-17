@@ -26,13 +26,15 @@ If users should be able to choose multiple options in a list, use the [checkboxe
 
 ### Radio buttons with hint text
 
-Hint text can be added to radio buttons, just as it can to any other form component. Use it for additional details about the radio button's option while keeping the radio button's label succinct.
+Hint text can be added to radio buttons, just as it can to any other form component.
+
+You can use hint text for additional details about a radio button. You should avoid adding hint text to the radio button's label element.
 
 {% include example-frame.html name="hints" %}
 
 ### Small radio buttons
 
-Although small radio buttons appear smaller their clickable area remains the same so they are no harder to interact with.
+Although small radio buttons appear smaller, their clickable area remains the same as normal radio buttons. This makes them easier for users to select.
 
 {% include example-frame.html name="small" %}
 
@@ -50,10 +52,6 @@ If you are using an inline display for a yes/no choice, make "Yes" the first opt
 
 {% include example-frame.html name="inline" %}
 
-{% comment %}
-This should probably be a pattern:
+## Accessibility
 
-## Conditionally revealing content
-
-{% include example-frame.html name="conditional-reveal" %}
-{% endcomment %}
+We use a custom style for radio buttons so that they are larger and easier to use than the standard radio buttons defined by the user's browser. We also use a custom style to make their focused and selected states clearer.

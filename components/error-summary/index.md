@@ -5,7 +5,7 @@ category: components
 subcategory: forms
 parent: components
 thispage: component.error-summary
-summary: "Error summary appears at the top of a page if a user makes an error in a form, and summarise any errors they have made"
+summary: "Error summary appears at the top of a page if a user makes an error in a form, and summarises any errors they have made"
 phase: 3
 ---
 
@@ -31,5 +31,5 @@ Research showed users:
 
 [Error message](/components/error-message/)
 
-## Website analytics 
+## Website analytics
 To understand the incidence of validation error messages, they can be tracked through the original page path, the error text, and a data attribute showing the type of error, e.g. data-form="error-postcode".

@@ -9,12 +9,12 @@ type: example
 
         <div class="ds_field-group  ds_field-group--inline">
             <div class="ds_radio  ds_radio--small">
-                <input class="ds_radio__input" id="inline-1" name="group-name" type="radio" value="yes">
+                <input class="ds_radio__input" id="inline-1" name="group-name" type="radio" value="yes" data-form="radio-letting-agent-yes">
                 <label class="ds_radio__label" for="inline-1">Yes</label>
             </div>
 
             <div class="ds_radio  ds_radio--small">
-                <input class="ds_radio__input" id="inline-2" name="group-name" type="radio" value="no">
+                <input class="ds_radio__input" id="inline-2" name="group-name" type="radio" value="no" data-form="radio-letting-agent-no">
                 <label class="ds_radio__label" for="inline-2">No</label>
             </div>
         </div>

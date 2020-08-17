@@ -9,13 +9,13 @@ type: example
 
         <div class="ds_field-group">
             <div class="ds_radio">
-                <input class="ds_radio__input" id="payment-advance" name="group-name" type="radio" value="advance">
+                <input class="ds_radio__input" id="payment-advance" name="group-name" type="radio" value="advance" data-form="radio-payments-advance">
                 <label class="ds_radio__label" for="payment-advance">Advance</label>
                 <p class="ds_hint-text">This means you're paid for the period coming up, i.e. the month ahead</p>
             </div>
 
             <div class="ds_radio">
-                <input class="ds_radio__input" id="payment-arrears" name="group-name" type="radio" value="arrears">
+                <input class="ds_radio__input" id="payment-arrears" name="group-name" type="radio" value="arrears" data-form="radio-payments-arrears">
                 <label class="ds_radio__label" for="payment-arrears">Arrears</label>
                 <p class="ds_hint-text">This means you're paid for the time that's just passed, i.e. for the last month</p>
             </div>

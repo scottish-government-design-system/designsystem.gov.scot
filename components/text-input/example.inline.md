@@ -13,17 +13,17 @@ index: 0
         <div class="ds_field-group  ds_field-group--inline">
             <div>
                 <label class="ds_label" for="day">Day</label>
-                <input id="day" class="ds_input ds_input--fixed-2" />
+                <input id="day" class="ds_input ds_input--fixed-2" data-form="textinput-day" />
             </div>
 
             <div>
                 <label class="ds_label" for="month">Month</label>
-                <input id="month" class="ds_input ds_input--fixed-2" />
+                <input id="month" class="ds_input ds_input--fixed-2" data-form="textinput-month" />
             </div>
 
             <div>
                 <label class="ds_label" for="year">Year</label>
-                <input id="year" class="ds_input ds_input--fixed-4" />
+                <input id="year" class="ds_input ds_input--fixed-4" data-form="textinput-year" />
             </div>
         </div>
     </fieldset>
