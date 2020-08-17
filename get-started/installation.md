@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: component
 title:  "Installation"
 category: get-started
 parent: get-started
 label: How to
 thispage: get-started.installation
 summary: "How to start using the Design System in your project"
-phase: 2
+index: 2
 permalink: "/get-started/installation/"
+sorttype: 'index'
 ---
 
 ## What you need to do

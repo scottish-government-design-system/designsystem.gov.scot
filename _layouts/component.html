@@ -76,34 +76,31 @@
                             {% endif %}
                         {% endfor %}
 
-
+                        {{content}}
 
                         {% if page.examples %}
                             <style>
                             .live-examples {
-                                font-size: 0.8em;
+                                /* font-size: 0.8em;
                                 border-left: 4px solid #0065bd;
-                                margin: 35px 0;
-                                padding: 3px 35px 4px 10px;
-                            }
-
-                            .live-examples__item {
-                                margin-bottom: 0;
+                                margin: 35px 0; */
+                                padding: 16px 32px;
                             }
                             </style>
-                            <aside class="live-examples">
-                                {% assign examplessize = page.examples | size %}
 
-                                <h3>Live example{% unless examplessize == 1%}s{% endunless %}</h3>
-                                {% for item in page.examples %}
-                                    <p class="live-examples__item">
-                                        {{item.site}}: <a href="{{item.url}}">{{item.name}}</a>
-                                    </p>
-                                {% endfor %}
+                            <aside class="ds_callout  live-examples">
+                                {% assign examplessize = page.examples | size %}
+                                <h2 class="gamma">Live example{% unless examplessize == 1%}s{% endunless %}</h2>
+
+                                <div class="ds_callout__content">
+                                    {% for item in page.examples %}
+                                        <p class="live-examples__item">
+                                            <a href="{{item.url}}">{{item.name}}</a> ({{item.site}})
+                                        </p>
+                                    {% endfor %}
+                                </div>
                             </aside>
                         {% endif %}
-
-                        {{content}}
 
                         {% include component-sequential-nav.html %}
 

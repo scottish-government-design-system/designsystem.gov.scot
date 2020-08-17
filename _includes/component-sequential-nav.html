@@ -9,8 +9,17 @@
 
 {% if hasSequentialNav %}
 
-    {% assign indexed = site.pages | where:"category", parentCatPage[0].navitems | where_exp: "item", "item.hidden != true" | sort: 'index', 'first' | sort: 'title', 'first' %}
-    {% assign indexed = parentCatPage | concat: indexed %}
+    {% if page.sorttype %}
+        {% assign sorttype = page.sorttype %}
+    {% else %}
+        {% assign sorttype = 'title' %}
+    {% endif %}
+
+    {% assign indexed = site.pages | where:"category", parentCatPage[0].navitems | where_exp: "item", "item.hidden != true" | sort: sorttype, 'first' %}
+
+    {% unless page.hideFromPrevNext %}
+        {% assign indexed = parentCatPage | concat: indexed %}
+    {% endunless %}
 
     {% for item in indexed %}
         {% if item.url == page.url %}

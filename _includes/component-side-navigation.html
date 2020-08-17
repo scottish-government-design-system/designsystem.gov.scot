@@ -4,8 +4,13 @@
         {% assign navitems = page.navitems %}
     {% endunless %}
 
-    {% assign indexed = site.pages | where:"category", navitems | sort: 'index', 'first' | sort: 'title', 'first' %}
+    {% if page.sorttype %}
+        {% assign sorttype = page.sorttype %}
+    {% else %}
+        {% assign sorttype = 'title' %}
+    {% endif %}
 
+    {% assign indexed = site.pages | where:"category", navitems | sort: sorttype, 'first' %}
     <input type="checkbox" class="fully-hidden  js-toggle-side-navigation" id="show-side-navigation" aria-controls="side-navigation-root" />
     <label class="ds_side-navigation__expand  ds_link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="ds_side-navigation__expand-indicator"></span></label>
 
