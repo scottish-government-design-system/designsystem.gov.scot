@@ -16,7 +16,7 @@ minheight: '427px'
                 </a>
 
                 <div class="ds_site-branding__title">
-                    <a data-navigation="title" class="ds_site-branding__link" href="/">Design System</a>
+                    Design System
                 </div>
             </div>
 
@@ -24,7 +24,7 @@ minheight: '427px'
                 <form role="search" class="ds_site-search__form">
                     <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
-                    <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+                    <div class="ds_input__wrapper  ds_input__wrapper--has-icon  ds_no-margin">
                         <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off" data-form="textinput-search-term">
 
                         <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button" data-button="data-search-submit">
