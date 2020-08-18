@@ -1,9 +1,9 @@
 ---
 layout: component
-title:  "Colour palette"
+title:  "Colour"
 category: styles
 parent: styles
-thispage: style.colour-palette
+thispage: style.colour
 summary: "Our brand colours and how to apply them"
 phase: 2
 ---
