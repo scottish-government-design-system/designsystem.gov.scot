@@ -46,19 +46,27 @@ Some heading formats may also have supporting metadata displayed beneath the mai
 
 The default paragraph font size used by the Design System is 19px on larger screens and 16px on smaller screens.
 
+{% include example-frame.html name="body" %}
+
 ### Leader
 
 Leader styling should apply to introductory content near the top of the page. The leader font size used by the Design System is 24px.
 
+{% include example-frame.html name="leader" %}
+
 ### Small
 
 Small type should be used sparingly and when content is limited in space within a component.
+
+{% include example-frame.html name="small" %}
 
 
 
 
 ## Links
 Link styling is blue and underlined by default. If a link appears at the end of a sentence, the full stop should not be inside the link.
+
+{% include example-frame.html name="links" %}
 
 
 
@@ -71,10 +79,16 @@ Use lists to make blocks of text easier to read.
 
 Introduce bulleted lists with a lead-in line ending in a colon. Start each item with a lowercase letter, and do not use a full stop at the end.
 
+{% include example-frame.html name="list-bulleted" %}
+
 ### Numbered list
 
 Use numbered lists instead of bulleted lists when the order of the items is important. You do not need to use a lead-in line for numbered lists. Items in a numbered list should end in a full stop because each should be a complete sentence.
 
+{% include example-frame.html name="list-numbered" %}
+
 ### Contents list
 
 A contents list might be used as a navigation aid at the top of each page in a set of related pages, such as in a "guide" format. It allows the user to identify their current position in the group of pages and to navigate between them.
+
+{% include example-frame.html name="list-contents" %}
