@@ -6,7 +6,7 @@ index: 0
 maxheight: 416px
 ---
 <div class="ds_quick-exit  ds_quick-exit--mobile">
-    <a href="about:blank" class="ds_button  ds_button--max  ds_quick-exit__button  js-quick-exit">Hide page</a>
+    <a href="about:blank" class="ds_button  ds_button--max  ds_quick-exit__button  js-quick-exit">Hide this page</a>
 </div>
 
 <main id="main-content" class="ds_layout  ds_layout--guide">
@@ -26,8 +26,8 @@ maxheight: 416px
 
     <div class="ds_quick-exit">
         <div class="ds_quick-exit__box">
-            <a href="https://www.google.com/" class="ds_button  ds_button--max  ds_quick-exit__button  js-quick-exit">Hide page</a>
-            <p class="ds_quick-exit__message">You can also leave this page by pressing 'esc' on your keyboard.</p>
+            <a href="https://www.google.com/" class="ds_button  ds_button--max  ds_quick-exit__button  js-quick-exit">Hide this page</a>
+            <p class="ds_quick-exit__message">(or press '<strong>esc</strong>' key)</p>
         </div>
     </div>
 
@@ -213,7 +213,7 @@ maxheight: 416px
                                             information</a></p>
                                 </div>
 
-                                <button type="submit" class="ds_button  ds_no-margin" data-gtm="fdbk-send">Send
+                                <button type="submit" class="ds_button  ds_no-margin" data-gtm="fdbk-send" data-button="button-feedback">Send
                                     feedback</button>
                             </div>
                         </div>
@@ -227,7 +227,7 @@ maxheight: 416px
                                 <div class="ds_question">
                                     <label class="ds_label" for="reason-no">Choose a reason for your feedback</label>
                                     <div class="ds_select-wrapper">
-                                        <select id="reason-no" class="ds_select">
+                                        <select id="reason-no" class="ds_select" data-form="select-reason-no">
                                             <option selected="" disabled="" value="">Please select a reason</option>
                                             <option>It wasn't detailed enough</option>
                                             <option>It's hard to understand</option>
@@ -252,7 +252,7 @@ maxheight: 416px
                                             information</a></p>
                                 </div>
 
-                                <button type="submit" class="ds_button  ds_no-margin" data-gtm="fdbk-send">Send
+                                <button type="submit" class="ds_button  ds_no-margin" data-gtm="fdbk-send" data-button="button-feedback">Send
                                     feedback</button>
                             </div>
                         </div>
@@ -266,7 +266,7 @@ maxheight: 416px
                                 <div class="ds_question">
                                     <label class="ds_label" for="reason-no">Choose a reason for your feedback</label>
                                     <div class="ds_select-wrapper">
-                                        <select id="reason-yesbut" class="ds_select">
+                                        <select id="reason-yesbut" class="ds_select" data-form="select-reason-yesbut">
                                             <option selected="" disabled="" value="">Please select a reason</option>
                                             <option>It's hard to understand</option>
                                             <option>It needs updating</option>
@@ -290,7 +290,7 @@ maxheight: 416px
                                             information</a></p>
                                 </div>
 
-                                <button type="submit" class="ds_button  ds_no-margin" data-gtm="fdbk-send">Send 
+                                <button type="submit" class="ds_button  ds_no-margin" data-gtm="fdbk-send" data-button="button-feedback">Send 
                                     feedback</button>
                             </div>
                         </div>
