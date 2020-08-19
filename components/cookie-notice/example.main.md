@@ -16,8 +16,8 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
             </div>
 
             <div class="ds_notification__actions">
-                <button class="ds_button  js-accept-cookies" data-banner="banner-cookie-accept">Accept cookies</button>
-                <a href="#" class="ds_button  ds_button--secondary" data-banner="banner-cookie-settings">Cookie settings</a>
+                <button class="ds_button  ds_button--small  js-accept-cookies" data-banner="banner-cookie-accept">Accept cookies</button>
+                <a href="#" class="ds_button  ds_button--small  ds_button--secondary" data-banner="banner-cookie-settings">Cookie settings</a>
             </div>
         </div>
     </div>
