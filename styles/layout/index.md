@@ -8,11 +8,11 @@ thispage: style.layout
 phase: 3
 highlighttype: css
 ---
-The Design System's layout component is a tool used to help to arrange content on a page. It is most commonly used within the middle section of the [page template](/styles/page-template). The intention of the layout component is to make it easy for content to be placed into defined areas in your HTML across templates or content formats.
+The layout component is used to help to arrange content on a page. It is most commonly used in the middle section of the [page template](/styles/page-template). The purpose of the layout component is to make it easy for you to place content into defined areas in your HTML across templates or content formats.
 
 The layout component uses CSS Grid Layout with a fallback for browsers with no CSS Grid support.
 
-There are a number of responsive layouts provided in the Design System. You can create your own layouts if you need something that is not already defined in the Design System.
+There are a number of responsive layouts provided in the Design System. You can create your own layouts if you need something that's not already defined in the Design System.
 
 ## Example: Article layout
 
@@ -28,9 +28,9 @@ The CSS for a layout that uses the layout component consists of two sections: th
 
 The CSS Grid version makes heavy use of the `grid-template-areas` CSS property.
 
-We use a simple naming convention that uses single characters for each content area. This makes it possible to use the `grid-template-areas` value as a rough diagram of the layout so it's easy to interpret visually.
+We use a simple naming convention that uses single characters for each content area. This makes it possible to use the `grid-template-areas` value as a rough diagram of the layout so it's easy to understand visually.
 
-For example, the large viewport display for the "article" layout illustrated above would be defined like this:
+For example, the large viewport display for the 'article' layout shown above would be defined like this:
 
     .ds_layout--article {
         grid-template-areas:
@@ -45,15 +45,15 @@ The non-grid fallback uses CSS floats and percentage widths to define column pla
 
 ## Creating a layout
 
-This is an example of how to create a custom layout using the layout component. The example illustrates two useful concepts: adding a new type of content area ("icon") and how to handle grid areas that are not flush to the left of the page.
+This is an example of how to create a custom layout using the layout component. The example shows 2 useful concepts: adding a new type of content area ('icon') and how to handle grid areas that are not flush to the left of the page.
 
 <img src="/assets/images/examples/complex-document-layout.svg"/>
 
 On small devices in this layout everything is linearised and we can just rely on the default layout defined by the Design System.
 
-On medium devices (e.g. tablets) the sidebar is moved to the side of the content area and the feedback box is reduced in width to match the width of the content area.
+On medium devices (such as tablets), the sidebar is moved to the side of the content area and the feedback box is reduced in width to match the width of the content area.
 
-On large devices everything is moved two columns to the right and an icon is placed to the left of the header.
+On large devices (such as desktop computers) everything is moved two columns to the right and an icon is placed to the left of the header.
 
 ### 1. The non-grid fallback
 
@@ -75,7 +75,9 @@ The first quirk of this layout is that the icon is only visible on large display
 
 Apart from the icon, until we get to a medium (tablet) display this layout is the same as the default Design System `ds_layout` so we do not need to do anything special for those sizes.
 
-At medium, we start to diverge from the default layout so we need to write some rules. There are some helper mixins in the layout component that help with this. Here we are using `colwidth` to tell the layout how many columns a content area should span. `colwidth` provides a percentage width value that takes into account the total number of columns in your grid and your grid gutter width.
+At medium, we start to diverge from the default layout so we need to write some rules. There are some helper mixins in the layout component that help with this.
+
+Here we're using `colwidth` to tell the layout how many columns a content area should span. `colwidth` provides a percentage width value that takes into account the total number of columns in your grid and your grid gutter width.
 
     @include media-query(medium) {
         .my_layout--document {
@@ -95,7 +97,7 @@ At medium, we start to diverge from the default layout so we need to write some 
         }
     }
 
-At the large size, we bring the icon back in and content areas are shifted over two columns. The Design System layout component has push and pull helpers that we can use to manipulate where a content area is placed in the grid. Here we'll use `colpush` to shift things over by two columns.
+At the large size, we bring the icon back in and content areas are shifted over two columns. The layout component has push and pull helpers that we can use to manipulate where a content area is placed in the grid. Here we'll use `colpush` to shift things over by two columns.
 
     @include media-query(large) {
         .my_layout--document {

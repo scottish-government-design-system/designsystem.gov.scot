@@ -19,21 +19,27 @@ If your service is going to be a subdomain of either gov.scot or mygov.scot then
 
 ## Headings
 
-Headings should be marked up semantically using the appropriate HTML heading element. Most websites use scaled headings to create a visual hierarchy of content.
+Most websites use scaled headings to create a visual hierarchy of content. Headings should use HTML heading elements.
 
-The main headings on a website are usually "H1" size, with smaller sizes, such as H2 and H3, used for sub headings. Appropriate headings are helpful for accessibility, and help all users to understand your content. Search engines may make use of them to understand the content of your site.
+The main headings on a website are usually H1 size, with smaller sizes, such as H2 and H3, used for subheadings.
 
-We write headings in the same way as a normal sentence, with a capital letter at the start. The only difference is we don't use full stops. This is the most popular way of writing headings online and is known as "sentence case".
+Hierarchical headings are helpful for accessibility and help all users to understand your content. Search engines may make use of them to understand the content of your site.
+
+We write headings with a capital letter at the start. The only difference is we do not use full stops. This is the most popular way of writing headings online and is known as 'sentence case'.
 
 {% include example-frame.html name="headings" %}
 
 ### Heading with captions
 
-There are occasions when a heading is part of a larger section or group. To show this we use a heading with a caption, for example mygov.scot uses heading and caption on the "guide" format, and you can see how to implement this on the [page header](/components/page-header/) component.
+A caption is a piece of text above a page’s title. It shows when a heading is part of a larger section or group. For example mygov.scot uses a heading and caption on the 'guide' format.
 
 {% include example-frame.html name="header-caption" %}
 
-Some heading formats may also have supporting metadata displayed beneath the main header.
+You can see how to implement this on the [page header](/components/page-header/) component.
+
+### Heading with metadata
+
+Some heading formats may also have supporting metadata shown beneath the main header. For example 'Last updated' underneath the page title.
 
 {% include example-frame.html name="header-caption-metadata" %}
 
@@ -64,7 +70,7 @@ Small type should be used sparingly and when content is limited in space within 
 
 
 ## Links
-Link styling is blue and underlined by default. If a link appears at the end of a sentence, the full stop should not be inside the link.
+Link styling is blue and underlined by default. If a link appears at the end of a sentence, the full stop should be outside the link.
 
 {% include example-frame.html name="links" %}
 
@@ -83,12 +89,6 @@ Introduce bulleted lists with a lead-in line ending in a colon. Start each item 
 
 ### Numbered list
 
-Use numbered lists instead of bulleted lists when the order of the items is important. You do not need to use a lead-in line for numbered lists. Items in a numbered list should end in a full stop because each should be a complete sentence.
+Use numbered lists instead of bulleted lists when the order of the items is important. You do not need to use a lead-in line for numbered lists. Items in a numbered list should end in a full stop, because each one should be a complete sentence.
 
 {% include example-frame.html name="list-numbered" %}
-
-### Contents list
-
-A contents list might be used as a navigation aid at the top of each page in a set of related pages, such as in a "guide" format. It allows the user to identify their current position in the group of pages and to navigate between them.
-
-{% include example-frame.html name="list-contents" %}

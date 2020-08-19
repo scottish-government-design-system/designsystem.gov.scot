@@ -10,7 +10,7 @@ phase: 2
 
 ## Using colour
 
-The colour palette we use conforms to the wider branding of the Scottish Government. We also use colour to help users prioritise and differentiate information - for example:
+The colour palette we use follows to the wider branding of the Scottish Government. We also use colour to help users prioritise and differentiate information. For example:
 
 * yellow for our focus states
 * red as a warning colour
@@ -23,7 +23,7 @@ If your service or site is going to be a subdomain of either gov.scot or mygov.s
 
 ## Colour contrast
 
-Good colour contrast uses a dark colour on a light background, or a light colour on a dark background. It is essential that the contrast ratio of text and interactive elements on public sector sites meet [level AA of the Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/#contrast-minimum). Colours in our palette have been tested to ensure the palette meets these standards.
+Good colour contrast uses a dark colour on a light background, or a light colour on a dark background. It's important that the contrast ratio of text and interactive elements on public sector sites meet [level AA of the Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/#contrast-minimum). We've tested colours in our colour palette to ensure the palette meets these standards.
 
 
 

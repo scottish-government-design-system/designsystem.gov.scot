@@ -14,7 +14,7 @@ phase: 4
 
 The date picker is a component that helps users to complete date input fields. To help with accessibility, it can be used with a keyboard, as well as mouse or touchscreen. 
 
-The date picker can be set with limits on the dates that can be selected by users.
+The date picker can be set with limits on the dates that users can select. 
 
 ## Why we use this component
 
@@ -37,13 +37,13 @@ Date pickers are a common component that helps users select and enter a date.
         <tr>
             <td>Calendar button</td>
             <td><code>Space</code>,<br/><code>Enter</code></td>
-            <td>Opens the date picker. If there is a current date set in the text input, that date is focused in the date picker. If not, today's date is focused.</td>
+            <td>Opens the date picker. If there is a current date set in the text input, that date is focussed in the date picker. If not, today's date is focussed.</td>
         </tr>
 
         <tr>
             <td>Date picker</td>
             <td><code>Escape</code></td>
-            <td>Closes the date picker and focuses on the calendar button</td>
+            <td>Closes the date picker and focuses on the calendar button.</td>
         </tr>
 
         <tr>
@@ -67,7 +67,7 @@ Date pickers are a common component that helps users select and enter a date.
         <tr>
             <td>Dates</td>
             <td><code>Space</code>,<br/><code>Enter</code></td>
-            <td>Selects the focused date, closes the date picker and moves focus back to the calendar button. Updates the accessible name of the calendar button to indicate the selected date.</td>
+            <td>Selects the focussed date, closes the date picker and moves focus back to the calendar button. Updates the accessible name of the calendar button to indicate the selected date.</td>
         </tr>
 
         <tr>

@@ -11,6 +11,10 @@ permalink: "/get-started/installation/"
 sorttype: 'index'
 ---
 
+We recommend using npm to install our Design System. This is because:
+* npm makes it easier for you to stay up to date with any changes or bug fixes
+* installing with npm gives you some extra options to make quick changes to a component or pattern that you’re using
+
 ## What you need to do
 
 1. Install [Node.js](https://nodejs.org/en/).
@@ -29,7 +33,7 @@ sorttype: 'index'
 
     <pre><code class="lang-bash">npm install @scottish-government/pattern-library --save-dev</code></pre>
 
-    You will now have a copy of the Design System's source code in your project's `node_modules` folder.
+    You'll now have a copy of the Design System's source code in your project's `node_modules` folder.
 
 ## Using the Design System
 
@@ -42,9 +46,9 @@ A typical starting point for your main SCSS file might look something like this.
 @import "/path/to/components/all-components";
 </code></pre>
 
-The base styles are always required. Among other things they contain the typography and colour rules used by the components, and a number of helpful SASS mixins and functions used by them.
+You’ll always need to include the base styles in your file. They contain the typography and colour rules used by the components, and a number of helpful SASS mixins and functions used by them.
 
-You have the opportunity to pick and choose the components you want to include if you do not need them all. For example:
+You can choose which components you want to include . You do not need to include them all if you do not want to. For example:
 
 <pre><code class="lang-scss">@import "/path/to/base/all-base";  
 @import "/path/to/forms/all-forms";  
@@ -55,6 +59,6 @@ You have the opportunity to pick and choose the components you want to include i
 
 ### JavaScript
 
-The JavaScript for Design System components is written as ECMAScript (ES) modules. Native browser support for ES modules is limited and some other tools are required to compile that into a form web browsers will understand.
+The JavaScript for Design System components is written as ECMAScript (ES) modules. As native browser support for ES modules is limited, you'll need other tools to compile the ES modules into a format that web browsers will understand.
 
 We use [Webpack](https://webpack.js.org/) to compile the scripts and [Babel](https://babeljs.io/) to convert the script to ES5 for older browsers.

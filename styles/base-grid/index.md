@@ -14,9 +14,9 @@ The ‘grid’ design separates a web page into individual content boxes.
 
 ## Why we use this pattern
 
-If a page contains lots of unrelated content, using a uniform grid layout can make it easier for users to browse a high number of content options than a less rigid design.  
+If a page contains lots of unrelated content, using a uniform grid layout can make it easier for users to browse many content options than a less rigid design.  
 
-The grid design can also make it easier for different designers or developers to work on the same page, as they can work on different sections of the grid.
+The grid design can also make it easier for different designers or developers to work on the same page. It means they can work on different sections of the grid at the same time.
 
 ## Demo
 
@@ -24,7 +24,7 @@ We've included a demo on this page that can be resized by dragging the bottom-ri
 
 The base grid demo is scaled down to hald the size of a normal base grid.
 
-This example is also intended only as a visual demo - the HTML and CSS code used to create it should not be used in a live project.
+This example is also intended only as a visual demo. The HTML and CSS code used to create it should not be used in a live project.
 
 ### Mobile version
 

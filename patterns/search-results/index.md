@@ -18,7 +18,7 @@ This pattern includes the search results page, the ability to display multiple p
 
 Within the pattern:
 
-- users can choose the page they want by clicking on a page number at the bottom of a search result page, starting at page 1
+- users can choose the page they want by picking a page number at the bottom of a search result page, starting at page 1
 - each individual page number contains 10 search results
 - the page number the user is on is always highlighted
 
@@ -26,7 +26,7 @@ A maximum number of 7 page numbers are shown at the bottom of a page of search r
 
 An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right. The current page number always appears in the URL, e.g. https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2
 
-On a mobile, a ‘Load more’ button is shown rather than a list of page numbers.
+On a mobile, a ‘Load more’ button is shown instead of a list of page numbers.
 
 ## Components related to this
 
@@ -34,7 +34,7 @@ On a mobile, a ‘Load more’ button is shown rather than a list of page number
 
 ## Why we use this pattern
 
-The design of the pattern helps the user to browse their search results, or to refine their search term if the search results don't meet their needs.
+The design of the pattern helps the user to browse their search results, or to refine their search term if the search results do not meet their needs.
 
 ## Website analytics
 

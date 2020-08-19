@@ -18,7 +18,7 @@ You’ll need to [set up your project](/get-started/installation/) to be able to
 
 ## Accessibility
 
-The Design System has been written with accessibility as a key requirement. Every [style](/styles/), [component](/components/) and [pattern](/patterns/) passes WGAC&nbsp;2.1&nbsp;AA.
+We've created the Design System with accessibility as a key requirement. Every [style](/styles/), [component](/components/) and [pattern](/patterns/) passes WGAC&nbsp;2.1&nbsp;AA.
 
 ## User research
 

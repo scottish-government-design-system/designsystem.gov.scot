@@ -19,7 +19,7 @@ The [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) pr
 
 ## Styling for keyboard focus
 
-For sighted keyboard only users it is important that the interactive element that they are focused on is clearly identified. This includes links, buttons and form fields. Relying on the browser to do this is usually not sufficient since some browser default options for focus styling is too subtle.
+For sighted keyboard only users it is important that the interactive element that they are focussed on is clearly identified. This includes links, buttons and form fields. Relying on the browser to do this is usually not sufficient since some browser default options for focus styling is too subtle.
 Focus styling can easily be included using the CSS pseudo selector ```:focus```.
 It may be sufficient to use the same styling for ```:hover```. However, it is better to have something more visually noticeable for focus styling. For example mygov.scot uses:
 
