@@ -34,7 +34,3 @@ The coloured background should be applied to an element that wraps the category 
 {% include example-frame.html name="colour" %}
 
 Note also that in the example above the breadcrumbs are also included in the coloured area and that the <code>ds_reversed</code> class has also altered the colour of its links.
-
-## Components related to this
-
-[Navigational pages](https://designsystem.gov.scot/components/card-navigation/)
