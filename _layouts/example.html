@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head xml:lang="en">
+    {% assign parent = site.pages | where:"thispage", page.parent | sort: 'index', 'first' %}
+
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/css/patternlib.css?{{site.time | date: '%s'}}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ parent[0].title }}{% endif %} – Digital Scotland Design System</title>
+
     <style type="text/css">
         body {
             padding-top: 35px;
@@ -44,7 +49,6 @@
 <body>
 
     <div class="example-frame__intro">
-        {% assign parent = site.pages | where:"thispage", page.parent | sort: 'index', 'first' %}
         <h1 class="visually-hidden">
             {% if parent[0] %}
                 {{parent[0].title}} example
