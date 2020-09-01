@@ -24,7 +24,7 @@ Within the pattern:
 
 A maximum number of 7 page numbers are shown at the bottom of a page of search results, but the user can select pages outwith these 7 by choosing the … (ellipsis) symbol.
 
-An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right. The current page number always appears in the URL, e.g. https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2
+An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right. The current page number always appears in the URL, for example https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2
 
 On a mobile, a ‘Load more’ button is shown instead of a list of page numbers.
 
@@ -38,7 +38,15 @@ The design of the pattern helps the user to browse their search results, or to r
 
 ## Website analytics
 
-There are no reported performance issues with this pattern from mygov or gov.scot.
+Many analytics tools offer out of the box tracking for site search. The setup below covers more complex tracking to understand which search result was interacted with from a search results page, and how additional interactive elements are being used.
+
+Search results should be tracked in order to understand if internal search engines are providing useful results to users. Tracking works through the query being available from the page URL, the click text, click URL and a data attribute showing the result's position, for example <code>data-search-result="search-result-2/68"</code>, which shows the user clicked the second result from 68 search results
+
+Clicks to the suggested terms in the "did you mean..." component are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute, for example <code>data-search="suggestion-result-1/1"</code>, which shows that the suggested alternate search term was the first available from a total of 1 suggested search terms.
+
+Where the site search is being used on a single-page app or it is not possible to put the search query in to the URL, the query could be included in the dataLayer for the page.
+
+Pagination is tracked using the data attribute with the number of the results page clicked, for example <code>data-search="'pagination-1"</code>.
 
 ## Accessibility features
 

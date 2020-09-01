@@ -53,3 +53,7 @@ If you are using an inline display for a yes/no choice, make 'Yes' the first opt
 ## Accessibility
 
 We use a custom style for radio buttons so that they're larger and easier to use than the standard radio buttons defined by the user's browser. We also use a custom style to make their focussed and selected states clearer.
+
+## Website analytics
+
+Radio buttons can be tracked through the original page path, a data attribute showing the question type, and value selected, for example <code>data-form="radio-feedback-yes"</code>

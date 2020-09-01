@@ -8,7 +8,6 @@ summary: "A banner highlighting key content that all visitors to a website will 
 phase: 1
 ---
 ## About this component
-
 The notification banner stretches across the top of a web page, spanning its full width. It pushes everything else on a web page beneath it.
 
 Links to further content can be included in the banner.
@@ -20,9 +19,10 @@ Each banner should also allow the user to remove the banner from the page, usual
 Generally, banners do not contain images, but may contain small icons, such as an arrow to highlight a link.
 
 ## Why we use this component
-
 To highlight short, key content at the top of the page that all users need to see.
 
-## Website analytics
-
+## Evidence
 User research findings from GOV.UK and NHS suggests that banners which overlay or hide content on a page leads to a worse user experience (higher exit rate).
+
+## Website analytics
+To understand user behaviour, clicks on banner links items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the link click, for example <code>data-banner="banner-BANNERNAME-link"</code> or the close button, for example <code>data-banner="banner-BANNERNAME-close"</code>.

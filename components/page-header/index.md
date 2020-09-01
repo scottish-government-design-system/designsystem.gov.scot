@@ -25,3 +25,9 @@ Your title should also be tagged with an H1 heading. Using an H1 heading element
 ## Why we use this component
 
 The page header allows users who reach a page to understand what the content is about, and how current or up to date it is.    
+
+## Website analytics
+
+Content title H1 headings are used by search engines and are commonly mirrored in the <code>title</code> tag for the page.
+
+Metadata for the content should be available in the dataLayer - this includes dates (published or last updated) and labels.

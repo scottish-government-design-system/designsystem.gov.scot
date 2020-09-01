@@ -50,3 +50,8 @@ The error state for checkboxes marks the entire fieldset.
 We use a custom style for checkboxes so that they're larger and easier to use than the standard checkboxes defined by a browser. We also use a custom style to make their focussed and selected states clearer.
 
 Checkboxes should only be stacked vertically. This makes tabbing through the checkboxes easier to follow. It also ensures better visibility of the options for screen magnifier users.
+
+## Website analytics
+
+Checkbox items can be tracked through the original page path, a data attribute showing the value, for example "Education", and an additional attribute showing the action ("checked" or "unchecked")  
+<code>data-form="checkbox-education-unchecked"</code>

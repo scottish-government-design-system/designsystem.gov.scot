@@ -31,4 +31,4 @@ To help screen reader users, the error message component includes a hidden 'Erro
 
 ## Website analytics
 
-Error messages can be tracked through a data attribute showing the error and field name.
+To understand the incidence of validation error messages, they can be tracked through the original page path, the error text, and a data attribute showing the type of error, for example <code>data-form="error-postcode"</code>

@@ -48,15 +48,12 @@ Although there are no boxes, there is a single, left-hand side line running the 
 Links in a navigational list can be highlighted. Links that are highlighted always appear at the top of the list. Other items in the list may be sorted in any order.
 
 ## Other versions of these patterns
-
 Some versions of box navigation may include a gradient effect along the bottom border of individual boxes.
 
-## Components related to this
-
-[Category header](https://designsystem.gov.scot/components/category-header/)
-
 ## Why we use these patterns
-
 Features of these patterns, such as the large size of the boxes in the card navigation pattern, help space out content to make it easier for users to find the content they need.
 
 These patterns can also be reused across websites, creating a consistent experience for users and cutting development time.
+
+## Website analytics
+To understand user behaviour, clicks on navigation items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number, for example <code>data-navigation="category-item-1"</code>.

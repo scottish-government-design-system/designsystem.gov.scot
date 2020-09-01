@@ -27,14 +27,16 @@ Giving contact details their own distinct design pattern, separate from the rest
 
 It also helps users to quickly skip past this content if they don’t need it.
 
-## Website analytics
+## Evidence
 
 Around 3% of internal searches on mygov.scot are for contact details.
 
 Contact details components can also be returned by Google in ‘smart search’ results. As an example, about four times the number of users find Disclosure Scotland’s contact details from the mygov.scot website in a Google ‘smart search’ results page than they do on mygov.scot.  
 
+## Website analytics
+
 To track this component:
 
-* clicks on social media/email/telephone links can be tracked through the original page path, the external link URL/mailto/tel, the click text and a data attribute showing the element, e.g. data-navigation=“contact-details”
-* internal links (e.g. for telephone number charges) can be tracked using the same attributes
-* phone numbers are not links by default – they are tagged with a data attribute and, if the user is on a mobile phone, can be automatically linked to make a call, if the user’s browser supports this  
+* clicks on social media/email/telephone links can be tracked through the original page path, the external link URL/mailto/tel, the click text and a data attribute showing the element, for example <code>data-navigation=“contact-details”</code>
+* internal links can be tracked using the same attributes
+* phone numbers are not links by default, they are tagged with a data attribute and, if the user is on a mobile phone, can be automatically linked to make a call if the user’s browser supports this  

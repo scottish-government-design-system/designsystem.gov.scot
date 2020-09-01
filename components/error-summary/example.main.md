@@ -10,13 +10,13 @@ index: 0
 
     <ul class="ds_error-summary__list">
         <li>
-            <a href="#error-id-one">Did this resolve your issue?</a>
+            <a href="#error-id-one" data-form="error-resolve">Did this resolve your issue?</a>
         </li>
         <li>
-            <a href="#error-id-two">What topics are you interested in?</a>
+            <a href="#error-id-two" data-form="error-topics">What topics are you interested in?</a>
         </li>
         <li>
-            <a href="#error-id-three">Please provide more detail</a>
+            <a href="#error-id-three" data-form="error-more-detail">Please provide more detail</a>
         </li>
     </ul>
 </div>

@@ -12,7 +12,7 @@ index: 0
         alpha
       </strong>
       <span class="ds_phase-banner__text">
-        This is a new service. Your <a href="#">feedback</a> will help us to improve it.
+        This is a new service. Your <a href="#" data-banner="banner-alpha-link">feedback</a> will help us to improve it.
       </span>
     </p>
   </div>

@@ -24,8 +24,6 @@ Sometimes, content is displayed best when it's broken into small chunks, with us
 
 ## Website analytics
 
-There are no reported performance issues with this component from mygov or gov.scot.
+Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number, for example <code>data-accordion="accordion-open-1"</code>.
 
-Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number, e.g. <code>data-accordion="accordion-open-1"</code>
-
-Opening and closing all accordion panels by clicking on the "Open all"/"Close all" link can be tracked through the original page path, click text and a data attribute attached on the element, e.g. <code>data-accordion="accordion-open-all"</code>
+Opening and closing all accordion panels by clicking on the "Open all"/"Close all" link can be tracked through the original page path, click text and a data attribute attached on the element, for example <code>data-accordion="accordion-open-all"</code>.

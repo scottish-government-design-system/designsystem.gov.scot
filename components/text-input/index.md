@@ -48,3 +48,10 @@ If you are asking the user for a currency amount, use this version of a checkbox
 In some cases it might be sensible to align text inputs inline, such as when asking for multiple short related fields.
 
 {% include example-frame.html name="inline" %}
+
+
+
+
+## Website analytics
+
+Content of this form element would not be routinely tracked through website analytics due to the risk of gathering personally identifiable information. Interaction with the element can be tracked through an attribute showing the the field type and field description, for example <code>data-form="textinput-first-name"</code>.

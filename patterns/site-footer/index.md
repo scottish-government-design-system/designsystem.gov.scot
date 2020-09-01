@@ -10,7 +10,7 @@ phase: 1
 examples:
   - site: tradingnation.mygov.scot
     url: https://tradingnation.mygov.scot/
-    name: "A Tradign Nation"
+    name: "A Trading Nation"
 ---
 
 ## About this pattern
@@ -25,5 +25,18 @@ A site footer should include:
 ## Why we use this pattern
 Site footers are a best practice web pattern used to add information about a website at the bottom of web pages.
 
-## Website analytics
+## Evidence
 Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage. Users also interact with all the footer links.
+
+## Website analytics
+
+The footer links, copyright notice, and footer logo are trackable as follows:
+
+### Links
+Footer link clicks can be tracked through the original page path, the click URL, the click text, and a data attribute attached to all links,<code>data-footer="link"</code>.
+
+### Copyright
+Footer copyright clicks can be tracked through the original page path, the click URL, and a data attribute attached to all copyright links, <code>data-footer="copyright"</code>.
+
+### Logo
+To understand user behaviour, footer logo clicks can be tracked through the original page path, the click URL,  and a data attribute attached to the image, <code>data-footer="logo"</code>. Where multiple logos exist, each should have a different logo-NAME data attribute.

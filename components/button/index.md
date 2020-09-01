@@ -8,7 +8,7 @@ thispage: component.button
 phase: 3
 ---
 
-Button styling can be applied to either button or link elements. Use the appropriate element for the task, i.e. use a button element when the user is performing an action, or a link element when the user is navigating.
+Button styling can be applied to either button or link elements. Use the appropriate element for the task: use a button element when the user is performing an action, use a link element when the user is navigating.
 
 
 
@@ -99,9 +99,9 @@ Buttons can also contain only an icon. If you do this, make sure that the intent
 
 ## Website analytics / performance
 
-To track interactions with button elements in Google Analytics using Google Tag Manager, each button has a data attribute e.g. <code>data-button="button-ACTION"</code>.
+To track interactions with button elements in Google Analytics using Google Tag Manager, each button has a data attribute, for exapmle <code>data-button="button-ACTION"</code>.
 
-You will need to replace the text "ACTION" with the action for each button - for a submit button this would be <code>data-button="button-submit"</code>.
+You will need to replace the text "ACTION" with the action for each button, for example for a submit button this would be <code>data-button="button-submit"</code>.
 
 
 

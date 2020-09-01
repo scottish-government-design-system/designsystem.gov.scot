@@ -21,7 +21,7 @@ If the side navigation has a structure with nested sections, it should:
 
 * display all the pages in a section when a user selects the section
 * stay under 10 sections
-* have no more than 3 levels in total, i.e. side navigation>nested section> nested section  
+* have no more than 3 levels in total
 
 The side navigation should also:
 
@@ -37,9 +37,9 @@ The side navigation gives users a snapshot of content within the user’s curren
 Since it’s on the left hand side of the page, it also supports left to right reading.
 
 ## Website analytics
-To understand user behaviour, clicks on side navigation items can be tracked through the original page path, the click URL, the click text and a data attribute showing the item, e.g. data-navigation=“sidenav-1-1”  
+To understand user behaviour, clicks on side navigation items can be tracked through the original page path, the click URL, the click text and a data attribute showing the item, for example <code>data-navigation="sidenav-1-1"</code>.
 
-An additional data attribute would be used to track clicks on mobile, e.g. data-navigation="sidenav-open"  
+An additional data attribute would be used to track clicks on mobile, for example <code>data-navigation="sidenav-open"</code>.
 
 ## Accessibility features
 Aria attributes describe whether the side navigation is open or closed.

@@ -30,6 +30,10 @@ On mobile, the ‘next’ link displays stacked above the ‘previous’ link.
 
 Sequential navigation allows users to navigate without having to go back to navigational links at the top of a page.
 
-## Website analytics
+## Evidence
 
 Analytics shows sequential navigation is used by users across mygov.scot and gov.scot, especially on mobile devices, where it is more prominent than other forms of navigation.
+
+## Website analytics
+
+To understand user behaviour, clicks on sequential navigation can be tracked through the original page path, the click URL, the click text, and a data attribute showing the action, for example <code>data-navigation="sequential-previous"</code> or <code>data-navigation="sequential-next"</code>.

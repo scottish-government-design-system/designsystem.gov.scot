@@ -16,7 +16,7 @@ The colour palette we use follows to the wider branding of the Scottish Governme
 * red as a warning colour
 * green to confirm something
 
-If your service or site is going to be a subdomain of either gov.scot or mygov.scot, e.g. **newservice**.gov.scot, then our colour palette is the one you should use.
+If your service or site is going to be a subdomain of either gov.scot or mygov.scot, for example **newservice**.gov.scot, then our colour palette is the one you should use.
 
 
 
