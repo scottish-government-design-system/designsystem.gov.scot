@@ -19,7 +19,7 @@ scripts:
             <label class="ds_accordion-item__label" for="panel-1"><span class="visually-hidden">Show this section</span></label>
         </div>
         <div class="ds_accordion-item__body">
-            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="/veterans-health/">health care options and support</a> available specifically for veterans.  </p>
+            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
             <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
         </div>
     </div>
@@ -34,7 +34,7 @@ scripts:
             <label class="ds_accordion-item__label" for="panel-2"><span class="visually-hidden">Show this section</span></label>
         </div>
         <div class="ds_accordion-item__body">
-            <p>If you're looking for a job, there are several organisations that can help you <a href="/veterans-employability/">find a job or develop new skills</a>.</p>
+            <p>If you're looking for a job, there are several organisations that can help you <a href="#">find a job or develop new skills</a>.</p>
         </div>
     </div>
 
@@ -48,7 +48,7 @@ scripts:
             <label class="ds_accordion-item__label" for="panel-3"><span class="visually-hidden">Show this section</span></label>
         </div>
         <div class="ds_accordion-item__body">
-            <p>If you need <a href="/veteran-housing/">help finding a place to live</a> there's support specifically for veterans.</p>
+            <p>If you need <a href="#">help finding a place to live</a> there's support specifically for veterans.</p>
         </div>
     </div>
 </div>
