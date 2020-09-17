@@ -10,18 +10,18 @@ type: example
 
         <div class="ds_field-group">
             <div class="ds_checkbox  ds_checkbox--small">
-                <input class="ds_checkbox__input" id="stacked-1" name="group-name" type="checkbox" data-form="checkbox-education">
-                <label class="ds_checkbox__label" for="stacked-1">Education</label>
+                <input class="ds_checkbox__input" id="education" name="group-name" type="checkbox" data-form="checkbox-education">
+                <label class="ds_checkbox__label" for="education">Education</label>
             </div>
 
             <div class="ds_checkbox  ds_checkbox--small">
-                <input class="ds_checkbox__input" id="stacked-2" name="group-name" type="checkbox" data-form="checkbox-housing">
-                <label class="ds_checkbox__label" for="stacked-2">Housing</label>
+                <input class="ds_checkbox__input" id="housing" name="group-name" type="checkbox" data-form="checkbox-housing">
+                <label class="ds_checkbox__label" for="housing">Housing</label>
             </div>
 
             <div class="ds_checkbox  ds_checkbox--small">
-                <input class="ds_checkbox__input" id="stacked-3" name="group-name" type="checkbox" data-form="checkbox-transport">
-                <label class="ds_checkbox__label" for="stacked-3">Transport</label>
+                <input class="ds_checkbox__input" id="transport" name="group-name" type="checkbox" data-form="checkbox-transport">
+                <label class="ds_checkbox__label" for="transport">Transport</label>
             </div>
         </div>
     </fieldset>

@@ -2,6 +2,8 @@
     <meta charset="UTF-8">
     <title>{% if page.title %}{{ page.title }} – Digital Scotland Design System{% else %}{{ site.title }}{% endif %}</title>
 
+    {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+
     <meta name="description" content="{{ site.description }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 

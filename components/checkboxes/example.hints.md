@@ -9,20 +9,20 @@ type: example
 
         <div class="ds_field-group">
             <div class="ds_checkbox">
-                <input class="ds_checkbox__input" id="stacked-1" name="group-name" type="checkbox" data-form="checkbox-topic-benefits">
-                <label class="ds_checkbox__label" for="stacked-1">Benefits and grants</label>
+                <input class="ds_checkbox__input" id="benefits" name="group-name" type="checkbox" data-form="checkbox-benefits">
+                <label class="ds_checkbox__label" for="benefits">Benefits and grants</label>
                 <p class="ds_hint-text">Information on benefits, funds and grants, including Child Benefit and tax credits.</p>
             </div>
 
             <div class="ds_checkbox">
-                <input class="ds_checkbox__input" id="stacked-2" name="group-name" type="checkbox" data-form="checkbox-topic-environment">
-                <label class="ds_checkbox__label" for="stacked-2">Environment, farming and marine</label>
+                <input class="ds_checkbox__input" id="environment" name="group-name" type="checkbox" data-form="checkbox-environment">
+                <label class="ds_checkbox__label" for="environment">Environment, farming and marine</label>
                 <p class="ds_hint-text">Guidance on recycling, flooding, farming, fishing and conservation, including advice for businesses.</p>
             </div>
 
             <div class="ds_checkbox">
-                <input class="ds_checkbox__input" id="stacked-3" name="group-name" type="checkbox" data-form="checkbox-topic-living-in-scotland">
-                <label class="ds_checkbox__label" for="stacked-3">Living in and visiting Scotland</label>
+                <input class="ds_checkbox__input" id="living-in-scotland" name="group-name" type="checkbox" data-form="checkbox-living-in-scotland">
+                <label class="ds_checkbox__label" for="living-in-scotland">Living in and visiting Scotland</label>
                 <p class="ds_hint-text">Voting, charities, tourism and life in Scotland.</p>
             </div>
         </div>
