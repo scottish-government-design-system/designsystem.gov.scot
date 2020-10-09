@@ -5,8 +5,8 @@
 
 
 
-$example__border-colour: $colour__border !default;
-$example__highlight-colour: $colour__link--current__background !default;
+$example__border-colour: $ds_colour__border !default;
+$example__highlight-colour: $ds_colour__link--current__background !default;
 
 .example {
     @include block-margins;
@@ -36,7 +36,7 @@ $example__highlight-colour: $colour__link--current__background !default;
 .example__link {
     @include blocklink;
 
-    background-color: $colour__grey--lighter;
+    background-color: $ds_colour__grey--lighter;
 
     display: inline-block;
     font-size: $small-size;

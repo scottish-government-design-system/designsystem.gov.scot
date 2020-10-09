@@ -4,11 +4,11 @@
     @return $result;
 }
 
-$columnGap: 30;
+$columnGap: 32;
 $columnCount: 12;
 
 @include media-query(medium) {
-    $containerWidth: 720;
+    $containerWidth: 768;
 
     .overflow--medium--1 {
         margin-right: calcOverflow(1, $columnCount, $containerWidth, $columnGap) * -1px;
@@ -24,7 +24,7 @@ $columnCount: 12;
 }
 
 @include media-query(large) {
-    $containerWidth: 940;
+    $containerWidth: 928;
 
     .overflow--large--1 {
         margin-right: calcOverflow(1, $columnCount, $containerWidth, $columnGap) * -1px;
@@ -40,7 +40,7 @@ $columnCount: 12;
 }
 
 @include media-query(xlarge) {
-    $containerWidth: 1140;
+    $containerWidth: 1120;
 
     .overflow--xlarge--1 {
         margin-right: calcOverflow(1, $columnCount, $containerWidth, $columnGap) * -1px;

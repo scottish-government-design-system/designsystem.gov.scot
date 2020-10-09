@@ -1,6 +1,6 @@
 figure {
-    border: 1px solid $colour__border;
-    box-shadow: 4px 4px $colour__border;
+    border: 1px solid $ds_colour__border;
+    box-shadow: 4px 4px $ds_colour__border;
 
     @include block-margins;
 
@@ -10,7 +10,7 @@ figure {
 }
 
 figcaption {
-    background-color: $colour__grey--lighter;
+    background-color: $ds_colour__grey--lighter;
     font-size: $small-size;
     padding: 4px 15px;
 }
