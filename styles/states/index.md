@@ -20,7 +20,7 @@ Focus states in the Design System use a high-contrast combination of yellow and 
 Links are given a yellow background and dark grey bottom border when they have focus. This combination ensures a good contrast.
 
 <figure class="example__content">
-<img alt="" src="/assets/images/focus-link.svg">
+<img alt="Image showing a focussed link against a number of background colours" src="/assets/images/focus-link.svg">
 <figcaption>A focussed link against a number of background colours</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ Other components that look or behave like links use the same style for consisten
 Similar to links, buttons are given a yellow background with a dark grey bottom border when they are in focus. This focus style is applied to all types of button. For example, primary, secondary, and cancel.
 
 <figure class="example__content">
-<img style="max-height: 224px" alt="" src="/assets/images/focus-buttons.png">
+<img style="max-height: 224px" alt="Image showing normal and focussed buttons" src="/assets/images/focus-buttons.png">
 <figcaption>Normal and focussed buttons</figcaption>
 </figure>
 
@@ -42,14 +42,14 @@ Similar to links, buttons are given a yellow background with a dark grey bottom 
 Focus on form fields is shown by a yellow outline and a thicker dark border.
 
 <figure class="example__content">
-<img style="max-height: 240px" alt="" src="/assets/images/focus-text.png">
+<img style="max-height: 240px" alt="Image showing normal and focussed text inputs" src="/assets/images/focus-text.png">
 <figcaption>Normal and focussed text inputs</figcaption>
 </figure>
 
 This concept is applied across all types of form field for a consistent user experience.
 
 <figure class="example__content">
-<img style="max-height: 128px" alt="" src="/assets/images/focus-radio.png">
+<img style="max-height: 128px" alt="Image showing normal and focussed radio buttons" src="/assets/images/focus-radio.png">
 <figcaption>Normal and focussed radio buttons</figcaption>
 </figure>
 
