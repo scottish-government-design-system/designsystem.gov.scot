@@ -5,7 +5,7 @@ category: styles
 parent: styles
 thispage: style.colour.colour-customisation
 summary: "Creating a customised colour scheme using our extended palette"
-permalink: "styles/colour-palette/colour-customisation"
+permalink: "/styles/colour-palette/colour-customisation/"
 ---
 
 ## The extended palette
