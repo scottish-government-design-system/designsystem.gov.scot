@@ -10,7 +10,7 @@ phase: 2
 
 ## Using colour
 
-The colour palette we use follows to the wider branding of the Scottish Government. We also use colour to help users prioritise and differentiate information. For example:
+The colour palette we use follows the wider branding of the Scottish Government. We also use colour to help users prioritise and differentiate information. For example:
 
 * yellow for our focus states
 * red as a warning colour
@@ -43,14 +43,14 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
-                <code>$colour__brand</code>
+                <code>$ds_colour__brand</code>
                 </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #002d54"></span>
-                <code>$colour__brand--secondary</code>
+                <code>$ds_colour__brand--secondary</code>
             </td>
             <td class="dss_palette__hex"><code>#002d54</code></td>
         </tr>
@@ -73,14 +73,14 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #333333"></span>
-                <code>$colour__text</code>
+                <code>$ds_colour__text</code>
                 </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #727272"></span>
-                <code>$colour__text--secondary</code>
+                <code>$ds_colour__text--secondary</code>
             </td>
             <td class="dss_palette__hex"><code>#727272</code></td>
         </tr>
@@ -103,35 +103,35 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
-                <code>$colour__link</code>
+                <code>$ds_colour__link</code>
             </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #00437e"></span>
-                <code>$colour__link--hover</code>
+                <code>$ds_colour__link--hover</code>
             </td>
             <td class="dss_palette__hex"><code>#00437e</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #d9effc"></span>
-                <code>$colour__link--hover__background</code>
+                <code>$ds_colour__link--hover__background</code>
             </td>
             <td class="dss_palette__hex"><code>#d9effc</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #333333"></span>
-                <code>$colour__link--current</code>
+                <code>$ds_colour__link--current</code>
             </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #f8f8f8"></span>
-                <code>$colour__link--current__background</code>
+                <code>$ds_colour__link--current__background</code>
             </td>
             <td class="dss_palette__hex"><code>#f8f8f8</code></td>
         </tr>
@@ -154,7 +154,7 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #333333"></span>
-                <code>$colour__link--focus</code>
+                <code>$ds_colour__link--focus</code>
             </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
@@ -162,7 +162,7 @@ Good colour contrast uses a dark colour on a light background, or a light colour
             <!-- <td class="dss_palette__swa"></td> -->
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #fdd522"></span>
-                <code>$colour__link--focus__background</code>
+                <code>$ds_colour__link--focus__background</code>
             </td>
             <td class="dss_palette__hex"><code>#fdd522</code></td>
         </tr>
@@ -186,7 +186,7 @@ Good colour contrast uses a dark colour on a light background, or a light colour
             <!-- <td class="dss_palette__swa"></td> -->
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #d32205"></span>
-                <code>$colour__state--negative</code>
+                <code>$ds_colour__state--negative</code>
             </td>
             <td class="dss_palette__hex"><code>#d32205</code></td>
         </tr>
@@ -194,7 +194,7 @@ Good colour contrast uses a dark colour on a light background, or a light colour
             <!-- <td class="dss_palette__swa"></td> -->
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #428542"></span>
-                <code>$colour__state--positive</code>
+                <code>$ds_colour__state--positive</code>
             </td>
             <td class="dss_palette__hex"><code>#428542</code></td>
         </tr>
@@ -217,28 +217,28 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #b3b3b3"></span>
-                <code>$colour__border</code>
+                <code>$ds_colour__border</code>
             </td>
             <td class="dss_palette__hex"><code>#b3b3b3</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #333333"></span>
-                <code>$colour__border--dark</code>
+                <code>$ds_colour__border--dark</code>
             </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #ebebeb"></span>
-                <code>$colour__border--light</code>
+                <code>$ds_colour__border--light</code>
             </td>
             <td class="dss_palette__hex"><code>#ebebeb</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
                 <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
-                <code>$colour__border--highlight</code>
+                <code>$ds_colour__border--highlight</code>
             </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
         </tr>

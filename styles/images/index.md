@@ -15,7 +15,7 @@ phase: 2
 When using photographs we recommend using standard aspect ratios such as 1:1, 4:3, 3:2 and 16:9
 
 <figure class="example__content">
-<img style="max-height: 300px" alt="Box shapes representing the four recommended image aspect ratios." src="/assets/images/ratios-image.png">
+<img alt="Box shapes representing the four recommended image aspect ratios." src="/assets/images/ratios-image.png">
 <figcaption>Our image aspect ratios</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ Preference for illustration over photography may occur when:
 Article templates allow images that are aligned left in the page. The recommended width for an image in article content is 750px.
 
 <figure class="example__content">
-<img style="max-height: 300px" alt="A photograph spans over eight columns on the page layout and is left aligned." src="/assets/images/article-image.png">
+<img alt="A photograph spans over eight columns on the page layout and is left aligned." src="/assets/images/article-image.png">
 <figcaption>Column positioning for images in an article page</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Article templates allow images that are aligned left in the page. The recommende
 Category headers allow images that are aligned right in the page. The recommended width for an image in article content is 358px.
 
 <figure class="example__content">
-<img style="max-height: 300px" alt="A photograph spans over four columns on the page layout and is right aligned." src="/assets/images/category-image.png">
+<img alt="A photograph spans over four columns on the page layout and is right aligned." src="/assets/images/category-image.png">
 <figcaption>Column positioning for images in an article page</figcaption>
 </figure>
 
