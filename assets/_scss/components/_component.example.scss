@@ -33,6 +33,10 @@ $example__highlight-colour: $ds_colour__link--current__background !default;
     width: 100%;
 }
 
+.example__illustration {
+    display: block;
+}
+
 .example__link {
     @include blocklink;
 
