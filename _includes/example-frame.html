@@ -22,14 +22,10 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
         {% for item in indexed %}
             {% if item.name == filename %}
                 {% if item.illustration %}
-                    <img alt="" src="/{{item.illustration}}">
+                    <img class="example__illustration" alt="" src="/{{item.illustration}}">
                 {% endif %}
             {% endif %}
         {% endfor %}
-
-        {% if indexed[0].illustration %}11111
-        <img class="example__illustration" alt="" src="/{{indexed[0].illustration}}">
-        {% endif %}
 
         {% unless include.no-demo %}
         <div class="example__demo">
