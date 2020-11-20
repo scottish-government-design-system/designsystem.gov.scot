@@ -28,7 +28,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
         {% endfor %}
 
         {% if indexed[0].illustration %}11111
-        <img alt="" src="/{{indexed[0].illustration}}">
+        <img class="example__illustration" alt="" src="/{{indexed[0].illustration}}">
         {% endif %}
 
         {% unless include.no-demo %}
