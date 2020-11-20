@@ -67,7 +67,7 @@ This helped us confirm the findings from the 2015 usability testing mentioned ab
 
 ### Performance data
 
-Domestic abuse content received increased traffic due to COVID-19 (1 April-31 June 2020). More than one in ten domestic abuse content users clicked the 'Hide this page' button in this period. Mobile users clicked the button proportionally more than desktop users.
+Domestic abuse content received increased traffic due to COVID-19 (1 April-30 June 2020). More than one in ten domestic abuse content users clicked the 'Hide this page' button in this period. Mobile users clicked the button proportionally more than desktop users.
 
 In 2017, we used a tool called 'Mouseflow' that allowed us to view sessions anonymously. We watched user sessions to find out if users clicked the button on purpose or by accident. During several sessions users moved the cursor at speed to the button. We took this behaviour to show deliberate action.
 
