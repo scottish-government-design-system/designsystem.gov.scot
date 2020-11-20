@@ -9,7 +9,7 @@ phase: 3
 ---
 Pages built using the Design System should use this template as a starting point.
 
-{% include example-frame.html name="code" no-demo=true htmlexpanded=true  %}
+{% include example-frame.html name="code" no-demo=true html-expanded=true  %}
 
 ## Page top
 

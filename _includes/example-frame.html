@@ -16,6 +16,21 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
     {% endif %}
 
     <div class="example__content">
+        {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
+        {% assign filename = 'example.' | append: include.name | append: '.md' %}
+        {% assign devnotesfilename = 'example.' | append: include.name | append: '.notes.md' %}
+        {% for item in indexed %}
+            {% if item.name == filename %}
+                {% if item.illustration %}
+                    <img alt="" src="/{{item.illustration}}">
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+        {% if indexed[0].illustration %}11111
+        <img alt="" src="/{{indexed[0].illustration}}">
+        {% endif %}
+
         {% unless include.no-demo %}
         <div class="example__demo">
             <a class="example__link" href="example.{{include.name}}.html" target="_blank">Open this example in a new window</a>
@@ -36,11 +51,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
         </div>
         {% endunless %}
 
-        {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
-
         <div class="example__accordion  ds_accordion"  data-module="ds-accordion">
-            {% assign filename = 'example.' | append: include.name | append: '.md' %}
-            {% assign devnotesfilename = 'example.' | append: include.name | append: '.notes.md' %}
             {% for item in indexed %}
                 {% if item.name == filename %}
 
@@ -51,8 +62,8 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
                 {% endif %}
 
                 {% unless include.no-code %}
-                <div class="ds_accordion-item  {% if include.htmlexpanded %}ds_accordion-item--open{% endif %}">
-                    <input type="checkbox" {% if include.htmlexpanded %}checked{% endif %} class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-1" aria-labelledby="panel-{{include.name}}-1-heading" />
+                <div class="ds_accordion-item  {% if include.html-expanded %}ds_accordion-item--open{% endif %}">
+                    <input type="checkbox" {% if include.html-expanded %}checked{% endif %} class="visually-hidden  ds_accordion-item__control" id="panel-{{include.name}}-1" aria-labelledby="panel-{{include.name}}-1-heading" />
                     <div class="ds_accordion-item__header">
                         <h3 id="panel-{{include.name}}-1-heading" class="ds_accordion-item__title">
                             Sample {{type}}

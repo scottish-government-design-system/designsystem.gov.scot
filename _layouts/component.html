@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="article {{ page.type }} layout--default">
+<body class="article {{ page.type }} layout--component">
 
 {% include skip-links.html %}
 
@@ -72,7 +72,7 @@
                         {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
                         {% for item in indexed %}
                             {% if item.type == 'example' and item.name == 'example.main.md' %}
-                                {% include example-frame.html name="main" %}
+                                {% include example-frame.html name="main" html-expanded=page.example.html-expanded no-demo=page.example.no-demo %}
                             {% endif %}
                         {% endfor %}
 

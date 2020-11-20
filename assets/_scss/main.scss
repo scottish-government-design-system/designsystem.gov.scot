@@ -58,4 +58,4 @@ $dss-prefix: 'dss_';
 
 
 // temp highlight for links with no target
-a[href=''] {color: $ds_colour__red--base; cursor: not-allowed; pointer-events: none;}
+a[href=''] {color: $ds_colour__red; cursor: not-allowed; pointer-events: none;}
