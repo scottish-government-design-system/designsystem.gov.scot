@@ -3,7 +3,7 @@ layout: example
 parent: component.hide-this-page
 type: example
 index: 0
-illustration: assets/images/examples/hide-this-page.svg
+illustration: assets/images/examples/hide-this-page.png
 ---
 
 <div class="ds_hide-page">
