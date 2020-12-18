@@ -14,7 +14,7 @@ The back to top link works on desktop and on mobile content items. It appears wh
 We designed our back to top component so that:
 
 * it appears when the user scrolls past the fold on desktop and when the user begins to scroll on mobile
-* it overlays on the lower right side of the screen until the user hits the bottom of the page, where it is then positioned between the content and the footer
+* it is fixed in the lower-right of the browser window
 * the link text back to top says what the component does in plain English
 * the background of the link is semi-transparent, so that it does not completely cover content beneath
 * the link is small so it does not cover important content on the page but large enough that the touch area can be easily tapped on mobile
@@ -40,19 +40,19 @@ The back to top link appears and behaves the same on mobile as it does on deskto
 
 ## Evidence
 
-We use this component on [gov.scot](https://www.gov.scot), [mygov.scot](https://www.mygov.scot) and [designsystem.gov.scot](https://designsystem.gov.scot).
+We use this component on [designsystem.gov.scot](https://designsystem.gov.scot).
 
-A back to top link is a common function used on most websites.
+A back to top link is a common function used on many websites.
 
-We updated our component to include the text 'back to top', so that users better understand what the component does.  The previous design used an arrow icon (pointing up). Some users found this ambiguous.
+The Design System’s "back to top" component includes the text "back to top" so that it is clear to users what the component does.
 
 ### Performance data
 
 On mygov.scot users mostly click the back to top link on mobile devices (92% of clicks). It is more often clicked on longer pages with an average read time of 2 minutes 22 seconds (compared to the site average of 1 minute 36 seconds).
 
-###Best practice
+### Best practice
 
-We referred to the best practice guidance for back to top links from the [Nielsen Norman Group](https://www.nngroup.com/articles/back-to-top/).
+We referred to the best practice guidance for back to top links from the [Nielsen Norman Group](https://www.nngroup.com/articles/back-to-top/) when developing this component.
 
 ## Website analytics
 
@@ -62,7 +62,6 @@ You can track back to top link clicks through the original page path and the dat
 
 We designed the back to top component to be accessible to all types of users. It uses the interactive states and focus states described on our [accessibility page](/accessibility/) and our [focus states page](/styles/states/).
 The back to top link is focusable and users can trigger it with the enter key. It will redirect users back to the top within the same page.
-VoiceOver's rotator will collect it in the ‘Links’ window.
 
 ## Live Examples
 * [Becoming a child’s guardian](https://www.mygov.scot/child-guardian/) page on mygov.scot
