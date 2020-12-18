@@ -64,5 +64,4 @@ We designed the back to top component to be accessible to all types of users. It
 The back to top link is focusable and users can trigger it with the enter key. It will redirect users back to the top within the same page.
 
 ## Live Examples
-* [Becoming a child’s guardian](https://www.mygov.scot/child-guardian/) page on mygov.scot
 * our [Accordion component page](/components/accordion) on design system
