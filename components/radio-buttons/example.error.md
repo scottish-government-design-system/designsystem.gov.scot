@@ -8,7 +8,7 @@ type: example
         <fieldset aria-invalid="true">
             <legend>Did this resolve your issue?</legend>
             <p class="ds_hint-text">Hint text</p>
-            <p class="ds_question__message">This field is required</p>
+            <p class="ds_question__error-message">This field is required</p>
 
             <div class="ds_field-group">
                 <div class="ds_radio">

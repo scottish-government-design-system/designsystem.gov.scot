@@ -8,7 +8,7 @@ type: example
         <fieldset>
             <legend>What topics are you interested in?</legend>
             <p class="ds_hint-text">Select an option</p>
-            <p class="ds_question__message">This field is required</p>
+            <p class="ds_question__error-message">This field is required</p>
 
             <div class="ds_field-group">
                 <div class="ds_checkbox">

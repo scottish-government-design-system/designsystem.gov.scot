@@ -5,20 +5,22 @@
 .#{$pl-prefix}layout {
     &--pl-component {
         > .#{$pl-prefix}layout {
-            &__header {
-                float: left;
-                @include colwidth(8);
-            }
+            @include media-query(medium) {
+                &__header {
+                    float: left;
+                    @include colwidth(8);
+                }
 
-            &__content {
-                float: left;
-                @include colwidth(7);
-            }
+                &__content {
+                    float: left;
+                    @include colwidth(7);
+                }
 
-            &__sidebar {
-                clear: left;
-                float: left;
-                @include colwidth(3);
+                &__sidebar {
+                    clear: left;
+                    float: left;
+                    @include colwidth(3);
+                }
             }
         }
     }
