@@ -25,6 +25,8 @@ let config = {
 };
 
 let spriter = new SVGSpriter(config);
+// todo: make this less janky
+spriter.add(path.resolve('assets/images/icons/play_circle-24px.svg'), null, fs.readFileSync(path.resolve('assets/images/icons/play_circle-24px.svg'), { encoding: 'utf-8' }));
 
 // Register some SVG files with the spriter
 let cwd = path.resolve('node_modules/@scottish-government/pattern-library/src/images/icons/svg/');
