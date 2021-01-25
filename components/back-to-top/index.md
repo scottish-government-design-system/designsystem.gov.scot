@@ -47,6 +47,3 @@ We designed the back to top component to be accessible to all types of users. It
 The back to top link is focusable and users can trigger it with the enter key. It will redirect users back to the top within the same page.
 
 The Back To Top component should be placed after the article content but above the footer.
-
-## Live Examples
-* our [Accordion component page](/components/accordion) on design system
