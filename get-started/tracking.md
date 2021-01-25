@@ -12,9 +12,13 @@ index: 999
 sorttype: 'index'
 ---
 
-The Design System has a script that adds data attributes to components that are used in performance and analytics tracking. The script automates the addition of data attributes but leaves some control over them to the developer.
+The Design System has a script that add 'data attributes' to components. Analytics software can use these data attributes to track user behaviour and measure performance. The script adds data attributes automatically, but developers still have some control over them.
 
-Tracking will make a sensible choice for attribute values, for example a button gets a "data-button" attribute whose value is based on the button text.
+Calling the function `tracking.init()` adds data attributes to all Design System components.
+
+The script logic picks:
+* the attribute name from a set of broad categories
+* the attribute value, derived from the context the component is used in
 
 {% highlight html %}
 <button class="ds_button">
@@ -22,7 +26,7 @@ Tracking will make a sensible choice for attribute values, for example a button 
 </button>
 {% endhighlight %}
 
-After calling `tracking.init()` that button will have a "data-button" attribute containing the text of the button:
+The script gives that button a data-button attribute with a value using 'start-here':
 
 {% highlight html %}
 <button class="ds_button" data-button="button-start-here">
@@ -30,13 +34,16 @@ After calling `tracking.init()` that button will have a "data-button" attribute 
 </button>
 {% endhighlight %}
 
-Use of Tracking can be as simple as just calling `tracking.init()` after the DOM is loaded but there are cases where some additional control might be desired, described below.
+The simplest use of the script is to call `tracking.init()` after the DOM is loaded. In some cases, you might want to have more control over:
+* the values used
+* what gets data attributes added
 
-## Custom attribute values
 
-Whenever Tracking is asked to add a data attribute to an item, it checks whether one has already been set first. This allows developers to set specific tracking data attributes in the components' markup if they do not want to use the defaults that are set by Tracking.
+## Custom data attribute values
 
-Continuing to use buttons to illustrate this, if you had a button whose text was long you might want to shorten that attribute value. Specifying the "data-button" attribute in your markup before calling `tracking.init()` will prevent Tracking from modifying that value.
+The developer can set the data attribute manually in the component's markup. The script will only add a data attribute if one is not already there.
+
+For example, if you had a button with a very long text, you might want to shorten that attribute value. If you specify the 'data-button' attribute in your markup before calling `tracking.init()`, the script will not change that value.
 
 {% highlight html %}
 <button class="ds_button" data-button="button-start-here">
@@ -44,9 +51,10 @@ Continuing to use buttons to illustrate this, if you had a button whose text was
 </button>
 {% endhighlight %}
 
-## Adding tracking to new elements
 
-Data attributes will not automatically be added to any new elements added to the DOM after `tracking.init()` has been called. In most cases it will be safe to simply call `tracking.init()` again, but it is also possible to restrict the addition of tracking attributes through the use of an optional "scope" parameter. 
+## Add data attributes to new components added to the page
+
+If new components are added to the DOM after calling `tracking.init()`, they will not automatically have these data attributes. In most cases, it will be safe to call `tracking.init()` again. But, it is also possible to restrict the addition of data attributes to a particular DOM node by using an optional 'scope' parameter.
 
 {% highlight js %}
 const myContainer = document.getElementById('my-container');
@@ -56,28 +64,28 @@ const myContainer = document.getElementById('my-container');
 tracking.init(myContainer);
 {% endhighlight %}
 
-## Adding tracking attributes to specific components
+## Add data attributes to specific component types
 
-You can add tracking attributes to specific component types instead of adding them to everything.
+You can add data attributes to specific component types instead of adding them to everything.
+
+In general this is less useful than restricting the addition of data attributes to a particular DOM node, but it is available if you need it.
 
 {% highlight js %}
 tracking.add.tabs()
 {% endhighlight %}
 
-This also supports the inclusion of a "scope" parameter. If one is not provided it is applied to the whole page (the document element).
+This also supports the use of a 'scope' parameter. Without a scope parameter, the script will apply to the whole page (the document element).
 
 {% highlight js %}
 tracking.add.tabs(document.getElementById('my-new-tabs-container'));
 {% endhighlight %}
 
-In general this is less useful than restricting addition of attributes to a particular DOM node, but it is available if you need it.
 
-
-## What does Tracking add, specifically?
+## How tracking handles different components
 
 ### Button
 
-Buttons are given a "data-button" attribute whose value uses the pattern `button-[slug of the button text]`.
+Buttons get a 'data-button' attribute whose value uses the pattern `button-[slug of the button text]`.
 
 {% highlight html %}
 <button class="ds_button" data-button="button-start-here">
@@ -87,7 +95,7 @@ Buttons are given a "data-button" attribute whose value uses the pattern `button
 
 ### Checkbox
 
-Checkboxes are given a "data-form" attribute whose value uses the pattern `checkbox-[checkbox ID]`.
+Checkboxes get a 'data-form' attribute whose value uses the pattern `checkbox-[checkbox ID]`.
 
 {% highlight html %}
 <input class="ds_checkbox__input" id="education" type="checkbox" data-form="checkbox-education">
@@ -95,7 +103,7 @@ Checkboxes are given a "data-form" attribute whose value uses the pattern `check
 
 ### Radio buttons
 
-Radio buttons are given a "data-form" attribute whose value uses the pattern `radio-[radio group name]-[radio ID]`.
+Radio buttons get a 'data-form' attribute whose value uses the pattern `radio-[radio group name]-[radio ID]`.
 
 {% highlight html %}
 <input class="ds_radio__input" id="useful-yes" name="feedback-type" type="radio" value="yes" data-form="radio-feedback-type-useful-yes">
@@ -103,9 +111,9 @@ Radio buttons are given a "data-form" attribute whose value uses the pattern `ra
 
 ### Select (dropdown)
 
-Select elements are given a "data-form" attribute whose value uses the pattern `select-[select ID]`.
+Select elements get a 'data-form' attribute whose value uses the pattern `select-[select ID]`.
 
-Option elements inside selects are given a "data-form" attribute whose value uses the pattern `select-[select ID]-[slug of the option's value OR slug of the option's text]`.
+Option elements inside selects get a 'data-form' attribute whose value uses the pattern `select-[select ID]-[slug of the option's value OR slug of the option's text]`.
 
 {% highlight html %}
 <select class="ds_select" id="mushroom" data-form="select-mushroom">
@@ -118,9 +126,9 @@ Option elements inside selects are given a "data-form" attribute whose value use
 
 ### Text inputs
 
-Text inputs are given a "data-form" attribute whose value uses the pattern `[input type]input-[input ID]`.
+Text inputs get a 'data-form' attribute whose value uses the pattern `[input type]input-[input ID]`.
 
-Note the use of the input **type** in the pattern. This enables different types of input to be differentiated.
+Note the use of the input elements’s type in the pattern. With this, different types if input can be identified.
 
 {% highlight html %}
 <input class="ds_input" type="text" id="first-name" data-form="textinput-first-name">
@@ -130,7 +138,7 @@ Note the use of the input **type** in the pattern. This enables different types 
 
 ### Textareas
 
-Textareas are given a "data-form" attribute whose value uses the pattern `textarea-[textarea ID]`.
+Textareas get a 'data-form' attribute whose value uses the pattern `textarea-[textarea ID]`.
 
 {% highlight html %}
 <textarea class="ds_input" rows="3" id="description" data-form="textarea-description"></textarea>
@@ -138,7 +146,7 @@ Textareas are given a "data-form" attribute whose value uses the pattern `textar
 
 ### Breadcrumbs
 
-Breadcrumb links are given a "data-navigation" attribute whose value uses the pattern `breadcrumb-[index]` where the index is one-based.
+Breadcrumb links get a 'data-navigation' attribute whose value uses the pattern `breadcrumb-[index]` where the index is one-based.
 
 {% highlight html %}
 <a class="ds_breadcrumbs__link" href="#" data-navigation="breadcrumb-1">Home</a>
@@ -146,7 +154,7 @@ Breadcrumb links are given a "data-navigation" attribute whose value uses the pa
 
 ### Category lists
 
-Category list links are given a "data-navigation" attribute whose value uses the pattern `category-item-[index]` where the index is one-based.
+Category list links get a 'data-navigation' attribute whose value uses the pattern `category-item-[index]` where the index is one-based.
 
 {% highlight html %}
 <a href="#" class="ds_category-item__link" data-navigation="category-item-3">Farming and rural issues</a>
@@ -154,13 +162,13 @@ Category list links are given a "data-navigation" attribute whose value uses the
 
 ### Contact details
 
-Social media links inside contact detail components are given a "data-navigation" attribute whose value uses the pattern `contact-details-[slug of the social media name]`.
+Social media links inside contact detail components get a 'data-navigation' attribute whose value uses the pattern `contact-details-[slug of the social media name]`.
 
 {% highlight html %}
 <a class="ds_contact-details__social-link" href="#" data-navigation="contact-details-facebook">Facebook</a>
 {% endhighlight %}
 
-Email links inside contact detail components are given a "data-navigation" attribute whose value is `contact-details-email`.
+Email links inside contact detail components get a 'data-navigation' attribute whose value is `contact-details-email`.
 
 {% highlight html %}
 <a href="mailto:designsystem@gov.scot" data-navigation="contact-details-email">designsystem@gov.scot</a>
@@ -168,9 +176,9 @@ Email links inside contact detail components are given a "data-navigation" attri
 
 ### Error messages
 
-Error messages are given a "data-form" attribute whose value uses the pattern `error-[ID of the field that has the error]`.
+Error messages get a 'data-form' attribute whose value uses the pattern `error-[ID of the field that has the error]`.
 
-In the case of a radio button group,  the attribute uses the pattern `error-[name of the radio group]`.
+In the case of a radio button group, the attribute uses the pattern `error-[name of the radio group]`.
 
 {% highlight html %}
 <p class="ds_question__error-message" data-form="error-more-detail">This field is required</p>
@@ -178,7 +186,7 @@ In the case of a radio button group,  the attribute uses the pattern `error-[nam
 
 ### Error summaries
 
-Links in error summaries are given a "data-form" attribute whose value uses the pattern `error-[ID of the field that has the error]`.
+Links in error summaries get a 'data-form' attribute whose value uses the pattern `error-[ID of the field that has the error]`.
 
 {% highlight html %}
 <a href="#resolve" data-form="error-resolve">Did this resolve your issue?</a>
@@ -186,13 +194,13 @@ Links in error summaries are given a "data-form" attribute whose value uses the 
 
 ### Notification banners
 
-Links in notification banners are given a "data-banner" attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the ID of the banner or the one-based index of the banner if it does not have an ID.
+Links in notification banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the ID of the banner or the one-based index of the banner if it does not have an ID.
 
 {% highlight html %}
 <a href="#" data-banner="banner-covid-link">latest COVID guidance</a>
 {% endhighlight %}
 
-Close buttons in notification banners are given a "data-banner" attribute whose value uses the pattern `banner-[banner name]-close`. "bannername" is either the ID of the banner or the one-based index of the banner if it does not have an ID.
+Close buttons in notification banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-close`. "bannername" is either the ID of the banner or the one-based index of the banner if it does not have an ID.
 
 {% highlight html %}
 <button class="ds_notification__close  js-close-notification" type="button" data-banner="banner-covid-close">Close this notification</button>
@@ -200,13 +208,15 @@ Close buttons in notification banners are given a "data-banner" attribute whose 
 
 ### Pagination
 
-Pagination links are given a "data-search" attribute whose value uses the pattern `pagination-[slug of the link text]`.
+Pagination links get a 'data-search' attribute whose value uses the pattern `pagination-[slug of the link text]`.
 
 {% highlight html %}
 <a href="#" class="ds_pagination__link" data-search="pagination-11">11</a>
+
+<a href="#" class="ds_pagination__link" data-search="pagination-prev">Prev</a>
 {% endhighlight %}
 
-"Load more" links in pagination components are given a "data-search" attribute of `pagination-more`.
+"Load more" links in pagination components get a 'data-search' attribute of `pagination-more`.
 
 {% highlight html %}
 <button class="ds_button" data-search="pagination-more">Load more</button>
@@ -214,7 +224,7 @@ Pagination links are given a "data-search" attribute whose value uses the patter
 
 ### Phase banners
 
-Links in phase banners are given a "data-banner" attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the slug of the phase banner's "tag" or simply "phase" if the banner does not have a tag.
+Links in phase banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the slug of the phase banner's "tag" or simply "phase" if the banner does not have a tag.
 
 {% highlight html %}
 <a href="mailto:designsystem@gov.scot" data-banner="banner-beta-link">feedback</a>
@@ -222,11 +232,11 @@ Links in phase banners are given a "data-banner" attribute whose value uses the 
 
 ### Search results
 
-Links in search results are given a "data-search" attribute whose value uses the pattern `search-result-[index]/[total]` where the index is one-based and takes the "start" current page of results into consideration, e.g. if there are ten results per page and the user is on page three, index ought to start at 21.
+Links in search results get a 'data-search' attribute whose value uses the pattern `search-result-[index]/[total]` where the index is one-based. The index takes the current page of results into consideration. For example, if there are 10 results per page and the user is on page 3, index ought to start at 21.
 
-The start point of the list should be obtained from a "start" attribute can be set on the list element.
+The start point of the list should be obtained from a 'start' attribute that can be set on the list element.
 
-The value of "total" is obtained from a "data-total" attribute on the list element.
+The value of ‘total’ is obtained from a 'data-total' attribute on the list element.
 
 {% highlight html %}
 <a class="ds_search-result__link" href="#" data-search="search-result-1/68">Crofting community right to buy</a>
@@ -242,7 +252,7 @@ If the total not available, that part of the attribute is omitted.
 
 Search suggestions is a block found in the "Search results" pattern.
 
-Links in search suggestions are given a "data-search" attribute whose value uses the pattern `suggestion-result-[index]/[total]` where the index is one-based.
+Links in search suggestions get a 'data-search' attribute whose value uses the pattern `suggestion-result-[index]/[total]` where the index is one-based.
 
 {% highlight html %}
 <a aria-label="Did you mean 'crafting'?" href="#" data-search="suggestion-result-1/2">crafting</a>
@@ -250,7 +260,7 @@ Links in search suggestions are given a "data-search" attribute whose value uses
 
 ### Sequential navigation
 
-The "previous page" link in sequential navigation is given a "data-navigation" attribute whose value uses the pattern is `sequential-previous`.
+The "previous page" link in sequential navigation is given a 'data-navigation' attribute whose value is `sequential-previous`.
 
 {% highlight html %}
 <a title="Previous section" href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--left" data-navigation="sequential-previous">
@@ -260,7 +270,7 @@ The "previous page" link in sequential navigation is given a "data-navigation" a
 </a>
 {% endhighlight %}
 
-The "next page" link in sequential navigation is given a "data-navigation" attribute whose value uses the pattern is `sequential-next`.
+The "next page" link in sequential navigation is given a 'data-navigation' attribute whose value is `sequential-next`.
 
 {% highlight html %}
 <a title="Next section" href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--right" data-navigation="sequential-next">
@@ -272,7 +282,7 @@ The "next page" link in sequential navigation is given a "data-navigation" attri
 
 ### Side navigation
 
-Links in side navigation are given a "data-navigation" attribute whose value uses the pattern `sidenav-[index]` where the index is one-based.
+Links in side navigation get a 'data-navigation' attribute whose value uses the pattern `sidenav-[index]` where the index is one-based.
 
 {% highlight html %}
 <a href="#" class="ds_side-navigation__link" data-navigation="sidenav-1">Apples</a>
@@ -288,9 +298,9 @@ When there are nested pages in a side navigation, the subpages' indexes are appe
 
 Site branding is a block found in the "Site header" pattern.
 
-The site branding logo link is given a "data-header" attribute whose value is `header-logo`.
+The site branding logo link is given a 'data-header' attribute whose value is `header-logo`.
 
-The site branding title link is given a "data-header" attribute whose value is `header-title`.
+The site branding title link is given a 'data-header' attribute whose value is `header-title`.
 
 {% highlight html %}
 <div class="ds_site-branding">
@@ -306,7 +316,7 @@ The site branding title link is given a "data-header" attribute whose value is `
 
 ### Site footer
 
-Site item links in site footers are given a "data-footer" attribute whose value uses the pattern `footer-link-[index]` where the index is one-based.
+Site item links in site footers get a 'data-footer' attribute whose value uses the pattern `footer-link-[index]` where the index is one-based.
 
 {% highlight html %}
 <a href="/cookies/" data-footer="footer-link-2">Cookies</a>
@@ -314,23 +324,23 @@ Site item links in site footers are given a "data-footer" attribute whose value 
 
 Copyright and logo links are treated differently.
 
-Copyright links are given a "data-footer" attribute whose value is `footer-copyright`.
+Copyright links get a 'data-footer' attribute whose value is `footer-copyright`.
 
-Logo links are are given a "data-footer" attribute whose value is `footer-logo`.
+Logo links are get a 'data-footer' attribute whose value is `footer-logo`.
 
 ### Site navigation
 
-Links in site navigation components are given a "data-header" attribute whose value uses the pattern `header-link-[index]` where the index is one-based. They are also given a "data-device" attribute whose value is either `mobile` or `desktop`.
+Links in site navigation components get a 'data-header' attribute whose value uses the pattern `header-link-[index]` where the index is one-based. They are also given a 'data-device' attribute whose value is either `mobile` or `desktop`.
 
 {% highlight html %}
 <a href="/patterns/" class="ds_site-navigation__link" data-device="desktop" data-header="header-link-4">Patterns</a>
 {% endhighlight %}
 
-The mobile navigation's toggle button is given a "data-header" attribute of `header-menu-toggle`.
+The mobile navigation's toggle button is given a 'data-header' attribute of `header-menu-toggle`.
 
 ### Tabs
 
-Tabs are given a "data-navigation" attribute whose value uses the pattern `tab-[index]` where the index is one-based.
+Tabs get a 'data-navigation' attribute whose value uses the pattern `tab-[index]` where the index is one-based.
 
 {% highlight html %}
 <button class="ds_tab__label" role="tab" data-navigation="tab-2" aria-controls="tab2-content" id="tab2-label" data-for="tab2-content" aria-selected="false" tabindex="-1">Choosing apprenticeships <span class="visually-hidden">(item 2 of 3)</span></button>
