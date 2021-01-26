@@ -83,66 +83,132 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
 
 ## How tracking handles different components
 
-### Button
+<nav role="navigation" class="ds_contents-nav" aria-label="Sections">
+    <h2 class="ds_contents-nav__title">Components</h2>
 
-Buttons get a 'data-button' attribute whose value uses the pattern `button-[slug of the button text]`.
-
-{% highlight html %}
-<button class="ds_button" data-button="button-start-here">
-    Start here
-</button>
-{% endhighlight %}
-
-### Checkbox
-
-Checkboxes get a 'data-form' attribute whose value uses the pattern `checkbox-[checkbox ID]`.
-
-{% highlight html %}
-<input class="ds_checkbox__input" id="education" type="checkbox" data-form="checkbox-education">
-{% endhighlight %}
-
-### Radio buttons
-
-Radio buttons get a 'data-form' attribute whose value uses the pattern `radio-[radio group name]-[radio ID]`.
-
-{% highlight html %}
-<input class="ds_radio__input" id="useful-yes" name="feedback-type" type="radio" value="yes" data-form="radio-feedback-type-useful-yes">
-{% endhighlight %}
-
-### Select (dropdown)
-
-Select elements get a 'data-form' attribute whose value uses the pattern `select-[select ID]`.
-
-Option elements inside selects get a 'data-form' attribute whose value uses the pattern `select-[select ID]-[slug of the option's value OR slug of the option's text]`.
-
-{% highlight html %}
-<select class="ds_select" id="mushroom" data-form="select-mushroom">
-    <option data-form="select-mushroom-null"></option>
-    <option data-form="select-mushroom-amanita">Amanita</option>
-    <option data-form="select-mushroom-boletus">Boletus</option>
-    <option data-form="select-mushroom-coprinopsis">Coprinopsis</option>
-</select>
-{% endhighlight %}
-
-### Text inputs
-
-Text inputs get a 'data-form' attribute whose value uses the pattern `[input type]input-[input ID]`.
-
-Note the use of the input elements’s type in the pattern. With this, different types if input can be identified.
-
-{% highlight html %}
-<input class="ds_input" type="text" id="first-name" data-form="textinput-first-name">
-
-<input class="ds_input" type="number" id="age" data-form="numberinput-age">
-{% endhighlight %}
-
-### Textareas
-
-Textareas get a 'data-form' attribute whose value uses the pattern `textarea-[textarea ID]`.
-
-{% highlight html %}
-<textarea class="ds_input" rows="3" id="description" data-form="textarea-description"></textarea>
-{% endhighlight %}
+    <ul class="ds_contents-nav__list">
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#breadcrumbs">
+                Breadcrumbs
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a href="#buttons" class="ds_contents-nav__link">
+                Buttons
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#category-lists">
+                Category lists
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#checkboxes">
+                Checkboxes
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#contact-details">
+                Contact details
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#error-messages">
+                Error messages
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#error-summaries">
+                Error summaries
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#Inset-text">
+                Inset text
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#notification-banners">
+                Notification banners
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#pagination">
+                Pagination
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#phase-banners">
+                Phase banners
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#radio-buttons">
+                Radio buttons
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#search-results">
+                Search results
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#search-suggestions">
+                Search suggestions
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#selects-dropdowns">
+                Selects (dropdowns)
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#sequential-navigation">
+                Sequential navigation
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#side-navigation">
+                Side navigation
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#site-branding">
+                Site branding
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#site-footer">
+                Site footer
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#site-navigation">
+                Site navigation
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#tabs">
+                Tabs
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#text-inputs">
+                Text inputs
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#textareas">
+                Textareas
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#warning-text">
+                Warning text
+            </a>
+        </li>
+    </ul>
+</nav>
 
 ### Breadcrumbs
 
@@ -152,12 +218,30 @@ Breadcrumb links get a 'data-navigation' attribute whose value uses the pattern 
 <a class="ds_breadcrumbs__link" href="#" data-navigation="breadcrumb-1">Home</a>
 {% endhighlight %}
 
+### Buttons
+
+Buttons get a 'data-button' attribute whose value uses the pattern `button-[slug of the button text]`.
+
+{% highlight html %}
+<button class="ds_button" data-button="button-start-here">
+    Start here
+</button>
+{% endhighlight %}
+
 ### Category lists
 
 Category list links get a 'data-navigation' attribute whose value uses the pattern `category-item-[index]` where the index is one-based.
 
 {% highlight html %}
 <a href="#" class="ds_category-item__link" data-navigation="category-item-3">Farming and rural issues</a>
+{% endhighlight %}
+
+### Checkboxes
+
+Checkboxes get a 'data-form' attribute whose value uses the pattern `checkbox-[checkbox ID]`.
+
+{% highlight html %}
+<input class="ds_checkbox__input" id="education" type="checkbox" data-form="checkbox-education">
 {% endhighlight %}
 
 ### Contact details
@@ -190,6 +274,18 @@ Links in error summaries get a 'data-form' attribute whose value uses the patter
 
 {% highlight html %}
 <a href="#resolve" data-form="error-resolve">Did this resolve your issue?</a>
+{% endhighlight %}
+
+### Inset text
+
+Links in inset text components get a 'data-navigation' attribute of `inset-link`.
+
+{% highlight html %}
+<div class="ds_inset-text">
+    <div class="ds_inset-text__text">
+        You may be able to <a data-navigation="inset-link" href="#">apply for free school meals</a> at the same time as you apply for the clothing grant.
+    </div>
+</div>
 {% endhighlight %}
 
 ### Notification banners
@@ -230,6 +326,14 @@ Links in phase banners get a 'data-banner' attribute whose value uses the patter
 <a href="mailto:designsystem@gov.scot" data-banner="banner-beta-link">feedback</a>
 {% endhighlight %}
 
+### Radio buttons
+
+Radio buttons get a 'data-form' attribute whose value uses the pattern `radio-[radio group name]-[radio ID]`.
+
+{% highlight html %}
+<input class="ds_radio__input" id="useful-yes" name="feedback-type" type="radio" value="yes" data-form="radio-feedback-type-useful-yes">
+{% endhighlight %}
+
 ### Search results
 
 Links in search results get a 'data-search' attribute whose value uses the pattern `search-result-[index]/[total]` where the index is one-based. The index takes the current page of results into consideration. For example, if there are 10 results per page and the user is on page 3, index ought to start at 21.
@@ -256,6 +360,21 @@ Links in search suggestions get a 'data-search' attribute whose value uses the p
 
 {% highlight html %}
 <a aria-label="Did you mean 'crafting'?" href="#" data-search="suggestion-result-1/2">crafting</a>
+{% endhighlight %}
+
+### Selects (dropdowns)
+
+Select elements get a 'data-form' attribute whose value uses the pattern `select-[select ID]`.
+
+Option elements inside selects get a 'data-form' attribute whose value uses the pattern `select-[select ID]-[slug of the option's value OR slug of the option's text]`.
+
+{% highlight html %}
+<select class="ds_select js-has-tracking-event" id="component" data-form="select-component">
+    <option data-form="select-component-null"></option>
+    <option data-form="select-component-accordion">Accordion</option>
+    <option data-form="select-component-breadcrumbs">Breadcrumbs</option>
+    <option data-form="select-component-button">Button</option>
+</select>
 {% endhighlight %}
 
 ### Sequential navigation
@@ -344,4 +463,46 @@ Tabs get a 'data-navigation' attribute whose value uses the pattern `tab-[index]
 
 {% highlight html %}
 <button class="ds_tab__label" role="tab" data-navigation="tab-2" aria-controls="tab2-content" id="tab2-label" data-for="tab2-content" aria-selected="false" tabindex="-1">Choosing apprenticeships <span class="visually-hidden">(item 2 of 3)</span></button>
+{% endhighlight %}
+
+### Text inputs
+
+<div class="ds_warning-text">
+<strong class="ds_warning-text__icon" aria-hidden="true">!</strong>
+<strong class="visually-hidden">Warning</strong><div class="ds_warning-text__text">Content of text inputs would not be routinely tracked through website analytics due to the risk of gathering personally identifiable information.</div>
+</div>
+
+Text inputs get a 'data-form' attribute whose value uses the pattern `[input type]input-[input ID]`.
+
+Note the use of the input elements’s type in the pattern. With this, different types if input can be identified.
+
+{% highlight html %}
+<input class="ds_input" type="text" id="first-name" data-form="textinput-first-name">
+
+<input class="ds_input" type="number" id="age" data-form="numberinput-age">
+{% endhighlight %}
+
+### Textareas
+
+<div class="ds_warning-text">
+<strong class="ds_warning-text__icon" aria-hidden="true">!</strong>
+<strong class="visually-hidden">Warning</strong><div class="ds_warning-text__text">Content of textareas would not be routinely tracked through website analytics due to the risk of gathering personally identifiable information.</div>
+</div>
+
+Textareas get a 'data-form' attribute whose value uses the pattern `textarea-[textarea ID]`.
+
+{% highlight html %}
+<textarea class="ds_input" rows="3" id="description" data-form="textarea-description"></textarea>
+{% endhighlight %}
+
+### Warning text
+
+Links in warning text components get a 'data-navigation' attribute of `warning-link`.
+
+{% highlight html %}
+<div class="ds_warning-text">
+    <strong class="ds_warning-text__icon" aria-hidden="true">!</strong>
+    <strong class="visually-hidden">Warning</strong>
+    <div class="ds_warning-text__text">Stay safe by following the <a data-navigation="warning-link" href="#">advice of the emergency services</a> during a flood.</div>
+</div>
 {% endhighlight %}

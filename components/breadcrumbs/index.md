@@ -26,10 +26,6 @@ You might not need a breadcrumbs component if the website has a top level naviga
 
 You should omit the breadcrumbs component from parts of a website where a user needs to go through pages in a certain order. This includes things like online forms and multi-page calculators.
 
-## Other versions of this component
-
-If the page titles in the breadcrumbs are very long or if the structure repeats page titles, the current page doesn’t always need to be displayed. If this is the case, the current page title should still be available to screen readers.
-
 ## Why we use this component
 
 Breadcrumbs are online best practice for supporting user navigation.
@@ -40,7 +36,9 @@ There is evidence from mygov.scot that users interact with the breadcrumbs more 
 
 ## Variants
 
-Where there may be issues with repetition or page titles are too long, a version of breadcrumbs which do not include the current page can be used. In these cases keep the current page available to screen readers through the use of the <code>visually-hidden</code> helper class.
+Where there may be issues with repetition or page titles are too long, a version of breadcrumbs which do not include the current page can be used. In these cases keep the current page available to screen readers through the use of the <code>visually-hidden</code> CSS class.
+
+{% include example-frame.html name="no-current" %}
 
 ## Website analytics / performance 
 

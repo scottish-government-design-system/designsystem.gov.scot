@@ -16,6 +16,8 @@ The date picker is a component that helps users to complete date input fields. T
 
 The date picker can be set with limits on the dates that users can select. 
 
+{% include example-frame.html name="date-limit" %}
+
 ## Why we use this component
 
 Date pickers are a common component that helps users select and enter a date.

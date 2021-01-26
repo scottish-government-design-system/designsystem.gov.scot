@@ -12,7 +12,7 @@ index: 0
         <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
         <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
-            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" value="crofting" placeholder="Search" autocomplete="off">
+            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" value="crifting" placeholder="Search" autocomplete="off">
 
             <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
                 <span class="visually-hidden">Search</span>
