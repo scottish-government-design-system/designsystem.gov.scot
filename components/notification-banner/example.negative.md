@@ -15,10 +15,10 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
                 <span class="ds_notification__icon" aria-hidden="true">
                     <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#bang-21"></use></svg>
                 </span>
-                <p class="ds_notification__text"><strong>Something bad has <a data-banner="banner-BANNERNAME-link" href="#">happened</a></strong></p>
+                <p class="ds_notification__text"><strong>Something bad has <a href="#">happened</a></strong></p>
             </div>
 
-            <button data-banner="banner-BANNERNAME-close" class="ds_notification__close  js-close-notification" type="button">
+            <button class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
                 <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>

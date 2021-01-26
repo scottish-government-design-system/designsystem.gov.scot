@@ -10,18 +10,18 @@ type: example
 
         <div class="ds_field-group">
             <div class="ds_radio">
-                <input class="ds_radio__input" id="stacked-1" name="group-name" type="radio" value="yes" data-form="radio-feedback-yes">
-                <label class="ds_radio__label" for="stacked-1">Yes</label>
+                <input class="ds_radio__input" id="useful-yes" name="feedback-type" type="radio" value="yes">
+                <label class="ds_radio__label" for="useful-yes">Yes</label>
             </div>
 
             <div class="ds_radio">
-                <input class="ds_radio__input" id="stacked-2" name="group-name" type="radio" value="no" data-form="radio-feedback-no">
-                <label class="ds_radio__label" for="stacked-2">No</label>
+                <input class="ds_radio__input" id="useful-no" name="feedback-type" type="radio" value="no">
+                <label class="ds_radio__label" for="useful-no">No</label>
             </div>
 
             <div class="ds_radio">
-                <input class="ds_radio__input" id="stacked-3" name="group-name" type="radio" value="maybe" data-form="radio-feedback-maybe">
-                <label class="ds_radio__label" for="stacked-3">Maybe</label>
+                <input class="ds_radio__input" id="useful-maybe" name="feedback-type" type="radio" value="maybe">
+                <label class="ds_radio__label" for="useful-maybe">Maybe</label>
             </div>
         </div>
     </fieldset>

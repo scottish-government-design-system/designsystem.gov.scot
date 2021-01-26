@@ -10,17 +10,17 @@ type: example
 
         <div class="ds_field-group">
             <div class="ds_checkbox  ds_checkbox--small">
-                <input class="ds_checkbox__input" id="education" name="group-name" type="checkbox" data-form="checkbox-education">
+                <input class="ds_checkbox__input" id="education" type="checkbox">
                 <label class="ds_checkbox__label" for="education">Education</label>
             </div>
 
             <div class="ds_checkbox  ds_checkbox--small">
-                <input class="ds_checkbox__input" id="housing" name="group-name" type="checkbox" data-form="checkbox-housing">
+                <input class="ds_checkbox__input" id="housing" type="checkbox">
                 <label class="ds_checkbox__label" for="housing">Housing</label>
             </div>
 
             <div class="ds_checkbox  ds_checkbox--small">
-                <input class="ds_checkbox__input" id="transport" name="group-name" type="checkbox" data-form="checkbox-transport">
+                <input class="ds_checkbox__input" id="transport" type="checkbox">
                 <label class="ds_checkbox__label" for="transport">Transport</label>
             </div>
         </div>

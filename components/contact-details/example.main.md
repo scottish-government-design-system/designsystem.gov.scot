@@ -26,7 +26,7 @@ scripts:
 
         <div class="ds_contact-details__item">
             <dt>Email</dt>
-            <dd><a href="mailto:#" data-navigation="contact-details">email@gov.scot</a></dd>
+            <dd><a href="mailto:#">email@gov.scot</a></dd>
         </div>
 
         <div class="ds_contact-details__item">
@@ -55,35 +55,35 @@ scripts:
         <div class="ds_contact-details__item  ds_contact-details__social">
             <dt class="visually-hidden">Social media</dt>
             <dd class="ds_contact-details__social-item">
-                <a class="ds_contact-details__social-link" href="#" data-navigation="contact-details">            
+                <a class="ds_contact-details__social-link" href="#">
                     <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#facebook"></use></svg>
                     Facebook
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
-                <a class="ds_contact-details__social-link" href="#" data-navigation="contact-details">            
+                <a class="ds_contact-details__social-link" href="#">
                     <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#twitter"></use></svg>
                     @scotgov
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
-                <a class="ds_contact-details__social-link" href="#" data-navigation="contact-details">            
+                <a class="ds_contact-details__social-link" href="#">
                     <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#flickr"></use></svg>
                     Flickr
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
-                <a class="ds_contact-details__social-link" href="#" data-navigation="contact-details">            
+                <a class="ds_contact-details__social-link" href="#">
                     <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#youtube"></use></svg>
                     YouTube
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
-                <a class="ds_contact-details__social-link" href="#" data-navigation="contact-details">            
+                <a class="ds_contact-details__social-link" href="#">
                     <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#blog"></use></svg>
                     Blog
                 </a>

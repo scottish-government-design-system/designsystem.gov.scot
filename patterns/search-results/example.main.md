@@ -13,9 +13,9 @@ note: This example has been truncated to three search results to conserve space.
         <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
         <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
-            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off" data-form="textinput-search-term">
+            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" value="crofting" placeholder="Search" autocomplete="off">
 
-            <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button" data-button="button-search-submit">
+            <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
                 <span class="visually-hidden">Search</span>
                 <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
             </button>
@@ -28,7 +28,7 @@ note: This example has been truncated to three search results to conserve space.
 
     <ul>
         <li>
-            <a data-search="suggestion-result-1/1" aria-label="Did you mean 'crafting'?" href="#">crafting</a>
+            <a aria-label="Did you mean 'crafting'?" href="#">crafting</a>
         </li>
     </ul>
 </nav>
@@ -39,7 +39,7 @@ note: This example has been truncated to three search results to conserve space.
 
     <p class="ds_search-results__count js-search-results-count"><b>68</b> results</p>
 
-    <ol id="search-results-list" class="ds_search-results__list" data-search-term="crofting">
+    <ol id="search-results-list" class="ds_search-results__list" data-total="68">
         <li class="ds_search-result">
             <header class="ds_search-result__header">
                 <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
@@ -50,7 +50,7 @@ note: This example has been truncated to three search results to conserve space.
                 </dl>
 
                 <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" href="#" data-search="search-result-1/68">Crofting community right to buy</a>
+                    <a class="ds_search-result__link" href="#">Crofting community right to buy</a>
                 </h2>
             </header>
 
@@ -72,7 +72,7 @@ note: This example has been truncated to three search results to conserve space.
                 </dl>
 
                 <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" href="#" data-search="search-result-2/68">Crofting consultation 2017</a>
+                    <a class="ds_search-result__link" href="#">Crofting consultation 2017</a>
                 </h2>
             </header>
 
@@ -94,7 +94,7 @@ note: This example has been truncated to three search results to conserve space.
                 </dl>
 
                 <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" href="#" data-search="search-result-3/68">Crofting Elections 2017: consultation responses analysis</a>
+                    <a class="ds_search-result__link" href="#">Crofting Elections 2017: consultation responses analysis</a>
                 </h2>
             </header>
 
@@ -104,7 +104,7 @@ note: This example has been truncated to three search results to conserve space.
 
     <nav class="ds_pagination" aria-label="Search pages">
         <div class="ds_pagination__load-more">
-            <button data-search="pagination-more" class="ds_button">Load more</button>
+            <button class="ds_button">Load more</button>
         </div>
 
         <ul class="ds_pagination__list">
@@ -113,27 +113,27 @@ note: This example has been truncated to three search results to conserve space.
             </li>
 
             <li class="ds_pagination__item">
-                <a href="#" data-search="pagination-2" class="ds_pagination__link">2</a>
+                <a href="#" class="ds_pagination__link">2</a>
             </li>
 
             <li class="ds_pagination__item">
-                <a href="#" data-search="pagination-3" class="ds_pagination__link">3</a>
+                <a href="#" class="ds_pagination__link">3</a>
             </li>
 
             <li class="ds_pagination__item">
-                <a href="#" data-search="pagination-4" class="ds_pagination__link">4</a>
+                <a href="#" class="ds_pagination__link">4</a>
             </li>
 
             <li class="ds_pagination__item">
-                <a href="#" data-search="pagination-5" class="ds_pagination__link">5</a>
+                <a href="#" class="ds_pagination__link">5</a>
             </li>
 
             <li class="ds_pagination__item">
-                <a href="#" data-search="pagination-6" class="ds_pagination__link">6</a>
+                <a href="#" class="ds_pagination__link">6</a>
             </li>
 
             <li class="ds_pagination__item">
-                <a href="#" data-search="pagination-7" class="ds_pagination__link">7</a>
+                <a href="#" class="ds_pagination__link">7</a>
             </li>
 
             <li class="ds_pagination__item" aria-hidden="true">
@@ -141,7 +141,7 @@ note: This example has been truncated to three search results to conserve space.
             </li>
 
             <li class="ds_pagination__item">
-                <a href="#" data-search="pagination-next" class="ds_pagination__link  ds_pagination__link--text">Next</a>
+                <a href="#" class="ds_pagination__link  ds_pagination__link--text">Next</a>
             </li>
         </ul>
     </nav>

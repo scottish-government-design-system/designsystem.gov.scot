@@ -7,7 +7,7 @@ index: 0
 
 <div class="ds_tab-container  ds_tab-container--3" data-module="ds-tabs">
     <input class="ds_tab__radio" type="radio" checked name="tabs" id="tab1">
-    <div class="ds_tab__header"><label id="tab1-label" aria-controls="tab1-content" role="tab" class="ds_tab__label" for="tab1" data-navigation="tab-1">Courses and funding</label></div>
+    <div class="ds_tab__header"><label id="tab1-label" aria-controls="tab1-content" role="tab" class="ds_tab__label" for="tab1">Courses and funding</label></div>
     <div tabindex="0" id="tab1-content" class="ds_tab__content" role="tabpanel" aria-labelledby="tab1-label">
         <h2>Search for training courses and funding</h2>
 
@@ -21,7 +21,7 @@ index: 0
     </div>
 
     <input class="ds_tab__radio" type="radio" name="tabs" id="tab2">
-    <div class="ds_tab__header"><label id="tab2-label" aria-controls="tab2-content" role="tab" class="ds_tab__label" for="tab2" data-navigation="tab-2">Choosing apprenticeships</label></div>
+    <div class="ds_tab__header"><label id="tab2-label" aria-controls="tab2-content" role="tab" class="ds_tab__label" for="tab2">Choosing apprenticeships</label></div>
     <div tabindex="0" id="tab2-content" class="ds_tab__content" role="tabpanel" aria-labelledby="tab2-label">
         <h2>Choosing an apprenticeship for your business</h2>
 
@@ -41,7 +41,7 @@ index: 0
     </div>
 
     <input class="ds_tab__radio" type="radio" name="tabs" id="tab3">
-    <div class="ds_tab__header"><label id="tab3-label" aria-controls="tab3-content" role="tab" class="ds_tab__label" for="tab3" data-navigation="tab-3">Extra skills support</label></div>
+    <div class="ds_tab__header"><label id="tab3-label" aria-controls="tab3-content" role="tab" class="ds_tab__label" for="tab3">Extra skills support</label></div>
     <div tabindex="0" id="tab3-content" class="ds_tab__content" role="tabpanel" aria-labelledby="tab3-label">
         <h2>Extra skills support</h2>
 

@@ -12,10 +12,10 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
             <div role="heading" class="visually-hidden">Important</div>
 
             <div class="ds_notification__text">
-                <p>You've been redirected from a site that no longer exists. Find what you're looking for on <a data-banner="banner-BANNERNAME-link" href="#">something</a>.</p>
+                <p>You've been redirected from a site that no longer exists. Find what you're looking for on <a href="#">something</a>.</p>
             </div>
 
-            <button data-banner="banner-BANNERNAME-close" class="ds_notification__close  js-close-notification" type="button">
+            <button class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
                 <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>

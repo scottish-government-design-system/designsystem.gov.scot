@@ -12,9 +12,9 @@ index: 0
         <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
         <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
-            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off" data-form="textinput-search-term">
+            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
 
-            <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button" data-button="button-search-submit">
+            <button type="submit" class="ds_button  ds_button--icon-only  js-site-search-button">
                 <span class="visually-hidden">Search<span>
                 <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
             </button>
@@ -27,10 +27,10 @@ index: 0
 
     <ul>
         <li>
-            <a data-search="suggestion-result-1/2" aria-label="Did you mean 'crafting'?" href="#">crafting</a>
+            <a aria-label="Did you mean 'crafting'?" href="#">crafting</a>
         </li>
         <li>
-            <a data-search="suggestion-result-2/2" aria-label="Did you mean 'crofting'?" href="#">crofting</a>
+            <a aria-label="Did you mean 'crofting'?" href="#">crofting</a>
         </li>
     </ul>
 </nav>

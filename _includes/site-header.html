@@ -5,7 +5,7 @@
         <div class="ds_wrapper">
             <div class="ds_site-header__content">
                 <div class="ds_site-branding">
-                    <a data-header="header-logo" class="ds_site-branding__logo  ds_site-branding__link" href="/">
+                    <a class="ds_site-branding__logo  ds_site-branding__link" href="/">
                         <img class="ds_site-branding__logo-image" src="/assets/images/logos/digital-scotland.svg" alt="Digital Scotland" />
                     </a>
 
@@ -16,7 +16,7 @@
             </div>
 
             <nav aria-label="Site menu" data-module="ds-mobile-navigation-menu">
-                <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu" data-header="header-menu-toggle">
+                <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
                     <span class="ds_site-header__control-text">Menu</span>
                     <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
                     <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
@@ -33,7 +33,7 @@
                                             Get started
                                         </span>
                                     {% else %}
-                                        <a href="/get-started/" data-device="mobile" data-header="header-link-1" class="ds_mobile-navigation__link">
+                                        <a href="/get-started/" class="ds_mobile-navigation__link">
                                             Get started
                                         </a>
                                     {% endif %}
@@ -44,7 +44,7 @@
                                             Styles
                                         </span>
                                     {% else %}
-                                        <a href="/styles/" data-device="mobile" data-header="header-link-2" class="ds_mobile-navigation__link  {% if page.url contains '/styles/' %}ds_current{% endif %}">
+                                        <a href="/styles/" class="ds_mobile-navigation__link  {% if page.url contains '/styles/' %}ds_current{% endif %}">
                                             Styles
                                         </a>
                                     {% endif %}
@@ -55,7 +55,7 @@
                                             Components
                                         </span>
                                     {% else %}
-                                        <a href="/components/" data-device="mobile" data-header="header-link-3" class="ds_mobile-navigation__link  {% if page.url contains '/components/' %}ds_current{% endif %}">
+                                        <a href="/components/" class="ds_mobile-navigation__link  {% if page.url contains '/components/' %}ds_current{% endif %}">
                                             Components
                                         </a>
                                     {% endif %}
@@ -66,7 +66,7 @@
                                             Patterns
                                         </span>
                                     {% else %}
-                                        <a href="/patterns/" data-device="mobile" data-header="header-link-4" class="ds_mobile-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
+                                        <a href="/patterns/" class="ds_mobile-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
                                             Patterns
                                         </a>
                                     {% endif %}
@@ -77,7 +77,7 @@
                                             Accessibility
                                         </span>
                                     {% else %}
-                                        <a href="/accessibility/" data-device="mobile" data-header="header-link-5" class="ds_mobile-navigation__link  {% if page.url contains '/accessibility/' %}ds_current{% endif %}">
+                                        <a href="/accessibility/" class="ds_mobile-navigation__link  {% if page.url contains '/accessibility/' %}ds_current{% endif %}">
                                             Accessibility
                                         </a>
                                     {% endif %}
@@ -88,7 +88,7 @@
                                             Backlog
                                         </span>
                                     {% else %}
-                                        <a href="/backlog/" data-device="mobile" data-header="header-link-5" class="ds_mobile-navigation__link  {% if page.url contains '/backlog/' %}ds_current{% endif %}">
+                                        <a href="/backlog/" class="ds_mobile-navigation__link  {% if page.url contains '/backlog/' %}ds_current{% endif %}">
                                             Backlog
                                         </a>
                                     {% endif %}
@@ -96,7 +96,7 @@
                             </ul>
                         </div>
 
-                        <button type="button" class="ds_mobile-navigation__backdrop  js-close-menu" aria-expanded="false" aria-controls="mobile-navigation-menu" data-button="button-menu-close">
+                        <button type="button" class="ds_mobile-navigation__backdrop  js-close-menu" aria-expanded="false" aria-controls="mobile-navigation-menu">
                             <span class="visually-hidden">Close menu</span>
                         </button>
                     </div>
@@ -128,7 +128,7 @@
                                 Get started
                             </span>
                         {% else %}
-                            <a href="/get-started/" data-device="desktop" data-header="header-link-1" class="ds_site-navigation__link">
+                            <a href="/get-started/" class="ds_site-navigation__link">
                                 Get started
                             </a>
                         {% endif %}
@@ -139,7 +139,7 @@
                                 Styles
                             </span>
                         {% else %}
-                            <a href="/styles/" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link  {% if page.url contains '/styles/' %}ds_current{% endif %}">
+                            <a href="/styles/" class="ds_site-navigation__link  {% if page.url contains '/styles/' %}ds_current{% endif %}">
                                 Styles
                             </a>
                         {% endif %}
@@ -150,7 +150,7 @@
                                 Components
                             </span>
                         {% else %}
-                            <a href="/components/" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link  {% if page.url contains '/components/' %}ds_current{% endif %}">
+                            <a href="/components/" class="ds_site-navigation__link  {% if page.url contains '/components/' %}ds_current{% endif %}">
                                 Components
                             </a>
                         {% endif %}
@@ -161,7 +161,7 @@
                                 Patterns
                             </span>
                         {% else %}
-                            <a href="/patterns/" data-device="desktop" data-header="header-link-4" class="ds_site-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
+                            <a href="/patterns/" class="ds_site-navigation__link  {% if page.url contains '/patterns/' %}ds_current{% endif %}">
                                 Patterns
                             </a>
                         {% endif %}
@@ -172,7 +172,7 @@
                                 Accessibility
                             </span>
                         {% else %}
-                            <a href="/accessibility/" data-device="desktop" data-header="header-link-5" class="ds_site-navigation__link  {% if page.url contains '/accessibility/' %}ds_current{% endif %}">
+                            <a href="/accessibility/" class="ds_site-navigation__link  {% if page.url contains '/accessibility/' %}ds_current{% endif %}">
                                 Accessibility
                             </a>
                         {% endif %}
@@ -183,7 +183,7 @@
                                 Backlog
                             </span>
                         {% else %}
-                            <a href="/backlog/" data-device="desktop" data-header="header-link-5" class="ds_site-navigation__link  {% if page.url contains '/backlog/' %}ds_current{% endif %}">
+                            <a href="/backlog/" class="ds_site-navigation__link  {% if page.url contains '/backlog/' %}ds_current{% endif %}">
                                 Backlog
                             </a>
                         {% endif %}

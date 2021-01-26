@@ -46,7 +46,7 @@ Clicks to the suggested terms in the "did you mean..." component are tracked thr
 
 Where the site search is being used on a single-page app or it is not possible to put the search query in to the URL, the query could be included in the dataLayer for the page.
 
-Pagination is tracked using the data attribute with the number of the results page clicked, for example <code>data-search="'pagination-1"</code>.
+Pagination is tracked using the data attribute with the number of the results page clicked, for example <code>data-search="pagination-1"</code>.
 
 ## Accessibility features
 

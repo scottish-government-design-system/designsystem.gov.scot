@@ -6,6 +6,6 @@ index: 0
 ---
 
 <div>
-<label class="ds_label" for="textarea1">Description</label>
-<textarea class="ds_input" rows="3" id="textarea1" data-form="textarea-description"></textarea>
+<label class="ds_label" for="description">Description</label>
+<textarea class="ds_input" rows="3" id="description"></textarea>
 </div>

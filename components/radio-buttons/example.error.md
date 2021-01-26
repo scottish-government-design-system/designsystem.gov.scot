@@ -12,13 +12,13 @@ type: example
 
             <div class="ds_field-group">
                 <div class="ds_radio">
-                    <input class="ds_radio__input" id="error-1" name="group-name" type="radio" value="yes" data-form="radio-resolved-yes">
-                    <label class="ds_radio__label" for="error-1">Yes</label>
+                    <input class="ds_radio__input" id="resolve-yes" name="resolve" type="radio" value="yes">
+                    <label class="ds_radio__label" for="resolve-yes">Yes</label>
                 </div>
 
                 <div class="ds_radio">
-                    <input class="ds_radio__input" id="error-2" name="group-name" type="radio" value="no" data-form="radio-resolved-no">
-                    <label class="ds_radio__label" for="error-2">No</label>
+                    <input class="ds_radio__input" id="resolve-no" name="resolve" type="radio" value="no">
+                    <label class="ds_radio__label" for="resolve-no">No</label>
 
                     <div class="ds_reveal-content">
                         <p><strong>Next step:</strong> <a href="#">leave us some feedback</a>.</p>

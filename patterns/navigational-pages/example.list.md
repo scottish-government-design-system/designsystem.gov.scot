@@ -9,7 +9,7 @@ style: 'body{background-color:#f8f8f8}'
     <ol class="ds_category-list">
         <li class="ds_category-item  ds_category-item--pinned">
             <h2 class="ds_category-item__title">
-                <a data-navigation="category-item-1" href="#" class="ds_category-item__link">
+                <a href="#" class="ds_category-item__link">
                     Environment and countryside
                     <svg class="ds_icon  ds_category-item__pinned-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#star"></use></svg>
                 </a>
@@ -22,7 +22,7 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_category-item  ds_category-item--pinned">
             <h2 class="ds_category-item__title">
-                <a data-navigation="category-item-2" href="#" class="ds_category-item__link">
+                <a href="#" class="ds_category-item__link">
                     Environmental Impact Assessment (EIA)
                     <svg class="ds_icon  ds_category-item__pinned-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#star"></use></svg>
                 </a>
@@ -35,7 +35,7 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_category-item">
             <h2 class="ds_category-item__title">
-                <a data-navigation="category-item-3" href="#" class="ds_category-item__link">Farming and rural issues</a>
+                <a href="#" class="ds_category-item__link">Farming and rural issues</a>
             </h2>
 
             <p class="ds_category-item__summary">
@@ -45,7 +45,7 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_category-item">    
             <h2 class="ds_category-item__title">
-                <a data-navigation="category-item-4" href="#" class="ds_category-item__link">Waste and energy</a>
+                <a href="#" class="ds_category-item__link">Waste and energy</a>
             </h2>
 
             <p class="ds_category-item__summary">
@@ -55,7 +55,7 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_category-item">
             <h2 class="ds_category-item__title">
-                <a data-navigation="category-item-5" href="#" class="ds_category-item__link">Marine and fisheries</a>
+                <a href="#" class="ds_category-item__link">Marine and fisheries</a>
             </h2>
 
             <p class="ds_category-item__summary">

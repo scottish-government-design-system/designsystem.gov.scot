@@ -15,22 +15,22 @@ index: 0
             </span>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" data-navigation="guidenav-1" href="/apply-blue-badge/eligibility/">
+            <a class="ds_contents-nav__link" href="/apply-blue-badge/eligibility/">
                 Eligibility
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" data-navigation="guidenav-2" href="/apply-blue-badge/using-your-blue-badge/">
+            <a class="ds_contents-nav__link" href="/apply-blue-badge/using-your-blue-badge/">
                 Using your Blue Badge
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" data-navigation="guidenav-3" href="/apply-blue-badge/report-a-lost-stolen-or-misused-blue-badge/">
+            <a class="ds_contents-nav__link" href="/apply-blue-badge/report-a-lost-stolen-or-misused-blue-badge/">
                 Report a lost, stolen or misused Blue Badge
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" data-navigation="guidenav-4" href="/apply-blue-badge/changing-or-handing-back-a-blue-badge/">
+            <a class="ds_contents-nav__link" href="/apply-blue-badge/changing-or-handing-back-a-blue-badge/">
                 Changing or handing back a Blue Badge
             </a>
         </li>

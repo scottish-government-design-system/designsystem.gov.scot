@@ -12,10 +12,10 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
             <div role="heading" class="visually-hidden">Information</div>
 
             <div class="ds_notification__text">
-                <p>Something good has <a data-banner="banner-BANNERNAME-link" href="#">happened</a></p>
+                <p>Something good has <a href="#">happened</a></p>
             </div>
 
-            <button data-banner="banner-BANNERNAME-close" class="ds_notification__close  js-close-notification" type="button">
+            <button class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
                 <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
             </button>

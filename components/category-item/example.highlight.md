@@ -7,7 +7,7 @@ index: 0
 
 <article class="ds_category-item  ds_category-item--pinned">
     <h2 class="ds_category-item__title">
-        <a data-navigation="category-item-1" href="#" class="ds_category-item__link">Environment and countryside</a>
+        <a href="#" class="ds_category-item__link">Environment and countryside</a>
     </h2>
 
     <p class="ds_category-item__summary">
