@@ -12,7 +12,6 @@ style: 'body{background-color:#f8f8f8}'
             <h2 class="ds_category-item__title">
                 <a href="#" class="ds_category-item__link">
                     Environment and countryside
-                    <svg class="ds_icon  ds_category-item__pinned-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#star"></use></svg>
                 </a>
             </h2>
 
@@ -25,7 +24,6 @@ style: 'body{background-color:#f8f8f8}'
             <h2 class="ds_category-item__title">
                 <a href="#" class="ds_category-item__link">
                     Environmental Impact Assessment (EIA)
-                    <svg class="ds_icon  ds_category-item__pinned-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#star"></use></svg>
                 </a>
             </h2>
 
