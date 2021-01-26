@@ -7,7 +7,7 @@ style: 'body{background-color:#f8f8f8}'
 ---
 <nav aria-label="Category navigation">
     <ol class="ds_category-list">
-        <li class="ds_category-item  ds_category-item--pinned">
+        <li class="ds_category-item">
             <h2 class="ds_category-item__title">
                 <a href="#" class="ds_category-item__link">
                     Environment and countryside
@@ -20,7 +20,7 @@ style: 'body{background-color:#f8f8f8}'
             </p>
         </li>
 
-        <li class="ds_category-item  ds_category-item--pinned">
+        <li class="ds_category-item">
             <h2 class="ds_category-item__title">
                 <a href="#" class="ds_category-item__link">
                     Environmental Impact Assessment (EIA)
