@@ -18,6 +18,12 @@ Each banner should also allow the user to remove the banner from the page, usual
 
 Generally, banners do not contain images, but may contain small icons, such as an arrow to highlight a link.
 
+## Other versions of this component
+
+Notification banners can have an icon before their content.
+
+{% include example-frame.html name="icon" %}
+
 ## Why we use this component
 To highlight short, key content at the top of the page that all users need to see.
 

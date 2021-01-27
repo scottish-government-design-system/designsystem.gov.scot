@@ -26,7 +26,7 @@ The script logic picks:
 </button>
 {% endhighlight %}
 
-The script gives that button a data-button attribute with a value using 'start-here':
+The script gives that button a data-button attribute with a value that uses the button's text:
 
 {% highlight html %}
 <button class="ds_button" data-button="button-start-here">
@@ -88,6 +88,16 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
 
     <ul class="ds_contents-nav__list">
         <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#accordions">
+                Accordions
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#back-to-top">
+                Back to top
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#breadcrumbs">
                 Breadcrumbs
             </a>
@@ -123,7 +133,12 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#Inset-text">
+            <a class="ds_contents-nav__link" href="#hide-this-page">
+                Hide this page
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#inset-text">
                 Inset text
             </a>
         </li>
@@ -210,6 +225,31 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
     </ul>
 </nav>
 
+### Accordions
+
+Accordion header buttons get a 'data-accordion' attribute whose value uses the pattern `accordion-[index]-[open/close]` where the index is one-based. Opening and closing an accordion panel updates that data attribute to denote the correct action (opening or closing).
+
+{% highlight html %}
+<button class="ds_accordion-item__header-button js-accordion-button" data-accordion="accordion-open-1">
+   Healthcare for veterans
+   <span class="ds_accordion-item__indicator"></span>
+</button>
+{% endhighlight %}
+
+If an accordion has an "open all" button, that button gets a 'data-accordion' attribute whose value uses the pattern `accordion-[open/close]-all`. This attribute is updated to denote the correct action when accordion panels are opened or closed.
+
+{% highlight html %}
+<button data-accordion="accordion-open-all" type="button" class="ds_link  ds_accordion__open-all  js-open-all">Open all <span class="visually-hidden">sections</span></button>
+{% endhighlight %}
+
+### Back to top
+
+Back to top links get a 'data-navigation' attribute of `backtotop`.
+
+{% highlight html %}
+<a href="#page-top" class="ds_back-to-top__button js-initialised" data-navigation="backtotop">Back to top</a>
+{% endhighlight %}
+
 ### Breadcrumbs
 
 Breadcrumb links get a 'data-navigation' attribute whose value uses the pattern `breadcrumb-[index]` where the index is one-based.
@@ -244,6 +284,12 @@ Checkboxes get a 'data-form' attribute whose value uses the pattern `checkbox-[c
 <input class="ds_checkbox__input" id="education" type="checkbox" data-form="checkbox-education">
 {% endhighlight %}
 
+When a user changes the state of a checkbox or if it is already checked, its state is added to the data attribute.
+
+{% highlight html %}
+<input class="ds_checkbox__input" id="education" checked type="checkbox" data-form="checkbox-education-checked">
+{% endhighlight %}
+
 ### Contact details
 
 Social media links inside contact detail components get a 'data-navigation' attribute whose value uses the pattern `contact-details-[slug of the social media name]`.
@@ -274,6 +320,20 @@ Links in error summaries get a 'data-form' attribute whose value uses the patter
 
 {% highlight html %}
 <a href="#resolve" data-form="error-resolve">Did this resolve your issue?</a>
+{% endhighlight %}
+
+### Hide this page
+
+"Hide this page" buttons get a 'data-navigation' attribute of `hide-this-page`.
+
+{% highlight html %}
+<a href="http://bbc.co.uk/weather" data-altlink="https://www.google.co.uk" class="ds_hide-page__button  ds_button  js-hide-page" data-navigation="hide-this-page"><strong>Hide this page</strong> <span class="visually-hidden  js-enabled-text">Or press escape key to hide this page</span></a>
+{% endhighlight %}
+
+If the user triggers the 'hide page' action with their keyboard by pressing 'Escape' an event is pushed to the window's `dataLayer`.
+
+{% highlight javascript %}
+window.dataLayer.push({ 'event': 'hide-this-page-keyboard' });
 {% endhighlight %}
 
 ### Inset text
@@ -377,6 +437,12 @@ Option elements inside selects get a 'data-form' attribute whose value uses the 
 </select>
 {% endhighlight %}
 
+When a user changes selects an option an event is pushed to the window's `dataLayer` with the selected option's 'data-form' attribute.
+
+{% highlight javascript %}
+window.dataLayer.push({ 'event': 'select-component-button' });
+{% endhighlight %}
+
 ### Sequential navigation
 
 The "previous page" link in sequential navigation is given a 'data-navigation' attribute whose value is `sequential-previous`.
@@ -411,6 +477,12 @@ When there are nested pages in a side navigation, the subpages' indexes are appe
 
 {% highlight html %}
 <a href="#" class="ds_side-navigation__link" data-navigation="sidenav-1-2">Red apples</a>
+{% endhighlight %}
+
+On small screens the side navigation has an open/close toggle button. That button gets a 'data-navigation' attribute whose value uses the pattern `navigation-[open/close]`.This attribute is updated to denote the correct action when the side navigation is opened or closed.
+
+{% highlight html %}
+<button class="ds_side-navigation__expand ds_link js-side-navigation-button" data-navigation="navigation-open">Show all pages in this section</button>
 {% endhighlight %}
 
 ### Site branding
