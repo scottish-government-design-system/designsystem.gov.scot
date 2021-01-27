@@ -15,18 +15,17 @@ The back to top link works on desktop and on mobile content items. It appears wh
 
 We designed our back to top component so that:
 
-* it appears when the user scrolls past the fold on desktop and when the user begins to scroll on mobile
+* it appears when the user begins to scroll down the page
 * it is fixed in the lower-right of the browser window
-* the link text back to top says what the component does in plain English
+* the link text says what the component does in plain English
 * the background of the link is semi-transparent, so that it does not completely cover content beneath
 * the link is small so it does not cover important content on the page but large enough that the touch area can be easily tapped on mobile
 
 ### When to use this component
 
-Use the component on pages where:
+Use the component on pages where the main purpose of scrolling up the page is to access common features found at the top of the page (for example, search or top level navigation).
 
-* the main purpose of scrolling up the page is to access common features found at the top of the page (for example, search or top level navigation)
-* use on any long content pages and on all content pages on mobile
+It is particularly useful on any long content pages.
 
 ### Performance data
 
@@ -38,12 +37,12 @@ We referred to the best practice guidance for back to top links from the [Nielse
 
 ## Website analytics
 
-You can track back to top link clicks through the original page path and the data attribute: data-navigation="backtotop"
+You can track back to top link clicks through the original page path and the data attribute `data-navigation="backtotop"`.
 
 ## Accessibility
 
 We designed the back to top component to be accessible to all types of users. It uses the interactive states and focus states described on our [accessibility page](/accessibility/) and our [focus states page](/styles/states/).
 
-The back to top link is focusable and users can trigger it with the enter key. It will redirect users back to the top within the same page.
+The back to top link is focusable and users can trigger it with the enter key, like any other link. It will take users back to the top of the current page.
 
-The Back To Top component should be placed after the article content but above the footer.
+The back to top component should be placed after the article content but above the footer.
