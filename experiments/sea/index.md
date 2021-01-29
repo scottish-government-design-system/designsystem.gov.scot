@@ -14,4 +14,4 @@ Fusce laoreet, quam tincidunt dapibus iaculis, nulla orci sagittis quam, [nec fr
 
 Maecenas convallis justo non eros condimentum efficitur [lorem@ipsum.com](#). Nunc a arcu congue, sagittis ipsum nec, maximus eros. Etiam euismod ex a orci ornare, sit amet placerat metus congue.
 
-<a class="ds_button" href="search">Search the database</a>
+<a class="ds_button" href="search.html">Search the database</a>

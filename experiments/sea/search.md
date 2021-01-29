@@ -320,7 +320,7 @@ noindex: true
             </thead>
             <tbody>
                 <tr>
-                    <td><a href="case">RHA\00001</a></td>
+                    <td><a href="case.html">RHA\00001</a></td>
                     <td>Hartside Harbour Masterplan</td>
                     <td>Hartside Council</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -328,7 +328,7 @@ noindex: true
                     <td>10/12/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00002</a></td>
+                    <td><a href="case.html">RHA\00002</a></td>
                     <td>Hartside Onshore Wind Energy Non-statutory guidance 2020 </td>
                     <td>Hartside Council</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -336,7 +336,7 @@ noindex: true
                     <td>10/12/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00003</a></td>
+                    <td><a href="case.html">RHA\00003</a></td>
                     <td>House Extension &amp; Alteration Design Guide </td>
                     <td>Hartside Council</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -344,7 +344,7 @@ noindex: true
                     <td>10/12/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00004</a></td>
+                    <td><a href="case.html">RHA\00004</a></td>
                     <td>Update of Burn Basin Management Plans </td>
                     <td>Hartside Environment Protection Agency (EPA)</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -352,7 +352,7 @@ noindex: true
                     <td>10/12/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00005</a></td>
+                    <td><a href="case.html">RHA\00005</a></td>
                     <td>Use of the Design System for the SEA Gateway Database</td>
                     <td>The Scottish Government</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -360,7 +360,7 @@ noindex: true
                     <td>10/12/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00006</a></td>
+                    <td><a href="case.html">RHA\00006</a></td>
                     <td>Hartside Development Plan for Crofting </td>
                     <td>The Hartside Government</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -368,7 +368,7 @@ noindex: true
                     <td>10/12/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00007</a></td>
+                    <td><a href="case.html">RHA\00007</a></td>
                     <td>Transferring responsibility for the authorisation of discharge leftover homebrew
                     </td>
                     <td>Marine Hartside</td>
@@ -377,7 +377,7 @@ noindex: true
                     <td>19/08/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00008</a></td>
+                    <td><a href="case.html">RHA\00008</a></td>
                     <td>Strategic Plan 2021-2026 </td>
                     <td>Hartside Council</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -385,7 +385,7 @@ noindex: true
                     <td>19/08/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00009</a></td>
+                    <td><a href="case.html">RHA\00009</a></td>
                     <td>Hartside Local Housing Strategy 2020-2022</td>
                     <td>Hartside Council</td>
                     <td>Section 5(3) of 2005 Act; </td>
@@ -393,7 +393,7 @@ noindex: true
                     <td>10/12/2020</td>
                 </tr>
                 <tr>
-                    <td><a href="case">RHA\00010</a></td>
+                    <td><a href="case.html">RHA\00010</a></td>
                     <td>Hartside Investment Plan</td>
                     <td>The Scottish Government</td>
                     <td>Section 5(3) of 2005 Act; </td>
