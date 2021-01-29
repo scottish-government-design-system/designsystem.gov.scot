@@ -21,6 +21,10 @@ $columnCount: 12;
     .overflow--medium--3 {
         margin-right: calcOverflow(3, $columnCount, $containerWidth, $columnGap) * -1px;
     }
+
+    .overflow--medium--4 {
+        margin-right: calcOverflow(4, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
 }
 
 @include media-query(large) {
@@ -37,6 +41,10 @@ $columnCount: 12;
     .overflow--large--3 {
         margin-right: calcOverflow(3, $columnCount, $containerWidth, $columnGap) * -1px;
     }
+
+    .overflow--large--4 {
+        margin-right: calcOverflow(4, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
 }
 
 @include media-query(xlarge) {
@@ -52,5 +60,9 @@ $columnCount: 12;
 
     .overflow--xlarge--3 {
         margin-right: calcOverflow(3, $columnCount, $containerWidth, $columnGap) * -1px;
+    }
+
+    .overflow--xlarge--4 {
+        margin-right: calcOverflow(4, $columnCount, $containerWidth, $columnGap) * -1px;
     }
 }

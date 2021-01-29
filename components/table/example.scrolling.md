@@ -9,7 +9,7 @@ index: 0
 
     <thead>
         <tr>
-            <th scope="col">Name</th>
+            <th>Name</th>
             <th>Height (m)</th>
             <th>Height (ft)</th>
             <th>Region</th>
