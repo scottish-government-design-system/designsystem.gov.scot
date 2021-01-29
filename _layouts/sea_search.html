@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% include head.html %}
+<body>
+
+{% include skip-links.html %}
+
+<div class="ds_page">
+
+    <div class="ds_page__top">
+        {% include notifications.html %}
+        {% include sea_header.html %}
+    </div>
+
+    <div class="ds_page__middle">
+
+        <div id="body-wrapper" class="body-wrapper">
+
+
+            <div class="ds_wrapper">
+
+                <main id="main-content" class="ds_layout  ds_layout--article">
+
+                    <div class="ds_layout__header">
+                        <header class="heading">
+                            <div class="ds_page-header">
+                                <span class="ds_page-header__label  ds_content-label">{{ page.imperative }}</span>
+
+                                <h1 class="ds_page-header__title">{{ page.title }}</h1>
+                            </div>
+                        </header>
+                    </div>
+
+                    <div class="ds_layout__content">
+                        <div class="main-content">
+                            {{ content }}
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    {% include back-to-top.html %}
+
+    <div class="ds_page__bottom">
+        {% include footer.html %}
+    </div>
+</body>
+</html>
