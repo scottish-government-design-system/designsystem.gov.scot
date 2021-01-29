@@ -11,4 +11,6 @@ We based our select component on the one built by GDS. [Find out more about the 
 
 ## Website analytics
 
-Select components can be tracked through the original page path and a data attribute showing category and the the value selected, for example <code>data-form="select-component-accordion"</code>
+Select components can be tracked through the original page path and a data attribute showing category and the the value selected.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#select-dropdown).

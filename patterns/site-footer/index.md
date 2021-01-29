@@ -32,11 +32,10 @@ Analytics evidence from mygov.scot and gov.scot shows that users are familiar wi
 
 The footer links, copyright notice, and footer logo are trackable as follows:
 
-### Links
-Footer link clicks can be tracked through the original page path, the click URL, the click text, and a data attribute attached to all links,<code>data-footer="link"</code>.
+* Footer link clicks can be tracked through the original page path, the click URL, the click text, and a data attribute attached to all links.
 
-### Copyright
-Footer copyright clicks can be tracked through the original page path, the click URL, and a data attribute attached to all copyright links, <code>data-footer="copyright"</code>.
+* Footer copyright clicks can be tracked through the original page path, the click URL, and a data attribute attached to all copyright links.
 
-### Logo
-To understand user behaviour, footer logo clicks can be tracked through the original page path, the click URL,  and a data attribute attached to the image, <code>data-footer="logo"</code>. Where multiple logos exist, each should have a different logo-NAME data attribute.
+* Footer logo clicks can be tracked through the original page path, the click URL, and a data attribute attached to the image.
+
+The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#site-footer).

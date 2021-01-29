@@ -26,5 +26,6 @@ It can also help users find key content quicker.
 Analytics evidence from mygov.scot and gov.scot shows that users are more likely to navigate to site sections of gov.scot using the site header’s primary navigation than using the same links on panels lower down the homepage.
 
 ## Website analytics
-To understand user behaviour, clicks on site navigation items 
-can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item clicked, for example <code>data-header="header-link-1"</code> or for the menu on mobile <code>data-header="header-menu-toggle"</code>.
+To understand user behaviour, clicks on site navigation items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item clicked.
+
+The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#site-navigation).

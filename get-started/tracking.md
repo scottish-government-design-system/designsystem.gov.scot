@@ -1,7 +1,7 @@
 ---
 layout: component
 title:  "Tracking"
-category: get-started_draft
+category: get-started
 parent: get-started
 label: How to
 thispage: get-started.tracking
@@ -88,8 +88,8 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
 
     <ul class="ds_contents-nav__list">
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#accordions">
-                Accordions
+            <a class="ds_contents-nav__link" href="#accordion">
+                Accordion
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -103,13 +103,13 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a href="#buttons" class="ds_contents-nav__link">
-                Buttons
+            <a href="#button" class="ds_contents-nav__link">
+                Button
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#category-lists">
-                Category lists
+            <a class="ds_contents-nav__link" href="#category-list">
+                Category list
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -123,13 +123,13 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#error-messages">
-                Error messages
+            <a class="ds_contents-nav__link" href="#error-message">
+                Error message
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#error-summaries">
-                Error summaries
+            <a class="ds_contents-nav__link" href="#error-summary">
+                Error summary
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -143,8 +143,8 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#notification-banners">
-                Notification banners
+            <a class="ds_contents-nav__link" href="#notification-banner">
+                Notification banner
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -153,8 +153,8 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#phase-banners">
-                Phase banners
+            <a class="ds_contents-nav__link" href="#phase-banner">
+                Phase banner
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -173,8 +173,8 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#selects-dropdowns">
-                Selects (dropdowns)
+            <a class="ds_contents-nav__link" href="#select-dropdown">
+                Select (dropdown)
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -208,13 +208,13 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#text-inputs">
-                Text inputs
+            <a class="ds_contents-nav__link" href="#text-input">
+                Text input
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#textareas">
-                Textareas
+            <a class="ds_contents-nav__link" href="#textarea">
+                Textarea
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -225,7 +225,7 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
     </ul>
 </nav>
 
-### Accordions
+### Accordion
 
 Accordion header buttons get a 'data-accordion' attribute whose value uses the pattern `accordion-[index]-[open/close]` where the index is one-based. Opening and closing an accordion panel updates that data attribute to denote the correct action (opening or closing).
 
@@ -258,7 +258,7 @@ Breadcrumb links get a 'data-navigation' attribute whose value uses the pattern 
 <a class="ds_breadcrumbs__link" href="#" data-navigation="breadcrumb-1">Home</a>
 {% endhighlight %}
 
-### Buttons
+### Button
 
 Buttons get a 'data-button' attribute whose value uses the pattern `button-[slug of the button text]`.
 
@@ -268,7 +268,7 @@ Buttons get a 'data-button' attribute whose value uses the pattern `button-[slug
 </button>
 {% endhighlight %}
 
-### Category lists
+### Category list
 
 Category list links get a 'data-navigation' attribute whose value uses the pattern `category-item-[index]` where the index is one-based.
 
@@ -304,7 +304,7 @@ Email links inside contact detail components get a 'data-navigation' attribute w
 <a href="mailto:designsystem@gov.scot" data-navigation="contact-details-email">designsystem@gov.scot</a>
 {% endhighlight %}
 
-### Error messages
+### Error message
 
 Error messages get a 'data-form' attribute whose value uses the pattern `error-[ID of the field that has the error]`.
 
@@ -314,7 +314,7 @@ In the case of a radio button group, the attribute uses the pattern `error-[name
 <p class="ds_question__error-message" data-form="error-more-detail">This field is required</p>
 {% endhighlight %}
 
-### Error summaries
+### Error summary
 
 Links in error summaries get a 'data-form' attribute whose value uses the pattern `error-[ID of the field that has the error]`.
 
@@ -348,7 +348,7 @@ Links in inset text components get a 'data-navigation' attribute of `inset-link`
 </div>
 {% endhighlight %}
 
-### Notification banners
+### Notification banner
 
 Links in notification banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the ID of the banner or the one-based index of the banner if it does not have an ID.
 
@@ -378,7 +378,7 @@ Pagination links get a 'data-search' attribute whose value uses the pattern `pag
 <button class="ds_button" data-search="pagination-more">Load more</button>
 {% endhighlight %}
 
-### Phase banners
+### Phase banner
 
 Links in phase banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the slug of the phase banner's "tag" or simply "phase" if the banner does not have a tag.
 
@@ -422,7 +422,7 @@ Links in search suggestions get a 'data-search' attribute whose value uses the p
 <a aria-label="Did you mean 'crafting'?" href="#" data-search="suggestion-result-1/2">crafting</a>
 {% endhighlight %}
 
-### Selects (dropdowns)
+### Select (dropdown)
 
 Select elements get a 'data-form' attribute whose value uses the pattern `select-[select ID]`.
 
@@ -537,7 +537,7 @@ Tabs get a 'data-navigation' attribute whose value uses the pattern `tab-[index]
 <button class="ds_tab__label" role="tab" data-navigation="tab-2" aria-controls="tab2-content" id="tab2-label" data-for="tab2-content" aria-selected="false" tabindex="-1">Choosing apprenticeships <span class="visually-hidden">(item 2 of 3)</span></button>
 {% endhighlight %}
 
-### Text inputs
+### Text input
 
 <div class="ds_warning-text">
 <strong class="ds_warning-text__icon" aria-hidden="true">!</strong>
@@ -554,7 +554,7 @@ Note the use of the input elements’s type in the pattern. With this, different
 <input class="ds_input" type="number" id="age" data-form="numberinput-age">
 {% endhighlight %}
 
-### Textareas
+### Textarea
 
 <div class="ds_warning-text">
 <strong class="ds_warning-text__icon" aria-hidden="true">!</strong>

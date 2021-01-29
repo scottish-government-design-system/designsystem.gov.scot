@@ -37,9 +37,9 @@ The side navigation gives users a snapshot of content within the user’s curren
 Since it’s on the left hand side of the page, it also supports left to right reading.
 
 ## Website analytics
-To understand user behaviour, clicks on side navigation items can be tracked through the original page path, the click URL, the click text and a data attribute showing the item, for example <code>data-navigation="sidenav-1-1"</code>.
+To understand user behaviour, clicks on side navigation items can be tracked through the original page path, the click URL, the click text and a data attribute showing the item. Clicks on the mobile version's open/close toggle can also be tracked using a data attribute.
 
-An additional data attribute would be used to track clicks on mobile, for example <code>data-navigation="sidenav-open"</code>.
+The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#side-navigation).
 
 ## Accessibility features
 Aria attributes describe whether the side navigation is open or closed.

@@ -18,6 +18,8 @@ To do this you will need to set up certain analytics tools for your website or s
 
 In order to create patterns and components which can be tracked in a range of different web analytics tools and which will work well for GTM/GA, we use data attributes as triggers, rather than relying on click classes which are more likely to change over time. The use of data attributes also helps us minimise the number of tags that are required.
 
+The Design System has a ["tracking" script](/get-started/tracking/) that adds these data attributes.
+
 Our triggers are specific and our tags are more general, meaning that there is a trigger per component and multiple triggers fire the same tag. Our patterns are trackable without the need for custom JavaScript in Google Tag Manager.
 
 In our reporting, our Event Category contains the name of the tag. For most of the tracking these this will work in Google Tag Manager:

@@ -56,4 +56,6 @@ We use a custom style for radio buttons so that they're larger and easier to use
 
 ## Website analytics
 
-Radio buttons can be tracked through the original page path, a data attribute showing the question type, and value selected, for example <code>data-form="radio-feedback-yes"</code>
+Radio buttons can be tracked through the original page path and a data attribute showing the question type and value selected.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#radio-buttons).

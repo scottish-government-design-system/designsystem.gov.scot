@@ -24,6 +24,8 @@ Sometimes, content is displayed best when it's broken into small chunks, with us
 
 ## Website analytics
 
-Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number, for example <code>data-accordion="accordion-open-1"</code>.
+Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number.
 
-Opening and closing all accordion panels by clicking on the "Open all"/"Close all" link can be tracked through the original page path, click text and a data attribute attached on the element, for example <code>data-accordion="accordion-open-all"</code>.
+Opening and closing all accordion panels by clicking on the "Open all"/"Close all" link can be tracked through the original page path, click text and a data attribute attached on the element.
+
+The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#accordion).

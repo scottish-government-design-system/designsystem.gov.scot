@@ -75,8 +75,9 @@ We plan to test with more users and to focus on behaviour and language of the bu
 
 ## Website analytics
 
-You can track the 'Hide this page' button use in Google Analytics. You need to use Google Tag Manager and the button’s data attribute:
-```data-button="button-hidepage"```.
+You can track hide this page link clicks through the original page path and a data attribute describing the action.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#hide-this-page).
 
 ## Accessibility 
 

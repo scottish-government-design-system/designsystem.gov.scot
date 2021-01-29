@@ -53,5 +53,6 @@ Checkboxes should only be stacked vertically. This makes tabbing through the che
 
 ## Website analytics
 
-Checkbox items can be tracked through the original page path, a data attribute showing the value, for example "Education", and an additional attribute showing the action ("checked" or "unchecked")  
-<code>data-form="checkbox-education-unchecked"</code>
+Checkbox items can be tracked through the original page path and a data attribute identifying the checkbox and its value, if set.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#checkboxes).

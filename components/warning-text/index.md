@@ -11,6 +11,7 @@ phase: 3
 We based our warning text component on the one built by GDS. [Find out more about the warning text component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/warning-text/).
 
 ## Website analytics
-Each link in warning notes should be given a data attribute to help with tracking.
 
-To understand user behaviour, clicks on links in warning notes can be tracked through the click URL, the click text and a data attribute showing the interaction, for example. <code>data-navigation="warning-link"</code>.
+To understand user behaviour, clicks on links in warning text blocks can be tracked through the click URL, the click text and a data attribute showing the interaction.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#warning-text).

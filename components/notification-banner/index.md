@@ -31,4 +31,6 @@ To highlight short, key content at the top of the page that all users need to se
 User research findings from GOV.UK and NHS suggests that banners which overlay or hide content on a page leads to a worse user experience (higher exit rate).
 
 ## Website analytics
-To understand user behaviour, clicks on banner links items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the link click, for example <code>data-banner="banner-BANNERNAME-link"</code> or the close button, for example <code>data-banner="banner-BANNERNAME-close"</code>.
+To understand user behaviour, clicks on banner links items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the link click.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#notification-banner).

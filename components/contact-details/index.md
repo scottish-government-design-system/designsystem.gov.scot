@@ -37,6 +37,8 @@ Contact details components can also be returned by Google in ‘smart search’ 
 
 To track this component:
 
-* clicks on social media/email/telephone links can be tracked through the original page path, the external link URL/mailto/tel, the click text and a data attribute showing the element, for example <code>data-navigation=“contact-details”</code>
-* internal links can be tracked using the same attributes
+* clicks on social media/email/telephone links can be tracked through the original page path, the external link URL, the click text and a data attribute describing the element
+* internal links can be tracked the same way
 * phone numbers are not links by default, they are tagged with a data attribute and, if the user is on a mobile phone, can be automatically linked to make a call if the user’s browser supports this  
+
+The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#contact-details).

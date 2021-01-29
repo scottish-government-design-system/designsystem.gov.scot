@@ -38,14 +38,8 @@ Users were also more likely to navigate to site sections of gov.scot using the s
 ## Website analytics
 The site header tracking is available for each of its components: [Site search](/components/site-search), [site navigation](/components/site-navigation) and [phase banner](/components/phase-banner). In addition, the logo, title, skip navigation and expandable menu are trackable as follows:
 
-### Title
-Clicks to the title can be tracked through the original page path, the click URL, and a data attribute attached to the title text, <code>data-header="header-title"</code>.
+* Clicks to the title can be tracked through the original page path, the click URL, and a data attribute attached to the title text.
 
-### Logo
-Clicks to the logo can be tracked through tracked through the original page path, the click URL, and a data attribute attached to the image, <code>data-header="header-logo"</code>. Where multiple logos exist, each should have a different logo-NAME data attribute.
+* Clicks to the logo can be tracked through tracked through the original page path, the click URL, and a data attribute attached to the image.
 
-### Accessibility
-“Skip to main content” can be tracked through the original page path, the click URL, and a data attribute attached to the link, <code>data-header="header-accessibility-skip"</code>.
-
-### Expandable menu
-Clicks on the expandable menu can be tracked through the original page path, the click URL, and a data attribute attached to the icon, <code>data-header="header-menu-toggle"</code>.
+The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#site-header).

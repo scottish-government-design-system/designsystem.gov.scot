@@ -42,7 +42,9 @@ Where there may be issues with repetition or page titles are too long, a version
 
 ## Website analytics / performance 
 
-To understand user behaviour, clicks on breadcrumb items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number, for example <code>data-navigation="breadcrumb-1"</code>.
+To understand user behaviour, clicks on breadcrumb items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#breadcrumbs).
 
 You should include a [Schema](https://schema.org) representation of the breadcrumbs. One useful benefit of using Schema representation is that it allows a breadcrumb trail to be accurately displayed on search engines and will help users navigate the structure of your site.
 

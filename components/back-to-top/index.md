@@ -37,7 +37,9 @@ We referred to the best practice guidance for back to top links from the [Nielse
 
 ## Website analytics
 
-You can track back to top link clicks through the original page path and the data attribute `data-navigation="backtotop"`.
+You can track back to top link clicks through the original page path and a data attribute describing the action.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#back-to-top).
 
 ## Accessibility
 

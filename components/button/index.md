@@ -99,21 +99,6 @@ Buttons can also contain only an icon. If you do this, make sure that the intent
 
 ## Website analytics / performance
 
-To track interactions with button elements in Google Analytics using Google Tag Manager, each button has a data attribute, for exapmle <code>data-button="button-ACTION"</code>.
+To track interactions with button elements in Google Analytics using Google Tag Manager, each button has a data attribute that describes the action.
 
-You will need to replace the text "ACTION" with the action for each button, for example for a submit button this would be <code>data-button="button-submit"</code>.
-
-
-
-
-<script>
-
-const buttons = document.querySelectorAll('.ds_layout__content .ds_button');
-
-buttons.forEach(function (button) {
-    button.addEventListener('click', function (event) {
-        event.preventDefault();
-    });
-})
-
-</script>
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#button).

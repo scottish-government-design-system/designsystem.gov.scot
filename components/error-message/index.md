@@ -31,4 +31,6 @@ To help screen reader users, the error message component includes a hidden 'Erro
 
 ## Website analytics
 
-To understand the incidence of validation error messages, they can be tracked through the original page path, the error text, and a data attribute showing the type of error, for example <code>data-form="error-postcode"</code>
+To understand the incidence of validation error messages, they can be tracked through the original page path, the error text, and a data attribute showing the type of error.
+
+The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#error-message).

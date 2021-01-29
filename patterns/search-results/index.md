@@ -46,13 +46,17 @@ The design of the pattern helps the user to browse their search results, or to r
 
 Many analytics tools offer out of the box tracking for site search. The setup below covers more complex tracking to understand which search result was interacted with from a search results page, and how additional interactive elements are being used.
 
-Search results should be tracked in order to understand if internal search engines are providing useful results to users. Tracking works through the query being available from the page URL, the click text, click URL and a data attribute showing the result's position, for example <code>data-search-result="search-result-2/68"</code>, which shows the user clicked the second result from 68 search results
+Search results should be tracked in order to understand if internal search engines are providing useful results to users. Tracking works through the query being available from the page URL, the click text, click URL and a data attribute showing the result's position.
 
-Clicks to the suggested terms in the "did you mean..." component are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute, for example <code>data-search="suggestion-result-1/1"</code>, which shows that the suggested alternate search term was the first available from a total of 1 suggested search terms.
+Clicks to the suggested terms in the "did you mean..." component are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute.
 
+Pagination is tracked using the data attribute with the number of the results page clicked.
+
+The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#search-results).
+
+<div class="ds_inset-text"><div class="ds_inset-text__text">
 Where the site search is being used on a single-page app or it is not possible to put the search query in to the URL, the query could be included in the dataLayer for the page.
-
-Pagination is tracked using the data attribute with the number of the results page clicked, for example <code>data-search="pagination-1"</code>.
+</div></div>
 
 ## Accessibility features
 
