@@ -1,12 +1,11 @@
 ---
 layout: component
 title:  "Back to top"
-category: componentsx
+category: components
 label: component
 parent: components
 thispage: component.back-to-top
 summary: "A link that allows users to quickly navigate back to the top of the page with a single click. The link improves navigation for users on long pages of content and on mobile devices."
-noindex: true
 example:
   no-demo: true
 ---
