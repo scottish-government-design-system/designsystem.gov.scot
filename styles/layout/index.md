@@ -32,12 +32,14 @@ We use a simple naming convention that uses single characters for each content a
 
 For example, the large viewport display for the 'article' layout shown above would be defined like this:
 
-    .ds_layout--article {
-        grid-template-areas:
-            'h h h h h h h h p p p p'
-            'c c c c c c c c s s s s'
-            'f f f f f f f f . . . .';
-    }
+{% highlight scss %}
+.ds_layout--article {
+    grid-template-areas:
+        'h h h h h h h h p p p p'
+        'c c c c c c c c s s s s'
+        'f f f f f f f f . . . .';
+}
+{% endhighlight %}
 
 ### Fallback
 
@@ -61,100 +63,109 @@ It's sensible to write the fallback first. It's easy to forget about it if you d
 
 The first quirk of this layout is that the icon is only visible on large displays. If it was important for screen readers to still be able to access this content we could apply something like a "visually hidden" class to it, but for this simple example we can just hide it until needed.
 
-    .ds-layout__icon {
-        display: none;
-    }
+{% highlight scss %}
+.ds-layout__icon {
+    display: none;
+}
 
-    @include media-query(large) {
-        .my_layout--document {
-            .ds_layout__icon {
-                display: block;
-            }
+@include media-query(large) {
+    .my_layout--document {
+        .ds_layout__icon {
+            display: block;
         }
     }
+}
+{% endhighlight %}
 
 Apart from the icon, until we get to a medium (tablet) display this layout is the same as the default Design System `ds_layout` so we do not need to do anything special for those sizes.
 
 At medium, we start to diverge from the default layout so we need to write some rules. There are some helper mixins in the layout component that help with this.
 
 Here we're using `colwidth` to tell the layout how many columns a content area should span. `colwidth` provides a percentage width value that takes into account the total number of columns in your grid and your grid gutter width.
+{% highlight scss %}
+@include media-query(medium) {
+    .my_layout--document {
+        .ds_layout__content {
+            float: left;
+            @include colwidth(8);
+        }
 
-    @include media-query(medium) {
-        .my_layout--document {
-            .ds_layout__content {
-                float: left;
-                @include colwidth(8);
-            }
+        .ds_layout__sidebar {
+            float: left;
+            @include colwidth(4);
+        }
 
-            .ds_layout__sidebar {
-                float: left;
-                @include colwidth(4);
-            }
-
-            .ds_layout__feedback {
-                clear: left;
-            }
+        .ds_layout__feedback {
+            clear: left;
         }
     }
+}
+{% endhighlight %}
 
 At the large size, we bring the icon back in and content areas are shifted over two columns. The layout component has push and pull helpers that we can use to manipulate where a content area is placed in the grid. Here we'll use `colpush` to shift things over by two columns.
 
-    @include media-query(large) {
-        .my_layout--document {
-            .ds_layout__icon {
-                float: left;
-                @include colwidth(2);
-            }
+{% highlight scss %}
+@include media-query(large) {
+    .my_layout--document {
+        .ds_layout__icon {
+            float: left;
+            @include colwidth(2);
+        }
 
-            .ds_layout__header {
-                float: left;
-                @include colwidth(7);
-            }
+        .ds_layout__header {
+            float: left;
+            @include colwidth(7);
+        }
 
-            .ds_layout__content {
-                clear: left;
-                float: left;
-                @include colwidth(7);
-                @include colpush(2);
-            }
+        .ds_layout__content {
+            clear: left;
+            float: left;
+            @include colwidth(7);
+            @include colpush(2);
+        }
 
-            .ds_layout__sidebar {
-                float: left;
-                @include colwidth(3);
-            }
+        .ds_layout__sidebar {
+            float: left;
+            @include colwidth(3);
+        }
 
-            .ds_layout__feedback {
-                clear: left;
-                @include colwidth(7);
-                @include colpush(2);
-            }
+        .ds_layout__feedback {
+            clear: left;
+            @include colwidth(7);
+            @include colpush(2);
         }
     }
+}
+{% endhighlight %}
 
 ### 2. The CSS Grid version
 
 To support the icon, we'll create a new grid area definition for it, following the single-character pattern established in the layout component. The method we used to hide the icon content area in the fallback is still relevant and we will still use it.
 
-    .ds_layout__icon {
-        grid-area: i;
-    }
+{% highlight scss %}
+.ds_layout__icon {
+    grid-area: i;
+}
+{% endhighlight %}
 
 To create the CSS Grid layouts for any breakpoints that differ from the default layout we create new `grid-template-areas` rules. Using the single-character pattern makes it easy to visualise how the template definition should be written.
 
-    @include media-query(medium) {
-        .my_layout--document {
-            grid-template-areas:
-                'h h h h h h h h h h h h'
-                'c c c c c c c c s s s s'
-                'f f f f f f f f . . . .';
-        }
+{% highlight scss %}
+@include media-query(medium) {
+    .my_layout--document {
+        grid-template-areas:
+            'h h h h h h h h h h h h'
+            'c c c c c c c c s s s s'
+            'f f f f f f f f . . . .';
     }
+}
 
-    @include media-query(large) {
-        .my_layout--document {
-            grid-template-areas:
-                'i i h h h h h h h . . .'
-                '. . c c c c c c c s s s'
-                '. . f f f f f f f . . .';
-        }
+@include media-query(large) {
+    .my_layout--document {
+        grid-template-areas:
+            'i i h h h h h h h . . .'
+            '. . c c c c c c c s s s'
+            '. . f f f f f f f . . .';
     }
+}
+{% endhighlight %}

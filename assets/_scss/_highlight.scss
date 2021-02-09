@@ -50,10 +50,12 @@ $subheading: $ds_colour__grey--medium;
 .highlight .m { color: $number } /* Literal.Number */
 .highlight .s { color: $attribute } /* Literal.String */
 .highlight .na { color: $variablename } /* Name.Attribute */
+.highlight .nl { color: $variablename } /* Name.Attribute */
 .highlight .nb { color: $builtin } /* Name.Builtin */
 .highlight .nc { color: $class; font-weight: bold } /* Name.Class */
 .highlight .no { color: $variablename } /* Name.Constant */
 .highlight .ni { color: $entity } /* Name.Entity */
+.highlight .nd { color: $function }
 .highlight .ne { color: $exception; font-weight: bold } /* Name.Exception */
 .highlight .nf { color: $function; font-weight: bold } /* Name.Function */
 .highlight .nn { color: $namespace } /* Name.Namespace */
