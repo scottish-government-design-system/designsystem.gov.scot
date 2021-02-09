@@ -16,23 +16,23 @@ class cookiePreferences {
         this.preferencesElement.classList.remove(className);
 
         if (this.formElement) {
+            this.cookiePermissions = {};
             this.setFormOptions();
 
-            this.formElement.addEventListener('submit', function (event) {
+            this.formElement.addEventListener('submit', event => {
                 event.preventDefault();
 
                 const inputs = document.querySelectorAll('input[name^="cookie"][value="true"]');
 
                 for (let j = 0, jl = inputs.length; j < jl; j++) {
                     const thisInput = inputs[j];
-
-                    cookiePermissions[thisInput.name.replace('cookie-', '')] = thisInput.checked;
+                    this.cookiePermissions[thisInput.name.replace('cookie-', '')] = thisInput.checked;
                 }
 
                 storage.set({
                     type: 'cookie',
                     category: 'necessary',
-                    value: JSON.stringify(cookiePermissions),
+                    value: JSON.stringify(this.cookiePermissions),
                     name: 'cookiePermissions',
                     expiry: 365
                 });
@@ -69,10 +69,9 @@ class cookiePreferences {
             type: 'cookie',
             name: 'cookiePermissions'
         });
-        let cookiePermissions = {};
 
         if (cookiePermissionsString && storage.isJsonString(cookiePermissionsString)) {
-            cookiePermissions = JSON.parse(cookiePermissionsString);
+            this.cookiePermissions = JSON.parse(cookiePermissionsString);
         }
 
         for (let i = 0, il = inputGroups.length; i < il; i++) {
@@ -80,7 +79,7 @@ class cookiePreferences {
 
             const groupName = inputGroup.querySelector('input[type="radio"]').name;
 
-            if (cookiePermissions[groupName.replace('cookie-', '')]) {
+            if (this.cookiePermissions[groupName.replace('cookie-', '')]) {
                 inputGroup.querySelector('input[id$="-yes"]').setAttribute('checked', true);
             } else {
                 inputGroup.querySelector('input[id$="-no"]').setAttribute('checked', true);
