@@ -1,8 +1,7 @@
 figure {
-    border: 1px solid $ds_colour__border;
-    box-shadow: 4px 4px $ds_colour__border;
-
     @include block-margins;
+
+    border: 1px solid $ds_colour__border;
 
     > img {
         display: block;

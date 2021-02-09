@@ -68,7 +68,9 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
                         <label class="ds_accordion-item__label" for="panel-{{include.name}}-1"><span class="visually-hidden">Show this section</span></label>
                     </div>
                     <div class="ds_accordion-item__body  example__accordion-body--code">
-                        <pre class="example__pre"><code class="example__code html">{{item.content | xml_escape}}</code></pre>
+{% highlight html %}
+{{item.content}}
+{% endhighlight %}
                     </div>
                 </div>
                 {% endunless %}

@@ -33,6 +33,10 @@ $example__highlight-colour: $ds_colour__link--current__background !default;
     width: 100%;
 }
 
+example__accordion-body--code figure {
+    border: 0;
+}
+
 .example__illustration {
     display: block;
 }
@@ -56,16 +60,9 @@ $example__highlight-colour: $ds_colour__link--current__background !default;
 
 .example__accordion-body--code {
     padding: 0 !important;
-}
 
-.highlighter-rouge {
-    background-color: $example__highlight-colour;
-    font-size: 0.8em;
-    margin: 0 0.125em;
-    outline: 3px solid $example__highlight-colour;
-}
-
-.example .hljs {
-    background-color: transparent !important;
-    padding: 16px;
+    figure {
+        border: 0;
+        margin: 0;
+    }
 }
