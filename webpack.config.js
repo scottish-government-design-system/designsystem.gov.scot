@@ -2,7 +2,7 @@ const path = require('path');
 
 const commonEntries = {
   'cookie': [
-    path.resolve(__dirname, 'assets/scripts/cookies.js')
+    path.resolve(__dirname, 'assets/scripts/cookie-preferences.js')
   ],
   'gtm': [
     path.resolve(__dirname, 'assets/scripts/gtm.js')

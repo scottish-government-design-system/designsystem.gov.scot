@@ -1,4 +1,5 @@
 import { initAll } from '../../node_modules/@scottish-government/pattern-library/src/all';
+import CookiePreferences from './cookie-preferences';
 
 window.DS = window.DS || {};
 
@@ -28,3 +29,9 @@ if (window.DS.tracking) {
 }
 
 initAll();
+
+const cookiePreferencesEl = document.querySelector('[data-module="cookie-preferences"]');
+if (cookiePreferencesEl) {
+    const cookiePreferences = new CookiePreferences(cookiePreferencesEl);
+    cookiePreferences.init();
+}
