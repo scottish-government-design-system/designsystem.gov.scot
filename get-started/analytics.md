@@ -24,7 +24,10 @@ Our triggers are specific and our tags are more general, meaning that there is a
 
 In our reporting, our Event Category contains the name of the tag. For most of the tracking these this will work in Google Tag Manager:
 
-<pre style="overflow: auto; margin-bottom: 16px;"><code>{% raw %}Event Category: Navigation {{Page Path}}
+{% highlight html %}
+{% raw %}
+Event Category: Navigation {{Page Path}}
 Event Action: {{AEV – data-navigation/footer/header/search}} >> {{Click Text}}
 Event Label: {{AEV – Path}}
-{% endraw %}</code></pre>
+{% endraw %}
+{% endhighlight %}

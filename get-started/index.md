@@ -14,7 +14,7 @@ includeInPrevNext: true
 hideFromPrevNext: true
 ---
 
-You’ll need to [set up your project](/get-started/installation/) to be able to use our Design System. 
+You’ll need to [set up your project](/get-started/installation/) to be able to use the Design System. 
 
 ## Accessibility
 

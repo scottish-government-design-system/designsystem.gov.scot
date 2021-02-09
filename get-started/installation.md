@@ -11,9 +11,9 @@ permalink: "/get-started/installation/"
 sorttype: 'index'
 ---
 
-We recommend using npm to install our Design System. This is because:
-* npm makes it easier for you to stay up to date with any changes or bug fixes
-* installing with npm gives you some extra options to make quick changes to a component or pattern that you’re using
+We recommend using npm to install the Design System and compiling the CSS from the source. This is because:
+* npm makes it easier for you to stay up to date with any additions or bug fixes
+* there are some easy component customisation options available to you if you compile the CSS yourself
 
 ## What you need to do
 
@@ -41,21 +41,23 @@ We recommend using npm to install our Design System. This is because:
 
 A typical starting point for your main SCSS file might look something like this.
 
-<pre><code class="lang-scss">@import "/path/to/base/all-base";
+{% highlight css %}
+@import "/path/to/base/all-base";
 @import "/path/to/forms/all-forms";
 @import "/path/to/components/all-components";
-</code></pre>
+{% endhighlight %}
 
 You’ll always need to include the base styles in your file. They contain the typography and colour rules used by the components, and a number of helpful SASS mixins and functions used by them.
 
-You can choose which components you want to include . You do not need to include them all if you do not want to. For example:
+You can choose which components you want to include. You do not need to include them all if you do not want to. For example:
 
-<pre><code class="lang-scss">@import "/path/to/base/all-base";  
+{% highlight css %}
+@import "/path/to/base/all-base";  
 @import "/path/to/forms/all-forms";  
 @import "/path/to/components/accordion/accordion";  
 @import "/path/to/components/breadcrumbs/breadcrumbs";  
 @import "/path/to/components/page-header/page-header";
-</code></pre>
+{% endhighlight %}
 
 ### JavaScript
 

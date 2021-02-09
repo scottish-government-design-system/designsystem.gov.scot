@@ -20,6 +20,8 @@ The script logic picks:
 * the attribute name from a set of broad categories
 * the attribute value, derived from the context the component is used in
 
+For example, this is some markup for a simple Design System button:
+
 {% highlight html %}
 <button class="ds_button">
     Start here

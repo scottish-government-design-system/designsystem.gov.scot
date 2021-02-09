@@ -164,7 +164,7 @@ You should use all elements taken from the Design System without making any chan
 * spacing 
 * interactive states
 
-As all custom palettes include core colours from our Design System, our elements will match your custom palette without the need to change any CSS.
+As all custom palettes include core colours from the Design System, our elements will match your custom palette without the need to change any CSS.
 
 ## Accessible use of colour
 
