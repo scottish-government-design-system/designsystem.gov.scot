@@ -26,10 +26,12 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
 
 <noscript>
 <div class="ds_warning-text">
-<div class="ds_warning-text__text"> 
-    We've detected from your browser that JavaScript is disabled. Please enable
-    JavaScript in order to change your cookie preferences.
-</div>
+    <strong class="ds_warning-text__icon" aria-hidden="true">!</strong>
+    <strong class="visually-hidden">Warning</strong>
+    <div class="ds_warning-text__text"> 
+        We've detected from your browser that JavaScript is disabled. Please enable
+        JavaScript in order to change your cookie preferences.
+    </div>
 </div>
 </noscript>
 
