@@ -33,7 +33,7 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
 </div>
 </noscript>
 
-<div class="fully-hidden  ds_card  form-box" style="background: #fafafa; padding: 16px; margin-bottom: 32px;" id="cookie-form">
+<div class="fully-hidden  ds_card  form-box" style="background: #fafafa; padding: 16px; margin-bottom: 32px;" data-module="cookie-preferences" id="cookie-form">
 
 <form id="cookie-preferences">
 

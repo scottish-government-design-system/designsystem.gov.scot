@@ -5,11 +5,7 @@ import storage from '../../node_modules/@scottish-government/pattern-library/src
 class cookiePreferences {
     constructor(el) {
         this.preferencesElement = el;
-        this.formElement = el.querySelector('#cookie-form');
-        this.cookiePermissionsString = storage.get({
-            type: 'cookie',
-            name: 'cookiePermissions'
-        });
+        this.formElement = el.querySelector('#cookie-preferences');
     }
 
     init() {
@@ -20,26 +16,7 @@ class cookiePreferences {
         this.preferencesElement.classList.remove(className);
 
         if (this.formElement) {
-            const inputGroups = this.formElement.querySelectorAll('.ds_field-group');
-            let cookiePermissions = {};
-
-            if (storage.isJsonString(this.cookiePermissionsString)) {
-                cookiePermissions = JSON.parse(this.cookiePermissionsString);
-            } else {
-                cookiePermissions = {};
-            }
-
-            for (let i = 0, il = inputGroups.length; i < il; i++) {
-                const inputGroup = inputGroups[i];
-
-                const groupName = inputGroup.querySelector('input[type="radio"]').name;
-
-                if (cookiePermissions[groupName.replace('cookie-', '')]) {
-                    inputGroup.querySelector('input[id$="-yes"]').setAttribute('checked', true);
-                } else {
-                    inputGroup.querySelector('input[id$="-no"]').setAttribute('checked', true);
-                }
-            }
+            this.setFormOptions();
 
             this.formElement.addEventListener('submit', function (event) {
                 event.preventDefault();
@@ -74,6 +51,40 @@ class cookiePreferences {
 
                 window.scrollTo(window.scrollX, 0);
             });
+
+            const cookieBannerButtons = [].slice.call(document.querySelectorAll('.js-accept-all-cookies, .js-accept-essential-cookies'));
+            cookieBannerButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    window.setTimeout(() => {
+                        this.setFormOptions();
+                    }, 0);
+                });
+            });
+        }
+    }
+
+    setFormOptions () {
+        const inputGroups = this.formElement.querySelectorAll('.ds_field-group');
+        const cookiePermissionsString = storage.get({
+            type: 'cookie',
+            name: 'cookiePermissions'
+        });
+        let cookiePermissions = {};
+
+        if (cookiePermissionsString && storage.isJsonString(cookiePermissionsString)) {
+            cookiePermissions = JSON.parse(cookiePermissionsString);
+        }
+
+        for (let i = 0, il = inputGroups.length; i < il; i++) {
+            const inputGroup = inputGroups[i];
+
+            const groupName = inputGroup.querySelector('input[type="radio"]').name;
+
+            if (cookiePermissions[groupName.replace('cookie-', '')]) {
+                inputGroup.querySelector('input[id$="-yes"]').setAttribute('checked', true);
+            } else {
+                inputGroup.querySelector('input[id$="-no"]').setAttribute('checked', true);
+            }
         }
     }
 }
