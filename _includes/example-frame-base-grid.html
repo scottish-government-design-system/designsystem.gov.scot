@@ -24,7 +24,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
     <iframe
         style="min-height: {{item.minheight}}"
         data-style="{{style}}"
-        src="example.{{include.name}}.html"
+        src="example.{{include.name}}.html?{{site.time | date: '%s'}}"
         class="example__iframe example__content  example__demo"
         onload="resizeIframe(this)"
 
