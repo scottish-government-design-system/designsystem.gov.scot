@@ -10,7 +10,7 @@ minheight: 581px
     <input type="checkbox" class="fully-hidden  js-toggle-side-navigation" id="show-side-navigation" aria-controls="side-navigation-root" />
     <label class="ds_side-navigation__expand  ds_link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="ds_side-navigation__expand-indicator"></span></label>
 
-    <ul class="ds_side-navigation__list  ds_side-navigation__list--root" id="side-navigation-root">
+    <ul class="ds_side-navigation__list" id="side-navigation-root">
         <li class="ds_side-navigation__item  ds_side-navigation__item--has-children  ds_side-navigation__item--has-children--expanded">
             <a href="#" class="ds_side-navigation__link">Apples</a>
             <ul class="ds_side-navigation__list">
