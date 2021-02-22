@@ -1,6 +1,6 @@
 ---
-title: 'Digital Service Standard'
-signpostUrl: https://resources.mygov.scot/standards/digital-first/
+title: 'Digital Scotland Service Standard'
+signpostUrl: https://www.gov.scot/publications/digital-scotland-service-standard/
 category: homepage-links
 ---
-The minimum standard required when delivering a digital public service.
+The service standard is a set of 14 criteria that all organisations delivering public services should work towards.

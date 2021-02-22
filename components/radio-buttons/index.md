@@ -59,3 +59,7 @@ We use a custom style for radio buttons so that they're larger and easier to use
 Radio buttons can be tracked through the original page path and a data attribute showing the question type and value selected.
 
 The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#radio-buttons).
+
+## Accessibility
+
+We use a custom style for radio buttons so that they're larger and easier to use than the standard radio buttons defined by the user's browser. We also use a custom style to make their focussed and selected states clearer.

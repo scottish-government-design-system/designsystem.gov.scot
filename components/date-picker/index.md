@@ -12,9 +12,9 @@ phase: 4
 
 ## About this component
 
-The date picker is a component that helps users to complete date input fields. To help with accessibility, it can be used with a keyboard, as well as mouse or touchscreen. 
+The date picker is a component that helps users to complete date input fields. To help with accessibility, it can be used with a keyboard, as well as mouse or touchscreen.
 
-The date picker can be set with limits on the dates that users can select. 
+The date picker can be set with limits on the dates that users can select.
 
 The date picker component can use a variety of date formats, with the UK style of _date-month-year_ used by default.
 
@@ -28,7 +28,7 @@ To understand user behaviour, clicks on date picker items can be tracked through
 
 The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/).
 
-## Accessibility features
+## Accessibility
 
 ### Keyboard support
 

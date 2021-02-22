@@ -20,12 +20,13 @@ The site search component can be reused across a site, such as in a site’s hea
 
 Site search is a commonly recognised component which allows users to quickly find the content they need on a site.
 
-## Accessibility features
-
-The form field and magnifying glass button should both include a text label that is hidden from visual browsers.  
-
-The form should have a role of 'Search'.  
 
 ## Website analytics
 
 Searches from search boxes are tracked as standard via analytics site search settings through the use of the "q" parameter.
+
+## Accessibility
+
+The form field and magnifying glass button should both include a text label that is hidden from visual browsers.  
+
+The form should have a role of 'Search'.

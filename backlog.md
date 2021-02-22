@@ -20,6 +20,14 @@ permalink: '/backlog/'
     </thead>
     <tbody>
         <tr>
+            <td>Account login</td>
+            <td>To do</td>
+        </tr>
+        <tr>
+            <td>Address lookup</td>
+            <td>To do</td>
+        </tr>
+        <tr>
             <td>Audio player guidance</td>
             <td>To do</td>
         </tr>
@@ -32,8 +40,8 @@ permalink: '/backlog/'
             <td class="confluenceTd">To do</td>
         </tr>
         <tr>
-            <td>Back to top link</td>
-            <td>In progress</td>
+            <td>Bank details</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Callout</td>
@@ -45,7 +53,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Card</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Card navigation</td>
@@ -73,14 +81,26 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td class="confluenceTd">Cookie banner</td>
-            <td class="confluenceTd">To do</td>
+            <td class="confluenceTd">In progress</td>
         </tr>
         <tr>
             <td class="confluenceTd">Cookie page</td>
-            <td class="confluenceTd">To do</td>
+            <td class="confluenceTd">In progress</td>
+        </tr>
+        <tr>
+            <td>Date Input (DOB)</td>
+            <td>To do</td>
+        </tr>
+        <tr>
+            <td>Details</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Document history</td>
+            <td>To do</td>
+        </tr>
+        <tr>
+            <td>Email address</td>
             <td>To do</td>
         </tr>
         <tr>
@@ -89,13 +109,19 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Featured search box</td>
-            <td>
-                To do
-            </td>
+            <td>To do</td>
+        </tr>
+        <tr>
+            <td>Field set</td>
+            <td>To do</td>
+        </tr>
+        <tr>
+            <td>File upload</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Form navigation / progress</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Grid navigation</td>
@@ -108,7 +134,11 @@ permalink: '/backlog/'
         <tr>
             <td>Hero banner</td>
             <td>Proposed</td>
-        </tr>
+        </tr>  
+        <tr>
+              <td>Icons and iconography</td>
+              <td>In progress</td>
+          </tr>
         <tr>
             <td>Icons - Document type icons</td>
             <td>To do</td>
@@ -122,6 +152,10 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
+            <td>Maps</td>
+            <td>To do</td>
+        </tr>
+        <tr>
             <td>Media category item</td>
             <td>In progress</td>
         </tr>
@@ -130,7 +164,7 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Maps</td>
+            <td>National insurance numbers</td>
             <td>To do</td>
         </tr>
         <tr>
@@ -139,6 +173,10 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Page metadata</td>
+            <td>To do</td>
+        </tr>
+        <tr>
+            <td>Passwords</td>
             <td>To do</td>
         </tr>
         <tr>
@@ -154,10 +192,6 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Postcode lookup</td>
-            <td>To do</td>
-        </tr>
-        <tr>
             <td>Prologue and epilogue text</td>
             <td>In progress</td>
         </tr>
@@ -166,27 +200,27 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
+            <td>Recaptcha</td>
+            <td>To do</td>
+        </tr>
+        <tr>
             <td>Related items</td>
             <td>In progress</td>
         </tr>
         <tr>
             <td>Repeating fields with 'add another' button</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
-            <td>
-                Secondary footer
-            </td>
+            <td>Secondary footer</td>
             <td>Proposed</td>
         </tr>
         <tr>
-            <td>Skip link</td>
-            <td>
-                To do
-            </td>
+            <td>Smart answer</td>
+            <td>To do</td>
         </tr>
         <tr>
-            <td>Spacing</td>
+            <td>Skip link</td>
             <td>In progress</td>
         </tr>
         <tr>
@@ -202,6 +236,10 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
+            <td>Summary list</td>
+            <td>To do</td>
+        </tr>
+        <tr>
             <td>Tabs</td>
             <td>In progress</td>
         </tr>
@@ -210,7 +248,7 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Quick exit</td>
+            <td>Task list</td>
             <td>In progress</td>
         </tr>
     </tbody>

@@ -40,7 +40,7 @@ Where there may be issues with repetition or page titles are too long, a version
 
 {% include example-frame.html name="no-current" %}
 
-## Website analytics / performance 
+## Website analytics
 
 To understand user behaviour, clicks on breadcrumb items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number.
 

@@ -11,7 +11,7 @@ phase: 3
 
 ## About this component
 
-Error messages are shown next to the field where there's been a problem, and also in the error summary at the top of the page. 
+Error messages are shown next to the field where there's been a problem, and also in the error summary at the top of the page.
 
 Error messages should:
 
@@ -25,12 +25,13 @@ They should not be used to tell users that they cannot apply for something, such
 
 Helps users to easily and quickly correct an error when filling in an online form.
 
-## Accessibility Features
-
-To help screen reader users, the error message component includes a hidden 'Error:' before the error message. These users will hear, for example: "Error: the date your passport was issued must be in the past."
 
 ## Website analytics
 
 To understand the incidence of validation error messages, they can be tracked through the original page path, the error text, and a data attribute showing the type of error.
 
 The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#error-message).
+
+## Accessibility
+
+To help screen reader users, the error message component includes a hidden 'Error:' before the error message. These users will hear, for example: "Error: the date your passport was issued must be in the past."

@@ -41,7 +41,7 @@ To understand user behaviour, clicks on side navigation items can be tracked thr
 
 The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#side-navigation).
 
-## Accessibility features
+## Accessibility
 Aria attributes describe whether the side navigation is open or closed.
 
 Find out more about accessibility requirements that should be applied to all online services in the dedicated [accessibility section of this site](/accessibility/).
