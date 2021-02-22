@@ -45,14 +45,14 @@ The error state for checkboxes marks the entire fieldset.
 
 {% include example-frame.html name="error" %}
 
-## Accessibility
-
-We use a custom style for checkboxes so that they're larger and easier to use than the standard checkboxes defined by a browser. We also use a custom style to make their focussed and selected states clearer.
-
-Checkboxes should only be stacked vertically. This makes tabbing through the checkboxes easier to follow. It also ensures better visibility of the options for screen magnifier users.
-
 ## Website analytics
 
 Checkbox items can be tracked through the original page path and a data attribute identifying the checkbox and its value, if set.
 
 The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#checkboxes).
+
+## Accessibility
+
+We use a custom style for checkboxes so that they're larger and easier to use than the standard checkboxes defined by a browser. We also use a custom style to make their focussed and selected states clearer.
+
+Checkboxes should only be stacked vertically. This makes tabbing through the checkboxes easier to follow. It also ensures better visibility of the options for screen magnifier users.

@@ -52,7 +52,7 @@ You should include a [Schema](https://schema.org) representation of the breadcru
 
 This [Google structured data guidance for breadcrumbs](https://developers.google.com/search/docs/data-types/breadcrumb) is a helpful reference.
 
-## Accessibility features
+## Accessibility
 
 * Use of a <nav> element with aria-label="breadcrumb" is recommended. You can find out more about this on [GitHub](https://github.com/alphagov/govuk-design-system-backlog/issues/33).
 * This breadcrumb component contains all the accessibility features for breadcrumbs described in WAI-ARIA’s authoring practices for breadcrumbs.

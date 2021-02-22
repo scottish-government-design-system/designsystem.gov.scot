@@ -58,7 +58,7 @@ The data attributes are added automatically by the [Design System's "tracking" s
 Where the site search is being used on a single-page app or it is not possible to put the search query in to the URL, the query could be included in the dataLayer for the page.
 </div></div>
 
-## Accessibility features
+## Accessibility
 
 Search suggestions use WAI-ARIA attributes to give more context for screen reader users. They include:  
 

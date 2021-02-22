@@ -50,9 +50,6 @@ If you are using an inline display for a yes/no choice, make 'Yes' the first opt
 
 {% include example-frame.html name="inline" %}
 
-## Accessibility
-
-We use a custom style for radio buttons so that they're larger and easier to use than the standard radio buttons defined by the user's browser. We also use a custom style to make their focussed and selected states clearer.
 
 ## Website analytics
 
