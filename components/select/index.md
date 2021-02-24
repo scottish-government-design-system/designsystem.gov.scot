@@ -6,6 +6,11 @@ subcategory: forms
 parent: components
 thispage: component.select
 phase: 3
+
+examples:
+  - site: mygov.scot
+    url: https://www.mygov.scot/scotland-bank-holidays/
+    name: "Public and bank holidays"
 ---
 We based our select component on the one built by GDS. [Find out more about the select component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/select/).
 

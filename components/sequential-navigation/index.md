@@ -8,9 +8,9 @@ summary: "A ‘next’ and ‘previous’ link to pages that come before or afte
 phase: 1
 
 examples:
-  - site: tradingnation.mygov.scot
-    url: https://tradingnation.mygov.scot/food-and-drink
-    name: "Food and drink"
+  - site: mygov.scot
+    url: https://www.mygov.scot/apply-blue-badge/
+    name: "Apply for a new Blue Badge"
 ---
 
 

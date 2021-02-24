@@ -6,6 +6,11 @@ parent: components
 thispage: component.table
 phase: 3
 summary: The Design System's table component make it easier to compare and scan information.
+
+examples:
+  - site: mygov.scot
+    url: https://www.mygov.scot/scotland-bank-holidays/
+    name: "Public and bank holidays"
 ---
 
 ## Usage
