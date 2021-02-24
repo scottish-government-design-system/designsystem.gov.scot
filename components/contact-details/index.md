@@ -7,6 +7,11 @@ label: component
 thispage: component.contact-details
 summary: "A template for displaying contact details in a consistent way across different pages."
 phase: 2
+
+examples:
+  - site: mygov.scot
+    url: https://www.mygov.scot/veterans-charities/
+    name: "Veterans' support organisations"
 ---
 
 

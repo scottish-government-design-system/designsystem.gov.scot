@@ -8,6 +8,11 @@ summary: "The 'Hide this page' component helps users to exit a service, website 
 phase: 4
 example:
   no-demo: true
+
+examples:
+  - site: mygov.scot
+    url: https://www.mygov.scot/legal-advice/
+    name: "Help with a legal problem"
 ---
 
 ## About this component
