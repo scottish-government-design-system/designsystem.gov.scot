@@ -8,9 +8,9 @@ summary: "A header block used on category pages featuring the title, a summary a
 phase: 1
 
 examples:
-  - site: tradingnation.mygov.scot
-    url: https://tradingnation.mygov.scot/sectors
-    name: "Sector profiles"
+  - site: mygov.scot
+    url: https://www.mygov.scot/benefits/
+    name: "Benefits and grants"
 ---
 
 ## About this component

@@ -8,6 +8,10 @@ thispage: component.accordion
 summary: "An accordion is a list of collapsed content items. A user can expand any item in the list to view its contents."
 phase: 2
 
+examples:
+  - site: mygov.scot
+    url: https://www.mygov.scot/give-feedback/
+    name: "Feedback"
 ---
 
 ## About this component

@@ -9,9 +9,9 @@ summary: "A breadcrumb shows a user where they are in a website’s structure. I
 phase: 1
 
 examples:
-  - site: tradingnation.mygov.scot
-    url: https://tradingnation.mygov.scot/food-and-drink
-    name: "Food and drink"
+  - site: mygov.scot
+    url: https://www.mygov.scot/best-start-grant-best-start-foods/
+    name: "Best Start Grant and Best Start Foods"
 ---
 
 ## About this component
