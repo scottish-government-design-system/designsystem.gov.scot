@@ -10,8 +10,8 @@ phase: 1
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/best-start-grant-best-start-foods/
-    name: "Best Start Grant and Best Start Foods"
+    url: https://www.mygov.scot/getting-married/
+    name: "Marriage in Scotland"
 ---
 
 ## About this component

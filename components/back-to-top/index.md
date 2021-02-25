@@ -10,8 +10,8 @@ example:
   no-demo: true
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/best-start-grant-best-start-foods/
-    name: "Best Start Grant and Best Start Foods"
+    url: https://www.mygov.scot/getting-married/
+    name: "Marriage in Scotland"
 ---
 ## About this component
 The back to top link works on desktop and on mobile content items. It appears when the user is interacting with a long page of content. It's a shortcut that allows users to quickly navigate back to the top of the page.
