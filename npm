@@ -1,0 +1,22 @@
+#!/bin/sh
+set -eu
+
+npm() {
+  if tty -s; then
+    tty_opt=--tty
+  else
+    tty_opt=
+  fi
+  docker run \
+    $tty_opt \
+    --interactive \
+    --rm \
+    --user $(id -u) \
+    --env HOME=/tmp \
+    --volume $PWD:/mnt \
+    --workdir /mnt \
+    node:10.24.0-alpine3.11 \
+    npm "$@"
+}
+
+npm "$@"

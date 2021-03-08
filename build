@@ -1,6 +1,15 @@
 #!/bin/sh
 # Build the site using Jekyll in Docker
 set -eu
-./npm-install
+checksum=node_modules/.npm
+alias npm=$PWD/npm
+alias jekyll=$PWD/jekyll
+
+if [ ! -e "$checksum" ] || ! shasum -a1 --status -c "$checksum" ; then
+  mkdir -p node_modules
+  npm prune &&
+    npm install &&
+    shasum -a1 package.json npm-shrinkwrap.json > "$checksum"
+fi
 npm run webpack
-./jekyll build
+jekyll build
