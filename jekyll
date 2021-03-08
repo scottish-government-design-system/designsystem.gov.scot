@@ -16,7 +16,7 @@ id=$(docker images \
   -f "reference=${image}" \
   --format '{{.ID}}')
 if [ -z "$id" ]; then
-  docker build -t "$image" .
+  docker build -t "$image" - < Dockerfile
 fi
 docker run $OPTS \
   --rm \
