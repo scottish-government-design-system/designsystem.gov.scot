@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.back-to-top
+parent: component.skip-links
 type: example
 index: 0
 illustration: assets/images/examples/back-to-top.png
