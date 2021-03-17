@@ -4,7 +4,6 @@ title:  "Table"
 category: components
 parent: components
 thispage: component.table
-phase: 3
 summary: The Design System's table component make it easier to compare and scan information.
 
 examples:

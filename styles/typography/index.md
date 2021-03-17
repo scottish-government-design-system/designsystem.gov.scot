@@ -5,7 +5,6 @@ category: styles
 parent: styles
 thispage: style.typography
 #summary: ""
-phase: 2
 ---
 
 ## Font 

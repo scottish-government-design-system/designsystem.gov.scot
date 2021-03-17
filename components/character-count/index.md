@@ -6,7 +6,6 @@ subcategory: forms
 parent: components
 thispage: component.character-count
 summary: "A live count of the remaining permitted characters in an input field"
-phase: 3
 ---
 
 ## About this component

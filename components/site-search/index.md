@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.site-search
 summary: "A search box that allows users to search a site for a keyword or phrase."
-phase: 1
 ---
 
 ## About this component
@@ -27,6 +26,6 @@ Searches from search boxes are tracked as standard via analytics site search set
 
 ## Accessibility
 
-The form field and magnifying glass button should both include a text label that is hidden from visual browsers.  
+The form field and magnifying glass button both include a text label that is hidden from visual browsers but that will be available for screen readers.
 
-The form should have a role of 'Search'.
+The form has a role of 'Search'.

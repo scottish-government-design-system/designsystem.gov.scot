@@ -4,7 +4,6 @@ title:  "Tabs"
 category: componentsx
 parent: components
 thispage: component.tabs
-phase: 3
 summary: Tabs organise content and allow navigation across the page between sections of related content.  They allow the user to view one section of content at a time.
 noindex: true
 

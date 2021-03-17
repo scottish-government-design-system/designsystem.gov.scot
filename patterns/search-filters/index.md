@@ -6,6 +6,5 @@ parent: patterns
 label: component
 thispage: component.search-filters
 summary: ""
-phase: 2
 published: false
 ---

@@ -5,8 +5,6 @@ navitems: components
 parent: home
 title: "Components"
 category: library
-childrenHavePrevNext: true
-includeInPrevNext: true
 index: 1
 summary: "Components are parts of code that can be easily lifted and reused. They’re usually self-contained elements of a website, such as a banner, breadcrumb or footer."
 ---

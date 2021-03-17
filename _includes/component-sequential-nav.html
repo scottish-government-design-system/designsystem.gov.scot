@@ -1,65 +1,55 @@
-{% if page.includeInPrevNext %}
-    {% assign array = "" | split: ", " %}
-    {% assign parentCatPage = page | concat: array %}
-{% else %}
-    {% assign parentCatPage = site.pages | where: "thispage", page.parent %}
-{% endif %}
+{% assign flattenedNavItems = "" | split: ',' %}
 
-{% assign hasSequentialNav = parentCatPage[0].childrenHavePrevNext %}
+{% assign flattenedNavItems = flattenedNavItems | push: section %}
 
-{% if hasSequentialNav %}
-
-    {% if page.sorttype %}
-        {% assign sorttype = page.sorttype %}
-    {% else %}
-        {% assign sorttype = 'title' %}
+{% for item in sectionData.items %}
+    {% assign flattenedNavItems = flattenedNavItems | push: item %}
+    {% if item.items %}
+        {% for item in item.items %}
+            {% assign flattenedNavItems = flattenedNavItems | push: item %}
+        {% endfor %}
     {% endif %}
+{% endfor %}
 
-    {% assign indexed = site.pages | where:"category", parentCatPage[0].navitems | where_exp: "item", "item.hidden != true" | sort: sorttype, 'first' %}
+{% for item in flattenedNavItems %}
+    {% unless item.draft %}
+        {% assign currentFound = false %}
 
-    {% unless page.hideFromPrevNext %}
-        {% assign indexed = parentCatPage | concat: indexed %}
-    {% endunless %}
-
-    {% for item in indexed %}
         {% if item.url == page.url %}
-            {% assign pageIndex = forloop.index %}
-        {% endif %}
-    {% endfor %}
-
-    {% for item in indexed %}
-        {% assign nextIndex = pageIndex | plus: 1 %}
-        {% assign prevIndex = pageIndex | plus: -1 %}
-
-        {% if forloop.index == nextIndex %}
-            {% assign nextItem = item %}
+            {% assign current = item %}
+            {% assign currentFound = true %}
         {% endif %}
 
-        {% if forloop.index == prevIndex %}
+        {% if current %}
+            {% unless currentFound %}
+                {% unless nextItem %}
+                    {% assign nextItem = item %}
+                {% endunless %}
+            {% endunless %}
+        {% else %}
             {% assign prevItem = item %}
         {% endif %}
-    {% endfor %}
+    {% endunless %}
+{% endfor %}
 
-    <nav class="ds_sequential-nav">
-        {% if prevItem %}
-        <div class="ds_sequential-nav__item  ds_sequential-nav__item--prev">
-            <a title="Previous section" href="{{prevItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--left">
-                <span class="ds_sequential-nav__text" data-label="previous">
-                    {{prevItem.title}}
-                </span>
-            </a>
-        </div>
-        {% endif %}
+<nav class="ds_sequential-nav">
+    {% if prevItem %}
+    <div class="ds_sequential-nav__item  ds_sequential-nav__item--prev">
+        <a title="Previous section" href="{{prevItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--left">
+            <span class="ds_sequential-nav__text" data-label="previous">
+                {{prevItem.title}}
+            </span>
+        </a>
+    </div>
+    {% endif %}
 
-        {% if nextItem %}
-        <div class="ds_sequential-nav__item  ds_sequential-nav__item--next">
-            <a title="Next section" href="{{nextItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--right">
-                <span class="ds_sequential-nav__text" data-label="next">
-                    {{nextItem.title}}
-                </span>
-            </a>
-        </div>
-        {% endif %}
-    </nav>
-
-{% endif %}
+    {% if nextItem %}
+    <div class="ds_sequential-nav__item  ds_sequential-nav__item--next">
+        <a title="Next section" href="{{nextItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--right">
+            <span class="ds_sequential-nav__text" data-label="next">
+                {{nextItem.title}}
+            </span>
+        </a>
+    </div>
+    {% endif %}
+</nav>

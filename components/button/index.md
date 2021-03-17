@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.button
 #summary: ""
-phase: 3
 ---
 
 Button styling can be applied to either button or link elements. Use the appropriate element for the task: use a button element when the user is performing an action, use a link element when the user is navigating.

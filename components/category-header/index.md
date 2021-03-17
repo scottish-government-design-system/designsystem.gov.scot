@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.category-header
 summary: "A header block used on category pages featuring the title, a summary and an illustration."
-phase: 1
 
 examples:
   - site: mygov.scot

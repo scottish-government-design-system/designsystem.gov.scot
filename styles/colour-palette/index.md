@@ -5,7 +5,6 @@ category: styles
 parent: styles
 thispage: style.colour
 summary: "Our brand colours and how to apply them"
-phase: 2
 ---
 
 ## Using colour

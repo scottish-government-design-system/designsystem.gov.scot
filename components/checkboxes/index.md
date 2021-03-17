@@ -6,7 +6,6 @@ subcategory: forms
 parent: components
 label: component
 thispage: component.checkboxes
-phase: 3
 summary: "The checkbox component allows users to pick the option or options they want from a list, by checking one or more boxes."
 ---
 

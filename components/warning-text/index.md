@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.warning-text
 summary: "The warning text component puts a clear notice in a page to tell users about something important. This could be an action they need to take, or something they need to know."
-phase: 3
 
 examples:
   - site: mygov.scot

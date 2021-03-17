@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.phase-banner
 summary: "A phase banner lets users know that a website is being worked on or tested."
-phase: 2
 ---
 
 ## About this component

@@ -5,7 +5,6 @@ category: patterns
 parent: patterns
 thispage: pattern.search-results
 summary: "A list displaying all the search results found after a user has made a search."
-phase: 1
 #examples:
 #  - site: gov.scot
 #    url: https://www.gov.scot/publications/2018-19-autumn-budget-revision-supporting-document/

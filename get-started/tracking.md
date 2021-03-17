@@ -6,10 +6,8 @@ parent: get-started
 label: How to
 thispage: get-started.tracking
 summary: ""
-phase: 2
 permalink: "/get-started/tracking/"
 index: 999
-sorttype: 'index'
 ---
 
 The Design System has a script that add 'data attributes' to components. Analytics software can use these data attributes to track user behaviour and measure performance. The script adds data attributes automatically, but developers still have some control over them.
@@ -125,12 +123,12 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#error-message">
+            <a class="ds_contents-nav__link" href="#warning-message">
                 Error message
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#error-summary">
+            <a class="ds_contents-nav__link" href="#warning-summary">
                 Error summary
             </a>
         </li>

@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.sequential-navigation
 summary: "A ‘next’ and ‘previous’ link to pages that come before or after the user’s current web page."
-phase: 1
 
 examples:
   - site: mygov.scot

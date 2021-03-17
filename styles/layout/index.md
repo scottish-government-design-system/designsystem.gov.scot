@@ -5,7 +5,6 @@ category: styles
 parent: styles
 thispage: style.layout
 #summary: ""
-phase: 3
 highlighttype: css
 ---
 The layout component is used to help to arrange content on a page. It is most commonly used in the middle section of the [page template](/styles/page-template). The purpose of the layout component is to make it easy for you to place content into defined areas in your HTML across templates or content formats.

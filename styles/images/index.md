@@ -5,7 +5,6 @@ category: styles
 parent: styles
 thispage: style.images
 summary: "We use images where content may benefit from a supporting example to clarify information"
-phase: 2
 ---
 
 ## Photography

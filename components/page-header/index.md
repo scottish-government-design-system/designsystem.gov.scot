@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.page-header
 summary: "The header for a content page."
-phase: 1
 
 examples:
   - site: mygov.scot

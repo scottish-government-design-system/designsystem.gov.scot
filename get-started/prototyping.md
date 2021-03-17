@@ -6,10 +6,8 @@ parent: get-started
 label: How to
 thispage: get-started.prototyping
 summary: "Rapidly create wireframes and interactive prototypes in Axure RP or Adobe XD using our design kits."
-phase: 2
 permalink: "/get-started/prototyping/"
 index: 999
-sorttype: 'index'
 ---
 <nav role="navigation" class="ds_contents-nav" aria-label="Sections">
     <h2 class="ds_contents-nav__title">Contents</h2>

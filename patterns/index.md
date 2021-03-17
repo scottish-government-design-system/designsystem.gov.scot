@@ -5,8 +5,6 @@ navitems: patterns
 parent: home
 title: "Patterns"
 category: library
-childrenHavePrevNext: true
-includeInPrevNext: true
 index: 2
 summary: "Patterns use a number of components to help users complete a task or process."
 ---

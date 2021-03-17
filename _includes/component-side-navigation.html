@@ -1,34 +1,6 @@
-
 <nav aria-label="Sections" class="ds_side-navigation" data-module="ds-side-navigation">
-    {% unless navitems %}
-        {% assign navitems = page.navitems %}
-    {% endunless %}
-
-    {% if page.sorttype %}
-        {% assign sorttype = page.sorttype %}
-    {% else %}
-        {% assign sorttype = 'title' %}
-    {% endif %}
-
-    {% assign indexed = site.pages | where:"category", navitems | sort: sorttype, 'first' %}
     <input type="checkbox" class="fully-hidden  js-toggle-side-navigation" id="show-side-navigation" aria-controls="side-navigation-root" />
     <label class="ds_side-navigation__expand  ds_link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="ds_side-navigation__expand-indicator"></span></label>
 
-    <ul class="ds_side-navigation__list" id="side-navigation-root">
-        {% for item in indexed %}
-
-        <li class="ds_side-navigation__item {% if item.hidden %}fully-hidden  js-hidden-component{% endif %}">
-            {% if item.title == page.title %}
-            <span class="ds_side-navigation__link  ds_current">
-                {{ item.title }}
-            </span>
-            {% else %}
-            <a class="ds_side-navigation__link" href="{{ item.url }}">
-                {{ item.title }}
-            </a>
-            {% endif %}
-        </li>
-
-        {% endfor %}
-    </ul>
+    {% include component-side-navigation-items.html items=sectionData.items %}
 </nav>

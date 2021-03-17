@@ -5,7 +5,6 @@ category: styles
 parent: styles
 thispage: style.base-grid
 summary: The column grid used for page layouts.
-phase: 1
 ---
 
 ## About this style element

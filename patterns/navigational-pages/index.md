@@ -5,8 +5,6 @@ category: patterns
 parent: patterns
 thispage: pattern.navigational-pages
 summary: "Navigational pages display headings and small pieces of content to help users navigate a website."
-type: major
-phase: 1
 examples:
   - site: tradingnation.mygov.scot
     url: https://tradingnation.mygov.scot/sectors

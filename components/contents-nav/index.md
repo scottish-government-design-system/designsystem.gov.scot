@@ -6,5 +6,4 @@ label: component
 parent: components
 thispage: component.contents-nav
 summary: ""
-phase: 4
 ---

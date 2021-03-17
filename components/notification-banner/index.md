@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.notification-banner
 summary: "A banner highlighting key content that all visitors to a website will need to see."
-phase: 1
 ---
 ## About this component
 The notification banner stretches across the top of a web page, spanning its full width. It pushes everything else on a web page beneath it.

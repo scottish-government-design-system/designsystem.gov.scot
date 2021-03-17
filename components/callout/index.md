@@ -6,7 +6,6 @@ parent: components
 label: component
 thispage: component.callout
 summary: ""
-phase: 4
 experimental: true
 published: false
 ---

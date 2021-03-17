@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.hide-this-page
 summary: "The 'Hide this page' component helps users to exit a service, website or application quickly and safely."
-phase: 4
 example:
   no-demo: true
 

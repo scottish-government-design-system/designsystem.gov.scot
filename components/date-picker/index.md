@@ -6,7 +6,6 @@ parent: components
 label: component
 thispage: component.date-picker
 summary: "Date pickers help a user to input a date into a form."
-phase: 4
 
 examples:
   - site: mygov.scot

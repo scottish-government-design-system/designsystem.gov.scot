@@ -5,7 +5,6 @@ category: styles
 parent: styles
 thispage: style.states
 #summary: ""
-phase: 2
 ---
 
 When a user moves through a web page by jumping between things like the page’s links, buttons or form fields, it needs to be clear to the user which part of the page they’re on.

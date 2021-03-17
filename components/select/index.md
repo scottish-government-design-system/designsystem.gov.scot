@@ -5,7 +5,6 @@ category: components
 subcategory: forms
 parent: components
 thispage: component.select
-phase: 3
 
 examples:
   - site: mygov.scot

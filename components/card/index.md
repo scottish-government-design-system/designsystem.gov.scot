@@ -5,7 +5,6 @@ category: componentsx
 parent: components
 thispage: component.card
 summary: "Components or other content can be placed on cards."
-phase: 1
 
 examples:
   - site: tradingnation.mygov.scot

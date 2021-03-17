@@ -6,7 +6,6 @@ subcategory: forms
 parent: components
 thispage: component.text-input
 summary: ""
-phase: 3
 ---
 
 We based our text input component on the one built by GDS. [Find out more about the text input component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/text-input/).

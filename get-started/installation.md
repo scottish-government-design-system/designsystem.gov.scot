@@ -8,7 +8,6 @@ thispage: get-started.installation
 summary: "How to start using the Design System in your project"
 index: 2
 permalink: "/get-started/installation/"
-sorttype: 'index'
 ---
 
 We recommend using npm to install the Design System and compiling the CSS from the source. This is because:

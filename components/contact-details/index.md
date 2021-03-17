@@ -6,7 +6,6 @@ parent: components
 label: component
 thispage: component.contact-details
 summary: "A template for displaying contact details in a consistent way across different pages."
-phase: 2
 
 examples:
   - site: mygov.scot

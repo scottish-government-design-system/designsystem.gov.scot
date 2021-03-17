@@ -1,0 +1,151 @@
+get-started:
+  title: Get started
+  url: /get-started/
+  items:
+    - title: Installation
+      url: /get-started/installation/
+    - title: Analytics
+      url: /get-started/analytics/
+    - title: Tracking
+      url: /get-started/tracking/
+styles:
+  title: Styles
+  url: /styles/
+  items:
+    - title: Base grid
+      url: /styles/base-grid/
+    - title: Colour
+      url: /styles/colour-palette/
+      items:
+        - title: Colour customisation
+          url: /styles/colour-palette/colour-customisation/
+    - title: Focus states
+      url: /styles/states/
+    - title: Images
+      url: /styles/images/
+    - title: Layout
+      url: /styles/layout/
+    - title:  Page template
+      url: /styles/page-template/
+    - title: Spacing
+      url: /styles/spacing/
+    - title: Typography
+      url: /styles/typography/
+components:
+  title: Components
+  url: /components/
+  items:
+    - title: Accordion
+      url: /components/accordion/
+    - title: Back to top
+      url: /components/back-to-top/
+    - title: Breadcrumbs
+      url: /components/breadcrumbs/
+    - title: Button
+      url: /components/button/
+    - title: Callout
+      url: /components/callout/
+      draft: true
+    - title: Card
+      url: /components/card/
+      draft: true
+    - title: Category header
+      url: /components/category-header/
+    - title: Category item
+      url: /components/category-item/
+      draft: true
+    - title: Character count
+      url: /components/character-count/
+    - title: Checkboxes
+      url: /components/checkboxes/
+    - title: Contact details
+      url: /components/contact-details/
+    - title: Contents navigation
+      url: /components/contents-navigation/
+      draft: true
+    - title: Cookie notice
+      url: /components/cookie-notice/
+      draft: true
+    - title: Date picker
+      url: /components/date-picker/
+    - title: Error message
+      url: /components/error-message/
+    - title: Error summary
+      url: /components/error-summary/
+    - title: Forms
+      url: /components/forms/
+      draft: true
+    - title: Hide this page
+      url: /components/hide-this-page/
+    - title: Inset text
+      url: /components/inset-text/
+    - title: Metadata
+      url: /components/metadata/
+      draft: true
+    - title: Notification banner
+      url: /components/notification-banner/
+    - title: Page header
+      url: /components/page-header/
+    - title: Pagination
+      url: /components/pagination/
+      draft: true
+    - title: Phase banner
+      url: /components/phase-banner/
+    - title: Radio buttons
+      url: /components/radio-buttons/
+    - title: Select
+      url: /components/select/
+    - title: Sequential navigation
+      url: /components/sequential-navigation/
+    - title: Side navigation
+      url: /components/side-navigation/
+    - title: Site navigation
+      url: /components/site-navigation/
+    - title: Site search
+      url: /components/site-search/
+    - title: Skip links
+      url: /components/skip-links/
+    - title: Table
+      url: /components/table/
+    - title: Tabs
+      url: /components/tabs/
+      draft: true
+    - title: Tag
+      url: /components/tag/
+    - title: Text input
+      url: /components/text-input/
+    - title: Textarea
+      url: /components/textarea/
+    - title: Warning text
+      url: /components/warning-text/
+patterns:
+  title: Patterns
+  url: /patterns/
+  items:
+    - title: Conditional content
+      url: /patterns/conditional-content/
+      draft: true
+    - title: Navigational pages
+      url: /patterns/navigational-pages/
+      items:
+        - title: Card
+          url: /patterns/navigational-pages/card/
+          draft: true
+        - title: Grid
+          url: /patterns/navigational-pages/grid/
+          draft: true
+        - title: List
+          url: /patterns/navigational-pages/list/
+          draft: true
+        - title: Media card
+          url: /patterns/navigational-pages/media/
+          draft: true
+    - title: Search filters
+      url: /patterns/search-filters/
+      draft: true
+    - title: Search results
+      url: /patterns/search-results/
+    - title: Site footer
+      url: /patterns/site-footer/
+    - title: Site header
+      url: /patterns/site-header/

@@ -6,10 +6,8 @@ parent: get-started
 label: How to
 thispage: get-started.analytics
 summary: ""
-phase: 2
 permalink: "/get-started/analytics/"
 index: 999
-sorttype: 'index'
 ---
 
 Every website should have its performance monitored regularly. This allows the service team to identify issues and use data to make better decisions as outlined in the [Digital Scotland Service Standard](https://resources.mygov.scot/alpha/service-standard/digital-scotland-service-standard/).

@@ -1,0 +1,20 @@
+<ul class="ds_side-navigation__list">
+    {% for item in include.items %}
+        {% unless item.draft %}
+            <li class="ds_side-navigation__item">
+                {% if item.url == page.url %}
+                    <span class="ds_side-navigation__link  ds_current">
+                        {{ item.title }}
+                    </span>
+                    {% else %}
+                    <a class="ds_side-navigation__link" href="{{ item.url }}">
+                        {{ item.title }}
+                    </a>
+                {% endif %}
+                {% if item.items %}
+                    {% include component-side-navigation-items.html items=item.items %}
+                {% endif %}
+            </li>
+        {% endunless %}
+    {% endfor %}
+</ul>

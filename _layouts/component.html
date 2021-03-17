@@ -31,7 +31,7 @@
                 <main id="main-content" class="ds_layout  ds_layout--pl-component">
 
                     <div class="ds_layout__sidebar">
-                        {% assign navitems = page.category %}
+                        {% assign sectionData = site.data.sections[page.category] %}
                         {% include component-side-navigation.html %}
                     </div>
 
@@ -102,6 +102,7 @@
                             </aside>
                         {% endif %}
 
+                        {% assign sectionData = site.data.sections[page.category] %}
                         {% include component-sequential-nav.html %}
 
                         {% include feedback.html %}
