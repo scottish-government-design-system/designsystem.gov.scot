@@ -3,7 +3,7 @@ layout: component
 title:  "Colour"
 category: styles
 parent: styles
-thispage: style.colour
+thispage: style.colour-palette
 summary: "Our brand colours and how to apply them"
 ---
 
