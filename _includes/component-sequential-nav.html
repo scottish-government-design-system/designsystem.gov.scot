@@ -1,6 +1,6 @@
 {% assign flattenedNavItems = "" | split: ',' %}
 
-{% assign flattenedNavItems = flattenedNavItems | push: section %}
+{% assign flattenedNavItems = flattenedNavItems | push: sectionData %}
 
 {% for item in sectionData.items %}
     {% assign flattenedNavItems = flattenedNavItems | push: item %}
