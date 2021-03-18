@@ -15,6 +15,6 @@ We based our select component on the one built by GDS. [Find out more about the 
 
 ## Website analytics
 
-Select components can be tracked through the original page path and a data attribute showing category and the the value selected.
+Select components can be tracked through custom events and the original page path. Custom events are used as the data isn't available at the point of click and clicktext could potentially contain PII.
 
 The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#select-dropdown).

@@ -41,4 +41,8 @@ The site header tracking is available for each of its components: [Site search](
 
 * Clicks to the logo can be tracked through tracked through the original page path, the click URL, and a data attribute attached to the image.
 
+* Clicks to "Skip to content" can be tracked through tracked through the original page path, the click URL, and a data attribute attached to the link.
+
+* Clicks on the expandable menu can be tracked through the original page path, the click URL, and a data attribute attached to the icon.
+
 The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#site-header).
