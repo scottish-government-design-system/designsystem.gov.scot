@@ -29,6 +29,22 @@ The site header helps a user quickly recognise a website, for example if they do
 
 We’ve avoided using second level interactive navigation because of usability concerns.
 
+## Site branding
+Logos and site sub titles can be customised to help users identify which service or organisation site they are using.
+
+This can be formed in variations of :
+1. A logo and subtitle separated by a divider
+2. Only a logo
+3. Only a sub title, which can run over one or two lines of text.
+
+When the subtitle appears beside a logo, it should not repeat the name of your brand, rather be descriptive of the service being provided to the user.
+
+Site branding should always be left aligned and of proportionate size in the site header. For example we recommend horizontal logos at a max height of 40px; the same as the Digital Scotland logo appears. Some logos are vertical aligned in which case 80px is the recommended max height.
+
+For the best display of your branding, use vector based files such as SVG. Alternatively JPG or PNG files can be used but ensure these are of sufficient quality and will not distort.
+
+If you wish to discuss how best to show your site branding please contact [designsystem@gov.scot](mailto:designsystem@gov.scot)
+
 ## Evidence
 Analytics evidence from mygov.scot and gov.scot shows that users are familiar with the logo as a route to the homepage.
 
