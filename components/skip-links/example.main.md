@@ -3,7 +3,7 @@ layout: example
 parent: component.skip-links
 type: example
 index: 0
-illustration: assets/images/examples/back-to-top.png
+illustration: assets/images/examples/skip-links.png
 ---
 <div class="ds_skip-links">
     <ul class="ds_skip-links__list">
