@@ -4,18 +4,19 @@ parent: pattern.navigational-pages-with-media-card
 type: example
 index: 0
 style: 'body{background-color:#f8f8f8}'
+pad: 50
 ---
 <nav aria-label="Category navigation">
     <ol class="ds_category-list  ds_category-list--grid  ds_category-list--narrow">
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="https://www.gov.scot/binaries/content/gallery/featureditems/draft-budget-2018-2019.jpg/draft-budget-2018-2019.jpg/govscot%3Afeaturedlarge">
+                <img class="ds_card__image" src="/assets/images/graphics/thistles.jpg">
             </div>
 
             <article class="ds_category-item  ds_card__content">
                 <h2 class="ds_category-item__title">
                     <a href="#" class="ds_category-item__link">
-                        Environment and countryside
+                        Environment and climate change
                     </a>
                 </h2>
 
@@ -27,44 +28,44 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="https://www.gov.scot/binaries/content/gallery/featureditems/draft-budget-2018-2019.jpg/draft-budget-2018-2019.jpg/govscot%3Afeaturedlarge">
+                <img class="ds_card__image" src="/assets/images/graphics/clyde.jpg">
             </div>
 
             <article class="ds_category-item  ds_card__content">
                 <h2 class="ds_category-item__title">
-                    <a href="#"   class="ds_category-item__link">Environmental Impact Assessment (EIA)</a>
+                    <a href="#"   class="ds_category-item__link">Business and innovation</a>
                 </h2> 
 
                 <p class="ds_category-item__summary">
-                    Find out about Environmental Impact Assessments (EIAs) in your area
+                    Tools and guidance on getting started, finance, premises and employing people.
                 </p>
             </article>
         </li>
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="https://www.gov.scot/binaries/content/gallery/featureditems/draft-budget-2018-2019.jpg/draft-budget-2018-2019.jpg/govscot%3Afeaturedlarge">
+                <img class="ds_card__image" src="/assets/images/graphics/edcastle.jpg">
             </div>
 
             <article class="ds_category-item  ds_card__content">
                 <h2 class="ds_category-item__title">
-                    <a href="#" class="ds_category-item__link">Farming and rural issues</a>
+                    <a href="#" class="ds_category-item__link">Tourism and things to do</a>
                 </h2>
 
                 <p class="ds_category-item__summary">
-                    Guidance for farming, animal health, agriculture and food businesses in Scotland
+                    Accommodation, events, galleries, museums, the countryside and wildlife.
                 </p>
             </article>
         </li>
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="https://www.gov.scot/binaries/content/gallery/featureditems/draft-budget-2018-2019.jpg/draft-budget-2018-2019.jpg/govscot%3Afeaturedlarge">
+                <img class="ds_card__image" src="/assets/images/graphics/coast.jpg">
             </div>
 
             <article class="ds_category-item  ds_card__content">  
                 <h2 class="ds_category-item__title">
-                    <a href="#" class="ds_category-item__link">Waste and energy</a>
+                    <a href="#" class="ds_category-item__link">Environment and climate</a>
                 </h2>
 
                 <p class="ds_category-item__summary">
@@ -75,16 +76,16 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="https://www.gov.scot/binaries/content/gallery/featureditems/draft-budget-2018-2019.jpg/draft-budget-2018-2019.jpg/govscot%3Afeaturedlarge">
+                <img class="ds_card__image" src="/assets/images/graphics/processedcoo.jpg">
             </div>
 
             <article class="ds_category-item  ds_card__content">
                 <h2 class="ds_category-item__title">
-                    <a href="#" class="ds_category-item__link">Marine and fisheries</a>
+                    <a href="#" class="ds_category-item__link">Farming and rural issues</a>
                 </h2>
 
                 <p class="ds_category-item__summary">
-                    Includes information on safety at sea and managing crew
+                    Guidance for farming, animal health, agriculture and food businesses in Scotland.
                 </p>
             </article>
         </li>

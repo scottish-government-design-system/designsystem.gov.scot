@@ -35,7 +35,7 @@ All cards should contain links.
 
 ### Card navigation with images
 
-{% include example-frame.html name="image-card" %}
+{% include example-frame.html name="image-card" pad=50 %}
 
 ### Grid navigation
 

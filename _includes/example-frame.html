@@ -32,8 +32,8 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
             <a class="example__link" href="example.{{include.name}}.html" target="_blank">Open this example in a new window</a>
 
             <script>
-                function resizeIframe(obj) {
-                    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+                function resizeIframe(obj, pad) {
+                    obj.style.height = parseInt(obj.contentWindow.document.body.scrollHeight, 10) + parseInt(pad, 10) + 'px';
                 }
             </script>
 
@@ -42,7 +42,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
                 data-style="{{style}}"
                 src="example.{{include.name}}.html?{{site.time | date: '%s'}}"
                 class="example__iframe"
-                onload="resizeIframe(this)">
+                onload="resizeIframe(this, {% if include.pad %}{{include.pad}}{% else %}0{% endif %})">
             </iframe>
         </div>
         {% endunless %}
