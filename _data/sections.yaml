@@ -21,6 +21,9 @@ styles:
           url: /styles/colour-palette/colour-customisation/
     - title: Focus states
       url: /styles/states/
+    - title: Icons
+      url: /styles/icons/
+      draft: true
     - title: Images
       url: /styles/images/
     - title: Layout

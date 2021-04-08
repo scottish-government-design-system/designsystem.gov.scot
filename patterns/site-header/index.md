@@ -32,7 +32,7 @@ We’ve avoided using second level interactive navigation because of usability c
 ## Site branding
 Logos and site sub titles can be customised to help users identify which service or organisation site they are using.
 
-This can be formed in variations of :
+This can be formed in variations of:
 1. A logo and subtitle separated by a divider
 2. Only a logo
 3. Only a sub title, which can run over one or two lines of text.

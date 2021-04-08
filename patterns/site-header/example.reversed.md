@@ -40,8 +40,8 @@ minheight: '427px'
             <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
                 <span class="ds_site-header__control-text">Menu</span>
 
-                <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu-21"></use></svg>
-                <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close-21"></use></svg>
+                <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
+                <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
             </button>
 
             <div id="mobile-navigation-menu" data-offsetselector=".ds_site-header">
