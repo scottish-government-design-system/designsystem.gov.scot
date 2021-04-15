@@ -31,7 +31,7 @@ We use the skip link component on the Scottish Government’s main sites:
 
 ## Why we use this component
 
-We use this component to meet our accessibility success criteria.
+For Scottish Government websites use of this component is mandatory to meet our accessibility success criteria.
 
 We based our skip link behaviour on the [guidance in the GOV.UK Design System](https://design-system.service.gov.uk/components/skip-link/). 
 
