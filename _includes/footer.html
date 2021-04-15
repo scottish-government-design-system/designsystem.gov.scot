@@ -33,10 +33,10 @@
 {% include breakpoint-tests.html %}
 
 <!-- Browsers with ES module support load these files -->
-<script type="module" src="/assets/scripts/dist/cookie.js?{{site.time | date: '%s'}}"></script>
 <script type="module" src="/assets/scripts/dist/pattern-library.js?{{site.time | date: '%s'}}"></script>
+<script type="module" src="/assets/scripts/dist/cookie.js?{{site.time | date: '%s'}}"></script>
 
 <!-- Older browsers load these files -->
 <!-- (and module-supporting browsers know *not* to load these files) -->
-<script nomodule src="/assets/scripts/dist/cookie.es5.js?{{site.time | date: '%s'}}"></script>
 <script nomodule src="/assets/scripts/dist/pattern-library.es5.js?{{site.time | date: '%s'}}"></script>
+<script nomodule src="/assets/scripts/dist/cookie.es5.js?{{site.time | date: '%s'}}"></script>

@@ -55,36 +55,36 @@ class cookiePreferences {
             const cookieBannerButtons = [].slice.call(document.querySelectorAll('.js-accept-all-cookies, .js-accept-essential-cookies'));
             cookieBannerButtons.forEach(button => {
                 button.addEventListener('click', () => {
-                    window.setTimeout(() => {
-                        this.setFormOptions();
-                    }, 0);
+                    this.setFormOptions();
                 });
             });
         }
     }
 
-    setFormOptions () {
-        const inputGroups = this.formElement.querySelectorAll('.ds_field-group');
-        const cookiePermissionsString = storage.get({
-            type: 'cookie',
-            name: 'cookiePermissions'
-        });
+    setFormOptions() {
+        window.setTimeout(() => {
+            const inputGroups = this.formElement.querySelectorAll('.ds_field-group');
+            const cookiePermissionsString = storage.get({
+                type: 'cookie',
+                name: 'cookiePermissions'
+            });
 
-        if (cookiePermissionsString && storage.isJsonString(cookiePermissionsString)) {
-            this.cookiePermissions = JSON.parse(cookiePermissionsString);
-        }
-
-        for (let i = 0, il = inputGroups.length; i < il; i++) {
-            const inputGroup = inputGroups[i];
-
-            const groupName = inputGroup.querySelector('input[type="radio"]').name;
-
-            if (this.cookiePermissions[groupName.replace('cookie-', '')]) {
-                inputGroup.querySelector('input[id$="-yes"]').setAttribute('checked', true);
-            } else {
-                inputGroup.querySelector('input[id$="-no"]').setAttribute('checked', true);
+            if (cookiePermissionsString && storage.isJsonString(cookiePermissionsString)) {
+                this.cookiePermissions = JSON.parse(cookiePermissionsString);
             }
-        }
+
+            for (let i = 0, il = inputGroups.length; i < il; i++) {
+                const inputGroup = inputGroups[i];
+
+                const groupName = inputGroup.querySelector('input[type="radio"]').name;
+
+                if (this.cookiePermissions[groupName.replace('cookie-', '')]) {
+                    inputGroup.querySelector('input[id$="-yes"]').setAttribute('checked', true);
+                } else {
+                    inputGroup.querySelector('input[id$="-no"]').setAttribute('checked', true);
+                }
+            }
+        }, 0);
     }
 }
 

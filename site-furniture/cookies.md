@@ -62,7 +62,7 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
 
 <fieldset>
     <legend>Cookies that measure website use</legend>
-    <p>These cookies store information about how you use our website, such as what you click on.</p>
+    <p>These cookies store information about how you use our website, such as what you click on. Any data collected is anonymous.</p>
 
     <div class="ds_field-group  ds_field-group--inline">
         <div class="ds_radio">
