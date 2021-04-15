@@ -108,7 +108,6 @@ components:
       url: /components/site-search/
     - title: Skip links
       url: /components/skip-links/
-      draft: true
     - title: Table
       url: /components/table/
     - title: Tabs
