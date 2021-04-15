@@ -1,11 +1,11 @@
 ---
 layout: component
 title:  "Prototyping"
-category: get-startedx
+category: get-started
 parent: get-started
 label: How to
 thispage: get-started.prototyping
-summary: "Rapidly create wireframes and interactive prototypes in Axure RP or Adobe XD using our design kits."
+summary: "Rapidly create wireframes and interactive prototypes in Axure RP using our design kit."
 permalink: "/get-started/prototyping/"
 index: 999
 ---
@@ -17,11 +17,13 @@ index: 999
                 Axure RP
             </a>
         </li>
+        {% comment %}
         <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#adobe-xd">
                 Adobe XD
             </a>
         </li>
+        {% endcomment %}
         <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#guide-to-prototyping-model">
                 Guide to Prototyping Model
@@ -33,17 +35,17 @@ index: 999
 ## Axure RP
 Axure RP is an application used to mock up wireframes and clickthrough prototypes.
 
-### Add the Design System Axure Library to Axure RP
+### Add the Design System Axure library to Axure RP
 
-1. Install Axure RP
-* To design with our Axure library you must have the latest version of [Axure RP](https://www.axure.com/download) installed.
+1. Install Axure RP  
+    To design with our Axure library you must have the latest version of [Axure RP](https://www.axure.com/download) installed.
 
-2. Get the widget library
-* The library contains the widgets for Design System components, design elements, and patterns.
+2. Get the Design System widget library  
+    The library contains widgets for Design System components, design elements and patterns.
 
-Download the Design System Axure Library here
+[Download the Design System Axure library here](https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib)
 
-Open Axure and click the Add Library + icon at the top of the Libraries pane. Locate and select the **DigitalScotlandDesignSystem_v1.0.0.rplib** file.
+Open Axure and click the 'Add Library +' icon at the top of the Libraries pane. Locate and select the **digitalscotlanddesignsystem_v1.0.rplib** file.
 
 ### Start Designing
 
@@ -53,12 +55,13 @@ All widgets come with styles and interactions already built into them.
 
 ### Support
 
-If you are brand new to Axure, they offer [tutorials](https://docs.axure.com/tutorials/basics/getting-started/) to get you started.
+If you are new to Axure, they offer [tutorials](https://docs.axure.com/tutorials/basics/getting-started/) to get you started.
 
 ### Releases
 
 When a new version of the library is available, you need to download the new file to replace the old one.
 
+{% comment %}
 ## Adobe XD
 
 The Adobe XD kit is a vector ready version of the design system which can be used when creating flat visuals. The kit contains all the individual styles and components found on the Design System site.
@@ -69,6 +72,7 @@ The minimum system requirements to run this version of the design kit are:
 
 * macOS X v10.14 or later
 * Windows 10 (64-bit) - Version 1803 (build 10.0.17134) or later.
+{% endcomment %}
 
 ## Guide to Prototyping Model
 

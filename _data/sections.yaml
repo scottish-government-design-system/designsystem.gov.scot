@@ -8,6 +8,8 @@ get-started:
       url: /get-started/analytics/
     - title: Tracking
       url: /get-started/tracking/
+    - title: Prototyping
+      url: /get-started/prototyping/
 styles:
   title: Styles
   url: /styles/
