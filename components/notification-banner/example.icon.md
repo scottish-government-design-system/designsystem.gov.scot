@@ -12,7 +12,7 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
             <div role="heading" class="visually-hidden">Information</div>
 
             <span class="ds_notification__icon  ds_notification__icon--inverse  ds_notification__icon--colour" aria-hidden="true">
-                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#priority_high"></use></svg>
+                <svg class="ds_icon  ds_icon--fill" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#priority_high"></use></svg>
             </span>
 
             <div class="ds_notification__text">
@@ -21,7 +21,7 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 
             <button class="ds_notification__close  js-close-notification" type="button">
                 <span class="visually-hidden">Close this notification</span>
-                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
+                <svg class="ds_icon  ds_icon--fill" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
             </button>
         </div>
     </div>

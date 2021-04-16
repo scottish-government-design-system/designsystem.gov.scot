@@ -69,13 +69,6 @@
     @include layout();
 }
 
-.text-icon {
-    display: inline-block;
-    height: 24px;
-    width: 24px;
-    vertical-align: middle;
-}
-
 @include media-query(medium) {
     .#{$dss-prefix}homepage-hero {
         &__header {

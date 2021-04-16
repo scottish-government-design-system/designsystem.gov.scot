@@ -10,7 +10,7 @@ index: 0
 
     <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
         <input class="ds_input  ds_input--fixed-20" type="text" id="search" />
-        <a href="#" class="ds_button  ds_button--icon-only">
+        <a href="#" class="ds_button">
             <span class="visually-hidden">Search</span>
             <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
         </a>
