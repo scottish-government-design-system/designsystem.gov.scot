@@ -50,17 +50,11 @@ When a user clicks a skip link, they generally do so on most pages in that sessi
 
 Although users only clicked skip links 43 times, this number represents users that need it, and for whom without it their user experience would be significantly impaired.
 
-
-
-
-## Screen reader user survey
+### Screen reader user survey
 
 WebAIM have published survey results from users who exclusively use screen readers. The data shows how popular skip links are with these users. It also shows those users slightly prefer the phrase 'Skip to main content.'
 
-
-
-
-## Screen reader testing
+### Screen reader testing
 
 For the phrase 'Skip to content' some screen readers pronounced the word 'content' with the stress on the second syllable, which gives it the wrong meaning ('content' as in 'satisfied'). Using the phrase 'Skip to *main* content' made the same reader pronounce it as expected.
 
