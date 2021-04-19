@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head xml:lang="en">
+    <meta charset="UTF-8">
+    <title>Digital Scotland Design System – Digital Scotland Design System</title>
+
+
+
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="canonical" href="http://0.0.0.0:4000/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0065bd">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+    <script src="/assets/scripts/polyfills/svgxuse.js"></script>
+
+    <!--Google Google Search Console-->
+    <meta name="google-site-verification" content="8573_cJ_2yHLOp_X1lSUnN_H1ic44M6f7GBUObm-5_A" />
+
+    <!-- Google Tag Manager -->
+    <!-- Browsers with ES module support load this file -->
+    <script type="module" src="/assets/scripts/dist/gtm.js?1618842204"></script>
+    <!-- Older browsers load this file -->
+    <!-- (and module-supporting browsers know *not* to load this file) -->
+    <script nomodule src="/assets/scripts/dist/gtm.es5.js?1618842204"></script>
+    <!-- End Google Tag Manager -->
+
+
+
+    <script>
+        var htmlClass = document.documentElement.getAttribute('class') || '';
+        document.documentElement.setAttribute('class', (htmlClass ? htmlClass + ' ' : '') + 'js-enabled');
+    </script>
+</head>
+
+
+<body class="layout--home">
+
+
+
+<style>
+body {
+    background-color: #f8f8f8;
+}
+
+
+.zebra:nth-child(2n-1) {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+}
+
+.zebra:first-of-type {
+    border-top: 0;
+}
+
+.zebra {
+    padding: 28px 0;
+}
+</style>
+
+<div class="ds_skip-links">
+    <ul class="ds_skip-links__list">
+        <li class="ds_skip-links__item"><a class="ds_skip-links__link" href="#main-content">Skip to main content</a></li>
+    </ul>
+</div>
+
+
+<div class="ds_page">
+
+    <div class="ds_page__top">
+        <div id="notifications">
+    <div id="cookie-notice" class="ds_notification  ds_notification--large  ds_notification--cookie  js-initial-cookie-content  fully-hidden" data-module="ds-cookie-notification">
+    <div class="ds_wrapper">
+        <div class="ds_notification__content">
+            <div role="heading" class="visually-hidden">Information</div>
+
+            <div class="ds_notification__text">
+                <p>We use <a href="#">cookies</a> to collect anonymous data to help us improve your site browsing
+                    experience.</p>
+                <p>Click 'Accept all cookies' to agree to all cookies that collect anonymous data.
+                    To only allow the cookies that make the site work, click 'Use essential cookies only.' Visit 'Set cookie preferences' to control specific cookies.</p>
+            </div>
+
+            <div class="ds_notification__actions">
+                <button class="ds_button  ds_button--small  js-accept-all-cookies">Accept all cookies</button>
+                <button class="ds_button  ds_button--small  ds_button--secondary  js-accept-essential-cookies">Use essential cookies only</button>
+                <a href="/cookies/">Set cookie preferences</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="cookie-confirm" class="ds_notification  ds_notification--cookie-success  ds_reversed  js-confirm-cookie-content  fully-hidden" data-module="ds-notification">
+    <div class="ds_wrapper">
+        <div class="ds_notification__content">
+            <div class="ds_notification__text">
+                <p>Your cookie preferences have been saved. You can <a href="/cookies/">change your cookie settings</a> at any time.</p>
+            </div>
+
+            <button class="ds_notification__close  js-close-notification" type="button">
+                <span class="visually-hidden">Close this notification</span>
+                <svg class="ds_icon  ds_icon--fill" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+</div>
+
+        <header class="ds_site-header  ds_site-header" role="banner">
+    <span id="page-top"></span>
+
+    <div class="ds_site-header__top">
+        <div class="ds_wrapper">
+            <div class="ds_site-header__content">
+                <div class="ds_site-branding">
+                    <a class="ds_site-branding__logo  ds_site-branding__link" href="/">
+                        <img class="ds_site-branding__logo-image" src="/assets/images/logos/digital-scotland.svg" alt="Digital Scotland" />
+                    </a>
+
+                    <div class="ds_site-branding__title">
+                        Design System
+                    </div>
+                </div>
+            </div>
+
+            <nav aria-label="Site menu" data-module="ds-mobile-navigation-menu">
+                <button style="display: none;" class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
+                    <span class="ds_site-header__control-text">Menu</span>
+                    <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
+                    <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
+                </button>
+
+                <button class="js-toggle-menu-redux  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
+                    <span class="ds_site-header__control-text">Menu</span>
+                    <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
+                    <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
+                </button>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="ds_phase-banner">
+        <div class="ds_wrapper">
+            <p class="ds_phase-banner__content">
+                <strong class="ds_tag  ds_phase-banner__tag">
+                    beta
+                </strong>
+                <span class="ds_phase-banner__text">
+                    This is a new service. Your <a href="mailto:designsystem@gov.scot">feedback</a> will help us to improve it.
+                </span>
+            </p>
+        </div>
+    </div>
+
+    <div class="ds_site-header__navigation">
+        <div class="ds_wrapper">
+            <nav class="ds_site-navigation">
+                <ul class="ds_site-navigation__list">
+                    <li class="ds_site-navigation__item">
+
+                            <a href="/get-started/" class="ds_site-navigation__link">
+                                Get started
+                            </a>
+
+                    </li>
+                    <li class="ds_site-navigation__item">
+
+                            <a href="/styles/" class="ds_site-navigation__link  ">
+                                Styles
+                            </a>
+
+                    </li>
+                    <li class="ds_site-navigation__item">
+
+                            <a href="/components/" class="ds_site-navigation__link  ">
+                                Components
+                            </a>
+
+                    </li>
+                    <li class="ds_site-navigation__item">
+
+                            <a href="/patterns/" class="ds_site-navigation__link  ">
+                                Patterns
+                            </a>
+
+                    </li>
+                    <li class="ds_site-navigation__item">
+
+                            <a href="/accessibility/" class="ds_site-navigation__link  ">
+                                Accessibility
+                            </a>
+
+                    </li>
+                    <li class="ds_site-navigation__item">
+
+                            <a href="/backlog/" class="ds_site-navigation__link  ">
+                                Backlog
+                            </a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+
+    </div>
+
+    <div class="ds_page__middle">
+
+
+
+        <main id="main-content">
+
+            <section id="welcome">
+                <div class="dss_homepage-hero__container  ds_reversed">
+                    <div class="ds_wrapper">
+                        <div class="dss_homepage-hero">
+                            <header class="dss_homepage-hero__header">
+                                <h1 class="dss_homepage-hero__title">Design and build digital services for the Scottish Government</h1>
+                            </header>
+                            <div class="dss_homepage-hero__summary">
+                                <p>The Digital Scotland Design System provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.
+</p>
+
+                                <div class="dss_homepage-hero__cta">
+                                    <a href="/get-started" class="ds_button  ds_button--fixed">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="dss_homepage-hero__media-container">
+                                <div class="ds_aspect-box">
+                                    <a class="dss_homepage-hero__media-link" target="_blank" href="https://vimeo.com/445609811"><img class="dss_homepage-hero__media  ds_aspect-box__inner" src="/assets/images/animation-still.png" alt=""></a>
+                                </div>
+                                <p class="dss_homepage-hero__media-caption">
+                                    <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#play_circle"></use></svg>
+                                    <a target="_blank" href="https://vimeo.com/445609811">Watch our introductory video</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+                <section id="library" class="zebra">
+                    <div class="ds_wrapper">
+                        <div class="ds_category-list-container">
+                            <ol class="main  ds_category-list  ds_category-list--grid  ds_category-list--narrow">
+
+
+
+
+                                    <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
+                                        <article class="ds_category-item">
+                                            <h2 class="ds_category-item__title">
+                                                <a href="/styles/" class="ds_category-item__link">
+                                                    Styles
+                                                </a>
+                                            </h2>
+
+
+                                                <p class="ds_category-item__summary">
+                                                    Best practice guidance on core elements of digital design and web styling.
+                                                </p>
+
+                                        </article>
+                                    </li>
+
+                                    <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
+                                        <article class="ds_category-item">
+                                            <h2 class="ds_category-item__title">
+                                                <a href="/components/" class="ds_category-item__link">
+                                                    Components
+                                                </a>
+                                            </h2>
+
+
+                                                <p class="ds_category-item__summary">
+                                                    Components are parts of code that can be easily lifted and reused. They’re usually self-contained elements of a website, such as a banner, breadcrumb or footer.
+                                                </p>
+
+                                        </article>
+                                    </li>
+
+                                    <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
+                                        <article class="ds_category-item">
+                                            <h2 class="ds_category-item__title">
+                                                <a href="/patterns/" class="ds_category-item__link">
+                                                    Patterns
+                                                </a>
+                                            </h2>
+
+
+                                                <p class="ds_category-item__summary">
+                                                    Patterns use a number of components to help users complete a task or process.
+                                                </p>
+
+                                        </article>
+                                    </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+
+
+
+            <section id="links" class="zebra">
+                <div class="ds_wrapper">
+                    <div style="display: grid;grid-template-columns:1fr 1fr;grid-gap:28px 30px">
+
+                        <div>
+                            <h2>Content standards</h2>
+                            <p><p>Best practice, guidance and tools for the creation of content to support the delivery of user-centred public services</p>
+</p>
+                            <a href="https://resources.mygov.scot/content-standards/">Learn more</a>
+                        </div>
+
+                        <div>
+                            <h2>Digital Scotland Service Standard</h2>
+                            <p><p>The service standard is a set of 14 criteria that all organisations delivering public services should work towards.</p>
+</p>
+                            <a href="https://www.gov.scot/publications/digital-scotland-service-standard/">Learn more</a>
+                        </div>
+
+                        <div>
+                            <h2>Github repository</h2>
+                            <p><p>Clone, fork or contribute to the Digital Scotland Design System.</p>
+</p>
+                            <a href="https://github.com/scottishgovernment/pattern-library">Learn more</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+        </main>
+    </div>
+
+    <div class="ds_back-to-top" data-module="ds-back-to-top">
+    <a href="#page-top" class="ds_back-to-top__button">Back to top <svg class="ds_icon  ds_back-to-top__icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#arrow_up"></use></svg></a>
+</div>
+
+
+    <div class="ds_page_bottom">
+        <footer class="ds_site-footer  ds_reversed">
+    <div class="ds_wrapper">
+        <div class="ds_site-footer__content">
+            <ul class="ds_site-footer__site-items">
+                <li class="ds_site-items__item">
+                    <a href="/privacy/">Privacy</a>
+                </li>
+                <li class="ds_site-items__item">
+                    <a href="/cookies/">Cookies</a>
+                </li>
+                <li class="ds_site-items__item">
+                    <a href="/accessibility/">Accessibility</a>
+                </li>
+            </ul>
+
+            <div class="ds_site-footer__copyright">
+                <a class="ds_site-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">
+                    <img src="/assets/images/logos/ogl.svg" alt="Open Government License" />
+                </a>
+                <p>All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except for graphic assets and where otherwise stated</p>
+                <p>&copy; Crown Copyright</p>
+            </div>
+
+            <div class="ds_site-footer__org">
+                <a class="ds_site-footer__org-link" title="The Scottish Government" href="http://www.gov.scot/">
+                    <img class="ds_site-footer__org-logo" src="/assets/images/logos/scottish-government.svg" alt="gov.scot" />
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="breakpoint-tests">
+    <div id="bp-small"></div>
+    <div id="bp-medium"></div>
+    <div id="bp-large"></div>
+    <div id="bp-xlarge"></div>
+</div>
+
+<script>
+window.ds_patterns = window.ds_patterns || {};
+
+window.ds_patterns.breakpoint = function(size) {
+    var breakElement = document.getElementById('bp-' + size);
+    return window.getComputedStyle(breakElement, null).display === 'block';
+}
+</script>
+
+
+<!-- Browsers with ES module support load these files -->
+<script type="module" src="/assets/scripts/dist/pattern-library.js?1618842204"></script>
+<script type="module" src="/assets/scripts/dist/cookie.js?1618842204"></script>
+
+<!-- Older browsers load these files -->
+<!-- (and module-supporting browsers know *not* to load these files) -->
+<script nomodule src="/assets/scripts/dist/pattern-library.es5.js?1618842204"></script>
+<script nomodule src="/assets/scripts/dist/cookie.es5.js?1618842204"></script>
+
+    </div>
+</div>
+
+
+<script>
+
+(() => {
+
+const menuButton = document.querySelector('.js-toggle-menu-redux');
+const menu = document.querySelector('.ds_site-navigation');
+menuButton.addEventListener('click', function () {
+    if (menu.classList.contains('show-menu')) {
+        menu.style.maxHeight = 0;
+
+        window.setTimeout(() => {
+            menu.classList.remove('show-menu');
+        }, 200);
+    } else {
+        menu.style.maxHeight = '400px';
+        menu.classList.add('show-menu');
+
+        //window.setTimeout(() => {
+        //}, 200);
+    }
+});
+
+})();
+
+</script>
+
+<style>
+    @media (min-width: 768px) {
+        .ds_site-navigation {
+            display: block !important;
+            max-height: unset !important;
+        }
+    }
+
+    .ds_site-navigation {
+        display: block;
+        max-height: 0;
+        transition: max-height 0.2s;
+    }
+
+    .show-menu {
+        display: block;
+    }
+</style>
+
+
+
+
+</body>
+
+</html>
