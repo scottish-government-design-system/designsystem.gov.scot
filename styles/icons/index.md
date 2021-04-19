@@ -30,7 +30,7 @@ How to colour icons depends on whether they are images in your markup or backgro
 
 <div class="ds_inset-text">
     <div class="ds_inset-text__text">
-        When changing the fill colour, all icons must meet [colour contrast standards](https://www.w3.org/TR/WCAG21/#contrast-minimum).
+        When changing the fill colour, all icons must meet <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">colour contrast standards</a>.
     </div>
 </div>
 
