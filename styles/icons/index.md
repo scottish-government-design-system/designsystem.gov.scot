@@ -30,7 +30,7 @@ How to colour icons depends on whether they are images in your markup or backgro
 
 <div class="ds_inset-text">
     <div class="ds_inset-text__text">
-        When changing the fill colour, all icons must meet colour contrast standards.
+        When changing the fill colour, all icons must meet [colour contrast standards](https://www.w3.org/TR/WCAG21/#contrast-minimum).
     </div>
 </div>
 
@@ -58,7 +58,7 @@ For developers: the Design System includes a SASS mixin that adds all of the nec
 
 ## Accessibility
 
-Accessible SVG icons is a topic in itself. This [CSS Tricks article about accessible SVGs by Heather Migliorisi](https://css-tricks.com/accessible-svgs/#icons) is a good resource if you want learn abot a number of techniques for different use cases.
+Accessible SVG icons is a topic in itself. This [CSS Tricks article about accessible SVGs by Heather Migliorisi](https://css-tricks.com/accessible-svgs/#icons) is a good resource if you want learn about a number of techniques for different use cases.
 
 Our approach is to keep things simple: as a rule of thumb all icons are considered decorative and have `aria-hidden="true"` so screen readers will ignore them. If it is important that a screen reader notify the user about an icon, place a hidden element before it with a text label, as we do in this example:
 
