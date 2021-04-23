@@ -40,7 +40,7 @@ These cards are designed for images with a 16:9 aspect ratio.
 
 <div class="ds_inset-text">
   <div class="ds_inset-text__text">
-    <p>The 'image card' version of navigation pages is currently untested. We hope to include it in an upcoming round of user testing.</p>
+    <p>The 'image card' version of navigation pages is currently untested. We plan to include it in future user testing.</p>
   </div>
 </div>
 
