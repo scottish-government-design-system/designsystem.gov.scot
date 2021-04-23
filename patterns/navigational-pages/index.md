@@ -19,9 +19,10 @@ examples:
 
 ## About this pattern
 
-We use three main types of navigational pages:
+We have four types of navigational pages:
 
-* Box navigation - displays hyperlinked headings and summary content in rows of large boxes on desktops and tablets, a single column on mobile
+* Card navigation - displays hyperlinked headings and summary content in rows of large boxes on desktops and tablets, a single column on mobile
+* Image card navigation - same as card navigation and each card has an image illustrating it
 * Grid navigation - orders hyperlinked headings and summary content into rows without boxes on desktops and tablets, a single column on mobile
 * List navigation - orders hyperlinked headings and summary content into a list
 
@@ -31,7 +32,17 @@ We use three main types of navigational pages:
 
 All cards should contain links.
 
-Single cards can be ‘highlighted’ to make them stand out from others on the page.
+### Image card navigation
+
+{% include example-frame.html name="image-card" pad=50 %}
+
+These cards are designed for images with a 16:9 aspect ratio.
+
+<div class="ds_inset-text">
+  <div class="ds_inset-text__text">
+    <p>The 'image card' version of navigation pages is currently untested. We hope to include it in an upcoming round of user testing.</p>
+  </div>
+</div>
 
 ### Grid navigation
 
@@ -43,17 +54,18 @@ Although there are no boxes, there is a single, left-hand side line running the 
 
 {% include example-frame.html name="list" %}
 
-Links in a navigational list can be highlighted. Links that are highlighted always appear at the top of the list. Other items in the list may be sorted in any order.
-
 ## Other versions of these patterns
-Some versions of box navigation may include a gradient effect along the bottom border of individual boxes.
+
+Some versions of card navigation may include a gradient effect along the bottom border of individual boxes.
 
 ## Why we use these patterns
+
 Features of these patterns, such as the large size of the boxes in the card navigation pattern, help space out content to make it easier for users to find the content they need.
 
 These patterns can also be reused across websites, creating a consistent experience for users and cutting development time.
 
 ## Website analytics
+
 To understand user behaviour, clicks on navigation items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number.
 
 The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#category-list).
