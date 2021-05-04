@@ -3,7 +3,7 @@
 
 <head xml:lang="en">
     <meta charset="UTF-8">
-    <title>Digital Scotland Design System – Digital Scotland Design System</title>
+    <title>Accordion – Digital Scotland Design System</title>
 
 
 
@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="canonical" href="http://0.0.0.0:4000/">
+    <link rel="canonical" href="http://0.0.0.0:4000/components/accordion/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,10 +36,10 @@
 
     <!-- Google Tag Manager -->
     <!-- Browsers with ES module support load this file -->
-    <script type="module" src="/assets/scripts/dist/gtm.js?1618842204"></script>
+    <script type="module" src="/assets/scripts/dist/gtm.js?1620139959"></script>
     <!-- Older browsers load this file -->
     <!-- (and module-supporting browsers know *not* to load this file) -->
-    <script nomodule src="/assets/scripts/dist/gtm.es5.js?1618842204"></script>
+    <script nomodule src="/assets/scripts/dist/gtm.es5.js?1620139959"></script>
     <!-- End Google Tag Manager -->
 
 
@@ -51,30 +51,7 @@
 </head>
 
 
-<body class="layout--home">
-
-
-
-<style>
-body {
-    background-color: #f8f8f8;
-}
-
-
-.zebra:nth-child(2n-1) {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-width: 1px 0;
-}
-
-.zebra:first-of-type {
-    border-top: 0;
-}
-
-.zebra {
-    padding: 28px 0;
-}
-</style>
+<body class="article  layout--component">
 
 <div class="ds_skip-links">
     <ul class="ds_skip-links__list">
@@ -132,6 +109,9 @@ body {
         <header class="ds_site-header  ds_site-header" role="banner">
     <span id="page-top"></span>
 
+
+
+
     <div class="ds_site-header__top">
         <div class="ds_wrapper">
             <div class="ds_site-header__content">
@@ -144,22 +124,78 @@ body {
                         Design System
                     </div>
                 </div>
+
+                <div class="ds_site-header__controls">
+                    <!-- <button class="ds_button  ds_no-margin  js-toggle-menu" id="">Menu</button> -->
+                    <label aria-controls="mobile-navigation" class="ds_site-header__control  js-toggle-menu" for="menu">
+                        <span class="ds_site-header__control-text">Menu</span>
+                        <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
+                    </label>
+                </div>
+
+                <input class="ds_site-navigation__toggle" id="menu" type="checkbox"/>
+                <nav id="mobile-navigation" class="ds_site-navigation  ds_site-navigation--mobile">
+                    <ul class="ds_site-navigation__list">
+                        <li class="ds_site-navigation__item">
+
+                                <a href="/get-started/" class="ds_site-navigation__link">
+                                    Get started
+                                </a>
+
+                        </li>
+                        <li class="ds_site-navigation__item">
+
+                                <a href="/styles/" class="ds_site-navigation__link  ">
+                                    Styles
+                                </a>
+
+                        </li>
+                        <li class="ds_site-navigation__item">
+
+                                <a href="/components/" class="ds_site-navigation__link  ds_current">
+                                    Components
+                                </a>
+
+                        </li>
+                        <li class="ds_site-navigation__item">
+
+                                <a href="/patterns/" class="ds_site-navigation__link  ">
+                                    Patterns
+                                </a>
+
+                        </li>
+                        <li class="ds_site-navigation__item">
+
+                                <a href="/accessibility/" class="ds_site-navigation__link  ">
+                                    Accessibility
+                                </a>
+
+                        </li>
+                        <li class="ds_site-navigation__item">
+
+                                <a href="/backlog/" class="ds_site-navigation__link  ">
+                                    Backlog
+                                </a>
+
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="ds_site-search  ds_site-header__search" data-module="ds-site-search">
+                    <form role="search" class="ds_site-search__form">
+                        <label class="ds_label  visually-hidden" for="site-search">Search</label>
+
+                        <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+                            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off" />
+
+                            <button type="submit" class="ds_button  js-site-search-button">
+                                <span class="visually-hidden">Search</span>
+                                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
-
-            <nav aria-label="Site menu" data-module="ds-mobile-navigation-menu">
-                <button style="display: none;" class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
-                    <span class="ds_site-header__control-text">Menu</span>
-                    <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
-                    <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
-                </button>
-
-                <button class="js-toggle-menu-redux  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
-                    <span class="ds_site-header__control-text">Menu</span>
-                    <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
-                    <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
-                </button>
-
-            </nav>
         </div>
     </div>
 
@@ -196,7 +232,7 @@ body {
                     </li>
                     <li class="ds_site-navigation__item">
 
-                            <a href="/components/" class="ds_site-navigation__link  ">
+                            <a href="/components/" class="ds_site-navigation__link  ds_current">
                                 Components
                             </a>
 
@@ -228,143 +264,710 @@ body {
     </div>
 </header>
 
+<script>
+// dom transform:
+// label to button
+const oldMenuButton = document.querySelector('.js-toggle-menu');
+const newMenuButton = document.createElement('button');
+newMenuButton.innerHTML = oldMenuButton.innerHTML;
+newMenuButton.setAttribute('class', oldMenuButton.getAttribute('class'));
+newMenuButton.classList.add('ds_link');
+newMenuButton.setAttribute('aria-controls', oldMenuButton.getAttribute('aria-controls'));
+oldMenuButton.parentNode.appendChild(newMenuButton);
+oldMenuButton.parentNode.removeChild(oldMenuButton);
 
+// events
+newMenuButton.addEventListener('click', function (event) {
+    const mobileMenu = document.getElementById(newMenuButton.getAttribute('aria-controls'));
+    document.documentElement.style.setProperty('--mobile-menu-height', mobileMenu.scrollHeight + 'px');
+
+    if (mobileMenu.classList.contains('ds_site-navigation--open')) {
+        //mobileMenu.style.maxHeight = null;
+        mobileMenu.classList.remove('ds_site-navigation--open');
+        newMenuButton.classList.remove('ds_site-header__control--active');
+    } else {
+        mobileMenu.style.maxHeight = mobileMenu.scrollHeight;
+        mobileMenu.classList.add('ds_site-navigation--open');
+        newMenuButton.classList.add('ds_site-header__control--active');
+    }
+});
+
+
+</script>
 
     </div>
 
     <div class="ds_page__middle">
 
+        <div id="body-wrapper" class="body-wrapper">
 
 
-        <main id="main-content">
+    <div class="ds_wrapper">
 
-            <section id="welcome">
-                <div class="dss_homepage-hero__container  ds_reversed">
-                    <div class="ds_wrapper">
-                        <div class="dss_homepage-hero">
-                            <header class="dss_homepage-hero__header">
-                                <h1 class="dss_homepage-hero__title">Design and build digital services for the Scottish Government</h1>
-                            </header>
-                            <div class="dss_homepage-hero__summary">
-                                <p>The Digital Scotland Design System provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.
-</p>
 
-                                <div class="dss_homepage-hero__cta">
-                                    <a href="/get-started" class="ds_button  ds_button--fixed">Learn more</a>
-                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav aria-role="breadcrumb">
+    <ol class="ds_breadcrumbs">
+
+
+
+
+
+        <li class="ds_breadcrumbs__item">
+            <a class="breadcrumbs__link" href="/">
+
+                Home
+
+            </a>
+        </li>
+
+
+
+        <li class="ds_breadcrumbs__item">
+            <a class="breadcrumbs__link" href="/components/">
+
+                Components
+
+            </a>
+        </li>
+
+
+
+        <li aria-current="page" class="ds_breadcrumbs__item">
+            Accordion
+        </li>
+    </ol>
+</nav>
+
+    </div>
+
+
+
+            <style>
+                pre {
+                    white-space: pre-wrap;
+                }
+            </style>
+
+            <div class="ds_wrapper">
+
+                <main id="main-content" class="ds_layout  ds_layout--pl-component">
+
+                    <div class="ds_layout__sidebar">
+
+                        <nav aria-label="Sections" class="ds_side-navigation" data-module="ds-side-navigation">
+    <input type="checkbox" class="fully-hidden  js-toggle-side-navigation" id="show-side-navigation" aria-controls="side-navigation-root" />
+    <label class="ds_side-navigation__expand  ds_link" for="show-side-navigation"><span class="visually-hidden">Show all</span> Pages in this section <span class="ds_side-navigation__expand-indicator"></span></label>
+
+    <ul class="ds_side-navigation__list">
+
+
+            <li class="ds_side-navigation__item">
+
+                    <span class="ds_side-navigation__link  ds_current">
+                        Accordion
+                    </span>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/back-to-top/">
+                        Back to top
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/breadcrumbs/">
+                        Breadcrumbs
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/button/">
+                        Button
+                    </a>
+
+
+            </li>
+
+
+
+
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/category-header/">
+                        Category header
+                    </a>
+
+
+            </li>
+
+
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/character-count/">
+                        Character count
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/checkboxes/">
+                        Checkboxes
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/contact-details/">
+                        Contact details
+                    </a>
+
+
+            </li>
+
+
+
+
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/date-picker/">
+                        Date picker
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/error-message/">
+                        Error message
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/error-summary/">
+                        Error summary
+                    </a>
+
+
+            </li>
+
+
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/hide-this-page/">
+                        Hide this page
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/inset-text/">
+                        Inset text
+                    </a>
+
+
+            </li>
+
+
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/notification-banner/">
+                        Notification banner
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/page-header/">
+                        Page header
+                    </a>
+
+
+            </li>
+
+
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/phase-banner/">
+                        Phase banner
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/radio-buttons/">
+                        Radio buttons
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/select/">
+                        Select
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/sequential-navigation/">
+                        Sequential navigation
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/side-navigation/">
+                        Side navigation
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/site-navigation/">
+                        Site navigation
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/site-search/">
+                        Site search
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/skip-links/">
+                        Skip links
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/table/">
+                        Table
+                    </a>
+
+
+            </li>
+
+
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/tag/">
+                        Tag
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/text-input/">
+                        Text input
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/textarea/">
+                        Textarea
+                    </a>
+
+
+            </li>
+
+
+
+            <li class="ds_side-navigation__item">
+
+                    <a class="ds_side-navigation__link" href="/components/warning-text/">
+                        Warning text
+                    </a>
+
+
+            </li>
+
+
+</ul>
+
+</nav>
+
+                    </div>
+
+                    <div class="ds_layout__header">
+                        <header class="heading">
+                            <div class="ds_page-header">
+
+                                    <span class="ds_page-header__label  ds_content-label">Component</span>
+
+
+                                <h1 class="ds_page-header__title">Accordion</h1>
                             </div>
-                            <div class="dss_homepage-hero__media-container">
-                                <div class="ds_aspect-box">
-                                    <a class="dss_homepage-hero__media-link" target="_blank" href="https://vimeo.com/445609811"><img class="dss_homepage-hero__media  ds_aspect-box__inner" src="/assets/images/animation-still.png" alt=""></a>
-                                </div>
-                                <p class="dss_homepage-hero__media-caption">
-                                    <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#play_circle"></use></svg>
-                                    <a target="_blank" href="https://vimeo.com/445609811">Watch our introductory video</a>
-                                </p>
-                            </div>
-                        </div>
+
+
+                       </header>
+                    </div>
+
+                    <div class="ds_layout__content">
+
+
+                            <p class="ds_leader">
+                                An accordion is a list of collapsed content items. A user can expand any item in the list to view its contents.
+                            </p>
+
+
+
+
+
+
+
+<figure class="example  overflow--large--2 overflow--xlarge--2">
+
+
+
+    <div class="example__content">
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="example__demo">
+            <a class="example__link" href="example.main.html" target="_blank">Open this example in a new window</a>
+
+            <script>
+                function resizeIframe(obj, pad) {
+                    obj.style.height = parseInt(obj.contentWindow.document.body.scrollHeight, 10) + parseInt(pad, 10) + 'px';
+                }
+            </script>
+
+            <iframe
+                style="min-height: ; max-height: "
+                data-style=""
+                src="/components/accordion/example.main.html?1620139959"
+                class="example__iframe"
+                onload="resizeIframe(this, 0)">
+            </iframe>
+        </div>
+
+
+        <div class="example__accordion  ds_accordion"  data-module="ds-accordion">
+
+
+
+
+
+
+                <div class="ds_accordion-item  ">
+                    <input type="checkbox"  class="visually-hidden  ds_accordion-item__control" id="panel-main-1" aria-labelledby="panel-main-1-heading" />
+                    <div class="ds_accordion-item__header">
+                        <h3 id="panel-main-1-heading" class="ds_accordion-item__title">
+                            Sample HTML
+                        </h3>
+                        <span class="ds_accordion-item__indicator"></span>
+                        <label class="ds_accordion-item__label" for="panel-main-1"><span class="visually-hidden">Show this section</span></label>
+                    </div>
+                    <div class="ds_accordion-item__body  example__accordion-body--code">
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion"</span> <span class="na">data-module=</span><span class="s">"ds-accordion"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">data-accordion=</span><span class="s">"accordion-open-all"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"ds_link  ds_accordion__open-all  js-open-all"</span><span class="nt">&gt;</span>Open all <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>sections<span class="nt">&lt;/span&gt;&lt;/button&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">class=</span><span class="s">"visually-hidden  ds_accordion-item__control"</span> <span class="na">id=</span><span class="s">"panel-1"</span> <span class="na">aria-labelledby=</span><span class="s">"panel-1-heading"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item__header"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h3</span> <span class="na">id=</span><span class="s">"panel-1-heading"</span> <span class="na">class=</span><span class="s">"ds_accordion-item__title"</span><span class="nt">&gt;</span>
+                Healthcare for veterans
+            <span class="nt">&lt;/h3&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"ds_accordion-item__indicator"</span><span class="nt">&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"ds_accordion-item__label"</span> <span class="na">for=</span><span class="s">"panel-1"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>Show this section<span class="nt">&lt;/span&gt;&lt;/label&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item__body"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;p&gt;</span>Veterans are entitled to the same healthcare as any citizen. And there are <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>health care options and support<span class="nt">&lt;/a&gt;</span> available specifically for veterans.  <span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;p&gt;</span>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. <span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">class=</span><span class="s">"visually-hidden  ds_accordion-item__control"</span> <span class="na">id=</span><span class="s">"panel-2"</span> <span class="na">aria-labelledby=</span><span class="s">"panel-2-heading"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item__header"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h3</span> <span class="na">id=</span><span class="s">"panel-2-heading"</span> <span class="na">class=</span><span class="s">"ds_accordion-item__title"</span><span class="nt">&gt;</span>
+                Employability for veterans
+            <span class="nt">&lt;/h3&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"ds_accordion-item__indicator"</span><span class="nt">&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"ds_accordion-item__label"</span> <span class="na">for=</span><span class="s">"panel-2"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>Show this section<span class="nt">&lt;/span&gt;&lt;/label&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item__body"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;p&gt;</span>If you're looking for a job, there are several organisations that can help you <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>find a job or develop new skills<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">class=</span><span class="s">"visually-hidden  ds_accordion-item__control"</span> <span class="na">id=</span><span class="s">"panel-3"</span> <span class="na">aria-labelledby=</span><span class="s">"panel-3-heading"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item__header"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h3</span> <span class="na">id=</span><span class="s">"panel-3-heading"</span> <span class="na">class=</span><span class="s">"ds_accordion-item__title"</span><span class="nt">&gt;</span>
+                Housing for veterans
+            <span class="nt">&lt;/h3&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"ds_accordion-item__indicator"</span><span class="nt">&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"ds_accordion-item__label"</span> <span class="na">for=</span><span class="s">"panel-3"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>Show this section<span class="nt">&lt;/span&gt;&lt;/label&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ds_accordion-item__body"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;p&gt;</span>If you need <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>help finding a place to live<span class="nt">&lt;/a&gt;</span> there's support specifically for veterans.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
                     </div>
                 </div>
-            </section>
 
 
 
 
-                <section id="library" class="zebra">
-                    <div class="ds_wrapper">
-                        <div class="ds_category-list-container">
-                            <ol class="main  ds_category-list  ds_category-list--grid  ds_category-list--narrow">
 
 
 
 
-                                    <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
-                                        <article class="ds_category-item">
-                                            <h2 class="ds_category-item__title">
-                                                <a href="/styles/" class="ds_category-item__link">
-                                                    Styles
-                                                </a>
-                                            </h2>
 
 
-                                                <p class="ds_category-item__summary">
-                                                    Best practice guidance on core elements of digital design and web styling.
-                                                </p>
+                    <div class="ds_accordion-item">
+                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-main-2" aria-labelledby="panel-main-2-heading" />
+                        <div class="ds_accordion-item__header">
+                            <h3 id="panel-main-2-heading" class="ds_accordion-item__title">
+                                Developer notes
+                            </h3>
+                            <span class="ds_accordion-item__indicator"></span>
+                            <label class="ds_accordion-item__label" for="panel-main-2"><span class="visually-hidden">Show this section</span></label>
+                        </div>
+                        <div class="ds_accordion-item__body">
+                            <h3 id="configuration-options">Configuration options</h3>
 
-                                        </article>
-                                    </li>
+<p>The colour of the accordions’ title text can be overridden, though blue is more commonly recognised as a link colour.</p>
 
-                                    <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
-                                        <article class="ds_category-item">
-                                            <h2 class="ds_category-item__title">
-                                                <a href="/components/" class="ds_category-item__link">
-                                                    Components
-                                                </a>
-                                            </h2>
+<p><code class="highlighter-rouge">$accordion__header-color</code></p>
 
+<p>Your value for this should be included before you include the SCSS file.</p>
 
-                                                <p class="ds_category-item__summary">
-                                                    Components are parts of code that can be easily lifted and reused. They’re usually self-contained elements of a website, such as a banner, breadcrumb or footer.
-                                                </p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$accordion__header-color: red;
+@import '/path/to/components/accordion/accordion';
+</code></pre></div></div>
 
-                                        </article>
-                                    </li>
-
-                                    <li class="ds_card  ds_card--has-hover  ds_card--no-padding">
-                                        <article class="ds_category-item">
-                                            <h2 class="ds_category-item__title">
-                                                <a href="/patterns/" class="ds_category-item__link">
-                                                    Patterns
-                                                </a>
-                                            </h2>
-
-
-                                                <p class="ds_category-item__summary">
-                                                    Patterns use a number of components to help users complete a task or process.
-                                                </p>
-
-                                        </article>
-                                    </li>
-
-                            </ol>
                         </div>
                     </div>
-                </section>
+
+
+        </div>
+    </div>
+</figure>
 
 
 
-            <section id="links" class="zebra">
-                <div class="ds_wrapper">
-                    <div style="display: grid;grid-template-columns:1fr 1fr;grid-gap:28px 30px">
 
-                        <div>
-                            <h2>Content standards</h2>
-                            <p><p>Best practice, guidance and tools for the creation of content to support the delivery of user-centred public services</p>
-</p>
-                            <a href="https://resources.mygov.scot/content-standards/">Learn more</a>
-                        </div>
 
-                        <div>
-                            <h2>Digital Scotland Service Standard</h2>
-                            <p><p>The service standard is a set of 14 criteria that all organisations delivering public services should work towards.</p>
-</p>
-                            <a href="https://www.gov.scot/publications/digital-scotland-service-standard/">Learn more</a>
-                        </div>
 
-                        <div>
-                            <h2>Github repository</h2>
-                            <p><p>Clone, fork or contribute to the Digital Scotland Design System.</p>
-</p>
-                            <a href="https://github.com/scottishgovernment/pattern-library">Learn more</a>
-                        </div>
+                        <h2 id="about-this-component">About this component</h2>
+
+<p>An accordion is made up of in-page links. When one of the links is clicked, the link will expand an associated panel to reveal its contents. If the same link is clicked again, the panel’s contents will collapse and be hidden once again. Multiple panels can be open at the same time.</p>
+
+<p>There is an option to have an “Open all” and “Close all” function.</p>
+
+<p>An accordion cannot be nested inside another accordion.</p>
+
+<h2 id="why-we-use-this-component">Why we use this component</h2>
+
+<p>Sometimes, content is displayed best when it’s broken into small chunks, with users able to pick the particular chunk they need from a longer list of accordion options. When thinking about using an accordion it should be tested with users, alongside other options, to find the best way to display an individual item of content.</p>
+
+<h2 id="website-analytics">Website analytics</h2>
+
+<p>Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number.</p>
+
+<p>Opening and closing all accordion panels by clicking on the “Open all”/”Close all” link can be tracked through the original page path, click text and a data attribute attached on the element.</p>
+
+<p>The data attributes are added automatically by the <a href="/get-started/tracking/#accordion">Design System’s “tracking” script</a>.</p>
+
+
+
+                            <style>
+                            .live-examples {
+                                /* font-size: 0.8em;
+                                border-left: 4px solid #0065bd;
+                                margin: 35px 0; */
+                                padding: 16px 32px;
+                            }
+                            </style>
+
+                            <aside class="ds_callout  live-examples">
+
+                                <h2 class="gamma">Live example</h2>
+
+                                <div class="ds_callout__content">
+
+                                        <p class="live-examples__item">
+                                            <a href="https://www.mygov.scot/give-feedback/">Feedback</a> (mygov.scot)
+                                        </p>
+
+                                </div>
+                            </aside>
+
+
+
+
+
+
+
+
+
+
+
+<nav class="ds_sequential-nav">
+
+    <div class="ds_sequential-nav__item  ds_sequential-nav__item--prev">
+        <a title="Previous section" href="/components/" class="ds_sequential-nav__button  ds_sequential-nav__button--left">
+            <span class="ds_sequential-nav__text" data-label="previous">
+                Components
+            </span>
+        </a>
+    </div>
+
+
+
+    <div class="ds_sequential-nav__item  ds_sequential-nav__item--next">
+        <a title="Next section" href="/components/back-to-top/" class="ds_sequential-nav__button  ds_sequential-nav__button--right">
+            <span class="ds_sequential-nav__text" data-label="next">
+                Back to top
+            </span>
+        </a>
+    </div>
+
+</nav>
+
+
+                        <div class="ds_article-aside">
+    <h2>Feedback, help or support</h2>
+    <p>If you need any help or want to give any feedback you can e-mail us at: <a href="mailto:designsystem@gov.scot">designsystem@gov.scot</a></p>
+</div>
 
                     </div>
-                </div>
-            </section>
-
-
-
-        </main>
+                </main>
+            </div>
+        </div>
     </div>
 
     <div class="ds_back-to-top" data-module="ds-back-to-top">
@@ -372,7 +975,7 @@ body {
 </div>
 
 
-    <div class="ds_page_bottom">
+    <div class="ds_page__bottom">
         <footer class="ds_site-footer  ds_reversed">
     <div class="ds_wrapper">
         <div class="ds_site-footer__content">
@@ -423,66 +1026,16 @@ window.ds_patterns.breakpoint = function(size) {
 
 
 <!-- Browsers with ES module support load these files -->
-<script type="module" src="/assets/scripts/dist/pattern-library.js?1618842204"></script>
-<script type="module" src="/assets/scripts/dist/cookie.js?1618842204"></script>
+<script type="module" src="/assets/scripts/dist/pattern-library.js?1620139959"></script>
+<script type="module" src="/assets/scripts/dist/cookie.js?1620139959"></script>
 
 <!-- Older browsers load these files -->
 <!-- (and module-supporting browsers know *not* to load these files) -->
-<script nomodule src="/assets/scripts/dist/pattern-library.es5.js?1618842204"></script>
-<script nomodule src="/assets/scripts/dist/cookie.es5.js?1618842204"></script>
+<script nomodule src="/assets/scripts/dist/pattern-library.es5.js?1620139959"></script>
+<script nomodule src="/assets/scripts/dist/cookie.es5.js?1620139959"></script>
 
     </div>
 </div>
 
-
-<script>
-
-(() => {
-
-const menuButton = document.querySelector('.js-toggle-menu-redux');
-const menu = document.querySelector('.ds_site-navigation');
-menuButton.addEventListener('click', function () {
-    if (menu.classList.contains('show-menu')) {
-        menu.style.maxHeight = 0;
-
-        window.setTimeout(() => {
-            menu.classList.remove('show-menu');
-        }, 200);
-    } else {
-        menu.style.maxHeight = '400px';
-        menu.classList.add('show-menu');
-
-        //window.setTimeout(() => {
-        //}, 200);
-    }
-});
-
-})();
-
-</script>
-
-<style>
-    @media (min-width: 768px) {
-        .ds_site-navigation {
-            display: block !important;
-            max-height: unset !important;
-        }
-    }
-
-    .ds_site-navigation {
-        display: block;
-        max-height: 0;
-        transition: max-height 0.2s;
-    }
-
-    .show-menu {
-        display: block;
-    }
-</style>
-
-
-
-
 </body>
-
 </html>
