@@ -11,7 +11,7 @@ When a user moves through a web page by jumping between things like the page’s
 
 Components and patterns in this Design System provide styles to make these things clear. If you use a component or pattern from the Design System, you do not need to do anything extra with the focus states within it.
 
-Focus states in the Design System use a high-contrast combination of yellow and dark grey. This combination meets colour contrast requirements in <abbr title="Web Content Accessibility Guidelines ">WCAG</abbr> 2.1 AA ([non-text contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)) against any background colour used by the Design System.
+Focus states in the Design System use a high-contrast combination of yellow and dark grey. This combination meets colour contrast accessibility requirements against any background colour used by the Design System (see the section on [Colour](/styles/colour-palette/) for more information) .
 
 
 ## Link focus state
