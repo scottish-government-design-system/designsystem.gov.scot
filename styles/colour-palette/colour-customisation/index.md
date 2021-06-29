@@ -165,25 +165,9 @@ You should use all elements taken from the Design System without making any chan
 
 As all custom palettes include core colours from the Design System, our elements will match your custom palette without the need to change any CSS.
 
-## Accessible use of colour
+## Accessible colour contrast
 
-Graphical elements using the custom colour palettes should conform to [level AA of the Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/#contrast-minimum). This includes making sure that there is enough contrast for users to be able to identify the key elements of the design. 
-
-You can [check the contrast](https://www.google.com/url?q=https://webaim.org/resources/contrastchecker/&sa=D&ust=1605544718349000&usg=AOvVaw2i-3lS00W0izjK6Sys9yIv) to see if colour combinations meet the required standards.
-
-Graphical elements should avoid the inclusion of text unless purely for decoration. Any text included which is essential to content will need to be accessible to assistive technology. 
-
-All graphics should include a meaningful alt attribute describing the content. 
-
-You will need to include an accessible alternative (such as a transcript) for any text or narrated content in:
-
-* animations 
-* motion graphics 
-* film clips
-
-We designed all our elements to conform to Web Content Accessibility Guidelines.
-
-Using the Design System with custom graphical elements will help public sector websites and services meet the required accessibility standards.
+You need to make sure your custom colour palettes meet the accessibility standards. See the guidance on [Colour](/styles/colour-palette/) to find out more.
 
 ## Research
 
