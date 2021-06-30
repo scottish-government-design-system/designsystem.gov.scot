@@ -72,7 +72,8 @@
                         {% assign indexed = site.pages | where:"parent", page.thispage | sort: 'index', 'first' %}
                         {% for item in indexed %}
                             {% if item.type == 'example' and item.name == 'example.main.md' %}
-                                {% include example-frame.html title="{{page.title}} example" name="main" html-expanded=page.example.html-expanded no-demo=page.example.no-demo %}
+                                {% assign iframetitle = page.title | append: " example" %}
+                                {% include example-frame.html title=iframetitle name="main" html-expanded=page.example.html-expanded no-demo=page.example.no-demo %}
                             {% endif %}
                         {% endfor %}
 
