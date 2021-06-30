@@ -26,13 +26,13 @@ Hierarchical headings are helpful for accessibility and help all users to unders
 
 We write headings with a capital letter at the start. The only difference is we do not use full stops. This is the most popular way of writing headings online and is known as 'sentence case'.
 
-{% include example-frame.html name="headings" %}
+{% include example-frame.html title="Heading example" name="headings" %}
 
 ### Heading with captions
 
 A caption is a piece of text above a page’s title. It shows when a heading is part of a larger section or group. For example mygov.scot uses a heading and caption on the 'guide' format.
 
-{% include example-frame.html name="header-caption" %}
+{% include example-frame.html title="Heading example with caption" name="header-caption" %}
 
 You can see how to implement this on the [page header](/components/page-header/) component.
 
@@ -40,7 +40,7 @@ You can see how to implement this on the [page header](/components/page-header/)
 
 Some heading formats may also have supporting metadata shown beneath the main header. For example 'Last updated' underneath the page title.
 
-{% include example-frame.html name="header-caption-metadata" %}
+{% include example-frame.html title="Heading example with metadata" name="header-caption-metadata" %}
 
 
 
@@ -51,19 +51,19 @@ Some heading formats may also have supporting metadata shown beneath the main he
 
 The default paragraph font size used by the Design System is 19px on larger screens and 16px on smaller screens.
 
-{% include example-frame.html name="body" %}
+{% include example-frame.html title="Body text example" name="body" %}
 
 ### Leader
 
 Leader styling should apply to introductory content near the top of the page. The leader font size used by the Design System is 24px.
 
-{% include example-frame.html name="leader" %}
+{% include example-frame.html title="Leader text example" name="leader" %}
 
 ### Small
 
 Small type should be used sparingly and when content is limited in space within a component.
 
-{% include example-frame.html name="small" %}
+{% include example-frame.html title="Small text example" name="small" %}
 
 
 
@@ -71,7 +71,7 @@ Small type should be used sparingly and when content is limited in space within 
 ## Links
 Link styling is blue and underlined by default. If a link appears at the end of a sentence, the full stop should be outside the link.
 
-{% include example-frame.html name="links" %}
+{% include example-frame.html title="Links example" name="links" %}
 
 
 
@@ -84,10 +84,10 @@ Use lists to make blocks of text easier to read.
 
 Introduce bulleted lists with a lead-in line ending in a colon. Start each item with a lowercase letter, and do not use a full stop at the end.
 
-{% include example-frame.html name="list-bulleted" %}
+{% include example-frame.html title="Bulleted list example" name="list-bulleted" %}
 
 ### Numbered list
 
 Use numbered lists instead of bulleted lists when the order of the items is important. You do not need to use a lead-in line for numbered lists. Items in a numbered list should end in a full stop, because each one should be a complete sentence.
 
-{% include example-frame.html name="list-numbered" %}
+{% include example-frame.html title="Numbered list example" name="list-numbered" %}

@@ -16,10 +16,10 @@ We based our text input component on the one built by GDS. [Find out more about 
 ## Size options
 
 ### Fixed-width inputs
-{% include example-frame.html name="sizes-fixed" %}
+{% include example-frame.html title="Text input examples with fixed sizes" name="sizes-fixed" %}
 
 ### Fluid-width inputs
-{% include example-frame.html name="sizes-fluid" %}
+{% include example-frame.html title="Text input examples with fluid sizes" name="sizes-fluid" %}
 
 
 
@@ -28,7 +28,7 @@ We based our text input component on the one built by GDS. [Find out more about 
 
 Sometimes buttons are directly related to an input field, such as in a [site search](/components/site-search) or [date picker](/components/date-picker).
 
-{% include example-frame.html name="action" %}
+{% include example-frame.html title="Text input example with an associated action button" name="action" %}
 
 
 
@@ -37,7 +37,7 @@ Sometimes buttons are directly related to an input field, such as in a [site sea
 
 If you are asking the user for a currency amount, use this version of a checkbox. It has a currency symbol that cannot be deleted by the user.
 
-{% include example-frame.html name="currency" %}
+{% include example-frame.html title="Text input example with a currency symbol" name="currency" %}
 
 
 
@@ -46,7 +46,7 @@ If you are asking the user for a currency amount, use this version of a checkbox
 
 In some cases it might be sensible to align text inputs inline, such as when asking for multiple short related fields.
 
-{% include example-frame.html name="inline" %}
+{% include example-frame.html title="Text input example with an inline display" name="inline" %}
 
 
 

@@ -37,7 +37,7 @@ There is evidence from mygov.scot that users interact with the breadcrumbs more 
 
 Where there may be issues with repetition or page titles are too long, a version of breadcrumbs which do not include the current page can be used. In these cases keep the current page available to screen readers through the use of the <code>visually-hidden</code> CSS class.
 
-{% include example-frame.html name="no-current" %}
+{% include example-frame.html title="Breadcrumb example with current page not shown" name="no-current" %}
 
 ## Website analytics
 
@@ -47,7 +47,7 @@ The data attribute is added automatically by the [Design System's "tracking" scr
 
 You should include a [Schema](https://schema.org) representation of the breadcrumbs. One useful benefit of using Schema representation is that it allows a breadcrumb trail to be accurately displayed on search engines and will help users navigate the structure of your site.
 
-{% include example-frame.html type="JSON-LD" no-demo="true" name="schema" %}
+{% include example-frame.html title="Breadcrumb structured data example code" type="JSON-LD" no-demo="true" name="schema" %}
 
 This [Google structured data guidance for breadcrumbs](https://developers.google.com/search/docs/data-types/breadcrumb) is a helpful reference.
 

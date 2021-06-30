@@ -27,4 +27,4 @@ A percentage threshold can be set at which the character count will be shown.
 
 In this example the character count will show after 80 percent of the maximum has been used (240 characters out of 300). Remove some characters from the textarea to make the message disappear.
 
-{% include example-frame.html name="threshold" %}
+{% include example-frame.html title="Character count example with a display threshold" name="threshold" %}

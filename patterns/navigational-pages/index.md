@@ -28,13 +28,13 @@ We have four types of navigational pages:
 
 ### Card navigation
 
-{% include example-frame.html name="card" %}
+{% include example-frame.html title="Navigational page example with items on cards" name="card" %}
 
 All cards should contain links.
 
 ### Image card navigation
 
-{% include example-frame.html name="image-card" pad=50 %}
+{% include example-frame.html title="Navigational page example with items on image cards" name="image-card" pad=50 %}
 
 These cards are designed for images with a 16:9 aspect ratio.
 
@@ -46,13 +46,13 @@ These cards are designed for images with a 16:9 aspect ratio.
 
 ### Grid navigation
 
-{% include example-frame.html name="grid" %}
+{% include example-frame.html title="Navigational page example with items in a grid" name="grid" %}
 
 Although there are no boxes, there is a single, left-hand side line running the total length of each text area (heading plus summary content).
 
 ### List navigation
 
-{% include example-frame.html name="list" %}
+{% include example-frame.html title="Navigational page example with items in a list" name="list" %}
 
 ## Other versions of these patterns
 

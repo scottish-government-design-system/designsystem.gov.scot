@@ -21,7 +21,7 @@ Generally, banners do not contain images, but may contain small icons, such as a
 
 Notification banners can have an icon before their content.
 
-{% include example-frame.html name="icon" %}
+{% include example-frame.html title="Notification banner example with an icon" name="icon" %}
 
 ## Why we use this component
 To highlight short, key content at the top of the page that all users need to see.

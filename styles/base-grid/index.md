@@ -29,4 +29,4 @@ This example is also intended only as a visual demo. The HTML and CSS code used 
 
 In the demo, the individual boxes of the base grid span the width of the whole page on a mobile phone or other small device.
 
-{% include example-frame-base-grid.html name="interactive" caption="Half-scale interactive demo" resize=true %}
+{% include example-frame-base-grid.html title="Base grid example" name="interactive" caption="Half-scale interactive demo" resize=true %}

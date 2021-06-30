@@ -17,7 +17,7 @@ There are a number of responsive layouts provided in the Design System. You can 
 
 <img src="/assets/images/examples/article-layout.svg"/>
 
-{% include example-frame.html name="article" no-demo=true %}
+{% include example-frame.html title="Example HTML for an article layout" name="article" no-demo=true %}
 
 ## CSS of a layout
 

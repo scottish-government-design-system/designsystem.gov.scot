@@ -89,7 +89,7 @@ We offer a keyboard shortcut using the ESC key. Research suggested speed is crit
 
 Every page with the component should have a hidden warning for assistive technologies, such as screen readers. To do this, you should add the following code above the 'Skip to main' content element.
 
-{% include example-frame.html name="accessible-snippet" no-demo=true html-expanded=true %}
+{% include example-frame.html title="HTML snippet to alert users of screen readers to the keyboard trigger" name="accessible-snippet" no-demo=true html-expanded=true %}
 
 When a user is using assistive technology, the code announces either or both:
 - the presence of the 'Hide this page' button

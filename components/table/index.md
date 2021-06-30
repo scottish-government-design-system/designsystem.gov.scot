@@ -38,7 +38,7 @@ Cons:
 * Requires additional interaction (scroll or swipe) from the user.
 * Not all data is visible at once.
 
-{% include example-frame.html name="scrolling" %}
+{% include example-frame.html title="Table example with scrolling behaviour on small devices" name="scrolling" %}
 
 ### Collapse to boxes
 
@@ -51,4 +51,4 @@ Cons:
 * Difficult to compare data between rows, since they've now been transformed into boxes and separated.
 * Does not look like a table. This non-standard display may be unfamiliar to users.
 
-{% include example-frame.html name="boxes" %}
+{% include example-frame.html title="Table example with a box display on small devices" name="boxes" %}

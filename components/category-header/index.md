@@ -30,6 +30,6 @@ Category headers may use a coloured background instead of white. If you choose t
 
 The coloured background should be applied to an element that wraps the category header. If using a dark colour, such as in this example, you should add a class of <code>ds_reversed</code> to the wrapping element. This will make the text content display in white.
 
-{% include example-frame.html name="colour" %}
+{% include example-frame.html title="Category header example with a coloured background" name="colour" %}
 
 Note also that in the example above the breadcrumbs are also included in the coloured area and that the <code>ds_reversed</code> class has also altered the colour of its links.

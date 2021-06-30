@@ -31,7 +31,7 @@ On a mobile, a 'Load more' button is shown instead of a list of page numbers.
 
 If a user has searched for something and there are no results to display, give the user some hints for how to improve their search.
 
-{% include example-frame.html name="no-results" %}
+{% include example-frame.html title="Search results example with no results" name="no-results" %}
 
 ## Components related to this
 

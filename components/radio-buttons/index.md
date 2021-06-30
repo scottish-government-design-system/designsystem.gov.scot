@@ -27,19 +27,19 @@ If users need to be able to pick more than one option from a list, use the [chec
 
 Hint text can be added to radio buttons. You can use hint text for more details about a radio button. You should avoid adding hint text to the radio button's label element.
 
-{% include example-frame.html name="hints" %}
+{% include example-frame.html title="Radio button example with hint text" name="hints" %}
 
 ### Small radio buttons
 
 Although small radio buttons appear smaller, their clickable area remains the same as normal radio buttons. This makes them easier for users to select.
 
-{% include example-frame.html name="small" %}
+{% include example-frame.html title="Radio button example with small radio buttons" name="small" %}
 
 ### Error messages
 
 The error state for radio buttons marks the entire fieldset.
 
-{% include example-frame.html name="error" %}
+{% include example-frame.html title="Radio button example with an error state" name="error" %}
 
 ### Inline radio buttons
 
@@ -47,7 +47,7 @@ If there are few options and each has a short label, they can be placed inline.
 
 If you are using an inline display for a yes/no choice, make 'Yes' the first option.
 
-{% include example-frame.html name="inline" %}
+{% include example-frame.html title="Radio button example with inline display" name="inline" %}
 
 
 ## Website analytics

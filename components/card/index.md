@@ -44,15 +44,15 @@ Find out more about accessibility requirements that should be applied to all onl
 
 ### Arbitrary content
 
-{% include example-frame.html name="content" %}
+{% include example-frame.html title="Card example with arbitrary content" name="content" %}
 
 ### Card with category item and image
 
-{% include example-frame.html name="media" %}
+{% include example-frame.html title="Card example with media content" name="media" %}
 
 
 ### A Design System component
 
 This example demonstrates using a [metadata](/components/metadata) block on a card.
 
-{% include example-frame.html name="component" %}
+{% include example-frame.html title="Card example with an embedded component" name="component" %}

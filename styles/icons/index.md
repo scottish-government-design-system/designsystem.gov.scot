@@ -22,7 +22,7 @@ These icons can be found in SVG format in the Github repository. They're also pr
 
 The default size of icons is 24px. Alternative sizes, in 4px increments, can be explicitly set with additional CSS classes.
 
-{% include example-frame.html name="icon-sizes" %}
+{% include example-frame.html title="Icon sizes example" name="icon-sizes" %}
 
 ## Colour
 
@@ -38,7 +38,7 @@ How to colour icons depends on whether they are images in your markup or backgro
 
 Icons use the colour of the text around them by default. You can give icons a specific colour by styling their `SVG` element.
 
-{% include example-frame.html name="markup-colour" %}
+{% include example-frame.html title="Icon colour example" name="markup-colour" %}
 
 ### Colouring icons in CSS
 
@@ -53,7 +53,7 @@ We use the "icon mask" CSS property to allow icons to be given custom colours in
 For developers: the Design System includes a SASS mixin that adds all of the necessary CSS properties. It takes the image path as a parameter, for example:
 
 {% highlight scss %}
-@include icon-mask(/my/cool/icon.svg);
+@include icon-mask('/my/cool/icon.svg');
 {% endhighlight %}
 
 ## Accessibility
@@ -62,7 +62,7 @@ Accessible SVG icons is a topic in itself. This [CSS Tricks article about access
 
 Our approach is to keep things simple: as a rule of thumb all icons are considered decorative and have `aria-hidden="true"` so screen readers will ignore them. If it is important that a screen reader notify the user about an icon, place a hidden element before it with a text label, as we do in this example:
 
-{% include example-frame.html name="accessible" html-expanded=true %}
+{% include example-frame.html title="Accessiblie icon example" name="accessible" html-expanded=true %}
 
 ## Social media
 

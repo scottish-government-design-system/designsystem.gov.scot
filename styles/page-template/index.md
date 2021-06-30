@@ -8,7 +8,7 @@ thispage: style.page-template
 ---
 Pages built using the Design System should use this template as a starting point.
 
-{% include example-frame.html name="code" no-demo=true html-expanded=true  %}
+{% include example-frame.html title="Example HTML for page template" name="code" no-demo=true html-expanded=true  %}
 
 ## Page top
 

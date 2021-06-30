@@ -30,19 +30,19 @@ Hint text can be added to checkboxes, just as it can to any other form component
 
 You can use hint text for more details about a checkbox. You should avoid adding hint text to the checkbox's label element.
 
-{% include example-frame.html name="hints" %}
+{% include example-frame.html title="Checkbox example with hint text" name="hints" %}
 
 ### Small checkboxes
 
 Although small checkboxes appear smaller, their clickable area is the same as normal checkboxes. This makes them easier for users to pick.
 
-{% include example-frame.html name="small" %}
+{% include example-frame.html title="Checkbox example with small checkboxes" name="small" %}
 
 ## Error messages
 
 The error state for checkboxes marks the entire fieldset.
 
-{% include example-frame.html name="error" %}
+{% include example-frame.html title="Checkbox example with an error state" name="error" %}
 
 ## Website analytics
 
