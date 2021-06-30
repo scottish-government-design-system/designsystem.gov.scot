@@ -9,7 +9,7 @@ style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 <div class="ds_notification  ds_reversed" data-module="ds-notification">
     <div class="ds_wrapper">
         <div class="ds_notification__content  ds_notification__content--has-close">
-            <div role="heading" class="visually-hidden">Information</div>
+            <h2 class="visually-hidden">Information</h2>
 
             <div class="ds_notification__text">
                 <p>We need to tell you about <a href="#">something</a></p>
