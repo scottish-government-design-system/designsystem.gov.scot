@@ -52,6 +52,4 @@ Other types of imagery can be considered such as logos, icons and diagrams to su
 
 ## Accessibility
 
-Images must always be supported with text alternatives which are descriptive of the information they present. Alternative text is read out by screen readers for users with visual impairments and where an image does not load. Text should never be included as part of the image as this will not be read out by screen readers or translated by automated translators.
-
-W3C gives guidance on [how to make images accessible](#).
+Images must always be supported with text alternatives which are descriptive of the purpose of the image. Alternative text is read out by screen readers and where an image does not load. Avoid using text as part of the image as this will not be read out by screen readers or translated by automated translators. If it is unavoidable the the alternative text should contain all the text in the image. Keep alternative text succinct. Do not lead with 'Image of...', 'Photo of...' etc. The screen reader will announce that this is an image so including that text is unnecessary.
