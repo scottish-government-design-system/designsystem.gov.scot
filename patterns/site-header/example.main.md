@@ -19,13 +19,47 @@ minheight: '427px'
                     Design System
                 </div>
             </div>
+        
+            <div class="ds_site-header__controls">
+                <label aria-controls="mobile-navigation" class="ds_site-header__control  js-toggle-menu" for="menu">
+                    <span class="ds_site-header__control-text">Menu</span>
+                    <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
+                    <svg class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
+                </label>
+            </div>
 
-            <div class="ds_site-header__search  ds_site-search  ds_site-search--collapsible" data-module="ds-site-search">
+            <input class="ds_site-navigation__toggle" id="menu" type="checkbox"/>
+            <nav id="mobile-navigation" class="ds_site-navigation  ds_site-navigation--mobile" data-module="ds-mobile-navigation-menu">
+                <ul class="ds_mobile-navigation__list">
+                    <li class="ds_mobile-navigation__item">
+                        <a href="#" class="ds_mobile-navigation__link">
+                            Get started
+                        </a>
+                    </li>
+                    <li class="ds_mobile-navigation__item">
+                        <a href="#" class="ds_mobile-navigation__link">
+                            Styles
+                        </a>
+                    </li>
+                    <li class="ds_mobile-navigation__item">
+                        <span class="ds_mobile-navigation__link  ds_current">
+                            Components
+                        </span>
+                    </li>
+                    <li class="ds_mobile-navigation__item">
+                        <a href="#" class="ds_mobile-navigation__link">
+                            Patterns
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="ds_site-search  ds_site-header__search" data-module="ds-site-search">
                 <form role="search" class="ds_site-search__form">
                     <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
-                    <div class="ds_input__wrapper  ds_input__wrapper--has-icon  ds_no-margin">
-                        <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
+                    <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+                        <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off" />
 
                         <button type="submit" class="ds_button  js-site-search-button">
                             <span class="visually-hidden">Search</span>
@@ -35,68 +69,7 @@ minheight: '427px'
                 </form>
             </div>
         </div>
-
-        <nav data-module="ds-mobile-navigation-menu">
-            <button class="js-toggle-menu  ds_mobile-navigation__button" aria-expanded="false" aria-controls="mobile-navigation-menu">
-                <span class="ds_site-header__control-text">Menu</span>
-
-                <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
-                <svg class="ds_icon  ds_site-header__control-icon--close  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
-            </button>
-
-            <div class="ds_mobile-navigation" id="mobile-navigation-menu" data-offsetselector=".ds_site-header">
-                <div class="ds_mobile-navigation__content">
-
-                    <div class="ds_mobile-navigation__block">
-                        <div class="ds_site-search" data-module="ds-site-search">
-                            <form role="search" class="ds_site-search__form">
-                                <label class="ds_label  visually-hidden" for="site-search--mobile">Search</label>
-
-                                <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
-                                    <input name="q" required="" id="site-search--mobile" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off">
-
-                                    <button type="submit" class="ds_button  js-site-search-button">
-                                        <span class="visually-hidden">Search</span>
-                                        <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="ds_mobile-navigation__block">
-                        <ul class="ds_mobile-navigation__list">
-                            <li class="ds_mobile-navigation__item">
-                                <a href="#" class="ds_mobile-navigation__link">
-                                    Get started
-                                </a>
-                            </li>
-                            <li class="ds_mobile-navigation__item">
-                                <a href="#" class="ds_mobile-navigation__link">
-                                    Styles
-                                </a>
-                            </li>
-                            <li class="ds_mobile-navigation__item">
-                                <span class="ds_mobile-navigation__link  ds_current">
-                                    Components
-                                </span>
-                            </li>
-                            <li class="ds_mobile-navigation__item">
-                                <a href="#" class="ds_mobile-navigation__link">
-                                    Patterns
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <button type="button" class="ds_mobile-navigation__backdrop  js-close-menu" aria-expanded="false" aria-controls="mobile-navigation-menu">
-                        <span class="visually-hidden">Close menu</span>
-                    </button>
-                </div>
-            </div>
-        </nav>
     </div>
-
 
     <div class="ds_site-header__navigation">
         <div class="ds_wrapper">

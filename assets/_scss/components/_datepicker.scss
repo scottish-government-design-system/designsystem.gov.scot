@@ -46,7 +46,8 @@
                 margin: 0;
                 width:  32px;
 
-                @include blocklink(null, inline-block);
+                @include blocklink;
+                display: inline-block;
             }
         }
 

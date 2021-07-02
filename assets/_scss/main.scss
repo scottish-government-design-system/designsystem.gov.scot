@@ -4,6 +4,7 @@
 
 
 $dss-prefix: 'dss_';
+$use-legacy-site-navigation: false;
 
 
 
@@ -45,7 +46,7 @@ $dss-prefix: 'dss_';
 
 
 
-// /* for homepage */
+/* for homepage */
 @import "components/component.case-study";
 @import "components/component.homepage-hero";
 @import "components/component.showcase";
