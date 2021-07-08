@@ -1,6 +1,7 @@
 ---
 layout: experiment_content-blocks
 title: About Digital Data and Technology
+noindex: true
 blocks:
     - h1
     - image-text::blue

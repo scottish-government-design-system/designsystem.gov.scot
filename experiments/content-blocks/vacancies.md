@@ -1,6 +1,7 @@
 ---
 layout: experiment_content-blocks
 title: Current DDaT vacancies
+noindex: true
 blocks:
     - h1::grey
     - image-text::grey

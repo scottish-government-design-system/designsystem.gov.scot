@@ -1,6 +1,7 @@
 ---
 layout: experiment_content-blocks
 title: DDaT news
+noindex: true
 blocks:
     - h1
     - image-text
