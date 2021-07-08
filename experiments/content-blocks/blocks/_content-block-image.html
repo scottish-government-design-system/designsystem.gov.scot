@@ -1,0 +1,45 @@
+<div class="content-block  content-block--image  {% if include.color %}content-block--{{include.color}}{% endif %}  content-block--fullwidth">
+    <div class="ds_wrapper">
+        <div class="content-block__content">
+            <figure>
+                <img src="https://placebear.com/640/360" alt=""/>
+                <figcaption>Image block</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="content-block__controls">
+        <form class="js-controls">
+            <fieldset>
+                <legend>
+                    Block options
+                </legend>
+
+                <label data-for="background-color" class="ds_label">Background colour</label>
+                <div class="ds_select-wrapper">
+                    <select data-id="background-color" class="ds_select">
+                        <option value="white">White</option>
+                        <option value="grey">Grey</option>
+                        <option value="blue">Blue</option>
+                        <option value="darkblue">Dark blue</option>
+                        <option value="teal">Teal</option>
+                        <option value="darkteal">Dark teal</option>
+                        <option value="green">Green</option>
+                        <option value="darkgreen">Dark green</option>
+                        <option value="orange">Orange</option>
+                        <option value="red">Red</option>
+                        <option value="pink">Pink</option>
+                        <option value="purple">Purple</option>
+                        <option value="brown">Brown</option>
+                    </select>
+                    <span class="ds_select-arrow" aria-hidden="true"></span>
+                </div>
+
+                <div class="ds_checkbox">
+                    <input class="ds_checkbox__input" data-id="fullwidth" type="checkbox" />
+                    <label class="ds_checkbox__label" data-for="fullwidth">Full width</label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
