@@ -127,33 +127,6 @@ body {
                     </div>
                 </div>
             </section>
-
-            {% assign indexed = site.pages | where:"showcase", 'true' | sort: 'title', 'first' %}
-            {%if indexed.size > 0 %}
-                <section id="showcase" class="zebra">
-                    <div class="ds_wrapper">
-                        <h1>Pattern showcase</h1>
-
-                        <div class="showcase">
-
-                            {% for component in indexed %}
-                            <div class="showcase__item">
-                                <h2 class="gamma"><a href="{{component.url}}">{{component.title}}</a></h2>
-
-                                {% assign indexed = site.pages | where:"parent", component.thispage %}
-                                {% for subpage in indexed %}
-                                    {% if subpage.type == 'example' %}
-                                        <iframe src="components/{{component.thispage | replace: 'component.', ''}}/example.html" class="showcase__iframe" onload="resizeIframe(this)" style="height: 217px;"></iframe>
-                                    {% endif %}
-                                {% endfor %}
-
-                                <p>{{component.summary}}</p>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </section>
-            {% endif %}
         </main>
     </div>
 
