@@ -6,10 +6,12 @@ index: 0
 style: 'body{background-color:#f8f8f8}'
 ---
 <nav aria-label="Category navigation">
-    <ol class="ds_category-list  ds_category-list--grid  ds_category-list--narrow">
+    <ul class="ds_category-list  ds_category-list--grid  ds_category-list--narrow">
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="/assets/images/graphics/thistles.jpg">
+                <div class="ds_aspect-box">
+                    <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/thistles.jpg">
+                </div>
             </div>
 
             <article class="ds_category-item  ds_card__content">
@@ -27,7 +29,9 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="/assets/images/graphics/clyde.jpg">
+                <div class="ds_aspect-box">
+                    <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/clyde.jpg">
+                </div>
             </div>
 
             <article class="ds_category-item  ds_card__content">
@@ -43,7 +47,9 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="/assets/images/graphics/edcastle.jpg">
+                <div class="ds_aspect-box">
+                    <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/edcastle.jpg">
+                </div>
             </div>
 
             <article class="ds_category-item  ds_card__content">
@@ -59,7 +65,9 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="/assets/images/graphics/coast.jpg">
+                <div class="ds_aspect-box">
+                    <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/coast.jpg">
+                </div>
             </div>
 
             <article class="ds_category-item  ds_card__content">  
@@ -75,7 +83,9 @@ style: 'body{background-color:#f8f8f8}'
 
         <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
             <div class="ds_card__media">
-                <img class="ds_card__image" src="/assets/images/graphics/processedcoo.jpg">
+                <div class="ds_aspect-box">
+                    <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/processedcoo.jpg">
+                </div>
             </div>
 
             <article class="ds_category-item  ds_card__content">
@@ -88,5 +98,5 @@ style: 'body{background-color:#f8f8f8}'
                 </p>
             </article>
         </li>
-    </ol>
+    </ul>
 </nav>

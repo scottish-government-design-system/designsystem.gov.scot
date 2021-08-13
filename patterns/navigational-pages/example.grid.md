@@ -7,7 +7,7 @@ style: 'body{background-color:#f8f8f8}'
 ---
 
 <nav aria-label="Category navigation">
-    <ol class="ds_category-list  ds_category-list--grid">
+    <ul class="ds_category-list  ds_category-list--grid">
         <li class="ds_category-item ">
             <h2 class="ds_category-item__title">
                 <a href="#" class="ds_category-item__link">
@@ -61,5 +61,5 @@ style: 'body{background-color:#f8f8f8}'
                 Includes information on safety at sea and managing crew
             </p>
         </li>
-    </ol>
+    </ul>
 </nav>
