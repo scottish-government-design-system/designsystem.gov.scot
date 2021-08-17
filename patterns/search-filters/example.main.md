@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.search-filters
+parent: pattern.search-filters
 type: example
 ---
 

@@ -1,13 +1,14 @@
 ---
 layout: example
-parent: pattern.navigational-pages-with-media-card
+parent: pattern.navigational-pages
 type: example
 index: 0
 style: 'body{background-color:#f8f8f8}'
+pad: 16px
 ---
 <nav aria-label="Category navigation">
     <ul class="ds_category-list  ds_category-list--grid  ds_category-list--narrow">
-        <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
+        <li class="ds_card  ds_card--has-hover">
             <div class="ds_card__media">
                 <div class="ds_aspect-box">
                     <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/thistles.jpg">
@@ -27,7 +28,7 @@ style: 'body{background-color:#f8f8f8}'
             </article>
         </li>
 
-        <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
+        <li class="ds_card  ds_card--has-hover">
             <div class="ds_card__media">
                 <div class="ds_aspect-box">
                     <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/clyde.jpg">
@@ -45,7 +46,7 @@ style: 'body{background-color:#f8f8f8}'
             </article>
         </li>
 
-        <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
+        <li class="ds_card  ds_card--has-hover">
             <div class="ds_card__media">
                 <div class="ds_aspect-box">
                     <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/edcastle.jpg">
@@ -63,7 +64,7 @@ style: 'body{background-color:#f8f8f8}'
             </article>
         </li>
 
-        <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
+        <li class="ds_card  ds_card--has-hover">
             <div class="ds_card__media">
                 <div class="ds_aspect-box">
                     <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/coast.jpg">
@@ -81,7 +82,7 @@ style: 'body{background-color:#f8f8f8}'
             </article>
         </li>
 
-        <li class="ds_card  ds_card--no-padding  ds_card--has-hover">
+        <li class="ds_card  ds_card--has-hover">
             <div class="ds_card__media">
                 <div class="ds_aspect-box">
                     <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/graphics/processedcoo.jpg">

@@ -23,7 +23,7 @@ const dsSite = {
 
     resizeIframes: () => {
         function resizeIframe(obj) {
-            obj.style.height = obj.contentWindow.document.body.scrollHeight + 2 + 'px';
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 16 + 'px';
         }
 
         const iframes = [].slice.call(document.querySelectorAll('iframe.example__iframe'));

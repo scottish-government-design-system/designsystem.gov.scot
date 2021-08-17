@@ -26,15 +26,15 @@ We have four types of navigational pages:
 * Grid navigation - orders hyperlinked headings and summary content into rows without boxes on desktops and tablets, a single column on mobile
 * List navigation - orders hyperlinked headings and summary content into a list
 
-### Card navigation
+## Card navigation
 
 {% include example-frame.html title="Navigational page example with items on cards" name="card" %}
 
 All cards should contain links.
 
-### Image card navigation
+## Image card navigation
 
-{% include example-frame.html title="Navigational page example with items on image cards" name="image-card" pad=50 %}
+{% include example-frame.html title="Navigational page example with items on image cards" name="image-card" %}
 
 These cards are designed for images with a 16:9 aspect ratio.
 
@@ -44,13 +44,17 @@ These cards are designed for images with a 16:9 aspect ratio.
   </div>
 </div>
 
-### Grid navigation
+### Accessibility
+
+The images used in card navigation are considered to be decorative, and as such we give them a blank "alt" attribute and tell screen readers that they are hidden.
+
+## Grid navigation
 
 {% include example-frame.html title="Navigational page example with items in a grid" name="grid" %}
 
 Although there are no boxes, there is a single, left-hand side line running the total length of each text area (heading plus summary content).
 
-### List navigation
+## List navigation
 
 {% include example-frame.html title="Navigational page example with items in a list" name="list" %}
 
