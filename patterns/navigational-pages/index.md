@@ -46,7 +46,7 @@ These cards are designed for images with a 16:9 aspect ratio.
 
 ### Accessibility
 
-The images used in card navigation are considered to be decorative, and as such we give them a blank "alt" attribute and tell screen readers that they are hidden.
+The images used in image card navigation are considered to be decorative, and as such they have a blank "alt" attribute and tell screen readers that they are hidden.
 
 ## Grid navigation
 
