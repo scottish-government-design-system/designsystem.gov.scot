@@ -17,7 +17,7 @@ examples:
 
 An accordion is made up of in-page links. When one of the links is clicked, the link will expand an associated panel to reveal its contents. If the same link is clicked again, the panel's contents will collapse and be hidden once again. Multiple panels can be open at the same time.
 
-There is an option to have an "Open all" and "Close all" function.
+There is an option to have an 'Open all'/'Close all' function.
 
 An accordion cannot be nested inside another accordion.
 
@@ -29,6 +29,6 @@ Sometimes, content is displayed best when it's broken into small chunks, with us
 
 Opening and closing individual accordion panels by clicking on their headings can be tracked through the original page path, click text, and a data attribute showing the action and item number.
 
-Opening and closing all accordion panels by clicking on the "Open all"/"Close all" link can be tracked through the original page path, click text and a data attribute attached on the element.
+Opening and closing all accordion panels by clicking on the 'Open all'/'Close all' button can be tracked through the original page path, click text and a data attribute attached on the element.
 
-The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#accordion).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#accordion).

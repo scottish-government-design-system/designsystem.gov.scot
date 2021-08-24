@@ -21,7 +21,7 @@ Within the pattern:
 - each individual page number contains 10 search results
 - the page number the user is on is always highlighted
 
-A maximum number of 7 page numbers are shown at the bottom of a page of search results, but the user can select pages outwith these 7 by choosing the "…" (ellipsis) symbol.
+A maximum number of 7 page numbers are shown at the bottom of a page of search results, but the user can select pages outwith these 7 by choosing the '…' (ellipsis) symbol.
 
 An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right. The current page number always appears in the URL, for example `https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2`
 
@@ -47,11 +47,11 @@ Many analytics tools offer out of the box tracking for site search. The setup be
 
 Search results should be tracked in order to understand if internal search engines are providing useful results to users. Tracking works through the query being available from the page URL, the click text, click URL and a data attribute showing the result's position.
 
-Clicks to the suggested terms in the "did you mean..." component are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute.
+Clicks to the suggested terms in the 'did you mean...' content are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute.
 
 Pagination is tracked using the data attribute with the number of the results page clicked.
 
-The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#search-results).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#search-results).
 
 <div class="ds_inset-text"><div class="ds_inset-text__text">
 Where the site search is being used on a single-page app or it is not possible to put the search query in to the URL, the query could be included in the dataLayer for the page.

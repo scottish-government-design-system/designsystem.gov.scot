@@ -43,7 +43,7 @@ The simplest use of the script is to call `tracking.init()` after the DOM is loa
 
 The developer can set the data attribute manually in the component's markup. The script will only add a data attribute if one is not already there.
 
-For example, if you had a button with a very long text, you might want to shorten that attribute value. If you specify the 'data-button' attribute in your markup before calling `tracking.init()`, the script will not change that value.
+For example, if you had a button with a very long text, you might want to shorten that attribute value. If you specify the `data-button` attribute in your markup before calling `tracking.init()`, the script will not change that value.
 
 {% highlight html %}
 <button class="ds_button" data-button="button-start-here">
@@ -227,7 +227,7 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
 
 ### Accordion
 
-Accordion header buttons get a 'data-accordion' attribute whose value uses the pattern `accordion-[index]-[open/close]` where the index is one-based. Opening and closing an accordion panel updates that data attribute to denote the correct action (opening or closing).
+Accordion header buttons get a `data-accordion` attribute whose value uses the pattern `accordion-[index]-[open/close]` where the index is one-based. Opening and closing an accordion panel updates that data attribute to denote the correct action (opening or closing).
 
 {% highlight html %}
 <button class="ds_accordion-item__header-button js-accordion-button" data-accordion="accordion-open-1">
@@ -236,7 +236,7 @@ Accordion header buttons get a 'data-accordion' attribute whose value uses the p
 </button>
 {% endhighlight %}
 
-If an accordion has an "open all" button, that button gets a 'data-accordion' attribute whose value uses the pattern `accordion-[open/close]-all`. This attribute is updated to denote the correct action when accordion panels are opened or closed.
+If an accordion has an 'open all' button, that button gets a `data-accordion` attribute whose value uses the pattern `accordion-[open/close]-all`. This attribute is updated to denote the correct action when accordion panels are opened or closed.
 
 {% highlight html %}
 <button data-accordion="accordion-open-all" type="button" class="ds_link  ds_accordion__open-all  js-open-all">Open all <span class="visually-hidden">sections</span></button>
@@ -244,7 +244,7 @@ If an accordion has an "open all" button, that button gets a 'data-accordion' at
 
 ### Back to top
 
-Back to top links get a 'data-navigation' attribute of `backtotop`.
+Back to top links get a `data-navigation` attribute of `backtotop`.
 
 {% highlight html %}
 <a href="#page-top" class="ds_back-to-top__button js-initialised" data-navigation="backtotop">Back to top</a>
@@ -252,7 +252,7 @@ Back to top links get a 'data-navigation' attribute of `backtotop`.
 
 ### Breadcrumbs
 
-Breadcrumb links get a 'data-navigation' attribute whose value uses the pattern `breadcrumb-[index]` where the index is one-based.
+Breadcrumb links get a `data-navigation` attribute whose value uses the pattern `breadcrumb-[index]` where the index is one-based.
 
 {% highlight html %}
 <a class="ds_breadcrumbs__link" href="#" data-navigation="breadcrumb-1">Home</a>
@@ -260,7 +260,7 @@ Breadcrumb links get a 'data-navigation' attribute whose value uses the pattern 
 
 ### Button
 
-Buttons get a 'data-button' attribute whose value uses the pattern `button-[slug of the button text]`.
+Buttons get a `data-button` attribute whose value uses the pattern `button-[slug of the button text]`.
 
 {% highlight html %}
 <button class="ds_button" data-button="button-start-here">
@@ -270,7 +270,7 @@ Buttons get a 'data-button' attribute whose value uses the pattern `button-[slug
 
 ### Category list
 
-Category list links get a 'data-navigation' attribute whose value uses the pattern `category-item-[index]` where the index is one-based.
+Category list links get a `data-navigation` attribute whose value uses the pattern `category-item-[index]` where the index is one-based.
 
 {% highlight html %}
 <a href="#" class="ds_category-item__link" data-navigation="category-item-3">Farming and rural issues</a>
@@ -278,7 +278,7 @@ Category list links get a 'data-navigation' attribute whose value uses the patte
 
 ### Checkboxes
 
-Checkboxes get a 'data-form' attribute whose value uses the pattern `checkbox-[checkbox ID]`.
+Checkboxes get a `data-form` attribute whose value uses the pattern `checkbox-[checkbox ID]`.
 
 {% highlight html %}
 <input class="ds_checkbox__input" id="education" type="checkbox" data-form="checkbox-education">
@@ -292,13 +292,13 @@ When a user changes the state of a checkbox or if it is already checked, its sta
 
 ### Contact details
 
-Social media links inside contact detail components get a 'data-navigation' attribute whose value uses the pattern `contact-details-[slug of the social media name]`.
+Social media links inside contact detail components get a `data-navigation` attribute whose value uses the pattern `contact-details-[slug of the social media name]`.
 
 {% highlight html %}
 <a class="ds_contact-details__social-link" href="#" data-navigation="contact-details-facebook">Facebook</a>
 {% endhighlight %}
 
-Email links inside contact detail components get a 'data-navigation' attribute whose value is `contact-details-email`.
+Email links inside contact detail components get a `data-navigation` attribute whose value is `contact-details-email`.
 
 {% highlight html %}
 <a href="mailto:designsystem@gov.scot" data-navigation="contact-details-email">designsystem@gov.scot</a>
@@ -306,7 +306,7 @@ Email links inside contact detail components get a 'data-navigation' attribute w
 
 ### Error message
 
-Error messages get a 'data-form' attribute whose value uses the pattern `error-[ID of the field that has the error]`.
+Error messages get a `data-form` attribute whose value uses the pattern `error-[ID of the field that has the error]`.
 
 In the case of a radio button group, the attribute uses the pattern `error-[name of the radio group]`.
 
@@ -316,7 +316,7 @@ In the case of a radio button group, the attribute uses the pattern `error-[name
 
 ### Error summary
 
-Links in error summaries get a 'data-form' attribute whose value uses the pattern `error-[ID of the field that has the error]`.
+Links in error summaries get a `data-form` attribute whose value uses the pattern `error-[ID of the field that has the error]`.
 
 {% highlight html %}
 <a href="#resolve" data-form="error-resolve">Did this resolve your issue?</a>
@@ -324,7 +324,7 @@ Links in error summaries get a 'data-form' attribute whose value uses the patter
 
 ### Hide this page
 
-"Hide this page" buttons get a 'data-navigation' attribute of `hide-this-page`.
+Hide this page buttons get a `data-navigation` attribute of `hide-this-page`.
 
 {% highlight html %}
 <a href="http://bbc.co.uk/weather" data-altlink="https://www.google.co.uk" class="ds_hide-page__button  ds_button  js-hide-page" data-navigation="hide-this-page"><strong>Hide this page</strong> <span class="visually-hidden  js-enabled-text">Or press escape key to hide this page</span></a>
@@ -338,7 +338,7 @@ window.dataLayer.push({ 'event': 'hide-this-page-keyboard' });
 
 ### Inset text
 
-Links in inset text components get a 'data-navigation' attribute of `inset-link`.
+Links in inset text components get a `data-navigation` attribute of `inset-link`.
 
 {% highlight html %}
 <div class="ds_inset-text">
@@ -350,13 +350,13 @@ Links in inset text components get a 'data-navigation' attribute of `inset-link`
 
 ### Notification banner
 
-Links in notification banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the ID of the banner or the one-based index of the banner if it does not have an ID.
+Links in notification banners get a `data-banner` attribute whose value uses the pattern `banner-[bannername]-link`. 'bannername' is either the ID of the banner or the one-based index of the banner if it does not have an ID.
 
 {% highlight html %}
 <a href="#" data-banner="banner-covid-link">latest COVID guidance</a>
 {% endhighlight %}
 
-Close buttons in notification banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-close`. "bannername" is either the ID of the banner or the one-based index of the banner if it does not have an ID.
+Close buttons in notification banners get a `data-banner` attribute whose value uses the pattern `banner-[bannername]-close`. 'bannername' is either the ID of the banner or the one-based index of the banner if it does not have an ID.
 
 {% highlight html %}
 <button class="ds_notification__close  js-close-notification" type="button" data-banner="banner-covid-close">Close this notification</button>
@@ -364,7 +364,7 @@ Close buttons in notification banners get a 'data-banner' attribute whose value 
 
 ### Pagination
 
-Pagination links get a 'data-search' attribute whose value uses the pattern `pagination-[slug of the link text]`.
+Pagination links get a `data-search` attribute whose value uses the pattern `pagination-[slug of the link text]`.
 
 {% highlight html %}
 <a href="#" class="ds_pagination__link" data-search="pagination-11">11</a>
@@ -372,7 +372,7 @@ Pagination links get a 'data-search' attribute whose value uses the pattern `pag
 <a href="#" class="ds_pagination__link" data-search="pagination-prev">Prev</a>
 {% endhighlight %}
 
-"Load more" links in pagination components get a 'data-search' attribute of `pagination-more`.
+"Load more" links in pagination components get a `data-search` attribute of `pagination-more`.
 
 {% highlight html %}
 <button class="ds_button" data-search="pagination-more">Load more</button>
@@ -380,7 +380,7 @@ Pagination links get a 'data-search' attribute whose value uses the pattern `pag
 
 ### Phase banner
 
-Links in phase banners get a 'data-banner' attribute whose value uses the pattern `banner-[banner name]-link`. "bannername" is either the slug of the phase banner's "tag" or simply "phase" if the banner does not have a tag.
+Links in phase banners get a `data-banner` attribute whose value uses the pattern `banner-[bannername]-link`. 'bannername' is either the slug of the phase banner's `tag` or simply 'phase' if the banner does not have a tag.
 
 {% highlight html %}
 <a href="mailto:designsystem@gov.scot" data-banner="banner-beta-link">feedback</a>
@@ -388,7 +388,7 @@ Links in phase banners get a 'data-banner' attribute whose value uses the patter
 
 ### Radio buttons
 
-Radio buttons get a 'data-form' attribute whose value uses the pattern `radio-[radio group name]-[radio ID]`.
+Radio buttons get a `data-form` attribute whose value uses the pattern `radio-[radio group name]-[radio ID]`.
 
 {% highlight html %}
 <input class="ds_radio__input" id="useful-yes" name="feedback-type" type="radio" value="yes" data-form="radio-feedback-type-useful-yes">
@@ -396,11 +396,11 @@ Radio buttons get a 'data-form' attribute whose value uses the pattern `radio-[r
 
 ### Search results
 
-Links in search results get a 'data-search' attribute whose value uses the pattern `search-result-[index]/[total]` where the index is one-based. The index takes the current page of results into consideration. For example, if there are 10 results per page and the user is on page 3, index ought to start at 21.
+Links in search results get a `data-search` attribute whose value uses the pattern `search-result-[index]/[total]` where the index is one-based. The index takes the current page of results into consideration. For example, if there are 10 results per page and the user is on page 3, index ought to start at 21.
 
-The start point of the list should be obtained from a 'start' attribute that can be set on the list element.
+The start point of the list should be obtained from a `start` attribute that can be set on the list element.
 
-The value of ‘total’ is obtained from a 'data-total' attribute on the list element.
+The value of ‘total’ is obtained from a `data-total` attribute on the list element.
 
 {% highlight html %}
 <a class="ds_search-result__link" href="#" data-search="search-result-1/68">Crofting community right to buy</a>
@@ -414,9 +414,9 @@ If the total not available, that part of the attribute is omitted.
 
 ### Search suggestions
 
-Search suggestions is a block found in the "Search results" pattern.
+Search suggestions is a block found in the [Search results](/patterns/search-results) pattern.
 
-Links in search suggestions get a 'data-search' attribute whose value uses the pattern `suggestion-result-[index]/[total]` where the index is one-based.
+Links in search suggestions get a `data-search` attribute whose value uses the pattern `suggestion-result-[index]/[total]` where the index is one-based.
 
 {% highlight html %}
 <a aria-label="Did you mean 'crafting'?" href="#" data-search="suggestion-result-1/2">crafting</a>
@@ -424,9 +424,9 @@ Links in search suggestions get a 'data-search' attribute whose value uses the p
 
 ### Select (dropdown)
 
-Select elements get a 'data-form' attribute whose value uses the pattern `select-[select ID]`.
+Select elements get a `data-form` attribute whose value uses the pattern `select-[select ID]`.
 
-Option elements inside selects get a 'data-form' attribute whose value uses the pattern `select-[select ID]-[slug of the option's value OR slug of the option's text]`.
+Option elements inside selects get a `data-form` attribute whose value uses the pattern `select-[select ID]-[slug of the option's value OR slug of the option's text]`.
 
 {% highlight html %}
 <select class="ds_select js-has-tracking-event" id="component" data-form="select-component">
@@ -437,7 +437,7 @@ Option elements inside selects get a 'data-form' attribute whose value uses the 
 </select>
 {% endhighlight %}
 
-When a user changes selects an option an event is pushed to the window's `dataLayer` with the selected option's 'data-form' attribute.
+When a user changes selects an option an event is pushed to the window's `dataLayer` with the selected option's `data-form` attribute.
 
 {% highlight javascript %}
 window.dataLayer.push({ 'event': 'select-component-button' });
@@ -445,7 +445,7 @@ window.dataLayer.push({ 'event': 'select-component-button' });
 
 ### Sequential navigation
 
-The "previous page" link in sequential navigation is given a 'data-navigation' attribute whose value is `sequential-previous`.
+The 'previous page' link in sequential navigation is given a `data-navigation` attribute whose value is `sequential-previous`.
 
 {% highlight html %}
 <a title="Previous section" href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--left" data-navigation="sequential-previous">
@@ -455,7 +455,7 @@ The "previous page" link in sequential navigation is given a 'data-navigation' a
 </a>
 {% endhighlight %}
 
-The "next page" link in sequential navigation is given a 'data-navigation' attribute whose value is `sequential-next`.
+The 'next page' link in sequential navigation is given a `data-navigation` attribute whose value is `sequential-next`.
 
 {% highlight html %}
 <a title="Next section" href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--right" data-navigation="sequential-next">
@@ -467,7 +467,7 @@ The "next page" link in sequential navigation is given a 'data-navigation' attri
 
 ### Side navigation
 
-Links in side navigation get a 'data-navigation' attribute whose value uses the pattern `sidenav-[index]` where the index is one-based.
+Links in side navigation get a `data-navigation` attribute whose value uses the pattern `sidenav-[index]` where the index is one-based.
 
 {% highlight html %}
 <a href="#" class="ds_side-navigation__link" data-navigation="sidenav-1">Apples</a>
@@ -479,7 +479,7 @@ When there are nested pages in a side navigation, the subpages' indexes are appe
 <a href="#" class="ds_side-navigation__link" data-navigation="sidenav-1-2">Red apples</a>
 {% endhighlight %}
 
-On small screens the side navigation has an open/close toggle button. That button gets a 'data-navigation' attribute whose value uses the pattern `navigation-[open/close]`.This attribute is updated to denote the correct action when the side navigation is opened or closed.
+On small screens the side navigation has an open/close toggle button. That button gets a `data-navigation` attribute whose value uses the pattern `navigation-[open/close]`.This attribute is updated to denote the correct action when the side navigation is opened or closed.
 
 {% highlight html %}
 <button class="ds_side-navigation__expand ds_link js-side-navigation-button" data-navigation="navigation-open">Show all pages in this section</button>
@@ -487,11 +487,11 @@ On small screens the side navigation has an open/close toggle button. That butto
 
 ### Site branding
 
-Site branding is a block found in the "Site header" pattern.
+Site branding is a block found in the [Site header](/patterns/site-header/) pattern.
 
-The site branding logo link is given a 'data-header' attribute whose value is `header-logo`.
+The site branding logo link is given a `data-header` attribute whose value is `header-logo`.
 
-The site branding title link is given a 'data-header' attribute whose value is `header-title`.
+The site branding title link is given a `data-header` attribute whose value is `header-title`.
 
 {% highlight html %}
 <div class="ds_site-branding">
@@ -507,7 +507,7 @@ The site branding title link is given a 'data-header' attribute whose value is `
 
 ### Site footer
 
-Site item links in site footers get a 'data-footer' attribute whose value uses the pattern `footer-link-[index]` where the index is one-based.
+Site item links in site footers get a `data-footer` attribute whose value uses the pattern `footer-link-[index]` where the index is one-based.
 
 {% highlight html %}
 <a href="/cookies/" data-footer="footer-link-2">Cookies</a>
@@ -515,23 +515,23 @@ Site item links in site footers get a 'data-footer' attribute whose value uses t
 
 Copyright and logo links are treated differently.
 
-Copyright links get a 'data-footer' attribute whose value is `footer-copyright`.
+Copyright links get a `data-footer` attribute whose value is `footer-copyright`.
 
-Logo links are get a 'data-footer' attribute whose value is `footer-logo`.
+Logo links are get a `data-footer` attribute whose value is `footer-logo`.
 
 ### Site navigation
 
-Links in site navigation components get a 'data-header' attribute whose value uses the pattern `header-link-[index]` where the index is one-based. They are also given a 'data-device' attribute whose value is either `mobile` or `desktop`.
+Links in site navigation components get a `data-header` attribute whose value uses the pattern `header-link-[index]` where the index is one-based. They are also given a `data-device` attribute whose value is either `mobile` or `desktop`.
 
 {% highlight html %}
 <a href="/patterns/" class="ds_site-navigation__link" data-device="desktop" data-header="header-link-4">Patterns</a>
 {% endhighlight %}
 
-The mobile navigation's toggle button is given a 'data-header' attribute of `header-menu-toggle`.
+The mobile navigation's toggle button is given a `data-header` attribute of `header-menu-toggle`.
 
 ### Tabs
 
-Tabs get a 'data-navigation' attribute whose value uses the pattern `tab-[index]` where the index is one-based.
+Tabs get a `data-navigation` attribute whose value uses the pattern `tab-[index]` where the index is one-based.
 
 {% highlight html %}
 <button class="ds_tab__label" role="tab" data-navigation="tab-2" aria-controls="tab2-content" id="tab2-label" data-for="tab2-content" aria-selected="false" tabindex="-1">Choosing apprenticeships <span class="visually-hidden">(item 2 of 3)</span></button>
@@ -544,7 +544,7 @@ Tabs get a 'data-navigation' attribute whose value uses the pattern `tab-[index]
 <strong class="visually-hidden">Warning</strong><div class="ds_warning-text__text">Content of text inputs would not be routinely tracked through website analytics due to the risk of gathering personally identifiable information.</div>
 </div>
 
-Text inputs get a 'data-form' attribute whose value uses the pattern `[input type]input-[input ID]`.
+Text inputs get a `data-form` attribute whose value uses the pattern `[input type]input-[input ID]`.
 
 Note the use of the input elements’s type in the pattern. With this, different types if input can be identified.
 
@@ -561,7 +561,7 @@ Note the use of the input elements’s type in the pattern. With this, different
 <strong class="visually-hidden">Warning</strong><div class="ds_warning-text__text">Content of textareas would not be routinely tracked through website analytics due to the risk of gathering personally identifiable information.</div>
 </div>
 
-Textareas get a 'data-form' attribute whose value uses the pattern `textarea-[textarea ID]`.
+Textareas get a `data-form` attribute whose value uses the pattern `textarea-[textarea ID]`.
 
 {% highlight html %}
 <textarea class="ds_input" rows="3" id="description" data-form="textarea-description"></textarea>
@@ -569,7 +569,7 @@ Textareas get a 'data-form' attribute whose value uses the pattern `textarea-[te
 
 ### Warning text
 
-Links in warning text components get a 'data-navigation' attribute of `warning-link`.
+Links in warning text components get a `data-navigation` attribute of `warning-link`.
 
 {% highlight html %}
 <div class="ds_warning-text">

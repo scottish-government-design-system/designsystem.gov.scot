@@ -16,7 +16,7 @@ A character count is an enhancement to standard [text input](/components/text-in
 
 If a form field only allows a certain number of characters to be entered, it is helpful to let the user know how many remaining characters they are allowed.
 
-Using the character count component is better than simply using a "maxlength" attribute on the input element, because:
+Using the character count component is better than simply using a `maxlength` attribute on the input element, because:
 
 * it is non-destructive, so users can enter or paste too much data and get a warning instead of losing any of it
 * users can see how many characters they have remaining as they type

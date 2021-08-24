@@ -5,7 +5,7 @@ parent: component.hide-this-page
 index: 999
 ---
 
-This "hide this page" button code should be placed inside your main layout container (<code>.ds_layout</code>) for correct placement of the button in the layout.
+This 'hide this page' button code should be placed inside your main layout container (<code>.ds_layout</code>) for correct placement of the button in the layout.
 
 In browsers with support for CSS grid, it will be anchored to the upper right of the layout, and uses <code>position: sticky</code> to keep it in view.
 

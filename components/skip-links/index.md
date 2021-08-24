@@ -20,7 +20,7 @@ Using the skip link component gives users the option to:
 
 The skip link component is visually hidden on page load. The user reveals the link when they press the 'tab' key on their keyboard.
 
-We use the text 'Skip to main content.' This tells users exactly what clicking on the skip link will do. This includes those who do not use a mouse and use the keyboard only.
+We use the text "Skip to main content." This tells users exactly what clicking on the skip link will do. This includes those who do not use a mouse and use the keyboard only.
 
 We use the skip link component on the Scottish Government’s main sites:
 * [mygov.scot](https://www.mygov.scot)
@@ -52,11 +52,11 @@ Although users only clicked skip links 43 times, this number represents users th
 
 ### Screen reader user survey
 
-WebAIM have published survey results from users who exclusively use screen readers. The data shows how popular skip links are with these users. It also shows those users slightly prefer the phrase 'Skip to main content.'
+WebAIM have published survey results from users who exclusively use screen readers. The data shows how popular skip links are with these users. It also shows those users slightly prefer the phrase "Skip to main content."
 
 ### Screen reader testing
 
-For the phrase 'Skip to content' some screen readers pronounced the word 'content' with the stress on the second syllable, which gives it the wrong meaning ('content' as in 'satisfied'). Using the phrase 'Skip to *main* content' made the same reader pronounce it as expected.
+For the phrase "Skip to content" some screen readers pronounced the word "content" with the stress on the second syllable, which gives it the wrong meaning ('content' as in 'satisfied'). Using the phrase "Skip to *main* content" made the same reader pronounce it as expected.
 
 
 
@@ -65,7 +65,7 @@ For the phrase 'Skip to content' some screen readers pronounced the word 'conten
 
 You can track skip link clicks through the original page path and a data attribute describing the action.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#skip-links)
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#skip-links)
 
 
 

@@ -18,4 +18,4 @@ We based our warning text component on the one built by GDS. [Find out more abou
 
 To understand user behaviour, clicks on links in warning text blocks can be tracked through the click URL, the click text and a data attribute showing the interaction.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#warning-text).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#warning-text).

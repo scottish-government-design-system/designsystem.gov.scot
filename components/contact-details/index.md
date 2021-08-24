@@ -16,7 +16,7 @@ examples:
 
 ## About this component
 
-The contact details component includes space for normal contact details and links to an organisation’s email, social media and other direct contact details.
+The contact details component includes space for normal contact details and links to an organisation's email, social media and other direct contact details.
 
 When using the pattern, you should make sure that:
 
@@ -29,7 +29,7 @@ It is useful to use a logo with a social media address, such as a Twitter logo w
 
 Giving contact details their own distinct design pattern, separate from the rest of the content on a web page, helps users quickly identify contact details when needed.
 
-It also helps users to quickly skip past this content if they don’t need it.
+It also helps users to quickly skip past this content if they don't need it.
 
 ## Evidence
 
@@ -45,4 +45,4 @@ To track this component:
 * internal links can be tracked the same way
 * phone numbers are not links by default, they are tagged with a data attribute and, if the user is on a mobile phone, can be automatically linked to make a call if the user’s browser supports this  
 
-The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#contact-details).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#contact-details).

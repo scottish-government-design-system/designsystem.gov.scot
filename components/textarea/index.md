@@ -13,4 +13,4 @@ We based our textarea component on the one built by GDS. [Find out more about th
 
 Content of this form element would not be routinely tracked through website analytics due to the risk of gathering personally identifiable information. Interaction with the element can be tracked through a data attribute showing the the field type and field description.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#text-input).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#text-input).

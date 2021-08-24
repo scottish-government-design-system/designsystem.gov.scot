@@ -22,10 +22,10 @@ Site search is a commonly recognised component which allows users to quickly fin
 
 ## Website analytics
 
-Searches from search boxes are tracked as standard via analytics site search settings through the use of the "q" parameter.
+Searches from search boxes are tracked as standard via analytics site search settings through the use of the `q` parameter.
 
 ## Accessibility
 
 The form field and magnifying glass button both include a text label that is hidden from visual browsers but that will be available for screen readers.
 
-The form has a role of 'Search'.
+The form has a `role` attribute of `search`.

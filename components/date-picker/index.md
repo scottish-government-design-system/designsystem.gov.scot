@@ -30,7 +30,7 @@ Date pickers are a common component that helps users select and enter a date.
 
 To understand user behaviour, clicks on date picker items can be tracked through the original page path, the click text, and a data attribute showing the element interacted with. Submits are tracked using the [Button](/components/buttons/) tracking.
 
-The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
 
 ## Accessibility
 

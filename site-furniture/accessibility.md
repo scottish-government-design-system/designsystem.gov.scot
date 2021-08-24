@@ -32,7 +32,7 @@ It may be sufficient to use the same styling for ```:hover```. However, it is be
 
 ## Colour contrast
 
-For some people poor contrast between the foreground colour of text and it’s background can make the text extremely difficult or impossible to read. This applies to text on images, gradients, buttons and other elements.
+For some people poor contrast between the foreground colour of text and its background can make the text extremely difficult or impossible to read. This applies to text on images, gradients, buttons and other elements.
 
 Ensure that the colours used in your palette are selected so that they offer a good contrast. Colours can be checked using tools such as [Tanaguru contrast finder](https://contrast-finder.tanaguru.com/). This tool can also offer alternatives close to your selected colours.
 

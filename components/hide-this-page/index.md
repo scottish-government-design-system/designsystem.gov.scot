@@ -16,16 +16,16 @@ examples:
 
 ## About this component
 
-The 'Hide this page' component is a stand-out button that closes the open service or website. Using the button hides some evidence that a user visited the page.
+The hide this page component is a prominent button that closes the open service or website. Using the button hides some evidence that a user visited the page.
 
 This can help victims of domestic abuse or other vulnerable users to look at sensitive content more safely. Abusers may try to keep tabs on what their victims do on a personal or shared device.
 
-We designed our 'Hide this page' component so that:
+We designed our hide this page component so that:
 - it is clearly visible on the content page at all times
 - the red colour shows its importance and makes it easy to find in an emergency situation
-- the button text ‘Hide this page’ states what the component does in plain English
+- the button text "Hide this page" states what the component does in plain English
 
-When a user clicks the 'Hide this page' component, it:
+When a user clicks on the hide this page button, it:
 1. changes the current tab to the Google homepage 
 1. removes the previous page visit from the history 
 1. opens the BBC Weather website in a new active tab
@@ -81,7 +81,7 @@ We plan to test with more users and to focus on behaviour and language of the bu
 
 You can track hide this page link clicks through the original page path and a data attribute describing the action.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#hide-this-page).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#hide-this-page).
 
 ## Accessibility 
 

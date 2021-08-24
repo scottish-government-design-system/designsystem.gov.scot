@@ -14,6 +14,7 @@ examples:
     name: "Marriage in Scotland"
 ---
 ## About this component
+
 The back to top link works on desktop and on mobile content items. It appears when the user is interacting with a long page of content. It's a shortcut that allows users to quickly navigate back to the top of the page.
 
 We designed our back to top component so that:
@@ -42,7 +43,7 @@ We referred to the best practice guidance for back to top links from the [Nielse
 
 You can track back to top link clicks through the original page path and a data attribute describing the action.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#back-to-top).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#back-to-top).
 
 ## Accessibility
 

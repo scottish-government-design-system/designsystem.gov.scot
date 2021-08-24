@@ -14,11 +14,11 @@ index: 999
 
 Every website should have its performance monitored regularly. This allows the service team to identify issues and use data to make better decisions as outlined in the [Digital Scotland Service Standard](https://resources.mygov.scot/alpha/service-standard/digital-scotland-service-standard/).
 
-To do this you will need to set up certain analytics tools for your website or service. Scottish Government sites primarily use Google Tag Manager and Google Analytics.
+To do this you will need to set up certain analytics tools for your website or service. Scottish Government sites primarily use Google Tag Manager (GTM) and Google Analytics (GA).
 
 In order to create patterns and components which can be tracked in a range of different web analytics tools and which will work well for GTM/GA, we use data attributes as triggers, rather than relying on click classes which are more likely to change over time. The use of data attributes also helps us minimise the number of tags that are required.
 
-The Design System has a ["tracking" script](/get-started/tracking/) that adds these data attributes.
+The Design System has a ['tracking' script](/get-started/tracking/) that adds these data attributes.
 
 Our triggers are specific and our tags are more general, meaning that there is a trigger per component and multiple triggers fire the same tag. Our patterns are trackable without the need for custom JavaScript in Google Tag Manager.
 
@@ -39,7 +39,7 @@ The design system performance team have created a Google Tag Manager container w
 
 ## Training & support
 
-Every website should have its performance monitored regularly - this allows the service owner to identify issues and use the data to make better decisions as outlined in the Digital Scotland Service Standard’s ["Define what success looks like and publish performance data" criteria](https://www.gov.scot/publications/digital-scotland-service-standard/pages/9--define-what-success-looks-like-and-publish-performance-data/).
+Every website should have its performance monitored regularly - this allows the service owner to identify issues and use the data to make better decisions as outlined in the Digital Scotland Service Standard’s ['Define what success looks like and publish performance data' criteria](https://www.gov.scot/publications/digital-scotland-service-standard/pages/9--define-what-success-looks-like-and-publish-performance-data/).
 
 To do this you will need to set up certain tools for your website or service. These are:
 
@@ -83,9 +83,9 @@ To access and configure GTM:
 
 * [Sign up using your team’s Google account](https://tagmanager.google.com/)
 * Create and name your account then create and name your first container. We suggest you use the following naming convention; domain - subdomain - environment e.g. mygov - www - live
-* Select the type of property for which you intend to use the container for. In most instances you’ll select “web”
+* Select the type of property for which you intend to use the container for. In most instances you’ll select 'web'
 * Two code snippets will appear on screen, along with instructions on where to place them: place the code as instructed on all of your pages (this might require help from a developer)
-* Repeat the previous 3 steps for any additional containers i.e. for test environments. Follow the same naming convention as your other container, e.g. “mygov.scot - www - test”
+* Repeat the previous 3 steps for any additional containers i.e. for test environments. Follow the same naming convention as your other container, e.g. 'mygov.scot - www - test'
 * Add the dataLayer snippet to your site (advanced). Here’s a [guide on the dataLayer](https://www.optimizesmart.com/google-tag-manager-data-layer-explained-like-never/) and here are instructions from Google on [implementation for your developer](https://developers.google.com/tag-manager/devguide).
 
 Once GTM has been deployed to all pages, it lets you deploy your analytics tool/Google Analytics, enhanced tracking capability and any other tags where applicable, e.g. advertising floodlight tags/pixels, etc.
@@ -117,7 +117,7 @@ If you are setting up your own event tracking we recommend adding document/downl
 * Create your account and name it appropriately
 * [Grant access to colleagues and any developers who will be working on the service](http://www.seerinteractive.com/blog/get-the-most-out-of-google-analytics-user-permissions/)
 * Within the Admin settings, you should turn off all data sharing other than within Google products and services
-* Set up Google Analytics Profiles. Profiles are technically new properties, but they are created from within the same account. To do this, you visit the admin page of your desired account. Select the “create new property” option from the property dropdown and enter the desired profile name. The following profiles are recommended:
+* Set up Google Analytics Profiles. Profiles are technically new properties, but they are created from within the same account. To do this, you visit the admin page of your desired account. Select the 'create new property' option from the property dropdown and enter the desired profile name. The following profiles are recommended:
     * Raw Data > This is your unfiltered backup dataset - not to be deleted or changed
     * Live > Your main reporting profile
     * Test > This is a duplicate of the Live view and allows you to make changes for testing purposes
@@ -170,17 +170,17 @@ You can use [Google Tag Assistant Chrome extension](https://get.google.com/tagas
 
 * Add your domain. Note: it’s often best to start with the root domain (without the www.) e.g. `https://twitter.com`
 
-* You’ll be presented with 4 verification options. Our recommended method is to use the “Domain name provider” option. While this may differ from Google’s recommended method, it counters the possibility of verification revocation should the code be removed by a developer or through a site release. The DNS option remains persistent no matter what changes are applied to your website and there has to be specific intent behind removal of a DNS zone file entry. Once selected, you’ll be presented with a string of characters used by Google for confirmation that you are the owner/admin of the site in question. Follow the instructions to create a text record in the zone file, or have your DNS provider do this for you if you have a managed service.
+* You’ll be presented with 4 verification options. Our recommended method is to use the 'Domain name provider' option. While this may differ from Google’s recommended method, it counters the possibility of verification revocation should the code be removed by a developer or through a site release. The DNS option remains persistent no matter what changes are applied to your website and there has to be specific intent behind removal of a DNS zone file entry. Once selected, you’ll be presented with a string of characters used by Google for confirmation that you are the owner/admin of the site in question. Follow the instructions to create a text record in the zone file, or have your DNS provider do this for you if you have a managed service.
 
-* Once applied, you may have to wait a short period of time for the change to fully propagate (due to caching and TTL (“time to live”) before clicking the verify property button within the Google Search Console page
+* Once applied, you may have to wait a short period of time for the change to fully propagate due to caching and TTL ('time to live') before clicking the verify property button within the Google Search Console page
 
 * Google sees http and https versions of your site separately, as with www. and non-www. versions - repeat for all combinations of your site
 
-* Set up a property set by clicking the “Create a set” button in GSC (next to the “Add a property” button) and add all the previously created versions of your site to the set
+* Set up a property set by clicking the 'Create a set' button in GSC (next to the 'Add a property' button) and add all the previously created versions of your site to the set
 
-* Go to your default and preferred version of your site, click the cog in the top right quadrant of the page and select the “site settings” from the dropdown. Select your preferred way of displaying your domain, whether it’s with the www. or the naked domain
+* Go to your default and preferred version of your site, click the cog in the top right quadrant of the page and select the 'site settings' from the dropdown. Select your preferred way of displaying your domain, whether it’s with the www. or the naked domain
 
-* Click the cog in the upper right quadrant and select Google Analytics Property from the drop down. Now select the appropriate GA property to link with. If you’ve followed the recommended naming convention above, it should be along the lines of “Domain name (Live)”
+* Click the cog in the upper right quadrant and select Google Analytics Property from the drop down. Now select the appropriate GA property to link with. If you’ve followed the recommended naming convention above, it should be along the lines of 'Domain name (Live)'
 
 * It’s important that you choose a consistent approach for displaying your domain within search engines and make sure it’s mirrored in your site configuration through canonicalisation and also ensuring that your site is configured to display/redirect to the default version, no matter what version a user types/clicks. Further reading: [canonicalisation](https://moz.com/learn/seo/canonicalization) and [redirection/rewrites](https://moz.com/blog/url-rewrites-and-301-redirects-how-does-it-all-work)
 
@@ -204,8 +204,8 @@ You can use [Google Tag Assistant Chrome extension](https://get.google.com/tagas
 * [Sign in to Bing Webmaster Tools using a shared email account](https://www.bing.com/toolbox/webmaster)
 * Add your domain. Note: it’s often best to start with the root domain (without the www.) e.g. `https://twitter.com`
 * Submit a link to your XML sitemap - this is normally found at `yoursite.com/sitemap.xml`
-* You’ll be presented with 3 verification options. Our recommended method is to use the “add CNAME record to DNS” option. You’ll be presented with a string of characters used by Bing for confirmation that you are the owner/admin of the site in question. Follow the instructions to create a text record in the zone file, or have your DNS provider do this for you if you have a managed service.
-* Once applied, you may have to wait a short period of time for the change to fully propagate (due to caching and TTL (“time to live”) before clicking the “Verify” button.
+* You’ll be presented with 3 verification options. Our recommended method is to use the 'add CNAME record to DNS' option. You’ll be presented with a string of characters used by Bing for confirmation that you are the owner/admin of the site in question. Follow the instructions to create a text record in the zone file, or have your DNS provider do this for you if you have a managed service.
+* Once applied, you may have to wait a short period of time for the change to fully propagate due to caching and TTL ('time to live') before clicking the 'Verify' button.
 * Bing sees http and https versions of your site separately, as with www. and non-www. versions - repeat for all combinations of your site
 * There is no way via Bing to set your preferred version of your site - instead you must set up your www. to redirect to non-www. on your server and via your sitemaps and canonicalisation. It’s important that you choose a consistent approach for displaying your domain within search engines and make sure it’s mirrored in your site configuration through canonicalisation and also ensuring that your site is configured to display/redirect to the default version, no matter what version a user types/clicks. Further reading: [canonicalisation](https://moz.com/learn/seo/canonicalization) and [redirection/rewrites](https://moz.com/blog/url-rewrites-and-301-redirects-how-does-it-all-work).
 
@@ -225,7 +225,7 @@ The other reason you may require a Manager Account, is if you’re looking to ap
 To set up a Manager Account:
 
 * [Create an account](https://adwords.google.com/home/tools/manager-accounts/)
-* Once completed you’ll be taken to the dashboard. From here you can add any existing Google AdWords accounts or create an automatically linked account. Click the “+ Account” button and select the appropriate option from the dropdown.
+* Once completed you’ll be taken to the dashboard. From here you can add any existing Google AdWords accounts or create an automatically linked account. Click the '+ Account' button and select the appropriate option from the dropdown.
 
 
 
@@ -234,8 +234,8 @@ To set up a Manager Account:
 
 In the instance where there’s an existing Google Analytics account but access has been lost, you can recover it using the following steps:
 
-* Identify the Google Analytics property ID you’re looking to recover - you can get this by navigating to one of your pages and using the Google Tag Assistant Chrome extension or by viewing the page source and looking for your UA code, which begins “UA-XXXXXX”.
+* Identify the Google Analytics property ID you’re looking to recover - you can get this by navigating to one of your pages and using the Google Tag Assistant Chrome extension or by viewing the page source and looking for your UA code, which begins `UA-XXXXXX`.
 * Log into Google AdWords. If you don’t have an existing account, create one and log in
-* Once logged in, click the cog in the top right-hand corner and click on “Worldwide phone support”, pick the relevant number for your country and phone Google.
+* Once logged in, click the cog in the top right-hand corner and click on 'Worldwide phone support', pick the relevant number for your country and phone Google.
 * Select the Analytics option, input your AdWords Customer ID (found in the top right of the AdWords webpage) and you’ll be directed to the support team.
 * Note that it can be several days before resolution and account access is restored

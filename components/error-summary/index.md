@@ -38,4 +38,4 @@ Research showed users:
 ## Website analytics
 To understand the incidence of validation error messages, they can be tracked through the original page path, the error text, and a data attribute showing the type of error.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#error-summary).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#error-summary).

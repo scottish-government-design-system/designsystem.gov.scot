@@ -19,7 +19,7 @@ The breadcrumbs component should:
 
 *	be used if a website has 2 or more levels in its structure
 *	include the user's current page
-*	display the "current page" item in a clearly different style from the other items in the breadcrumbs
+*	display the current page item in a clearly different style from the other items in the breadcrumbs
 
 You might not need a breadcrumbs component if the website has a top level navigation, such as a meganav or global navigation.
 
@@ -43,7 +43,7 @@ Where there may be issues with repetition or page titles are too long, a version
 
 To understand user behaviour, clicks on breadcrumb items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#breadcrumbs).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#breadcrumbs).
 
 You should include a [Schema](https://schema.org) representation of the breadcrumbs. One useful benefit of using Schema representation is that it allows a breadcrumb trail to be accurately displayed on search engines and will help users navigate the structure of your site.
 
@@ -53,7 +53,7 @@ This [Google structured data guidance for breadcrumbs](https://developers.google
 
 ## Accessibility
 
-* Use of a <nav> element with aria-label="breadcrumb" is recommended. You can find out more about this on [GitHub](https://github.com/alphagov/govuk-design-system-backlog/issues/33).
+* Use of a `nav` element with `aria-label="breadcrumb"` is recommended. You can find out more about this on [GitHub](https://github.com/alphagov/govuk-design-system-backlog/issues/33).
 * This breadcrumb component contains all the accessibility features for breadcrumbs described in WAI-ARIA’s authoring practices for breadcrumbs.
 * [W3C](https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html) may also be useful.
 * You should make sure that separators between breadcrumb items are not read by screen readers and avoid using font glyphs for them – these can cause accessibility problems.

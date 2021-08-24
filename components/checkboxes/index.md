@@ -48,7 +48,7 @@ The error state for checkboxes marks the entire fieldset.
 
 Checkbox items can be tracked through the original page path and a data attribute identifying the checkbox and its value, if set.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#checkboxes).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#checkboxes).
 
 ## Accessibility
 

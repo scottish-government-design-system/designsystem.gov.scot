@@ -8,7 +8,7 @@ summary: Tabs organise content and allow navigation across the page between sect
 noindex: true
 
 ---
-Our tabs component is an 'experimental' component. We currently only use tabs on one page of mygov.scot. We would like to do more research on using this component before we develop it further.
+<div class="ds_inset-text"><div class="ds_inset-text__text">Our tabs component is an experimental component. We currently only use tabs on one page of mygov.scot. We would like to do more research on using this component before we develop it further.</div></div>
 
 ## About this component
 
@@ -16,9 +16,9 @@ Tabs allow users to focus on one specific view of the content at a time, whilst 
 
 ### When to use this component
 
-When using tabs for content its best:
+When using tabs for content it is best:
 
-* to use clear and succinct labels to describe the content in each tab -– tabs hide content from the user, so it is important to make it clear what content each tab has
+* to use clear and succinct labels to describe the content in each tab - tabs hide content from the user, so it is important to make it clear what content each tab has
 * order tabs based on user need, with the most needed section of content in the first tab
 * not to disable any of the tabs – if there is no content for a tab, either remove it or explain why it has no content when selected
 * to avoid tabs that wrap over more than one line due to long labels or too many tabs – wrapping makes it harder to understand which tab is open
@@ -69,7 +69,7 @@ You can track when users click on tab headings to open them. Use a combination o
 
 * the original page path
 * click text
-* a data attribute showing the action and item number, for example data-navigation="tab-1"
+* a data attribute showing the action and item number, for example `data-navigation="tab-1"`
 
 ## Accessibility
 
@@ -81,7 +81,7 @@ When the user has JavaScript enabled in their browser, the tabs markup is enhanc
 
 * Each tab's triggering element has a `role` attribute of `tab`
 * The selected tab’s triggering element has an `aria-selected` attribute of `true`, otherwise `aria-selected` is set to `false`
-* Only the selected tab can be accessed with the "tab" key -- its `tabindex` attribute is set to `0`, other tabs have a `tabindex` of `-0`
+* Only the selected tab can be accessed with the 'tab' key -- its `tabindex` attribute is set to `0`, other tabs have a `tabindex` of `-0`
 * Each tab’s triggering element has an aria-controls attribute whose value is the id of the associated `<div role="tabpanel">`
 * Each tab content panel has an `aria-labelledby` attribute whose value is the id of its triggering element
 * Each tab content panel has a `role` attribute of `tabpanel`

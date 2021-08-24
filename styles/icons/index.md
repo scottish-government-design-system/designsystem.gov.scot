@@ -9,14 +9,16 @@ summary: "Icons are visual indicators that help users quickly identify important
 
 ## Using icons
 
-The Digital Scotland Design System uses a small selection of Google Material icons. An icon should represent the most basic idea or concept instead of a metaphorical one. When choosing icons, pick symbols that commonly have universal meaning, for example a cross for a "close" action. Icons should be used consistently and sparingly to enforce meaning in your service.
+The Digital Scotland Design System uses a small selection of Google Material icons which are published on a free-to-use basis and can be adopted by other public sector organisations at no cost. The Design System uses the 'filled' style of icons, in which the shapes have a solid colour fill instead of an outline.
+
+When choosing icons, pick symbols that have a common and universally accepted meaning, for example a cross for a 'close' action. Icons should be used consistently and sparingly to enforce meaning in your service.
 
 <figure class="example__content">
     <img alt="Image showing a focussed link against a number of background colours" src="/assets/images/icons.png">
     <figcaption>A selection of icons used in the Design System</figcaption>
 </figure>
 
-These icons can be found in SVG format in the Github repository. They're also provided in a "stacked" SVG sprite.
+These icons can be found in SVG format in the Github repository. They're also provided in a 'stacked' SVG sprite.
 
 ## Size
 
@@ -30,7 +32,7 @@ How to colour icons depends on whether they are images in your markup or backgro
 
 <div class="ds_inset-text">
     <div class="ds_inset-text__text">
-        When changing the fill colour, all icons must meet <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">colour contrast standards</a>.
+        When changing the fill colour, all icons must meet <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">colour contrast standards</a>.
     </div>
 </div>
 
@@ -42,7 +44,7 @@ Icons use the colour of the text around them by default. You can give icons a sp
 
 ### Colouring icons in CSS
 
-We use the "icon mask" CSS property to allow icons to be given custom colours in CSS. These icons also use the colour of the text around them. You can give icons a specific colour by styling their element.
+We use the 'icon mask' CSS property to allow icons to be given custom colours in CSS. These icons also use the colour of the text around them. You can give icons a specific colour by styling their element.
 
 <div class="ds_inset-text">
     <div class="ds_inset-text__text">
@@ -58,11 +60,11 @@ For developers: the Design System includes a SASS mixin that adds all of the nec
 
 ## Accessibility
 
-Accessible SVG icons is a topic in itself. This [CSS Tricks article about accessible SVGs by Heather Migliorisi](https://css-tricks.com/accessible-svgs/#icons) is a good resource if you want learn about a number of techniques for different use cases.
+It is important to consider whether an icon is decorative or not. Icons that are decorative should be ignored by screen readers, whereas icons that are not decorative need to be given some hidden text that screen readers will announce.
 
-Our approach is to keep things simple: as a rule of thumb all icons are considered decorative and have `aria-hidden="true"` so screen readers will ignore them. If it is important that a screen reader notify the user about an icon, place a hidden element before it with a text label, as we do in this example:
+As a rule of thumb icons used in Design System components and patterns are considered decorative and have `aria-hidden="true"` so screen readers will ignore them. If it is important that a screen reader notify the user about an icon, place a hidden element before it with a text label, as we do in this example:
 
-{% include example-frame.html title="Accessiblie icon example" name="accessible" html-expanded=true %}
+{% include example-frame.html title="Accessible icon example" name="accessible" html-expanded=true %}
 
 ## Social media
 

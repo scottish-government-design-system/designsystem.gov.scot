@@ -60,7 +60,7 @@ On large devices (such as desktop computers) everything is moved two columns to 
 
 It's sensible to write the fallback first. It's easy to forget about it if you do not.
 
-The first quirk of this layout is that the icon is only visible on large displays. If it was important for screen readers to still be able to access this content we could apply something like a "visually hidden" class to it, but for this simple example we can just hide it until needed.
+The first quirk of this layout is that the icon is only visible on large displays. If it was important for screen readers to still be able to access this content we could apply something like a 'visually hidden' class to it, but for this simple example we can just hide it until needed.
 
 {% highlight scss %}
 .ds-layout__icon {

@@ -4,7 +4,7 @@ title: "Sequential navigation"
 category: components
 parent: components
 thispage: component.sequential-navigation
-summary: "A ‘next’ and ‘previous’ link to pages that come before or after the user’s current web page."
+summary: "A 'next' and 'previous' link to pages that come before or after the user’s current web page."
 
 examples:
   - site: mygov.scot
@@ -37,4 +37,4 @@ Analytics shows sequential navigation is used by users across mygov.scot and gov
 
 To understand user behaviour, clicks on sequential navigation links can be tracked through the original page path, the click URL, the click text, and a data attribute showing the action.
 
-The data attributes are added automatically by the [Design System's "tracking" script](/get-started/tracking/#sequential-navigation).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#sequential-navigation).

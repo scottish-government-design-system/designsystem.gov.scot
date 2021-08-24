@@ -29,8 +29,8 @@ Helps users to easily and quickly correct an error when filling in an online for
 
 To understand the incidence of validation error messages, they can be tracked through the original page path, the error text, and a data attribute showing the type of error.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#error-message).
+The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#error-message).
 
 ## Accessibility
 
-To help screen reader users, the error message component includes a hidden 'Error:' before the error message. These users will hear, for example: "Error: the date your passport was issued must be in the past."
+To help screen reader users, the error message component includes the hidden 'Error:' before the error message. These users will hear, for example: "Error: the date your passport was issued must be in the past."
