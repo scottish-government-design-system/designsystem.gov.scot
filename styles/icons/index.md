@@ -14,7 +14,7 @@ The Digital Scotland Design System uses a small selection of Google Material ico
 When choosing icons, pick symbols that have a common and universally accepted meaning, for example a cross for a 'close' action. Icons should be used consistently and sparingly to enforce meaning in your service.
 
 <figure class="example__content">
-    <img alt="Image showing a focussed link against a number of background colours" src="/assets/images/icons.png">
+    <img alt="Eight example icons from the Design System" src="/assets/images/icons.png">
     <figcaption>A selection of icons used in the Design System</figcaption>
 </figure>
 

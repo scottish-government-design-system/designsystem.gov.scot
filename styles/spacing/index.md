@@ -26,13 +26,13 @@ The scale is flexible and the base value of 8 pixels can be further divided. Our
 
 
 <figure class="example__content">
-<img alt="Image showing input boxes on forms measure 48 pixels" src="/assets/images/spacing-infographic-1.png">
+<img alt="Form inputs placed on a baseline grid of 8 pixels to show their size and spacing" src="/assets/images/spacing-infographic-1.png">
 <figcaption>Input boxes on forms measure 48 pixels (6 times our base value of 8 pixels) high for consistency</figcaption>
 </figure>
 
 
 
 <figure class="example__content">
-<img alt="Image showing the space between text in an input box and between the input box and a button both measure 16 pixels" src="/assets/images/spacing-infographic-2.png">
+<img alt="A text input with overlaid measurements showing padding inside the text input and space between the text input and an adjacent button" src="/assets/images/spacing-infographic-2.png">
 <figcaption>The space between text in an input box and between the input box and a button both measure 16 pixels</figcaption>
 </figure>
