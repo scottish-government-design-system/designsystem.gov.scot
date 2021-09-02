@@ -35,7 +35,7 @@
 <nav class="ds_sequential-nav">
     {% if prevItem %}
     <div class="ds_sequential-nav__item  ds_sequential-nav__item--prev">
-        <a title="Previous section" href="{{prevItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--left">
+        <a href="{{prevItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--left">
             <span class="ds_sequential-nav__text" data-label="previous">
                 {{prevItem.title}}
             </span>
@@ -45,7 +45,7 @@
 
     {% if nextItem %}
     <div class="ds_sequential-nav__item  ds_sequential-nav__item--next">
-        <a title="Next section" href="{{nextItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--right">
+        <a href="{{nextItem.url}}" class="ds_sequential-nav__button  ds_sequential-nav__button--right">
             <span class="ds_sequential-nav__text" data-label="next">
                 {{nextItem.title}}
             </span>

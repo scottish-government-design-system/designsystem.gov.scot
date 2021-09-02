@@ -123,12 +123,12 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#warning-message">
+            <a class="ds_contents-nav__link" href="#error-message">
                 Error message
             </a>
         </li>
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#warning-summary">
+            <a class="ds_contents-nav__link" href="#error-summary">
                 Error summary
             </a>
         </li>
@@ -448,7 +448,7 @@ window.dataLayer.push({ 'event': 'select-component-button' });
 The 'previous page' link in sequential navigation is given a `data-navigation` attribute whose value is `sequential-previous`.
 
 {% highlight html %}
-<a title="Previous section" href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--left" data-navigation="sequential-previous">
+<a href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--left" data-navigation="sequential-previous">
     <span class="ds_sequential-nav__text" data-label="previous">
         Apply for or renew a Blue Badge
     </span>
@@ -458,7 +458,7 @@ The 'previous page' link in sequential navigation is given a `data-navigation` a
 The 'next page' link in sequential navigation is given a `data-navigation` attribute whose value is `sequential-next`.
 
 {% highlight html %}
-<a title="Next section" href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--right" data-navigation="sequential-next">
+<a href="#" class="ds_sequential-nav__button  ds_sequential-nav__button--right" data-navigation="sequential-next">
     <span class="ds_sequential-nav__text" data-label="next">
         Eligibility: who can have one?
     </span>

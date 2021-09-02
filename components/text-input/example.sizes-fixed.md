@@ -24,7 +24,7 @@ index: 0
 
 <div>
 <label class="ds_label" for="fixed-4">4 characters</label>
-<input class="ds_input  ds_input--fixed-4" type="text" id="tfixed-" />
+<input class="ds_input  ds_input--fixed-4" type="text" id="fixed-4" />
 </div>
 
 <div>
