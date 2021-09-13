@@ -30,7 +30,7 @@ We recommend using npm to install the Design System and compiling the CSS from t
 
 <div class="ds_inset-text">
   <div class="ds_inset-text__text">
-    <p>Dart Sass will give warnings when compiling CSS because of <a href="https://sass-lang.com/documentation/breaking-changes/slash-div">a breaking change to how Sass will handle division in the future</a>. You can only avoid these warnings by using an older version of Dart Sass.</p>
+    <p>Dart Sass will give warnings when compiling CSS because of <a href="https://sass-lang.com/documentation/breaking-changes/slash-div">a breaking change to how Sass will handle division in the future</a>. You can avoid these warnings by using an older version of Dart Sass.</p>
 
     <pre><code class="lang-bash">npm install sass@1.32.12 --save-dev</code></pre>
   </div>
