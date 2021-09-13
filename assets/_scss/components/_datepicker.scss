@@ -1,5 +1,5 @@
 
-.#{$pl-prefix}datepicker {
+.ds_datepicker {
     position: relative;
 
     &__dialog {
@@ -81,7 +81,7 @@
                     color: $ds_colour__link--disabled;
                 }
 
-                &.#{$pl-prefix}current:not(:focus) {
+                &.ds_current:not(:focus) {
                     background: $ds_colour__brand;
                     color: $ds_colour__white;
                 }

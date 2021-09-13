@@ -2,9 +2,9 @@
     SITE PAGE LAYOUTS
 \*------------------------------------*/
 
-.#{$pl-prefix}layout {
+.ds_layout {
     &--pl-component {
-        > .#{$pl-prefix}layout {
+        > .ds_layout {
             @include media-query(medium) {
                 &__header {
                     float: left;
@@ -26,7 +26,7 @@
     }
 
     &--pl-article {
-        > .#{$pl-prefix}layout {
+        > .ds_layout {
             &__header {
                 float: left;
                 @include colwidth(8);
@@ -48,7 +48,7 @@
 
 @supports(display: grid) {
     @include media-query(medium) {
-        .#{$pl-prefix}layout {
+        .ds_layout {
             &--pl-component {
                 grid-template-areas:
                     's s s s h h h h h h h h'
@@ -56,7 +56,7 @@
             }
         }
 
-        .#{$pl-prefix}layout {
+        .ds_layout {
             &--pl-article {
                 grid-template-areas:
                     's s s s h h h h h h h h'
@@ -66,7 +66,7 @@
     }
 
     @include media-query(large) {
-        .#{$pl-prefix}layout {
+        .ds_layout {
             &--pl-component {
                 grid-template-areas:
                     's s s h h h h h h h . .'

@@ -1,4 +1,4 @@
-.#{$dss-prefix}homepage-hero {
+.#{$site-prefix}homepage-hero {
     margin: 24px 0 32px;
 
     &__container {
@@ -7,7 +7,7 @@
     }
 
     &__cta {
-        .#{$pl-prefix}button {
+        .ds_button {
             font-weight: bold;
         }
 
@@ -70,7 +70,7 @@
 }
 
 @include media-query(medium) {
-    .#{$dss-prefix}homepage-hero {
+    .#{$site-prefix}homepage-hero {
         &__header {
             float: left;
             @include colwidth(12);
@@ -91,7 +91,7 @@
 }
 
 @include media-query(large) {
-    .#{$dss-prefix}homepage-hero {
+    .#{$site-prefix}homepage-hero {
         &__media-container {
             float: left;
             @include colwidth(4);
@@ -105,7 +105,7 @@
 }
 
 @supports(display: grid) {
-    .#{$dss-prefix}homepage-hero {
+    .#{$site-prefix}homepage-hero {
         align-items: center;
         grid-gap: $grid-gap-y 8px;
         margin: 32px 0 36px;
@@ -117,7 +117,7 @@
     }
 
     @include media-query(medium) {
-        .#{$dss-prefix}homepage-hero {
+        .#{$site-prefix}homepage-hero {
             grid-template-columns: repeat(12, 1fr);
             grid-template-areas:
                 'h h h h h h h h h h h h'
@@ -144,7 +144,7 @@
     }
 
     @include media-query(large) {
-        .#{$dss-prefix}homepage-hero {
+        .#{$site-prefix}homepage-hero {
             grid-template-columns: repeat(12, 1fr);
             grid-template-areas:
                 'h h h h h h h h m m m m'
@@ -154,6 +154,6 @@
 }
 
 
-.#{$dss-prefix}homepage-hero__container.ds_reversed {
+.#{$site-prefix}homepage-hero__container.ds_reversed {
     color: white;
 }

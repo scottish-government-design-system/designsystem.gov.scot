@@ -3,7 +3,7 @@
 
 
 
-$dss-prefix: 'dss_';
+$site-prefix: 'dss_';
 $use-legacy-site-navigation: false;
 
 
@@ -13,7 +13,6 @@ $use-legacy-site-navigation: false;
  * BASE STYLING
  */
 @import "../../node_modules/@scottish-government/pattern-library/src/base/all-base";
-@import "../../node_modules/@scottish-government/pattern-library/src/forms/all-forms";
 @import "base/code";
 @import "base/figure";
 @import "base/pl-layouts";
@@ -34,6 +33,7 @@ $use-legacy-site-navigation: false;
  * COMPONENTS FROM DESIGN SYSTEM
  */
 @import "../../node_modules/@scottish-government/pattern-library/src/components/all-components";
+@import "../../node_modules/@scottish-government/pattern-library/src/forms/all-forms";
 
 
 
@@ -58,6 +58,17 @@ $use-legacy-site-navigation: false;
 @import "_highlight";
 
 
+.#{$site-prefix}contents-nav h2 {
+    @extend .ds_contents-nav__title;
+}
+
+.#{$site-prefix}contents-nav ul {
+    @extend .ds_contents-nav__list;
+}
+
+.#{$site-prefix}contents-nav li {
+    @extend .ds_contents-nav__item;
+}
 
 
 // temp highlight for links with no target
