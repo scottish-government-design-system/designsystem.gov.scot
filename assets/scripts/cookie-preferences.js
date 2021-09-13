@@ -1,6 +1,6 @@
 // 'use strict';
 
-import storage from '../../node_modules/@scottish-government/pattern-library/src/base/_tools/storage/storage';
+import storage from '../../node_modules/@scottish-government/pattern-library/src/base/tools/storage/storage';
 
 class cookiePreferences {
     constructor(el) {
