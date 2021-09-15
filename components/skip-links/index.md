@@ -72,7 +72,9 @@ The data attribute is added automatically by the [Design System's 'tracking' scr
 
 ## Accessibility
 
-This component gets focus on a page when a user presses the 'tab' key on their keyboard. Pressing the 'enter' key afterward will bring the user directly to the main content section on the page. 
+This component gets focus on a page when a user presses the ‘tab’ key on their keyboard. Pressing the ‘enter’ key then brings the user directly to the main content area on the page. This action sets the browser to also focus the main content. When the main content loses focus, a user can focus it again through the use of the skip link.
+
+We do not recommend setting the main content area to be focusable by default. For example, giving the main content a tabindex of -1. This would make it easy for a user to click anywhere on the main content area by mistake and give it focus. If the user was aiming for something else, the focus will not be on what they wanted.
 
 Skip links can be of value to some sighted users, but having them always visible can be distracting. These resources discuss visible skip links in more detail: 
 
