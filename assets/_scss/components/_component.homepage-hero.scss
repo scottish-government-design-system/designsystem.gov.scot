@@ -52,18 +52,14 @@
     &__media-caption {
         @include small-size;
         margin: 8px 0;
+
+        > .ds_icon {
+            margin-right: 4px;
+        }
     }
 
     &__media-link {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-
-        &:hover {
-            outline: 2px solid $ds_colour__blocklink-bg--hover;
-        }
+        display: block;
     }
 
     @include layout();
