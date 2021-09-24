@@ -169,7 +169,7 @@ As all custom palettes include core colours from the Design System, our elements
 
 Graphical elements using the custom colour palettes should conform to [level AA of the Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/#contrast-minimum). This includes making sure that there is enough contrast for users to be able to identify the key elements of the design. 
 
-You can [check the contrast](https://www.google.com/url?q=https://webaim.org/resources/contrastchecker/&sa=D&ust=1605544718349000&usg=AOvVaw2i-3lS00W0izjK6Sys9yIv) to see if colour combinations meet the required standards.
+You can [check the contrast](https://webaim.org/resources/contrastchecker/) to see if colour combinations meet the required standards.
 
 Graphical elements should avoid the inclusion of text unless purely for decoration. Any text included which is essential to content will need to be accessible to assistive technology. 
 

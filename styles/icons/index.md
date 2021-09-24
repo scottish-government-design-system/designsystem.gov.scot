@@ -64,12 +64,12 @@ The Design System includes a SASS mixin that adds all of the necessary CSS prope
 
 ## Accessibility
 
-It is important to consider whether an icon is decorative or not. Icons that are decorative should be ignored by screen readers, whereas icons that are not decorative need to be given some hidden text that screen readers will announce.
+It’s important to consider whether an icon is decorative or not. Screen readers should ignore decorative icons. You need to give hidden text to icons that are not decorative.  Screen readers will announce this. 
 
-As a rule of thumb icons used in Design System components and patterns are considered decorative and have `aria-hidden="true"` so screen readers will ignore them. If it is important that a screen reader notify the user about an icon, place a hidden element before it with a text label, as we do in this example:
+Icons used in Design System components and patterns are considered decorative as a general rule. They have `aria-hidden="true"` so screen readers will ignore them. If it's important that a screen reader tells the user about an icon, place a hidden element before it with a text label, as we do in this example. 
 
 {% include example-frame.html title="Accessible icon example" name="accessible" html-expanded=true %}
 
 ## Social media
 
-We advise sourcing the most recent logo icons from social media brand assets.
+You should get the most recent logo icons from social media brand assets.
