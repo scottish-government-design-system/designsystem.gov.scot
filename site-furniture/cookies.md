@@ -19,10 +19,7 @@ We use designsystem.gov.scot cookie tracking data to make informed decisions on 
 
 ## Cookie settings
 
-We use 3 main types of cookie on our website. You can choose which cookies you're happy for us to use.
-
-[Find out more about the cookies that we set](/cookies-that-we-set/)
-
+We use 3 main types of cookie on our website. You can choose which cookies you're happy for us to use. Any data collected is anonymous.
 
 <noscript>
 <div class="ds_warning-text">
@@ -62,7 +59,7 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
 
 <fieldset>
     <legend>Cookies that measure website use</legend>
-    <p>These cookies store information about how you use our website, such as what you click on. Any data collected is anonymous.</p>
+    <p>These cookies store information about how you use our website, such as what you click on.</p>
 
     <div class="ds_field-group  ds_field-group--inline">
         <div class="ds_radio">
@@ -81,3 +78,60 @@ We use 3 main types of cookie on our website. You can choose which cookies you'r
 
 </form>
 </div>
+
+## Google Analytics
+
+We use Google Analytics to collect information about how you use designsystem.gov.scot.
+
+We store information about:
+* the pages you visit and how long you spend on each page
+* how you got to designsystem.gov.scot
+* what you click on while you're visiting designsystem.gov.scot
+
+We do not:
+* collect information that can be used to identify you; for example, we never receive your name or address
+* make any attempt to find out the identities of people visiting designsystem.gov.scot
+* allow the tools that we use to find out the identities of people visiting designsystem.gov.scot
+* sell, trade or give your details to third parties, unless we are required to do it by law
+
+All information we get through cookies and analytics will be treated in confidence.
+
+We anonymise the last 3 digits of all designsystem.gov.scot user IP addresses for Google Analytics, so that we can ensure that you are protected ([you can read more about how this works here](https://support.google.com/analytics/answer/2763052?hl=en)). We can only see a general overview of which regions and cities you may come from, not where individuals access from.
+
+[Find out more about security and privacy in Google Analytics.](https://support.google.com/analytics/answer/2838718?hl=en-GB)
+
+You can opt [out of Google analytics](https://tools.google.com/dlpage/gaoptout) cookies.
+
+<table class="ds_table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Information</th>
+            <th>Expiry</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>_ga</td>
+            <td>This is used to understand and differentiate between different users.</td>
+            <td>38 Months</td>
+        </tr>
+        <tr>
+            <td>_gid</td>
+            <td>_gid has a different ID for each page set on, and a timestamp.  This assists with plotting user journeys.</td>
+            <td>24 Hours</td>
+        </tr>
+        <tr>
+            <td>_gat</td>
+            <td>We use Google Tag Manager to tailor our tracking in case we have different elements that are being tested. For example, setting a tag to track how far a user is having to scroll down a long page. The _gat tag pushes the request rate through quicker.</td>
+            <td>1 Minute</td>
+        </tr>
+    </tbody>
+</table>
+
+## YouTube
+Pages on designsystem.gov.scot which contain YouTube videos will not set third-party cookies (we use YouTube-nocookie.com &mdash; [you can read more here](https://support.google.com/youtube/answer/171780?hl=en-GB)).
+
+## Further information
+
+You can email the performance team for further information. Email: [performance@gov.scot](mailto:performance@gov.scot)
