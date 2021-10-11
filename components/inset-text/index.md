@@ -4,7 +4,7 @@ title: "Inset text"
 category: components
 parent: components
 thispage: component.inset-text
-summary: "Used to highlight a block of text from the content that surrounds it. For example, a quote or something added to the main content"
+summary: "Used to highlight a block of text from the content that surrounds it. For example, a quote or something added to the main content."
 
 examples:
   - site: mygov.scot
