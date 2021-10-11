@@ -47,6 +47,44 @@
 }
 
 @supports(display: grid) {
+    .ds_layout {
+        &--pl-component {
+            grid-template-areas:
+                'h h'
+                's s'
+                'c c';
+        }
+    }
+
+    .ds_layout {
+        &--pl-article {
+            grid-template-areas:
+                'h h'
+                's s'
+                'c c';
+        }
+    }
+
+    @include media-query(small) {
+        .ds_layout {
+            &--pl-component {
+                grid-template-areas:
+                    'h h h h h h'
+                    's s s s s s'
+                    'c c c c c c';
+            }
+        }
+
+        .ds_layout {
+            &--pl-article {
+                grid-template-areas:
+                    'h h h h h h'
+                    's s s s s s'
+                    'c c c c c c';
+            }
+        }
+    }
+
     @include media-query(medium) {
         .ds_layout {
             &--pl-component {
