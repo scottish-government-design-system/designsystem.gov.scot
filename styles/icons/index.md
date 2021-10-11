@@ -34,7 +34,7 @@ How to colour icons depends on whether they’re:
 
 <div class="ds_inset-text">
     <div class="ds_inset-text__text">
-        When changing the fill colour, all icons need to meet <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">colour contrast standards</a>.
+        <p>When choosing an icon colour, all icons must meet <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">colour contrast standards</a> to meet the Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018.</p>
     </div>
 </div>
 
