@@ -1,0 +1,35 @@
+{
+    "results": [{
+        "building": "Victoria Quay",
+        "org": "",
+        "street": "",
+        "locality": "",
+        "town": "Edinburgh",
+        "postcode": "EH66QQ",
+        "country": "Scotland"
+    }, {
+        "building": "St. Andrew's House",
+        "org": "",
+        "street": "Regent Road",
+        "locality": "",
+        "town": "Edinburgh",
+        "postcode": "EH1 3DG",
+        "country": "Scotland"
+    }, {
+        "building": "Saughton House",
+        "org": "",
+        "street": "Broomhouse Drive",
+        "locality": "",
+        "town": "Edinburgh",
+        "postcode": "EH11 3XD",
+        "country": "Scotland"
+    }, {
+        "building": "Atlantic Quay",
+        "org": "",
+        "street": "150 Broomielaw",
+        "locality": "",
+        "town": "Glasgow",
+        "postcode": "G2 8LU",
+        "country": "Scotland"
+    }]
+}
