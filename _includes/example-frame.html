@@ -21,6 +21,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
         {% assign devnotesfilename = 'example.' | append: include.name | append: '.notes.md' %}
         {% for item in indexed %}
             {% if item.name == filename %}
+                {% assign thisitem = item %}
                 {% if item.illustration %}
                     <img class="example__illustration" alt="" src="/{{item.illustration}}">
                 {% endif %}
@@ -33,7 +34,7 @@ type: String to be shown in the title of the sample code expandable, e.g. "Sampl
 
             <iframe
                 title="{{include.title}}"
-                style="min-height: {{item.minheight}}; max-height: {{item.maxheight}}"
+                style="min-height: {{thisitem.minheight}}; max-height: {{thisitem.maxheight}}"
                 data-style="{{style}}"
                 src="example.{{include.name}}.html?{{site.time | date: '%s'}}"
                 class="example__iframe">

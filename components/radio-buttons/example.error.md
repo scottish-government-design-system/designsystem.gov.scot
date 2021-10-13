@@ -19,10 +19,6 @@ type: example
                 <div class="ds_radio">
                     <input class="ds_radio__input" id="resolve-no" name="resolve" type="radio" value="no">
                     <label class="ds_radio__label" for="resolve-no">No</label>
-
-                    <div class="ds_reveal-content">
-                        <p><strong>Next step:</strong> <a href="#">leave us some feedback</a>.</p>
-                    </div>
                 </div>
             </div>
         </fieldset>

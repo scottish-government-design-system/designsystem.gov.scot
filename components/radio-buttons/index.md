@@ -43,12 +43,26 @@ The error state for radio buttons marks the entire fieldset.
 
 ### Inline radio buttons
 
-If there are few options and each has a short label, they can be placed inline.
+In some cases you can display radio buttons beside one another.
+
+Only use inline radio buttons when:
+* the question only has two options
+* the text for both options is short
 
 If you are using an inline display for a yes/no choice, make 'Yes' the first option.
 
 {% include example-frame.html title="Radio button example with inline display" name="inline" %}
 
+### Revealing additional questions
+
+If there are additional questions that apply to a particular radio option, they can be made to display only when that option is chosen.
+
+This will:
+
+* make the related questions easier to answer by grouping them together
+* make the form simpler for users who do not need to complete the related questions
+
+{% include example-frame.html title="Radio button example with conditional content" name="conditional" %}
 
 ## Website analytics
 
