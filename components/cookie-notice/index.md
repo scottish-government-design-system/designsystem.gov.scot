@@ -1,20 +1,20 @@
 ---
 layout: component
-title:  "Cookie notification"
+title:  "Cookie notice"
 category: components
 parent: components
-thispage: component.cookie-notification
+thispage: component.cookie-notice
 summary: "Allow users to accept or reject cookies which are not essential to making your website or service work."
 experimental: true
 ---
 
 ## About this component
 
-The cookie notification is a [notification banner](/components/notification-banner) that gives users the option to accept or reject non-essential cookies. It is used in combination with the [cookie settings](/patterns/cookie-settings) pattern.
+The cookie notice is a [notification banner](/components/notification-banner) that gives users the option to accept or reject non-essential cookies. It is used in combination with the [cookie settings](/patterns/cookie-settings) pattern.
 
-The cookie notification is shown every time a user accesses your website or service until they either:
+The cookie notice is shown every time a user accesses your website or service until they either:
 
-* accept or reject cookies using the options in the cookie notification
+* accept or reject cookies using the options in the cookie notice
 * save their cookie preferences on your cookie settings page
 
 <div class="ds_callout">
@@ -33,7 +33,7 @@ The cookie notification is shown every time a user accesses your website or serv
 
 When a user has accepted or rejected cookies:
 
-* the cookie notification changes to a confirmation message and is not shown again
+* the cookie notice changes to a confirmation message and is not shown again
 * a cookie is set that remembers the user's choice for 1 year
 
 {% include example-frame.html title="Radio button example with hint text" name="confirm" %}
@@ -47,7 +47,7 @@ You must:
 * inform users about any cookies that you set on their device
 * allow users to reject any cookies that are not essential
 
-If there are multiple notification banners on a page, the cookie notification should appear first.
+If there are multiple notification banners on a page, the cookie notice should appear first.
 
 ## Components related to this
 
@@ -56,7 +56,7 @@ If there are multiple notification banners on a page, the cookie notification sh
 
 ## Why we use this component
 
-The cookie notification component helps a website or service to comply with data protection legislation including:
+The cookie notice component helps a website or service to comply with data protection legislation including:
 
 * Privacy and Electronic Communications Regulations (PECR)
 * General Data Protection Regulation (GDPR)

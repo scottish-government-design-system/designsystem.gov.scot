@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: component.cookie-notification
+parent: component.cookie-notice
 type: example
 index: 0
 style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
