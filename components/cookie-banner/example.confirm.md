@@ -4,9 +4,10 @@ parent: component.cookie-banner
 type: example
 index: 0
 style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
+script: 'document.getElementById("cookie-confirm").classList.remove("fully-hidden");'
 ---
 
-<div id="cookie-confirm" class="ds_notification  ds_notification--cookie-success  ds_reversed  js-confirm-cookie-content" data-module="ds-notification">
+<div id="cookie-confirm" class="ds_notification  ds_notification--cookie-success  ds_reversed  fully-hidden  js-confirm-cookie-content" data-module="ds-notification">
     <div class="ds_wrapper">
         <div class="ds_notification__content">
             <div class="ds_notification__text">
