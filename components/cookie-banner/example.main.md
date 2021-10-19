@@ -14,7 +14,7 @@ script: 'document.getElementById("cookie-notice").classList.remove("fully-hidden
             <div role="heading" class="visually-hidden">Information</div>
 
             <div class="ds_notification__text">
-                <p>We use <a href="#">cookies</a> to collect anonymous data to help us improve your site browsing
+                <p>We use <a href="/cookies/">cookies</a> to collect anonymous data to help us improve your site browsing
                     experience.</p>
                 <p>Click 'Accept all cookies' to agree to all cookies that collect anonymous data.
                     To only allow the cookies that make the site work, click 'Use essential cookies only.' Visit 'Set cookie preferences' to control specific cookies.</p>
