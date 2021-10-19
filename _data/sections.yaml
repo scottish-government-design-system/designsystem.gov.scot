@@ -67,8 +67,8 @@ components:
     - title: Contents navigation
       url: /components/contents-navigation/
       draft: true
-    - title: Cookie notice
-      url: /components/cookie-notice/
+    - title: Cookie banner
+      url: /components/cookie-banner/
       draft: true
     - title: Date picker
       url: /components/date-picker/
