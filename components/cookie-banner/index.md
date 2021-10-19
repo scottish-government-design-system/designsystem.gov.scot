@@ -4,7 +4,7 @@ title:  "Cookie banner"
 category: components
 parent: components
 thispage: component.cookie-banner
-summary: "A notice to help users to understand what cookies do. It allows users to consent or not to cookies that are not essential to making your website or service work."
+summary: "A notice to help users to understand what cookies do. It allows users to accept or reject cookies that are not essential to making your website or service work."
 experimental: true
 ---
 
