@@ -6,7 +6,7 @@ subcategory: forms
 parent: components
 label: component
 thispage: component.radio-buttons
-summary: "Form fields that allow users to pick a single item"
+summary: "Form fields that allow users to pick a single item."
 ---
 
 ## About this component

@@ -4,7 +4,7 @@ title:  "Cookie banner"
 category: components
 parent: components
 thispage: component.cookie-banner
-summary: "A notice to help users to understand what cookies do."
+summary: "A notice to help users to understand what cookies do. It allows users to consent or not to cookies that are not essential to making your website or service work."
 experimental: true
 ---
 
@@ -70,10 +70,10 @@ Using that user survey and desk-based research, we set these rules for the new c
 
 * be non-intrusive across all devices
 * ensure that users know essential cookies cannot be switched off
-* make it clear that we need the user’s consent to use the website to work the way it should
+* make it clear that we need the user’s consent to use cookies
+* show users how cookies help them to get the most out of a site
 * never use ‘dark patterns’ that trick users, such as where clicking ‘x’ accepts cookies
 * enable users to have control over cookie preferences for non-essential cookies
-* show users how cookies help them to get the most out of a site
 
 ## Website analytics
 

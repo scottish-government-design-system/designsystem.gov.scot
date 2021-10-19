@@ -5,7 +5,7 @@ category: components
 subcategory: forms
 parent: components
 thispage: component.error-summary
-summary: "An error summary appears at the top of a page if a user makes an error in a form. It summarises any errors they've made"
+summary: "An error summary appears at the top of a page if a user makes an error in a form. It summarises any errors they've made."
 
 examples:
   - site: mygov.scot

@@ -75,11 +75,19 @@
         <p class="example-frame__note">Note: {{page.note}}</p>
     {% endif %}
 
-    <!-- Browsers with ES module support load these files -->
-    <script type="module" src="/assets/scripts/dist/{%if page.script %}{{page.script}}{% else %}pattern-library{% endif %}.js?{{site.time | date: '%s'}}"></script>
+    {% unless page.noDSJavascript %}
+        <!-- Browsers with ES module support load these files -->
+        <script type="module" src="/assets/scripts/dist/{%if page.script %}{{page.script}}{% else %}pattern-library{% endif %}.js?{{site.time | date: '%s'}}"></script>
 
-    <!-- Older browsers load these files -->
-    <!-- (and module-supporting browsers know *not* to load these files) -->
-    <script nomodule src="/assets/scripts/dist/{%if page.script %}{{page.script}}{% else %}pattern-library{% endif %}.es5.js?{{site.time | date: '%s'}}"></script>
+        <!-- Older browsers load these files -->
+        <!-- (and module-supporting browsers know *not* to load these files) -->
+        <script nomodule src="/assets/scripts/dist/{%if page.script %}{{page.script}}{% else %}pattern-library{% endif %}.es5.js?{{site.time | date: '%s'}}"></script>
+    {% endunless %}
+
+    {% if page.script %}
+        <script>
+            {{page.script}}
+        </script>
+    {% endif %}
 </body>
 </html>

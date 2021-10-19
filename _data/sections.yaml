@@ -69,7 +69,6 @@ components:
       draft: true
     - title: Cookie banner
       url: /components/cookie-banner/
-      draft: true
     - title: Date picker
       url: /components/date-picker/
     - title: Error message
