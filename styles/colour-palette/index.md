@@ -4,7 +4,7 @@ title:  "Colour"
 category: styles
 parent: styles
 thispage: style.colour-palette
-summary: "Our brand colours and how to apply them"
+summary: "Our brand colours and how to apply them."
 ---
 
 ## Using colour

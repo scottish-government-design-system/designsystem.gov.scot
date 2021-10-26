@@ -4,7 +4,7 @@ title:  "Images"
 category: styles
 parent: styles
 thispage: style.images
-summary: "We use images where content may benefit from a supporting example to clarify information"
+summary: "We use images where content may benefit from a supporting example to clarify information."
 ---
 
 ## Photography
