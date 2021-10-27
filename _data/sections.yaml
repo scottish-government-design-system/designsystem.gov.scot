@@ -87,6 +87,9 @@ components:
       draft: true
     - title: Notification banner
       url: /components/notification-banner/
+    - title: Notification panel
+      url: /components/notification-panel/
+      draft: true
     - title: Page header
       url: /components/page-header/
     - title: Pagination
