@@ -1,15 +1,14 @@
 /*------------------------------------*\
-    #PANEL
-
-    TODO - Move to Pattern Library
+    NOTIFICATION PANEL
 \*------------------------------------*/
 
-.ds_panel {
+.ds_notification-panel {
     @include ds_responsive-margin(3, bottom);
     @include ds_responsive-padding(6, top);
     @include ds_responsive-padding(6, bottom);
     @include ds_responsive-padding(4, left);
     @include ds_responsive-padding(4, right);
+    background: $ds_colour__grey--lighter;
     text-align: center;
     
     // Add top margin if placed below another item
@@ -23,31 +22,12 @@
     }
 
     &__title {
-        // Any heading level will display in standard way - design is separated from heading level
-        // This needs improved so line height (and maybe also margin) also comes from mixin
         // Bottom margin reduced over normal h1 value
-        @include ds_h1-size;
-        line-height: 40px;
+        @include ds_h1-style;
         @include ds_responsive-margin(2, bottom);
-
-        @include ds_media-query(medium) {
-            @include ds_responsive-margin(3, bottom);
-        }
     }
 
     &__content {
-        // Remove bottom margin on last item
-        & > *:last-child {
-            margin-bottom: 0;
-        }
-
-        // Same style as ds_leader
-        @include ds_large-size;
-        font-weight: $light;
-        line-height: 32px;
-
-        @include ds_media-query(medium) {
-            line-height: 40px;
-        }
+        @include last-child-no-margin;
     }
 }

@@ -1,19 +1,19 @@
 ---
 layout: component
-title:  "Panel"
+title:  "Notification panel"
 category: components
 parent: components
-thispage: component.panel
+thispage: component.notification-panel
 summary: "A visible container used to highlight important content such as a success message."
 ---
 ## About this component
-The panel component can be used to prominently feature important content - typically shown after a user completes a task such as submitting a form.
+The notification panel component can be used to prominently feature important content - typically shown after a user completes a task such as submitting a form.
 
 A panel consists of a heading and an optional supporting description.
 
-When using a panel:
+When using a notification panel:
 
-- It must be placed at the top of the main content either as the pages main heading or immediately after it
+- It must be placed at the top of the main content either as the page's main heading or immediately after it
 - Only one panel should be used per page
 - Panel headings should be a high-level explanation of the message - using shorter words if possible to limit text wrapping on smaller display widths
 - Use the description text to provide supporting information related to the panel's message
