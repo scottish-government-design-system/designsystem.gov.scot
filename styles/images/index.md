@@ -23,7 +23,7 @@ When using photographs we recommend using standard aspect ratios such as 1:1, 4:
 Preference for illustration over photography may occur when:
 
 * there is no suitable photography for content
-* a photograph may be to complex
+* a photograph may be too complex
 * visualising data
 
 ## Using images
@@ -39,7 +39,7 @@ Article templates allow images that are aligned left in the page. The recommende
 
 ### Images in category headers
 
-Category headers allow images that are aligned right in the page. The recommended width for an image in article content is 358px.
+Category headers allow images that are aligned right in the page. The recommended width for an image in a category header is 358px.
 
 <figure class="example__content">
 <img alt="A photograph spans over four columns on the category header and is right-aligned." src="/assets/images/category-image.png">

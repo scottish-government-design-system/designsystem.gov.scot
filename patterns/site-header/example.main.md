@@ -30,24 +30,24 @@ minheight: '427px'
 
             <input class="ds_site-navigation__toggle" id="menu" type="checkbox"/>
             <nav id="mobile-navigation" class="ds_site-navigation  ds_site-navigation--mobile" data-module="ds-mobile-navigation-menu">
-                <ul class="ds_mobile-navigation__list">
-                    <li class="ds_mobile-navigation__item">
-                        <a href="#" class="ds_mobile-navigation__link">
+                <ul class="ds_site-navigation__list">
+                    <li class="ds_site-navigation__item">
+                        <a href="#" class="ds_site-navigation__link">
                             Get started
                         </a>
                     </li>
-                    <li class="ds_mobile-navigation__item">
-                        <a href="#" class="ds_mobile-navigation__link">
+                    <li class="ds_site-navigation__item">
+                        <a href="#" class="ds_site-navigation__link">
                             Styles
                         </a>
                     </li>
-                    <li class="ds_mobile-navigation__item">
-                        <span class="ds_mobile-navigation__link  ds_current">
+                    <li class="ds_site-navigation__item">
+                        <span class="ds_site-navigation__link  ds_current">
                             Components
                         </span>
                     </li>
-                    <li class="ds_mobile-navigation__item">
-                        <a href="#" class="ds_mobile-navigation__link">
+                    <li class="ds_site-navigation__item">
+                        <a href="#" class="ds_site-navigation__link">
                             Patterns
                         </a>
                     </li>
