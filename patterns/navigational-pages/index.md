@@ -7,13 +7,10 @@ thispage: pattern.navigational-pages
 summary: "Navigational pages display headings and small pieces of content to help users navigate a website."
 examples:
   - site: tradingnation.mygov.scot
-    url: https://tradingnation.mygov.scot/sectors
-    name: "A Trading Nation"
-  - site: tradingnation.mygov.scot
-    url: https://tradingnation.mygov.scot/sectors
+    url: https://tradingnation.mygov.scot/browse/sectors
     name: "Sector profiles"
   - site: tradingnation.mygov.scot
-    url: https://tradingnation.mygov.scot/country-profiles
+    url: https://tradingnation.mygov.scot/browse/country-profiles
     name: "Country profiles"
 ---
 
