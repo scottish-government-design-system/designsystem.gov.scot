@@ -4,9 +4,9 @@ parent: component.checkboxes
 type: example
 ---
 <form>
-    <fieldset>
+    <fieldset aria-describedby="ds_hint">
         <legend>What topics are you interested in?</legend>
-        <p class="ds_hint-text">Select as many as you like</p>
+        <p class="ds_hint-text" id="ds_hint">Select as many as you like</p>
 
         <div class="ds_field-group">
             <div class="ds_checkbox  ds_checkbox--small">
