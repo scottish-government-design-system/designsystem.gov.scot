@@ -23,7 +23,7 @@ Error summary also allows users to click through to each single error from the t
 
 ## Why we use this component
 
-Our design of error summary is based on the GOV.UK approach, however we have been tested this component and have found it works well with users. 
+Our design of error summary is based on the GOV.UK approach. We have tested this component and have found it works well with users. 
 
 Research showed users:
 
