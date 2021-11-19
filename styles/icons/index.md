@@ -28,39 +28,15 @@ The default size of icons is 24px.  You can set alternative sizes, in 4px increa
 
 ## Colour
 
-How to colour icons depends on whether they’re:
-* images in your markup 
-* background images in your CSS
+Icons use the colour of the text around them by default. You can give icons a specific colour by styling their `SVG` element.
+
+{% include example-frame.html title="Icon colour example" name="markup-colour" %}
 
 <div class="ds_inset-text">
     <div class="ds_inset-text__text">
         <p>When choosing an icon colour, all icons must meet <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">colour contrast standards</a> to meet the Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018.</p>
     </div>
 </div>
-
-### Colouring icons in markup
-
-Icons use the colour of the text around them by default. You can give icons a specific colour by styling their `SVG` element.
-
-{% include example-frame.html title="Icon colour example" name="markup-colour" %}
-
-### Colouring icons in CSS
-
-We use the 'icon mask' CSS property to give icons custom colours in CSS. These icons also use the colour of the text around them. You can give icons a specific colour by styling their element.
-
-<div class="ds_inset-text">
-    <div class="ds_inset-text__text">
-        The <code>icon-mask</code> CSS property is not supported in Internet Explorer (11 and below) and some other older browsers. Our icons will always be coloured black in those browsers.
-    </div>
-</div>
-
-### For developers
-
-The Design System includes a SASS mixin that adds all of the necessary CSS properties. It takes the image path as a parameter, for example:
-
-{% highlight scss %}
-@include icon-mask('/my/cool/icon.svg');
-{% endhighlight %}
 
 ## Accessibility
 
