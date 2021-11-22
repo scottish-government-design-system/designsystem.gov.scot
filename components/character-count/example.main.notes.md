@@ -14,4 +14,4 @@ The maxlength attribute is removed when the component initialises to allow the u
 
 ### <code>data-maxlength</code> attribute
 
-Using a <code>data-maxlength</code> attribute to specify the character cound behaves largely the same way as using a maxlength attribute, but without the fallback to using the native behaviour for an input field with a maxlength.
+Using a <code>data-maxlength</code> attribute to specify the character count behaves largely the same way as using a maxlength attribute, but without the fallback to using the native behaviour for an input field with a maxlength.
