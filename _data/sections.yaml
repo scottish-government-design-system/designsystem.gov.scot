@@ -128,6 +128,8 @@ patterns:
   title: Patterns
   url: /patterns/
   items:
+    - title: Cookies page
+      url: /patterns/cookies-page/
     - title: Conditional content
       url: /patterns/conditional-content/
       draft: true

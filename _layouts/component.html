@@ -72,7 +72,7 @@
                         {% for item in indexed %}
                             {% if item.type == 'example' and item.name == 'example.main.md' %}
                                 {% assign iframetitle = page.title | append: " example" %}
-                                {% include example-frame.html title=iframetitle name="main" html-expanded=page.example.html-expanded no-demo=page.example.no-demo %}
+                                {% include example-frame.html title=iframetitle name="main" html-expanded=page.example.html-expanded no-demo=page.example.no-demo no-code=page.example.no-code %}
                             {% endif %}
                         {% endfor %}
 
@@ -96,6 +96,9 @@
                                     {% for item in page.examples %}
                                         <p class="live-examples__item">
                                             <a href="{{item.url}}">{{item.name}}</a> ({{item.site}})
+                                            {% if item.description %}
+                                            <br>{{item.description}}
+                                            {% endif %}
                                         </p>
                                     {% endfor %}
                                 </div>
