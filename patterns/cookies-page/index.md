@@ -24,8 +24,8 @@ A page to help users to manage their personal data and consent for cookie use. I
 
 It is important to tell your users both:
 
-- how the site will use cookies 
-- about any impacts on privacy from the cookies  your site or service uses, such as: 
+- how the site or service will use cookies 
+- about any impacts on privacy from the cookies your site or service uses, such as: 
   - what data your cookies could collect 
   - how you or third parties could use that data
 
@@ -50,7 +50,7 @@ Find out more about [auditing and categorising your cookies on GOV.UK](https://d
 
 ### Getting users' consent 
 
-You do not need the user’s consent to set essential cookies. A cookie is ‘essential’ if the service will not work without it. Find out more about [essential or strictly necessary cookies](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-the-rules-on-cookies-and-similar-technologies/#rules9).
+You do not need the user’s consent to set essential cookies. A cookie is ‘essential’ if the site or service will not work without it. Find out more about [essential or strictly necessary cookies](https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/what-are-the-rules-on-cookies-and-similar-technologies/#rules9).
 
 You must get the user’s consent before you set any cookies that are not essential. You can get the user’s consent:
 
@@ -59,24 +59,24 @@ You must get the user’s consent before you set any cookies that are not essent
 
 ### Saving your users' cookie settings
 
-Cookie page uses a form with Radio Buttons for users to mark their preference. Users can select ‘on’ or ‘off’ for each category of the cookies. You should use radio buttons as the user must make an exclusive (only one) choice. Load the page with the radios set to ‘off’ on the user’s first visit. 
+Cookies page uses a form with radio buttons for users to mark their preference. Users can select ‘on’ or ‘off’ for each category of the cookies. You should use radio buttons as the user must make an exclusive (only one) choice. Load the page with the radio buttons set to ‘off’ on the user’s first visit. 
 
-Users can click ’Save cookie preferences’ button at the bottom of the form to submit changes made. If they’ve used your service before and set their preferences, load the page with those preferences selected.
+Users can click ’Save cookie preferences’ button at the bottom of the form to submit changes made. If they’ve used your site or service before and set their preferences, load the page with those preferences selected.
 
 {% include example-frame.html title="A typical form to set cookie preferences" name="form" %}
 
-You should display a confirmation message when the user clicks the save button. This will let users know that your site has saved their preferences.
+You should display a confirmation message when the user clicks the save button. This will let users know that your site or service has saved their preferences.
 
 ## When to use this pattern
 
-Use this component alongside the cookie banner on any and all sites which, both:
+Use a cookies page alongside the cookie banner on any and all sites or services which, both:
 
 - make use of cookies
 - are for the public to use
 
 ## When not to use this pattern
 
-Using a banner and cookie page to manage consent on internal tools, such as an intranet, is not necessary. Your organisation most likely requires staff members to use these internal tools as a condition of their jobs.
+Using a banner and cookies page to manage consent on internal tools, such as an intranet, is not necessary. Your organisation most likely requires staff members to use these internal tools as a condition of their jobs.
 
 ## Why we use this pattern
 
