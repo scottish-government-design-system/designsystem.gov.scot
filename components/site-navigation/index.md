@@ -4,7 +4,7 @@ title:  "Site navigation"
 category: components
 parent: components
 thispage: component.site-navigation
-summary: "The main navigation on a website, site navigation is a row of core links that appears on every page."
+summary: "The main navigation on a website, site navigation is a set of links that appears on every page."
 #examples:
 #  - site: gov.scot
 #    url: https://www.gov.scot/publications/2018-19-autumn-budget-revision-supporting-document/

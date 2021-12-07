@@ -5,7 +5,7 @@ category: components
 subcategory: forms
 parent: components
 thispage: component.select
-
+summary: "A form field that allows users to pick a single item from a list of options."
 examples:
   - site: mygov.scot
     url: https://www.mygov.scot/scotland-bank-holidays/

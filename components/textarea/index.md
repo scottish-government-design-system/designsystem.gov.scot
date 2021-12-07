@@ -5,7 +5,7 @@ category: components
 subcategory: forms
 parent: components
 thispage: component.textarea
-summary: ""
+summary: "A form field that allows users to enter multiple lines of text."
 ---
 We based our textarea component on the one built by GDS. [Find out more about the textarea component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/textarea/).
 

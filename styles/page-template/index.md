@@ -4,9 +4,8 @@ title:  "Page template"
 category: styles
 parent: styles
 thispage: style.page-template
-#summary: ""
+summary: "Pages built using the Design System should use this template as a starting point."
 ---
-Pages built using the Design System should use this template as a starting point.
 
 {% include example-frame.html title="Example HTML for page template" name="code" no-demo=true html-expanded=true  %}
 

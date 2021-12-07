@@ -5,12 +5,12 @@ category: get-started
 parent: get-started
 label: How to
 thispage: get-started.tracking
-summary: ""
+summary: "The Design System adds data attributes to components to help with analytics tracking."
 permalink: "/get-started/tracking/"
 index: 999
 ---
 
-The Design System has a script that add 'data attributes' to components. Analytics software can use these data attributes to track user behaviour and measure performance. The script adds data attributes automatically, but developers still have some control over them.
+The Design System has a script that adds 'data attributes' to components. Analytics software can use these data attributes to track user behaviour and measure performance. The script adds data attributes automatically, but developers still have some control over them.
 
 Calling the function `tracking.init()` adds data attributes to all Design System components.
 
