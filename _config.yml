@@ -1,5 +1,5 @@
 title: Design System
-description: "The Digital Scotland Design System provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.">- # this means to ignore newlines until "baseurl:"
+description: "The Digital Scotland Design System provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://designsystem.gov.scot" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #scotgov
