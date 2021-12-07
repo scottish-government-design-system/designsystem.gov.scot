@@ -4,18 +4,21 @@ title:  "Notification panel"
 category: components
 parent: components
 thispage: component.notification-panel
-summary: "A highly-visible block used to highlight important content such as a success or confirmation message."
+summary: "A highlight block that shows the user important information after they have completed a task, such as a success message"
 ---
 
 ## About this component
 
-The notification panel component prominently presents important content to the user when a task has been completed. 
+The notification panel component prominently presents important content when a task completes. Use it on confirmation pages to tell users, both:
 
-A notification panel contains of a heading and an optional supporting description.
+* that they have completed the thing they wanted to do 
+* the outcome such as a success message
+
+A notification panel contains a heading and an optional supporting description.
 
 When using a notification panel, you must:
 
-- place it at the top of the main content either as the page's main heading or immediately after it
+- place it at the top of the main content, either as the page's main heading or immediately after it
 - only use one notification panel per page
 
 Notification panel titles should be a short high-level explanation of what has happened. If you can, use shorter words to limit text wrapping on small devices.
@@ -24,7 +27,7 @@ You should not include interactive elements such as buttons or links in a notifi
 
 ### When to use this component
 
-Use this component to tell users that they have successfully completed an activity.
+Use this component to tell users when they complete a task they started, such as submitting a form.
 
 ### When not to use this component
 
@@ -32,7 +35,9 @@ Avoid using a notification panel if a page still has further actions a user can 
 
 ## Other versions of this component
 
-If the supporting description includes some information a user might need to make a   note of, such as a reference number, that information is highlighted.
+You can use the supporting description to tell the users extra important information. Highlight any important information a user needs to record, such as a reference number.
+
+You can change the colour of the panel to match the tone of the message to the user. We use green if the user is successful and grey for unsuccessful or neutral messages.
 
 {% include example-frame.html title="Notification panel with a reference number" name="reference" %}
 
@@ -47,7 +52,7 @@ Using a visually contrasting area for important content will help users find thi
 
 ## Accessibility
 
-If a notification panel is used for a page's main heading, it should be used for the H1 heading for the page. If a notification panel is used on a page that already has a H1 heading a different heading level must be used for the notification panel's title. The notification panel's title will look the same regardless of the heading level used.
+If you use a notification panel for a page's main heading, you should make it the H1 heading for the page. If you use a notification panel on a page that already has a H1 heading, use a different heading level for the notification panel's title. The notification panel's title will look the same regardless of the heading level used.
 
 If you insert a notification panel into a page in response to a user action, then adding `role="alert"` to the notification panel will help assistive technology tools to notify the user about the change.
 
