@@ -25,7 +25,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Address lookup</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Audio player guidance</td>
@@ -36,8 +36,8 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td class="confluenceTd">A-Z listing</td>
-            <td class="confluenceTd">To do</td>
+            <td>A-Z listing</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Bank details</td>
@@ -48,8 +48,8 @@ permalink: '/backlog/'
             <td>In progress</td>
         </tr>
         <tr>
-            <td class="confluenceTd">Campaign components and panels</td>
-            <td class="confluenceTd">To do</td>
+            <td>Campaign components and panels</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Card</td>
@@ -57,39 +57,39 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Card navigation</td>
-            <td>To do</td>
+            <td><a href="/patterns/navigational-pages/">Complete</a></td>
         </tr>
         <tr>
-            <td class="confluenceTd">Case study</td>
-            <td class="confluenceTd">To do</td>
+            <td>Case study</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Category item</td>
             <td>To do</td>
         </tr>
         <tr>
-            <td class="confluenceTd">Charts</td>
-            <td class="confluenceTd">To do</td>
+            <td>Charts</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Conditional reveal</td>
             <td>To do</td>
         </tr>
         <tr>
-            <td class="confluenceTd">Contextual footer</td>
-            <td class="confluenceTd">To do</td>
+            <td>Contextual footer</td>
+            <td>To do</td>
         </tr>
         <tr>
-            <td class="confluenceTd">Cookie banner</td>
-            <td class="confluenceTd">In progress</td>
+            <td>Cookie banner</td>
+            <td><a href="/components/cookie-banner/">Complete</a></td>
         </tr>
         <tr>
-            <td class="confluenceTd">Cookie page</td>
-            <td class="confluenceTd">In progress</td>
+            <td>Cookies page</td>
+            <td><a href="/patterns/cookies-page/">Complete</a></td>
         </tr>
         <tr>
             <td>Date Input (DOB)</td>
-            <td>To do</td>
+            <td><a href="/components/date-picker/">Complete</a></td>
         </tr>
         <tr>
             <td>Details</td>
@@ -104,8 +104,8 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td class="confluenceTd">Exit page</td>
-            <td class="confluenceTd">To do</td>
+            <td>Exit page</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Featured search box</td>
@@ -125,10 +125,10 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Grid navigation</td>
-            <td>To do</td>
+            <td><a href="/patterns/navigational-pages/">Complete</a></td>
         </tr>
         <tr>
-            <td>Guide /multipage document (mini hub)</td>
+            <td>Guide/multipage document (mini hub)</td>
             <td>To do</td>
         </tr>
         <tr>
@@ -136,9 +136,9 @@ permalink: '/backlog/'
             <td>Proposed</td>
         </tr>  
         <tr>
-              <td>Icons and iconography</td>
-              <td>In progress</td>
-          </tr>
+            <td>Icons and iconography</td>
+            <td><a href="/styles/icons/">Complete</a></td>
+        </tr>
         <tr>
             <td>Icons - Document type icons</td>
             <td>To do</td>
@@ -149,7 +149,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>List navigation</td>
-            <td>To do</td>
+            <td><a href="/patterns/navigational-pages/">Complete</a></td>
         </tr>
         <tr>
             <td>Maps</td>
@@ -173,7 +173,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Page metadata</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Passwords</td>
@@ -181,7 +181,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Pagination</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>PDF download page / document cover page</td>
@@ -217,11 +217,11 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Smart answer</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
-            <td>Skip link</td>
-            <td>In progress</td>
+            <td>Skip links</td>
+            <td><a href="/components/skip-links/">Complete</a></td>
         </tr>
         <tr>
             <td>Step by step navigation</td>

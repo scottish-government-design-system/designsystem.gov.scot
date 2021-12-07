@@ -11,16 +11,16 @@ example:
 examples:
  - site: designsystem.gov.scot
    url: https://designsystem.gov.scot/cookies/
-   name: "Cookie page on Design System"
+   name: "Cookies page on Design System"
  - site: mygov.scot
    url: https://www.mygov.scot/cookies
-   name: "Cookie page on mygov.scot"
+   name: "Cookies page on mygov.scot"
    description: Note that mygov.scot has web analytics cookies set to ‘on’. Our analytics cookies anonymise all data, so we made an exception not to default to ‘off’. 
 ---
 
 ## About this pattern
 
-A cookies page helps users to manage their personal data and consent for cookie use. It tells them what information you store on cookies on their device. It allows the users to review and change their settings for which cookies your site or service stores.
+A cookies page helps users to manage their personal data and consent for cookie use. It tells them what information you store on cookies on their device. It allows the users to review and change their settings for which cookies your site or service uses.
 
 It is important to tell your users both:
 
@@ -92,7 +92,7 @@ Using a cookie banner and cookies page to manage consent on internal tools, such
 
 ## Why we use this pattern
 
-A cookie page will help you to comply with the [Privacy and Electronic Communications Regulations (PECR)](https://ico.org.uk/for-organisations/guide-to-pecr/what-are-pecr/). 
+A cookies page will help you to comply with the [Privacy and Electronic Communications Regulations (PECR)](https://ico.org.uk/for-organisations/guide-to-pecr/what-are-pecr/). 
 
 ## Related components
 
