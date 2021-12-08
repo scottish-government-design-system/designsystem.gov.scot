@@ -69,4 +69,4 @@ These patterns can also be reused across websites, creating a consistent experie
 
 To understand user behaviour, clicks on navigation items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item number.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#category-list).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking).
