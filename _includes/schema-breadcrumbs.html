@@ -1,0 +1,113 @@
+{% for item in site.pages %}
+    {% if item.thispage == page.parent %}
+        {% assign level2 = item %}
+    {% endif %}
+{% endfor %}
+
+{% assign homefound = false %}
+
+{% if level2.thispage == 'home' %}
+    {% assign homefound = true %}
+{% endif %}
+
+{% if level2 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level2.parent %}
+            {% assign level3 = item %}
+        {% endif %}
+    {% endfor %}
+
+    {% if level3.thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+{% endif %}
+
+{% if level3 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level3.parent %}
+            {% assign level4 = item %}
+        {% endif %}
+    {% endfor %}
+
+    {% if level4.thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+{% endif %}
+
+{% if level4 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level4.parent %}
+            {% assign level5 = item %}
+        {% endif %}
+    {% endfor %}
+
+    {% if level5.thispage == 'home' %}
+        {% assign homefound = true %}
+    {% endif %}
+{% endif %}
+
+{% if level5 and homefound != true %}
+    {% for item in site.pages %}
+        {% if item.thispage == level5.parent %}
+            {% assign level6 = item %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+        {%- assign counter = 1 %}
+        {%- if level6 %}
+        {
+            "@type": "ListItem",
+            "position": {{counter}},
+            "name": "{% if level6.thispage == 'home' %}Home{% else %}{{level6.title}}{% endif %}",
+            "item": "{{ site.url }}{{level6.url | replace:'index.html',''}}"
+        },
+        {%- assign counter = counter | plus: 1 %}
+        {%- endif %}
+        {%- if level5 %}
+        {
+            "@type": "ListItem",
+            "position": {{counter}},
+            "name": "{% if level5.thispage == 'home' %}Home{% else %}{{level5.title}}{% endif %}",
+            "item": "{{ site.url }}{{level5.url | replace:'index.html',''}}"
+        },
+        {%- assign counter = counter | plus: 1 %}
+        {%- endif %}
+        {%- if level4 %}
+        {
+            "@type": "ListItem",
+            "position": {{counter}},
+            "name": "{% if level4.thispage == 'home' %}Home{% else %}{{level4.title}}{% endif %}",
+            "item": "{{ site.url }}{{level4.url | replace:'index.html',''}}"
+        },
+        {%- assign counter = counter | plus: 1 %}
+        {%- endif %}
+        {%- if level3 %}
+        {
+            "@type": "ListItem",
+            "position": {{counter}},
+            "name": "{% if level3.thispage == 'home' %}Home{% else %}{{level3.title}}{% endif %}",
+            "item": "{{ site.url }}{{level3.url | replace:'index.html',''}}"
+        },
+        {%- assign counter = counter | plus: 1 %}
+        {%- endif %}
+        {%- if level2 %}
+        {
+            "@type": "ListItem",
+            "position": {{counter}},
+            "name": "{% if level2.thispage == 'home' %}Home{% else %}{{level2.title}}{% endif %}",
+            "item": "{{ site.url }}{{level2.url | replace:'index.html',''}}"
+        },
+        {%- assign counter = counter | plus: 1 %}
+        {%- endif %}
+        {
+            "@type": "ListItem",
+            "position": {{counter}},
+            "name": "{{page.title}}"
+        }]
+    }
+</script>
