@@ -17,7 +17,7 @@ const commonEntries = {
 };
 
 module.exports = [{
-  mode: 'development',
+  mode: 'production',
 
   entry: commonEntries,
 
@@ -26,7 +26,7 @@ module.exports = [{
     filename: '[name].js'
   }
 }, {
-  mode: 'development',
+  mode: 'production',
 
   entry: commonEntries,
 
