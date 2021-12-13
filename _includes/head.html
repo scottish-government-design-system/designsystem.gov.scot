@@ -7,7 +7,16 @@
     <meta name="description" content="{{ site.description }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap" rel="stylesheet" type="text/css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link id="gFontLink" media="print" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap" rel="stylesheet" type="text/css">
+
+    <script async src="/assets/scripts/font-load.js"></script>
+
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap">
+    </noscript>
 
     <link rel="stylesheet" href="/assets/css/main.css?{{site.time | date: '%s'}}">
 
