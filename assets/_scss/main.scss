@@ -45,7 +45,6 @@ $use-legacy-site-navigation: false;
 
 
 
-
 /* for homepage */
 @import "components/component.case-study";
 @import "components/component.homepage-hero";
@@ -73,3 +72,5 @@ $use-legacy-site-navigation: false;
 
 // temp highlight for links with no target
 a[href=''] {color: $ds_colour__red; cursor: not-allowed; pointer-events: none;}
+
+
