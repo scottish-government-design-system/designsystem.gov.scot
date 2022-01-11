@@ -1,0 +1,16 @@
+.dss_homepage-links {
+    @include ds_responsive-margin(4, top);
+
+    display: grid;
+    grid-gap: 0 32px;
+
+    &__block {
+        @include ds_responsive-margin(6, bottom);
+    }
+}
+
+@include media-query(medium) {
+    .dss_homepage-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

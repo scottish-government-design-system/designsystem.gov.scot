@@ -54,7 +54,10 @@ body {
                                 <p>{{page.content}}</p>
 
                                 <div class="dss_homepage-hero__cta">
-                                    <a href="/get-started" class="ds_button  ds_button--fixed">Learn more</a>
+                                    <a href="/get-started" class="ds_button  ds_button--secondary  ds_button--has-icon  ds_button--fixed">
+                                        Get started
+                                        <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#chevron_right"></use></svg>
+                                    </a>
                                 </div>
                             </div>
                             <div class="dss_homepage-hero__media-container">
@@ -116,12 +119,12 @@ body {
             {% assign indexed = site.pages | where:"category", 'homepage-links' | sort: 'title', 'first' %}
             <section id="links" class="zebra">
                 <div class="ds_wrapper">
-                    <div style="display: grid;grid-template-columns:1fr 1fr;grid-gap:28px 30px">
+                    <div class="dss_homepage-links">
                     {% for item in indexed %}
-                        <div>
-                            <h2>{{item.title}}</h2>
+                        <div class="dss_homepage-links__block">
+                            <h2 class="gamma">{{item.title}}</h2>
                             <p>{{item.content}}</p>
-                            <a href="{{item.signpostUrl}}">Learn more</a>
+                            <a href="{{item.signpostUrl}}">{{item.linktext}}</a>
                         </div>
                     {% endfor %}
                     </div>
