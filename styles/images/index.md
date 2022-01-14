@@ -33,7 +33,7 @@ Preference for illustration over photography may occur when:
 Article templates allow images that are aligned left in the page. The recommended width for an image in article content is 750px.
 
 <figure class="example__content">
-<img alt="A photograph spans over eight columns on the page layout and is left-aligned." src="/assets/images/article-image.png">
+<img alt="An image spans over eight columns on the page layout and is left-aligned." src="/assets/images/article-image.svg" loading="lazy">
 <figcaption>Column positioning for images in an article page</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Article templates allow images that are aligned left in the page. The recommende
 Category headers allow images that are aligned right in the page. The recommended width for an image in a category header is 358px.
 
 <figure class="example__content">
-<img alt="A photograph spans over four columns on the category header and is right-aligned." src="/assets/images/category-image.png">
+<img alt="An image spans over four columns on the category header and is right-aligned." src="/assets/images/category-image.svg" loading="lazy">
 <figcaption>Column positioning for images in an category header component</figcaption>
 </figure>
 
@@ -54,4 +54,15 @@ Other types of imagery can be considered such as logos, icons and diagrams to su
 
 Images must always be supported with text alternatives which are descriptive of the information they present. Alternative text is read out by screen readers for users with visual impairments and where an image does not load. Text should never be included as part of the image as this will not be read out by screen readers or translated by automated translators.
 
-W3C gives guidance on [how to make images accessible](#).
+W3C gives guidance on [how to make images accessible](https://www.w3.org/WAI/tutorials/images/).
+
+## Performance
+
+Images often make up a significant portion of the overall filesize of a web page. This factor may directly impact on how quickly your web site or service displays on users' devices and how high the web pages rank in search engines. Performance of your images may improve by:
+
+- compressing images to create smaller sized files
+- using the most appropriate image file formats
+- lazy loading images to prevent unnecessary downloads
+- providing different sizes of the same image to best suit the viewport where it is being displayed
+
+Google provides guidance on [how to optimise images](https://web.dev/uses-optimized-images/).

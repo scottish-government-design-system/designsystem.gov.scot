@@ -15,7 +15,7 @@ There are a number of responsive layouts provided in the Design System. You can 
 
 ## Example: Article layout
 
-<img alt="An article page's layout is stacked in a single column on small viewports, and displayed in a main column and sidebar column on larger viewports" src="/assets/images/examples/article-layout.svg"/>
+<img alt="An article page's layout is stacked in a single column on small viewports, and displayed in a main column and sidebar column on larger viewports" src="/assets/images/examples/article-layout.svg">
 
 {% include example-frame.html title="Example HTML for an article layout" name="article" no-demo=true %}
 
@@ -48,7 +48,7 @@ The non-grid fallback uses CSS floats and percentage widths to define column pla
 
 This is an example of how to create a custom layout using the layout component. The example shows 2 useful concepts: adding a new type of content area ('icon') and how to handle grid areas that are not flush to the left of the page.
 
-<img alt="This complex layout is stacked in a single column on small viewports, and changes as viewport sizes increase to make full use of the available space" src="/assets/images/examples/complex-document-layout.svg"/>
+<img alt="This complex layout is stacked in a single column on small viewports, and changes as viewport sizes increase to make full use of the available space" src="/assets/images/examples/complex-document-layout.svg" loading="lazy">
 
 On small devices in this layout everything is linearised and we can just rely on the default layout defined by the Design System.
 
