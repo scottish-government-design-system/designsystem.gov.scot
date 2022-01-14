@@ -13,6 +13,7 @@ $use-legacy-site-navigation: false;
  * BASE STYLING
  */
 @import "../../node_modules/@scottish-government/pattern-library/src/base/all-base";
+@import "base/font";
 @import "base/code";
 @import "base/figure";
 @import "base/pl-layouts";

@@ -7,17 +7,9 @@
     <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link id="gFontLink" media="print" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap" rel="stylesheet" type="text/css">
-
-    <script async src="/assets/scripts/font-load.js"></script>
-
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap">
-    </noscript>
-
+    <link rel="preload" href="/assets/fonts/roboto/roboto-v29-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/roboto/roboto-v29-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/roboto/roboto-v29-latin-700.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/assets/css/main.css?{{site.time | date: '%s'}}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
