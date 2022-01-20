@@ -32,7 +32,7 @@ Other components that look or behave like links use the same style for consisten
 Similar to links, buttons are given a yellow background with a dark grey bottom border when they are in focus. This focus style is applied to all types of button. For example, primary, secondary, and cancel.
 
 <figure class="example__content">
-<img style="max-height: 224px" alt="The Design System's primary, secondary and cancel button styles and how they look when focussed" src="/assets/images/focus-buttons.png">
+<img style="max-height: 224px" alt="The Design System's primary, secondary and cancel button styles and how they look when focussed" src="/assets/images/focus-buttons.png" loading="lazy">
 <figcaption>Normal and focussed buttons</figcaption>
 </figure>
 
@@ -41,14 +41,14 @@ Similar to links, buttons are given a yellow background with a dark grey bottom 
 Focus on form fields is shown by a yellow outline and a thicker dark border.
 
 <figure class="example__content">
-<img style="max-height: 240px" alt="A text input and how its appearance changes when it has focus" src="/assets/images/focus-text.png">
+<img style="max-height: 240px" alt="A text input and how its appearance changes when it has focus" src="/assets/images/focus-text.png" loading="lazy">
 <figcaption>Normal and focussed text inputs</figcaption>
 </figure>
 
 This concept is applied across all types of form field for a consistent user experience.
 
 <figure class="example__content">
-<img style="max-height: 128px" alt="Two radio buttons, one without focus and the other showing the focussed state" src="/assets/images/focus-radio.png">
+<img style="max-height: 128px" alt="Two radio buttons, one without focus and the other showing the focussed state" src="/assets/images/focus-radio.png" loading="lazy">
 <figcaption>Normal and focussed radio buttons</figcaption>
 </figure>
 
