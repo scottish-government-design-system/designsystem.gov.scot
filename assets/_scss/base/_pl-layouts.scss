@@ -3,6 +3,16 @@
 \*------------------------------------*/
 
 .ds_layout {
+
+    // To be included in PL
+    &__content,
+    &__partner {
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
     &--pl-component {
         > .ds_layout {
             @include media-query(medium) {
