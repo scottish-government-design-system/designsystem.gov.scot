@@ -71,13 +71,13 @@ You can add data attributes to specific component types instead of adding them t
 In general this is less useful than restricting the addition of data attributes to a particular DOM node, but it is available if you need it.
 
 {% highlight js %}
-tracking.add.tabs()
+tracking.add.accordions()
 {% endhighlight %}
 
 This also supports the use of a 'scope' parameter. Without a scope parameter, the script will apply to the whole page (the document element).
 
 {% highlight js %}
-tracking.add.tabs(document.getElementById('my-new-tabs-container'));
+tracking.add.accordions(document.getElementById('my-container'));
 {% endhighlight %}
 
 
@@ -200,11 +200,6 @@ tracking.add.tabs(document.getElementById('my-new-tabs-container'));
         <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#site-navigation">
                 Site navigation
-            </a>
-        </li>
-        <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#tabs">
-                Tabs
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -528,14 +523,6 @@ Links in site navigation components get a `data-header` attribute whose value us
 {% endhighlight %}
 
 The mobile navigation's toggle button is given a `data-header` attribute of `header-menu-toggle`.
-
-### Tabs
-
-Tabs get a `data-navigation` attribute whose value uses the pattern `tab-[index]` where the index is one-based.
-
-{% highlight html %}
-<button class="ds_tab__label" role="tab" data-navigation="tab-2" aria-controls="tab2-content" id="tab2-label" data-for="tab2-content" aria-selected="false" tabindex="-1">Choosing apprenticeships <span class="visually-hidden">(item 2 of 3)</span></button>
-{% endhighlight %}
 
 ### Text input
 
