@@ -791,9 +791,9 @@
       }
     },
     "@scottish-government/pattern-library": {
-      "version": "0.0.215",
-      "resolved": "https://registry.npmjs.org/@scottish-government/pattern-library/-/pattern-library-0.0.215.tgz",
-      "integrity": "sha512-n253tCiiwBQEfaMcZdhaPinyjNVHKhPlRU2y62X/R0XbDBz2NQ2SPtA96vj2jkFWzruYWezdSDaemdMDd2W9Yg==",
+      "version": "0.0.221",
+      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@scottish-government/pattern-library/-/pattern-library-0.0.221.tgz",
+      "integrity": "sha512-RcX1SJnOylRjJiW4qNC7J6DlJOqH0n5070vVNZa2C6cBxsse9Gb6BROSmDawMQcowOQr+/c1lXEJh9FmjmOAqg==",
       "dev": true,
       "dependencies": {
         "@babel/cli": {

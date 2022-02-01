@@ -51,7 +51,7 @@ Clicks to the suggested terms in the 'did you mean...' content are tracked throu
 
 Pagination is tracked using the data attribute with the number of the results page clicked.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#search-results).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking).
 
 <div class="ds_inset-text"><div class="ds_inset-text__text">
 Where the site search is being used on a single-page app or it is not possible to put the search query in to the URL, the query could be included in the dataLayer for the page.

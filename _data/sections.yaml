@@ -127,6 +127,8 @@ patterns:
   title: Patterns
   url: /patterns/
   items:
+    - title: Addresses
+      url: /patterns/addresses/
     - title: Cookies page
       url: /patterns/cookies-page/
     - title: Conditional content
