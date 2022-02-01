@@ -1,6 +1,6 @@
 ---
 layout: component
-title: "Ask users for addresses"
+title: "Addresses"
 category: patterns
 parent: patterns
 thispage: pattern.addresses
@@ -16,7 +16,13 @@ examples:
 
 Only ask users for an address if this information is needed to deliver your site or service.
 
-The address lookup needs a suitable back-end service to get addresses in response to a postcode search.
+<div class="ds_inset-text">
+  <div class="ds_inset-text__text">
+    The address lookup needs a suitable back-end service to get addresses in response to a postcode search.
+  </div>
+</div>
+
+
 
 
 ## About this pattern
@@ -24,13 +30,15 @@ The address lookup needs a suitable back-end service to get addresses in respons
 This pattern helps users to provide an address using either:
 
 - [address lookup](#address-lookup)
-- [manual address entry](#manual-address-entry)
+- [multiple text inputs](#manual-address-entry)
 
 Make sure you tell your users what to do if they do not have a permanent address. For example, that they:
 
 - cannot use the site or service without one
-- need to call you for help
+- need to contact you for help
 - can use a forwarding or temporary address
+
+
 
 
 ### Address lookup
@@ -39,88 +47,55 @@ Make sure you tell your users what to do if they do not have a permanent address
 
 {% include example-frame.html title="Address lookup example of selecting an address from a dropdown list" name="lookup-select" %}
 
+The address lookup lets users search for a UK address by entering a postcode. When the user searches for a postcode they are shown a dropdown list of addresses in that postcode.
 
-#### How address lookup works
+Users can correct or alter a postcode after they have performed a search, and can have the option of entering an address manually.
 
-1. Uses a text input component to let users enter a postcode. 
-2. Users then click a call-to-action (CTA) button to ‘Find address’. 
-3. The submitted postcode is shown with a link to change it alongside a list of matching addresses in a dropdown list. 
-4. Users can select an address and proceed with the form or the rest of the page’s content.
-5. A link labelled ‘Or type in your full address’ allows users to alternatively enter an address manually. 
+When using an address lookup you should:
 
-Users:
+- make it clear that it will only work for the country or area where you offer your service, for example UK-only addresses
+- let users enter postcodes in upper or lower case, and with or without spaces
 
-- must enter a valid postcode format before the search can run, which may include:
-  - spaces 
-  - lower or upper case letters
-- can choose to alternatively [enter an address manually](#manual-address-entry) so they can submit a non-registered address
 
-The address lookup must also:
 
-- validate the postcode field 
-- allow a maximum of 8 characters in the postcode field (UK postcodes can be from 6 to 8 characters including spaces)
-- not show looked up postcodes in the URL
-- state clearly that the search will only work for UK addresses
-- specify clearly if it can only look up Scottish addresses 
 
-<hr>
+#### Unsuccessful searches
 
-#### Displaying errors
-
-An error message should be shown when:
+An error message should show when:
 
 - an incorrect or invalid postcode is entered
-- the lookup is submitted with an empty postcode
+- the user submits the address lookup with an empty postcode
 
 {% include example-frame.html title="Address lookup example with error message" name="lookup-error" %}
 
-<hr>
+When no matching addresses are found, you should explain what has happened and help the user understand what to do next.
 
-#### Providing additional feedback
-
-Suitable feedback should be shown when a valid format of postcode is submitted but no matching addresses are found. For example, the postcode may be:
-
-- not currently assigned to an address
-- assigned to an address that is not in the scope of the lookup service, such as submitting a residential address to a business address lookup
-
-{% include example-frame.html title="Address lookup example with feedback message" name="lookup-feedback" %}
 
 
 
 ### Manual address entry
 
-When the address is not listed or users want to enter an address manually, give them an ‘Or type in your full address’ link option. 
-
-Manual address entry uses multiple text inputs which means:
-
-- you can easily extract and use specific parts of an address
-- you can give help for individual text inputs
-- you can validate each part of the address separately
-- users can complete the form using their browser’s autocomplete function
-
-The disadvantages of using multiple text inputs are that:
-
-- it’s hard to find a single format that works for all addresses
-- there’s no guarantee that users will use the text inputs the way you think they will
-- users cannot easily paste addresses from their clipboards
-
 {% include example-frame.html title="Manual address example using multiple text inputs" name="manual" %}
 
-#### How manual address entry works
+Using multiple text inputs instead of a single text area means:
 
-If you use multiple text inputs, you should:
+- users can complete the form quickly using their browser's autocomplete function
+- you can show hint text to help users complete individul fields
+- you can validate address data and process it more easily
 
-- only make individual text inputs mandatory if you really need the information
-- make the text inputs the appropriate length for the content – it helps people understand the form, for example, make postcode text inputs shorter than street text inputs
-- let users enter postcodes in different formats
-- make sure there are enough text inputs to accommodate longer addresses if you know your users will need them. For example, allow users to include a company name or flat number.
+When using multiple text inputs, you should:
 
-Royal Mail does not need a county as long as the town and postcode are included. You should include an optional county text input so that people who do not know their postcode can give a valid address.
+- only make fields mandatory if you really need the information
+- make text inputs an appropriate size for the expected content length
+- let users enter postcodes in upper or lower case, and with or without spaces
+- give users a way to return to the address lookup
+
+
 
 
 ### Use autocomplete on address fields
 
-It is best practice to use the `autocomplete` attribute on the postcode search and manual address input fields. This lets the browser autofill information on the user's behalf if it has been entered previously. 
+It is best practice to use the `autocomplete` attribute on the postcode search and manual address input fields. This lets the user's browser autofill information on the user's behalf if it has been entered previously. 
 
 Allowing autocomplete is beneficial because it:
 
@@ -128,22 +103,32 @@ Allowing autocomplete is beneficial because it:
 - reduces the risk of typos
 
 
-### Asking for addresses later on in the application
 
-If you have already collected the user’s address, but need it again in a later part of the form, you should populate the form with the previously provided address.
+
+## Why we use this pattern
+
+An address lookup makes it easier for users to provide an address. Use an address lookuip when you need a user's address to deliver them your service.
+
+Our design is based on guidance in the [GOV.UK Design System](https://design-system.service.gov.uk/patterns/addresses/).
+
+
+
 
 ## Evidence
 
 Existing pages with address lookups seem to perform well with high user satisfaction.
 
-An address lookup was developed for users to find out which Covid protection level applied to where they lived. This page is no longer live on gov.scot. During the period that it was live: 
+There was an address lookup on gov.scot for citizens to find out which Covid protection level applied to where they lived. During the period that it was live: 
 
 - Only 22.5% of users bounced. Of the remainder, 90% of users who loaded the Covid lookup completed the address lookup form. Some users used the lookup tool more than once in a session.
 - 96% of users on the Covid lookup gave positive feedback (site average is 75% positive).
 - 17% of users received an error for an incorrect postcode on the Covid lookup
 
+
+
+
 ### Website analytics
 
-Content of this form element would not be routinely tracked through website analytics. This is due to the risk of gathering personally identifiable information. As per the tracking script, interaction with the element would be tracked, provided that each field has a unique data attribute, input name, and identifiable class.
+Content of this form element should not be routinely tracked through website analytics. This is due to the risk of gathering personally identifiable information. As per the tracking script, interaction with the element would be tracked, provided that each field has a unique data attribute, input name, and identifiable class.
 
-[Find out more information on tracking](/get-started/tracking).
+See [our page on tracking](/get-started/tracking) for more information.
