@@ -80,7 +80,7 @@ When no matching addresses are found, you should explain what has happened and h
 Using multiple text inputs instead of a single text area means:
 
 - users can complete the form quickly using their browser's autocomplete function
-- you can show hint text to help users complete individul fields
+- you can show hint text to help users complete individual fields
 - you can validate address data and process it more easily
 
 When using multiple text inputs, you should:
