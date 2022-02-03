@@ -541,8 +541,6 @@ Links in skip links components get a `data-navigation` attribute whose value use
 </div>
 {% endhighlight %}
 
-The mobile navigation's toggle button is given a `data-header` attribute of `header-menu-toggle`.
-
 ### Text input
 
 <div class="ds_warning-text">
