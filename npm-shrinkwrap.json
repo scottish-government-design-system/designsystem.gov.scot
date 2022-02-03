@@ -791,9 +791,9 @@
       }
     },
     "@scottish-government/pattern-library": {
-      "version": "0.0.221",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@scottish-government/pattern-library/-/pattern-library-0.0.221.tgz",
-      "integrity": "sha512-RcX1SJnOylRjJiW4qNC7J6DlJOqH0n5070vVNZa2C6cBxsse9Gb6BROSmDawMQcowOQr+/c1lXEJh9FmjmOAqg==",
+      "version": "0.0.222",
+      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@scottish-government/pattern-library/-/pattern-library-0.0.222.tgz",
+      "integrity": "sha512-QmzdbGB/2JGk8IV5AVnNLCUe8sJQtV8rgkPVIQx7zQhnM3C+aU12zVEoARkjzsp+6YUgYa2Y2KJjIaNVnnN5dg==",
       "dev": true,
       "dependencies": {
         "@babel/cli": {
@@ -2905,7 +2905,6 @@
           "requires": {
             "anymatch": "~3.1.1",
             "braces": "~3.0.2",
-            "fsevents": "~2.3.1",
             "glob-parent": "~5.1.0",
             "is-binary-path": "~2.1.0",
             "is-glob": "~4.0.1",
@@ -11797,6 +11796,7 @@
       "version": "2.3.2",
       "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz",
       "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+      "dev": true,
       "optional": true
     },
     "function-bind": {

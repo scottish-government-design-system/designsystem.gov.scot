@@ -203,6 +203,11 @@ tracking.add.accordions(document.getElementById('my-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#skip-links">
+                Skip links
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#text-input">
                 Text input
             </a>
@@ -520,6 +525,20 @@ Links in site navigation components get a `data-header` attribute whose value us
 
 {% highlight html %}
 <a href="/patterns/" class="ds_site-navigation__link" data-device="desktop" data-header="header-link-4">Patterns</a>
+{% endhighlight %}
+
+The mobile navigation's toggle button is given a `data-header` attribute of `header-menu-toggle`.
+
+### Skip links
+
+Links in skip links components get a `data-navigation` attribute whose value uses the pattern `skip-link-[index]` where the index is one-based. 
+
+{% highlight html %}
+<div class="ds_skip-links">
+    <ul class="ds_skip-links__list">
+        <li class="ds_skip-links__item"><a class="ds_skip-links__link" href="#main-content" data-navigation="skip-link-1">Skip to main content</a></li>
+    </ul>
+</div>
 {% endhighlight %}
 
 The mobile navigation's toggle button is given a `data-header` attribute of `header-menu-toggle`.
