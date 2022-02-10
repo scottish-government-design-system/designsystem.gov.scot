@@ -48,9 +48,13 @@ example__accordion-body--code figure {
 
     display: inline-block;
     font-size: $small-size;
+    line-height: calc(24/#{strip-unit($small-size)});
     padding: 4px 16px;
     position: absolute;
-    text-decoration: none;
+
+    @include ds_media-query(medium) {
+        line-height: calc(32/#{strip-unit($small-size)});
+    }
 }
 
 .example__accordion {

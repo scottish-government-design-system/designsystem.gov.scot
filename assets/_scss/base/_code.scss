@@ -3,12 +3,19 @@ pre {
 }
 
 code {
+    @include ds_small-size;
+
     background-color: $ds_colour__grey--lighter !important;
-    @include small-size;
+    line-height: line-height-on-grid($small-size);
+
+    @include media-query(medium) {
+        line-height: line-height-on-grid($small-size--medium, 2);
+    }
 }
 
 pre > code {
     display: block;
+    line-height: 2;
     padding: 4px 8px;
 }
 

@@ -51,6 +51,7 @@
 
     &__media-caption {
         @include small-size;
+        line-height: 2;
         margin: 8px 0;
 
         > .ds_icon {

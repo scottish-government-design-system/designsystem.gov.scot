@@ -249,8 +249,6 @@ Good colour contrast uses a dark colour on a light background, or a light colour
 
 <style>
 
-code {font-size: 0.85rem;}
-
 .dss_palette {
     font-size: 0.85rem;
     table-layout: initial;

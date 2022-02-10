@@ -1,5 +1,6 @@
 figure {
-    @include block-margins;
+    @include ds_responsive-margin(4, top, false, -1px);
+    @include ds_responsive-margin(4, bottom, false, -1px);
 
     border: 1px solid $ds_colour__border;
 
