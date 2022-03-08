@@ -28,6 +28,12 @@ style: '.example-frame__content {padding: 28px 0 0 0;}'
                 <p>All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except for graphic assets and where otherwise stated</p>
                 <p>&copy; Crown Copyright</p>
             </div>
+
+            <div class="ds_site-footer__org">
+                <a class="ds_site-footer__org-link" title="The Scottish Government" href="http://www.gov.scot/">
+                    <img class="ds_site-footer__org-logo" src="/assets/images/logos/scottish-government--min.svg" alt="gov.scot" loading="lazy" width="300" height="55"/>
+                </a>
+            </div>
         </div>
     </div>
 </footer>
