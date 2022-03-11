@@ -80,4 +80,4 @@ The scale is flexible. You can select units for spacing based on any particular 
 
 ## Spacing rules
 
-We’re working on guidance to standardise spacing for components often used together. For example form fields. We’ll add this to the Design System.
+We’re working on guidance to standardise spacing for components often used together, such as form fields. We’ll add this to the Design System when it's available.
