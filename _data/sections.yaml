@@ -31,6 +31,8 @@ styles:
       url: /styles/layout/
     - title:  Page template
       url: /styles/page-template/
+    - title: Responsive spacing
+      url: /styles/responsive-spacing/
     - title: Spacing
       url: /styles/spacing/
     - title: Typography

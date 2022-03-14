@@ -6,7 +6,7 @@ index: 0
 style: '.example-frame__content {padding: 28px 0 0 0;}'
 ---
 
-<footer class="ds_site-footer  ds_reversed">
+<footer class="ds_site-footer">
     <div class="ds_wrapper">
         <div class="ds_site-footer__content">
             <ul class="ds_site-footer__site-items">
@@ -31,7 +31,7 @@ style: '.example-frame__content {padding: 28px 0 0 0;}'
 
             <div class="ds_site-footer__org">
                 <a class="ds_site-footer__org-link" title="The Scottish Government" href="http://www.gov.scot/">
-                    <img class="ds_site-footer__org-logo" src="/assets/images/logos/scottish-government.svg" alt="gov.scot" />
+                    <img class="ds_site-footer__org-logo" src="/assets/images/logos/scottish-government--min.svg" alt="gov.scot" loading="lazy" width="300" height="55"/>
                 </a>
             </div>
         </div>

@@ -791,9 +791,9 @@
       }
     },
     "@scottish-government/pattern-library": {
-      "version": "0.0.224",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@scottish-government/pattern-library/-/pattern-library-0.0.224.tgz",
-      "integrity": "sha512-bqm467dahrz9GTv0P3hA+go8uBQ5M/KeK2ypljxPBTSxscpf+OxdT6+S9d3FcvYMfFxfmk9Mx7Q4K4DXJ8U39w==",
+      "version": "0.0.231",
+      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@scottish-government/pattern-library/-/pattern-library-0.0.231.tgz",
+      "integrity": "sha512-DQ011kGfpF1zFI0chZC6kvhmKwWbeu0BJwEUFzebAsjB/OPnI3o2YAOPQmGb4SCvxXBIFIwW2N6obn+FUS5dcQ==",
       "dev": true,
       "requires": {
         "@babel/runtime": "^7.14.0"
