@@ -3,17 +3,15 @@ layout: example
 parent: pattern.search-results
 type: example
 index: 0
-note: This example has been truncated to three search results to conserve space.
+note: This example has been truncated to seven search results to conserve space.
 ---
 
 <div class="ds_search-results">
 <div class="ds_site-search">
     <form role="search" class="ds_site-search__form">
         <label class="ds_label  visually-hidden" for="site-search">Search</label>
-
         <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
             <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" value="crofting" placeholder="Search" autocomplete="off">
-
             <button type="submit" class="ds_button  js-site-search-button">
                 <span class="visually-hidden">Search</span>
                 <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
@@ -22,11 +20,11 @@ note: This example has been truncated to three search results to conserve space.
     </form>
 </div>
 
-    <h2 class="ds_search-results__title"><span class="ds_search-results__title-count">87</span> results for <span class="ds_search-results__title-query">crofting</span></h2>
-    <ol class="ds_search-results__list">
+<h2 class="ds_search-results__title"><span class="ds_search-results__title-count">87</span> results for <span class="ds_search-results__title-query">crofting</span></h2>
+    <ol class="ds_search-results__list" data-total="87">
         <li class="ds_search-result">
             <h3 class="ds_search-result__title">
-                <a href="#">Crofting community right to buy</a>
+                <a class="ds_search-result__link" href="#">Crofting community right to buy</a>
             </h3>
             <p class="ds_search-result__summary">Information and guidance regarding the <mark>crofting</mark> community right to buy.</p>
             <dl class="ds_metadata ds_search-result__metadata  ds_metadata--inline">
@@ -38,7 +36,7 @@ note: This example has been truncated to three search results to conserve space.
         </li>
         <li class="ds_search-result">
             <h3 class="ds_search-result__title">
-                <a href="#">Crofting consultation 2017</a>
+                <a class="ds_search-result__link" href="#">Crofting consultation 2017</a>
             </h3>
             <p class="ds_search-result__summary">We are seeking the views of crofters, and those with an interest, on the pathway of any potential new legislation to reform <mark>crofting</mark> law.</p>
             <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
@@ -54,7 +52,7 @@ note: This example has been truncated to three search results to conserve space.
         </li>
         <li class="ds_search-result">
             <h3 class="ds_search-result__title">
-                <a href="#">Crofting Elections 2017: consultation responses analysis</a>
+                <a class="ds_search-result__link" href="#">Crofting Elections 2017: consultation responses analysis</a>
             </h3>
             <p class="ds_search-result__summary">Analysis of the responses to the <mark>Crofting</mark> Elections 2017 consultation.</p>
             <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
@@ -70,7 +68,7 @@ note: This example has been truncated to three search results to conserve space.
         </li>
         <li class="ds_search-result">
             <h3 class="ds_search-result__title">
-                <a href="#">Crofting Commision</a>
+                <a class="ds_search-result__link" href="#">Crofting Commision</a>
             </h3>
             <p class="ds_search-result__summary">Elections regulations put before parliament.</p>
             <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
@@ -90,7 +88,7 @@ note: This example has been truncated to three search results to conserve space.
         </li>
         <li class="ds_search-result">
             <h3 class="ds_search-result__title">
-                <a href="#">Proposals on secondary legislation the Land Reform (Scotland) Act 2003 part three: crofting community right to buy as amended by the Community Empowerment (Scotland) Act 2015: consultation</a>
+                <a class="ds_search-result__link" href="#">Proposals on secondary legislation the Land Reform (Scotland) Act 2003 part three: crofting community right to buy as amended by the Community Empowerment (Scotland) Act 2015: consultation</a>
             </h3>
             <p class="ds_search-result__summary">Consultation relating to secondary legislation for the Land Reform (Scotland) Act 2003 part three, crofting community right to buy as amended by the Community ...</p>
             <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
@@ -110,13 +108,24 @@ note: This example has been truncated to three search results to conserve space.
         </li>
         <li class="ds_search-result">
             <h3 class="ds_search-result__title">
-                <a href="#">Cabinet Secretary for Rural Affairs and Islands</a>
+                <a class="ds_search-result__link" href="#">Cabinet Secretary for Rural Affairs and Islands</a>
             </h3>
             <div class="ds_search-result__has-media">
                 <div class="ds_search-result__media-wrapper">
                     <div class="ds_search-result__media  ds_aspect-box  ds_aspect-box--square">
-                        <a href="#" tabindex="-1">
-                            <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/placeholders/thistles.jpg" width="656" height="369" />
+                        <a class="ds_search-result__media-link" href="#" tabindex="-1">
+                            <img alt="" aria-hidden="true" class="ds_aspect-box__inner" 
+                                srcset="/assets/images/people/example-image-person-96x96.png 96w,
+                                        /assets/images/people/example-image-person-96x96-x2.png 192w,
+                                        /assets/images/people/example-image-person-128x128.png 128w,
+                                        /assets/images/people/example-image-person-128x128-x2.png 256w,
+                                        /assets/images/people/example-image-person-160x160.png 160w,
+                                        /assets/images/people/example-image-person-160x160-x2.png 320w"
+                                sizes="(min-width: 1200px) 160px,
+                                       (min-width: 992px) 128px,
+                                       96px"
+                                src="/assets/images/people/example-image-person-96x96.png"
+                                loading="lazy" />
                         </a>
                     </div>
                 </div>
@@ -128,7 +137,7 @@ note: This example has been truncated to three search results to conserve space.
         </li>
         <li class="ds_search-result">
             <h3 class="ds_search-result__title">
-                <a href="#">Section 1 - Introduction</a>
+                <a class="ds_search-result__link" href="#">Section 1 - Introduction</a>
             </h3>
             <p class="ds_search-result__summary">We are seeking the views of crofters, and those with an interest, on the pathway of any potential new legislation to reform <mark>crofting</mark> law.</p>
             <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
