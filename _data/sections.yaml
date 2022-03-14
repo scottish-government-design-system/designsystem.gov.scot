@@ -101,6 +101,9 @@ components:
       url: /components/phase-banner/
     - title: Radio buttons
       url: /components/radio-buttons/
+    - title: Search result
+      url: /components/search-result/
+      draft: true
     - title: Select
       url: /components/select/
     - title: Sequential navigation

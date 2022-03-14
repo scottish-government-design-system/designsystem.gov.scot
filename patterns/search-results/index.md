@@ -13,25 +13,38 @@ summary: "A list displaying all the search results found after a user has made a
 
 ## About this pattern
 
-This pattern includes the search results page, the ability to display multiple pages of search results and to navigate between pages.
+This pattern includes the search results page, the ability to display multiple pages of search results and to navigate between these pages.
 
 Within the pattern:
 
-- users can choose the page they want by picking a page number at the bottom of a search result page, starting at page 1
+- search results may contain a combination of search result layout types
+- users can choose the page they want by picking a page number at the bottom of a search results page, starting at page 1
 - each individual page number contains 10 search results
 - the page number the user is on is always highlighted
-
-A maximum number of 7 page numbers are shown at the bottom of a page of search results, but the user can select pages outwith these 7 by choosing the '…' (ellipsis) symbol.
-
-An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right. The current page number always appears in the URL, for example `https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2`
-
-On a mobile, a 'Load more' button is shown instead of a list of page numbers.
+- any links to related search terms may appear at the end
 
 ### When there are no results found
 
 If a user has searched for something and there are no results to display, give the user some hints for how to improve their search.
 
 {% include example-frame.html title="Search results example with no results" name="no-results" %}
+
+### When the search term may be misspelled
+
+If a user has searched for something that is identified as a potential misspelling, give the user the option to perform the search again with the suggested correct spelling.
+
+{% include example-frame.html title="Search results example with spelling suggestion" name="spelling-suggestion" %}
+
+### When additional results are promoted
+
+Specific results can be placed at the top of the search results and labelled to show that they are distinct from the others.
+
+Promoted results do not count towards the total number of results.
+
+If search results span multiple pages then promoted results should only appear on page one.
+
+{% include example-frame.html title="Search results example with promoted results" name="promoted" %}
+
 
 ## Components related to this
 
@@ -50,6 +63,10 @@ Search results should be tracked in order to understand if internal search engin
 Clicks to the suggested terms in the 'did you mean...' content are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute.
 
 Pagination is tracked using the data attribute with the number of the results page clicked.
+
+Promoted results are tracked using the page URL, the click text, click URL and a data attribute showing the result's position in the list of promoted results.
+
+Suggested related search terms are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute.
 
 The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking).
 
