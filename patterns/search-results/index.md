@@ -21,21 +21,23 @@ Within the pattern:
 - each individual page number contains 10 search results
 - the page number the user is on is always highlighted
 
-A maximum number of 7 page numbers are shown at the bottom of a page of search results, but the user can select pages outwith these 7 by choosing the '…' (ellipsis) symbol.
-
-An option to select ‘previous’ page appears to the left of the 7 numbers and an option to select ‘next’ page on the right. The current page number always appears in the URL, for example `https://www.mygov.scot/search/?q=brexit&cat=sitesearch&page=2`
-
-On a mobile, a 'Load more' button is shown instead of a list of page numbers.
-
 ### When there are no results found
 
 If a user has searched for something and there are no results to display, give the user some hints for how to improve their search.
 
 {% include example-frame.html title="Search results example with no results" name="no-results" %}
 
+### When the search term may be misspelled
+
+If a user has searched for something that is identified as a potential misspelling, give the user the option to perform the search again with the suggested correct spelling.
+
+{% include example-frame.html title="Search results example with spelling suggestion" name="spelling-suggestion" %}
+
 ## Components related to this
 
 [Site search](/components/site-search/)
+
+[Pagination](/components/pagination/)
 
 ## Why we use this pattern
 
