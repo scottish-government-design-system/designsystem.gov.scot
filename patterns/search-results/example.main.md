@@ -7,7 +7,6 @@ note: This example has been truncated to three search results to conserve space.
 ---
 
 <div class="ds_search-results">
-
 <div class="ds_site-search">
     <form role="search" class="ds_site-search__form">
         <label class="ds_label  visually-hidden" for="site-search">Search</label>
@@ -23,126 +22,186 @@ note: This example has been truncated to three search results to conserve space.
     </form>
 </div>
 
-<nav id="suggestions" class="ds_search-suggestions" aria-label="Alternative search suggestions">
-    <span aria-hidden="true">Did you mean:</span>
-
-    <ul>
-        <li>
-            <a aria-label="Did you mean 'crafting'?" href="#">crafting</a>
-        </li>
-    </ul>
-</nav>
-
-<section id="search-results" class="ds_search-results">
-
-    <h2 class="visually-hidden">Search results</h2>
-
-    <p class="ds_search-results__count js-search-results-count"><b>68</b> results</p>
-
-    <ol id="search-results-list" class="ds_search-results__list" data-total="68">
+    <h2 class="ds_search-results__title"><span class="ds_search-results__title-count">87</span> results for <span class="ds_search-results__title-query">crofting</span></h2>
+    <ol class="ds_search-results__list">
         <li class="ds_search-result">
-            <header class="ds_search-result__header">
-                <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
-                    <span class="ds_metadata__item">
-                        <dt class="ds_metadata__key  visually-hidden">Type</dt>
-                        <dd class="ds_metadata__value  ds_content-label">Policy</dd>
-                    </span>
-                </dl>
-
-                <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" href="#">Crofting community right to buy</a>
-                </h2>
-            </header>
-
-            <p class="ds_search-result__summary">Information and guidance regarding the crofting community right to buy.</p>
+            <h3 class="ds_search-result__title">
+                <a href="#">Crofting community right to buy</a>
+            </h3>
+            <p class="ds_search-result__summary">Information and guidance regarding the <mark>crofting</mark> community right to buy.</p>
+            <dl class="ds_metadata ds_search-result__metadata  ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Format</dt>
+                    <dd class="ds_metadata__value">Policy</dd>
+                </div>
+            </dl>
         </li>
-
         <li class="ds_search-result">
-            <header class="ds_search-result__header">
-                <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
-                    <span class="ds_metadata__item">
-                        <dt class="ds_metadata__key  visually-hidden">Type</dt>
-                        <dd class="ds_metadata__value  ds_content-label">Consultation paper</dd>
-                    </span>
-
-                    <span class="ds_metadata__item">
-                        <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
-                        <dd class="ds_metadata__value">28 Aug 2017</dd>
-                    </span>
-                </dl>
-
-                <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" href="#">Crofting consultation 2017</a>
-                </h2>
-            </header>
-
-            <p class="ds_search-result__summary">We are seeking the views of crofters, and those with an interest, on the pathway of any potential new legislation to reform crofting law.</p>
+            <h3 class="ds_search-result__title">
+                <a href="#">Crofting consultation 2017</a>
+            </h3>
+            <p class="ds_search-result__summary">We are seeking the views of crofters, and those with an interest, on the pathway of any potential new legislation to reform <mark>crofting</mark> law.</p>
+            <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Format</dt>
+                    <dd class="ds_metadata__value">Publication - Consultation paper</dd>
+                </div>
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Date</dt>
+                    <dd class="ds_metadata__value">28 Aug 2017</dd>
+                </div>
+            </dl>
         </li>
-
         <li class="ds_search-result">
-            <header class="ds_search-result__header">
-                <dl class="ds_search-result__metadata  ds_metadata  ds_metadata--inline">
-                    <span class="ds_metadata__item">
-                        <dt class="ds_metadata__key  visually-hidden">Type</dt>
-                        <dd class="ds_metadata__value  ds_content-label">Consultation analysis</dd>
-                    </span>
-
-                    <span class="ds_metadata__item">
-                        <dt class="ds_metadata__key  visually-hidden">Publication date</dt>
-                        <dd class="ds_metadata__value"><time datetime="2016-09-01">01 Sep 2016</time></dd>
-                    </span>
-                </dl>
-
-                <h2 class="gamma  ds_search-result__title">
-                    <a class="ds_search-result__link" href="#">Crofting Elections 2017: consultation responses analysis</a>
-                </h2>
-            </header>
-
-            <p class="ds_search-result__summary">Analysis of the responses to the Crofting Elections 2017 consultation.</p>
+            <h3 class="ds_search-result__title">
+                <a href="#">Crofting Elections 2017: consultation responses analysis</a>
+            </h3>
+            <p class="ds_search-result__summary">Analysis of the responses to the <mark>Crofting</mark> Elections 2017 consultation.</p>
+            <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Format</dt>
+                    <dd class="ds_metadata__value">Publication - Consultation analysis</dd>
+                </div>
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Date</dt>
+                    <dd class="ds_metadata__value">1 September 2017</dd>
+                </div>
+            </dl>
+        </li>
+        <li class="ds_search-result">
+            <h3 class="ds_search-result__title">
+                <a href="#">Crofting Commision</a>
+            </h3>
+            <p class="ds_search-result__summary">Elections regulations put before parliament.</p>
+            <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Format</dt>
+                    <dd class="ds_metadata__value">News</dd>
+                </div>
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Date</dt>
+                    <dd class="ds_metadata__value">25 October 2016</dd>
+                </div>
+            </dl>
+            <dl class="ds_search-result__context">
+                <dt class="ds_search-result__context-key">Part of:</dt>
+                <dd class="ds_search-result__context-value"><a href="#">Equality and rights</a></dd>
+            </dl>
+        </li>
+        <li class="ds_search-result">
+            <h3 class="ds_search-result__title">
+                <a href="#">Proposals on secondary legislation the Land Reform (Scotland) Act 2003 part three: crofting community right to buy as amended by the Community Empowerment (Scotland) Act 2015: consultation</a>
+            </h3>
+            <p class="ds_search-result__summary">Consultation relating to secondary legislation for the Land Reform (Scotland) Act 2003 part three, crofting community right to buy as amended by the Community ...</p>
+            <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Format</dt>
+                    <dd class="ds_metadata__value">Publicaiton - Research and Analysis</dd>
+                </div>
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Date</dt>
+                    <dd class="ds_metadata__value">1 September 2016</dd>
+                </div>
+            </dl>
+            <dl class="ds_search-result__context">
+                <dt class="ds_search-result__context-key">Part of:</dt>
+                <dd class="ds_search-result__context-value"><a href="#">Farming and rural</a></dd>
+            </dl>
+        </li>
+        <li class="ds_search-result">
+            <h3 class="ds_search-result__title">
+                <a href="#">Cabinet Secretary for Rural Affairs and Islands</a>
+            </h3>
+            <div class="ds_search-result__has-media">
+                <div class="ds_search-result__media-wrapper">
+                    <div class="ds_search-result__media  ds_aspect-box  ds_aspect-box--square">
+                        <a href="#" tabindex="-1">
+                            <img alt="" aria-hidden="true" class="ds_aspect-box__inner" src="/assets/images/placeholders/thistles.jpg" width="656" height="369" />
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="ds_search-result__sub-title">Incumbent&#39;s name</h4>
+                    <p class="ds_search-result__summary">The Cabinet Secretary is responsible for: cross-government co-ordination on islands, Islands Bond, carbon-neutral islands, <mark>crofting</mark> ...</p>
+                </div>
+            </div>
+        </li>
+        <li class="ds_search-result">
+            <h3 class="ds_search-result__title">
+                <a href="#">Section 1 - Introduction</a>
+            </h3>
+            <p class="ds_search-result__summary">We are seeking the views of crofters, and those with an interest, on the pathway of any potential new legislation to reform <mark>crofting</mark> law.</p>
+            <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Format</dt>
+                    <dd class="ds_metadata__value">Publication - Consultation paper</dd>
+                </div>
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key visually-hidden">Date</dt>
+                    <dd class="ds_metadata__value">28 Aug 2017</dd>
+                </div>
+            </dl>
+            <dl class="ds_search-result__context">
+                <dt class="ds_search-result__context-key">Part of:</dt>
+                <dd class="ds_search-result__context-value"><a href="#">Crofting consultation 2017</a></dd>
+            </dl>
         </li>
     </ol>
-
-    <nav class="ds_pagination" aria-label="Search pages">
-        <div class="ds_pagination__load-more">
-            <button class="ds_button">Load more</button>
-        </div>
-
+    <nav class="ds_pagination" aria-label="">
         <ul class="ds_pagination__list">
-            <li class="ds_pagination__item" aria-current="page">
-                <span class="ds_pagination__link  ds_current">1</span>
-            </li>
-
             <li class="ds_pagination__item">
-                <a href="#" class="ds_pagination__link">2</a>
+                <a class="ds_pagination__link  ds_pagination__link--text  ds_pagination__link--icon" href="#">
+                    <svg class="ds_icon" aria-hidden="true" role="img">
+                        <use xlink:href="/assets/images/icons/icons.stack.svg#chevron_left"></use>
+                    </svg>
+                    <span class="ds_pagination__link-label">Previous</span>
+                </a>
             </li>
-
             <li class="ds_pagination__item">
-                <a href="#" class="ds_pagination__link">3</a>
+                <a class="ds_pagination__link" href="#">
+                    <span class="ds_pagination__link-label">1</span>
+                </a>
             </li>
-
-            <li class="ds_pagination__item">
-                <a href="#" class="ds_pagination__link">4</a>
-            </li>
-
-            <li class="ds_pagination__item">
-                <a href="#" class="ds_pagination__link">5</a>
-            </li>
-
-            <li class="ds_pagination__item">
-                <a href="#" class="ds_pagination__link">6</a>
-            </li>
-
-            <li class="ds_pagination__item">
-                <a href="#" class="ds_pagination__link">7</a>
-            </li>
-
             <li class="ds_pagination__item" aria-hidden="true">
                 <span class="ds_pagination__link  ds_pagination__link--ellipsis">&hellip;</span>
             </li>
-
             <li class="ds_pagination__item">
-                <a href="#" class="ds_pagination__link  ds_pagination__link--text">Next</a>
+                <a class="ds_pagination__link" href="#">
+                    <span class="ds_pagination__link-label">13</span>
+                </a>
+            </li>
+            <li class="ds_pagination__item" aria-current="page">
+                <span class="ds_pagination__link  ds_current">14</span>
+            </li>
+            <li class="ds_pagination__item">
+                <a class="ds_pagination__link" href="#">
+                    <span class="ds_pagination__link-label">15</span>
+                </a>
+            </li>
+            <li class="ds_pagination__item" aria-hidden="true">
+                <span class="ds_pagination__link  ds_pagination__link--ellipsis">&hellip;</span>
+            </li>
+            <li class="ds_pagination__item">
+                <a class="ds_pagination__link" href="#">
+                    <span class="ds_pagination__link-label">27</span>
+                </a>
+            </li>
+            <li class="ds_pagination__item">
+                <a class="ds_pagination__link  ds_pagination__link--text  ds_pagination__link--icon" href="#">
+                    <span class="ds_pagination__link-label">Next</span>
+                    <svg class="ds_icon" aria-hidden="true" role="img">
+                        <use xlink:href="/assets/images/icons/icons.stack.svg#chevron_right"></use>
+                    </svg>
+                </a>
             </li>
         </ul>
     </nav>
-</section>
+    <aside class="ds_search-results__related" aria-labelledby="search-results__related-title">
+        <h2 id="search-results__related-title" class="ds_search-results__related-title">Related searches</h2>
+        <ul class="ds_no-bullets">
+            <li><a href="#">crofting law scotland</a></li>
+            <li><a href="#">crofting register</a></li>
+            <li><a href="#">crofting grants</a></li>
+        </ul>
+    </aside>
+</div>

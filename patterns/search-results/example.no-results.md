@@ -12,7 +12,7 @@ index: 0
         <label class="ds_label  visually-hidden" for="site-search">Search</label>
 
         <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
-            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" value="crifting" placeholder="Search" autocomplete="off">
+            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" value="xyzuhsdfhbjh" placeholder="Search" autocomplete="off">
 
             <button type="submit" class="ds_button  js-site-search-button">
                 <span class="visually-hidden">Search</span>
@@ -22,22 +22,9 @@ index: 0
     </form>
 </div>
 
-<nav id="suggestions" class="ds_search-suggestions" aria-label="Alternative search suggestions">
-    <span aria-hidden="true">Did you mean:</span>
+<section id="search-results" class="ds_search-results" aria-labelledby="search-results__heading">
 
-    <ul>
-        <li>
-            <a aria-label="Did you mean 'crafting'?" href="#">crafting</a>
-        </li>
-        <li>
-            <a aria-label="Did you mean 'crofting'?" href="#">crofting</a>
-        </li>
-    </ul>
-</nav>
-
-<section id="search-results" class="ds_search-results">
-
-    <h2 class="visually-hidden">Search results</h2>
+    <h2 class="visually-hidden" id="search-results__heading">Search results</h2>
 
     <div class="ds_no-search-results">
         <p><strong>There are no matching results.</strong></p>
