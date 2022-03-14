@@ -24,49 +24,71 @@ The scale is made up of  of 10 spacing units. Each unit has a specific size for 
 <table class="ds_table">
   <thead>
     <tr>
-      <th scope="col">Spacing unit</th>
-      <th scope="col">0</th>
-      <th scope="col">1</th>
-      <th scope="col">2</th>
-      <th scope="col">3</th>
-      <th scope="col">4</th>
-      <th scope="col">5</th>
-      <th scope="col">6</th>
-      <th scope="col">7</th>
-      <th scope="col">8</th>
-      <th scope="col">9</th>
+      <th>Spacing unit</th>
+      <th>Large screens</th>
+      <th>Small screens</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Large screens</td>
+      <td>0</td>
       <td>0px</td>
-      <td>8px</td>
-      <td>16px</td>
-      <td>24px</td>
-      <td>32px</td>
-      <td>40px</td>
-      <td>48px</td>
-      <td>56px</td>
-      <td>64px</td>
-      <td>72px</td>
+      <td>0px</td>
     </tr>
     <tr>
-      <td>Small screens</td>
-      <td>0px</td>
+      <td>1</td>
       <td>8px</td>
+      <td>8px</td>
+    </tr>
+    <tr>
+      <td>2</td>
       <td>16px</td>
+      <td>16px</td>
+    </tr>
+    <tr>
+      <td>3</td>
       <td>24px</td>
       <td>24px</td>
+    </tr>
+    <tr>
+      <td>4</td>
       <td>32px</td>
+      <td>24px</td>
+    </tr>
+    <tr>
+      <td>5</td>
       <td>40px</td>
-      <td>40px</td>
+      <td>32px</td>
+    </tr>
+    <tr>
+      <td>6</td>
       <td>48px</td>
+      <td>40px</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>56px</td>
+      <td>40px</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>64px</td>
+      <td>48px</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>72px</td>
       <td>56px</td>
     </tr>
   </tbody>
 </table>
 
+Example of spacing applied to Design System components
+
+<figure class="example__content">
+<img alt="A text input with overlaid measurements showing padding inside the text input and space between the text input and an adjacent button" src="/assets/images/spacing-infographic-2.png" loading="lazy">
+<figcaption>The space between text in an input box and between the input box and a button both measure 16 pixels</figcaption>
+</figure>
 
 ## Why we use this scale
 
