@@ -43,7 +43,40 @@ Axure RP is an application used to mock up wireframes and clickthrough prototype
 2. Get the Design System widget library  
     The library contains widgets for Design System components, design elements and patterns.
 
-[Download the Design System Axure library here](https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib)
+<div class="ds_file-info">
+    <div class="ds_file-info__thumbnail">
+        <a class="ds_file-info__thumbnail-link" aria-hidden="true" href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib">
+            <img class="ds_file-info__thumbnail-image  ds_file-info__thumbnail-image--generic" src="/assets/images/documents/axure.svg" alt="">
+        </a>
+    </div>
+
+    <div class="ds_file-info__content">
+        <h3 class="ds_file-info__title">
+            <a href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib">Design System Axure library</a>
+        </h3>
+
+        <div class="ds_file-info__details">
+            <dl class="ds_metadata  ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key  visually-hidden">File type</dt>
+                    <dd class="ds_metadata__value">Axure RP</dd>
+                </div>
+
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key  visually-hidden">File size</dt>
+                    <dd class="ds_metadata__value">1.04 MB</dd>
+                </div>
+            </dl>
+        </div>
+
+        <div>
+            <a href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib" class="ds_file-info__download  ds_button--secondary  ds_button  ds_button--small  ds_no-margin">
+                Download
+            </a>
+        </div>
+    </div>
+</div>
+
 
 Open Axure and click the 'Add Library +' icon at the top of the Libraries pane. Locate and select the **digitalscotlanddesignsystem_v1.0.rplib** file.
 
