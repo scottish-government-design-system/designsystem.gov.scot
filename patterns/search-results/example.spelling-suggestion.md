@@ -56,7 +56,7 @@ note: This example has been truncated to three search results to conserve space.
                 </div>
                 <div class="ds_metadata__item">
                     <dt class="ds_metadata__key visually-hidden">Date</dt>
-                    <dd class="ds_metadata__value">28 Aug 2017</dd>
+                    <dd class="ds_metadata__value">28 August 2017</dd>
                 </div>
             </dl>
         </li>

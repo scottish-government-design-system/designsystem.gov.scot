@@ -50,7 +50,7 @@ note: This example has been truncated to two promoted and three search results t
                     </div>
                     <div class="ds_metadata__item">
                         <dt class="ds_metadata__key visually-hidden">Date</dt>
-                        <dd class="ds_metadata__value">28 Aug 2017</dd>
+                        <dd class="ds_metadata__value">28 August 2017</dd>
                     </div>
                 </dl>
             </div>
@@ -99,7 +99,7 @@ note: This example has been truncated to two promoted and three search results t
             <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
                 <div class="ds_metadata__item">
                     <dt class="ds_metadata__key visually-hidden">Format</dt>
-                    <dd class="ds_metadata__value">Publicaiton - Research and Analysis</dd>
+                    <dd class="ds_metadata__value">Publication - Research and Analysis</dd>
                 </div>
                 <div class="ds_metadata__item">
                     <dt class="ds_metadata__key visually-hidden">Date</dt>
