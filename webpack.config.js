@@ -17,7 +17,7 @@ const commonEntries = {
 };
 
 module.exports = [{
-  mode: 'development',
+  mode: 'production',
 
   entry: commonEntries,
 
