@@ -12,7 +12,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700&display=swap" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <link rel="canonical" href="http://0.0.0.0:4000/components/accordion/">
 
@@ -114,6 +114,7 @@
 
     <div class="ds_site-header__top">
         <div class="ds_wrapper">
+
             <div class="ds_site-header__content">
                 <div class="ds_site-branding">
                     <a class="ds_site-branding__logo  ds_site-branding__link" href="/">
@@ -181,19 +182,38 @@
                     </ul>
                 </nav>
 
-                <div class="ds_site-search  ds_site-header__search" data-module="ds-site-search">
-                    <form role="search" class="ds_site-search__form">
-                        <label class="ds_label  visually-hidden" for="site-search">Search</label>
+                <div class="ds_site-search  ds_site-header__search">
+                    <div class="ds_site-search  ds_autocomplete" id="site-search-autocomplete">
+                        <form role="search" class="ds_site-search__form" method="GET" action="/path/to/search/">
+                            <label class="ds_label  visually-hidden" for="site-search" id="site-search-label">Search</label>
 
-                        <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
-                            <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off" />
+                            <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+                                <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    aria-owns="autocomplete-suggestions"
+                                    autocomplete="off"
+                                    class="ds_input  ds_site-search__input  js-autocomplete-input"
+                                    haspopup="true"
+                                    id="site-search"
+                                    name="q"
+                                    placeholder="Search"
+                                    required=""
+                                    type="search"
+                                />
+                                <input name="cat" value="sitesearch" hidden>
 
-                            <button type="submit" class="ds_button  js-site-search-button">
-                                <span class="visually-hidden">Search</span>
-                                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
-                            </button>
-                        </div>
-                    </form>
+                                <button type="submit" class="ds_button">
+                                    <span class="visually-hidden">Search gov.scot</span>
+                                    <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/path/to/icons.svg#search"></use></svg>
+                                </button>
+
+                                <div id="autocomplete-suggestions" class="ds_autocomplete__suggestions">
+                                    <ol class="ds_autocomplete__suggestions-list" role="listbox" aria-labelledby="site-search-label"></ol>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -976,7 +996,7 @@ newMenuButton.addEventListener('click', function (event) {
 
 
     <div class="ds_page__bottom">
-        <footer class="ds_site-footer  ds_reversed">
+        <footer class="ds_site-footer">
     <div class="ds_wrapper">
         <div class="ds_site-footer__content">
             <ul class="ds_site-footer__site-items">
@@ -1026,16 +1046,41 @@ window.ds_patterns.breakpoint = function(size) {
 
 
 <!-- Browsers with ES module support load these files -->
-<script type="module" src="/assets/scripts/dist/pattern-library.js?1620139959"></script>
-<script type="module" src="/assets/scripts/dist/cookie.js?1620139959"></script>
+
+<script type="module" src="/assets/scripts/dist/autocomplete.js?1620139959"></script>
 
 <!-- Older browsers load these files -->
 <!-- (and module-supporting browsers know *not* to load these files) -->
-<script nomodule src="/assets/scripts/dist/pattern-library.es5.js?1620139959"></script>
-<script nomodule src="/assets/scripts/dist/cookie.es5.js?1620139959"></script>
+
+<script nomodule src="/assets/scripts/dist/autocomplete.es5.js?1620139959"></script>
 
     </div>
 </div>
+
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var searchElement = document.getElementById('site-search');
+            var autocomplete = new window.DS.components.Autocomplete(
+                document.querySelector('#site-search-autocomplete'),
+                '/experiments/autocomplete/dummy-data.json#',
+                {
+                    suggestionMappingFunction: function (suggestionsObj) {
+console.log(suggestionsObj)
+                        var responseObj = JSON.parse(suggestionsObj.response).map(suggestionsObj => ({
+                            key: '',
+                            displayText: suggestionsObj,
+                            weight: '',
+                            type: '',
+                            category: ''
+                        }));
+                        var filteredResults = responseObj.filter(item => (item.displayText.toLowerCase().indexOf(searchElement.value.toLowerCase()) > -1));
+
+                        return filteredResults.slice(0,6);
+                    }
+                });
+            autocomplete.init();
+        });
+</script>
 
 </body>
 </html>

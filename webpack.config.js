@@ -11,13 +11,13 @@ const commonEntries = {
     path.resolve(__dirname, 'assets/scripts/all.js'),
     path.resolve(__dirname, 'assets/scripts/ds-site.js')
   ],
-  'datepicker-demo': [
-    path.resolve(__dirname, 'assets/scripts/date-picker-only.js'),
+  'autocomplete': [
+    path.resolve(__dirname, 'assets/scripts/autocomplete-only.js'),
   ]
 };
 
 module.exports = [{
-  mode: 'production',
+  mode: 'development',
 
   entry: commonEntries,
 
