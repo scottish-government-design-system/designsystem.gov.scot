@@ -56,35 +56,35 @@ scripts:
             <dt class="visually-hidden">Social media</dt>
             <dd class="ds_contact-details__social-item">
                 <a class="ds_contact-details__social-link" href="#">
-                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#facebook"></use></svg>
+                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#facebook"></use></svg>
                     Facebook
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
                 <a class="ds_contact-details__social-link" href="#">
-                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#twitter"></use></svg>
+                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#twitter"></use></svg>
                     @scotgov
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
                 <a class="ds_contact-details__social-link" href="#">
-                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#flickr"></use></svg>
+                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#flickr"></use></svg>
                     Flickr
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
                 <a class="ds_contact-details__social-link" href="#">
-                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#youtube"></use></svg>
+                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#youtube"></use></svg>
                     YouTube
                 </a>
             </dd>
 
             <dd class="ds_contact-details__social-item">
                 <a class="ds_contact-details__social-link" href="#">
-                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#blog"></use></svg>
+                    <svg class="ds_contact-details__social-icon  ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#blog"></use></svg>
                     Blog
                 </a>
             </dd>

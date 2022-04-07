@@ -15,7 +15,7 @@ note: This example has been truncated to two promoted and three search results t
                     <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="search" value="crofting" placeholder="Search" autocomplete="off">
                     <button type="submit" class="ds_button  js-site-search-button">
                         <span class="visually-hidden">Search</span>
-                        <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+                        <svg class="ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                     </button>
                 </div>
             </form>

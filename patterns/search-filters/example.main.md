@@ -14,7 +14,7 @@ type: example
             <input class="ds_input" type="text" id="filter-term" />
             <button class="ds_button">
                 <span class="visually-hidden">Search</span>
-                <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+                <svg class="ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#search"></use></svg>
             </button>
         </div>
     </div>

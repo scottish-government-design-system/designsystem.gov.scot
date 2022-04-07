@@ -23,8 +23,8 @@ minheight: '427px'
             <div class="ds_site-header__controls">
                 <label aria-controls="mobile-navigation" class="ds_site-header__control  js-toggle-menu" for="menu">
                     <span class="ds_site-header__control-text">Menu</span>
-                    <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
-                    <svg class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#close"></use></svg>
+                    <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#menu"></use></svg>
+                    <svg class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#close"></use></svg>
                 </label>
             </div>
 
@@ -63,7 +63,7 @@ minheight: '427px'
 
                         <button type="submit" class="ds_button  js-site-search-button">
                             <span class="visually-hidden">Search</span>
-                            <svg class="ds_icon" aria-hidden="true" role="img"><use xlink:href="/assets/images/icons/icons.stack.svg#search"></use></svg>
+                            <svg class="ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#search"></use></svg>
                         </button>
                     </div>
                 </form>
