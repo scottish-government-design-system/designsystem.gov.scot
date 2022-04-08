@@ -12,7 +12,7 @@ note: This example has been truncated to three search results to conserve space.
             <form role="search" class="ds_site-search__form">
                 <label class="ds_label  visually-hidden" for="site-search">Search</label>
                 <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
-                    <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="search" value="crofting" placeholder="Search" autocomplete="off">
+                    <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="search" value="crfting" placeholder="Search" autocomplete="off">
                     <button type="submit" class="ds_button  js-site-search-button">
                         <span class="visually-hidden">Search</span>
                         <svg class="ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#search"></use></svg>
@@ -21,19 +21,12 @@ note: This example has been truncated to three search results to conserve space.
             </form>
         </div>
         <nav class="ds_search-suggestions" aria-label="Alternative search suggestions">
-            <span aria-hidden="true">Did you mean:</span>
-            <ul>
-                <li>
-                    <a aria-label="Did you mean 'crafting'?" href="#">crafting</a>
-                </li>
-                <li>
-                    <a aria-label="Did you mean 'crofts'?" href="#">crofts</a>
-                </li>
-            </ul>
+            <p>Also showing results for <a href="#">crofting</a><br>
+            Show results only for <a href="#">crfting</a></p>
         </nav>
     </div>
     <div class="ds_layout__content">
-        <h2 class="ds_search-results__title"><span class="ds_search-results__title-count">3</span> results for <span class="ds_search-results__title-query">crofting</span></h2>
+        <h2 class="ds_search-results__title"><span class="ds_search-results__title-count">3</span> results for <span class="ds_search-results__title-query">crfting</span> or <span class="ds_search-results__title-query">crofting</span></h2>
         <ol class="ds_search-results__list" data-total="3">
             <li class="ds_search-result">
                 <h3 class="ds_search-result__title">
