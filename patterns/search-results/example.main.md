@@ -91,7 +91,7 @@ note: This example has been truncated to seven search results to conserve space.
                 <h3 class="ds_search-result__title">
                     <a class="ds_search-result__link" href="#">Proposals on secondary legislation the Land Reform (Scotland) Act 2003 part three: crofting community right to buy as amended by the Community Empowerment (Scotland) Act 2015: consultation</a>
                 </h3>
-                <p class="ds_search-result__summary">Consultation relating to secondary legislation for the Land Reform (Scotland) Act 2003 part three, crofting community right to buy as amended by the Community ...</p>
+                <p class="ds_search-result__summary">Consultation relating to secondary legislation for the Land Reform (Scotland) Act 2003 part three, <mark>crofting</mark> community right to buy as amended by the Community ...</p>
                 <dl class="ds_metadata ds_search-result__metadata ds_metadata--inline">
                     <div class="ds_metadata__item">
                         <dt class="ds_metadata__key visually-hidden">Format</dt>

@@ -36,7 +36,9 @@ When a result is part of a wider group such as a publication with multiple pages
 
 ### Include an image
 
-Some results may benefit from including an image.
+Some results may benefit from including an image if this adds context to the result.
+
+Using placeholder images should be avoided. 
 
 {% include example-frame.html title="Search result with image" name="image" %}
 

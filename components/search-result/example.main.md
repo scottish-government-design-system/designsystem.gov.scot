@@ -8,7 +8,7 @@ index: 0
     <h3 class="ds_search-result__title">
         <a class="ds_search-result__link" href="#">Crofting community right to buy</a>
     </h3>
-    <p class="ds_search-result__summary">Information and guidance regarding the crofting community right to buy.</p>
+    <p class="ds_search-result__summary">Information and guidance regarding the <mark>crofting</mark> community right to buy.</p>
     <dl class="ds_metadata ds_search-result__metadata  ds_metadata--inline">
         <div class="ds_metadata__item">
             <dt class="ds_metadata__key visually-hidden">Format</dt>
