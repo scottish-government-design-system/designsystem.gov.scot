@@ -26,7 +26,7 @@ note: This example has been truncated to two promoted and three search results t
         <ol class="ds_search-results__list" data-total="5">
             <li class="ds_search-result  ds_search-result--promoted">
                 <div class="ds_search-result--promoted-content">
-                    <header class="ds_search-result--promoted-title">Recommended by gov.scot</header>
+                    <header class="ds_search-result--promoted-title">Recommended</header>
                     <h3 class="ds_search-result__title">
                         <a class="ds_search-result__link" href="#">Crofting community right to buy</a>
                     </h3>
@@ -41,7 +41,7 @@ note: This example has been truncated to two promoted and three search results t
             </li>
             <li class="ds_search-result  ds_search-result--promoted">
                 <div class="ds_search-result--promoted-content">
-                    <header class="ds_search-result--promoted-title">Recommended by gov.scot</header>
+                    <header class="ds_search-result--promoted-title">Recommended</header>
                     <h3 class="ds_search-result__title">
                         <a class="ds_search-result__link" href="#">Crofting consultation 2017</a>
                     </h3>
