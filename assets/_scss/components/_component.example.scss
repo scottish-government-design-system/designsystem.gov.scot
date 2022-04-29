@@ -43,18 +43,16 @@ example__accordion-body--code figure {
 
 .example__link {
     @include blocklink;
+    @include ds_small-size--fixed;
+    @include ds_responsive-padding(1, top);
+    @include ds_responsive-padding(1, bottom);
+    @include ds_responsive-padding(2, left);
+    @include ds_responsive-padding(2, right);
 
     background-color: $ds_colour__grey--lighter;
 
     display: inline-block;
-    font-size: $small-size;
-    line-height: calc(24/#{strip-unit($small-size)});
-    padding: 4px 16px;
     position: absolute;
-
-    @include ds_media-query(medium) {
-        line-height: calc(32/#{strip-unit($small-size)});
-    }
 }
 
 .example__accordion {

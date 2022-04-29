@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    #COLOUR PALETTE
+\*------------------------------------*/
+
+.dss_palette {
+    table-layout: initial;
+
+    &,
+    & tr {
+        border: 0;
+    }
+
+    & td {
+        padding-bottom: 24px;
+    }
+
+    &__name {
+        padding-left: 60px;
+        position: relative;
+        width: 50%;
+    }
+
+    &__variable {
+        width: 40%;
+    }
+
+    &__hex {
+        text-align: right;
+        width: 10%;
+    }
+
+    &__swatch {
+        position: absolute;
+        border-radius: 100%;
+        display: inline-block;
+        height: 40px;
+        left: 0;
+        margin: -4px 10px 0 0;
+        vertical-align: middle;
+        width: 40px;
+    }
+}

@@ -10,8 +10,10 @@ figure {
 }
 
 figcaption {
+    @include ds_small-size--fixed;
+    @include ds_responsive-padding(1, top);
+    @include ds_responsive-padding(1, bottom);
+    @include ds_responsive-padding(2, left);
+    @include ds_responsive-padding(2, right);
     background-color: $ds_colour__grey--lighter;
-    font-size: $small-size;
-    line-height: 24px;
-    padding: 8px 16px;
 }
