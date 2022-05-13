@@ -4,7 +4,7 @@ title:  "Responsive spacing"
 category: styles
 parent: styles
 thispage: style.resonsive-spacing
-summary: ""
+#summary: ""
 published: true
 ---
 
