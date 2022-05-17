@@ -16,7 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
-    "@scottish-government/pattern-library": "0.0.255",
+    "@scottish-government/pattern-library": "0.0.257",
     "babel-loader": "^8.2.4",
     "svg-sprite": "^1.5.4",
     "webpack": "^4.46.0",
