@@ -120,7 +120,6 @@ components:
       url: /components/table/
     - title: Tabs
       url: /components/tabs/
-      draft: true
     - title: Tag
       url: /components/tag/
     - title: Text input
