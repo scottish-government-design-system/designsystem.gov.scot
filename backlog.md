@@ -81,7 +81,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Cookie banner</td>
-            <td><a href="/components/cookie-banner/">Complete</a></td>
+            <td><a href="/components/cookie-banner/">Experimental</a></td>
         </tr>
         <tr>
             <td>Cookies page</td>
@@ -241,7 +241,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Tabs</td>
-            <td>In progress</td>
+            <td><a href="/components/tabs/">Experimental</a></td>
         </tr>
         <tr>
             <td>Tables - Complex (data sets)</td>
