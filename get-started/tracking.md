@@ -208,6 +208,11 @@ tracking.add.accordions(document.getElementById('my-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#tabs">
+                Tabs
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#text-input">
                 Text input
             </a>
@@ -539,6 +544,14 @@ Links in skip links components get a `data-navigation` attribute whose value use
         <li class="ds_skip-links__item"><a class="ds_skip-links__link" href="#main-content" data-navigation="skip-link-1">Skip to main content</a></li>
     </ul>
 </div>
+{% endhighlight %}
+
+### Tabs
+
+Tabs get a `data-navigation` attribute whose value uses the pattern `tab-link-[tabset index]-[tab index]` where the indexes are one-based.
+
+{% highlight html %}
+<a class="ds_tabs__tab-link" href="#tab2" role="tab" data-navigation="tab-link-1-2">Choosing apprenticeships</a>
 {% endhighlight %}
 
 ### Text input
