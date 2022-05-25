@@ -7,7 +7,7 @@ thispage: style.typography
 #summary: ""
 ---
 
-## Font 
+## Font
 
 We use the [Roboto](https://fonts.google.com/specimen/Roboto) font, which is a free open source font developed by Google for use on screen. It has different weight options.
 
@@ -91,3 +91,66 @@ Introduce bulleted lists with a lead-in line ending in a colon. Start each item 
 Use numbered lists instead of bulleted lists when the order of the items is important. You do not need to use a lead-in line for numbered lists. Items in a numbered list should end in a full stop, because each one should be a complete sentence.
 
 {% include example-frame.html title="Numbered list example" name="list-numbered" %}
+
+### Font sizes
+
+The table below contains all of the font sizes, line heights and font weights which we use to establish typographic hierarchy.
+
+<table class="ds_table">
+<thead>
+  <tr>
+    <th colspan="2">Desktop</th>
+    <th colspan="2">Mobile</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>H1</td>
+    <td>font-size: 44px;<br>line-height: 56px;<br>font-weight: 700;</td>
+    <td>H1</td>
+    <td>font-size: 30px;<br>line-height: 40px;<br>font-weight: 700;</td>
+  </tr>
+  <tr>
+    <td>H2</td>
+    <td>font-size: 30px;<br>line-height: 40px;<br>font-weight: 700;</td>
+    <td>H2</td>
+    <td>font-size: 22px;<br>line-height: 32px;<br>font-weight: 700;</td>
+  </tr>
+  <tr>
+    <td>H3</td>
+    <td>font-size: 22px;<br>line-height: 32px;<br>font-weight: 700;</td>
+    <td>H3</td>
+    <td>font-size: 19px;<br>line-height: 24px;<br>font-weight: 700;</td>
+  </tr>
+  <tr>
+    <td>H4</td>
+    <td>font-size: 19px;<br>line-height: 32px;<br>font-weight: 700;</td>
+    <td>H4</td>
+    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 700;</td>
+  </tr>
+  <tr>
+    <td>H5</td>
+    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 700;</td>
+    <td>H5</td>
+    <td>font-size: 14px;<br>line-height: 24px;<br>font-weight: 700;</td>
+  </tr>
+  <tr>
+    <td>Leader</td>
+    <td>font-size: 24px;<br>line-height: 40px;<br>font-weight: 300;</td>
+    <td>Leader</td>
+    <td>font-size: 19px;<br>line-height: 32px;<br>font-weight: 300;</td>
+  </tr>
+  <tr>
+    <td>Body</td>
+    <td>font-size: 19px;<br>line-height: 32px;<br>font-weight: 400;</td>
+    <td>Body</td>
+    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 400;</td>
+  </tr>
+  <tr>
+    <td>Small</td>
+    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 400;</td>
+    <td>Small</td>
+    <td>font-size: 14px;<br>line-height: 24px;<br>font-weight: 400;</td>
+  </tr>
+</tbody>
+</table>
