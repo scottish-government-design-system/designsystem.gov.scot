@@ -92,65 +92,43 @@ Use numbered lists instead of bulleted lists when the order of the items is impo
 
 {% include example-frame.html title="Numbered list example" name="list-numbered" %}
 
-### Font sizes
 
-The table below contains all of the font sizes, line heights and font weights which we use to establish typographic hierarchy.
+
+
+## Font rules
+
+The tables below contains all of the font sizes, line heights and font weights which we use to establish typographic hierarchy.
 
 <table class="ds_table">
-<thead>
-  <tr>
-    <th colspan="2">Desktop</th>
-    <th colspan="2">Mobile</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>H1</td>
-    <td>font-size: 44px;<br>line-height: 56px;<br>font-weight: 700;</td>
-    <td>H1</td>
-    <td>font-size: 30px;<br>line-height: 40px;<br>font-weight: 700;</td>
-  </tr>
-  <tr>
-    <td>H2</td>
-    <td>font-size: 30px;<br>line-height: 40px;<br>font-weight: 700;</td>
-    <td>H2</td>
-    <td>font-size: 22px;<br>line-height: 32px;<br>font-weight: 700;</td>
-  </tr>
-  <tr>
-    <td>H3</td>
-    <td>font-size: 22px;<br>line-height: 32px;<br>font-weight: 700;</td>
-    <td>H3</td>
-    <td>font-size: 19px;<br>line-height: 24px;<br>font-weight: 700;</td>
-  </tr>
-  <tr>
-    <td>H4</td>
-    <td>font-size: 19px;<br>line-height: 32px;<br>font-weight: 700;</td>
-    <td>H4</td>
-    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 700;</td>
-  </tr>
-  <tr>
-    <td>H5</td>
-    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 700;</td>
-    <td>H5</td>
-    <td>font-size: 14px;<br>line-height: 24px;<br>font-weight: 700;</td>
-  </tr>
-  <tr>
-    <td>Leader</td>
-    <td>font-size: 24px;<br>line-height: 40px;<br>font-weight: 300;</td>
-    <td>Leader</td>
-    <td>font-size: 19px;<br>line-height: 32px;<br>font-weight: 300;</td>
-  </tr>
-  <tr>
-    <td>Body</td>
-    <td>font-size: 19px;<br>line-height: 32px;<br>font-weight: 400;</td>
-    <td>Body</td>
-    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 400;</td>
-  </tr>
-  <tr>
-    <td>Small</td>
-    <td>font-size: 16px;<br>line-height: 24px;<br>font-weight: 400;</td>
-    <td>Small</td>
-    <td>font-size: 14px;<br>line-height: 24px;<br>font-weight: 400;</td>
-  </tr>
-</tbody>
+  <caption>Font rules for small viewports</caption>
+  <thead>
+    <tr><th>Element</th><th>Font size</th><th>Line height</th><th>Weight</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>H1</td><td>30px</td><td>40px</td><td>bold</td></tr>
+    <tr><td>H2</td><td>22px</td><td>32px</td><td>bold</td></tr>
+    <tr><td>H3</td><td>19px</td><td>24px</td><td>bold</td></tr>
+    <tr><td>H4</td><td>16px</td><td>24px</td><td>bold</td></tr>
+    <tr><td>H5</td><td>14px</td><td>24px</td><td>bold</td></tr>
+    <tr><td>Leader</td><td>19px</td><td>32px</td><td>light</td></tr>
+    <tr><td>Body</td><td>16px</td><td>24px</td><td>regular</td></tr>
+    <tr><td>Small</td><td>14px</td><td>24px</td><td>regular</td></tr>
+  </tbody>
+</table>
+
+<table class="ds_table">
+  <caption>Font rules for large viewports</caption>
+  <thead>
+    <tr><th>Element</th><th>Font size</th><th>Line height</th><th>Weight</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>H1</td><td>44px</td><td>56px</td><td>bold</td></tr>
+    <tr><td>H2</td><td>30px</td><td>40px</td><td>bold</td></tr>
+    <tr><td>H3</td><td>22px</td><td>32px</td><td>bold</td></tr>
+    <tr><td>H4</td><td>19px</td><td>32px</td><td>bold</td></tr>
+    <tr><td>H5</td><td>16px</td><td>24px</td><td>bold</td></tr>
+    <tr><td>Leader</td><td>24px</td><td>40px</td><td>light</td></tr>
+    <tr><td>Body</td><td>19px</td><td>32px</td><td>regular</td></tr>
+    <tr><td>Small</td><td>16px</td><td>24px</td><td>regular</td></tr>
+  </tbody>
 </table>
