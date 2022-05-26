@@ -4,14 +4,14 @@ title:  "Tabs"
 category: components
 parent: components
 thispage: component.tabs
-summary: Tabs organize content and allow navigation across the page between sections of related content. They allow the user to view one section of content at a time.
+summary: Tabs organise content and allow navigation across the page between sections of related content. They allow the user to view one section of content at a time.
 experimental: true
 
 ---
 
 ## About this component
 
-Tabs allow users to see on one specific section of content at a time, whilst having awareness of the other content available. Each tab, when selected, will reveal its own unique content.
+Tabs allow users to see one specific section of content at a time, whilst having awareness of the other content available. Each tab, when selected, will reveal its own unique content.
 
 One tab must always be selected when the page is first loaded. This should be the first tab unless there is a strong reason to have another tab selected.
 
@@ -21,7 +21,7 @@ We based our tabs component on the one built by the UK Government Digital Servic
 
 ## Usage
 
-When using tabs for content it's best to use clear and succinct labels to describe the content in each tab. Tabs hide content from the user, so it is important to make it clear what the content each tab is about.
+When using tabs for content it's best to use clear and succinct labels to describe the content in each tab. Tabs hide content from the user, so it is important to make it clear what the content in each tab is about.
 
 You should order tabs based on user needs, with the most needed section of content in the first tab.
 
@@ -37,7 +37,7 @@ We recommend you always test your content without tabs first. Consider if it's b
 
 ## Implementation
 
-The tabs component needs JavaScript enabled in the user's browser. If a user does not have JavaScript enabled the tabs will use the alternative tab behaviour also used on small viewports.  The tab titles display as a list of anchor links to content that is displayed below those links.
+The tabs component needs JavaScript enabled in the user's browser. If a user does not have JavaScript enabled the tabs will use the alternative tab behaviour also used on small viewports &mdash; the tab titles display as a list of anchor links to content that is displayed below those links.
 
 ## Related components
 
