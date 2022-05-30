@@ -4,7 +4,7 @@ const gtmModule = {
         window.dataLayer = window.dataLayer || [{}];
         var xhr = new XMLHttpRequest();
         xhr.open('GET', '/service/usertype', true);
-        xhr.timeout = 1000;
+        xhr.timeout = 2000;
         xhr.onreadystatechange = () => {
             if (xhr.readyState === 4) {
                 var userType;
