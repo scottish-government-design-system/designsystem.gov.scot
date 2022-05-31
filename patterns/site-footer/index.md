@@ -19,7 +19,7 @@ A site footer should include:
 
 * a list of links to items such as the privacy statement, cookie information and accessibility statement
 
-* a copyright statement – for example, mygov.scot uses: “© Crown copyright. All content is available under the Open Government Licence v3.0, except for all graphic assets and otherwise stated.”  
+* a copyright statement – for example, mygov.scot uses: “All content is available under the Open Government Licence v3.0, except for graphic assets and where otherwise stated. © Crown Copyright”  
 
 ## Why we use this pattern
 Site footers are a best practice web pattern used to add information about a website at the bottom of web pages.
