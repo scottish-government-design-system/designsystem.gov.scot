@@ -19,13 +19,13 @@ This method of navigation is most effective when the user’s goal is to find a 
 
 As a rule of thumb aim for showing no more than 7 numerical links. This keeps the number of navigation choices small while giving the user multiple options in either direction in the sequence.
 
-If there are more pages in the set than are currently being displayed, the pagination component indicates that there are more pages in the set with an ellipsis. This helps to prevent the pagination components links wrapping over more than one row of links.
+If there are more pages in the set than are on display, the pagination component indicates that there are more pages with an ellipsis. This helps to prevent the pagination links wrapping over more than one row.
 
 The first and last pages are always included. Including the first page makes it easy for the user to go to the beginning of the list. Including the last page makes it easy for the user to understand how many pages there are.
 
 {% include example-frame.html title="Pagination with a page in the middle of the sequence selected" name="middle" %}
 
-To help prevent pagination wrapping over multiple rows on small screens,the previous and next links show only the chevron icons at smaller viewport sizes.
+To help prevent pagination wrapping over multiple rows on small screens, the previous and next links show only the chevron icons at smaller viewport sizes.
 
 If you expect users to navigate through the results in sequential order then the pagination component may cause unnecessary cognitive load. Consider using the [sequential navigation](/components/sequential-navigation/) component instead, which only has links to the previous page and the next page.
 

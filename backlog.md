@@ -25,7 +25,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Address lookup</td>
-            <td>In progress</td>
+            <td><a href="/patterns/addresses/">Complete</a></td>
         </tr>
         <tr>
             <td>Audio player guidance</td>
@@ -33,7 +33,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Auto-complete / suggestions</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>A-Z listing</td>
@@ -45,15 +45,15 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Callout</td>
-            <td>In progress</td>
+            <td>Removed</td>
         </tr>
         <tr>
             <td>Campaign components and panels</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Card</td>
-            <td>In progress</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Card navigation</td>
@@ -73,7 +73,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Conditional reveal</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Contextual footer</td>
@@ -88,8 +88,8 @@ permalink: '/backlog/'
             <td><a href="/patterns/cookies-page/">Complete</a></td>
         </tr>
         <tr>
-            <td>Date Input (DOB)</td>
-            <td><a href="/components/date-picker/">Complete</a></td>
+            <td>Dates</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Details</td>
@@ -98,6 +98,10 @@ permalink: '/backlog/'
         <tr>
             <td>Document history</td>
             <td>To do</td>
+        </tr>
+        <tr>
+            <td>Document download</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Email address</td>
@@ -112,7 +116,7 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Field set</td>
+            <td>Fieldset</td>
             <td>To do</td>
         </tr>
         <tr>
@@ -121,6 +125,10 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Form navigation / progress</td>
+            <td>In progress</td>
+        </tr>
+        <tr>
+            <td>Form guidance</td>
             <td>In progress</td>
         </tr>
         <tr>
@@ -138,10 +146,6 @@ permalink: '/backlog/'
         <tr>
             <td>Icons and iconography</td>
             <td><a href="/styles/icons/">Complete</a></td>
-        </tr>
-        <tr>
-            <td>Icons - Document type icons</td>
-            <td>To do</td>
         </tr>
         <tr>
             <td>Infographic guidance</td>
@@ -193,7 +197,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Prologue and epilogue text</td>
-            <td>In progress</td>
+            <td>Removed</td>
         </tr>
         <tr>
             <td>Publications - multi page documents and complex documents</td>
@@ -205,7 +209,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Related items</td>
-            <td>In progress</td>
+            <td>To do</td>
         </tr>
         <tr>
             <td>Repeating fields with 'add another' button</td>
@@ -213,7 +217,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Secondary footer</td>
-            <td>Proposed</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Smart answer</td>
@@ -229,7 +233,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Social media links</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Staging / Embargo content page (notification banner)</td>
