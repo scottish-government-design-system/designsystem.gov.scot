@@ -5,7 +5,7 @@ type: example
 index: 0
 ---
 
-<h2 class="gamma">Contents</h2>
+<h2 class="ds_h3">Contents</h2>
 
 <ul class="ds_contents-nav__list">
     <li class="ds_contents-nav__item">
