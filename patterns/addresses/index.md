@@ -14,7 +14,11 @@ examples:
     name: "Create a tenancy agreement"
 ---
 
-Only ask users for an address if this information is needed to deliver your site or service.
+<div class="ds_warning-text">
+    <strong class="ds_warning-text__icon" aria-hidden="true"></strong>
+    <strong class="visually-hidden">Warning</strong>
+    <div class="ds_warning-text__text">Only ask users for an address if this information is needed to deliver your site or service.</div>
+</div>
 
 <div class="ds_inset-text">
   <div class="ds_inset-text__text">
