@@ -1,0 +1,71 @@
+.dss_font-table {
+    &__h1 {
+        font-size: $h1-size;
+        font-weight: $bold;
+
+        &--medium {
+            font-size: $h1-size--medium;
+        }
+    }
+
+    &__h2 {
+        font-size: $h2-size;
+        font-weight: $bold;
+
+        &--medium {
+            font-size: $h2-size--medium;
+        }
+    }
+
+    &__h3 {
+        font-size: $h3-size;
+        font-weight: $bold;
+
+        &--medium {
+            font-size: $h3-size--medium;
+        }
+    }
+
+    &__h4 {
+        font-size: $h4-size;
+        font-weight: $bold;
+
+        &--medium {
+            font-size: $h4-size--medium;
+        }
+    }
+
+    &__h5 {
+        font-size: $h5-size;
+        font-weight: $bold;
+
+        &--medium {
+            font-size: $h5-size--medium;
+        }
+    }
+
+    &__leader {
+        font-size: $large-size;
+        font-weight: $light;
+
+        &--medium {
+            font-size: $large-size--medium;
+        }
+    }
+
+    &__body {
+        font-size: $root-font-size;
+
+        &--medium {
+            font-size: $root-font-size--medium;
+        }
+    }
+
+    &__small {
+        font-size: $small-size;
+
+        &--medium {
+            font-size: $small-size--medium;
+        }
+    }
+}

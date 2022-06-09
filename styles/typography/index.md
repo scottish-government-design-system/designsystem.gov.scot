@@ -1,6 +1,6 @@
 ---
 layout: component
-title:  "Typography"
+title: "Typography"
 category: styles
 parent: styles
 thispage: style.typography
@@ -18,29 +18,19 @@ If your service is going to be a subdomain of either gov.scot or mygov.scot then
 
 ## Headings
 
-Most websites use scaled headings to create a visual hierarchy of content. Headings should use HTML heading elements.
+Headings establish a logical hierarchy in your content and it is important to use the correct HTML heading level in your markup. This helps all users, including users of assistive technology and bots, to make sense of your content. 
 
-The main headings on a website are usually H1 size, with smaller sizes, such as H2 and H3, used for subheadings.
+The main headings on a website are usually H1 size, with smaller sizes, such as H2 and H3, used for subheadings. It is best practice to only have one H1 in a page.
 
-Hierarchical headings are helpful for accessibility and help all users to understand your content. Search engines may make use of them to understand the content of your site.
-
-We write headings with a capital letter at the start. The only difference is we do not use full stops. This is the most popular way of writing headings online and is known as 'sentence case'.
+We write headings in sentence case, with a capital letter at the start and no full stop at the end. This is the most popular way of writing headings online.
 
 {% include example-frame.html title="Heading example" name="headings" %}
 
-### Heading with captions
+### Heading override classes
 
-A caption is a piece of text above a page’s title. It shows when a heading is part of a larger section or group. For example mygov.scot uses a heading and caption on the 'guide' format.
+The Design System provides override classes that allow you to make any heading HTML element have the appearance of any other heading level. Use these to maintain the correct heading hierarchy when a design calls for something that looks different. For example, you might have some third-level headings that work better visually at a larger size.
 
-{% include example-frame.html title="Heading example with caption" name="header-caption" %}
-
-You can see how to implement this on the [page header](/components/page-header/) component.
-
-### Heading with metadata
-
-Some heading formats may also have supporting metadata shown beneath the main header. For example 'Last updated' underneath the page title.
-
-{% include example-frame.html title="Heading example with metadata" name="header-caption-metadata" %}
+{% include example-frame.html title="Heading overrides example" name="heading-overrides" %}
 
 
 
@@ -55,7 +45,7 @@ The default paragraph font size used by the Design System is 19px on larger scre
 
 ### Leader
 
-Leader styling should apply to introductory content near the top of the page. The leader font size used by the Design System is 24px.
+Leader styling can be applied to introductory content near the top of the page. Leader text is larger than body text.
 
 {% include example-frame.html title="Leader text example" name="leader" %}
 
@@ -102,33 +92,123 @@ The tables below contains all of the font sizes, line heights and font weights w
 <table class="ds_table">
   <caption>Font rules for small viewports</caption>
   <thead>
-    <tr><th>Element</th><th>Font size</th><th>Line height</th><th>Weight</th></tr>
+    <tr>
+      <th>Element</th>
+      <th>Font size</th>
+      <th>Line height</th>
+      <th>Weight</th>
+    </tr>
   </thead>
   <tbody>
-    <tr><td>H1</td><td>30px</td><td>40px</td><td>bold</td></tr>
-    <tr><td>H2</td><td>22px</td><td>32px</td><td>bold</td></tr>
-    <tr><td>H3</td><td>19px</td><td>24px</td><td>bold</td></tr>
-    <tr><td>H4</td><td>16px</td><td>24px</td><td>bold</td></tr>
-    <tr><td>H5</td><td>14px</td><td>24px</td><td>bold</td></tr>
-    <tr><td>Leader</td><td>19px</td><td>32px</td><td>light</td></tr>
-    <tr><td>Body</td><td>16px</td><td>24px</td><td>regular</td></tr>
-    <tr><td>Small</td><td>14px</td><td>24px</td><td>regular</td></tr>
+    <tr>
+      <td><span class="dss_font-table__h1">H1</span></td>
+      <td>30px</td>
+      <td>40px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h2">H2</span></td>
+      <td>22px</td>
+      <td>32px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h3">H3</span></td>
+      <td>19px</td>
+      <td>24px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h4">H4</span></td>
+      <td>16px</td>
+      <td>24px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h5">H5</span></td>
+      <td>14px</td>
+      <td>24px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__leader">Leader</span></td>
+      <td>19px</td>
+      <td>32px</td>
+      <td>light/300</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__body">Body</span></td>
+      <td>16px</td>
+      <td>24px</td>
+      <td>regular/400</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__small">Small</span></td>
+      <td>14px</td>
+      <td>24px</td>
+      <td>regular/400</td>
+    </tr>
   </tbody>
 </table>
 
 <table class="ds_table">
   <caption>Font rules for large viewports</caption>
   <thead>
-    <tr><th>Element</th><th>Font size</th><th>Line height</th><th>Weight</th></tr>
+    <tr>
+      <th>Element</th>
+      <th>Font size</th>
+      <th>Line height</th>
+      <th>Weight</th>
+    </tr>
   </thead>
   <tbody>
-    <tr><td>H1</td><td>44px</td><td>56px</td><td>bold</td></tr>
-    <tr><td>H2</td><td>30px</td><td>40px</td><td>bold</td></tr>
-    <tr><td>H3</td><td>22px</td><td>32px</td><td>bold</td></tr>
-    <tr><td>H4</td><td>19px</td><td>32px</td><td>bold</td></tr>
-    <tr><td>H5</td><td>16px</td><td>24px</td><td>bold</td></tr>
-    <tr><td>Leader</td><td>24px</td><td>40px</td><td>light</td></tr>
-    <tr><td>Body</td><td>19px</td><td>32px</td><td>regular</td></tr>
-    <tr><td>Small</td><td>16px</td><td>24px</td><td>regular</td></tr>
+    <tr>
+      <td><span class="dss_font-table__h1  dss_font-table__h1--medium">H1</span></td>
+      <td>44px</td>
+      <td>56px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h2  dss_font-table__h2--medium">H2</span></td>
+      <td>30px</td>
+      <td>40px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h3  dss_font-table__h3--medium">H3</span></td>
+      <td>22px</td>
+      <td>32px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h4  dss_font-table__h4--medium">H4</span></td>
+      <td>19px</td>
+      <td>32px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__h5  dss_font-table__h5--medium">H5</span></td>
+      <td>16px</td>
+      <td>24px</td>
+      <td>bold/700</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__leader  dss_font-table__leader--medium">Leader</span></td>
+      <td>24px</td>
+      <td>40px</td>
+      <td>light/300</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__body  dss_font-table__body--medium">Body</span></td>
+      <td>19px</td>
+      <td>32px</td>
+      <td>regular/400</td>
+    </tr>
+    <tr>
+      <td><span class="dss_font-table__small  dss_font-table__small--medium">Small</span></td>
+      <td>16px</td>
+      <td>24px</td>
+      <td>regular/400</td>
+    </tr>
   </tbody>
 </table>
