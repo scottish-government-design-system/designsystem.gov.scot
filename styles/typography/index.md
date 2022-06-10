@@ -18,7 +18,9 @@ If your service is going to be a subdomain of either gov.scot or mygov.scot then
 
 ## Headings
 
-Headings establish a logical hierarchy in your content and it is important to use the correct HTML heading level in your markup. This helps all users, including users of assistive technology and bots, to make sense of your content. 
+Headings set a logical hierarchy in your content. It is important to use the correct HTML heading level in your markup. This helps all users to make sense of your content including:
+* users of assistive technology
+* bots (such as those used to automate indexing of sites for search companies)
 
 The main headings on a website are usually H1 size, with smaller sizes, such as H2 and H3, used for subheadings. It is best practice to only have one H1 in a page.
 
@@ -28,7 +30,7 @@ We write headings in sentence case, with a capital letter at the start and no fu
 
 ### Heading override classes
 
-The Design System provides override classes that allow you to make any heading HTML element have the appearance of any other heading level. Use these to maintain the correct heading hierarchy when a design calls for something that looks different. For example, you might have some third-level headings that work better visually at a larger size.
+The Design System has override classes for headings. They allow you to make any heading HTML element have the appearance of any other heading level. Use these to maintain the correct heading hierarchy, even when a design needs to change. For example, you might have some H3 headings that work better visually at a larger size.
 
 {% include example-frame.html title="Heading overrides example" name="heading-overrides" %}
 
@@ -45,7 +47,7 @@ The default paragraph font size used by the Design System is 19px on larger scre
 
 ### Leader
 
-Leader styling can be applied to introductory content near the top of the page. Leader text is larger than body text.
+You can apply leader styling to introductory content near the top of the page. Leader text is larger than body text.
 
 {% include example-frame.html title="Leader text example" name="leader" %}
 
