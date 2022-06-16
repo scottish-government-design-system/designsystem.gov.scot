@@ -21,8 +21,8 @@ note: This example has been truncated to seven search results to conserve space.
         </div>
     </div>
     <div class="ds_layout__content">
-        <h2 class="ds_search-results__title"><span class="ds_search-results__title-count">87</span> results for <span class="ds_search-results__title-query">crofting</span></h2>
-        <ol class="ds_search-results__list" data-total="87">
+        <h2 class="ds_search-results__title">Showing 21 to 30 of 87 results for <span class="ds_search-results__title-query">crofting</span></h2>
+        <ol class="ds_search-results__list" data-total="87" start="21">
             <li class="ds_search-result">
                 <h3 class="ds_search-result__title">
                     <a class="ds_search-result__link" href="#">Crofting community right to buy</a>
@@ -172,28 +172,42 @@ note: This example has been truncated to seven search results to conserve space.
                         <span class="ds_pagination__link-label">1</span>
                     </a>
                 </li>
-                <li class="ds_pagination__item" aria-hidden="true">
-                    <span class="ds_pagination__link  ds_pagination__link--ellipsis">&hellip;</span>
-                </li>
                 <li class="ds_pagination__item">
                     <a class="ds_pagination__link" href="#">
-                        <span class="ds_pagination__link-label">13</span>
+                        <span class="ds_pagination__link-label">2</span>
                     </a>
                 </li>
                 <li class="ds_pagination__item" aria-current="page">
-                    <span class="ds_pagination__link  ds_current">14</span>
+                    <span class="ds_pagination__link  ds_current">3</span>
                 </li>
                 <li class="ds_pagination__item">
                     <a class="ds_pagination__link" href="#">
-                        <span class="ds_pagination__link-label">15</span>
+                        <span class="ds_pagination__link-label">4</span>
                     </a>
                 </li>
-                <li class="ds_pagination__item" aria-hidden="true">
-                    <span class="ds_pagination__link  ds_pagination__link--ellipsis">&hellip;</span>
+                <li class="ds_pagination__item">
+                    <a class="ds_pagination__link" href="#">
+                        <span class="ds_pagination__link-label">5</span>
+                    </a>
                 </li>
                 <li class="ds_pagination__item">
                     <a class="ds_pagination__link" href="#">
-                        <span class="ds_pagination__link-label">27</span>
+                        <span class="ds_pagination__link-label">6</span>
+                    </a>
+                </li>
+                <li class="ds_pagination__item">
+                    <a class="ds_pagination__link" href="#">
+                        <span class="ds_pagination__link-label">7</span>
+                    </a>
+                </li>
+                <li class="ds_pagination__item">
+                    <a class="ds_pagination__link" href="#">
+                        <span class="ds_pagination__link-label">8</span>
+                    </a>
+                </li>
+                <li class="ds_pagination__item">
+                    <a class="ds_pagination__link" href="#">
+                        <span class="ds_pagination__link-label">9</span>
                     </a>
                 </li>
                 <li class="ds_pagination__item">

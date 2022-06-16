@@ -5,10 +5,7 @@ category: patterns
 parent: patterns
 thispage: pattern.search-results
 summary: "A list displaying all the search results found after a user has made a search."
-#examples:
-#  - site: gov.scot
-#    url: https://www.gov.scot/publications/2018-19-autumn-budget-revision-supporting-document/
-#    name: "Advice and guidance publication"
+experimental: true
 ---
 
 ## About this pattern
@@ -45,6 +42,19 @@ If search results span multiple pages then promoted results should only appear o
 
 {% include example-frame.html title="Search results example with promoted results" name="promoted" %}
 
+### Displaying results over multiple pages
+
+When using the pagination component, to split results over multiple pages, some additional behaviours should be implemented.
+
+#### On the first page of results 
+
+- The number of results and the search term should be shown, for example ```87 results for search term```
+- The attribute ```data-total```, applied to the ```ds_search-results__list``` list element, contains the total number of results and is used to calculate the relative position of each result within the tracking attribute script
+
+#### On subsequent result pages
+
+- The position within the set of results should should shown alongside the total number and search term, for example ```Showing 21 to 30 of 87 results for search term```
+- The additional attribute ```start```, applied to the ```ds_search-results__list``` list element, contains the starting position for the current displayed results within the set of results and is by the tracking attribute script
 
 ## Components related to this
 
@@ -79,6 +89,6 @@ Where the site search is being used on a single-page app or it is not possible t
 Search suggestions use WAI-ARIA attributes to give more context for screen reader users. They include:  
 
 *  link text for each suggestion being overwritten with a more descriptive aria-label
-*  text “Did you mean?” being hidden to avoid duplication in the links
+*  text hidden where it would cause duplication with the links
 *  suggestions being wrapped in a nav element with a descriptive aria-label
 Supporting evidence: mygov.scot accessibility review, March 2019.  

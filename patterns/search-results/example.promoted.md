@@ -22,7 +22,7 @@ note: This example has been truncated to two promoted and three search results t
         </div>
     </div>
     <div class="ds_layout__content">
-        <h2 class="ds_search-results__title"><span class="ds_search-results__title-count">3</span> results for <span class="ds_search-results__title-query">crofting</span></h2>
+        <h2 class="ds_search-results__title">3 results for <span class="ds_search-results__title-query">crofting</span></h2>
         <ol class="ds_search-results__list" data-total="5">
             <li class="ds_search-result  ds_search-result--promoted">
                 <div class="ds_search-result--promoted-content">

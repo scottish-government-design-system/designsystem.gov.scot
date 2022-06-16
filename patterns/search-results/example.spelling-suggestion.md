@@ -21,12 +21,14 @@ note: This example has been truncated to three search results to conserve space.
             </form>
         </div>
         <nav class="ds_search-suggestions" aria-label="Alternative search suggestions">
-            <p>Also showing results for <a href="#">crofting</a><br>
-            Show results only for <a href="#">crfting</a></p>
+            <h2 class="visually-hidden">Also showing results for crafting</h2>
+            <p><span aria-hidden="true">Also showing results for</span> <a aria-label="Show results only for crafting" href="#">crafting</a><br>
+                <span aria-hidden="true">Show results only for</span> <a aria-label="Show results only for crfting" href="#">crfting</a>
+            </p>
         </nav>
     </div>
     <div class="ds_layout__content">
-        <h2 class="ds_search-results__title"><span class="ds_search-results__title-count">3</span> results for <span class="ds_search-results__title-query">crfting</span> or <span class="ds_search-results__title-query">crofting</span></h2>
+        <h2 class="ds_search-results__title">3 results for <span class="ds_search-results__title-query">crfting</span> or <span class="ds_search-results__title-query">crofting</span></h2>
         <ol class="ds_search-results__list" data-total="3">
             <li class="ds_search-result">
                 <h3 class="ds_search-result__title">
