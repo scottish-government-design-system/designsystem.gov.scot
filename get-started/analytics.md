@@ -10,6 +10,69 @@ permalink: "/get-started/analytics/"
 index: 999
 ---
 
+<nav role="navigation" class="ds_contents-nav" aria-label="Sections">
+    <h2 class="ds_contents-nav__title">Contents</h2>
+
+    <ul class="ds_contents-nav__list">
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#analytics-for-design-system-sites">
+                Analytics for design system sites
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#training--support">
+                Training & support
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#set-up-a-google-account">
+                Set up a Google account
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#set-up-google-tag-manager">
+                Set up Google Tag Manager
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#set-up-google-analytics">
+                Set up Google Analytics
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#google-analytics---additional-reading">
+                Google Analytics - additional reading
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#set-up-bing-webmaster-tools">
+                Set up Bing Webmaster Tools
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#set-up-and-link-google-adwords">
+                Set up and link Google AdWords
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#google-account-recovery">
+                Google account recovery
+
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#setting-up-any-analytics-tool-for-a-new-website">
+                Setting up any analytics tool for a new website
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#campaign-tracking">
+                Campaign tracking
+            </a>
+        </li>
+    </ul>
+</nav>
+
 ## Analytics for design system sites
 
 Every website should have its performance monitored regularly. This allows the service team to identify issues and use data to make better decisions as outlined in the [Digital Scotland Service Standard](https://resources.mygov.scot/alpha/service-standard/digital-scotland-service-standard/).
@@ -238,4 +301,100 @@ In the instance where there’s an existing Google Analytics account but access 
 * Log into Google AdWords. If you don’t have an existing account, create one and log in
 * Once logged in, click the cog in the top right-hand corner and click on 'Worldwide phone support', pick the relevant number for your country and phone Google.
 * Select the Analytics option, input your AdWords Customer ID (found in the top right of the AdWords webpage) and you’ll be directed to the support team.
-* Note that it can be several days before resolution and account access is restored
+
+It can be several days before resolution and account access is restored.
+
+
+
+
+## Setting up any analytics tool for a new website
+
+<table class="ds_table">
+<thead>
+<tr>
+<th>Action</th>
+<th>Role</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Define Key Performance Indicators/Metrics needed for the site. Identify stakeholders requiring access to data</td>
+<td>Product Owner</td>
+</tr>
+<tr>
+<td>Ensure Privacy Impact Assessment covers usage of analytics data</td>
+<td>Information Governance</td>
+</tr>
+<tr>
+<td>Set up and generate analytics or tag manager codes (normally this is different environment codes for test and live)</td>
+<td>Performance Analyst</td>
+</tr>
+<tr>
+<td>Add tag manager or analytics code to test site</td>
+<td>Front End Developer</td>
+</tr>
+<tr>
+<td>Add cookie banner to site, ensuring analytics respects user opt-in/opt-outs</td>
+<td>Front End Developer</td>
+</tr>
+<tr>
+<td>Test that tag manager is sending analytics data by testing pageview on test site</td>
+<td>Performance Analyst</td>
+</tr>
+<tr>
+<td>Set up and test other tags to collect event data relevant for KPIs on test site</td>
+<td>Front End Developer, Performance Analyst and Tester</td>
+</tr>
+<tr>
+<td>Confirm URLs /Page Titles are not collecting any special category data under GDPR</td>
+<td>Information Governance</td>
+</tr>
+<tr>
+<td>Create prototype dashboard using test site</td>
+<td>Performance Analyst</td>
+</tr>
+<tr>
+<td>Check dashboard meets requirements of stakeholders</td>
+<td>Performance Analyst and Product Owner</td>
+</tr>
+<tr>
+<td>Add tag manager code to live site</td>
+<td>Front End Developer</td>
+</tr>
+<tr>
+<td>Push tags from test tag container to live</td>
+<td>Performance Analyst</td>
+</tr>
+<tr>
+<td>Create live dashboard and administer access to stakeholders</td>
+<td>Performance Analyst</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+## Campaign tracking
+
+When tracking a paid, social or email campaign it is best to tag links with parameters that allow website analytics tools to better report on how the campaign performed. When you do this the URL will look like this: `https://www.example.com/?utm_source=summer-mailer&utm_medium=email&utm_campaign=summer-sale`
+
+You can set up your link parameters using this tool: [Campaign URL Builder](https://ga-dev-tools.web.app/campaign-url-builder/)
+
+From Google's help page, the essential parameters are `utm_source`, `utm_medium` and `utm_campaign`: [URL builders: Collect campaign data with custom URLs](https://support.google.com/analytics/answer/10917952)
+
+<dl>
+<dt><code>utm_source</code></dt> 
+<dd>Referrer, for example: google, newsletter, billboard</dd>
+<dt><code>utm_medium</code></dt>
+<dd>Marketing medium, for example: cpc, banner, email</dd>
+<dt><code>utm_campaign</code></dt>
+<dd>Product, slogan, promo code, for example: spring_sale</dd>
+</dl>
+
+<div class="ds_inset-text"><div class="ds_inset-text__text">
+For the <code>utm_medium</code> parameter, anything which is paid-for (including paid advertising on social media) you should set the value to 'paid'. For non-paid social media links set the value to 'social'.</div></div>
+
+We also recommend adding the parameters to any short or 'vanity' redirects. For our sites that means adding a redirect from a friendly URL that can be included on something like a print or TV advert (for example, `mygov.scot/renters`) which then gets redirected in the back-end of our CMS to a URL which has the tracking code attached (for example, `https://www.mygov.scot/private-rental-rights?utm_source=shorturl&utm_medium=cpc&utm_campaign=renters_rights`).
+
+<div class="ds_inset-text"><div class="ds_inset-text__text">
+Putting <code>utm_source</code> in the parameter overwrites the referring site source URL and so vanity URLs are best for print/TV where there is no better way to track.</div></div>
