@@ -17,8 +17,6 @@ This method of navigation is most effective when the user’s goal is to find a 
 
 ## Usage
 
-As a rule of thumb aim for showing no more than 7 numerical links. This keeps the number of navigation choices small while giving the user multiple options in either direction in the sequence.
-
 If there are more pages in the set than are on display, the pagination component indicates that there are more pages with an ellipsis. This helps to prevent the pagination links wrapping over more than one row.
 
 The first and last pages are always included. Including the first page makes it easy for the user to go to the beginning of the list. Including the last page makes it easy for the user to understand how many pages there are.

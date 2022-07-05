@@ -25,11 +25,6 @@ index: 0
         </li>
         <li class="ds_pagination__item">
             <a class="ds_pagination__link" href="#">
-                <span class="ds_pagination__link-label">12</span>
-            </a>
-        </li>
-        <li class="ds_pagination__item">
-            <a class="ds_pagination__link" href="#">
                 <span class="ds_pagination__link-label">13</span>
             </a>
         </li>
@@ -39,11 +34,6 @@ index: 0
         <li class="ds_pagination__item">
             <a class="ds_pagination__link" href="#">
                 <span class="ds_pagination__link-label">15</span>
-            </a>
-        </li>
-        <li class="ds_pagination__item">
-            <a class="ds_pagination__link" href="#">
-                <span class="ds_pagination__link-label">16</span>
             </a>
         </li>
         <li class="ds_pagination__item" aria-hidden="true">
