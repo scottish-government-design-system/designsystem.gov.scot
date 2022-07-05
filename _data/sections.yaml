@@ -96,7 +96,6 @@ components:
       url: /components/page-header/
     - title: Pagination
       url: /components/pagination/
-      draft: true
     - title: Phase banner
       url: /components/phase-banner/
     - title: Radio buttons
