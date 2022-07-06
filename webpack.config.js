@@ -11,8 +11,8 @@ const commonEntries = {
     path.resolve(__dirname, 'assets/scripts/all.js'),
     path.resolve(__dirname, 'assets/scripts/ds-site.js')
   ],
-  'autocomplete': [
-    path.resolve(__dirname, 'assets/scripts/autocomplete-only.js'),
+  'autocomplete-demo': [
+    path.resolve(__dirname, 'assets/scripts/autocomplete-demo.js'),
   ]
 };
 

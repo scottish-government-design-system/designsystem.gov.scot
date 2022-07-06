@@ -44,6 +44,9 @@ components:
   items:
     - title: Accordion
       url: /components/accordion/
+    - title: Autocomplete
+      url: /components/autocomplete/
+      draft: true
     - title: Back to top
       url: /components/back-to-top/
     - title: Breadcrumbs
