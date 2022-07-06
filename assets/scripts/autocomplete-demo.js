@@ -4,10 +4,10 @@ window.DS = window.DS || {};
 window.DS.components = window.DS.components || {
     Autocomplete: Autocomplete
 };
-console.log(1)
+
 document.addEventListener('DOMContentLoaded', () => {
     var searchElement = document.getElementById('site-search');
-    console.log(2)
+
     var autocomplete = new window.DS.components.Autocomplete(
         document.querySelector('#site-search-autocomplete'),
         '/components/autocomplete/dummy-data.json#',

@@ -9,14 +9,13 @@ summary: "Autocomplete helps users to complete a text input by providing suggest
 experimental: true
 example:
   no-demo: true
-noindex: true
 ---
 
 ## About this component
 
 The autocomplete component is used to display suggested terms pulled from a data source while the user types into a field. The data source is usually a back-end service.
 
-The list of suggestions is shown when the user types into the field and it is updated every time a character is entered. Text matching the user's input is highlighted in each suggestion. The list is limited to a maximum of 6 suggestions; on small devices fewer suggestions might be shown, depending on the space available. If there are no suggestions, the list does not appear.
+The list of suggestions is shown when the user types into the field and it is updated every time a character is entered. Text matching the user's input is highlighted in each suggestion. The list is limited to a maximum of 6 suggestions. On small devices fewer suggestions might be shown, depending on the space available. If there are no suggestions, the list does not appear.
 
 Selecting a suggestion will place its text in the input field and the list of suggestions will be hidden. Suggestions can be selected by clicking, tapping or by using the keyboard.
 

@@ -93,6 +93,11 @@ tracking.add.accordions(document.getElementById('my-container'));
             </a>
         </li>
         <li class="ds_contents-nav__item">
+            <a class="ds_contents-nav__link" href="#autocomplete">
+                Autocomplete
+            </a>
+        </li>
+        <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#back-to-top">
                 Back to top
             </a>
@@ -246,6 +251,35 @@ If an accordion has an 'open all' button, that button gets a `data-accordion` at
 {% highlight html %}
 <button data-accordion="accordion-open-all" type="button" class="ds_link  ds_accordion__open-all  js-open-all">Open all <span class="visually-hidden">sections</span></button>
 {% endhighlight %}
+
+### Autocomplete
+
+When a user selects an autocomplete suggestion, a custom event is triggered. This event is slightly different for keyboard and pointer interactions, but the data is the same.
+
+{% highlight javascript %}
+window.dataLayer.push({
+    event: 'autocomplete',
+    searchText: 'foo',
+    clickText: 'Working with football organisations',
+    resultsCount: 6,
+    clickedResults: 'result 2 of 6'
+});
+{% endhighlight %}
+
+<dl>
+    <dt><code>searchText</code></dt>
+    <dd>User input from the form field</dd>
+
+    <dt><code>clickText</code></dt>
+    <dd>Text of the selected suggestion</dd>
+
+    <dt><code>resultsCount</code></dt>
+    <dd>Number of suggestions provided for this search text</dd>
+
+    <dt><code>clickedResults</code></dt>
+    <dd>Position of the selected suggestion in the list of suggestions</dd>
+</dl>
+
 
 ### Back to top
 

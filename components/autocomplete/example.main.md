@@ -3,7 +3,7 @@ layout: example
 parent: component.autocomplete
 type: example
 script: autocomplete-demo
-minheight: 408px
+minheight: 400px
 illustration: assets/images/examples/autocomplete.svg
 ---
 
