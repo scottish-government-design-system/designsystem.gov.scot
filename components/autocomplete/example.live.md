@@ -4,7 +4,6 @@ parent: component.autocomplete
 type: example
 script: autocomplete-demo
 minheight: 408px
-illustration: assets/images/examples/autocomplete.svg
 ---
 
 <div class="ds_site-search  ds_autocomplete" id="site-search-autocomplete">

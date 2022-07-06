@@ -7,7 +7,8 @@ label: component
 thispage: component.autocomplete
 summary: "Autocomplete helps users to complete a text input by providing suggestions as they type."
 experimental: true
-
+example:
+  no-demo: true
 noindex: true
 ---
 
@@ -20,6 +21,12 @@ The list of suggestions is shown when the user types into the field and it is up
 Selecting a suggestion will place its text in the input field and the list of suggestions will be hidden. Suggestions can be selected by clicking, tapping or by using the keyboard.
 
 The suggestion list is also hidden if the user clicks away from the text input and suggestion list.
+
+## Live example
+
+Type into the search input in this example to see how the autocomplete component behaves.
+
+{% include example-frame.html title="Autocomplete live example" name="live" no-code="true" %}
 
 ## Why we use this component
 
@@ -77,7 +84,11 @@ The autocomplete component has been built to support assistive technology, such 
     </tbody>
 </table>
 
-## Developer notes
+## Implementation
+
+The autocomplete component needs JavaScript enabled in the user's browser. If a user does not have JavaScript enabled the text field will behave as normal, without the autocomplete enhancements.
+
+Autocomplete expects there to be a suggestions endpoint to communicate with.
 
 Set up an autocomplete by creating a new `Autocomplete` object. It takes three parameters:
 
