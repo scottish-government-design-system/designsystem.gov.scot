@@ -17,7 +17,7 @@ The autocomplete component is used to display suggested terms pulled from a data
 
 The list of suggestions is shown when the user types into the field and it is updated every time a character is entered. Text matching the user's input is highlighted in each suggestion. The list is limited to a maximum of 6 suggestions; on small devices fewer suggestions might be shown, depending on the space available. If there are no suggestions, the list does not appear.
 
-Selecting a suggestion will place its text in the input field and the list of suggestions will be removed. Suggestions can be selected by clicking, tapping or by using the keyboard.
+Selecting a suggestion will place its text in the input field and the list of suggestions will be hidden. Suggestions can be selected by clicking, tapping or by using the keyboard.
 
 The suggestion list is also hidden if the user clicks away from the text input and suggestion list.
 
@@ -29,7 +29,7 @@ More generally, autocomplete helps users to:
 
 * correctly complete a form field
 * avoid spelling errors because terms do not need to be typed out in full
-* reduce the time it takes for the user to complete a form field
+* reduce the time it takes to complete a form field
 
 ## Related components
 

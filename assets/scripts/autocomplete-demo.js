@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(2)
     var autocomplete = new window.DS.components.Autocomplete(
         document.querySelector('#site-search-autocomplete'),
-        '/experiments/autocomplete/dummy-data.json#',
+        '/components/autocomplete/dummy-data.json#',
         {
             suggestionMappingFunction: function (suggestionsObj) {
-console.log(suggestionsObj)
+
                 var responseObj = JSON.parse(suggestionsObj.response).map(suggestionsObj => ({
                     key: '',
                     displayText: suggestionsObj,
