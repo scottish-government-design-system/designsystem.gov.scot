@@ -32,8 +32,8 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Auto-complete / suggestions</td>
-            <td>In progress</td>
+            <td>Autocomplete / suggestions</td>
+            <td><a href="/components/autocomplete/">Experimental</a></td>
         </tr>
         <tr>
             <td>A-Z listing</td>
@@ -185,7 +185,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Pagination</td>
-            <td>In progress</td>
+            <td><a href="/components/pagination/">Complete</a></td>
         </tr>
         <tr>
             <td>PDF download page / document cover page</td>
