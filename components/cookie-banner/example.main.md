@@ -5,7 +5,7 @@ type: example
 index: 0
 style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 noDSJavascript: true
-script: 'document.getElementById("cookie-notice").classList.remove("fully-hidden");'
+embeddedScript: 'document.getElementById("cookie-notice").classList.remove("fully-hidden");'
 ---
 
 <div id="cookie-notice" class="ds_notification  ds_notification--large  ds_notification--cookie  js-initial-cookie-content  fully-hidden" data-module="ds-cookie-notification">

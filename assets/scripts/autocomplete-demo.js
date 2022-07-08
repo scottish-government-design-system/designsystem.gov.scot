@@ -1,4 +1,5 @@
 import Autocomplete from '../../node_modules/@scottish-government/pattern-library/src/components/autocomplete/autocomplete';
+import tracking from '../../node_modules/@scottish-government/pattern-library/src/base/tools/tracking/tracking';
 
 window.DS = window.DS || {};
 window.DS.components = window.DS.components || {
@@ -27,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     autocomplete.init();
+    tracking.init();
 });
 
 export default Autocomplete;
