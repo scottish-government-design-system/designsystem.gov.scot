@@ -164,3 +164,6 @@ patterns:
       url: /patterns/site-footer/
     - title: Site header
       url: /patterns/site-header/
+    - title: Task list
+      url: /patterns/task-list/
+      draft: true
