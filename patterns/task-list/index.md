@@ -26,7 +26,7 @@ Every task should have a corresponding text label describing its status as one o
 
 - **Not started**<br>If the user can start work on the task but hasn't done so yet
 - **Cannot start yet**<br>If the user is unable to start the task yet because other tasks need completed first
-- **In progress**<br>If the user has stared but not completed the task yet.
+- **In progress**<br>If the user has stared but not completed the task yet
 - **Completed**<br>If the user has completed the task
 
 Summary text above the task list should detail the total number of tasks and how many have been completed so far.
