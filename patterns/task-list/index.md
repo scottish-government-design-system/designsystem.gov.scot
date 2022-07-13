@@ -18,6 +18,8 @@ It is designed so users can understand:
 - the current status of each task
 - where tasks have to be completed in a particular order
 
+You can change the terms 'transaction' and 'task' to best suit your service. For example this may be a series of sections within an application.
+
 ### Showing the status of tasks
 
 Every task should have a corresponding text label describing its status as one of:
@@ -29,19 +31,21 @@ Every task should have a corresponding text label describing its status as one o
 
 Summary text above the task list should detail the total number of tasks and how many have been completed so far.
 
+A link to the first incomplete task provides a quick way for users to continue their transaction. 
+
 ### Grouping related tasks
 
-Grouping related tasks under different section headings can help users understand what to expect and plan ahead. Section headings should describe clearly what will be involved and where possible should begin with a verb, for example 'check', 'declare' or 'report'.
+Grouping related tasks under different headings can help users understand what to expect and plan ahead. Headings should describe clearly what will be involved and where possible should begin with a verb, for example 'check', 'declare' or 'report'.
 
-{% include example-frame.html title="Task list grouped into sections" name="group" %}
+{% include example-frame.html title="Task list split into groups" name="group" %}
 
 ### Ordering of tasks
 
 Where possible, allow users to complete tasks in any order. This will help them plan their time and complete sections when they are able to.
 
-When a transaction requires certain tasks to be completed before others, groups of tasks can ordered in a numbered list of sections.
+When a transaction requires certain tasks to be completed before others, groups of tasks can ordered in a numbered list.
 
-{% include example-frame.html title="Task list grouped into ordered sections" name="group-ordered" %}
+{% include example-frame.html title="Ordered groups of tasks" name="group-ordered" %}
 
 ### When to use this pattern
 
@@ -52,7 +56,7 @@ When using the task list pattern you should display a task list page:
 - at the beginning of the transaction - before any tasks have been completed
 - when users return to resume the transaction at a later session
 
-When groups of tasks are used it may also help users stay informed of their progress by displaying the task list page when the end of a section is reached.
+When groups of tasks are used it may also help users stay informed of their progress by displaying the task list page when the end of a group is reached.
 
 Providing a navigation link back to the task list throughout the transaction may also help users orientate themselves.
 
@@ -103,10 +107,12 @@ User research has highlighted some issues with this pattern that includes:
 - white space between task title and tag can cause an issue with zoom tool users
 - confusion between tags “Not started” and “Cannot start yet” due to similar appearance and colour
 
-Other known issues from research and feedback conducted by GDS: 
+Other known issues from research and feedback conducted by GOV.UK on their similar pattern: 
 
 - some screen reader users are frustrated by having to tab through every section each time they return to the task list after completing a task
 - some services need users to complete tasks in a particular order, for example, a user must fill in an application before they can pay
 - once a few tasks have been completed it becomes harder to scan the page and spot incomplete tasks
+
+This pattern includes a link to navigate to the first incomplete task in the list which should increase the speed that all users can continue their transaction. Task titles also include their status as visually hideen text to assist users of assistive technology.
 
 More research is required to establish whether users of screen readers struggle to perceive tasks that cannot be started yet as they are not hyperlinked.
