@@ -26,7 +26,7 @@ Every task should have a corresponding text label describing its status as one o
 
 - **Not started**<br>If the user can start work on the task but hasn't done so yet
 - **Cannot start yet**<br>If the user is unable to start the task yet because other tasks need completed first
-- **In progress**<br>If the user has stared but not completed the task yet
+- **In progress**<br>If the user has started but not completed the task yet
 - **Completed**<br>If the user has completed the task
 
 Summary text above the task list should detail the total number of tasks and how many have been completed so far.
@@ -43,7 +43,7 @@ Grouping related tasks under different headings can help users understand what t
 
 Where possible, allow users to complete tasks in any order. This will help them plan their time and complete sections when they are able to.
 
-When a transaction requires certain tasks to be completed before others, groups of tasks can ordered in a numbered list.
+When a transaction requires certain tasks to be completed before others, groups of tasks can be ordered in a numbered list.
 
 {% include example-frame.html title="Ordered groups of tasks" name="group-ordered" %}
 

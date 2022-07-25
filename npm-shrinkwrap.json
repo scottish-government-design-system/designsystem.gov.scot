@@ -134,7 +134,7 @@
     },
     "@babel/helper-define-polyfill-provider": {
       "version": "0.3.1",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.3.1.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.3.1.tgz",
       "integrity": "sha512-J9hGMpJQmtWmj46B3kBHmL38UhJGhYX7eqkcq+2gsstyYt341HmPeWspihX43yVRA0mS+8GGk2Gckc7bY/HCmA==",
       "dev": true,
       "requires": {
@@ -516,7 +516,7 @@
     },
     "@babel/plugin-syntax-async-generators": {
       "version": "7.8.4",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz",
       "integrity": "sha512-tycmZxkGfZaxhMRbXlPXuVFpdWlXpir2W4AMhSJgRKzk/eDlIXOhb2LHWoLpDF7TEHylV5zNhykX6KAgHJmTNw==",
       "dev": true,
       "requires": {
@@ -525,7 +525,7 @@
     },
     "@babel/plugin-syntax-class-properties": {
       "version": "7.12.13",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz",
       "integrity": "sha512-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA==",
       "dev": true,
       "requires": {
@@ -534,7 +534,7 @@
     },
     "@babel/plugin-syntax-class-static-block": {
       "version": "7.14.5",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz",
       "integrity": "sha512-b+YyPmr6ldyNnM6sqYeMWE+bgJcJpO6yS4QD7ymxgH34GBPNDM/THBh8iunyvKIZztiwLH4CJZ0RxTk9emgpjw==",
       "dev": true,
       "requires": {
@@ -543,7 +543,7 @@
     },
     "@babel/plugin-syntax-dynamic-import": {
       "version": "7.8.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz",
       "integrity": "sha512-5gdGbFon+PszYzqs83S3E5mpi7/y/8M9eC90MRTZfduQOYW76ig6SOSPNe41IG5LoP3FGBn2N0RjVDSQiS94kQ==",
       "dev": true,
       "requires": {
@@ -552,7 +552,7 @@
     },
     "@babel/plugin-syntax-export-namespace-from": {
       "version": "7.8.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.3.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.3.tgz",
       "integrity": "sha512-MXf5laXo6c1IbEbegDmzGPwGNTsHZmEy6QGznu5Sh2UCWvueywb2ee+CCE4zQiZstxU9BMoQO9i6zUFSY0Kj0Q==",
       "dev": true,
       "requires": {
@@ -570,7 +570,7 @@
     },
     "@babel/plugin-syntax-json-strings": {
       "version": "7.8.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz",
       "integrity": "sha512-lY6kdGpWHvjoe2vk4WrAapEuBR69EMxZl+RoGRhrFGNYVK8mOPAW8VfbT/ZgrFbXlDNiiaxQnAtgVCZ6jv30EA==",
       "dev": true,
       "requires": {
@@ -579,7 +579,7 @@
     },
     "@babel/plugin-syntax-logical-assignment-operators": {
       "version": "7.10.4",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz",
       "integrity": "sha512-d8waShlpFDinQ5MtvGU9xDAOzKH47+FFoney2baFIoMr952hKOLp1HR7VszoZvOsV/4+RRszNY7D17ba0te0ig==",
       "dev": true,
       "requires": {
@@ -588,7 +588,7 @@
     },
     "@babel/plugin-syntax-nullish-coalescing-operator": {
       "version": "7.8.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz",
       "integrity": "sha512-aSff4zPII1u2QD7y+F8oDsz19ew4IGEJg9SVW+bqwpwtfFleiQDMdzA/R+UlWDzfnHFCxxleFT0PMIrR36XLNQ==",
       "dev": true,
       "requires": {
@@ -597,7 +597,7 @@
     },
     "@babel/plugin-syntax-numeric-separator": {
       "version": "7.10.4",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz",
       "integrity": "sha512-9H6YdfkcK/uOnY/K7/aA2xpzaAgkQn37yzWUMRK7OaPOqOpGS1+n0H5hxT9AUw9EsSjPW8SVyMJwYRtWs3X3ug==",
       "dev": true,
       "requires": {
@@ -606,7 +606,7 @@
     },
     "@babel/plugin-syntax-object-rest-spread": {
       "version": "7.8.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz",
       "integrity": "sha512-XoqMijGZb9y3y2XskN+P1wUGiVwWZ5JmoDRwx5+3GmEplNyVM2s2Dg8ILFQm8rWM48orGy5YpI5Bl8U1y7ydlA==",
       "dev": true,
       "requires": {
@@ -615,7 +615,7 @@
     },
     "@babel/plugin-syntax-optional-catch-binding": {
       "version": "7.8.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz",
       "integrity": "sha512-6VPD0Pc1lpTqw0aKoeRTMiB+kWhAoT24PA+ksWSBrFtl5SIRVpZlwN3NNPQjehA2E/91FV3RjLWoVTglWcSV3Q==",
       "dev": true,
       "requires": {
@@ -624,7 +624,7 @@
     },
     "@babel/plugin-syntax-optional-chaining": {
       "version": "7.8.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz",
       "integrity": "sha512-KoK9ErH1MBlCPxV0VANkXW2/dw4vlbGDrFgz8bmUsBGYkFRcbRwMh6cIJubdPrkxRwuGdtCk0v/wPTKbQgBjkg==",
       "dev": true,
       "requires": {
@@ -633,7 +633,7 @@
     },
     "@babel/plugin-syntax-private-property-in-object": {
       "version": "7.14.5",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-private-property-in-object/-/plugin-syntax-private-property-in-object-7.14.5.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-private-property-in-object/-/plugin-syntax-private-property-in-object-7.14.5.tgz",
       "integrity": "sha512-0wVnp9dxJ72ZUJDV27ZfbSj6iHLoytYZmh3rFcxNnvsJF3ktkzLDZPy/mA17HGsaQT3/DQsWYX1f1QGWkCoVUg==",
       "dev": true,
       "requires": {
@@ -642,7 +642,7 @@
     },
     "@babel/plugin-syntax-top-level-await": {
       "version": "7.14.5",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.14.5.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.14.5.tgz",
       "integrity": "sha512-hx++upLv5U1rgYfwe1xBQUhRmU41NEvpUvrp8jkrSCdvGSnM5/qdRMtylJ6PG5OFkBaHkbTAKTnd3/YyESRHFw==",
       "dev": true,
       "requires": {
@@ -1050,7 +1050,7 @@
     },
     "@babel/preset-modules": {
       "version": "0.1.5",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@babel/preset-modules/-/preset-modules-0.1.5.tgz",
+      "resolved": "https://registry.npmjs.org/@babel/preset-modules/-/preset-modules-0.1.5.tgz",
       "integrity": "sha512-A57th6YRG7oR3cq/yt/Y84MvGgE0eJG2F1JLhKuyG+jFxEgrd/HAMJatiFtmOiZurz+0DkrvbheCLaV5f2JfjA==",
       "dev": true,
       "requires": {
@@ -1165,9 +1165,9 @@
       }
     },
     "@scottish-government/pattern-library": {
-      "version": "0.0.274",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@scottish-government/pattern-library/-/pattern-library-0.0.274.tgz",
-      "integrity": "sha512-krTC/jFPs5N1OwJnWvr/d6ufC868+uoXdN0JOP6vyJP2DPUupFP+lMgsMHbOB6YrEy0Xq1tS4uBvuueZugNk9Q==",
+      "version": "0.0.276",
+      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@scottish-government/pattern-library/-/pattern-library-0.0.276.tgz",
+      "integrity": "sha512-TfArOGbEBZThwoksd+hPW/JjGz2xybI13cwPBO+H1XFJ7eCgkyigiWwwpzAclL1KRgY5XEkLjHju/bvE/7wv6A==",
       "dev": true,
       "dependencies": {
         "@allmarkedup/fang": {
@@ -11728,7 +11728,7 @@
     },
     "@types/json-schema": {
       "version": "7.0.11",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/@types/json-schema/-/json-schema-7.0.11.tgz",
+      "resolved": "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz",
       "integrity": "sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==",
       "dev": true
     },
@@ -12145,7 +12145,7 @@
     },
     "babel-plugin-dynamic-import-node": {
       "version": "2.3.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz",
+      "resolved": "https://registry.npmjs.org/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz",
       "integrity": "sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==",
       "dev": true,
       "requires": {
@@ -12154,7 +12154,7 @@
     },
     "babel-plugin-polyfill-corejs2": {
       "version": "0.3.1",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.3.1.tgz",
+      "resolved": "https://registry.npmjs.org/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.3.1.tgz",
       "integrity": "sha512-v7/T6EQcNfVLfcN2X8Lulb7DjprieyLWJK/zOWH5DUYcAgex9sP3h25Q+DLsX9TloXe3y1O8l2q2Jv9q8UVB9w==",
       "dev": true,
       "requires": {
@@ -12165,7 +12165,7 @@
     },
     "babel-plugin-polyfill-corejs3": {
       "version": "0.5.2",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.5.2.tgz",
+      "resolved": "https://registry.npmjs.org/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.5.2.tgz",
       "integrity": "sha512-G3uJih0XWiID451fpeFaYGVuxHEjzKTHtc9uGFEjR6hHrvNzeS/PX+LLLcetJcytsB5m4j+K3o/EpXJNb/5IEQ==",
       "dev": true,
       "requires": {
@@ -12175,7 +12175,7 @@
     },
     "babel-plugin-polyfill-regenerator": {
       "version": "0.3.1",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.3.1.tgz",
+      "resolved": "https://registry.npmjs.org/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.3.1.tgz",
       "integrity": "sha512-Y2B06tvgHYt1x0yz17jGkGeeMr5FeKUu+ASJ+N6nB5lQ8Dapfg42i0OVrf8PNGJ3zKL4A23snMi1IRwrqqND7A==",
       "dev": true,
       "requires": {
@@ -12828,7 +12828,7 @@
     },
     "convert-source-map": {
       "version": "1.8.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/convert-source-map/-/convert-source-map-1.8.0.tgz",
+      "resolved": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.8.0.tgz",
       "integrity": "sha512-+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==",
       "dev": true,
       "requires": {
@@ -12867,7 +12867,7 @@
       "dependencies": {
         "semver": {
           "version": "7.0.0",
-          "resolved": "http://nexus.digital.gov.uk/repository/npm-all/semver/-/semver-7.0.0.tgz",
+          "resolved": "https://registry.npmjs.org/semver/-/semver-7.0.0.tgz",
           "integrity": "sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==",
           "dev": true
         }
@@ -13074,7 +13074,7 @@
     },
     "debug": {
       "version": "4.3.4",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/debug/-/debug-4.3.4.tgz",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz",
       "integrity": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
       "dev": true,
       "requires": {
@@ -13387,7 +13387,7 @@
     },
     "escalade": {
       "version": "3.1.1",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/escalade/-/escalade-3.1.1.tgz",
+      "resolved": "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz",
       "integrity": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",
       "dev": true
     },
@@ -13438,7 +13438,7 @@
     },
     "esutils": {
       "version": "2.0.3",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/esutils/-/esutils-2.0.3.tgz",
+      "resolved": "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz",
       "integrity": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
       "dev": true
     },
@@ -13709,7 +13709,7 @@
     },
     "find-cache-dir": {
       "version": "3.3.2",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/find-cache-dir/-/find-cache-dir-3.3.2.tgz",
+      "resolved": "https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.2.tgz",
       "integrity": "sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX1jP+S0PcjEn8bdMJv+g2jwQ3Onig==",
       "dev": true,
       "requires": {
@@ -13842,7 +13842,7 @@
     },
     "gensync": {
       "version": "1.0.0-beta.2",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/gensync/-/gensync-1.0.0-beta.2.tgz",
+      "resolved": "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz",
       "integrity": "sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==",
       "dev": true
     },
@@ -13949,7 +13949,7 @@
     },
     "globals": {
       "version": "11.12.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/globals/-/globals-11.12.0.tgz",
+      "resolved": "https://registry.npmjs.org/globals/-/globals-11.12.0.tgz",
       "integrity": "sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==",
       "dev": true
     },
@@ -14539,7 +14539,7 @@
     },
     "js-tokens": {
       "version": "4.0.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/js-tokens/-/js-tokens-4.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
       "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
       "dev": true
     },
@@ -14561,7 +14561,7 @@
     },
     "jsesc": {
       "version": "2.5.2",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/jsesc/-/jsesc-2.5.2.tgz",
+      "resolved": "https://registry.npmjs.org/jsesc/-/jsesc-2.5.2.tgz",
       "integrity": "sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==",
       "dev": true
     },
@@ -14591,7 +14591,7 @@
     },
     "json5": {
       "version": "2.2.1",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/json5/-/json5-2.2.1.tgz",
+      "resolved": "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz",
       "integrity": "sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==",
       "dev": true
     },
@@ -14651,7 +14651,7 @@
     },
     "loader-utils": {
       "version": "2.0.2",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/loader-utils/-/loader-utils-2.0.2.tgz",
+      "resolved": "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.2.tgz",
       "integrity": "sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==",
       "dev": true,
       "requires": {
@@ -14705,7 +14705,7 @@
     },
     "make-dir": {
       "version": "3.1.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/make-dir/-/make-dir-3.1.0.tgz",
+      "resolved": "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz",
       "integrity": "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==",
       "dev": true,
       "requires": {
@@ -15238,7 +15238,7 @@
     },
     "path-parse": {
       "version": "1.0.7",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/path-parse/-/path-parse-1.0.7.tgz",
+      "resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz",
       "integrity": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
       "dev": true
     },
@@ -15286,7 +15286,7 @@
     },
     "picocolors": {
       "version": "1.0.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/picocolors/-/picocolors-1.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz",
       "integrity": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
       "dev": true
     },
@@ -15320,7 +15320,7 @@
     },
     "pkg-dir": {
       "version": "4.2.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/pkg-dir/-/pkg-dir-4.2.0.tgz",
+      "resolved": "https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz",
       "integrity": "sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==",
       "dev": true,
       "requires": {
@@ -15506,13 +15506,13 @@
     },
     "regenerate": {
       "version": "1.4.2",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/regenerate/-/regenerate-1.4.2.tgz",
+      "resolved": "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz",
       "integrity": "sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==",
       "dev": true
     },
     "regenerate-unicode-properties": {
       "version": "10.0.1",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/regenerate-unicode-properties/-/regenerate-unicode-properties-10.0.1.tgz",
+      "resolved": "https://registry.npmjs.org/regenerate-unicode-properties/-/regenerate-unicode-properties-10.0.1.tgz",
       "integrity": "sha512-vn5DU6yg6h8hP/2OkQo3K7uVILvY4iu0oI4t3HFa81UPkhGJwkRwM10JEc3upjdhHjs/k8GJY1sRBhk5sr69Bw==",
       "dev": true,
       "requires": {
@@ -15521,13 +15521,13 @@
     },
     "regenerator-runtime": {
       "version": "0.13.9",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz",
+      "resolved": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz",
       "integrity": "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==",
       "dev": true
     },
     "regenerator-transform": {
       "version": "0.15.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/regenerator-transform/-/regenerator-transform-0.15.0.tgz",
+      "resolved": "https://registry.npmjs.org/regenerator-transform/-/regenerator-transform-0.15.0.tgz",
       "integrity": "sha512-LsrGtPmbYg19bcPHwdtmXwbW+TqNvtY4riE3P83foeHRroMbH6/2ddFBfab3t7kbzc7v7p4wbkIecHImqt0QNg==",
       "dev": true,
       "requires": {
@@ -15560,13 +15560,13 @@
     },
     "regjsgen": {
       "version": "0.6.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/regjsgen/-/regjsgen-0.6.0.tgz",
+      "resolved": "https://registry.npmjs.org/regjsgen/-/regjsgen-0.6.0.tgz",
       "integrity": "sha512-ozE883Uigtqj3bx7OhL1KNbCzGyW2NQZPl6Hs09WTvCuZD5sTI4JY58bkbQWa/Y9hxIsvJ3M8Nbf7j54IqeZbA==",
       "dev": true
     },
     "regjsparser": {
       "version": "0.8.4",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/regjsparser/-/regjsparser-0.8.4.tgz",
+      "resolved": "https://registry.npmjs.org/regjsparser/-/regjsparser-0.8.4.tgz",
       "integrity": "sha512-J3LABycON/VNEu3abOviqGHuB/LOtOQj8SKmfP9anY5GfAVw/SPjwzSjxGjbZXIxbGfqTHtJw58C2Li/WkStmA==",
       "dev": true,
       "requires": {
@@ -15778,7 +15778,7 @@
     },
     "schema-utils": {
       "version": "2.7.1",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/schema-utils/-/schema-utils-2.7.1.tgz",
+      "resolved": "https://registry.npmjs.org/schema-utils/-/schema-utils-2.7.1.tgz",
       "integrity": "sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==",
       "dev": true,
       "requires": {
@@ -15789,7 +15789,7 @@
     },
     "semver": {
       "version": "6.3.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/semver/-/semver-6.3.0.tgz",
+      "resolved": "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz",
       "integrity": "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==",
       "dev": true
     },
@@ -16226,7 +16226,7 @@
     },
     "supports-preserve-symlinks-flag": {
       "version": "1.0.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz",
       "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
       "dev": true
     },
@@ -16549,13 +16549,13 @@
     },
     "unicode-canonical-property-names-ecmascript": {
       "version": "2.0.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz",
       "integrity": "sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==",
       "dev": true
     },
     "unicode-match-property-ecmascript": {
       "version": "2.0.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz",
       "integrity": "sha512-5kaZCrbp5mmbz5ulBkDkbY0SsPOjKqVS35VpL9ulMPfSl0J0Xsm+9Evphv9CoIZFwre7aJoa94AY6seMKGVN5Q==",
       "dev": true,
       "requires": {
@@ -16565,13 +16565,13 @@
     },
     "unicode-match-property-value-ecmascript": {
       "version": "2.0.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.0.0.tgz",
       "integrity": "sha512-7Yhkc0Ye+t4PNYzOGKedDhXbYIBe1XEQYQxOPyhcXNMJ0WCABqqj6ckydd6pWRZTHV4GuCPKdBAUiMc60tsKVw==",
       "dev": true
     },
     "unicode-property-aliases-ecmascript": {
       "version": "2.0.0",
-      "resolved": "http://nexus.digital.gov.uk/repository/npm-all/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.0.0.tgz",
       "integrity": "sha512-5Zfuy9q/DFr4tfO7ZPeVXb1aPoeQSdeFMLpYuFebehDAhbuevLs5yxSZmIFN1tP5F9Wl4IpJrYojg85/zgyZHQ==",
       "dev": true
     },
