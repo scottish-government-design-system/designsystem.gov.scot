@@ -16,29 +16,37 @@ index: 0
         <ul class="ds_task-list">
             <li class="ds_task-list__task" id="task1">
                 <div class="ds_task-list__task-details">
-                    <a class="ds_task-list__task-link" href="#">Conditions <span class="visually-hidden">(Completed)</span></a>
-                    <p class="ds_task-list__task-summary">Tell us about your conditions, symptoms and any sensory issues you have.</p>
+                    <h3 class="ds_task-list__task-heading">
+                        <a class="ds_task-list__task-link" href="#">Conditions <span class="visually-hidden">(Completed)</span></a>
+                    </h3>
+                    <p class="ds_hint-text  ds_task-list__task-summary">Tell us about your conditions, symptoms and any sensory issues you have.</p>
                 </div>
                 <div class="ds_task-list__task-status  ds_task-list__task-status--complete" aria-hidden="true">Completed</div>
             </li>
             <li class="ds_task-list__task" id="task2">
                 <div class="ds_task-list__task-details">
-                    <a class="ds_task-list__task-link" href="#">Medications <span class="visually-hidden">(Completed)</span></a>
-                    <p class="ds_task-list__task-summary">Tell us about any medication you need.</p>
+                    <h3 class="ds_task-list__task-heading">
+                        <a class="ds_task-list__task-link" href="#">Medications <span class="visually-hidden">(Completed)</span></a>
+                    </h3>
+                    <p class="ds_hint-text  ds_task-list__task-summary">Tell us about any medication you need.</p>
                 </div>
                 <div class="ds_task-list__task-status  ds_task-list__task-status--complete" aria-hidden="true">Completed</div>
             </li>
             <li class="ds_task-list__task" id="task3">
                 <div class="ds_task-list__task-details">
-                    <a class="ds_task-list__task-link" href="#">Treatments and therapies <span class="visually-hidden">(Completed)</span></a>
-                    <p class="ds_task-list__task-summary">Tell us about any treatments and therapies you need.</p>
+                    <h3 class="ds_task-list__task-heading">
+                        <a class="ds_task-list__task-link" href="#">Treatments and therapies <span class="visually-hidden">(Completed)</span></a>
+                    </h3>
+                    <p class="ds_hint-text  ds_task-list__task-summary">Tell us about any treatments and therapies you need.</p>
                 </div>
                 <div class="ds_task-list__task-status  ds_task-list__task-status--complete" aria-hidden="true">Completed</div>
             </li>
             <li class="ds_task-list__task" id="task4">
                 <div class="ds_task-list__task-details">
-                    <a class="ds_task-list__task-link" href="#">Contacts and supporting information <span class="visually-hidden">(Not started)</span></a>
-                    <p class="ds_task-list__task-summary">Share any supporting documents and provide details of people we can talk to about you.</p>
+                    <h3 class="ds_task-list__task-heading">
+                        <a class="ds_task-list__task-link" href="#">Contacts and supporting information <span class="visually-hidden">(Not started)</span></a>
+                    </h3>
+                    <p class="ds_hint-text  ds_task-list__task-summary">Share any supporting documents and provide details of people we can talk to about you.</p>
                 </div>
                 <div class="ds_task-list__task-status" aria-hidden="true">Not started</div>
             </li>
@@ -50,13 +58,15 @@ index: 0
         <ul class="ds_task-list">
             <li class="ds_task-list__task" id="task5">
                 <div class="ds_task-list__task-details">
-                    Check your answers <span class="visually-hidden">(Cannot start yet)</span>
+                    <h3 class="ds_task-list__task-heading">Check your answers <span class="visually-hidden">(Cannot start yet)</span></h3>
+                    <p class="ds_hint-text  ds_task-list__task-summary">Review all your answers before submission.</p>
                 </div>
                 <div class="ds_task-list__task-status" aria-hidden="true">Cannot start yet</div>
             </li>
             <li class="ds_task-list__task" id="task6">
                 <div class="ds_task-list__task-details">
-                    Submit your application <span class="visually-hidden">(Cannot start yet)</span>
+                    <h3 class="ds_task-list__task-heading">Submit your application <span class="visually-hidden">(Cannot start yet)</span></h3>
+                    <p class="ds_hint-text  ds_task-list__task-summary">The final step of the application submission.</p>
                 </div>
                 <div class="ds_task-list__task-status" aria-hidden="true">Cannot start yet</div>
             </li>
