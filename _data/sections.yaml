@@ -46,7 +46,6 @@ components:
       url: /components/accordion/
     - title: Aspect box
       url: /components/aspect-box/
-      draft: true
     - title: Autocomplete
       url: /components/autocomplete/
     - title: Back to top

@@ -11,12 +11,14 @@ summary: "We use images where content may benefit from a supporting example to c
 
 ### Aspect ratios
 
-When using photographs we recommend using standard aspect ratios such as 1:1, 4:3, 3:2 and 16:9
+When using photographs we recommend using standard aspect ratios such as 1:1, 4:3, 16:9, and 21:9.
 
 <figure class="example__content">
-<img alt="Box shapes representing the four recommended image aspect ratios" src="/assets/images/ratios-image.png" width="1920" height="1080">
+<img alt="Box shapes representing the four recommended image aspect ratios" src="/assets/images/ratios-image.svg" width="1920" height="1080">
 <figcaption>Our image aspect ratios</figcaption>
 </figure>
+
+The [aspect box component](/components/aspect-box/) can crop incorrectly-sized images to fit these aspect ratios.
 
 ## Illustrations
 
@@ -35,15 +37,6 @@ Article templates allow images that are aligned left in the page. The recommende
 <figure class="example__content">
 <img alt="An image spans over eight columns on the page layout and is left-aligned." src="/assets/images/article-image.svg" loading="lazy" width="801" height="450">
 <figcaption>Column positioning for images in an article page</figcaption>
-</figure>
-
-### Images in category headers
-
-Category headers allow images that are aligned right in the page. The recommended width for an image in a category header is 358px.
-
-<figure class="example__content">
-<img alt="An image spans over four columns on the category header and is right-aligned." src="/assets/images/category-image.svg" loading="lazy" width="801" height="450">
-<figcaption>Column positioning for images in an category header component</figcaption>
 </figure>
 
 ## Informational images
