@@ -82,6 +82,9 @@ components:
       url: /components/error-message/
     - title: Error summary
       url: /components/error-summary/
+    - title: File info
+      url: /components/file-info/
+      draft: true
     - title: Forms
       url: /components/forms/
       draft: true

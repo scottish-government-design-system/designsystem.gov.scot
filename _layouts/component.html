@@ -57,6 +57,24 @@
                                 </div>
                             </div>
                             {% endif %}
+
+                            {% if page.draft %}
+                            <div class="ds_inset-text">
+                                <div class="ds_inset-text__text">
+                                    <strong class="ds_tag">Draft</strong>
+                                    <p>This content is incomplete.</p>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            {% if page.deprecated %}
+                            <div class="ds_warning-text">
+                                <strong class="ds_warning-text__icon" aria-hidden="true"></strong>
+                                <strong class="visually-hidden">Warning</strong>
+                                <strong class="ds_tag">Deprecated</strong>
+                                <p>This component has been deprecated. {{page.deprecated}}</p>
+                            </div>
+                            {% endif %}
                        </header>
                     </div>
 
