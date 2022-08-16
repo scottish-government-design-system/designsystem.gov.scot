@@ -37,8 +37,6 @@ Avoid using a notification panel if a page still has further actions a user can 
 
 You can use the supporting description to tell the users extra important information. Highlight any important information a user needs to record, such as a reference number.
 
-You can change the colour of the panel to match the tone of the message to the user. We use green if the user is successful and grey for unsuccessful or neutral messages.
-
 {% include example-frame.html title="Notification panel with a reference number" name="reference" %}
 
 ## Why we use this component
