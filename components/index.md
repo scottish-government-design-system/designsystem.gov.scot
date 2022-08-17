@@ -6,7 +6,7 @@ parent: home
 title: "Components"
 category: library
 index: 1
-summary: "Components are parts of code that can be easily lifted and reused. They’re usually self-contained elements of a website, such as a banner, breadcrumb or footer."
+summary: "Components are parts of code that can be easily lifted and reused. They’re usually self-contained elements of a website, such as a banner, breadcrumb or button."
 ---
 
 
