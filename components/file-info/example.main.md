@@ -6,6 +6,7 @@ type: example
 <div class="ds_file-info">
     <div class="ds_file-info__thumbnail">
         <a class="ds_file-info__thumbnail-link" aria-hidden="true" tabindex="-1" href="#">
+            <span class="visually-hidden">Document cover image</span>
             <img class="ds_file-info__thumbnail-image  ds_file-info__thumbnail-image--generic" src="/assets/images/documents/svg/pdf.svg" alt="">
         </a>
     </div>
