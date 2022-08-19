@@ -14,7 +14,7 @@ examples:
     name: "First Minister"
   - site: gov.scot
     url: https://www.gov.scot/arts-culture-and-sport/
-    name: "Arts, Culture and Sport"
+    name: "Arts, culture and sport"
 ---
 
 ## About this component
