@@ -62,6 +62,7 @@ components:
       draft: true
     - title: Category header
       url: /components/category-header/
+      deprecated: true
     - title: Category item
       url: /components/category-item/
       draft: true
@@ -82,6 +83,8 @@ components:
       url: /components/error-message/
     - title: Error summary
       url: /components/error-summary/
+    - title: Feature header
+      url: /components/feature-header/
     - title: File info
       url: /components/file-info/
       draft: true
