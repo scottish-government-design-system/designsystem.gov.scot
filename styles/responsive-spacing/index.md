@@ -76,7 +76,7 @@ The scale is made up of  of 10 spacing units. Each unit has a specific size for 
       <td>48px</td>
     </tr>
     <tr>
-      <td>8</td>
+      <td>9</td>
       <td>72px</td>
       <td>56px</td>
     </tr>
@@ -104,7 +104,7 @@ Most Design System components have responsive spacing baked into them, so that D
 
 ### Override classes
 
-The Design System provides spacing override classes that you can add to any element to give it responsive spacing rules for margins and padding. The class names for these follow a naming convention.
+The Design System provides spacing override classes that you can add to any element to give it responsive spacing rules for margins or padding. The class names for these follow a naming convention.
 
 {% highlight css %}
 class="ds_!_{type}{direction}--{unit}"
