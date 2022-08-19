@@ -9,11 +9,9 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/browse/benefits
     name: "Benefits and grants"
-examples:
   - site: gov.scot
     url: https://www.gov.scot/about/who-runs-government/first-minister/
     name: "First Minister"
-examples:
   - site: gov.scot
     url: https://www.gov.scot/arts-culture-and-sport/
     name: "Arts, Culture and Sport"

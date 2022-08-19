@@ -63,25 +63,22 @@
             {% include header.html %}
 
             <div class="ds_wrapper" id="main-content">
-                <div class="ds_category-header">
-                    <header class="ds_category-header__header">
-                        <h1 class="ds_category-header__title">{{ page.title }}</h1>
+                <header class="ds_feature-header">
+                    <div class="ds_feature-header__primary">
+                        <h1 class="ds_feature-header__title">{{ page.title }}</h1>
+                        {% if page.markdownsummary %}
+                            {{ page.markdownsummary | markdownify }}
+                        {% else %}
+                            <p>{{ page.summary }}</p>
+                        {% endif %}
+                    </div>
 
-                        <div class="ds_category-header__summary">
-                            {% if page.markdownsummary %}
-                                {{ page.markdownsummary | markdownify }}
-                            {% else %}
-                                <p>{{ page.summary }}</p>
-                            {% endif %}
-                        </div>
-                    </header>
                     {% if page.hero %}
-                        <div class="ds_category-header__media-container">
-                            <img class="ds_category-header__media"
-                            src="/assets/images/hero/{{ page.hero }}" alt="">
-                        </div>
+                    <div class="ds_feature-header__secondary">
+                        <img class="ds_feature-header__image" alt="" src="/assets/images/hero/{{ page.hero }}" />
+                    </div>
                     {% endif %}
-                </div>
+                </header>
 
                 {% if page.underreview %}
                     {% include under-review.html %}
