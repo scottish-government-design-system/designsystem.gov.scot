@@ -100,7 +100,7 @@ The scale adapts to different screen sizes. Responsive margins and padding are s
 
 ## Using the scale in your project
 
-Most Design System components have responsive margins baked into them, so that Design System components will be spaced appropriately relative to each other when you use them.
+Most Design System components have responsive spacing baked into them, so that Design System components will be spaced appropriately relative to each other when you use them.
 
 ### Override classes
 
