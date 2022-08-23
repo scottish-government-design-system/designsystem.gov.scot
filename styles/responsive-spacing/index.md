@@ -166,7 +166,7 @@ There are two mixins, one for margins and one for padding. They are used the sam
 * `unit` indicates which unit in the spacing scale to use, from 0 to 9.
 * `direction` specifies which direction to set the spacing for. Permitted values are `top`, `bottom`, `left` and `right`.
 * `important` is an optional parameter that tells the mixin to add the `!important` flag. By default it is `false`.
-* `tuning` is an optional parameter that takes a numeric value for the number of pixels to add to the output. It is typically used to compensate for the addition of a border.
+* `tuning` is an optional parameter for an adjustment to the final value. It is typically used to compensate for the addition of a border.
 
 #### Usage example: the Design System's horizontal rule
 

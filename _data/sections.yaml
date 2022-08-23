@@ -85,8 +85,8 @@ components:
       url: /components/error-summary/
     - title: Feature header
       url: /components/feature-header/
-    - title: File info
-      url: /components/file-info/
+    - title: File download
+      url: /components/file-download/
       draft: true
     - title: Forms
       url: /components/forms/

@@ -61,7 +61,13 @@
     </div>
 
     <div class="example-frame__content">
-        {{content}}
+        {% if page.wrapper %}
+            <div class="ds_wrapper">
+                {{content}}
+            </div>
+        {% else %}
+            {{content}}
+        {% endif %}
     </div>
 
     {% if page.jquery %}
