@@ -6,7 +6,6 @@ parent: components
 label: component
 thispage: component.aspect-box
 summary: "An aspect box crops images to a particular aspect ratio."
-noindex: true
 example:
   no-demo: true
 ---
