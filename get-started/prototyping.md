@@ -43,23 +43,22 @@ Axure RP is an application used to mock up wireframes and clickthrough prototype
 2. Get the Design System widget library  
     The library contains widgets for Design System components, design elements and patterns.
 
-<div class="ds_file-info">
-    <div class="ds_file-info__thumbnail">
-        <a class="ds_file-info__thumbnail-link" aria-hidden="true" href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib">
-            <img class="ds_file-info__thumbnail-image  ds_file-info__thumbnail-image--generic" src="/assets/images/documents/axure.svg" alt="">
+<div class="ds_file-download">
+    <div class="ds_file-download__thumbnail">
+        <a data-button="document-cover" class="ds_file-download__thumbnail-link" aria-hidden="true" tabindex="-1" href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib">
+            <span class="visually-hidden">Document cover image</span>
+            <img class="ds_file-download__thumbnail-image  ds_file-download__thumbnail-image--generic" src="/assets/images/documents/axure.svg" alt="">
         </a>
     </div>
 
-    <div class="ds_file-info__content">
-        <h3 class="ds_file-info__title">
-            <a href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib">Design System Axure library</a>
-        </h3>
+    <div class="ds_file-download__content">
+        <p class="ds_file-download__title" id="file-title-1">Design System Axure library</p>
 
-        <div class="ds_file-info__details">
+        <div id="file-download-1" class="ds_file-download__details">
             <dl class="ds_metadata  ds_metadata--inline">
                 <div class="ds_metadata__item">
                     <dt class="ds_metadata__key  visually-hidden">File type</dt>
-                    <dd class="ds_metadata__value">Axure RP</dd>
+                    <dd class="ds_metadata__value">Axure RP<span class="visually-hidden">,</span></dd>
                 </div>
 
                 <div class="ds_metadata__item">
@@ -70,7 +69,7 @@ Axure RP is an application used to mock up wireframes and clickthrough prototype
         </div>
 
         <div>
-            <a href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib" class="ds_file-info__download  ds_button--secondary  ds_button  ds_button--small  ds_no-margin">
+            <a aria-hidden="true" aria-labelledby="file-title-1" aria-describedby="file-download-1" href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib" class="ds_file-download__button  ds_button  ds_button--small  ds_button--secondary  ds_no-margin">
                 Download
             </a>
         </div>
@@ -97,7 +96,7 @@ When a new version of the library is available, you need to download the new fil
 {% comment %}
 ## Adobe XD
 
-The Adobe XD kit is a vector ready version of the design system which can be used when creating flat visuals. The kit contains all the individual styles and components found on the Design System site.
+The Adobe XD kit is a vector ready version of the Design System which can be used when creating flat visuals. The kit contains all the individual styles and components found on the Design System site.
 
 Download the Adobe XD kit here
 

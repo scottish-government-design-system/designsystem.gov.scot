@@ -16,7 +16,7 @@ index: 999
     <ul class="ds_contents-nav__list">
         <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#analytics-for-design-system-sites">
-                Analytics for design system sites
+                Analytics for Design System sites
             </a>
         </li>
         <li class="ds_contents-nav__item">
@@ -73,7 +73,7 @@ index: 999
     </ul>
 </nav>
 
-## Analytics for design system sites
+## Analytics for Design System sites
 
 Every website should have its performance monitored regularly. This allows the service team to identify issues and use data to make better decisions as outlined in the [Digital Scotland Service Standard](https://resources.mygov.scot/alpha/service-standard/digital-scotland-service-standard/).
 
@@ -95,7 +95,7 @@ Event Label: {{AEV – Path}}
 {% endraw %}
 {% endhighlight %}
 
-The design system performance team have created a Google Tag Manager container which can be imported if you are building a site with the design system. [Download the Google Tag Manager container](https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/designsystemgtm.json) or [contact the performance team](mailto:performance@gov.scot).
+The Design System performance team have created a Google Tag Manager container which can be imported if you are building a site with the Design System. [Download the Google Tag Manager container](https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/designsystemgtm.json) or [contact the performance team](mailto:performance@gov.scot).
 
 
 
@@ -153,7 +153,7 @@ To access and configure GTM:
 
 Once GTM has been deployed to all pages, it lets you deploy your analytics tool/Google Analytics, enhanced tracking capability and any other tags where applicable, e.g. advertising floodlight tags/pixels, etc.
 
-The design system performance team have created a Google Tag Manager container which can be imported if you are building a site with the design system. [Download the Google Tag Manager container](https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/designsystemgtm.json) or [contact the performance team](mailto:performance@gov.scot).
+The Design System performance team have created a Google Tag Manager container which can be imported if you are building a site with the Design System. [Download the Google Tag Manager container](https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/designsystemgtm.json) or [contact the performance team](mailto:performance@gov.scot).
 
 If you are setting up your own event tracking we recommend adding document/download tracking, email link tracking and external link tracking. 
 
