@@ -1,13 +1,13 @@
 ---
 layout: component
 title:  "Analytics"
-category: get-started
-parent: get-started
+category: guidance
+parent: guidance
 label: How to
-thispage: get-started.analytics
+thispage: guidance.analytics
 summary: "Good practice web analytics advice for getting your service/website ready for performance monitoring and reporting."
-permalink: "/get-started/analytics/"
-index: 999
+permalink: "/guidance/analytics/"
+redirect_from: /get-started/analytics/
 ---
 
 <nav role="navigation" class="ds_contents-nav" aria-label="Sections">
