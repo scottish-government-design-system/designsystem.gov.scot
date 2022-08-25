@@ -29,12 +29,11 @@ Every task should have a corresponding text label describing its status as one o
 - **In progress**<br>If the user has started but not completed the task yet
 - **Completed**<br>If the user has completed the task
 
-The total number of tasks and how many tasks have been completed so far should be summarised in content above the task list 
+The total number of tasks and how many tasks have been completed so far should be summarised in content above the task list.
 
 A link to the first incomplete task provides a quick way for users to continue their transaction.
 
 When a task cannot yet be completed an explanation should be included to support the status label.
-
 
 ### Related tasks
 
@@ -50,7 +49,7 @@ When a transaction requires certain tasks to be completed before others, groups 
 
 {% include example-frame.html title="Ordered groups of tasks" name="group-ordered" %}
 
-### When to use this pattern
+## When to use this pattern
 
 Task lists should only be used where a transaction involves multiple tasks and may take a long time to complete.
 
@@ -67,7 +66,7 @@ Let users check their answers as they progress through the tasks and before they
 
 If the transaction can be completed over a number of sessions, returning users should continue from the task list.
 
-### When not to use this pattern
+## When not to use this pattern
 
 For simple transactions which follow a linear process, a task list is typically not required.
 
@@ -75,20 +74,20 @@ Where a task list is used and all tasks have been completed, a final confirmatio
 
 ## Evidence
 
-This pattern is similar to the [GOV.UK task list pattern](https://design-system.service.gov.uk/patterns/task-list-pages/) and is currently used by Social Security Scotland - having gone through several iterations and rounds of user testing. 
+This pattern is similar to the [GOV.UK task list pattern](https://design-system.service.gov.uk/patterns/task-list-pages/) and is currently used by Social Security Scotland  having gone through several iterations and rounds of user testing. 
 
 ### Research and testing
 
 User testing was performed on this pattern in 2021 covering:
 
-- comparison of two status options ("Complete" and "Incomplete") with four ("Not started", "Cannot start yet", "In progress" and "Completed")
-- colour of status labels
-- typography of status labels
+- a comparison of two status options ('Complete' and 'Incomplete') with four ('Not started', 'Cannot start yet', 'In progress' and 'Completed')
+- the colour of status labels
+- the typography of status labels
 
 Results showed that:
 
 - four status types performed better than two, offering greater flexibility and support for when tasks can be completed in any order
-- use of red for status labels was harder for the users to read and caused anxiety as the colour typically relates to warnings or errors
+- the use of red for status labels was harder for the users to read and caused anxiety as the colour typically relates to warnings or errors
 - some users expected the status to be a clickable element
 - sentence case was preferred for status labels
 

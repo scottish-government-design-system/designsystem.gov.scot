@@ -87,7 +87,6 @@ components:
       url: /components/feature-header/
     - title: File download
       url: /components/file-download/
-      draft: true
     - title: Forms
       url: /components/forms/
       draft: true
@@ -177,4 +176,3 @@ patterns:
       url: /patterns/site-header/
     - title: Task list
       url: /patterns/task-list/
-      draft: true

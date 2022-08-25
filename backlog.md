@@ -100,10 +100,6 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Document download</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
             <td>Email address</td>
             <td>To do</td>
         </tr>
@@ -118,6 +114,10 @@ permalink: '/backlog/'
         <tr>
             <td>Fieldset</td>
             <td>To do</td>
+        </tr>
+        <tr>
+            <td>File download</td>
+            <td><a href="/components/file-download/">Complete</a></td>
         </tr>
         <tr>
             <td>File upload</td>
@@ -253,7 +253,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Task list</td>
-            <td>In progress</td>
+            <td><a href="/patterns/task-list/">Experimental</a></td>
         </tr>
     </tbody>
 </table>
