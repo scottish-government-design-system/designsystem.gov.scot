@@ -4,8 +4,6 @@ get-started:
   items:
     - title: Installation
       url: /get-started/installation/
-    - title: Analytics
-      url: /get-started/analytics/
     - title: Tracking
       url: /get-started/tracking/
     - title: Prototyping
@@ -178,3 +176,13 @@ patterns:
     - title: Task list
       url: /patterns/task-list/
       draft: true
+guidance:
+  title: Guidance
+  url: /guidance/
+  items:
+    - title: Accessibility
+      url: /guidance/accessibility/
+    - title: Analytics
+      url: /guidance/analytics/
+    - title: Forms
+      url: /guidance/forms/
