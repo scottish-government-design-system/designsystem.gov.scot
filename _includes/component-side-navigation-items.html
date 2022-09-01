@@ -2,6 +2,9 @@
     {% for item in include.items %}
         {% unless item.draft %}
             {% unless item.deprecated %}
+                {% assign pageforitem = site.pages | where: 'url', page.url  | first %}
+                {% assign parentpage = site.pages | where: 'thispage', pageforitem.parent  | first %}
+
                 <li class="ds_side-navigation__item">
                     {% if item.url == page.url %}
                         <span class="ds_side-navigation__link  ds_current">
@@ -12,7 +15,11 @@
                             {{ item.title }}
                         </a>
                     {% endif %}
-                    {% if item.items %}
+
+                    {% if
+                        item.items and
+                        page.url contains item.url
+                    %}
                         {% include component-side-navigation-items.html items=item.items %}
                     {% endif %}
                 </li>
