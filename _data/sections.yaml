@@ -107,6 +107,8 @@ components:
       url: /components/pagination/
     - title: Phase banner
       url: /components/phase-banner/
+    - title: Question
+      url: /components/question/
     - title: Radio buttons
       url: /components/radio-buttons/
     - title: Search result
@@ -162,9 +164,6 @@ patterns:
         - title: Media card
           url: /patterns/navigational-pages/media/
           draft: true
-    - title: Question
-      url: /patterns/question/
-      draft: true
     - title: Search filters
       url: /patterns/search-filters/
       draft: true

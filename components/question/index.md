@@ -1,14 +1,14 @@
 ---
 layout: component
 title:  "Question"
-category: patterns
-parent: patterns
-thispage: pattern.question
-summary: "How to structure form fields whan using the Design System"
+category: components
+parent: components
+thispage: component.question
+summary: "The Question component helps to structure form fields when using the Design System"
 noindex: true
 ---
 
-## About this pattern
+## About this component
 
 Asking for user input is more than just having a label and an input element. Questions can include additional information such as instructions to help the user complete the field, or an error message.
 
@@ -43,7 +43,7 @@ If the form field has failed validation, an error message is inserted or shown.
 
 The form field itself. If the question has hint text, the form field should have an `aria-describedby` attribute indicating the ID of the hint text.
 
-## Other versions of this pattern
+## Other versions of this component
 
 ### Questions with multiple form fields
 
@@ -51,12 +51,8 @@ The form field itself. If the question has hint text, the form field should have
 
 If a question has more than one form field, for example a collection of radio buttons or checkboxes, the form fields and their associated labels should all be within a fieldset element, and the fieldset's legend element should be used where the label is placed in a single-field question.
 
-Hint text can be used below the legend as a hint for the question as a whole, or below each form field's label to provide a hint that is specific to that option.
+Hint text can be used below the legend as a hint for the whole question, or below each form field's label to provide a hint that is specific to that option.
 
-## Why we use this pattern
+## Why we use this component
 
-The Question pattern provides a consistent structure for form fields and any auxiliary content that goes alongside them such as hint text or error messaging. The "question" wrapping element is useful both for styling and for performing client-side form validation.
- 
-## Accessibility
-
-Use aria-describedby to associate hint texts and error messages with field labels and legends.
+The Question component provides a consistent structure for form fields and any related content that goes alongside them such as hint text or error messaging. The 'question' wrapping element is useful both for styling and for performing client-side form validation.

@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: pattern.question
+parent: component.question
 type: example
 index: 0
 ---
