@@ -12,7 +12,7 @@ host: 0.0.0.0
 markdown: kramdown
 plugins:
 #  - jekyll-sitemap
-#  - jekyll-redirect-from
+  - jekyll-redirect-from
 collections:
   site-furniture:
     output: true

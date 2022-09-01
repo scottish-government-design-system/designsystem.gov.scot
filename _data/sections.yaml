@@ -184,5 +184,45 @@ guidance:
       url: /guidance/accessibility/
     - title: Analytics
       url: /guidance/analytics/
+      items:
+        - title: Google account
+          url: /guidance/analytics/google-account/
+        - title: Google Tag Manager
+          url: /guidance/analytics/google-tag-manager/
+        - title: Google Analytics
+          url: /guidance/analytics/google-analytics/
+        - title: Google Search Console
+          url: /guidance/analytics/google-search-console/
+        - title: Google AdWords
+          url: /guidance/analytics/google-adwords/
+        - title: Bing Webmaster Tools
+          url: /guidance/analytics/bing-webmaster-tools/
+        - title: Setting up analytics for a new website
+          url: /guidance/analytics/new-website/
+        - title: Campaign tracking
+          url: /guidance/analytics/campaign-tracking/
+        - title: Training and support
+          url: /guidance/analytics/training-and-support/
     - title: Forms
       url: /guidance/forms/
+      items:
+        - title: Form content
+          url: /guidance/forms/form-content/
+        - title: Form design
+          url: /guidance/forms/form-design/
+        - title: Form structure
+          url: /guidance/forms/form-structure/
+        - title: Form spacing
+          url: /guidance/forms/form-spacing/
+        - title: Data security in forms
+          url: /guidance/forms/data-security/
+        - title: Accessibility in forms
+          url: /guidance/forms/accessibility/
+        - title: Testing forms
+          url: /guidance/forms/testing-forms/
+        - title: Performance analytics
+          url: /guidance/forms/performance-analytics/
+        - title: Form elements in the Design System
+          url: /guidance/forms/form-elements/
+        - title: References
+          url: /guidance/forms/references/

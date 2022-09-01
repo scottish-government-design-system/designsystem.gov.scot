@@ -4,7 +4,6 @@ thispage: backlog
 parent: home
 title: "Backlog"
 index: 999
-summary: ""
 permalink: '/backlog/'
 ---
 <table class="ds_table">
