@@ -21,8 +21,8 @@ note: This example has been truncated to three search results to conserve space.
             </form>
         </div>
         <nav class="ds_search-suggestions" aria-label="Alternative search suggestions">
-            <h2 class="visually-hidden">Also showing results for crafting</h2>
-            <p><span aria-hidden="true">Also showing results for</span> <a aria-label="Show results only for crafting" href="#">crafting</a><br>
+            <h2 class="visually-hidden">Also showing results for crofting</h2>
+            <p><span aria-hidden="true">Also showing results for</span> <a aria-label="Show results only for crofting" href="#">crofting</a><br>
                 <span aria-hidden="true">Show results only for</span> <a aria-label="Show results only for crfting" href="#">crfting</a>
             </p>
         </nav>
