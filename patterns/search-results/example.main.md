@@ -185,25 +185,8 @@ note: This example has been truncated to seven search results to conserve space.
                         <span class="ds_pagination__link-label">4</span>
                     </a>
                 </li>
-                <li class="ds_pagination__item">
-                    <a class="ds_pagination__link" href="#">
-                        <span class="ds_pagination__link-label">5</span>
-                    </a>
-                </li>
-                <li class="ds_pagination__item">
-                    <a class="ds_pagination__link" href="#">
-                        <span class="ds_pagination__link-label">6</span>
-                    </a>
-                </li>
-                <li class="ds_pagination__item">
-                    <a class="ds_pagination__link" href="#">
-                        <span class="ds_pagination__link-label">7</span>
-                    </a>
-                </li>
-                <li class="ds_pagination__item">
-                    <a class="ds_pagination__link" href="#">
-                        <span class="ds_pagination__link-label">8</span>
-                    </a>
+                <li class="ds_pagination__item" aria-hidden="true">
+                    <span class="ds_pagination__link  ds_pagination__link--ellipsis">&hellip;</span>
                 </li>
                 <li class="ds_pagination__item">
                     <a class="ds_pagination__link" href="#">
