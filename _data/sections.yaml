@@ -18,9 +18,8 @@ styles:
       url: /styles/base-grid/
     - title: Colour
       url: /styles/colour-palette/
-      items:
-        - title: Colour customisation
-          url: /styles/colour-palette/colour-customisation/
+    - title: Colour customisation
+      url: /styles/colour-customisation/
     - title: Focus states
       url: /styles/states/
     - title: Icons and iconography

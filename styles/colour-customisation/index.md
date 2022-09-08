@@ -2,9 +2,10 @@
 layout: component
 title:  "Colour customisation"
 category: styles
-parent: style.colour-palette
-thispage: style.colour-palette.colour-customisation
+parent: style
+thispage: style.colour-customisation
 summary: "Creating a customised colour scheme using our extended palette."
+redirect_from: /styles/colour-palette/colour-customisation/
 ---
 
 ## The extended palette

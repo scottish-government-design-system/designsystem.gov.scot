@@ -5,7 +5,7 @@ category: guidance
 parent: guidance
 thispage: guidance.tracking
 summary: "The Design System adds data attributes to components to help with analytics tracking."
-#redirect-from: /get-started/tracking
+#redirect_from: /get-started/tracking
 noindex: true
 ---
 
