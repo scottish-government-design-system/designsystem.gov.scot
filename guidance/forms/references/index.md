@@ -4,6 +4,7 @@ title:  "References"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.references
+noindex: true
 ---
 GOV.UK (2016). [_Structuring forms_](https://www.gov.uk/service-manual/design/form-structure)
 

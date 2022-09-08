@@ -4,9 +4,10 @@ thispage: guidance
 navitems: guidance
 parent: home
 title: "Guidance"
-category: library
+category: xlibrary
 index: 1
 summary: "SUMMARY"
+noindex: true
 ---
 
 

@@ -4,6 +4,8 @@ get-started:
   items:
     - title: Installation
       url: /get-started/installation/
+    - title: Analytics
+      url: /get-started/analytics/
     - title: Tracking
       url: /get-started/tracking/
     - title: Prototyping
@@ -226,3 +228,5 @@ guidance:
           url: /guidance/forms/form-elements/
         - title: References
           url: /guidance/forms/references/
+    - title: Tracking
+      url: /guidance/tracking/

@@ -5,7 +5,8 @@ category: guidance
 parent: guidance
 thispage: guidance.analytics
 summary: "Good practice web analytics advice for getting your service/website ready for performance monitoring and reporting."
-redirect_from: /get-started/analytics/
+#redirect_from: /get-started/analytics/
+noindex: true
 ---
 
 Every website should have its performance monitored regularly - this allows the service owner to identify issues and use the data to make better decisions as outlined in the Digital Scotland Service Standard’s ['Define what success looks like and publish performance data' criteria](https://www.gov.scot/publications/digital-scotland-service-standard/pages/9--define-what-success-looks-like-and-publish-performance-data/).

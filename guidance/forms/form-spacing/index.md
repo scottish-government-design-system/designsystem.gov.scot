@@ -4,6 +4,7 @@ title:  "Form spacing"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.form-spacing
+noindex: true
 ---
 
 Spacing is an important factor in creating an effective form layout. Placing form labels near the associated text field and grouping related fields helps users to complete forms more quickly with less confusion.

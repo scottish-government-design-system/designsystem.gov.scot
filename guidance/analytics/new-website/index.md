@@ -4,6 +4,7 @@ title:  "Setting up any analytics tool for a new website"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.new-website
+noindex: true
 ---
 
 <table class="ds_table">
