@@ -6,48 +6,48 @@ parent: guidance
 thispage: guidance.accessibility
 summary: "Best practice accessibility guidelines for web design."
 permalink: '/guidance/accessibility/'
-redirect_from: /accessibility/
+#redirect_from: /accessibility/
 ---
 
 <ul class="ds_contents-nav__list">
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#introduction">
-            Introduction
+         Introduction
       </a>
    </li>
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#keyboard-interaction">
-            Keyboard interaction
+         Keyboard interaction
       </a>
    </li>
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#styling-for-keyboard-focus/">
-            Styling for keyboard focus
+         Styling for keyboard focus
       </a>
    </li>
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#colour-contrast">
-            Colour contrast
+         Colour contrast
       </a>
    </li>
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#alternative-text">
-            Alternative text
+         Alternative text
       </a>
    </li>
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#heading-structure">
-            Heading structure
+         Heading structure
       </a>
    </li>
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#visually-hiding-content">
-            Visually hiding content
+         Visually hiding content
       </a>
    </li>
    <li class="ds_contents-nav__item">
       <a class="ds_contents-nav__link" href="#accessible-rich-internet-applications-aria">
-            Accessible Rich Internet Applications (ARIA)
+         Accessible Rich Internet Applications (ARIA)
       </a>
    </li>
 </ul>

@@ -70,6 +70,17 @@
                             {% endif %}
                         </li>
                         <li class="ds_site-navigation__item">
+                            {% if page.url == '/accessibility/' %}
+                                <span class="ds_site-navigation__link  ds_current">
+                                    Accessibility
+                                </span>
+                            {% else %}
+                                <a href="/accessibility/" class="ds_site-navigation__link  {% if page.url contains '/accessibility/' %}ds_current{% endif %}">
+                                    Accessibility
+                                </a>
+                            {% endif %}
+                        </li>
+                        <!-- <li class="ds_site-navigation__item">
                             {% if page.url == '/guidance/' %}
                                 <span class="ds_site-navigation__link  ds_current">
                                     Guidance
@@ -79,7 +90,7 @@
                                     Guidance
                                 </a>
                             {% endif %}
-                        </li>
+                        </li> -->
                         <li class="ds_site-navigation__item">
                             {% if page.url == '/backlog/' %}
                                 <span class="ds_site-navigation__link  ds_current">
@@ -159,6 +170,17 @@
                         {% endif %}
                     </li>
                     <li class="ds_site-navigation__item">
+                        {% if page.url == '/accessibility/' %}
+                            <span class="ds_site-navigation__link  ds_current">
+                                Accessibility
+                            </span>
+                        {% else %}
+                            <a href="/accessibility/" class="ds_site-navigation__link  {% if page.url contains '/accessibility/' %}ds_current{% endif %}">
+                                Accessibility
+                            </a>
+                        {% endif %}
+                    </li>
+                    <!-- <li class="ds_site-navigation__item">
                         {% if page.url == '/guidance/' %}
                             <span class="ds_site-navigation__link  ds_current">
                                 Guidance
@@ -168,7 +190,7 @@
                                 Guidance
                             </a>
                         {% endif %}
-                    </li>
+                    </li> -->
                     <li class="ds_site-navigation__item">
                         {% if page.url == '/backlog/' %}
                             <span class="ds_site-navigation__link  ds_current">

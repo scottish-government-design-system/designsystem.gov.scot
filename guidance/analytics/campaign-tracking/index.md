@@ -4,6 +4,7 @@ title:  "Campaign tracking"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.campaign-tracking
+noindex: true
 ---
 
 When tracking a paid, social or email campaign it is best to tag links with parameters that allow website analytics tools to better report on how the campaign performed. When you do this the URL will look like this: `https://www.example.com/?utm_source=summer-mailer&utm_medium=email&utm_campaign=summer-sale`

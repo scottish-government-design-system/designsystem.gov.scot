@@ -4,6 +4,7 @@ title:  "Google AdWords"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.google-adwords
+noindex: true
 ---
 
 Google AdWords is a pay-per-click (PPC) marketing platform. It’s good practice from a budgetary, risk, audit and management perspective to manage AdWords accounts in-house, delegating access/permissions to agencies and staff where necessary. For this there are two account options for organisations:

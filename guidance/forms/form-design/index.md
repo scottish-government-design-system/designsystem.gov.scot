@@ -4,6 +4,7 @@ title:  "Form design"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.form-design
+noindex: true
 ---
 
 When your questions are ready, start designing your digital form following these principles:
