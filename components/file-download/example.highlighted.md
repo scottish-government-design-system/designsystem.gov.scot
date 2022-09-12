@@ -29,7 +29,7 @@ type: example
         </div>
 
         <div>
-            <a aria-hidden="true" aria-labelledby="file-title-1" aria-describedby="file-download-1" href="#" class="ds_file-download__button  ds_button  ds_button--small  ds_no-margin">
+            <a aria-labelledby="file-title-1" aria-describedby="file-download-1" href="#" class="ds_file-download__button  ds_button  ds_button--small  ds_no-margin">
                 Download
             </a>
         </div>
