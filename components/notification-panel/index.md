@@ -46,7 +46,7 @@ Using a visually contrasting area for important content will help users find thi
 ## Related components
 
 * [Notification banner](/components/notification-banner/)
-* [Page heading](/components/page-heading/)
+* [Page header](/components/page-header/)
 
 ## Accessibility
 

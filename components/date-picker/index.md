@@ -30,7 +30,7 @@ Date pickers are a common component that helps users select and enter a date.
 
 To understand user behaviour, clicks on date picker items can be tracked through the original page path, the click text, and a data attribute showing the element interacted with.
 
-Clicks on buttons inside a date picker, including 'OK', 'Cancel' and the month navigation buttons are tracked using the standard [Button tracking](/components/buttons/). Data attributes for these are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
+Clicks on buttons inside a date picker, including 'OK', 'Cancel' and the month navigation buttons are tracked using the standard [Button tracking](/components/button/). Data attributes for these are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
 
 ## Accessibility
 

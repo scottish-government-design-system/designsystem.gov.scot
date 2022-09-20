@@ -29,7 +29,7 @@ If you are setting up your own event tracking we recommend adding document/downl
 * [Simo Ahava: Some awesome google tag manager resources](https://www.simoahava.com/analytics/awesome-google-tag-manager-resources/)
 * [Optimize Smart: Google Tag Manager turorial 2021](https://www.optimizesmart.com/beginners-guide-google-tag-manager-v2/)
 * [iPullRank: Complete guide to Google Tag Manager](https://ipullrank.com/google-tag-manager)
-* [Digital Marketer: The Ultimate Guide to Google Tag Manager](https://www.digitalmarketer.com/blog/guide-to-google-tag-manager/)
+* [Digital Marketer: The Ultimate Guide to Google Tag Manager](https://web.archive.org/web/20211019093224/https://www.digitalmarketer.com/blog/guide-to-google-tag-manager/)
 * [Google: Developer documentation for Google Tag Manager](https://developers.google.com/tag-manager/)
 * [Google: Components of Google Tag Manager](https://support.google.com/tagmanager/answer/6103657?hl=en)
 * [Optimize Smart: Google Tag Manager event tracking tutorial](https://www.optimizesmart.com/event-tracking-in-google-tag-manager-v2-complete-guide/)

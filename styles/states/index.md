@@ -52,4 +52,4 @@ This concept is applied across all types of form field for a consistent user exp
 <figcaption>Normal and focussed radio buttons</figcaption>
 </figure>
 
-Look at the component pages for form fields, such as [text input](/components/text-input/) and [radio buttons](t/components/radio-buttons/) for interactive examples.
+Look at the component pages for form fields, such as [text input](/components/text-input/) and [radio buttons](/components/radio-buttons/) for interactive examples.
