@@ -37,7 +37,7 @@ If a question asks for more than one piece of information they all should be rev
 
 ## Each form question has costs
 
-Only ask for information that is needed for your service because each question has a cost. A financial cost is incurred by the organisation publishing the form, who must process and store the answers. A time and cognitive cost is passed on to users for every extra question they have to complete. 
+Only ask for information that is needed for your service because each question has a cost. A financial cost is incurred by the organisation publishing the form, who must process and store the answers. A time cost and a cognitive cost is passed on to users for every extra question they have to complete. 
 
 ## Clearly explain why you're asking for sensitive information
 
@@ -47,4 +47,4 @@ Users care about their privacy and information security. If you must ask for sen
 
 When you know what information to collect, you should follow [content best practices](https://resources.mygov.scot/content-standards/) to design the questions that should be asked.
 
-You should with a content designer to create form content that is written in plain English to help users understand what is being asked.
+You should work with a content designer to create form content that is written in plain English to help users understand what is being asked.

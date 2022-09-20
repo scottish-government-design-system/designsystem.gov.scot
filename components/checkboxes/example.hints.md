@@ -3,7 +3,7 @@ layout: example
 parent: component.checkboxes
 type: example
 ---
-<form>
+<div class="ds_question">
     <fieldset>
         <legend>What are you interested in?</legend>
 
@@ -27,4 +27,4 @@ type: example
             </div>
         </div>
     </fieldset>
-</form>
+</div>

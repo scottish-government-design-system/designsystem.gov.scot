@@ -7,6 +7,7 @@ code {
 
     background-color: $ds_colour__grey--lighter !important;
     line-height: line-height-on-grid($small-size);
+    color: $ds_colour__red;
 
     @include media-query(medium) {
         line-height: line-height-on-grid($small-size--medium, 2);

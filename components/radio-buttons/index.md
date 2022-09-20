@@ -43,6 +43,12 @@ The error state for radio buttons marks the entire fieldset.
 
 ### Inline radio buttons
 
+<div class="ds_inset-text">
+    <div class="ds_inset-text__text">
+        Inline radio buttons are known to present difficulty for screen magnifier users, who might not see all of the options.
+    </div>
+</div>
+
 In some cases you can display radio buttons beside one another.
 
 Only use inline radio buttons when:

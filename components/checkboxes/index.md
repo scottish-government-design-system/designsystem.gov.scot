@@ -38,6 +38,24 @@ Although small checkboxes appear smaller, their clickable area is the same as no
 
 {% include example-frame.html title="Checkbox example with small checkboxes" name="small" %}
 
+### Including a 'none' option
+
+If 'none' is a valid response to a question, include it as an option instead of expecting the user to not select any checkboxes. This helps ensure that the user is making a specific choice in their response, and you will know that the question has been answered. Without the 'none' option it might not be clear whether a question has been skipped or not.
+
+The option for 'none' should be shown last in the options. It should be separated from other options in the group with a divider, typically the word 'or'.
+
+The label for the 'none' option should clearly relate to the question being asked and not just be the word 'none'. For example, if the question was 'Do you receive any of these benefits?' you could use 'No, I do not receive any of these benefits'.
+
+{% include example-frame.html title="Checkbox example with a 'none' option" name="exclusive" %}
+
+Invalid combinations of checkboxes are automatically managed with JavaScript. Enable it on the 'none' option by adding the attribute `data-behaviour="exclusive"` to the checkbox.
+
+If the user selects the 'none' option, any other checkboxes will be unchecked. Similarly, if a user selects 'none' and then chooses another option, the 'none' option will be unchecked.
+
+If JavaScript is not enabled in the user's browser, add validation to prevent the 'none' option being submitted when another option is also selected.
+
+{% include example-frame.html title="Checkbox example with a 'none' option in an error state" name="exclusive-error" %}
+
 ## Error messages
 
 The error state for checkboxes marks the entire fieldset.

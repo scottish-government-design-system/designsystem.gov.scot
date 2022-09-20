@@ -3,9 +3,9 @@ layout: example
 parent: component.checkboxes
 type: example
 ---
-<form>
+<div class="ds_question">
     <div class="ds_question  ds_question--error" id="error-id">
-        <fieldset aria-describedby="ds_hint">
+        <fieldset aria-describedby="ds_hint" aria-invalid="true">
             <legend>What topics are you interested in?</legend>
             <p class="ds_hint-text" id="ds_hint">Select an option</p>
             <p class="ds_question__error-message">This field is required</p>
@@ -28,4 +28,4 @@ type: example
             </div>
         </fieldset>
     </div>
-</form>
+</div>
