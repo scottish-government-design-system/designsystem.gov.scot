@@ -114,7 +114,7 @@ To do this you will need to set up certain tools for your website or service. Th
 
 ### Alternative tools
 
-There are a range of different tools available - from free/open source through to paid/enterprise - to do these tasks. We use a mix of tools, including Google Analytics. Google Analytics is widely used across the Scottish Government. The setup outlined below has already been tested and approved for data security and is based on free products, so there’s no need to go through procurement. We have documented a setup which is strong on interoperability, simplicity, available documentation and is largely based on free products but other web analytics packages are available and may be better suited to your needs. Analytics tools which do not rely on cookies are also available and should be considered when deciding on an analytics solution - these include [Simple Analytics](https://simpleanalytics.com/), [Fathom](https://usefathom.com/) and [Plausible](https://plausible.io/). 
+There are a range of different tools available - from free/open source through to paid/enterprise - to do these tasks. We use a mix of tools, including Google Analytics. Google Analytics is widely used across the Scottish Government. The setup outlined below has already been tested and approved for data security and is based on free products, so there’s no need to go through procurement. We have documented a setup which is strong on interoperability, simplicity, available documentation and is largely based on free products but other web analytics packages are available and may be better suited to your needs. Analytics tools which do not rely on cookies are also available and should be considered when deciding on an analytics solution - these include [Simple Analytics](https://www.simpleanalytics.com/), [Fathom](https://usefathom.com/) and [Plausible](https://plausible.io/).
 
 ### Recommended training
 
@@ -155,12 +155,12 @@ Once GTM has been deployed to all pages, it lets you deploy your analytics tool/
 
 The Design System performance team have created a Google Tag Manager container which can be imported if you are building a site with the Design System. [Download the Google Tag Manager container](https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/designsystemgtm.json) or [contact the performance team](mailto:performance@gov.scot).
 
-If you are setting up your own event tracking we recommend adding document/download tracking, email link tracking and external link tracking. 
+If you are setting up your own event tracking we recommend adding document/download tracking, email link tracking and external link tracking.
 
 ### Google Tag Manager - additional reading
 * [Simo Ahava: Some awesome google tag manager resources](https://www.simoahava.com/analytics/awesome-google-tag-manager-resources/)
 * [Optimize Smart: Google Tag Manager turorial 2021](https://www.optimizesmart.com/beginners-guide-google-tag-manager-v2/)
-* [iPullRank: Complete guide to Google Tag Manager](https://ipullrank.com/google-tag-manager)
+* [iPullRank: Complete guide to Google Tag Manager](https://ipullrank.com/resources/guides-ebooks/google-tag-manager-guide)
 * [Digital Marketer: The Ultimate Guide to Google Tag Manager](https://web.archive.org/web/20211019093224/https://www.digitalmarketer.com/blog/guide-to-google-tag-manager/)
 * [Google: Developer documentation for Google Tag Manager](https://developers.google.com/tag-manager/)
 * [Google: Components of Google Tag Manager](https://support.google.com/tagmanager/answer/6103657?hl=en)
@@ -178,7 +178,7 @@ If you are setting up your own event tracking we recommend adding document/downl
 
 * [Sign up using your team’s Google account](https://analytics.google.com/analytics/web/)
 * Create your account and name it appropriately
-* [Grant access to colleagues and any developers who will be working on the service](http://www.seerinteractive.com/blog/get-the-most-out-of-google-analytics-user-permissions/)
+* [Grant access to colleagues and any developers who will be working on the service](https://www.seerinteractive.com/blog/get-the-most-out-of-google-analytics-user-permissions/)
 * Within the Admin settings, you should turn off all data sharing other than within Google products and services
 * Set up Google Analytics Profiles. Profiles are technically new properties, but they are created from within the same account. To do this, you visit the admin page of your desired account. Select the 'create new property' option from the property dropdown and enter the desired profile name. The following profiles are recommended:
     * Raw Data > This is your unfiltered backup dataset - not to be deleted or changed
@@ -253,7 +253,7 @@ You can use [Google Tag Assistant Chrome extension](https://get.google.com/tagas
 
 * [Geckoboard: 4 ways to automagically import live data into spreadsheets](https://www.geckoboard.com/blog/4-ways-to-automagically-get-your-data-into-spreadsheets/#.WDRyd6KLTjA)
 * [LinkResourceTools: Search Console by Google - The Ultimate Guide](https://smart.linkresearchtools.com/linkthing/google/search-console)
-* [Neil Patel: A Beginner’s Guide to Google Search Console](https://neilpatel.com/blog/beginners-guide-to-google-webmaster-tools/)
+* [Neil Patel: A Beginner’s Guide to Google Search Console](https://neilpatel.com/blog/google-search-console-guide/)
 * [Bruce Clay: How to Set Up Google Search Console](https://www.bruceclay.com/blog/set-up-google-search-console/)
 * [Online.Marketing: All You Need To Know For Moving To HTTPS](https://online.marketing/guide/https/)
 
@@ -383,7 +383,7 @@ You can set up your link parameters using this tool: [Campaign URL Builder](http
 From Google's help page, the essential parameters are `utm_source`, `utm_medium` and `utm_campaign`: [URL builders: Collect campaign data with custom URLs](https://support.google.com/analytics/answer/10917952)
 
 <dl>
-<dt><code>utm_source</code></dt> 
+<dt><code>utm_source</code></dt>
 <dd>Referrer, for example: google, newsletter, billboard</dd>
 <dt><code>utm_medium</code></dt>
 <dd>Marketing medium, for example: cpc, banner, email</dd>
