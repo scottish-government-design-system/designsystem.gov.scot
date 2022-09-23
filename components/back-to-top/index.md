@@ -10,7 +10,7 @@ example:
   no-demo: true
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/getting-married/
+    url: https://www.mygov.scot/getting-married
     name: "Marriage in Scotland"
 ---
 ## About this component

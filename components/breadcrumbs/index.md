@@ -9,7 +9,7 @@ summary: "A breadcrumb shows a user where they are in a website’s structure. I
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/getting-married/
+    url: https://www.mygov.scot/getting-married
     name: "Marriage in Scotland"
 ---
 

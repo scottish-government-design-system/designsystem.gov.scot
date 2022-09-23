@@ -8,7 +8,7 @@ summary: "A 'next' and 'previous' link to pages that come before or after the us
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/apply-blue-badge/
+    url: https://www.mygov.scot/apply-blue-badge
     name: "Apply for a new Blue Badge"
 ---
 

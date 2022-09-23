@@ -99,7 +99,7 @@ When using multiple text inputs, you should:
 
 ### Use autocomplete on address fields
 
-It is best practice to use the `autocomplete` attribute on the postcode search and manual address input fields. This lets the user's browser autofill information on the user's behalf if it has been entered previously. 
+It is best practice to use the `autocomplete` attribute on the postcode search and manual address input fields. This lets the user's browser autofill information on the user's behalf if it has been entered previously.
 
 Allowing autocomplete is beneficial because it:
 
@@ -122,7 +122,7 @@ Our design is based on guidance in the [GOV.UK Design System](https://design-sys
 
 Existing pages with address lookups seem to perform well with high user satisfaction.
 
-There was an address lookup on gov.scot for citizens to find out which Covid protection level applied to where they lived. During the period that it was live: 
+There was an address lookup on gov.scot for citizens to find out which Covid protection level applied to where they lived. During the period that it was live:
 
 - Only 22.5% of users bounced. Of the remainder, 90% of users who loaded the Covid lookup completed the address lookup form. Some users used the lookup tool more than once in a session.
 - 96% of users on the Covid lookup gave positive feedback (site average is 75% positive).
@@ -135,4 +135,4 @@ There was an address lookup on gov.scot for citizens to find out which Covid pro
 
 Content of this form element should not be routinely tracked through website analytics. This is due to the risk of gathering personally identifiable information. As per the tracking script, interaction with the element would be tracked, provided that each field has a unique data attribute, input name, and identifiable class.
 
-See [our page on tracking](/get-started/tracking) for more information.
+See [our page on tracking](/get-started/tracking/) for more information.

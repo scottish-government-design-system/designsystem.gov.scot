@@ -9,7 +9,7 @@ summary: "A template for displaying contact details in a consistent way across d
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/veterans-charities/
+    url: https://www.mygov.scot/veterans-charities
     name: "Veterans' support organisations"
 ---
 

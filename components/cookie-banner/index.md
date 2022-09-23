@@ -10,7 +10,7 @@ experimental: true
 
 ## About this component
 
-The cookie banner is a [notification](/components/notification-banner) at the top of all site pages. It gives users the option to accept or reject non-essential cookies. It is used in combination with the cookie settings pattern.
+The cookie banner is a [notification](/components/notification-banner/) at the top of all site pages. It gives users the option to accept or reject non-essential cookies. It is used in combination with the cookie settings pattern.
 
 The cookie banner is shown every time a user accesses your website or service until they either:
 

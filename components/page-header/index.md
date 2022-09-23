@@ -8,7 +8,7 @@ summary: "The header for a content page."
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/accessibility/
+    url: https://www.mygov.scot/accessibility
     name: "Accessibility"
 ---
 

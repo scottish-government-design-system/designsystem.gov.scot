@@ -9,7 +9,7 @@ summary: "An accordion is a list of collapsed content items. A user can expand a
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/give-feedback/
+    url: https://www.mygov.scot/give-feedback
     name: "Feedback"
 ---
 

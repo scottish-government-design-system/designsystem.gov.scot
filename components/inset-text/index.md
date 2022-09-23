@@ -8,7 +8,7 @@ summary: "Used to highlight a block of text from the content that surrounds it. 
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/apply-blue-badge/
+    url: https://www.mygov.scot/apply-blue-badge
     name: "Apply for a new Blue Badge"
 ---
 

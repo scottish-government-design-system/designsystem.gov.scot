@@ -453,7 +453,7 @@ If the total not available, that part of the attribute is omitted.
 
 ### Search suggestions
 
-Search suggestions is a block found in the [Search results](/patterns/search-results) pattern.
+Search suggestions is a block found in the [Search results](/patterns/search-results/) pattern.
 
 Links in search suggestions get a `data-search` attribute whose value uses the pattern `suggestion-result-[index]/[total]` where the index is one-based.
 
@@ -570,7 +570,7 @@ The mobile navigation's toggle button is given a `data-header` attribute of `hea
 
 ### Skip links
 
-Links in skip links components get a `data-navigation` attribute whose value uses the pattern `skip-link-[index]` where the index is one-based. 
+Links in skip links components get a `data-navigation` attribute whose value uses the pattern `skip-link-[index]` where the index is one-based.
 
 {% highlight html %}
 <div class="ds_skip-links">

@@ -8,7 +8,7 @@ summary: "The warning text component puts a clear notice in a page to tell users
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/air-weapon/
+    url: https://www.mygov.scot/air-weapon
     name: "License an air weapon"
 ---
 

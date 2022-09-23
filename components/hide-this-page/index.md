@@ -10,7 +10,7 @@ example:
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/legal-advice/
+    url: https://www.mygov.scot/legal-advice
     name: "Help with a legal problem"
 ---
 
@@ -26,8 +26,8 @@ We designed our hide this page component so that:
 - the button text "Hide this page" states what the component does in plain English
 
 When a user clicks on the hide this page button, it:
-1. changes the current tab to the Google homepage 
-1. removes the previous page visit from the history 
+1. changes the current tab to the Google homepage
+1. removes the previous page visit from the history
 1. opens the BBC Weather website in a new active tab
 
 It does not remove every visit to a sensitive page from the history. It only removes the active page on which the user clicks the button.
@@ -35,7 +35,7 @@ It does not remove every visit to a sensitive page from the history. It only rem
 ### When to use this component
 
 Use the component on pages where:
-- viewing that service or content could put someone in danger or at risk of harm 
+- viewing that service or content could put someone in danger or at risk of harm
 - the information is sensitive and says something about a potential victim's plans
 
 For example, when a potential victim uses a service about leaving a domestic abuser.
@@ -50,13 +50,13 @@ Do not use this component if the service or content is unlikely to put a user at
 
 ## Evidence
 
-This component has been through several iterations on [mygov.scot](http://www.mygov.scot).
+This component has been through several iterations on [mygov.scot](https://www.mygov.scot).
 
 ### Research and testing
 
 We collaborated on the latest design, placement and language for this component with the:
 - Ministry of Justice (MoJ)
-- Department for Work and Pensions (DWP) 
+- Department for Work and Pensions (DWP)
 
 Usability testing in 2015 of a previous version included a feedback session. This version took users to our site homepage. The session showed users preferred the button to either:
 - close down the site completely
@@ -83,7 +83,7 @@ You can track hide this page link clicks through the original page path and a da
 
 The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#hide-this-page).
 
-## Accessibility 
+## Accessibility
 
 We offer a keyboard shortcut using the ESC key. Research suggested speed is critical to keep users safe and avoid potential harm. It may be quicker for some users to press a keyboard button, like the ESC key, than move the mouse pointer.
 

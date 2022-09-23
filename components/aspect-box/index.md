@@ -24,7 +24,7 @@ While it is preferable to use exactly-sized images for best performance, doing s
 
 ## Related components
 
-* [Navigational pages](/patterns/navigational-pages)
+* [Navigational pages](/patterns/navigational-pages/)
 * [Search results](/patterns/search-results/)
 
 ## Accessibility

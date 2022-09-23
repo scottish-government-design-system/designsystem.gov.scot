@@ -87,7 +87,7 @@ All widgets come with styles and interactions already built into them.
 
 ### Support
 
-If you are new to Axure, they offer [tutorials](https://docs.axure.com/tutorials/basics/getting-started/) to get you started.
+If you are new to Axure, they offer [tutorials](https://docs.axure.com/axure-rp/reference/getting-started-video/) to get you started.
 
 ### Releases
 

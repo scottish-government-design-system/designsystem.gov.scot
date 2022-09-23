@@ -23,7 +23,7 @@ Links are given a yellow background and dark grey bottom border when they have f
 <figcaption>A focussed link against a number of background colours</figcaption>
 </figure>
 
-Other components that look or behave like links use the same style for consistency. For example, [accordion headers](/components/accordion) or [sequential navigation](/components/sequential-navigation).
+Other components that look or behave like links use the same style for consistency. For example, [accordion headers](/components/accordion/) or [sequential navigation](/components/sequential-navigation/).
 
 <div class="ds_inset-text">For developers, there is a mixin called <code>blocklink</code> that you can include in the style rules of components. The mixin provides the majority of focus state styling, which means that you do not have to write it from scratch.</div>
 

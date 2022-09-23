@@ -26,7 +26,7 @@ We based our text input component on the one built by GDS. [Find out more about 
 
 ## Text input with an associated button
 
-Sometimes buttons are directly related to an input field, such as in a [site search](/components/site-search) or [date picker](/components/date-picker).
+Sometimes buttons are directly related to an input field, such as in a [site search](/components/site-search/) or [date picker](/components/date-picker/).
 
 {% include example-frame.html title="Text input example with an associated action button" name="action" %}
 

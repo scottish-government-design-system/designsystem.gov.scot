@@ -62,7 +62,7 @@ When groups of tasks are used it may also help users to keep track of their prog
 
 Providing a link back to the task list, throughout the transaction, may also help users navigate between sections.
 
-Let users check their answers as they progress through the tasks and before they are asked to complete the transaction. 
+Let users check their answers as they progress through the tasks and before they are asked to complete the transaction.
 
 If the transaction can be completed over a number of sessions, returning users should continue from the task list.
 
@@ -74,7 +74,7 @@ Where a task list is used and all tasks have been completed, a final confirmatio
 
 ## Evidence
 
-This pattern is similar to the [GOV.UK task list pattern](https://design-system.service.gov.uk/patterns/task-list-pages/) and is currently used by Social Security Scotland  having gone through several iterations and rounds of user testing. 
+This pattern is similar to the [GOV.UK task list pattern](https://design-system.service.gov.uk/patterns/task-list-pages/) and is currently used by Social Security Scotland  having gone through several iterations and rounds of user testing.
 
 ### Research and testing
 
@@ -97,7 +97,7 @@ These findings have been incorporated into the latest iteration of the pattern.
 
 To understand user behaviour, clicks on task links can be tracked through the original page path, the click URL and the click text.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
 
 ## Accessibility
 

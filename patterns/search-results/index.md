@@ -46,7 +46,7 @@ If search results span multiple pages then promoted results should only appear o
 
 When using the pagination component, to split results over multiple pages, some additional behaviours should be implemented.
 
-#### On the first page of results 
+#### On the first page of results
 
 - The number of results and the search term should be shown, for example ```87 results for search term```
 - The attribute ```data-total```, applied to the ```ds_search-results__list``` list element, contains the total number of results and is used to calculate the relative position of each result within the tracking attribute script
@@ -78,7 +78,7 @@ Promoted results are tracked using the page URL, the click text, click URL and a
 
 Suggested related search terms are tracked through the page URL (which contains the original search query), the click text, the click URL and a data attribute.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking).
+The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
 
 <div class="ds_inset-text"><div class="ds_inset-text__text">
 Where the site search is being used on a single-page app or it is not possible to put the search query in to the URL, the query could be included in the dataLayer for the page.

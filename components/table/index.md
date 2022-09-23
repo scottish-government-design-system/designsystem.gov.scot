@@ -8,7 +8,7 @@ summary: The Design System's table component make it easier to compare and scan 
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/scotland-bank-holidays/
+    url: https://www.mygov.scot/scotland-bank-holidays
     name: "Public and bank holidays"
 ---
 
@@ -30,7 +30,7 @@ In general mobile devices have room for around three columns of data, depending 
 
 In a scrolling table, if there are too many columns to display in the content area the first column becomes sticky while the rest of the table is allowed to scroll beneath it. For that reason the data in the first column should be broadly indicative of what the data in the column is about, as in this example where it is the name of the item being described in the row of data.
 
-Pros: 
+Pros:
 * Easy to compare data between rows.
 * Table display is preserved.
 
@@ -42,9 +42,9 @@ Cons:
 
 ### Collapse to boxes
 
-In a table that collapses to boxes, the rows of the table are transformed into individual blocks of data. 
+In a table that collapses to boxes, the rows of the table are transformed into individual blocks of data.
 
-Pros: 
+Pros:
 * Provides an easily-digestable summary of the data.
 
 Cons:

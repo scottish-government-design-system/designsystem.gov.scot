@@ -9,7 +9,7 @@ summary: "Date pickers help a user to input a date into a form."
 
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/tenancy-agreement-scotland/#!/tenancy/tenancy-start/
+    url: https://www.mygov.scot/tenancy-agreement-scotland/#!/tenancy/tenancy-start
     name: "Create a tenancy agreement"
 ---
 
