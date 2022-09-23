@@ -15,7 +15,7 @@ This page outlines some general best practice guidelines to think about when cre
 ## Keyboard interaction
 
 For keyboard users, such as people who use a screen reader, it is essential that all content can be interacted without using a mouse. For elements such as links, buttons and native form elements the browser and operating system ensures this functionality. Widgets that have no native element, such as an accordion or disclosure widget, require developers to ensure that they can be used with a keyboard.
-The [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) provides extensive guidance on what keyboard interactions are required for widgets.
+The [ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/) provides extensive guidance on what keyboard interactions are required for widgets.
 
 ## Styling for keyboard focus
 
@@ -73,4 +73,4 @@ ARIA provides a set of attributes that add additional information to HTML elemen
 ARIA will not automatically make your HTML more accessible. Poorly used ARIA may add nothing or, worse, lead to more confusing interactions for people.
 Try to use native elements where possible.
 
-Where not possible, consult the [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) to ensure you are using ARIA in line with best practice.
+Where not possible, consult the [ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/) to ensure you are using ARIA in line with best practice.

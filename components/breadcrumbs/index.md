@@ -55,5 +55,5 @@ This [Google structured data guidance for breadcrumbs](https://developers.google
 
 * Use of a `nav` element with `aria-label="breadcrumb"` is recommended. You can find out more about this on [GitHub](https://github.com/alphagov/govuk-design-system-backlog/issues/33).
 * This breadcrumb component contains all the accessibility features for breadcrumbs described in WAI-ARIA’s authoring practices for breadcrumbs.
-* [W3C](https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html) may also be useful.
+* [W3C](https://www.w3.org/WAI/ARIA/apg/example-index/breadcrumb/index.html) may also be useful.
 * You should make sure that separators between breadcrumb items are not read by screen readers and avoid using font glyphs for them – these can cause accessibility problems.
