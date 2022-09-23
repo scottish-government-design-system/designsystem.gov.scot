@@ -8,7 +8,7 @@ summary: "A header block used on category pages featuring the title, a summary a
 deprecated: Use the <a href="/components/feature-header/">'feature header' component</a> instead.
 examples:
   - site: mygov.scot
-    url: https://www.mygov.scot/benefits
+    url: https://www.mygov.scot/browse/benefits
     name: "Benefits and grants"
 ---
 
