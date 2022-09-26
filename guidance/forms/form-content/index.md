@@ -7,13 +7,13 @@ thispage: guidance.forms.form-content
 noindex: true
 ---
 
-Before designing a new digital form, or updating an existing one, it is critical that the service's requirements and the user needs are fully understood. User research must be undertaken to map the user journeys and drive what the form's content should be.
+Before designing a new digital form, or updating an existing one, it is critical that the service's requirements and the user needs are fully understood. User research must be undertaken to map the user journeys and inform what the form's content should be.
 
 The following activities should be considered when developing the form content.
 
 ## Identify all the information you need to collect
 
-Based on your research findings make a list of all the information your form needs to collect from users. This becomes the basis to designing the form questions.
+Use your research findings to make a list of all the information your form needs to collect from users. This becomes the basis for designing the form questions.
 
 ## Review the form questions 
 

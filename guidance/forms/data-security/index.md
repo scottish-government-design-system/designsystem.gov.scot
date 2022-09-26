@@ -17,6 +17,6 @@ Form spam is often an issue for digital services. Some government forms make use
 
 ## Data protection 
 
-Forms should be designed so that any storage of personal data in logs and tracking tools is limited what is essential and has been agreed by the service owner. All form data should be treated securely at all times.
+Forms should be designed so that any collection or storage of personal data in logs and tracking tools is limited to what is essential and has been agreed by the service owner. All form data must be treated securely at all times.
 
-URLs should follow best practice in being descriptive without personally identifiable information being included in the URL. If you keep track of progress through a form by building a URL from user responses, the questions you ask must not expose personally identifiable information in the URL. For example, you may be able to gather the information your form or service needs by asking if a user was born after a certain date instead of asking for their date of birth.
+URLs should follow best practice in being descriptive without personally identifiable information being included in the URL. If you keep track of progress through a form by building a URL from user responses, the questions you ask must not expose personally identifiable information in the URL. For example, if there is an age constraint for your service you may be able to gather the information your form or service needs by asking if a user was born after a certain date instead of asking for their date of birth.

@@ -9,14 +9,14 @@ noindex: true
 
 When your questions are ready, start designing your digital form following these principles:
 
-## Inform users about the form's requirements at the start
+## Tell users about the form's requirements at the start
 
 The form should have introductory content that clearly tells users what information they will need to provide. This will help them plan sufficient time to complete the form and let them gather any necessary documents before they begin. This content can be at the start of the form, or on the page that links to the form.
 
 If possible, work with a content designer and include the following information where relevant:
 
 - a list of documents required to complete the form
-- the average time to complete the form
+- the average time it takes to complete the form
 - whether the form must be completed in one session or if progress can be saved and returned to over multiple sessions
 - how many steps need to be taken to complete the form
 
@@ -50,12 +50,12 @@ question asked:
 - use [radio buttons](https://designsystem.gov.scot/components/radio-buttons/) when there is a limited choice of options and only one can be selected
 - use [checkboxes](https://designsystem.gov.scot/components/checkboxes/) when there is a limited choice of options and more than one can be selected
 - use [text input](https://designsystem.gov.scot/components/text-input/) fields when asking for short pieces of information and [textareas](https://designsystem.gov.scot/components/textarea/) where a longer response is needed
-- if possible structure your questions to use radio buttons or checkboxes rather than a dropdown select to reduce cognitive load
+- if possible, structure your questions to use radio buttons or checkboxes rather than a dropdown select to reduce cognitive load
 
 For text fields, you should also consider the type of data the user is being asked to provide. For example:
 
 - a [date picker](https://designsystem.gov.scot/components/date-picker/) may be the most suitable for browsing for a date in a calendar, while specific input fields for day, month and year may be more suitable for known dates such as date of birth
-- the size of the field should be appropriate for the expected input if you know the form the data will take, such as a post code or telephone number
+- the size of the field should be appropriate for the expected input if you know the form the data will take, such as a postcode or telephone number
 - if fields have a maximum acceptable length, show a [character count](https://designsystem.gov.scot/components/character-count/) so the user knows how much space they have remaining
 
 ## Help users avoid errors
@@ -84,8 +84,12 @@ When forms are long or complex with multiple steps, provide a way for users to f
 
 ## Design for mobile first
 
-Use native device features to simplify tasks for users on a mobile. For example: allowing users to take a photo of their biometric residence permit using their device's camera, without leaving the form.
+'Mobile first' is a design strategy where you begin with the smallest and least capable devices first and work your way up to larger screens. Working in this way helps you to prioritise the most important content for your users. It creates a strong foundation for you to add to on larger screens and helps you to avoid superfluous elements on your page. Mobile first prioritises content over decoration.
 
-## Set clear expectations when the form is completed
+Use features available on mobile phones to help people to use your service, but remember that these features won't necessarily be available to everybody depending on the capabilities of their device. For example, you could allow people to take a photograph of a document they need to provide to you, but you will also need to provide an alternative way to provide that document such as a file upload.
+
+Over half of all Internet traffic is on a mobile device, and on some Scottish Government services mobile usage is over 87% of all traffic. Most people have a mobile phone, and for some people their phone is the only way they access the Internet at home.
+
+## Set clear expectations when the form is submitted
 
 When the form is submitted, clearly inform users about what to expect so that they are aware of the next steps in the process. If the process is completed, the form should inform them about the outcome.

@@ -41,6 +41,17 @@ The error state for radio buttons marks the entire fieldset.
 
 {% include example-frame.html title="Radio button example with an error state" name="error" %}
 
+### Revealing additional questions
+
+If there are additional questions that apply to a particular radio option, they can be made to display only when that option is chosen.
+
+This will:
+
+* make the related questions easier to answer by grouping them together
+* make the form simpler for users who do not need to complete the related questions
+
+{% include example-frame.html title="Radio button example with conditional content" name="conditional" %}
+
 ### Inline radio buttons
 
 <div class="ds_inset-text">
@@ -57,18 +68,9 @@ Only use inline radio buttons when:
 
 If you are using an inline display for a yes/no choice, make 'Yes' the first option.
 
+Inline radio buttons have some limitations. You cannot use 'hint text' with inline radio buttons, and they cannot be used to reveal additional questions or content.
+
 {% include example-frame.html title="Radio button example with inline display" name="inline" %}
-
-### Revealing additional questions
-
-If there are additional questions that apply to a particular radio option, they can be made to display only when that option is chosen.
-
-This will:
-
-* make the related questions easier to answer by grouping them together
-* make the form simpler for users who do not need to complete the related questions
-
-{% include example-frame.html title="Radio button example with conditional content" name="conditional" %}
 
 ## Website analytics
 

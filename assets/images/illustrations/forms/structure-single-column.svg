@@ -11,4 +11,13 @@
   <path fill="#fff" stroke="#333" stroke-width="2" d="M65 396h333v124H65zm0-100h153.3v32H65z"/>
   <path fill="#0065BD" d="M191 295h34v34h-34zM64 697h90v36H64z"/>
   <path stroke="#428542" stroke-width="2" d="M79 81v607m10-9.2-10 10-10-10"/>
+  <circle cx="36.5" cy="35.5" r="17.5" fill="#fff"/>
+  <g clip-path="url(#a)">
+    <path fill="#428542" d="M36 16a20 20 0 1 0 0 40 20 20 0 0 0 0-40Zm-4 30L22 36l2.8-2.8 7.2 7.1 15.2-15.1L50 28 32 46Z"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h48v48H0z" transform="translate(12 12)"/>
+    </clipPath>
+  </defs>
 </svg>
