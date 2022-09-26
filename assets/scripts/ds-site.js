@@ -1,4 +1,4 @@
-import storage from './storage';
+import storage from '../../node_modules/@scottish-government/pattern-library/src/base/tools/storage/storage';
 
 const dsSite = {
     init: function () {
