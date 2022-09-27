@@ -107,8 +107,8 @@ Every website should have its performance monitored regularly - this allows the 
 To do this you will need to set up certain tools for your website or service. These are:
 
 * A tag management system (optional for smaller websites/services, highly recommended for larger projects or any without in-house developers)
-* A web analytics package(s) (which allow you to record your service’s data, such as the number of users, and to output the data on a dashboard) - this could include [Matomo](https://matomo.org/), [Google Analytics](https://analytics.google.com/), [Adobe web analytics](http://www.adobe.com/uk/marketing-cloud/web-analytics.html), etc.
-* A dashboarding tool (optional) - this could include [Klipfolio](https://www.klipfolio.com/), [PowerBI](https://powerbi.microsoft.com/) or [Google Data Studio](https://datastudio.google.com/)
+* A web analytics package(s) (which allow you to record your service’s data, such as the number of users, and to output the data on a dashboard) - this could include [Matomo](https://matomo.org/), [Google Analytics](https://analytics.google.com/analytics/web/), [Adobe web analytics](https://www.adobe.com/uk/marketing-cloud/web-analytics.html), etc.
+* A dashboarding tool (optional) - this could include [Klipfolio](https://www.klipfolio.com/), [PowerBI](https://powerbi.microsoft.com/) or [Google Data Studio](https://datastudio.google.com/overview)
 * The search console for key search engines (if your service is web-based)
 * Additional analytics tools to collect supplemental information (optional) - this could include heatmapping tools
 
@@ -149,7 +149,7 @@ To access and configure GTM:
 * Select the type of property for which you intend to use the container for. In most instances you’ll select 'web'
 * Two code snippets will appear on screen, along with instructions on where to place them: place the code as instructed on all of your pages (this might require help from a developer)
 * Repeat the previous 3 steps for any additional containers i.e. for test environments. Follow the same naming convention as your other container, e.g. 'mygov.scot - www - test'
-* Add the dataLayer snippet to your site (advanced). Here’s a [guide on the dataLayer](https://www.optimizesmart.com/google-tag-manager-data-layer-explained-like-never/) and here are instructions from Google on [implementation for your developer](https://developers.google.com/tag-manager/devguide).
+* Add the dataLayer snippet to your site (advanced). Here’s a [guide on the dataLayer](https://www.optimizesmart.com/google-tag-manager-data-layer-explained-like-never/) and here are instructions from Google on [implementation for your developer](https://developers.google.com/tag-platform/tag-manager/web/datalayer).
 
 Once GTM has been deployed to all pages, it lets you deploy your analytics tool/Google Analytics, enhanced tracking capability and any other tags where applicable, e.g. advertising floodlight tags/pixels, etc.
 
@@ -162,12 +162,12 @@ If you are setting up your own event tracking we recommend adding document/downl
 * [Optimize Smart: Google Tag Manager turorial 2021](https://www.optimizesmart.com/beginners-guide-google-tag-manager-v2/)
 * [iPullRank: Complete guide to Google Tag Manager](https://ipullrank.com/resources/guides-ebooks/google-tag-manager-guide)
 * [Digital Marketer: The Ultimate Guide to Google Tag Manager](https://web.archive.org/web/20211019093224/https://www.digitalmarketer.com/blog/guide-to-google-tag-manager/)
-* [Google: Developer documentation for Google Tag Manager](https://developers.google.com/tag-manager/)
+* [Google: Developer documentation for Google Tag Manager](https://developers.google.com/tag-platform/tag-manager)
 * [Google: Components of Google Tag Manager](https://support.google.com/tagmanager/answer/6103657?hl=en)
 * [Optimize Smart: Google Tag Manager event tracking tutorial](https://www.optimizesmart.com/event-tracking-in-google-tag-manager-v2-complete-guide/)
 * [Simo Ahava: The Data Layer](https://www.simoahava.com/analytics/data-layer/)
 * [Optimize Smart: Google Tag Manager Data Layer tutorial](https://www.optimizesmart.com/google-tag-manager-data-layer-explained-like-never/)
-* [Google: Developer documentation for Data Layer](https://developers.google.com/tag-manager/devguide)
+* [Google: Developer documentation for Data Layer](https://developers.google.com/tag-platform/tag-manager/web/datalayer)
 
 
 
@@ -217,7 +217,7 @@ You can use [Google Tag Assistant Chrome extension](https://get.google.com/tagas
 * [Annielytics blog](https://www.annielytics.com/blog/)
 * [Google: Learn about Google Analytics](https://developers.google.com/analytics/devguides/platform/)
 * [Avinasg Kaushik: Simple tricks to up-level your analytics reports](https://www.kaushik.net/avinash/tricks-to-up-level-your-analytics-reports/)
-* [GA Dev Tools: Discover the Google Analytics platform](https://ga-dev-tools.appspot.com/)
+* [GA Dev Tools: Discover the Google Analytics platform](https://ga-dev-tools.web.app/)
 * [Google: Hierarchy of organizations, accounts, users, properties, and views](https://support.google.com/analytics/answer/1009618)
 * [Google: About views](https://support.google.com/analytics/answer/2649553?hl=en&ref_topic=6014102)
 * [Search Engine Journal: Google Analytics Indepth Look: URL Destination Goals](https://www.searchenginejournal.com/google-analytics-indepth-look-url-destination-goals/73605/)
@@ -227,7 +227,7 @@ You can use [Google Tag Assistant Chrome extension](https://get.google.com/tagas
 
 ## Set up and link Google Search Console
 
-[Google Search Console](https://support.google.com/webmasters/answer/6001104?hl=en) (previously Google Webmaster Tools) is a service for website administrators to check indexing status, optimise visibility of their websites, view a sample of websites that link back to you, and see site errors and Google crawl stats.
+[Google Search Console](https://search.google.com/search-console/about) (previously Google Webmaster Tools) is a service for website administrators to check indexing status, optimise visibility of their websites, view a sample of websites that link back to you, and see site errors and Google crawl stats.
 
 * [Sign in to Google Search Console using your shared email account](https://www.google.com/webmasters/tools/) (formerly Google Webmaster Tools) and click the red button to add your website
 
@@ -262,9 +262,9 @@ You can use [Google Tag Assistant Chrome extension](https://get.google.com/tagas
 
 ## Set up Bing Webmaster Tools
 
-[Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster) is a service for website administrators to check indexing status, optimise visibility of their websites, view a sample of websites that link back to you, and see site errors and Bing crawl stats.
+[Bing Webmaster Tools](https://www.bing.com/webmasters/about) is a service for website administrators to check indexing status, optimise visibility of their websites, view a sample of websites that link back to you, and see site errors and Bing crawl stats.
 
-* [Sign in to Bing Webmaster Tools using a shared email account](https://www.bing.com/toolbox/webmaster)
+* [Sign in to Bing Webmaster Tools using a shared email account](https://www.bing.com/webmasters/about)
 * Add your domain. Note: it’s often best to start with the root domain (without the www.) e.g. `https://twitter.com`
 * Submit a link to your XML sitemap - this is normally found at `yoursite.com/sitemap.xml`
 * You’ll be presented with 3 verification options. Our recommended method is to use the 'add CNAME record to DNS' option. You’ll be presented with a string of characters used by Bing for confirmation that you are the owner/admin of the site in question. Follow the instructions to create a text record in the zone file, or have your DNS provider do this for you if you have a managed service.
@@ -278,7 +278,7 @@ You can use [Google Tag Assistant Chrome extension](https://get.google.com/tagas
 ## Set up and link Google AdWords
 Google AdWords is a pay-per-click (PPC) marketing platform. It’s good practice from a budgetary, risk, audit and management perspective to manage AdWords accounts in-house, delegating access/permissions to agencies and staff where necessary. For this there are two account options for organisations:
 
-* [Standard AdWords account](https://adwords.google.com/home/) (applies to the majority)
+* [Standard AdWords account](https://ads.google.com/home/) (applies to the majority)
 * AdWords Manager Account (applies to organisations with multiple accounts)
 
 It’s important to note that if you believe a management account is necessary, you should choose this option before setting up a standard account (otherwise, you’ll need to create another account if you’ve already set up a standard account). Your organisation will be best placed to get a Manager Account if you run multiple accounts across multiple sites or have complex budgetary and procurement structures.
@@ -287,7 +287,7 @@ The other reason you may require a Manager Account, is if you’re looking to ap
 
 To set up a Manager Account:
 
-* [Create an account](https://adwords.google.com/home/tools/manager-accounts/)
+* [Create an account](https://ads.google.com/home/tools/manager-accounts/)
 * Once completed you’ll be taken to the dashboard. From here you can add any existing Google AdWords accounts or create an automatically linked account. Click the '+ Account' button and select the appropriate option from the dropdown.
 
 
