@@ -197,7 +197,7 @@ dd {
         <dt>Viewport</dt>
         <dd>992px - 1199px</dd>
         <dt>Container width</dt>
-        <dd>968px</dd>
+        <dd>928px</dd>
     </dl>
 </div>
 
@@ -209,7 +209,7 @@ dd {
         <dt>Viewport</dt>
         <dd>1200px and above</dd>
         <dt>Container width</dt>
-        <dd>1168px</dd>
+        <dd>1120px</dd>
     </dl>
 </div>
 
