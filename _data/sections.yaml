@@ -174,7 +174,6 @@ patterns:
       url: /patterns/site-header/
     - title: Task list
       url: /patterns/task-list/
-      draft: true
 guidance:
   title: Guidance
   url: /guidance/
