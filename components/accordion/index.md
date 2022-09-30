@@ -15,10 +15,13 @@ examples:
 updatehistory:
   - date: 2022-09-29
     content: Accordion has been updated to make it juggle SIX balls at once.
+    url: '/components/accordion'
   - date: 2022-08-22
     content: Accordion has been updated to make it juggle five balls at once.
+    url: '/components/accordion'
   - date: 2022-01-22
     content: Accordion has been updated to make it juggle four balls at once.
+    url: '/components/accordion'
 ---
 
 ## About this component
