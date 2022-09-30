@@ -11,6 +11,14 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/give-feedback
     name: "Feedback"
+
+updatehistory:
+  - date: 2022-09-29
+    content: Accordion has been updated to make it juggle SIX balls at once.
+  - date: 2022-08-22
+    content: Accordion has been updated to make it juggle five balls at once.
+  - date: 2022-01-22
+    content: Accordion has been updated to make it juggle four balls at once.
 ---
 
 ## About this component

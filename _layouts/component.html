@@ -77,6 +77,38 @@
                                 <p>This component has been deprecated. {{page.deprecated}}</p>
                             </div>
                             {% endif %}
+
+                            {% if page.updatehistory %}
+                                {% assign latestupdate = page.updatehistory[0] %}
+
+                                {% capture threemonthsagonowunix %}{{'now' | date: '%s' | minus: 7948800}}{% endcapture %}
+                                {% capture latestupdatetime %}{{latestupdate.date | date: '%s'}}{% endcapture %}
+
+                                {% if latestupdatetime > threemonthsagonowunix %}
+                                    <div class="ds_callout">
+                                        <h2 class="ds_h4">
+                                            {% assign day = latestupdate.date | date: "%d" | plus: 0 %}
+
+                                            {% case day %}
+                                            {% when 1, 21, 31 %}
+                                                {% assign suffix = "st" %}
+                                            {% when 2, 22 %}
+                                                {% assign suffix = "nd" %}
+                                            {% when 3, 23 %}
+                                                {% assign suffix = "rd" %}
+                                            {% else %}
+                                                {% assign suffix = "th" %}
+                                            {% endcase %}
+
+                                            {% capture updatedDate %}{{ latestupdate.date | date: "%B %d" }}{{suffix}} {{ latestupdate.date | date: "%Y" }}{% endcapture %}
+                                            Updated {{updatedDate}}
+                                        </h2>
+
+                                        {{latestupdate.content}}
+                                    </div>
+                                {% endif %}
+                            {% endif %}
+
                        </header>
                     </div>
 
@@ -97,6 +129,50 @@
                         {% endfor %}
 
                         {{content}}
+
+                        {% if page.updatehistory %}
+                            <div id="history" class="ds_!_margin-top--4">
+                                <dl class="ds_metadata">
+
+                                    <div class="ds_metadata__item">
+                                        <dt class="ds_metadata__key">Last updated</dt>
+                                        <dd class="ds_metadata__value">
+                                            <strong>{{updatedDate}}</strong>
+                                            <span class="dss_toggle-link">
+                                            - <a href="#full-history" data-module="dss-toggle-link" aria-controls="full-history" data-toggled-text="hide all updates" aria-expanded="false">show all updates</a>
+                                            </span>
+                                        </dd>
+                                    </div>
+
+                                    <div id="full-history" data-module="dss-update-history" class="ds_metadata__item  dss_toggle-link__target">
+                                        <dt class="ds_metadata__key  visually-hidden">All updates</dt>
+                                        <dd class="ds_metadata__value  dss_history-list">
+                                            <ol class="ds_no-bullets">
+
+                                                {% for item in page.updatehistory %}
+                                                    <li class="dss_history-list__item">
+                                                        {% assign day = item.date | date: "%d" | plus: 0 %}
+
+                                                        {% case day %}
+                                                            {% when 1, 21, 31 %}
+                                                                {% assign suffix = "st" %}
+                                                            {% when 2, 22 %}
+                                                                {% assign suffix = "nd" %}
+                                                            {% when 3, 23 %}
+                                                                {% assign suffix = "rd" %}
+                                                            {% else %}
+                                                                {% assign suffix = "th" %}
+                                                        {% endcase %}
+                                                        <time>{{ item.date | date: "%B %d" }}{{suffix}} {{ item.date | date: "%Y" }}</time>
+                                                        <p style="font-weight: 400">{{item.content}}</p>
+                                                    </li>
+                                                {% endfor %}
+                                            </ol>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        {% endif %}
 
                         {% if page.examples %}
                             <style>
