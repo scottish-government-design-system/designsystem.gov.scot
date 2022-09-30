@@ -1,0 +1,32 @@
+
+{% assign indexed = site.pages | where_exp: "item", "item.updatehistory" %}
+{% assign updates = "" | split: "" %}
+
+{% for item in indexed %}
+    {% for update in item.updatehistory %}
+        {% capture threemonthsagounix %}{{'now' | date: '%s' | minus: 7948800}}{% endcapture %}
+        {% capture updatetime %}{{update.date | date: '%s'}}{% endcapture %}
+
+        {% if updatetime > threemonthsagounix %}
+            {% assign updates = updates | push: update %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{% if updates %}
+    {% assign updates_by_date = updates | sort: "date" | reverse %}
+    <section id="whats-new" class="zebra">
+        <div class="ds_wrapper">
+            <h2>What's new</h2>
+
+            <ul>
+                {% for item in updates_by_date %}
+                    {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
+                    <li>
+                        {{item.content}} {% if item.url %} <a href="{{item.url}}">(link)</a> {% endif %} ({{updatedDate | strip}})
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+{% endif %}

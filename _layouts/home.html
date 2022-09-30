@@ -38,8 +38,6 @@
     <div class="ds_page__top">
         {% include notifications.html %}
         {% include site-header.html %}
-
-
     </div>
 
     <div class="ds_page__middle">
@@ -77,6 +75,8 @@
                     </div>
                 </div>
             </section>
+
+            {% include homepage-whats-new.html %}
 
             {% if page.sortfield %}
                 {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}

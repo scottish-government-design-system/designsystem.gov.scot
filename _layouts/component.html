@@ -7,6 +7,10 @@
 
 {% include skip-links.html %}
 
+{% if page.updatehistory %}
+    {% assign updatehistory_by_date = page.updatehistory | sort: "date" | reverse %}
+{% endif %}
+
 <div class="ds_page">
 
     <div class="ds_page__top">
@@ -78,29 +82,16 @@
                             </div>
                             {% endif %}
 
-                            {% if page.updatehistory %}
-                                {% assign latestupdate = page.updatehistory[0] %}
+                            {% if updatehistory_by_date %}
+                                {% assign latestupdate = updatehistory_by_date[0] %}
 
-                                {% capture threemonthsagonowunix %}{{'now' | date: '%s' | minus: 7948800}}{% endcapture %}
+                                {% capture threemonthsagounix %}{{'now' | date: '%s' | minus: 7948800}}{% endcapture %}
                                 {% capture latestupdatetime %}{{latestupdate.date | date: '%s'}}{% endcapture %}
 
-                                {% if latestupdatetime > threemonthsagonowunix %}
+                                {% if latestupdatetime > threemonthsagounix %}
                                     <div class="ds_callout">
                                         <h2 class="ds_h4">
-                                            {% assign day = latestupdate.date | date: "%d" | plus: 0 %}
-
-                                            {% case day %}
-                                            {% when 1, 21, 31 %}
-                                                {% assign suffix = "st" %}
-                                            {% when 2, 22 %}
-                                                {% assign suffix = "nd" %}
-                                            {% when 3, 23 %}
-                                                {% assign suffix = "rd" %}
-                                            {% else %}
-                                                {% assign suffix = "th" %}
-                                            {% endcase %}
-
-                                            {% capture updatedDate %}{{ latestupdate.date | date: "%B %d" }}{{suffix}} {{ latestupdate.date | date: "%Y" }}{% endcapture %}
+                                            {% capture updatedDate %}{% include human-date.html date=latestupdate.date %}{% endcapture %}
                                             Updated {{updatedDate}}
                                         </h2>
 
@@ -130,7 +121,7 @@
 
                         {{content}}
 
-                        {% if page.updatehistory %}
+                        {% if updatehistory_by_date %}
                             <div id="history" class="ds_!_margin-top--4">
                                 <dl class="ds_metadata">
 
@@ -149,21 +140,11 @@
                                         <dd class="ds_metadata__value  dss_history-list">
                                             <ol class="ds_no-bullets">
 
-                                                {% for item in page.updatehistory %}
+                                                {% for item in updatehistory_by_date %}
                                                     <li class="dss_history-list__item">
-                                                        {% assign day = item.date | date: "%d" | plus: 0 %}
+                                                        {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
 
-                                                        {% case day %}
-                                                            {% when 1, 21, 31 %}
-                                                                {% assign suffix = "st" %}
-                                                            {% when 2, 22 %}
-                                                                {% assign suffix = "nd" %}
-                                                            {% when 3, 23 %}
-                                                                {% assign suffix = "rd" %}
-                                                            {% else %}
-                                                                {% assign suffix = "th" %}
-                                                        {% endcase %}
-                                                        <time>{{ item.date | date: "%B %d" }}{{suffix}} {{ item.date | date: "%Y" }}</time>
+                                                        <time>{{updatedDate}}</time>
                                                         <p style="font-weight: 400">{{item.content}}</p>
                                                     </li>
                                                 {% endfor %}

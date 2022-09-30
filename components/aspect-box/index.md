@@ -8,6 +8,13 @@ thispage: component.aspect-box
 summary: "An aspect box crops images to a particular aspect ratio."
 example:
   no-demo: true
+updatehistory:
+  - date: 2022-09-22
+    content: Aspect box update.
+    url: /components/aspect-box
+  - date: 2022-09-24
+    content: Added "implementation" section to Aspect Box.
+    url: /components/aspect-box#implementation
 ---
 
 ## About this component
