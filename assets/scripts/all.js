@@ -1,5 +1,6 @@
 import { initAll } from '../../node_modules/@scottish-government/pattern-library/src/all';
 import CookiePreferences from './cookie-preferences';
+import ToggleLink from './toggle-link';
 
 window.DS = window.DS || {};
 
@@ -35,3 +36,6 @@ if (cookiePreferencesEl) {
     const cookiePreferences = new CookiePreferences(cookiePreferencesEl);
     cookiePreferences.init();
 }
+
+const toggleLinks = [].slice.call(document.querySelectorAll('[data-module="dss-toggle-link"]'));
+toggleLinks.forEach(toggleLink => new ToggleLink(toggleLink).init());
