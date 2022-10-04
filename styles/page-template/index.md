@@ -5,6 +5,11 @@ category: styles
 parent: styles
 thispage: style.page-template
 summary: "Pages built using the Design System should use this template as a starting point."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "layout" styles page
+    url: /styles/layout
 ---
 
 {% include example-frame.html title="Example HTML for page template" name="code" no-demo=true html-expanded=true  %}

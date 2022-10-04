@@ -5,6 +5,11 @@ category: components
 parent: components
 thispage: component.pagination
 summary: "Pagination helps users navigate through large groups of content that are separated into pages."
+
+updatehistory:
+  - date: 2022-07-05
+    content: Add "pagination" component
+    url: /components/pagination
 ---
 
 ## About this component

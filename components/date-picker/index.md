@@ -11,6 +11,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/tenancy-agreement-scotland/#!/tenancy/tenancy-start
     name: "Create a tenancy agreement"
+
+updatehistory:
+  - date: 2020-07-23
+    content: Add "date picker" component
+    url: /components/date-picker
 ---
 
 

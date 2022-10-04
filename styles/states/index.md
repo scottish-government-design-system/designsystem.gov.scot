@@ -5,6 +5,11 @@ category: styles
 parent: styles
 thispage: style.states
 #summary: ""
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "focus states" styles page
+    url: /styles/states
 ---
 
 When a user moves through a web page by jumping between things like the page’s links, buttons or form fields, it needs to be clear to the user which part of the page they’re on.

@@ -10,6 +10,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/apply-blue-badge
     name: "Apply for a new Blue Badge"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "inset text" component
+    url: /components/inset-text
 ---
 
 We based our inset text component on the one built by GDS. [Find out more about the inset text component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/inset-text/).

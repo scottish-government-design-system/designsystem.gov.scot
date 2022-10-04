@@ -8,10 +8,19 @@ thispage: component.back-to-top
 summary: "A link that allows users to quickly navigate back to the top of the page with a single click. The link improves navigation for users on long pages of content and on mobile devices."
 example:
   no-demo: true
+
 examples:
   - site: mygov.scot
     url: https://www.mygov.scot/getting-married
     name: "Marriage in Scotland"
+
+updatehistory:
+  - date: 2021-02-24
+    content: Added a link to a live "back to top" example on mygov.scot
+    url: /components/back-to-top/
+  - date: 2021-02-02
+    content: Add "back to top" component"
+    url: '/components/back-to-top'
 ---
 ## About this component
 

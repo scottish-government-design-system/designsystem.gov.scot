@@ -5,6 +5,7 @@ category: patterns
 parent: patterns
 thispage: pattern.addresses
 summary: "Use this pattern when you need to ask users for addresses. This could be their own address or an address of a third party."
+
 examples:
   - site: mygov.scot
     url: https://www.mygov.scot/non-domestic-rates-calculator#!/property/
@@ -12,6 +13,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/tenancy-agreement-scotland#!/property/property-details/
     name: "Create a tenancy agreement"
+
+updatehistory:
+  - date: 2022-02-01
+    content: Add "addresses" pattern
+    url: /patterns/addresses
 ---
 
 <div class="ds_warning-text">

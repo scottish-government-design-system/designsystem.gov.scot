@@ -8,6 +8,7 @@ summary: "Helps the user to review or change how your site or service stores dat
 example:
   no-demo: true
   no-code: true
+
 examples:
  - site: designsystem.gov.scot
    url: https://designsystem.gov.scot/cookies/
@@ -16,6 +17,11 @@ examples:
    url: https://www.mygov.scot/cookies
    name: "Cookies page on mygov.scot"
    description: Note that mygov.scot has web analytics cookies set to ‘on’. Our analytics cookies anonymise all data, so we made an exception not to default to ‘off’. 
+
+updatehistory:
+  - date: 2021-12-07
+    content: Add "cookies page" pattern
+    url: /patterns/cookies-page
 ---
 
 ## About this pattern

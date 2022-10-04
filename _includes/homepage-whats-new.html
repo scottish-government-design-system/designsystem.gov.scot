@@ -21,10 +21,17 @@
 
             <ul>
                 {% for item in updates_by_date %}
-                    {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
-                    <li>
-                        {{item.content}} {% if item.url %} <a href="{{item.url}}">(link)</a> {% endif %} ({{updatedDate | strip}})
-                    </li>
+                    {% unless item.homepage == false %}
+                        {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
+                        <li>
+                            {% if item.homepage %}
+                                {{item.homepage}}
+                            {% else %}
+                                {{item.content}}
+                            {% endif %}
+                            {% if item.url %} <a href="{{item.url}}">(link)</a> {% endif %} ({{updatedDate | strip}})
+                        </li>
+                    {% endunless %}
                 {% endfor %}
             </ul>
         </div>

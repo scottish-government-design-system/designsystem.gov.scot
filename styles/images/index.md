@@ -5,6 +5,18 @@ category: styles
 parent: styles
 thispage: style.images
 summary: "We use images where content may benefit from a supporting example to clarify information."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "images" styles page
+    url: /styles/images
+  - date: 2022-01-14
+    content: Add documentation about the effect images can have on performance
+    url: /styles/images#performance
+  - date: 2022-08-09
+    content: Add link to the "aspect box" component, which can help crop images
+    url: /styles/images
+    homepage: false
 ---
 
 ## Photography

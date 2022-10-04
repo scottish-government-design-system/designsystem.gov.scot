@@ -5,6 +5,11 @@ category: styles
 parent: styles
 thispage: style.base-grid
 summary: The column grid used for page layouts.
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "base grid" styles page
+    url: /styles/base-grid
 ---
 
 ## About this style element

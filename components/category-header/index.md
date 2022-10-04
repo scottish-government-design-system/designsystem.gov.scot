@@ -6,10 +6,20 @@ parent: components
 thispage: component.category-header
 summary: "A header block used on category pages featuring the title, a summary and an illustration."
 deprecated: Use the <a href="/components/feature-header/">'feature header' component</a> instead.
+
 examples:
   - site: mygov.scot
     url: https://www.mygov.scot/browse/benefits
     name: "Benefits and grants"
+
+updatehistory:
+  - date: 2022-08-19
+    content: Category header has been deprecated and replaced by "<a href="/components/category-header">feature header</a>"
+    url: /components/category-header
+    homepage: false
+  - date: 2020-08-19
+    content: Add "category header" component
+    url: /components/category-header
 ---
 
 ## About this component

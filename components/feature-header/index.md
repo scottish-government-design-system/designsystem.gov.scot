@@ -15,6 +15,11 @@ examples:
   - site: gov.scot
     url: https://www.gov.scot/arts-culture-and-sport/
     name: "Arts, culture and sport"
+
+updatehistory:
+  - date: 2022-08-19
+    content: Add "feature header" component
+    url: /components/feature-header
 ---
 
 ## About this component

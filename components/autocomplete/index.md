@@ -9,6 +9,11 @@ summary: "Autocomplete helps users to complete a text input by providing suggest
 experimental: true
 example:
   no-demo: true
+updatehistory:
+  - date: 2022-07-06
+    content: Add "autocomplete" component
+    url: '/components/autocomplete'
+
 ---
 
 ## About this component

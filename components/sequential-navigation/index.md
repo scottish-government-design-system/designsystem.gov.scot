@@ -10,6 +10,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/apply-blue-badge
     name: "Apply for a new Blue Badge"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "sequential navigation" component
+    url: /components/sequential-navigation
 ---
 
 

@@ -6,6 +6,11 @@ parent: patterns
 thispage: pattern.task-list
 summary: "Help users to complete complicated forms and other activities by providing a list of tasks and showing their current states of completion."
 experimental: true
+
+updatehistory:
+  - date: 2022-08-25
+    content: Add "task list" pattern
+    url: /patterns/task-list
 ---
 
 ## About this pattern

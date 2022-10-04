@@ -6,6 +6,11 @@ subcategory: forms
 parent: components
 thispage: component.error-message
 summary: "Error messages tell a user that there's been a problem with the answer they've given on a form or a webpage, and how to fix it."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "error message" component
+    url: /components/error-message
 ---
 
 ## About this component

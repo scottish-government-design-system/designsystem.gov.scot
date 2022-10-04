@@ -12,6 +12,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/legal-advice
     name: "Help with a legal problem"
+
+updatehistory:
+  - date: 2020-11-20
+    content: Add "hide this page" component
+    url: /components/hide-this-page
 ---
 
 ## About this component

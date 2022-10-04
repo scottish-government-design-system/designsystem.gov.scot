@@ -10,6 +10,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/scotland-bank-holidays
     name: "Public and bank holidays"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "select" component
+    url: /components/select
 ---
 We based our select component on the one built by GDS. [Find out more about the select component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/select/).
 

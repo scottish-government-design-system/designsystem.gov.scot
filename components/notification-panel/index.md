@@ -5,6 +5,15 @@ category: components
 parent: components
 thispage: component.notification-panel
 summary: "A highlight block that shows the user important information after they have completed a task, such as a success message"
+
+updatehistory:
+  - date: 2022-08-16
+    content: Remove reference to other colours of notification panel. Notification panels are for positive notifications only.
+    url: /components/notification-panel
+    homepage: false
+  - date: 2021-12-07
+    content: Add "notification panel" component
+    url: /components/notification-panel
 ---
 
 ## About this component
