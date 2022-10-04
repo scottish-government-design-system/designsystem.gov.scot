@@ -6,6 +6,15 @@ parent: styles
 thispage: style.resonsive-spacing
 #summary: ""
 published: true
+
+updatehistory:
+  - date: 2022-03-11
+    content: Add "responsive spacing" styles page
+    url: /styles/responsive-spacing
+  - date: 2022-08-19
+    content: Add "using the scale in your project" section
+    url: /styles/responsive-spacing#using-the-scale-in-your-project
+    homepage: New documentation for how to use the responsive scale, including new CSS classes and SCSS mixins
 ---
 
 ## Grid

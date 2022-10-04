@@ -6,6 +6,14 @@ parent: patterns
 thispage: pattern.search-results
 summary: "A list displaying all the search results found after a user has made a search."
 experimental: true
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "search results" pattern
+    url: /patterns/search-results
+  - date: 2022-03-14
+    content: Add guidance for displaying "promoted" results
+    url: /patterns/search-results
 ---
 
 ## About this pattern

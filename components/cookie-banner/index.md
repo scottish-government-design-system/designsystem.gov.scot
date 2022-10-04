@@ -6,6 +6,11 @@ parent: components
 thispage: component.cookie-banner
 summary: "A notice to help users to understand what cookies do. It allows users to accept or reject cookies that are not essential to making your website or service work."
 experimental: true
+
+updatehistory:
+  - date: 2021-10-19
+    content: Add "cookie banner" component
+    url: /components/cookie-banner
 ---
 
 ## About this component

@@ -11,6 +11,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/getting-married
     name: "Marriage in Scotland"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "breadcrumbs" component
+    url: /components/breadcrumbs
 ---
 
 ## About this component

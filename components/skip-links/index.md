@@ -8,6 +8,15 @@ thispage: component.skip-links
 summary: "Use the skip link component to help keyboard-only users skip to the main content on a page."
 example:
   no-demo: true
+
+updatehistory:
+  - date: 2021-04-15
+    content: Add "skip links" component
+    url: /components/skip-links
+  - date: 2021-09-15
+    content: Add documentation to the accessibility section about not making the main content area focusable by default (the component's JavaScript now controls this automatically)
+    url: /components/skip-links
+    homepage: false
 ---
 
 ## About this component

@@ -10,6 +10,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/scotland-bank-holidays
     name: "Public and bank holidays"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "table" component
+    url: /components/table
 ---
 
 ## Usage

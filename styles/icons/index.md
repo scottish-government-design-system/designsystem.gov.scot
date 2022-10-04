@@ -5,6 +5,11 @@ category: styles
 parent: styles
 thispage: style.icons
 summary: "Icons are visual indicators that help users identify important content and to navigate it."
+
+updatehistory:
+  - date: 2021-09-24
+    content: Add "icons and iconography" styles page
+    url: /styles/icons
 ---
 
 ## Using icons

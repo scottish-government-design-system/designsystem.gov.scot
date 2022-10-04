@@ -6,6 +6,14 @@ parent: style
 thispage: style.colour-customisation
 summary: "Creating a customised colour scheme using our extended palette."
 redirect_from: /styles/colour-palette/colour-customisation/
+
+updatehistory:
+  - date: 2020-11-18
+    content: Add "colour customisation" styles page
+    url: /styles/colour-palette/colour-customisation
+  - date: 2022-09-08
+    content: Move "colour customisation" to the first level of navigation in "styles"
+    url: /styles/colour-customisation
 ---
 
 ## The extended palette

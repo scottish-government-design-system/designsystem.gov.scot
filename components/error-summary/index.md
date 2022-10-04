@@ -11,6 +11,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/apply-about-rent/#!/summary/
     name: "Apply to Rent Service Scotland about your rent increase"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "error summary" component
+    url: /components/error-summary
 ---
 
 ## About this component

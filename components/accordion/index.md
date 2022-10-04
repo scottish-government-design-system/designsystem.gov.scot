@@ -13,15 +13,12 @@ examples:
     name: "Feedback"
 
 updatehistory:
-  - date: 2022-09-29
-    content: Accordion has been updated to make it juggle SIX balls at once.
-    url: '/components/accordion'
-  - date: 2022-08-22
-    content: Accordion has been updated to make it juggle five balls at once.
-    url: '/components/accordion'
-  - date: 2022-01-22
-    content: Accordion has been updated to make it juggle four balls at once.
-    url: '/components/accordion'
+  - date: 2021-02-24
+    content: Added a link to a live "Accordion" example on mygov.scot
+    url: /components/accordion/
+  - date: 2020-08-19
+    content: Add "accordion" component
+    url: /components/accordion
 ---
 
 ## About this component

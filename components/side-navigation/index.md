@@ -6,6 +6,11 @@ parent: components
 thispage: component.side-navigation
 summary: ""
 phase: 2
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "side navigation" component
+    url: /components/side-navigation
 ---
 
 

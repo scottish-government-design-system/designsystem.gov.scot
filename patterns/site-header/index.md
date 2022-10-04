@@ -9,6 +9,11 @@ examples:
  - site: tradingnation.mygov.scot
    url: https://tradingnation.mygov.scot/
    name: "A Trading Nation"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "site header" pattern
+    url: /patterns/site-header
 ---
 
 ## About this pattern

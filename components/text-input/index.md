@@ -6,6 +6,11 @@ subcategory: forms
 parent: components
 thispage: component.text-input
 summary: "A form field that allows users to enter a single line of text."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "text input" component
+    url: /components/text-input
 ---
 
 We based our text input component on the one built by GDS. [Find out more about the text input component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/text-input/).

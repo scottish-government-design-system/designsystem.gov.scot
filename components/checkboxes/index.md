@@ -7,6 +7,17 @@ parent: components
 label: component
 thispage: component.checkboxes
 summary: "The checkbox component allows users to pick the option or options they want from a list, by checking one or more boxes."
+
+updatehistory:
+  - date: 2022-09-20
+    content: Add "exclusive" option to checkboxes
+    url: /components/checkboxes#including-a-none-option
+  - date: 2020-09-01
+    content: Add website analytics content to checkboxes
+    url: /components/checkboxes
+  - date: 2020-08-19
+    content: Add "checkboxes" component
+    url: /components/checkboxes
 ---
 
 ## About this component

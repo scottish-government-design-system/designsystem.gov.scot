@@ -5,6 +5,11 @@ category: components
 parent: components
 thispage: component.phase-banner
 summary: "A phase banner lets users know that a website is being worked on or tested."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "phase banner" component
+    url: /components/phase-banner
 ---
 
 ## About this component

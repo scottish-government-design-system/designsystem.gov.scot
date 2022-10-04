@@ -5,6 +5,11 @@ category: components
 parent: components
 thispage: component.button
 summary: "Use a button to help users perform an action, such as submitting a form or starting an application."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "buttons" component
+    url: /components/buttons
 ---
 
 ## When to use a button or a link

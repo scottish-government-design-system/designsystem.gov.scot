@@ -10,6 +10,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/accessibility
     name: "Accessibility"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "page header" component
+    url: /components/page-header
 ---
 
 ## About this component

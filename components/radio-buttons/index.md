@@ -7,6 +7,18 @@ parent: components
 label: component
 thispage: component.radio-buttons
 summary: "Form fields that allow users to pick a single item."
+
+updatehistory:
+  - date: 2022-09-20
+    content: Strengthen the wording of the recommendation against using inline radio buttons
+    url: /components/radio-buttons
+    homepage: false
+  - date: 2021-10-13
+    content: Add documentation for conditionally revealing additional content when an option is selected
+    url: /components/radio-buttons
+  - date: 2020-08-19
+    content: Add "radio buttons" component
+    url: /components/radio-buttons
 ---
 
 ## About this component

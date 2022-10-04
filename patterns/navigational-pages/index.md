@@ -5,6 +5,7 @@ category: patterns
 parent: patterns
 thispage: pattern.navigational-pages
 summary: "Navigational pages display headings and small pieces of content to help users navigate a website."
+
 examples:
   - site: tradingnation.mygov.scot
     url: https://tradingnation.mygov.scot/browse/sectors
@@ -12,6 +13,14 @@ examples:
   - site: tradingnation.mygov.scot
     url: https://tradingnation.mygov.scot/browse/country-profiles
     name: "Country profiles"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "navigational pages" pattern
+    url: /patterns/navigational-pages
+  - date: 2021-04-23
+    content: Add "image card" to the navigational pages pattern documentation
+    url: /patterns/navigational-pages#image-card-navigation
 ---
 
 ## About this pattern

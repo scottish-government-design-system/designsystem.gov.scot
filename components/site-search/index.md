@@ -5,6 +5,11 @@ category: components
 parent: components
 thispage: component.site-search
 summary: "A search box that allows users to search a site for a keyword or phrase."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "site search" component
+    url: /components/site-search
 ---
 
 ## About this component

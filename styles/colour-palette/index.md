@@ -5,6 +5,11 @@ category: styles
 parent: styles
 thispage: style.colour-palette
 summary: "Our brand colours and how to apply them."
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "colour palette" styles page
+    url: /styles/colour-palette
 ---
 
 ## Using colour

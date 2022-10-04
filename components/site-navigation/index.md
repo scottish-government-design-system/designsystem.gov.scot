@@ -9,6 +9,11 @@ summary: "The main navigation on a website, site navigation is a set of links th
 #  - site: gov.scot
 #    url: https://www.gov.scot/publications/2018-19-autumn-budget-revision-supporting-document/
 #    name: "Advice and guidance publication"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "site navigation" component
+    url: /components/site-navigation
 ---
 
 ## About this component

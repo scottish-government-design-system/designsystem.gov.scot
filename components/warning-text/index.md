@@ -10,6 +10,11 @@ examples:
   - site: mygov.scot
     url: https://www.mygov.scot/air-weapon
     name: "License an air weapon"
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "warning text" component
+    url: /components/warning-text
 ---
 
 We based our warning text component on the one built by GDS. [Find out more about the warning text component on GOV.UK’s Design System](https://design-system.service.gov.uk/components/warning-text/).

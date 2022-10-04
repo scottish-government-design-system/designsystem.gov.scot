@@ -6,6 +6,11 @@ parent: components
 label: component
 thispage: component.file-download
 summary: "A block containing information about a file with a link to download it"
+
+updatehistory:
+  - date: 2022-08-25
+    content: Add "file download" component
+    url: /components/file-download
 ---
 
 ## About this component

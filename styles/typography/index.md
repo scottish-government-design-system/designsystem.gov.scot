@@ -5,6 +5,14 @@ category: styles
 parent: styles
 thispage: style.typography
 #summary: ""
+
+updatehistory:
+  - date: 2020-08-19
+    content: Add "typography" styles page
+    url: /styles/typography
+  - date: 2022-05-22
+    content: Add font rules table
+    url: /styles/typography#font-rules
 ---
 
 ## Font
