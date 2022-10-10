@@ -77,24 +77,18 @@
                                 <h1 class="ds_page-header__title">{{ page.title }}</h1>
 
                                 <dl class="ds_page-header__metadata  ds_metadata">
-                                    {% if firstpublished %}
-                                        <div class="ds_metadata__item">
-                                            <span class="ds_metadata__key">Published</span>
-                                            <span class="ds_metadata__value">{% include human-date.html date=firstpublished.date %}</span>
-                                        </div>
-                                    {% endif %}
-
                                     {% if updatehistory_by_date.size > 0 %}
                                         <div class="ds_metadata__item">
                                             <span class="ds_metadata__key">Last updated</span>
                                             <span class="ds_metadata__value">{% include human-date.html date=latestupdate.date %} - <a href="#full-history">see all updates</a></span>
                                         </div>
+                                    {% elsif firstpublished %}
+                                        <div class="ds_metadata__item">
+                                            <span class="ds_metadata__key">Published</span>
+                                            <span class="ds_metadata__value">{% include human-date.html date=firstpublished.date %}</span>
+                                        </div>
                                     {% endif %}
                                 </dl>
-
-
-
-
                             </div>
 
                             {% if page.experimental %}
@@ -145,36 +139,43 @@
                         {{content}}
 
                         {% if updatehistory_by_date.size > 0 %}
-                            <div id="history" class="ds_!_margin-top--4">
-                                <dl class="ds_metadata">
+                        <div id="history" class="ds_!_margin-top--4">
+                            <dl class="ds_metadata">
+                                {% if firstpublished %}
                                     <div class="ds_metadata__item">
-                                        <dt class="ds_metadata__key">Last updated</dt>
-                                        <dd class="ds_metadata__value">
-                                            <strong>{{updatedDate}}</strong>
-                                            <span class="dss_toggle-link">
-                                            - <a href="#full-history" data-module="dss-toggle-link" aria-controls="full-history" data-toggled-text="hide all updates" aria-expanded="false">show all updates</a>
-                                            </span>
-                                        </dd>
+                                        <span class="ds_metadata__key">Published</span>
+                                        <span class="ds_metadata__value">{% include human-date.html date=firstpublished.date %}</span>
                                     </div>
+                                {% endif %}
 
-                                    <div id="full-history" data-module="dss-update-history" class="ds_metadata__item  dss_toggle-link__target">
-                                        <dt class="ds_metadata__key  visually-hidden">All updates</dt>
-                                        <dd class="ds_metadata__value  dss_history-list">
-                                            <ol class="ds_no-bullets">
+                                <div class="ds_metadata__item">
+                                    <dt class="ds_metadata__key">Last updated</dt>
+                                    <dd class="ds_metadata__value">
+                                        <strong>{% include human-date.html date=latestupdate.date %}</strong>
+                                        <span class="dss_toggle-link">
+                                        - <a href="#full-history" data-module="dss-toggle-link" aria-controls="full-history" data-toggled-text="hide all updates" aria-expanded="false">show all updates</a>
+                                        </span>
+                                    </dd>
+                                </div>
 
-                                                {% for item in updatehistory_by_date %}
-                                                    <li class="dss_history-list__item">
-                                                        {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
+                                <div id="full-history" data-module="dss-update-history" class="ds_metadata__item  dss_toggle-link__target">
+                                    <dt class="ds_metadata__key  visually-hidden">All updates</dt>
+                                    <dd class="ds_metadata__value  dss_history-list">
+                                        <ol class="ds_no-bullets">
 
-                                                        <time>{{updatedDate}}</time>
-                                                        <p style="font-weight: 400">{{item.content}}</p>
-                                                    </li>
-                                                {% endfor %}
-                                            </ol>
-                                        </dd>
-                                    </div>
-                                </dl>
-                            </div>
+                                            {% for item in updatehistory_by_date %}
+                                                <li class="dss_history-list__item">
+                                                    {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
+
+                                                    <time>{{updatedDate}}</time>
+                                                    <p style="font-weight: 400">{{item.content}}</p>
+                                                </li>
+                                            {% endfor %}
+                                        </ol>
+                                    </dd>
+                                </div>
+                            </dl>
+                        </div>
                         {% endif %}
 
                         {% if page.examples %}
