@@ -37,7 +37,7 @@ $colors: (
         outline-offset: -2px;
     }
     .ds_button:hover:not(:focus) {
-        background-color: rgba($ds_colour__black, 20%);
+        background-color: rgba($ds_colour__black, 0.2);
         color: currentColor;
         outline: 2px solid currentColor;
         outline-offset: -2px;
@@ -60,7 +60,7 @@ $colors: (
         outline-offset: -2px;
     }
     .ds_button:hover:not(:focus) {
-        background-color: rgba($ds_colour__white, 20%);
+        background-color: rgba($ds_colour__white, 0.2);
         color: currentColor;
         outline: 2px solid currentColor;
         outline-offset: -2px;
@@ -83,7 +83,7 @@ $colors: (
         outline-offset: -2px;
     }
     .ds_button:hover:not(:focus) {
-        background-color: rgba($ds_colour__white, 20%);
+        background-color: rgba($ds_colour__white, 0.2);
         color: currentColor;
         outline: 2px solid currentColor;
         outline-offset: -2px;
