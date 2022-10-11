@@ -64,6 +64,8 @@
 
             {% include homepage-whats-new.html %}
 
+            {% include homepage-whats-new.html %}
+
             {% if page.sortfield %}
                 {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
             {% else %}
