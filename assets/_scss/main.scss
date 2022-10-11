@@ -48,9 +48,9 @@ $use-legacy-site-navigation: false;
 
 
 /* for homepage */
-@import "components/component.case-study";
-@import "components/component.homepage-hero";
-@import "components/component.homepage-links";
+//@import "components/component.case-study";
+//@import "components/component.homepage-hero";
+//@import "components/component.homepage-links";
 @import "components/component.colour-palette";
 @import "components/component.font-table";
 //@import "components/component.showcase";
@@ -58,6 +58,20 @@ $use-legacy-site-navigation: false;
 //@import "components/component.users";
 //@import "components/component.welcome";
 
+/* Used content blocks */
+@import "content-blocks/content-blocks.base";
+@import "content-blocks/cards/cards";
+//@import "card-text/card-text";
+//@import "contact/contact";
+//@import "divider/divider";
+//@import "double-text/double-text";
+//@import "feature-grid/feature-grid";
+//@import "header/header";
+//@import "image-text/image-text";
+//@import "listed-links/listed-links";
+@import "content-blocks/page-title/page-title";
+@import "content-blocks/text/text";
+//@import "video-text/video-text";
 
 @import "_highlight";
 

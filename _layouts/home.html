@@ -5,32 +5,6 @@
 
 <body class="layout--home">
 
-
-
-<style>
-.zebra:nth-child(2n) {
-    background-color: #f8f8f8;
-}
-
-.zebra:nth-child(2n-1) {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-width: 1px 0;
-}
-
-.zebra:first-of-type {
-    border-top: 0;
-}
-
-.zebra:last-of-type {
-    border-bottom: 0;
-}
-
-.zebra {
-    padding: 28px 0;
-}
-</style>
-
 {% include skip-links.html %}
 
 <div class="ds_page">
@@ -46,37 +20,49 @@
         {% include header.html %}
 
         <main id="main-content">
-            <section id="welcome">
-                <div class="dss_homepage-hero__container  ds_reversed">
-                    <div class="ds_wrapper">
-                        <div class="dss_homepage-hero">
-                            <header class="dss_homepage-hero__header">
-                                <h1 class="dss_homepage-hero__title">Design and build accessible digital services for Scotland</h1>
-                            </header>
-                            <div class="dss_homepage-hero__summary">
-                                <p>{{page.content}}</p>
 
-                                <div class="dss_homepage-hero__cta">
-                                    <a href="/get-started/" class="ds_button  ds_button--secondary  ds_button--has-icon  ds_button--fixed">
-                                        Get started
-                                        <svg class="ds_icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#chevron_right"></use></svg>
-                                    </a>
-                                </div>
+            <header class="ds_cb  ds_cb--page-title  ds_cb--bg-blue  ds_cb--fullwidth  ds_cb--page-title--wide">
+                <div class="ds_wrapper">
+                    <div class="ds_cb__inner">
+                        <div class="ds_cb__text  ds_cb__content">
+                            <div class="ds_page-header">
+                                <h1 class="ds_page-header__title">Design and build accessible digital services for Scotland</h1>
                             </div>
-                            <div class="dss_homepage-hero__media-container">
-                                <a class="dss_homepage-hero__media-link" target="_blank" href="https://vimeo.com/445609811">
-                                    <div class="ds_aspect-box">
-                                        <img class="dss_homepage-hero__media  ds_aspect-box__inner" src="/assets/images/animation-still.svg" alt="">
-                                    </div>
-                                    <p class="dss_homepage-hero__media-caption">
-                                        <svg class="ds_icon" focusable="false" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#play_circle"></use></svg>Watch our introductory video
-                                    </p>
-                                </a>
-                            </div>
+                            <p>{{page.content}}</p>
+                            <a href="/get-started/" class="ds_button ds_button--has-icon">Get started<svg class="ds_icon" aria-hidden="true" role="img">
+                                <use href="/assets/images/icons/icons.stack.svg#chevron_right"></use>
+                            </svg></a>
+                        </div>
+                        <div class="ds_cb__poster">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                        sizes="200px"
+                                        srcset="/assets/images/ds-graphic-xlarge.svg 200w"/>
+                                <source media="(min-width: 992px)"
+                                        sizes="146px"
+                                        srcset="/assets/images/ds-graphic-large.svg 146w"/>
+                                <source media="(min-width: 768px)"
+                                        sizes="88px"
+                                        srcset="/assets/images/ds-graphic-medium.svg 88w"/>
+                                <source media="(max-width: 767px)"
+                                        sizes="735px"
+                                        srcset="/assets/images/ds-graphic-fluid.svg 315w"/>
+                                <img alt="" src="/assets/images/ds-graphic-fluid.svg" width="735" height="315" />
+                            </picture>
                         </div>
                     </div>
                 </div>
-            </section>
+                <aside class="ds_cb  ds_cb--page-title__aside  ds_cb--bg-darkblue  ds_cb--fullwidth">
+                    <div class="ds_wrapper">
+                        <span class="ds_cb--page-title__aside-icon" aria-hidden="true">
+                            <svg class="ds_icon ds_icon--fill" aria-hidden="true" role="img">
+                                <use href="/assets/images/icons/icons.stack.svg#play_circle"></use>
+                            </svg>
+                        </span>
+                        <p><a href="https://vimeo.com/445609811">Watch our introductory video on vimeo</a></p>
+                    </div>
+                </aside>
+            </header>
 
             {% if page.sortfield %}
                 {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
@@ -85,54 +71,47 @@
             {% endif %}
 
             {%if indexed.size > 0 %}
-                <section id="library" class="zebra">
-                    <div class="ds_wrapper">
-                        <div class="ds_category-list-container">
-                            <ol class="main  ds_category-list  ds_category-list--grid  ds_category-list--narrow">
-
-                                {% if page.sortfield %}
-                                    {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
-                                {% else %}
-                                    {% assign indexed = site.pages | where:"category", page.navitems | sort: 'title', "first" %}
-                                {% endif %}
-
-                                {% for item in indexed %}
-                                    <li class="ds_card  ds_card--has-hover">
-                                        <article class="ds_category-item">
-                                            <h2 class="ds_category-item__title">
-                                                <a href="{{ item.url }}" class="ds_category-item__link">
-                                                    {{item.title}}
-                                                </a>
-                                            </h2>
-
-                                            {% if item.summary %}
-                                                <p class="ds_category-item__summary">
-                                                    {{ item.summary }}
-                                                </p>
-                                            {% endif %}
-                                        </article>
-                                    </li>
-                                {% endfor %}
-                            </ol>
-                        </div>
-                    </div>
-                </section>
-            {% endif %}
-
-            {% assign indexed = site.pages | where:"category", 'homepage-links' | sort: 'title', 'first' %}
-            <section id="links" class="zebra">
+            <div id="library" class="ds_cb  ds_cb--cards  ds_cb--fullwidth  ds_cb--bg-grey">
                 <div class="ds_wrapper">
-                    <div class="dss_homepage-links">
+                    <div class="ds_cb__inner">
+
+                    {% if page.sortfield %}
+                        {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
+                    {% else %}
+                        {% assign indexed = site.pages | where:"category", page.navitems | sort: 'title', "first" %}
+                    {% endif %}
+
                     {% for item in indexed %}
-                        <div class="dss_homepage-links__block">
-                            <h2 class="ds_h2">{{item.title}}</h2>
-                            <p>{{item.content}}</p>
-                            <a href="{{item.signpostUrl}}">{{item.linktext}}</a>
+                        <div class="ds_card  ds_card--hover">
+                            <div class="ds_card__content">
+                                <h2 class="ds_card__title">
+                                    <a class="ds_card__link--cover" href="{{ item.url }}"">{{item.title}}</a>
+                                </h2>
+                                {% if item.summary %}
+                                <p>{{ item.summary }}</p>
+                                {% endif %}
+                            </div>
                         </div>
                     {% endfor %}
                     </div>
                 </div>
-            </section>
+            </div>
+            {% endif %}
+
+            {% assign indexed = site.pages | where:"category", 'homepage-links' | sort: 'title', 'first' %}
+            <div id="links" class="ds_cb  ds_cb--text">
+                <div class="ds_wrapper">
+                    <div class="ds_cb__inner">
+                        <div class="ds_cb__text">
+                        {% for item in indexed %}
+                            <h2>{{item.title}}</h2>
+                            <p>{{item.content}}</p>
+                            <p><a href="{{item.signpostUrl}}">{{item.linktext}}</a></p>
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 
