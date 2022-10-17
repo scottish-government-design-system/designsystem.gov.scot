@@ -1,12 +1,1 @@
-{%- assign day = include.date | date: "%e" | plus: 0 -%}
-{%- case day -%}
-{%- when 1, 21, 31 -%}
-    {%- assign suffix = "st" -%}
-{%- when 2, 22 -%}
-    {% assign suffix = "nd" -%}
-{%- when 3, 23 -%}
-    {% assign suffix = "rd" -%}
-{%- else -%}
-    {%- assign suffix = "th" -%}
-{%- endcase -%}
-{{ include.date | date: "%B %e" }}{{suffix}} {{ include.date | date: "%Y" }}
+{{include.date | date: "%e %B %Y"}}

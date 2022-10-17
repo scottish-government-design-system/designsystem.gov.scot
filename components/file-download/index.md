@@ -10,6 +10,7 @@ summary: "A block containing information about a file with a link to download it
 updatehistory:
   - date: 2022-08-25
     content: Add "file download" component
+    homepage: '<a href="/components/file-download">"File download" component</a> published'
     url: /components/file-download
 ---
 

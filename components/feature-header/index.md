@@ -19,6 +19,7 @@ examples:
 updatehistory:
   - date: 2022-08-19
     content: Add "feature header" component
+    homepage: '<a href="/components/feature-header">"Feature header" component</a> published'
     url: /components/feature-header
 ---
 

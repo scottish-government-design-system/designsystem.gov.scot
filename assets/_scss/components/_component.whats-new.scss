@@ -1,0 +1,23 @@
+.dss_whats-new {
+    &__item {
+        @include ds_responsive-margin(2, bottom);
+    }
+
+    &__date {
+        color: $ds_colour__text--secondary;
+        margin-left: 2px;
+        padding-left: 8px;
+        position: relative;
+        white-space: nowrap;
+
+        &::before {
+            background-color: currentColor;
+            bottom: 2px;
+            content: '';
+            left: 0;
+            position: absolute;
+            top: 4px;
+            width: 1px;
+        }
+    }
+}

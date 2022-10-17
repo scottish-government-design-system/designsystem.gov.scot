@@ -12,7 +12,8 @@ updatehistory:
     content: Add "colour customisation" styles page
     url: /styles/colour-palette/colour-customisation
   - date: 2022-09-08
-    content: Move "colour customisation" to the first level of navigation in "styles"
+    content: 'Move "colour customisation" to the first level of navigation in "styles"'
+    homepage: false
     url: /styles/colour-customisation
 ---
 

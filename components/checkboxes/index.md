@@ -10,7 +10,8 @@ summary: "The checkbox component allows users to pick the option or options they
 
 updatehistory:
   - date: 2022-09-20
-    content: Add "exclusive" option to checkboxes
+    content: '"None" option added to checkboxes'
+    homepage: '"None" option added to <a href="/components/checkboxes#including-a-none-option">checkboxes</a>'
     url: /components/checkboxes#including-a-none-option
   - date: 2020-09-01
     content: Add website analytics content to checkboxes

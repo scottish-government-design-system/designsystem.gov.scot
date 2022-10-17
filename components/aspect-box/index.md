@@ -11,6 +11,7 @@ example:
 updatehistory:
   - date: 2022-08-09
     content: Add "aspect box" component
+    homepage: '<a href="/components/aspect-box">"Aspect box" component</a> published'
     url: /components/aspect-box  
 ---
 

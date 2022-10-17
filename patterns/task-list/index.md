@@ -10,6 +10,7 @@ experimental: true
 updatehistory:
   - date: 2022-08-25
     content: Add "task list" pattern
+    homepage: '<a href="/patterns/task-list">"Task list" pattern</a> published'
     url: /patterns/task-list
 ---
 

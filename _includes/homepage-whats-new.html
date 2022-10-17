@@ -15,25 +15,30 @@
 
 {% if updates %}
     {% assign updates_by_date = updates | sort: "date" | reverse %}
-    <section id="whats-new" class="zebra">
+    <div id="whats-new" class="ds_cb  ds_cb--text  ds_cb--fullwidth">
         <div class="ds_wrapper">
-            <h2>What's new</h2>
+            <div class="ds_cb__inner">
+                <div class="ds_cb__text">
+                    <h2>Latest updates</h2>
 
-            <ul>
-                {% for item in updates_by_date %}
-                    {% unless item.homepage == false %}
-                        {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
-                        <li>
-                            {% if item.homepage %}
-                                {{item.homepage}}
-                            {% else %}
-                                {{item.content}}
-                            {% endif %}
-                            {% if item.url %} <a href="{{item.url}}">(link)</a> {% endif %} ({{updatedDate | strip}})
-                        </li>
-                    {% endunless %}
-                {% endfor %}
-            </ul>
+                    <ul class="dss_whats-new  ds_no-bullets">
+                        {% for item in updates_by_date %}
+                            {% unless item.homepage == false %}
+                                {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
+                                <li class="dss_whats-new__item">
+                                    {% if item.homepage %}
+                                        {{item.homepage}}
+                                    {% else %}
+                                        {{item.content}} {% if item.url %} <a href="{{item.url}}">(link)</a> {% endif %}
+                                    {% endif %}
+
+                                    <span class="dss_whats-new__date">{{updatedDate | strip}}</span>
+                                </li>
+                            {% endunless %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 {% endif %}

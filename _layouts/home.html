@@ -64,8 +64,6 @@
 
             {% include homepage-whats-new.html %}
 
-            {% include homepage-whats-new.html %}
-
             {% if page.sortfield %}
                 {% assign indexed = site.pages | where:"category", page.navitems | sort: page.sortfield, "first" %}
             {% else %}
@@ -87,7 +85,7 @@
                         <div class="ds_card  ds_card--hover">
                             <div class="ds_card__content">
                                 <h2 class="ds_card__title">
-                                    <a class="ds_card__link--cover" href="{{ item.url }}"">{{item.title}}</a>
+                                    <a class="ds_card__link--cover" href="{{ item.url }}">{{item.title}}</a>
                                 </h2>
                                 {% if item.summary %}
                                 <p>{{ item.summary }}</p>
@@ -98,6 +96,8 @@
                     </div>
                 </div>
             </div>
+
+
             {% endif %}
 
             {% assign indexed = site.pages | where:"category", 'homepage-links' | sort: 'title', 'first' %}

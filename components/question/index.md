@@ -10,6 +10,7 @@ noindex: true
 updatehistory:
   - date: 2022-09-01
     content: Add "question" component
+    homepage: '<a href="/components/question">"Question" component</a> published'
     url: /components/question
 ---
 

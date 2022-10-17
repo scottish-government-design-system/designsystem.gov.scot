@@ -14,7 +14,7 @@ updatehistory:
   - date: 2022-08-19
     content: Add "using the scale in your project" section
     url: /styles/responsive-spacing#using-the-scale-in-your-project
-    homepage: New documentation for how to use the responsive scale, including new CSS classes and SCSS mixins
+    homepage: 'Instructions for <a href="/styles/responsive-spacing#using-the-scale-in-your-project">how to use the responsive spacing scale</a>, including new CSS classes and SCSS mixins'
 ---
 
 ## Grid
