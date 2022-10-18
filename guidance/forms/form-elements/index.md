@@ -7,7 +7,7 @@ thispage: guidance.forms.form-elements
 noindex: true
 ---
 
-The Design System includes a number of styles and layouts to support form structure and design:
+The Design System includes components and patterns to support form structure and design, including:
 
 - [Focus states](/styles/states/)
 - [Responsive spacing](/styles/responsive-spacing/)
