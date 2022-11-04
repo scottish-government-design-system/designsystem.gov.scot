@@ -51,4 +51,8 @@ We designed the back to top component to be accessible to all types of users. It
 
 The back to top link is focusable and users can trigger it with the enter key, like any other link. It will take users back to the top of the current page.
 
+## Implementation
+
 The back to top component should be placed after the article content but above the footer.
+
+The back to top link's target (element with `id="page-top"`) should be placed after any site-wide [notification banners](/components/notification-banner), so users of screen readers will not encounter that content again.
