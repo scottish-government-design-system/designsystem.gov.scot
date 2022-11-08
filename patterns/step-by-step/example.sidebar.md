@@ -42,14 +42,14 @@ type: example
             <p>Suspendisse potenti. Nullam maximus, orci a suscipit molestie, dolor augue condimentum felis, eget pharetra ligula lectus maximus tortor. Nam in ipsum non leo tempor semper. Pellentesque nec bibendum augue. Sed finibus, velit in egestas accumsan, tellus massa aliquam eros, ut ornare lorem urna sed quam. Aenean ac enim id lacus consequat elementum. In hac habitasse platea dictumst. Donec mi ipsum, pharetra non egestas ac, convallis a justo. Quisque sodales justo tortor, ac faucibus enim consequat viverra. Pellentesque lacinia laoreet nibh vel eleifend. Nulla id felis sed est aliquet fringilla quis in tortor. Sed auctor nisl ac nibh vestibulum, et tristique lectus vehicula. Ut augue mauris, pretium et nulla id, feugiat molestie massa. Vestibulum orci dolor, viverra in ante at, sodales accumsan ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="ds_layout__sidebar">
-            <nav class="ds_step-navigation">
-                <h2 class="ds_h3">
+            <nav class="ds_step-navigation  ds_step-navigation--small">
+                <h2 class="ds_step-navigation__title">
                     Part of
                     <a class="ds_step-navigation__title-link" href="#">Adopting from abroad: Step by step</a>
                 </h2>
                 
-                <div class="ds_accordion" data-module="ds-accordion">
-                    <button data-accordion="accordion-open-all" type="button" class="ds_link  ds_accordion__open-all  js-open-all">Open all <span class="visually-hidden">sections</span></button>
+                <div class="ds_accordion  ds_accordion--small" data-module="ds-accordion">
+                    <button data-accordion="accordion-open-all" type="button" class="ds_link  ds_accordion__open-all  js-open-all">Open all steps<span class="visually-hidden">sections</span></button>
 
                     <div class="ds_accordion-item">
                         <span class="ds_step-navigation__count">
