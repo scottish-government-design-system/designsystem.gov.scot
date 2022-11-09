@@ -21,8 +21,8 @@ type: example
                     </div>
                 </dl>
 
-                <aside class="ds_callout">
-                    <h3>Part of</h3>
+                <aside class="ds_callout  ds_step-navigation-top" aria-labelledby="step-navigation-topbar">
+                    <h3 id="step-navigation-topbar">Part of <span class="visually-hidden">two step by step guides</span></h3>
                     <ul class="ds_no-bullets">
                         <li><a href="#"><b>Adopting from abroad: step by step</b></a></li>
                         <li><a href="#"><b>Something else: Step by step</b></a></li>
@@ -42,8 +42,8 @@ type: example
             <p>Suspendisse potenti. Nullam maximus, orci a suscipit molestie, dolor augue condimentum felis, eget pharetra ligula lectus maximus tortor. Nam in ipsum non leo tempor semper. Pellentesque nec bibendum augue. Sed finibus, velit in egestas accumsan, tellus massa aliquam eros, ut ornare lorem urna sed quam. Aenean ac enim id lacus consequat elementum. In hac habitasse platea dictumst. Donec mi ipsum, pharetra non egestas ac, convallis a justo. Quisque sodales justo tortor, ac faucibus enim consequat viverra. Pellentesque lacinia laoreet nibh vel eleifend. Nulla id felis sed est aliquet fringilla quis in tortor. Sed auctor nisl ac nibh vestibulum, et tristique lectus vehicula. Ut augue mauris, pretium et nulla id, feugiat molestie massa. Vestibulum orci dolor, viverra in ante at, sodales accumsan ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="ds_layout__sidebar">
-            <nav class="ds_step-navigation  ds_step-navigation--small">
-                <h2 class="ds_step-navigation__title">
+            <nav class="ds_step-navigation  ds_step-navigation--small" aria-labelledby="step-navigation-sidebar" data-module="ds-step-navigation">
+                <h2 id="step-navigation-sidebar" class="ds_step-navigation__title">
                     Part of
                     <a class="ds_step-navigation__title-link" href="#">Adopting from abroad: Step by step</a>
                 </h2>
