@@ -80,7 +80,7 @@ Most of your questions should be required fields. In this situation you should a
 
 In certain cases most questions may be optional. In this situation mark the required fields with 'required' text labels instead.
 
-Don't identify required fields with asterisks. This can cause problems for screen reader users. You would also have to explain that the asterisks mean.
+Don't identify required fields with asterisks. This can cause problems for screen reader users. You would also have to explain what the asterisks mean.
 
 ## Structuring long forms
 
