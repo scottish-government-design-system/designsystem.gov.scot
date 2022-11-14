@@ -23,7 +23,7 @@ On mobile, the ‘next’ link displays stacked above the ‘previous’ link.
 
 ## Components related to this
 
-[Site search](https://designsystem.gov.scot/components/site-search/)
+[Site search](/components/site-search/)
 
 ## Why we use this component
 

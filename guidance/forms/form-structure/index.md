@@ -4,7 +4,6 @@ title:  "Form structure"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.form-structure
-noindex: true
 ---
 
 A good form should have a well-defined structure and be easy for the user to complete. It should be consistent with the organisation's branding.

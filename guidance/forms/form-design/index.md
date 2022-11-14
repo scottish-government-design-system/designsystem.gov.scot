@@ -4,14 +4,13 @@ title:  "Form design"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.form-design
-noindex: true
 ---
 
 When your questions are ready, design your digital form following these principles:
 
 ## Tell users about the form's requirements at the start
 
-The form should have introductory content that tells users what information they will need to provide. This will help them plan enough time to complete the form and let them gather any documents needed before they begin. This content can be at the start of the form, or on the page that links to the form.
+The form should have introductory content that tells users what information they will need to provide. This will help them plan enough time to complete the form and let them gather any documents they need before they begin. This content can be at the start of the form, or on the page that links to the form.
 
 If possible, work with a content designer and include the following information where relevant:
 
@@ -48,20 +47,20 @@ Choosing the most appropriate type of form field for the user's response to a qu
 * reduce cognitive load
 * lower the time taken to complete the form
 
-The following examples show selection of a form element based on the type of 
+The following examples show selection of a form field based on the type of 
 question asked:
 
-- use [radio buttons](https://designsystem.gov.scot/components/radio-buttons/) when there is a limited choice of options and only one can be selected
-- use [checkboxes](https://designsystem.gov.scot/components/checkboxes/) when there is a limited choice of options and more than one can be selected
-- use [text input](https://designsystem.gov.scot/components/text-input/) fields when asking for short pieces of information and [textareas](https://designsystem.gov.scot/components/textarea/) where a longer response is needed
+- use [radio buttons](/components/radio-buttons/) when there is a limited choice of options and only one can be selected
+- use [checkboxes](/components/checkboxes/) when there is a limited choice of options and more than one can be selected
+- use [text input](/components/text-input/) fields when asking for short pieces of information and [textareas](/components/textarea/) where a longer response is needed
 
-If possible, structure your questions to use radio buttons or checkboxes rather than a dropdown select to reduce cognitive load
+If possible, structure your questions to use radio buttons or checkboxes rather than a dropdown select to reduce cognitive load.
 
 For text fields, you should also consider the type of data the user is being asked to provide. For example:
 
-- a [date picker](https://designsystem.gov.scot/components/date-picker/) may be the most suitable for browsing for a date in a calendar, while specific input fields for day, month and year may be more suitable for known dates such as date of birth
+- a [date picker](/components/date-picker/) may be the most suitable for browsing for a date in a calendar, while specific input fields for day, month and year may be more suitable for known dates such as date of birth
 - the size of the field should be appropriate for the expected input, such as a postcode or telephone number
-- if fields have a maximum acceptable length, show a [character count](https://designsystem.gov.scot/components/character-count/) so the user knows how much space they have remaining
+- if fields have a maximum acceptable length, show a [character count](/components/character-count/) so the user knows how much space they have remaining
 
 ## Help users avoid errors
 
@@ -71,7 +70,7 @@ Hint text can be added to form questions to guide correct user input. For exampl
 
 ## Form validation and error handling
 
-When errors do happen, these should be reported back to the user as clear and specific instructions to help them correct the issues.
+When errors do happen, these should be reported back to the user as clear and specific instructions to help them correct the issues. Show an [error summary](/components/error-summary/) listing all of the errors at the top of the form, and individual [error messages](/components/error-message/) on each form field that needs to be corrected.
 
 ## Optional and required questions
 

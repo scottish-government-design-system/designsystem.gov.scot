@@ -4,7 +4,6 @@ title:  "Google Search Console"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.google-search-console
-noindex: true
 ---
 
 [Google Search Console](https://support.google.com/webmasters/answer/6001104?hl=en) (previously Google Webmaster Tools) is a service for website administrators to check indexing status, optimise visibility of their websites, view a sample of websites that link back to you, and see site errors and Google crawl stats.

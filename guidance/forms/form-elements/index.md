@@ -4,10 +4,9 @@ title:  "Form elements in the Design System"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.form-elements
-noindex: true
 ---
 
-The Design System includes a number of basic styles and layout tools to support form structure and design:
+The Design System includes styles and layout tools to support form structure and design:
 
 - [Focus states](/styles/states/)
 - [Responsive spacing](/styles/responsive-spacing/)

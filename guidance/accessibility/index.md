@@ -6,8 +6,7 @@ parent: guidance
 thispage: guidance.accessibility
 summary: "Best practice accessibility guidelines for web design."
 permalink: '/guidance/accessibility/'
-#redirect_from: /accessibility/
-noindex: true
+redirect_from: /accessibility/
 ---
 
 <ul class="ds_contents-nav__list">
@@ -22,7 +21,7 @@ noindex: true
       </a>
    </li>
    <li class="ds_contents-nav__item">
-      <a class="ds_contents-nav__link" href="#styling-for-keyboard-focus/">
+      <a class="ds_contents-nav__link" href="#styling-for-keyboard-focus">
          Styling for keyboard focus
       </a>
    </li>

@@ -7,7 +7,6 @@ parent: guidance
 thispage: guidance.forms
 summary: "Design and create effective, consistent and accessible digital forms."
 permalink: '/guidance/forms/'
-noindex: true
 
 ---
 

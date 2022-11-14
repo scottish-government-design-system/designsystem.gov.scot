@@ -1,10 +1,9 @@
 ---
 layout: component
-title:  "Performance analytics"
+title:  "Form performance analytics"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.performance-analytics
-noindex: true
 ---
 
 Tracking how users interact with forms allows teams to analyse user journeys and try to improve the forms over time. For example, by:

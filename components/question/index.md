@@ -5,7 +5,6 @@ category: components
 parent: components
 thispage: component.question
 summary: "The Question component helps to structure form fields when using the Design System"
-noindex: true
 ---
 
 ## About this component

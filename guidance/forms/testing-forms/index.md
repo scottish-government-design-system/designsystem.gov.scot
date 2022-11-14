@@ -4,7 +4,6 @@ title:  "Testing forms"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.testing-forms
-noindex: true
 ---
 
 It is important to carry out usability testing on forms you design. Try to test as early and as often as possible, with real users of your service.

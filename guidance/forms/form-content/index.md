@@ -4,7 +4,6 @@ title:  "Form content"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.form-content
-noindex: true
 ---
 
 Your service's requirements and the user needs must be fully understood before designing a new digital form, or updating an existing one. You should do user research to map the user journeys to decide what the form's content should be.
@@ -49,4 +48,4 @@ Users care about their privacy and information security. If you must ask for sen
 
 When you know what information to collect, you should follow [content best practices](https://resources.mygov.scot/content-standards/) to design the questions that should be asked.
 
-You should work with a content designer to create form content that is written in plain English to help users understand what is being asked.
+You should work with a content designer to create form content that is written in plain English. This helps users understand what is being asked.
