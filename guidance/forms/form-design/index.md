@@ -84,7 +84,7 @@ Don't identify required fields with asterisks. This can cause problems for scree
 
 ## Structuring long forms
 
-When forms are long or complex with multiple steps, give a way for users to follow their progress and understand what they still need to complete. The ['task list' pattern](https://designsystem.gov.scot/patterns/task-list/) can be used to show how a long form is structured and its state of completion.
+When forms are long or complex with multiple steps, give a way for users to follow their progress and understand what they still need to complete. The ['task list' pattern](/patterns/task-list/) can be used to show how a long form is structured and its state of completion.
 
 ## Design for mobile first
 
