@@ -3,7 +3,7 @@ layout: example
 parent: component.details
 type: example
 index: 0
-minheight: 280px
+minheight: 288px
 ---
 <details class="ds_details">
     <summary class="ds_details__summary">
