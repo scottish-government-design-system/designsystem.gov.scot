@@ -1,9 +1,16 @@
 import storage from '../../node_modules/@scottish-government/pattern-library/src/base/tools/storage/storage';
+import UpdateHistory from './update-history';
 
 const dsSite = {
     init: function () {
         this.setInitialCookiePermissions();
         this.resizeIframes();
+
+        const updateHistory = document.querySelector('[data-module="dss-update-history"]');
+        if (updateHistory) {
+            const updateHistoryModule = new UpdateHistory(updateHistory);
+            updateHistoryModule.init();
+        }
     },
 
     setInitialCookiePermissions: function () {

@@ -21,6 +21,10 @@ updatehistory:
   - date: 2021-02-02
     content: Add "back to top" component"
     url: '/components/back-to-top'
+  - date: 2022-11-04
+    content: 'Add "implementation" section to the back to top documentation that describes link and link target placement'
+    homepage: false
+    url: /components/back-to-top
 ---
 ## About this component
 
