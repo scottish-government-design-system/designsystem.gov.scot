@@ -1,6 +1,7 @@
 
 {% assign indexed = site.pages | where_exp: "item", "item.updatehistory" %}
 {% assign updates = "" | split: "" %}
+{% assign updates_home = "" | split: "" %}
 
 {% for item in indexed %}
     {% for update in item.updatehistory %}
@@ -13,8 +14,14 @@
     {% endfor %}
 {% endfor %}
 
-{% if updates %}
-    {% assign updates_by_date = updates | sort: "date" | reverse %}
+{% for update in updates %}
+    {% unless update.homepage == false %}
+        {% assign updates_home = updates_home | push: update %}
+    {% endunless %}
+{% endfor %}
+
+{% if updates_home %}
+    {% assign updates_by_date = updates_home | sort: "date" | reverse %}
     <div id="whats-new" class="ds_cb  ds_cb--text  ds_cb--fullwidth">
         <div class="ds_wrapper">
             <div class="ds_cb__inner">
@@ -23,7 +30,7 @@
 
                     <ul class="dss_whats-new  ds_no-bullets">
                         {% for item in updates_by_date %}
-                            {% unless item.homepage == false %}
+                            {% unless forloop.index > 3 %}
                                 {% capture updatedDate %}{% include human-date.html date=item.date %}{% endcapture %}
                                 <li class="dss_whats-new__item">
                                     {% if item.homepage %}

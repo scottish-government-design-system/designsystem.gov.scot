@@ -10,8 +10,8 @@ permalink: '/guidance/forms/'
 
 updatehistory:
   - date: 2022-11-14
-    content: 'Add guidance on creating digital forms'
-    homepage: 'Add <a href="/guidance/forms">guidance on creating digital forms</a>'
+    content: 'Added guidance on creating digital forms'
+    homepage: 'Added detailed <a href="/guidance/forms">guidance on creating digital forms</a>'
     url: /guidance/forms
 ---
 
