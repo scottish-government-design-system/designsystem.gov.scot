@@ -7,9 +7,5 @@ parent: components
 thispage: component.details
 summary: ""
 noindex: true
+draft: true
 ---
-<div class="ds_inset-text">
-    <div class="ds_inset-text__text">
-        This is a draft component.
-    </div>
-</div>

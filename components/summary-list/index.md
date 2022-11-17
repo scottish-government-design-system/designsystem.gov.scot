@@ -7,4 +7,5 @@ label: component
 thispage: component.summary-list
 summary: ""
 noindex: true
+draft: true
 ---

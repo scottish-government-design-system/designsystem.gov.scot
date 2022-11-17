@@ -6,7 +6,6 @@ parent: guidance
 thispage: guidance.accessibility
 summary: "Best practice accessibility guidelines for web design."
 permalink: '/guidance/accessibility/'
-redirect_from: /accessibility/
 ---
 
 <ul class="ds_contents-nav__list">
