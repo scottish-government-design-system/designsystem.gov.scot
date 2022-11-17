@@ -4,22 +4,21 @@ title:  "Form content"
 category: guidance
 parent: guidance.forms
 thispage: guidance.forms.form-content
-noindex: true
 ---
 
-Before designing a new digital form, or updating an existing one, it is critical that the service's requirements and the user needs are fully understood. User research must be undertaken to map the user journeys and inform what the form's content should be.
+Your service's requirements and the user needs must be fully understood before designing a new digital form, or updating an existing one. You should do user research to map the user journeys to decide what the form's content should be.
 
-The following activities should be considered when developing the form content.
+When developing the form, you should do the following:
 
 ## Identify all the information you need to collect
 
-Use your research findings to make a list of all the information your form needs to collect from users. This becomes the basis for designing the form questions.
+Use your research findings to make a list of the information your form needs to collect from users. This becomes the basis for designing the form questions.
 
 ## Review the form questions 
 
-Once you know what information to collect, validate this using a tool called a ['question protocol'](https://www.gov.uk/service-manual/design/form-structure#know-why-youre-asking-every-question). This step helps you identify which form questions you need and can be used to reduce the size of a form.
+Once you know what information to collect, validate this using a tool called a ['question protocol'](https://www.gov.uk/service-manual/design/form-structure#know-why-youre-asking-every-question). This step helps you identify which form questions you need. It can be used to reduce the size of a form.
 
-The protocol should be used to check that for each question asked you know:
+For each question, the protocol should be used to check that you know:
 
 - why you need the information to deliver your service
 - what you'll do with it
@@ -37,14 +36,16 @@ If a question asks for more than one piece of information they all should be rev
 
 ## Each form question has costs
 
-Only ask for information that is needed for your service because each question has a cost. A financial cost is incurred by the organisation publishing the form, who must process and store the answers. A time cost and a cognitive cost is passed on to users for every extra question they have to complete. 
+Each question has a cost. Only ask for information that is needed for your service.
+
+A financial cost is incurred by the organisation publishing the form, who must process and store the answers. A time cost and a cognitive cost is passed on to users for every extra question they have to complete. 
 
 ## Clearly explain why you're asking for sensitive information
 
-Users care about their privacy and information security. If you must ask for sensitive information, make sure you explain why it is needed at the point in the form it appears.
+Users care about their privacy and information security. If you must ask for sensitive information, make sure you explain why it is needed. You should do this whenever you ask for sensitive information, even if you do this several times in the form.
 
 ## Form question content design
 
 When you know what information to collect, you should follow [content best practices](https://resources.mygov.scot/content-standards/) to design the questions that should be asked.
 
-You should work with a content designer to create form content that is written in plain English to help users understand what is being asked.
+You should work with a content designer to create form content that is written in plain English. This helps users understand what is being asked.

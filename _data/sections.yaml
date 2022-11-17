@@ -4,10 +4,6 @@ get-started:
   items:
     - title: Installation
       url: /get-started/installation/
-    - title: Analytics
-      url: /get-started/analytics/
-    - title: Tracking
-      url: /get-started/tracking/
     - title: Prototyping
       url: /get-started/prototyping/
 styles:

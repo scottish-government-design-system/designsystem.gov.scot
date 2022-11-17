@@ -4,7 +4,6 @@ title:  "Google Analytics"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.google-analytics
-noindex: true
 ---
 
 [Google Analytics](https://support.google.com/analytics/answer/1008080?hl=en) offers both free and enterprise analytics tools to measure website and app data.

@@ -1,4 +1,4 @@
-title: Design System
+title: "Digital Scotland Design System"
 description: "The Digital Scotland Design System provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://designsystem.gov.scot" # the base hostname & protocol for your site, e.g. http://example.com
@@ -19,6 +19,8 @@ collections:
     permalink: /:name/
     parent: home
 maxphase: 2
+
+include: [".well-known"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

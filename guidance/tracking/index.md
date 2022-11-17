@@ -5,8 +5,7 @@ category: guidance
 parent: guidance
 thispage: guidance.tracking
 summary: "The Design System adds data attributes to components to help with analytics tracking."
-#redirect_from: /get-started/tracking
-noindex: true
+redirect_from: /get-started/tracking
 ---
 
 The Design System has a script that adds 'data attributes' to components. Analytics software can use these data attributes to track user behaviour and measure performance. The script adds data attributes automatically, but developers still have some control over them.

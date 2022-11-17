@@ -4,7 +4,6 @@
 
 layout: home
 thispage: home
-title: "Digital Scotland Design System"
 navitems: library
 sortfield: index
 ---

@@ -1,6 +1,12 @@
 <head xml:lang="en">
     <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }} – Digital Scotland Design System{% else %}{{ site.title }}{% endif %}</title>
+    {% if page.metatitle %}
+    <title>{{ page.metatitle }} | Digital Scotland Design System</title>
+    {% elsif page.title %}
+    <title>{{ page.title }} | Digital Scotland Design System</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
 
     {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 

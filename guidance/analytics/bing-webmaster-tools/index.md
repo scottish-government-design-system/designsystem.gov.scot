@@ -4,7 +4,6 @@ title:  "Bing Webmaster Tools"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.bing-webmaster-tools
-noindex: true
 ---
 
 [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster) is a service for website administrators to check indexing status, optimise visibility of their websites, view a sample of websites that link back to you, and see site errors and Bing crawl stats.

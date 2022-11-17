@@ -4,7 +4,6 @@ title:  "Analytics training & support"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.training-and-support
-noindex: true
 ---
 
 To get the best out of your web analytics setup, it’s recommended that those who will frequently use the tools go on training. This is key to getting the best out of a platform, gaining insight into the performance of your service and understanding how your customers/users interact with the service. This training is also necessary for driving change in a data driven, evidence based manner.

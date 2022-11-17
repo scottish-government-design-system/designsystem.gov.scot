@@ -4,7 +4,6 @@ title:  "Google account"
 category: guidance
 parent: guidance.analytics
 thispage: guidance.analytics.google-account
-noindex: true
 ---
 
 If you’re going to be using Google Analytics you’ll need a [Google account](https://accounts.google.com/SignUp) which is tied to your work email address (rather than adding your work email address as a secondary address to a personal account). If you’re creating an account to be shared by a team we recommend creating a generic account, not only linking it to one individual and thinking ahead to secure against future resilience issues.
