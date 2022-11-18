@@ -31,12 +31,9 @@
 
     &__swatch {
         position: absolute;
-        border-radius: 100%;
-        display: inline-block;
         height: 40px;
         left: 0;
-        margin: -4px 10px 0 0;
-        vertical-align: middle;
+        margin-top: -4px;
         width: 40px;
     }
 }

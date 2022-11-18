@@ -37,14 +37,18 @@ The extended palette has 2 colours in the primary palette and 10 colours in the 
     <tbody>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#0065bd" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__brand</code>
                 </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #002d54"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#002d54" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__brand--secondary</code>
             </td>
             <td class="dss_palette__hex"><code>#002d54</code></td>
@@ -64,70 +68,90 @@ The extended palette has 2 colours in the primary palette and 10 colours in the 
     <tbody>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #017878"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#017878" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__dark-teal</code>
                 </td>
             <td class="dss_palette__hex"><code>#017878</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #28a197"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#28a197" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__teal</code>
             </td>
             <td class="dss_palette__hex"><code>#28a197</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #428542"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#428542" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__dark-green</code>
             </td>
             <td class="dss_palette__hex"><code>#428542</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #5eb135"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#5eb135" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__green</code>
             </td>
             <td class="dss_palette__hex"><code>#5eb135</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #fdd522"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#fdd522" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__yellow</code>
             </td>
             <td class="dss_palette__hex"><code>#fdd522</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #f47738"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#f47738" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__orange</code>
             </td>
             <td class="dss_palette__hex"><code>#f47738</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #d32205"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#d32205" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__red</code>
             </td>
             <td class="dss_palette__hex"><code>#d32205</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #e5007e"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#e5007e" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__pink</code>
             </td>
             <td class="dss_palette__hex"><code>#e5007e</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #912688"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#912688" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__purple</code>
             </td>
             <td class="dss_palette__hex"><code>#912688</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #592c20"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#592c20" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__brown</code>
             </td>
             <td class="dss_palette__hex"><code>#592c20</code></td>

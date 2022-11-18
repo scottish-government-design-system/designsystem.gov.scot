@@ -46,14 +46,18 @@ Good colour contrast uses a dark colour on a light background, or a light colour
     <tbody>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#0065bd" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__brand</code>
                 </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #002d54"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#002d54" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__brand--secondary</code>
             </td>
             <td class="dss_palette__hex"><code>#002d54</code></td>
@@ -76,14 +80,18 @@ Good colour contrast uses a dark colour on a light background, or a light colour
     <tbody>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #333333"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#333333" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__text</code>
                 </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #727272"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#727272" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__text--secondary</code>
             </td>
             <td class="dss_palette__hex"><code>#727272</code></td>
@@ -106,35 +114,45 @@ Good colour contrast uses a dark colour on a light background, or a light colour
     <tbody>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#0065bd" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__link</code>
             </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #00437e"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#00437e" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__link--hover</code>
             </td>
             <td class="dss_palette__hex"><code>#00437e</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #d9effc"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#d9effc" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__link--hover__background</code>
             </td>
             <td class="dss_palette__hex"><code>#d9effc</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #333333"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#333333" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__link--current</code>
             </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #f8f8f8"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#f8f8f8" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__link--current__background</code>
             </td>
             <td class="dss_palette__hex"><code>#f8f8f8</code></td>
@@ -157,7 +175,9 @@ Good colour contrast uses a dark colour on a light background, or a light colour
     <tbody>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #333333"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#333333" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__link--focus</code>
             </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
@@ -165,7 +185,9 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <!-- <td class="dss_palette__swa"></td> -->
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #fdd522"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#fdd522" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__link--focus__background</code>
             </td>
             <td class="dss_palette__hex"><code>#fdd522</code></td>
@@ -189,7 +211,9 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <!-- <td class="dss_palette__swa"></td> -->
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #d32205"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#d32205" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__state--negative</code>
             </td>
             <td class="dss_palette__hex"><code>#d32205</code></td>
@@ -197,7 +221,9 @@ Good colour contrast uses a dark colour on a light background, or a light colour
         <tr>
             <!-- <td class="dss_palette__swa"></td> -->
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #428542"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#428542" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__state--positive</code>
             </td>
             <td class="dss_palette__hex"><code>#428542</code></td>
@@ -220,28 +246,36 @@ Good colour contrast uses a dark colour on a light background, or a light colour
     <tbody>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #b3b3b3"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#b3b3b3" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__border</code>
             </td>
             <td class="dss_palette__hex"><code>#b3b3b3</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #333333"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#333333" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__border--dark</code>
             </td>
             <td class="dss_palette__hex"><code>#333333</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #ebebeb"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#ebebeb" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__border--light</code>
             </td>
             <td class="dss_palette__hex"><code>#ebebeb</code></td>
         </tr>
         <tr>
             <td class="dss_palette__name">
-                <span class="dss_palette__swatch" style="background-color: #0065bd"></span>
+                <svg class="dss_palette__swatch" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="#0065bd" cx="20" cy="20" r="20" />
+                </svg>
                 <code>$ds_colour__border--highlight</code>
             </td>
             <td class="dss_palette__hex"><code>#0065bd</code></td>
