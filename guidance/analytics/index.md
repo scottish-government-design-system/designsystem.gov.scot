@@ -1,5 +1,6 @@
 ---
 layout: component
+metatitle: "Analytics guidance"
 title:  "Analytics"
 category: guidance
 parent: guidance

@@ -1,5 +1,6 @@
 ---
 layout: component
+metatitle: "Accessibility guidance"
 title: "Accessibility"
 category: guidance
 parent: guidance

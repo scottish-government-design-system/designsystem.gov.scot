@@ -1,5 +1,6 @@
 ---
 layout: component
+metatitle: "Analytics tracking for components"
 title:  "Tracking"
 category: guidance
 parent: guidance
