@@ -2,7 +2,8 @@
 layout: example
 parent: component.metadata
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <dl class="ds_metadata">
