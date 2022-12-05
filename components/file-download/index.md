@@ -65,7 +65,7 @@ To understand user behaviour, clicks on links in file download blocks can be tra
 
 To help identify clicks on the thumbnail or file icon, a span with hidden text has been added to the link.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#file-download).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#file-download).
 
 ## Accessibility
 

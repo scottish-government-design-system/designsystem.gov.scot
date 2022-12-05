@@ -32,4 +32,4 @@ User research findings from GOV.UK and NHS suggests that banners which overlay o
 ## Website analytics
 To understand user behaviour, clicks on banner links items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the link click.
 
-The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#notification-banner).
+The data attribute is added automatically by the [Design System's 'tracking' script](/guidance/tracking/#notification-banner).

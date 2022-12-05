@@ -141,4 +141,4 @@ There was an address lookup on gov.scot for citizens to find out which Covid pro
 
 Content of this form element should not be routinely tracked through website analytics. This is due to the risk of gathering personally identifiable information. As per the tracking script, interaction with the element would be tracked, provided that each field has a unique data attribute, input name, and identifiable class.
 
-See [our page on tracking](/get-started/tracking/) for more information.
+See [our page on tracking](/guidance/tracking/) for more information.

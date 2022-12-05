@@ -42,4 +42,4 @@ Analytics shows sequential navigation is used by users across mygov.scot and gov
 
 To understand user behaviour, clicks on sequential navigation links can be tracked through the original page path, the click URL, the click text, and a data attribute showing the action.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#sequential-navigation).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#sequential-navigation).

@@ -49,7 +49,7 @@ More generally, autocomplete helps users to:
 
 ## Website analytics
 
-Autocomplete interactions can be tracked through custom events and the original page path. These custom events are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#autocomplete).
+Autocomplete interactions can be tracked through custom events and the original page path. These custom events are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#autocomplete).
 
 ## Accessibility
 

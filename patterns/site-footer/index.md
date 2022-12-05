@@ -42,4 +42,4 @@ The footer links, copyright notice, and footer logo are trackable as follows:
 
 * Footer logo clicks can be tracked through the original page path, the click URL, and a data attribute attached to the image.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/).

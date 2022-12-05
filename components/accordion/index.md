@@ -39,4 +39,4 @@ Opening and closing individual accordion panels by clicking on their headings ca
 
 Opening and closing all accordion panels by clicking on the 'Open all'/'Close all' button can be tracked through the original page path, click text and a data attribute attached on the element.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#accordion).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#accordion).

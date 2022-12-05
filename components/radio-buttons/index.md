@@ -88,7 +88,7 @@ Inline radio buttons have some limitations. You cannot use 'hint text' with inli
 
 Radio buttons can be tracked through the original page path and a data attribute showing the question type and value selected.
 
-The data attribute is added automatically by the [Design System's "tracking" script](/get-started/tracking/#radio-buttons).
+The data attribute is added automatically by the [Design System's "tracking" script](/guidance/tracking/#radio-buttons).
 
 ## Accessibility
 

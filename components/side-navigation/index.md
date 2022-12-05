@@ -44,7 +44,7 @@ Since it’s on the left hand side of the page, it also supports left to right r
 ## Website analytics
 To understand user behaviour, clicks on side navigation items can be tracked through the original page path, the click URL, the click text and a data attribute showing the item. Clicks on the mobile version's open/close toggle can also be tracked using a data attribute.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#side-navigation).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#side-navigation).
 
 ## Accessibility
 Aria attributes describe whether the side navigation is open or closed.

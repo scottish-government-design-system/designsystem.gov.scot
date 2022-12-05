@@ -59,7 +59,7 @@ Both tabs and accordions work best for relatively short content. If the content 
 
 To understand user behaviour, clicks on tabs can be tracked through the original page path, the click URL, the click text, and a data attribute showing the tab number.
 
-The data attribute is added automatically by the [Design System’s ‘tracking’ script](/get-started/tracking/#tabs).
+The data attribute is added automatically by the [Design System’s ‘tracking’ script](/guidance/tracking/#tabs).
 
 ## Accessibility
 

@@ -86,7 +86,7 @@ We plan to test with more users and to focus on behaviour and language of the bu
 
 You can track hide this page link clicks through the original page path and a data attribute describing the action.
 
-The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#hide-this-page).
+The data attribute is added automatically by the [Design System's 'tracking' script](/guidance/tracking/#hide-this-page).
 
 ## Accessibility
 

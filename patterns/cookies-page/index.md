@@ -117,4 +117,4 @@ To understand user behaviour, you can track:
 - form submits against the original page path 
 - the click URL, the click text or a data attribute for button clicks 
 
-Use the [Design System’s ‘tracking’ script](/get-started/tracking/) to add the data attributes automatically.  
+Use the [Design System’s ‘tracking’ script](/guidance/tracking/) to add the data attributes automatically.  

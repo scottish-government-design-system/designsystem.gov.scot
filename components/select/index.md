@@ -22,4 +22,4 @@ We based our select component on the one built by GDS. [Find out more about the 
 
 Select components can be tracked through custom events and the original page path. Custom events are used as the data isn't available at the instant an option is chosen and the clicktext could potentially contain personally identifiable information.
 
-Tracking data attributes and events are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#select-dropdown).
+Tracking data attributes and events are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#select-dropdown).

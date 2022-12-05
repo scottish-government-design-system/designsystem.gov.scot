@@ -96,6 +96,6 @@ Buttons can contain an icon with no visible text. If you do this, make sure that
 
 To track interactions with button elements in Google Analytics using Google Tag Manager, each button has a data attribute that describes the action.
 
-The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#button).
+The data attribute is added automatically by the [Design System's 'tracking' script](/guidance/tracking/#button).
 
 Standard links do not receive additional tracking attributes so it is recommended to use the button component when linking to both internal and external service start pages to improve analytics data.

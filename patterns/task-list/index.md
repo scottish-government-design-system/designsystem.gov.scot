@@ -103,7 +103,7 @@ These findings have been incorporated into the latest iteration of the pattern.
 
 To understand user behaviour, clicks on task links can be tracked through the original page path, the click URL and the click text.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/).
 
 ## Accessibility
 

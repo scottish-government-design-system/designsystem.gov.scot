@@ -66,4 +66,4 @@ The site header tracking is available for each of its components: [Site search](
 
 * Clicks on the expandable menu can be tracked through the original page path, the click URL, and a data attribute attached to the icon.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/).

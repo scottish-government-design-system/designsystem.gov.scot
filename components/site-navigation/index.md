@@ -32,4 +32,4 @@ Analytics evidence from mygov.scot and gov.scot shows that users are more likely
 ## Website analytics
 To understand user behaviour, clicks on site navigation items can be tracked through the original page path, the click URL, the click text, and a data attribute showing the item clicked.
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#site-navigation).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#site-navigation).

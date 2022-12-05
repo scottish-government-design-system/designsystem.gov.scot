@@ -23,4 +23,4 @@ We based our inset text component on the one built by GDS. [Find out more about 
 
 To understand user behaviour, clicks on links in inset text blocks can be tracked through the click URL, the click text and a data attribute showing the interaction.
 
-The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#inset-text).
+The data attribute is added automatically by the [Design System's 'tracking' script](/guidance/tracking/#inset-text).

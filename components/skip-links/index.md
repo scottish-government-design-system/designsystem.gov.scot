@@ -74,7 +74,7 @@ For the phrase "Skip to content" some screen readers pronounced the word "conten
 
 You can track skip link clicks through the original page path and a data attribute describing the action.
 
-The data attribute is added automatically by the [Design System's 'tracking' script](/get-started/tracking/#skip-links)
+The data attribute is added automatically by the [Design System's 'tracking' script](/guidance/tracking/#skip-links)
 
 
 

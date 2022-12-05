@@ -47,6 +47,6 @@ The pagination component is a compact way of letting your users to more quickly 
 
 To understand user behaviour, clicks on links in pagination can be tracked through the click URL, the click text and a data attribute showing the interaction.
 
-The data attribute is added automatically by the [Design System’s ‘tracking’ script](/get-started/tracking/#tabs).
+The data attribute is added automatically by the [Design System’s ‘tracking’ script](/guidance/tracking/#tabs).
 
 There is additional information on tracking in the [search results pattern's website analytics section](/patterns/search-results/#website-analytics).

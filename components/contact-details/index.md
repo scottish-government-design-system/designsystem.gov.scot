@@ -50,4 +50,4 @@ To track this component:
 * internal links can be tracked the same way
 * phone numbers are not links by default, they are tagged with a data attribute and, if the user is on a mobile phone, can be automatically linked to make a call if the user’s browser supports this  
 
-The data attributes are added automatically by the [Design System's 'tracking' script](/get-started/tracking/#contact-details).
+The data attributes are added automatically by the [Design System's 'tracking' script](/guidance/tracking/#contact-details).
