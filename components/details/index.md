@@ -8,4 +8,5 @@ thispage: component.details
 summary: ""
 noindex: true
 draft: true
+sitemap: false
 ---

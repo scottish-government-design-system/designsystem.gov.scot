@@ -5,7 +5,10 @@ category: styles
 parent: styles
 thispage: style.spacing
 summary: "All spacing inside and between the components on a page use multiples of 8 pixels."
-published: true
+draft: true
+sitemap: false
+noindex: true
+
 ---
 
 ## Our spacing

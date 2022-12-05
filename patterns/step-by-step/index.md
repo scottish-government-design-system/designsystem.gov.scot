@@ -7,4 +7,5 @@ thispage: pattern.step-by-step
 summary: ""
 draft: true
 noindex: true
+sitemap: false
 ---

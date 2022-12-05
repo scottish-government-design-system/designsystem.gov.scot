@@ -6,4 +6,5 @@ label: component
 parent: components
 thispage: component.contents-nav
 summary: ""
+published: false
 ---

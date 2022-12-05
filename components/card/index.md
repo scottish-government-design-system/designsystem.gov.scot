@@ -10,6 +10,8 @@ examples:
   - site: tradingnation.mygov.scot
     url: https://tradingnation.mygov.scot/
     name: "A Trading Nation"
+
+published: false
 ---
 
 ## About this component

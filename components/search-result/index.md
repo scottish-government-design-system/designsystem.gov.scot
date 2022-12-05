@@ -5,6 +5,9 @@ category: components
 parent: components
 thispage: component.search-result
 summary: "A search result provides the key information about an item appearing in a list of search results."
+draft: true
+noindex: true
+sitemap: false
 ---
 
 ## About this component

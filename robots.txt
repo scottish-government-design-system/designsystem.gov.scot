@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: http://designsystem.gov.scot/sitemap.xml
