@@ -2,7 +2,8 @@
 layout: example
 parent: pattern.site-footer
 
-index: 999
+sitemap: false
+noindex: true
 ---
 
 ### Configuration options

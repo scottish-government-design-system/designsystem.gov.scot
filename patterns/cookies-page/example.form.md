@@ -2,7 +2,8 @@
 layout: example
 parent: pattern.cookies-page
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <h2>Cookie settings</h2>
 <p>We use 3 main types of cookie on our website. You can choose which cookies you’re happy for us to use. Any data collected is anonymous.</p>

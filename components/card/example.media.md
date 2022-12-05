@@ -2,8 +2,9 @@
 layout: example
 parent: component.card
 type: example
-index: 0
 style: "body {background: #f8f8f8;} .ds_card {max-width: 300px;margin: 0 auto;}"
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_card  ds_card--has-hover">

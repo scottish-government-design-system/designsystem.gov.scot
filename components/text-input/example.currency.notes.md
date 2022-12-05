@@ -1,7 +1,8 @@
 ---
 layout: example
 parent: component.text-input
-index: 0
+sitemap: false
+noindex: true
 ---
 
 Currency input elements need to be wrapped in a div with class <code>ds_currency-wrapper</code>.

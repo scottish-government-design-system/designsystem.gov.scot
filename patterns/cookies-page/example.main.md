@@ -2,6 +2,7 @@
 layout: example
 parent: pattern.cookies-page
 type: example
-index: 0
 illustration: assets/images/examples/cookies-page.svg
+sitemap: false
+noindex: true
 ---

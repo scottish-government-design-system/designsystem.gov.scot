@@ -1,7 +1,9 @@
 ---
 layout: example
-parent: pattern.step-navigation
+parent: pattern.step-by-step
 type: example
+sitemap: false
+noindex: true
 ---
 <style>
 .ds_step-navigation .ds_accordion.js-initialised .ds_accordion-item__body {

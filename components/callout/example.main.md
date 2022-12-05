@@ -2,6 +2,8 @@
 layout: example
 parent: component.callout
 type: example
+sitemap: false
+noindex: true
 ---
 
 <aside class="ds_callout">

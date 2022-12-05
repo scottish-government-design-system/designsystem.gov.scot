@@ -4,6 +4,8 @@ parent: component.contact-details
 type: example
 scripts:
   - /assets/patternlib/dist/pattern-library.js
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_contact-details">

@@ -2,6 +2,8 @@
 layout: example
 parent: component.radio-buttons
 type: example
+sitemap: false
+noindex: true
 ---
 <form>
     <div class="ds_question  ds_question--error" id="error-id-one">

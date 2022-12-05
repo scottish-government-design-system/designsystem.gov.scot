@@ -2,6 +2,8 @@
 layout: example
 parent: pattern.addresses
 type: example
+sitemap: false
+noindex: true
 ---
 
 <dl class="ds_prefilled-value-list" aria-label="Your current answers">

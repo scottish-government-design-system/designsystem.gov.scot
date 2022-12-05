@@ -2,7 +2,8 @@
 layout: example
 parent: style.typography
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <h2 class="ds_h3">Contents</h2>

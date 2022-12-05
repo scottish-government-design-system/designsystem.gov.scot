@@ -2,9 +2,11 @@
 layout: example
 parent: component.category-header
 type: example
-index: 0
 
 style: '.placeholder-header-wrapper {background: #002d54;overflow: hidden;}.example-frame__content {padding-left: 0; padding-right: 0;}'
+
+sitemap: false
+noindex: true
 ---
 
 <div class="placeholder-header-wrapper  ds_reversed">

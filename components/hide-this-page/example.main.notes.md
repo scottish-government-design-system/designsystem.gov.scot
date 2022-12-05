@@ -1,8 +1,8 @@
 ---
 layout: example
 parent: component.hide-this-page
-
-index: 999
+sitemap: false
+noindex: true
 ---
 
 This 'hide this page' button code should be placed inside your main layout container (<code>.ds_layout</code>) for correct placement of the button in the layout.

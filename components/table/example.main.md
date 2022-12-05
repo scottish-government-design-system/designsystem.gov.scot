@@ -2,7 +2,8 @@
 layout: example
 parent: component.table
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <table class="ds_table">
     <caption>Public holidays in 2020</caption>

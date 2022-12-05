@@ -2,7 +2,8 @@
 layout: example
 parent: component.character-count
 
-index: 999
+sitemap: false
+noindex: true
 ---
 A character limit can be set in two ways:
 

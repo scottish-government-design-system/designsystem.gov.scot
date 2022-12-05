@@ -2,7 +2,8 @@
 layout: example
 parent: component.summary-list
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <ol class="ds_summary-list  ds_summary-list--no-border">

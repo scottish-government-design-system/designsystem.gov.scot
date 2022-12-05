@@ -82,9 +82,6 @@ components:
       url: /components/feature-header/
     - title: File download
       url: /components/file-download/
-    - title: Forms
-      url: /components/forms/
-      draft: true
     - title: Hide this page
       url: /components/hide-this-page/
     - title: Inset text

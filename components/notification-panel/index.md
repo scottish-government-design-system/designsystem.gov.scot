@@ -62,5 +62,3 @@ Using a visually contrasting area for important content will help users find thi
 If you use a notification panel for a page's main heading, you should make it the H1 heading for the page. If you use a notification panel on a page that already has a H1 heading, use a different heading level for the notification panel's title. The notification panel's title will look the same regardless of the heading level used.
 
 If you insert a notification panel into a page in response to a user action, then adding `role="alert"` to the notification panel will help assistive technology tools to notify the user about the change.
-
-{% include example-frame.html title="Notification panel shown as an alert" name="alert" %}

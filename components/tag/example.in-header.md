@@ -2,7 +2,8 @@
 layout: example
 parent: component.tag
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <header class="ds_site-header" role="banner">

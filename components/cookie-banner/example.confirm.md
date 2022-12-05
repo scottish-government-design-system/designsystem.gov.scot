@@ -2,9 +2,10 @@
 layout: example
 parent: component.cookie-banner
 type: example
-index: 0
 style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
 embeddedScript: 'document.getElementById("cookie-confirm").classList.remove("fully-hidden");'
+sitemap: false
+noindex: true
 ---
 
 <div id="cookie-confirm" class="ds_notification  ds_notification--cookie-success  ds_reversed  fully-hidden  js-confirm-cookie-content" data-module="ds-notification">

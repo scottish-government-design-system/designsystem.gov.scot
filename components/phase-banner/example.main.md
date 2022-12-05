@@ -2,7 +2,8 @@
 layout: example
 parent: component.phase-banner
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_phase-banner">

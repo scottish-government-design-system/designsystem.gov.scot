@@ -2,7 +2,8 @@
 layout: example
 parent: component.sequential-navigation
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <nav class="ds_sequential-nav" aria-label="Article navigation">

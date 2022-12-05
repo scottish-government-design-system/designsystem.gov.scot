@@ -2,7 +2,8 @@
 layout: example
 parent: component.table
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <table class="ds_table" data-smallscreen="boxes">
     <caption>Highest peaks in Scotland</caption>

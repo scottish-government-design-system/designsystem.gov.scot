@@ -2,7 +2,8 @@
 layout: example
 parent: component.navigation-tabs
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_tabs  ds_tabs--links" data-module="ds-tabs-navigation">

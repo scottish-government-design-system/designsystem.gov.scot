@@ -2,7 +2,8 @@
 layout: example
 parent: component.warning-text
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_warning-text">

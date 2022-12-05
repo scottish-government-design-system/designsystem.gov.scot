@@ -3,6 +3,8 @@ layout: example
 parent: component.radio-buttons
 type: example
 minheight: 488px
+sitemap: false
+noindex: true
 ---
 <form>
     <div class="ds_question">

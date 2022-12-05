@@ -2,6 +2,8 @@
 layout: example
 parent: component.radio-buttons
 type: example
+sitemap: false
+noindex: true
 ---
 <form>
     <fieldset>

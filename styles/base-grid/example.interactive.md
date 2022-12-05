@@ -2,7 +2,8 @@
 layout: example-base-grid
 parent: style.base-grid
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <style>
 

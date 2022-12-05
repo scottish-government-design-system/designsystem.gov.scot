@@ -2,7 +2,8 @@
 layout: example
 parent: component.inset-text
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_inset-text">

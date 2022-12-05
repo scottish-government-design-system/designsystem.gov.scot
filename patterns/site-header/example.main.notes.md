@@ -2,7 +2,8 @@
 layout: example
 parent: pattern.site-header
 
-index: 999
+sitemap: false
+noindex: true
 ---
 
 The site header will inherit its colour scheme from the colours you have defined for primary and secondary branding.

@@ -3,6 +3,7 @@ layout: example
 type: example
 index: 0
 style: "body {background: #f8f8f8;}"
+sitemap: false
 ---
 
 

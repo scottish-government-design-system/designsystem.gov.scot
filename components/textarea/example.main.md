@@ -2,7 +2,8 @@
 layout: example
 parent: component.textarea
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div>

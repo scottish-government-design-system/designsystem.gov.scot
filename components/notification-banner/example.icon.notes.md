@@ -2,7 +2,8 @@
 layout: example
 parent: component.notification-banner
 
-index: 999
+sitemap: false
+noindex: true
 ---
 
 ### Icon display style

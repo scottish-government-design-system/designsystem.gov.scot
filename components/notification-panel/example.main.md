@@ -3,6 +3,8 @@ layout: example
 parent: component.notification-panel
 type: example
 index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_notification-panel ds_notification-panel--success">

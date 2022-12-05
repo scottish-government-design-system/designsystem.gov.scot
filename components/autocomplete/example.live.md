@@ -4,6 +4,8 @@ parent: component.autocomplete
 type: example
 script: autocomplete-demo
 minheight: 408px
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_site-search  ds_autocomplete" id="site-search-autocomplete">

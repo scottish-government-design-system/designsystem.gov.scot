@@ -2,7 +2,8 @@
 layout: example
 parent: component.date-picker
 
-index: 999
+sitemap: false
+noindex: true
 ---
 
 ### Date formats

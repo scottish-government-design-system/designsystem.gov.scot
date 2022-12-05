@@ -2,8 +2,9 @@
 layout: example
 parent: component.notification-banner
 type: example
-index: 0
 style: '.example-frame__content {padding-left: 0; padding-right: 0;}'
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_notification  ds_reversed" data-module="ds-notification">

@@ -2,8 +2,9 @@
 layout: example
 parent: component.site-search
 type: example
-index: 0
-minheight: 119px
+minheight: 120px
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_site-search  ds_site-search--collapsible" data-module="ds-site-search">

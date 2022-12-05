@@ -2,8 +2,9 @@
 layout: example
 parent: component.hide-this-page
 type: example
-index: 0
 illustration: assets/images/examples/hide-this-page.png
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_hide-page">

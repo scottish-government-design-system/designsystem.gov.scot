@@ -2,7 +2,8 @@
 layout: example
 parent: component.hide-this-page
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="visually-hidden  ds_hide-page">

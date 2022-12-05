@@ -2,7 +2,8 @@
 layout: example
 parent: component.search-result
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <div class="ds_search-result">
     <h3 class="ds_search-result__title">

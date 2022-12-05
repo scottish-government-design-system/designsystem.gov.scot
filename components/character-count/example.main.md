@@ -2,7 +2,8 @@
 layout: example
 parent: component.character-count
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <div class="ds_question" data-module="ds-character-count">
 <label class="ds_label" for="first-name">First name</label>

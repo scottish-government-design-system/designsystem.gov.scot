@@ -2,7 +2,8 @@
 layout: example
 parent: style.layout
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 .my_layout--document {
     .ds_layout__icon {

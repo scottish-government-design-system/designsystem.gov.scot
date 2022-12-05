@@ -3,6 +3,8 @@ layout: example
 parent: component.error-message
 type: example
 index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_question  ds_question--error" id="error-id-three">

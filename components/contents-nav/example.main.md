@@ -2,7 +2,8 @@
 layout: example
 parent: component.contents-nav
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <nav role="navigation" class="ds_contents-nav" aria-label="Sections">

@@ -2,8 +2,9 @@
 layout: example
 parent: component.details
 type: example
-index: 0
 minheight: 288px
+sitemap: false
+noindex: true
 ---
 <details class="ds_details">
     <summary class="ds_details__summary">

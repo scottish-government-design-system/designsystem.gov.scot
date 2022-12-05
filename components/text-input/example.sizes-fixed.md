@@ -2,7 +2,8 @@
 layout: example
 parent: component.text-input
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <h3>Fixed-width inputs</h3>

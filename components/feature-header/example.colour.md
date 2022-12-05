@@ -2,8 +2,9 @@
 layout: example
 parent: component.feature-header
 type: example
-index: 0
 wrapper: true
+sitemap: false
+noindex: true
 ---
 
 <header class="ds_feature-header  ds_feature-header--background">

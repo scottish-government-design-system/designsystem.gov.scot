@@ -2,6 +2,8 @@
 layout: example
 parent: component.checkboxes
 type: example
+sitemap: false
+noindex: true
 ---
 <div class="ds_question">
     <div class="ds_question  ds_question--error" id="error-id">

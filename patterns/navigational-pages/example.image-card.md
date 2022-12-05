@@ -2,9 +2,10 @@
 layout: example
 parent: pattern.navigational-pages
 type: example
-index: 0
 style: 'body{background-color:#f8f8f8}'
 pad: 16px
+sitemap: false
+noindex: true
 ---
 <nav aria-label="Category navigation">
     <ul class="ds_category-list  ds_category-list--grid  ds_category-list--narrow">

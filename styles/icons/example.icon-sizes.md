@@ -2,7 +2,8 @@
 layout: example
 parent: style.icons
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <svg class="ds_icon  ds_icon--12" aria-hidden="true" role="img">

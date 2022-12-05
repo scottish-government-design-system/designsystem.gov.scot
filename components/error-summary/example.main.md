@@ -2,7 +2,8 @@
 layout: example
 parent: component.error-summary
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_error-summary" id="error-summary" aria-labelledby="error-summary-title" role="alert">

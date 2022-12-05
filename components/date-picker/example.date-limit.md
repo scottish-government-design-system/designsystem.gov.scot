@@ -4,6 +4,8 @@ parent: component.date-picker
 type: example
 script: datepicker-demo
 minheight: 448px
+sitemap: false
+noindex: true
 ---
 
 <div data-module="ds-datepicker" class="ds_datepicker">

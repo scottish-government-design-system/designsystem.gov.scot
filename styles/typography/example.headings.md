@@ -2,7 +2,8 @@
 layout: example
 parent: style.typography
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 # Heading 1

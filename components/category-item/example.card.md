@@ -2,8 +2,9 @@
 layout: example
 parent: component.category-item
 type: example
-index: 0
 style: "body {background: #f8f8f8;}"
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_card  ds_card--has-hover">

@@ -2,7 +2,8 @@
 layout: example
 parent: style.layout
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <main class="ds_layout  ds_layout--article">
     <div class="ds_layout__header">

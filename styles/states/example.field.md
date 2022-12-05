@@ -3,6 +3,8 @@ layout: example
 parent: style.states
 type: example
 index: 0
+sitemap: false
+noindex: true
 ---
 <div class="ds_field-group">
 <label class="ds_label" for="text-input">Text input</label>

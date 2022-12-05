@@ -2,7 +2,8 @@
 layout: example
 parent: style.page-template
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <body>
     <div class="ds_page">

@@ -2,7 +2,8 @@
 layout: example
 parent: pattern.task-list
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <h2 id="task-list-status" class="ds_task-list-status-heading">Application incomplete</h2>

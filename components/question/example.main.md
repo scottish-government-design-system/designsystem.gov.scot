@@ -2,7 +2,8 @@
 layout: example
 parent: component.question
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <div class="ds_question  ds_question--error">
     <label class="ds_label" for="more-detail">Please provide more detail</label>

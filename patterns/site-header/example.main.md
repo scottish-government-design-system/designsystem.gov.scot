@@ -2,9 +2,10 @@
 layout: example
 parent: pattern.site-header
 type: example
-index: 0
 style: '.example-frame__content {padding: 0;}'
 minheight: '427px'
+sitemap: false
+noindex: true
 ---
 
 <header class="ds_site-header  ds_site-header--gradient" role="banner">

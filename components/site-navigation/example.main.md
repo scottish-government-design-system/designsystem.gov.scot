@@ -2,8 +2,9 @@
 layout: example
 parent: component.site-navigation
 type: example
-index: 0
 style: ".ds_site-navigation {display: block;}"
+sitemap: false
+noindex: true
 ---
 
 <nav class="ds_site-navigation">

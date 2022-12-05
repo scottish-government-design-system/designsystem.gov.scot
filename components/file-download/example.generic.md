@@ -2,6 +2,8 @@
 layout: example
 parent: component.file-download
 type: example
+sitemap: false
+noindex: true
 ---
 <div class="ds_file-download">
     <div class="ds_file-download__thumbnail">

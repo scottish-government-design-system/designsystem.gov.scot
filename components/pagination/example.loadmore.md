@@ -2,6 +2,8 @@
 layout: example
 parent: component.pagination
 type: example
+sitemap: false
+noindex: true
 ---
 
 <nav class="ds_pagination" aria-label="Search result pages">

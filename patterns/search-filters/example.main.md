@@ -2,6 +2,8 @@
 layout: example
 parent: pattern.search-filters
 type: example
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_search-filters">

@@ -2,8 +2,9 @@
 layout: example
 parent: component.category-header
 type: example
-index: 0
 wrapper: true
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_category-header">

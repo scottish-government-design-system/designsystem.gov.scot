@@ -2,8 +2,9 @@
 layout: example
 parent: component.side-navigation
 type: example
-index: 0
 minheight: 581px
+sitemap: false
+noindex: true
 ---
 
 <nav aria-label="Sections" class="ds_side-navigation" data-module="ds-side-navigation">

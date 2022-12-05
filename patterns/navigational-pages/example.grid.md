@@ -2,8 +2,9 @@
 layout: example
 parent: pattern.navigational-pages
 type: example
-index: 0
 style: 'body{background-color:#f8f8f8}'
+sitemap: false
+noindex: true
 ---
 
 <nav aria-label="Category navigation">

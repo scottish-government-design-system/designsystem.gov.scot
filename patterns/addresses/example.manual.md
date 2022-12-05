@@ -2,6 +2,8 @@
 layout: example
 parent: pattern.addresses
 type: example
+sitemap: false
+noindex: true
 ---
 
 <button class="ds_link  ds_no-margin">Return to postcode lookup</button>
@@ -38,4 +40,3 @@ type: example
         <input class="ds_input  ds_input--fixed-10" type="text" name="address-postcode" id="address-postcode" autocomplete="postal-code"/>
     </div>
 </fieldset>
-

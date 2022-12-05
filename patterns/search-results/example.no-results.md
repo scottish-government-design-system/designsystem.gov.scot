@@ -2,7 +2,8 @@
 layout: example
 parent: pattern.search-results
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <main class="ds_layout  ds_layout--search-results  ds_search-results">

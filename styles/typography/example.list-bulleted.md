@@ -2,7 +2,8 @@
 layout: example
 parent: style.typography
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <p>You can use your Blue Badge to park in certain restricted areas for free, including:</p>

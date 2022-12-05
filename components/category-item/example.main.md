@@ -2,7 +2,8 @@
 layout: example
 parent: component.category-item
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <article class="ds_category-item">

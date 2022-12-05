@@ -2,8 +2,9 @@
 layout: example
 parent: component.notification-panel
 type: example
-index: 0
 minheight: 432px
+sitemap: false
+noindex: true
 ---
 
 <button class="ds_button  ds_no-margin  js-show-notification">Click this button to show the notification panel</button>

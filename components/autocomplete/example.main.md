@@ -5,6 +5,8 @@ type: example
 script: autocomplete-demo
 minheight: 400px
 illustration: assets/images/examples/autocomplete.svg
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_site-search  ds_autocomplete" id="site-search-autocomplete">

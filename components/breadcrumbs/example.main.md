@@ -3,6 +3,8 @@ layout: example
 parent: component.breadcrumbs
 type: example
 index: 0
+sitemap: false
+noindex: true
 ---
 
 <nav aria-label="Breadcrumb">

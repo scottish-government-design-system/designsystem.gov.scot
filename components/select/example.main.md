@@ -2,7 +2,8 @@
 layout: example
 parent: component.select
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 <div>
     <label class="ds_label" for="component">Select a component</label>

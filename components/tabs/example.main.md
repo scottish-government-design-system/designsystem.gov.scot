@@ -2,7 +2,8 @@
 layout: example
 parent: component.tabs
 type: example
-index: 0
+sitemap: false
+noindex: true
 ---
 
 <div class="ds_tabs" data-module="ds-tabs">

@@ -2,7 +2,8 @@
 layout: example
 parent: component.category-item
 
-index: 999
+sitemap: false
+noindex: true
 ---
 
 ### Configuration options
