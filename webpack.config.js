@@ -13,6 +13,9 @@ const commonEntries = {
   ],
   'autocomplete-demo': [
     path.resolve(__dirname, 'assets/scripts/autocomplete-demo.js'),
+  ],
+  'datepicker-demo': [
+    path.resolve(__dirname, 'assets/scripts/datepicker-demo.js'),
   ]
 };
 
