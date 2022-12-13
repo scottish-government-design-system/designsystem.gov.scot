@@ -6,7 +6,7 @@ parent: components
 thispage: component.navigation-tabs
 summary: Navigation tabs have the appearance of a tabbed interface but each tab links to its own page.
 noindex: true
-
+sitemap: false
 ---
 
 Placeholder text
