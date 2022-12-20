@@ -6,8 +6,6 @@ parent: components
 label: component
 thispage: component.summary-list
 summary: "A compact summary of a user's responses to questions in a form."
-noindex: true
-sitemap: false
 ---
 
 ## About this component

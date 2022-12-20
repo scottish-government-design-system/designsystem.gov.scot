@@ -118,6 +118,8 @@ components:
       url: /components/site-search/
     - title: Skip links
       url: /components/skip-links/
+    - title: Summary list
+      url: /components/summary-list/
     - title: Table
       url: /components/table/
     - title: Tabs
@@ -140,6 +142,9 @@ patterns:
       url: /patterns/cookies-page/
     - title: Conditional content
       url: /patterns/conditional-content/
+      draft: true
+    - title: Form outcomes
+      url: /patterns/form-outcomes/
       draft: true
     - title: Navigational pages
       url: /patterns/navigational-pages/
