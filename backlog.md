@@ -187,10 +187,6 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Summary list</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
             <td>Tables - Complex (data sets)</td>
             <td>To do</td>
         </tr>
