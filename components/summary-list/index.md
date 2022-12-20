@@ -6,6 +6,12 @@ parent: components
 label: component
 thispage: component.summary-list
 summary: "A compact summary of a user's responses to questions in a form."
+
+updatehistory:
+  - date: 2022-12-20
+    content: Add "summary list" component
+    homepage: '<a href="/components/summary-list">"Summary list" component</a> published'
+    url: /components/summary-list
 ---
 
 ## About this component
