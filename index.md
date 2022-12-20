@@ -9,3 +9,5 @@ sortfield: index
 ---
 
 The Digital Scotland Design System provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies.
+
+The Design System is open source and free to use.

@@ -20,7 +20,7 @@
     {% endunless %}
 {% endfor %}
 
-{% if updates_home %}
+{% if updates_home.size > 0 %}
     {% assign updates_by_date = updates_home | sort: "date" | reverse %}
     <div id="whats-new" class="ds_cb  ds_cb--text  ds_cb--fullwidth">
         <div class="ds_wrapper">

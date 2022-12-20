@@ -11,10 +11,4 @@ summary: "About the Design System and how to start using it."
 
 You’ll need to [set up your project](/get-started/installation/) to be able to use the Design System. 
 
-## Accessibility
-
-We've created the Design System with accessibility as a key requirement. Every [style](/styles/), [component](/components/) and [pattern](/patterns/) passes WGAC&nbsp;2.1&nbsp;AA.
-
-## User research
-
-Where it's helpful, we've included details about user research and how the styles, components and patterns have met user needs.
+If you want to prototype your new website or service, you can use the [Design System's Axure library and prototyping guidance](/get-started/prototyping).

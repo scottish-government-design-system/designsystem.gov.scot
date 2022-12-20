@@ -23,16 +23,8 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Address lookup</td>
-            <td><a href="/patterns/addresses/">Complete</a></td>
-        </tr>
-        <tr>
             <td>Audio player guidance</td>
             <td>To do</td>
-        </tr>
-        <tr>
-            <td>Autocomplete / suggestions</td>
-            <td><a href="/components/autocomplete/">Experimental</a></td>
         </tr>
         <tr>
             <td>A-Z listing</td>
@@ -55,10 +47,6 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Card navigation</td>
-            <td><a href="/patterns/navigational-pages/">Complete</a></td>
-        </tr>
-        <tr>
             <td>Case study</td>
             <td>To do</td>
         </tr>
@@ -71,20 +59,8 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Conditional reveal</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
             <td>Contextual footer</td>
             <td>To do</td>
-        </tr>
-        <tr>
-            <td>Cookie banner</td>
-            <td><a href="/components/cookie-banner/">Experimental</a></td>
-        </tr>
-        <tr>
-            <td>Cookies page</td>
-            <td><a href="/patterns/cookies-page/">Complete</a></td>
         </tr>
         <tr>
             <td>Dates</td>
@@ -92,7 +68,7 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Details</td>
-            <td>To do</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Document history</td>
@@ -115,24 +91,12 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>File download</td>
-            <td><a href="/components/file-download/">Complete</a></td>
-        </tr>
-        <tr>
             <td>File upload</td>
             <td>To do</td>
         </tr>
         <tr>
             <td>Form navigation / progress</td>
             <td>In progress</td>
-        </tr>
-        <tr>
-            <td>Form guidance</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
-            <td>Grid navigation</td>
-            <td><a href="/patterns/navigational-pages/">Complete</a></td>
         </tr>
         <tr>
             <td>Guide/multipage document (mini hub)</td>
@@ -143,16 +107,8 @@ permalink: '/backlog/'
             <td>Proposed</td>
         </tr>  
         <tr>
-            <td>Icons and iconography</td>
-            <td><a href="/styles/icons/">Complete</a></td>
-        </tr>
-        <tr>
             <td>Infographic guidance</td>
             <td>To do</td>
-        </tr>
-        <tr>
-            <td>List navigation</td>
-            <td><a href="/patterns/navigational-pages/">Complete</a></td>
         </tr>
         <tr>
             <td>Maps</td>
@@ -181,10 +137,6 @@ permalink: '/backlog/'
         <tr>
             <td>Passwords</td>
             <td>To do</td>
-        </tr>
-        <tr>
-            <td>Pagination</td>
-            <td><a href="/components/pagination/">Complete</a></td>
         </tr>
         <tr>
             <td>PDF download page / document cover page</td>
@@ -223,10 +175,6 @@ permalink: '/backlog/'
             <td>In progress</td>
         </tr>
         <tr>
-            <td>Skip links</td>
-            <td><a href="/components/skip-links/">Complete</a></td>
-        </tr>
-        <tr>
             <td>Step by step navigation</td>
             <td>In progress</td>
         </tr>
@@ -240,19 +188,11 @@ permalink: '/backlog/'
         </tr>
         <tr>
             <td>Summary list</td>
-            <td>To do</td>
-        </tr>
-        <tr>
-            <td>Tabs</td>
-            <td><a href="/components/tabs/">Experimental</a></td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>Tables - Complex (data sets)</td>
             <td>To do</td>
-        </tr>
-        <tr>
-            <td>Task list</td>
-            <td><a href="/patterns/task-list/">Experimental</a></td>
         </tr>
     </tbody>
 </table>

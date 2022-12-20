@@ -6,6 +6,6 @@ parent: home
 title: "Styles"
 category: library
 index: 0
-summary: "Best practice guidance on core elements of digital design and web styling."
+summary: "Best practice guidance and the basic design elements required to build functional and accessible user interfaces."
 ---
-Best practice guidance on core elements of digital design, such as typography and colour palette.
+You will find styling and layout options in this section, including the Design System's colour palette, base grid and responsive spacing scale.
