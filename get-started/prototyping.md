@@ -8,6 +8,15 @@ thispage: get-started.prototyping
 summary: "Rapidly create wireframes and interactive prototypes in Axure RP using our design kit."
 permalink: "/get-started/prototyping/"
 index: 999
+updatehistory:
+  - date: 2021-02-22
+    content: First published
+    url: /get-started/prototyping 
+  - date: 2022-12-21
+    content: Add Figma library
+    homepage: 'Add the <a href="/get-started/prototyping#figma">Design System Figma library</a> to the "prototyping" page.'
+    url: /get-started/prototyping
+    
 ---
 <nav role="navigation" class="ds_contents-nav" aria-label="Sections">
     <h2 class="ds_contents-nav__title">Contents</h2>
@@ -17,13 +26,11 @@ index: 999
                 Axure RP
             </a>
         </li>
-        {% comment %}
         <li class="ds_contents-nav__item">
-            <a class="ds_contents-nav__link" href="#adobe-xd">
-                Adobe XD
+            <a class="ds_contents-nav__link" href="#figma">
+                Figma
             </a>
         </li>
-        {% endcomment %}
         <li class="ds_contents-nav__item">
             <a class="ds_contents-nav__link" href="#guide-to-prototyping-model">
                 Guide to Prototyping Model
@@ -43,39 +50,7 @@ Axure RP is an application used to mock up wireframes and clickthrough prototype
 2. Get the Design System widget library  
     The library contains widgets for Design System components, design elements and patterns.
 
-<div class="ds_file-download">
-    <div class="ds_file-download__thumbnail">
-        <a data-button="document-cover" class="ds_file-download__thumbnail-link" aria-hidden="true" tabindex="-1" href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib">
-            <span class="visually-hidden">Document cover image</span>
-            <img class="ds_file-download__thumbnail-image  ds_file-download__thumbnail-image--generic" src="/assets/images/documents/axure.svg" alt="">
-        </a>
-    </div>
-
-    <div class="ds_file-download__content">
-        <p class="ds_file-download__title" id="file-title-1">Design System Axure library</p>
-
-        <div id="file-download-1" class="ds_file-download__details">
-            <dl class="ds_metadata  ds_metadata--inline">
-                <div class="ds_metadata__item">
-                    <dt class="ds_metadata__key  visually-hidden">File type</dt>
-                    <dd class="ds_metadata__value">Axure RP<span class="visually-hidden">,</span></dd>
-                </div>
-
-                <div class="ds_metadata__item">
-                    <dt class="ds_metadata__key  visually-hidden">File size</dt>
-                    <dd class="ds_metadata__value">1.04 MB</dd>
-                </div>
-            </dl>
-        </div>
-
-        <div>
-            <a aria-hidden="true" aria-labelledby="file-title-1" aria-describedby="file-download-1" href="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.1/digitalscotlanddesignsystem_v1.0.rplib" class="ds_file-download__button  ds_button  ds_button--small  ds_button--secondary  ds_no-margin">
-                Download
-            </a>
-        </div>
-    </div>
-</div>
-
+{% include file-download.html title="Design System Axure library" filesize="1.04 MB" type="Axure RP" name="axure" icon="/assets/images/documents/axure.svg" url="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.2/digitalscotlanddesignsystem_v1.0.rplib" %}
 
 Open Axure and click the 'Add Library +' icon at the top of the Libraries pane. Locate and select the **digitalscotlanddesignsystem_v1.0.rplib** file.
 
@@ -93,18 +68,21 @@ If you are new to Axure, they offer [tutorials](https://docs.axure.com/axure-rp/
 
 When a new version of the library is available, you need to download the new file to replace the old one.
 
-{% comment %}
-## Adobe XD
 
-The Adobe XD kit is a vector ready version of the Design System which can be used when creating flat visuals. The kit contains all the individual styles and components found on the Design System site.
 
-Download the Adobe XD kit here
 
-The minimum system requirements to run this version of the design kit are:
+## Figma
 
-* macOS X v10.14 or later
-* Windows 10 (64-bit) - Version 1803 (build 10.0.17134) or later.
-{% endcomment %}
+The Digital Scotland Design System Kit is available on the [Figma community portal](https://www.figma.com/community/file/1179354393781430703).
+
+You can also directly download the file.
+
+{% include file-download.html title="Design System Figma library" filesize="1.48 MB" type="Figma .fig" name="figma" icon="/assets/images/documents/figma.svg" url="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.2/Digital.Scotland.Design.System.Kit.-.Community.v0.1.fig" %}
+
+Once you have the file added to your Figma account, publish the library and the assets panel. You will then be able to access the styles and components in your project's files by enabling the library through the assets panel.
+
+
+
 
 ## Guide to Prototyping Model
 

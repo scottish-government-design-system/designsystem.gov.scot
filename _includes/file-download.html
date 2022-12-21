@@ -1,0 +1,40 @@
+{% if include.icon %}
+{% assign icon = include.icon %}
+{% else %}
+{% assign icon = '/assets/images/documents/svg/generic.svg' %}
+{% endif %}
+
+<div class="ds_file-download">
+    <div class="ds_file-download__thumbnail">
+        <a data-button="document-cover" class="ds_file-download__thumbnail-link" aria-hidden="true" tabindex="-1" href="{{include.url}}">
+            <span class="visually-hidden">Document cover image</span>
+            <img class="ds_file-download__thumbnail-image  ds_file-download__thumbnail-image--generic" src="{{icon}}" alt="">
+        </a>
+    </div>
+
+    <div class="ds_file-download__content">
+        <p class="ds_file-download__title" id="file-title-{{include.name}}">{{include.title}}</p>
+
+        <div id="file-download-{{include.name}}" class="ds_file-download__details">
+            <dl class="ds_metadata  ds_metadata--inline">
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key  visually-hidden">File type</dt>
+                    <dd class="ds_metadata__value">{{include.type}}<span class="visually-hidden">,</span></dd>
+                </div>
+
+                {% if include.filesize %}
+                <div class="ds_metadata__item">
+                    <dt class="ds_metadata__key  visually-hidden">File size</dt>
+                    <dd class="ds_metadata__value">{{include.filesize}}</dd>
+                </div>
+                {% endif %}
+            </dl>
+        </div>
+
+        <div>
+            <a aria-hidden="true" aria-labelledby="file-title-{{include.name}}" aria-describedby="file-download-{{include.name}}" href="{{include.url}}" class="ds_file-download__button  ds_button  ds_button--small  ds_button--secondary  ds_no-margin">
+                Download
+            </a>
+        </div>
+    </div>
+</div>
