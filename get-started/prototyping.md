@@ -14,7 +14,7 @@ updatehistory:
     url: /get-started/prototyping 
   - date: 2022-12-21
     content: Add Figma library
-    homepage: 'Add the <a href="/get-started/prototyping#figma">Design System Figma library</a> to the "prototyping" page.'
+    homepage: 'Added the <a href="/get-started/prototyping#figma">Design System Figma library</a> to the "prototyping" page.'
     url: /get-started/prototyping
     
 ---
