@@ -79,7 +79,7 @@ You can also directly download the file.
 
 {% include file-download.html title="Design System Figma library" filesize="1.48 MB" type="Figma .fig" name="figma" icon="/assets/images/documents/figma.svg" url="https://github.com/scottishgovernment/designsystem-assets/releases/download/0.2/Digital.Scotland.Design.System.Kit.-.Community.v0.1.fig" %}
 
-Once you have the file added to your Figma account, publish the library and the assets panel. You will then be able to access the styles and components in your project's files by enabling the library through the assets panel.
+Once you have the file added to your Figma account, publish the library from the assets panel. You will then be able to access the styles and components in your project's files by enabling the library through the assets panel.
 
 
 
