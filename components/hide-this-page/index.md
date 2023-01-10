@@ -32,10 +32,10 @@ We designed our hide this page component so that:
 
 When a user clicks on the hide this page button, it:
 1. changes the current tab to the Google homepage
-1. removes the previous page visit from the history
+1. removes the previous page visit from the browser history
 1. opens the BBC Weather website in a new active tab
 
-It does not remove every visit to a sensitive page from the history. It only removes the active page on which the user clicks the button.
+It does not remove every visit to a sensitive page from the browser history. It only removes the page on which the user clicks the button.
 
 ### When to use this component
 
@@ -63,16 +63,15 @@ We collaborated on the latest design, placement and language for this component 
 - Ministry of Justice (MoJ)
 - Department for Work and Pensions (DWP)
 
-Usability testing in 2015 of a previous version included a feedback session. This version took users to our site homepage. The session showed users preferred the button to either:
+Usability testing in 2015 of a previous version, which took users to the site's homepage, showed that users preferred the button to either:
 - close down the site completely
 - take them to a neutral site (such as Google)
-
 
 We also did desk-based research in 2020 by reviewing other websites with similar functionality. For example we looked at charity organisations such as:
 - [Women’s Aid](https://www.womensaid.org.uk/)
 - [Refuge](https://www.refuge.org.uk/)
 
-This helped us confirm the findings from the 2015 usability testing mentioned above.
+This helped us confirm the findings from the 2015 usability testing.
 
 ### Performance data
 
