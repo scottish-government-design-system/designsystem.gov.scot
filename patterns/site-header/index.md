@@ -48,7 +48,7 @@ This can be formed in variations of:
 
 When the site title appears next to a logo, it should not repeat the name of your brand, but rather be descriptive of the service being provided to the user.
 
-Site branding should always be left aligned and of proportionate size in the site header. We recommend horizontal logos at a maximum height of 40 pixels. For vertically-oriented sould have a maximum height of 80 pixels.
+Site branding should always be left aligned and of proportionate size in the site header. We recommend horizontal logos at a maximum height of 40 pixels. Vertically-oriented logos should have a maximum height of 80 pixels.
 
 For the best display of your branding, use vector-based files such as SVG. Alternatively JPG or PNG files can be used but ensure these are of sufficient quality and will not distort.
 
