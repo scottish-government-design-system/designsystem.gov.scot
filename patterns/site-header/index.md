@@ -11,6 +11,10 @@ examples:
    name: "A Trading Nation"
 
 updatehistory:
+  - date: 2023-01-17
+    content: Clearer documentation about site branding
+    url: /patterns/site-header
+    homepage: false
   - date: 2020-08-19
     content: Add "site header" pattern
     url: /patterns/site-header
@@ -35,18 +39,18 @@ The site header helps a user quickly recognise a website, for example if they do
 We’ve avoided using second level interactive navigation because of usability concerns.
 
 ## Site branding
-Logos and site sub titles can be customised to help users identify which service or organisation site they are using.
+The site logo and title can be customised to help users identify which service or organisation site they are using.
 
 This can be formed in variations of:
-1. A logo and subtitle separated by a divider
-2. Only a logo
-3. Only a sub title, which can run over one or two lines of text.
+* a logo and title separated by a divider
+* only a logo
+* only a title, which can run over one or two lines of text
 
-When the subtitle appears beside a logo, it should not repeat the name of your brand, rather be descriptive of the service being provided to the user.
+When the site title appears next to a logo, it should not repeat the name of your brand, but rather be descriptive of the service being provided to the user.
 
-Site branding should always be left aligned and of proportionate size in the site header. For example we recommend horizontal logos at a max height of 40px; the same as the Digital Scotland logo appears. Some logos are vertical aligned in which case 80px is the recommended max height.
+Site branding should always be left aligned and of proportionate size in the site header. We recommend horizontal logos at a maximum height of 40 pixels. For vertically-oriented sould have a maximum height of 80 pixels.
 
-For the best display of your branding, use vector based files such as SVG. Alternatively JPG or PNG files can be used but ensure these are of sufficient quality and will not distort.
+For the best display of your branding, use vector-based files such as SVG. Alternatively JPG or PNG files can be used but ensure these are of sufficient quality and will not distort.
 
 If you wish to discuss how best to show your site branding please contact [designsystem@gov.scot](mailto:designsystem@gov.scot)
 
