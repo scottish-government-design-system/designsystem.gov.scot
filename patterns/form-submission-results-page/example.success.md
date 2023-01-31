@@ -1,6 +1,6 @@
 ---
 layout: example
-parent: pattern.form-outcomes
+parent: pattern.form-submission-results-page
 type: example
 sitemap: false
 noindex: true
