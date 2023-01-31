@@ -143,9 +143,8 @@ patterns:
     - title: Conditional content
       url: /patterns/conditional-content/
       draft: true
-    - title: Form outcomes
-      url: /patterns/form-outcomes/
-      draft: true
+    - title: Form submission results page
+      url: /patterns/form-submission-results-page/
     - title: Navigational pages
       url: /patterns/navigational-pages/
       items:
