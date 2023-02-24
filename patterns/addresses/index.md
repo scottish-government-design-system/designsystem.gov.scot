@@ -117,7 +117,7 @@ Allowing autocomplete is beneficial because it:
 
 ## Why we use this pattern
 
-An address lookup makes it easier for users to provide an address. Use an address lookuip when you need a user's address to deliver them your service.
+An address lookup makes it easier for users to provide an address. Use an address lookup when you need a user's address to deliver them your service.
 
 Our design is based on guidance in the [GOV.UK Design System](https://design-system.service.gov.uk/patterns/addresses/).
 
