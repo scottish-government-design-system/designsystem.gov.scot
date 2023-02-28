@@ -12,6 +12,10 @@ updatehistory:
     content: Add "file download" component
     homepage: '<a href="/components/file-download">"File download" component</a> published'
     url: /components/file-download
+  - date: 2023-02-28
+    content: 'Component structure updated: the file title is now a link, download button has been removed'
+    homepage: '<a href="/components/file-download">"File download" component</a> updated'
+    url: /components/file-download
 ---
 
 ## About this component
@@ -38,14 +42,8 @@ When you do not want to have a simple text link to a file, the file download com
 
 If there is no specific thumbnail image for your file, the Design System has a collection of icons for common file types that can be used instead.
 
-<div class="ds_inset-text">
-    <div class="ds_inset-text__text">
-    Developers should note the addition of a modifier class, which is required for correct display: <code>ds_file-download__thumbnail-image--generic</code>
-    </div>
-</div>
-
 <figure class="example__content">
-<img alt="Ten icons for common file types" src="/assets/images/examples/file-icons.png">
+<img alt="Twelve icons for common file types" src="/assets/images/examples/file-icons.svg">
 <figcaption aria-hidden="true">The Design System's icons for common file types</figcaption>
 </figure>
 
