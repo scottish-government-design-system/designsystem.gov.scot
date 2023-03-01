@@ -5,7 +5,7 @@ type: example
 sitemap: false
 noindex: true
 ---
-<div class="ds_file-download  ds_file-download--highlighted">
+<div class="ds_file-download">
     <div class="ds_file-download__thumbnail">
         <a class="ds_file-download__thumbnail-link" aria-hidden="true" tabindex="-1" href="#">
             <span class="visually-hidden">Document cover image</span>
