@@ -67,11 +67,11 @@ The data attributes are added automatically by the [Design System's 'tracking' s
 
 ## Accessibility
 
-While the file download component contains two links to the file, only the 'download' link is made available to screen readers. This avoids the repetition of having multiple links to the same item read out.
+While the file download component contains two links to the file, only the link in the file's title is made available to screen readers. This avoids the repetition of having multiple links to the same item read out.
 
-The download link uses <abbr title="Accessible Rich Internet Applications">ARIA</abbr> attributes to give additional context to the link. The file's title is used in `aria-labelledby` and the supporting metadata in `aria-describedby`. 
+The download link uses <abbr title="Accessible Rich Internet Applications">ARIA</abbr> attributes to give additional context to the link. The file's supporting metadata is used in `aria-describedby`. 
 
-These ARIA attributes require unique ID attributes to be set on the title and the metadata elements.
+This ARIA attribute requires a unique ID attribute to be set on the metadata element.
 
 ### Example screen reader output
 
