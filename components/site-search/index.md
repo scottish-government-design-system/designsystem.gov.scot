@@ -16,8 +16,6 @@ updatehistory:
 
 To search, users can either enter text in the search box and press return or trigger the magnifying glass icon to the right of the search box.
 
-On a mobile device, the search component minimises to only show the magnifying glass icon. Triggering the magnifying glass icon reveals the search box.
-
 The site search component can be reused across a site, such as in a site’s header and on search results pages.
 
 ## Why we use this component
