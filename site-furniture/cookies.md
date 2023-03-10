@@ -109,26 +109,26 @@ You can opt [out of Google analytics](https://tools.google.com/dlpage/gaoptout) 
 <table class="ds_table">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Information</th>
-            <th>Expiry</th>
+            <th>Cookie name</th>
+            <th>Description</th>
+            <th>Expiry time</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>_ga</td>
             <td>This is used to understand and differentiate between different users.</td>
-            <td>38 Months</td>
+            <td>13 Months</td>
+        </tr>
+        <tr>
+            <td>_ga_&lt;container-id&gt;</td>
+            <td>Used to persist session state. Container ID is the identifier for the Google Analytics account being used.</td>
+            <td>13 Months</td>
         </tr>
         <tr>
             <td>_gid</td>
             <td>_gid has a different ID for each page set on, and a timestamp.  This assists with plotting user journeys.</td>
             <td>24 Hours</td>
-        </tr>
-        <tr>
-            <td>_gat</td>
-            <td>We use Google Tag Manager to tailor our tracking in case we have different elements that are being tested. For example, setting a tag to track how far a user is having to scroll down a long page. The _gat tag pushes the request rate through quicker.</td>
-            <td>1 Minute</td>
         </tr>
     </tbody>
 </table>
