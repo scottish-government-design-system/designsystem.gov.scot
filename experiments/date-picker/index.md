@@ -17,6 +17,10 @@ sitemap: false
     margin-bottom: 1.5rem;
 }
 
+.ds_datepicker__button {
+    align-self: end;
+}
+
 .ds_datepicker .ds_input {
     margin-bottom: 0;
 }
@@ -31,7 +35,7 @@ sitemap: false
     <legend>What is your date of birth?</legend>
     <p class="ds_hint-text">For example, 31 3 1980</p>
 
-    <div class="ds_datepicker  ds_datepicker--multiple" data-module="ds-datepicker">
+    <div class="ds_datepicker  ds_datepicker--multiple" data-module="ds-datepicker2">
         <div class="ds_datepicker__input-wrapper">
             <div>
                 <label class="ds_label" for="day">Day</label>
@@ -193,7 +197,7 @@ class DSDatePicker2 {
     }
 
     buttonTemplate() {
-        return `<button class="ds_button  ds_button--icon-only  ds_datepicker__button  ds_no-margin  js-calendar-button">
+        return `<button class="ds_button  ds_button--small  ds_button--icon-only  ds_datepicker__button  ds_no-margin  js-calendar-button">
             <span class="visually-hidden">Choose date</span>
             <svg class="ds_icon" aria-hidden="true" role="img"><use href="${this.imagePath}icons.stack.svg#calendar_today"></use></svg>
         </button>
@@ -717,7 +721,8 @@ class DSCalendarDay {
     }
 }
 
-const datepickerElement = document.querySelector('[data-module="ds-datepicker"]');
+const datepickerElement = document.querySelector('[data-module="ds-datepicker2"]');
 const datepickerModule = new DSDatePicker2(datepickerElement);
+datepickerModule.init();
 
 </script>
