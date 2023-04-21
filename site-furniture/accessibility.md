@@ -19,7 +19,7 @@ We try to make our site more accessible by using:
 
 ## Feedback
 
-If you cannot access any part of this site or want to report an accessibilirt problem, email [digital-publishing@gov.scot](mailto:digital-publishing@gov.scot).
+If you cannot access any part of this site or want to report an accessibility problem, email [digital-publishing@gov.scot](mailto:digital-publishing@gov.scot).
 
 ## Enforcement procedure
 

@@ -100,17 +100,17 @@ The heading conveys meaning about the content so avoid using headings just for t
 
 There are sometimes instances where screen reader users need content but sighted users do not. In each instance it is worth thinking if this really is the case: if the content is important enough for some users, why not others?
 
-When visually hiding content that you want screen reader users to access never use `display: none` or `visibility: hidden`. These will remove the content from all 'displays' including screen reader 'displays'. Similarly giving an element a height or width of 0 will remove it from the content flow and most screen readers will ignore it.
+When hiding content that you want screen reader users to still be able to accesss never use `display: none` or `visibility: hidden`. These will remove the content from all 'displays' including screen reader 'displays'. Similarly giving an element a height or width of 0 will remove it from the content flow and most screen readers will ignore it.
 
-The following CSS is one accessible method of hiding content visually.
+The following CSS is an accessible method of hiding content visually, and it is what the Design System uses.
 
 {% highlight css %}
 .visually-hidden {
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
-    width: 1px;
     overflow: hidden;
     position: absolute !important;
+    width: 1px;
 }
 {% endhighlight %}
 
