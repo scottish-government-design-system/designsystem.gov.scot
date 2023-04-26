@@ -25,6 +25,10 @@ updatehistory:
     content: 'Add "implementation" section to the back to top documentation that describes link and link target placement'
     homepage: false
     url: /components/back-to-top
+  - date: 2023-04-25
+    content: 'Add documentation about the use of JavaScript'
+    homepage: false
+    url: /components/back-to-top
 ---
 ## About this component
 
@@ -69,3 +73,29 @@ The back to top link is focusable and users can trigger it with the enter key, l
 The back to top component should be placed after the article content but above the footer.
 
 The back to top link's target (element with `id="page-top"`) should be placed after any site-wide [notification banners](/components/notification-banner), so users of screen readers will not encounter that content again.
+
+The component uses JavaScript to calculate its bottom position, just above the footer.
+
+Set up a 'back to top' by creating a new `BackToTop` object. It takes three parameters:
+
+* the DOM element of the back to top button
+* the window object
+* an optional object of customisation settings
+
+The customisation settings can have the following property:
+
+* `footerElSelector`: a CSS selector for the footer element. If this is not specified, the default of `.ds_site-footer` will be used.
+
+### Example JavaScript
+
+{% highlight javascript %}
+const backToTop = new window.DS.components.BackToTop(
+    document.getElementById('my-back-to-top'),
+    window,
+    {
+        footerElSelector: '.my-footer-element'
+    }
+);
+
+backToTop.init();
+{% endhighlight %}

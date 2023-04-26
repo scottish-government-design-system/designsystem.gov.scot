@@ -99,8 +99,8 @@
         .ds_layout {
             &--pl-component {
                 grid-template-areas:
-                    's s s s h h h h h h h h'
-                    's s s s c c c c c c c c';
+                    's s s h h h h h h h h h'
+                    's s s c c c c c c c c c';
             }
         }
 

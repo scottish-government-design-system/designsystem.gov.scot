@@ -6,6 +6,8 @@ get-started:
       url: /get-started/installation/
     - title: Prototyping
       url: /get-started/prototyping/
+    - title: JavaScript
+      url: /get-started/javascript/
 styles:
   title: Styles
   url: /styles/

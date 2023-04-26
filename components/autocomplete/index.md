@@ -109,8 +109,8 @@ The customisation settings can have the following properties:
 ### Example JavaScript
 
 {% highlight javascript %}
-const autocomplete = new Autocomplete(
-    document.getElementById('site-search-autocomplete'),
+const autocomplete = new window.DS.components.Autocomplete(
+    document.getElementById('my-autocomplete'),
     'https://www.example.com/path/to/autocomplete?query=',
     {
         suggestionMappingFunction: function (suggestionsObj) {

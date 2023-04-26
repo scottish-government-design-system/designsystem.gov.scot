@@ -16,6 +16,10 @@ updatehistory:
   - date: 2020-07-23
     content: Add "date picker" component
     url: /components/date-picker
+  - date: 2023-04-26
+    content: 'Add documentation about the use of JavaScript'
+    homepage: false
+    url: /components/date-picker
 ---
 
 
@@ -25,7 +29,7 @@ The date picker is a component that helps users to complete date input fields. T
 
 The date picker can be set with limits on the dates that users can select.
 
-The date picker component can use a variety of date formats, with the UK style of _date-month-year_ used by default.
+The date picker component can use a variety of date formats, with the UK style of _date/month/year_ used by default.
 
 ## Why we use this component
 
@@ -154,3 +158,54 @@ Clicks on buttons inside a date picker, including 'OK', 'Cancel' and the month n
         </tr>
     </tbody>
 </table>
+
+
+## Implementation
+
+The date picker component needs JavaScript enabled in the user’s browser. If a user does not have JavaScript enabled the text field will behave as normal, without the date picker enhancements.
+
+### Date formats
+
+Use an attribute of `data-dateformat` on the input element to specify one of the following. If none is provided it defaults to `DMY`.
+
+* `DMY` - 14th March 2020 would be written as `14/03/2020`
+* `MDY` - 14th March 2020 would be written as `03/14/2020`
+* `YMD` - 14th March 2020 would be written as `2020/03/14`
+
+### Allowed date ranges
+
+Use an attribute of `data-mindate` on the input element to specify an earliest possible date for the calendar. Dates before this date cannot be selected.
+
+Use an attribute of `data-maxdate` on the input element to specify a latest possible date for the calendar. Dates after this date cannot be selected.
+
+The date format used for both of these is whatever you specify in `data-dateformat` or the default, `DMY`.
+
+### JavaScript
+
+Set up a date picker by creating a new DatePicker object. It takes two parameters:
+
+* the DOM element of the date picker (element with class `ds_datepicker`)
+* an optional object of customisation settings
+
+The customisation settings can have the following properties:
+
+* `imagePath`: the path to the location of your icons sprite. Default is `/assets/images/icons/`
+* `maxDate`: a JavaScript date object for the latest selectable date
+* `minDate`: a JavaScript date object for the earliest selectable date
+
+{% include inset-text.html content="Minimum and maximum dates that have been set using JavaScript will overwrite minimum and maximum dates that have been specified with data attributes." %}
+
+### Example JavaScript
+
+{% highlight javascript %}
+const datePicker = new window.DS.components.DatePicker(
+    document.getElementById('my-date-picker'),
+    {
+        imagePath: '/my/image/path/',
+        maxDate: new Date(),
+        minDate: new Date(2019, 1, 1)
+    }
+);
+
+datePicker.init();
+{% endhighlight %}
