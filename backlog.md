@@ -27,10 +27,6 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>A-Z listing</td>
-            <td>To do</td>
-        </tr>
-        <tr>
             <td>Bank details</td>
             <td>To do</td>
         </tr>
@@ -39,15 +35,7 @@ permalink: '/backlog/'
             <td>Removed</td>
         </tr>
         <tr>
-            <td>Campaign components and panels</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
             <td>Card</td>
-            <td>To do</td>
-        </tr>
-        <tr>
-            <td>Case study</td>
             <td>To do</td>
         </tr>
         <tr>
@@ -55,11 +43,7 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Charts</td>
-            <td>To do</td>
-        </tr>
-        <tr>
-            <td>Contextual footer</td>
+            <td>Charts and graphs guidance</td>
             <td>To do</td>
         </tr>
         <tr>
@@ -83,10 +67,6 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Featured search box</td>
-            <td>To do</td>
-        </tr>
-        <tr>
             <td>Fieldset</td>
             <td>To do</td>
         </tr>
@@ -102,10 +82,6 @@ permalink: '/backlog/'
             <td>Guide/multipage document (mini hub)</td>
             <td>To do</td>
         </tr>
-        <tr>
-            <td>Hero banner</td>
-            <td>Proposed</td>
-        </tr>  
         <tr>
             <td>Infographic guidance</td>
             <td>To do</td>
@@ -143,14 +119,6 @@ permalink: '/backlog/'
             <td>To do</td>
         </tr>
         <tr>
-            <td>Popular panel</td>
-            <td>To do</td>
-        </tr>
-        <tr>
-            <td>Prologue and epilogue text</td>
-            <td>Removed</td>
-        </tr>
-        <tr>
             <td>Publications - multi page documents and complex documents</td>
             <td>To do</td>
         </tr>
@@ -167,10 +135,6 @@ permalink: '/backlog/'
             <td>In progress</td>
         </tr>
         <tr>
-            <td>Secondary footer</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
             <td>Smart answer</td>
             <td>In progress</td>
         </tr>
@@ -181,10 +145,6 @@ permalink: '/backlog/'
         <tr>
             <td>Social media links</td>
             <td>In progress</td>
-        </tr>
-        <tr>
-            <td>Staging / Embargo content page (notification banner)</td>
-            <td>To do</td>
         </tr>
         <tr>
             <td>Tables - Complex (data sets)</td>
