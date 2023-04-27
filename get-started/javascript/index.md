@@ -58,7 +58,7 @@ The `initAll` method will find any elements with a `data-module` attribute that 
 
 If you need finer control, the JavaScript classes for each component are in `window.DS.components`. The component classes all have an `init` method that is used to initialise the component.
 
-If you wanted to set up some new accordions, for example, you would select them and then initialise them.
+If you wanted to set up some new accordions, for example, you would select the accordion elements and then create a component instance for each and initialise them.
 
 {% highlight javascript %}
 const myNewAccordions = [].slice.call(document.querySelectorAll('[data-module="ds-accordion"]'));
@@ -67,7 +67,7 @@ myNewAccordions.forEach(accordion =>
 );
 {% endhighlight %}
 
-Some Design System components accept additional options when they are instantiated. These are detailed on the documentation page for each component.
+Some Design System components accept additional options when they are instantiated. These are detailed on the documentation page for those components.
 
 
 
