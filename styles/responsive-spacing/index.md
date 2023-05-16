@@ -27,7 +27,7 @@ Sizes are multiples of 8 pixels. This is to make sure the components we create i
 
 The Design System uses a responsive spacing scale. This is for consistent use of spacing which adapts to different screen sizes.
 
-The scale is made up of  of 10 spacing units. Each unit has a specific size for use on large and small screens.
+The scale is made up of 10 spacing units. Each unit has a specific size for use on large and small screens.
 
 
 <table class="ds_table">
