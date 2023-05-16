@@ -143,7 +143,7 @@ class="ds_!_margin-bottom--8"
 
 This will apply a margin of 8 spacing units to the bottom of the element, which is 48px on small screens and 64px on larger screens.
 
-#### Padding on all sides
+#### Padding on one side
 
 {% highlight css %}
 class="ds_!_padding-top--4"
