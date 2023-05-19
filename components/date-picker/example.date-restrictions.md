@@ -8,7 +8,7 @@ sitemap: false
 noindex: true
 ---
 
-<div data-module="ds-datepicker" class="ds_datepicker" data-disableddates="18/05/2023 19/05/2023" data-maxdate="28/05/2023" data-mindate="11/08/2020">
+<div data-module="ds-datepicker" class="ds_datepicker" data-disableddates="17/05/2023 18/05/2023" data-maxdate="28/05/2023" data-mindate="11/08/2020">
   <label class="ds_label" for="start-date">Start date</label>
   <p class="ds_hint-text">Use dd/mm/yyyy format. For example, 31/01/2023.</p>
 
