@@ -13,6 +13,6 @@ noindex: true
   <p class="ds_hint-text">Use dd/mm/yyyy format. For example, 31/01/2023.</p>
 
   <div class="ds_input__wrapper">
-    <input id="start-date" data-maxdate="19/09/2020" data-mindate="09/08/2015" type="text" class="ds_input  ds_input--fixed-10">
+    <input id="start-date" type="text" class="ds_input  ds_input--fixed-10">
   </div>
 </div>
