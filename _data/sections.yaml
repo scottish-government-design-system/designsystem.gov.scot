@@ -200,6 +200,8 @@ guidance:
           url: /guidance/analytics/campaign-tracking/
         - title: Training and support
           url: /guidance/analytics/training-and-support/
+    - title: 'Data visualisation: charts'
+      url: /guidance/charts/
     - title: Forms
       url: /guidance/forms/
       items:
