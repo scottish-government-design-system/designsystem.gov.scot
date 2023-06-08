@@ -15,6 +15,10 @@ updatehistory:
     content: 'Move "colour customisation" to the first level of navigation in "styles"'
     homepage: false
     url: /styles/colour-customisation
+  - date: 2023-06-08
+    content: Add information on images for data visualisation and various minor changes to simplify language used
+    url: /styles/images
+    homepage: false
 ---
 
 ## The extended palette
@@ -23,7 +27,7 @@ Our extended colour palette has 12 colours. You can use these to customise colou
 
 Doing this will help you create unique, but recognisable, marketing and communications campaigns.
 
-The extended palette has 2 colours in the primary palette and 10 colours in the secondary palette. 
+The extended palette has 2 colours in the primary palette. It has 10 colours in the secondary palette.
 
 ## Primary palette
 
@@ -161,7 +165,7 @@ The extended palette has 2 colours in the primary palette and 10 colours in the 
 
 ## Creating a customised colour palette
 
-You can create custom palettes using the primary and secondary palettes. Customised palettes can include a maximum of 3 or 4 colours in total.  
+You can create custom palettes using the primary and secondary palettes. Customised palettes can include a maximum of 4 colours in total.  
 
 All custom colour palettes:
 * must include the 2 blues from the primary palette to ensure a natural fit with the rest of the design 
@@ -179,43 +183,45 @@ You can also add to the 3 or 4 selected palette colours:
 * any neutrals (white, black and greys)
 * highlight colours drawn from the wider secondary palette to meet a specific need – for example, to represent skin tones or to include an item that has a specific colour, such as a stop sign
 
+## Data visualisation colour palette
+
+We’re currently in the process of designing specific colour palettes to use with charts, maps and infographics. These all have additional requirements. You can get more guidance on how to [create effective and accessible charts](/guidance/charts/) to use with the Design System. 
+
 ## How to use a custom palette
 
-You can use custom palette colours in the graphical elements of a website to create a unique and identifiable design. Graphical elements include any:
+You can use custom palette colours in the graphical elements of a website. Graphical elements include:
 
 * illustrations
 * imagery
-* charts
-* graphs 
-* infographics 
+* data visualisation
 * animations
 
-You should use all elements taken from the Design System without making any changes to the colour, including: 
+You should use all elements taken from the Design System without making any changes to the colour. This includes:
 
 * components
 * typography 
 * spacing 
 * interactive states
 
-As all custom palettes include core colours from the Design System, our elements will match your custom palette without the need to change any CSS.
+All custom palettes include core colours from the Design System. The Design System’s elements will match your custom palette without the need to change any CSS.
 
 ## Accessible use of colour
 
-Graphical elements using the custom colour palettes should conform to [level AA of the Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/#contrast-minimum). This includes making sure that there is enough contrast for users to be able to identify the key elements of the design. 
+Graphical elements using the custom colour palettes should meet [level AA of the Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/#contrast-minimum). 
 
-You can [check the contrast](https://webaim.org/resources/contrastchecker/) to see if colour combinations meet the required standards.
+You should ensure there’s enough contrast for users to be able to identify the key elements of the design. You can [check the contrast](https://webaim.org/resources/contrastchecker/) to see if colour combinations meet the required standards.
 
-Graphical elements should avoid the inclusion of text unless purely for decoration. Any text included which is essential to content will need to be accessible to assistive technology. 
+Graphical elements should avoid including text unless for decoration. You should ensure any text included is accessible to assistive technology.
 
 All graphics should include a meaningful alt attribute describing the content. 
 
-You will need to include an accessible alternative (such as a transcript) for any text or narrated content in:
+You need to include an accessible alternative - like a transcript - for any text or narrated content in:
 
 * animations 
 * motion graphics 
 * film clips
 
-We designed all our elements to conform to Web Content Accessibility Guidelines.
+All elements meet Web Content Accessibility Guidelines.
 
 Using the Design System with custom graphical elements will help public sector websites and services meet the required accessibility standards.
 
@@ -223,10 +229,10 @@ Using the Design System with custom graphical elements will help public sector w
 
 We reviewed 7 design systems from a mix of public and private sector organisations.
 
-To inform our development process, we looked at existing colour models of the Design System including the:
+We looked at existing colour models of the Design System including the:
 
 * palette ranges 
 * colour selections 
 * compositions
 
-Rather than selecting new colours we based the secondary palette on a range of colours already widely in use. We then added some custom colours to address specific needs.
+We based the secondary palette on a range of colours already in use. We then added custom colours to meet specific needs.
