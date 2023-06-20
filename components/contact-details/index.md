@@ -52,7 +52,7 @@ Use the ```address``` tag to wrap any contact details that relate to the page's 
 
 Links to social media accounts should include the name of the social media platform. Also show the account name if there is the need to distinguish between multiple links to the same social media platform. 
 
-Where space is limited use the ```visually-hidden``` class to reduce the link text that is visible to users - who are not using screen reader software. 
+Where space is limited use the ```visually-hidden``` class to reduce the link text that is visible to users who are not using screen reader software. 
 
 Only use logos for social media links, for all other contact types use text labels.
 
