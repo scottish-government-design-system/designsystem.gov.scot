@@ -9,6 +9,10 @@ summary: "How to use charts to present numerical data in an accessible way."
 permalink: '/guidance/charts/'
 
 updatehistory:
+  - date: 2023-07-07
+    content: Add reference to the sgplot R package
+    homepage: false
+    url: /guidance/charts/
   - date: 2023-06-07
     content: First published
     homepage: 'Added guidance on <a href="/guidance/charts/">creating accessible charts</a>'
@@ -136,3 +140,7 @@ Complex charts may need more information. Some users might not understand a char
 For complex charts with large data sets, give the data in a downloadable format like an Excel spreadsheet.
 
 If providing separate downloadable image versions of a chart, include the title as part of this image. This will ensure the title is not lost when the chart is downloaded, shared, or edited.
+
+### Programmatically generated charts
+
+If you're using R to produce charts then it may be helpful to use the [R package - sgplot](https://datasciencescotland.github.io/sgplot/). This package, from the Scottish Government, follows best practice guidance to help make your charts accessible.
